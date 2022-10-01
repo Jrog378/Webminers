@@ -1,0 +1,19 @@
+@media only screen and (max-width: 900px) {
+    #offstyle {
+        display: none;
+    }
+}
+#offstyle {
+    width: 100px;
+    background: rgb(33,37,41);
+}
+#buttonside {
+    margin-top: 15px;
+}
+body, html {
+    background: rgb(33, 37, 41);
+}
+.g-4 {
+    background: aliceblue;
+    padding-bottom: 20px;
+}
