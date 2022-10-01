@@ -19,7 +19,7 @@ function CollapsibleExample() {
     return (
         <Navbar sticky='top' id='smallnav' collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand>
                     <img
                         alt=""
                         src="/logo.svg"
@@ -41,7 +41,8 @@ function CollapsibleExample() {
                         </NavDropdown>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         <Nav.Link href="#donate">Donate</Nav.Link>
-                        <Nav.Link><Button target='_blank' href='https://linkedin.com/company/juswebminers' variant="success"
+                        <Nav.Link><Button target='_blank' href='https://linkedin.com/company/juswebminers'
+                                          variant="success"
                                           size='sm' active>LinkedIn</Button></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
