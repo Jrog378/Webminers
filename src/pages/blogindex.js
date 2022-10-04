@@ -11,11 +11,10 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import {CardGroup} from "react-bootstrap";
-import logo from "../WebImg/logo.svg";
 import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import WhiteLogo from "../WebImg/WhiteLogo.png";
-import lock from "../WebImg/computer-security-lock-and-payment.jpg"
+import lock from "../WebImg/computer-security-lock-and-payment.jpg";
 
 function CollapsibleExample() {
     return (
@@ -154,13 +153,14 @@ function Reactor() {
                     Welcome to the <code>webmienrs/website.js</code> project
                 </h1>
                 <br/>
-                <p>New Dynamic Homepage is in the makes, for now we just have this spinny thing and <a style={{fontSize: 'x-large'}} href='/blog'>blogs</a> :)</p>
+                <p>New Dynamic Homepage is in the makes, for now we just have this spinny thing and <a
+                    style={{fontSize: 'x-large'}} href='/blog'>blogs</a> :)</p>
             </header>
         </div>
     );
 }
 
-function Bloggrid() {
+function Bloggrid({allPostsData}) {
     return (
         <CardGroup style={{margin: '15px'}}>
             <Row xs={1} md={2} className="g-4" style={{borderRadius: '15px'}}>
@@ -169,13 +169,14 @@ function Bloggrid() {
                         <Row className={'blog-row'}>
                             <Col>
                                 <Card.Body>
-                                    <Card.Title>Blog title</Card.Title>
+                                    <Card.Title>Blog Title</Card.Title>
                                     <Card.Text>
                                         This is a longer card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit
                                         longer.
                                     </Card.Text>
-                                    <Button style={{float: 'right', marginBottom: '10px'}} variant="outline-success" size='sm'>Read More...</Button>{' '}
+                                    <Button style={{float: 'right', marginBottom: '10px'}} variant="outline-success"
+                                            size='sm'>Read More...</Button>{' '}
                                 </Card.Body>
                             </Col>
                             <Col>
