@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (min-width: 500px) and (max-width: 767px){
+    .card {
+        border-radius: 10px;
+        display: inline-block;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 500px) {
+    .blog-row {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tech-row {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .blog-row {
+        display: inline;
+    }
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+a {
+    color: rgb(0, 175, 75);
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+.navbar-brand > a {
+    font-size: xx-large;
+}
+
+.offcanvas-title > a {
+    font-size: xx-large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.blog-img {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.tech-img {
+    padding: 10px;
+    border-radius: 25px;
+    vertical-align: center;
+}
+
+.tech-row > .col:nth-child(2) {
+    margin: auto;
 }

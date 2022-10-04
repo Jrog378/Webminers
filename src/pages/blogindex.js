@@ -14,6 +14,8 @@ import {CardGroup} from "react-bootstrap";
 import logo from "../WebImg/logo.svg";
 import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import WhiteLogo from "../WebImg/WhiteLogo.png";
+import lock from "../WebImg/computer-security-lock-and-payment.jpg"
 
 function CollapsibleExample() {
     return (
@@ -22,12 +24,12 @@ function CollapsibleExample() {
                 <Navbar.Brand>
                     <img
                         alt=""
-                        src="/logo.svg"
-                        width="30"
-                        height="30"
+                        src={WhiteLogo}
+                        width="43"
+                        height="43"
                         className="d-inline-block align-top"
-                    />
-                    <Link to='/'>React Bootstrap</Link>
+                    />{' '}
+                    <Link to='/'>Webminers</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -126,12 +128,12 @@ function BrandExample() {
                     <Navbar.Brand>
                         <img
                             alt=""
-                            src="/logo.svg"
-                            width="30"
-                            height="30"
+                            src={WhiteLogo}
+                            width="43"
+                            height="43"
                             className="d-inline-block align-top"
                         />{' '}
-                        <Link to='/'>React Bootstrap</Link>
+                        <Link to='/'>Webminers</Link>
                     </Navbar.Brand>
                     <Navbar.Text>
                         <Button target='_blank' href='https://linkedin.com/company/juswebminers' variant="success"
@@ -147,44 +149,51 @@ function Reactor() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <img src={WhiteLogo} className="App-logo" alt="logo"/>
+                <h1>
+                    Welcome to the <code>webmienrs/website.js</code> project
+                </h1>
+                <br/>
+                <p>New Dynamic Homepage is in the makes, for now we just have this spinny thing and <a style={{fontSize: 'x-large'}} href='/blog'>blogs</a> :)</p>
             </header>
         </div>
     );
 }
 
-function Blogs() {
+function Bloggrid() {
     return (
         <CardGroup style={{margin: '15px'}}>
-            <Row xs={1} lg={2} className="g-4">
-                {Array.from({length: 4}).map((_, idx) => (
-                    <Col>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160"/>
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
+            <Row xs={1} md={2} className="g-4" style={{borderRadius: '15px'}}>
+                <Col style={{marginTop: '20px'}}>
+                    <Card>
+                        <Row className={'blog-row'}>
+                            <Col>
+                                <Card.Body>
+                                    <Card.Title>Blog title</Card.Title>
+                                    <Card.Text>
+                                        This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit
+                                        longer.
+                                    </Card.Text>
+                                    <Button style={{float: 'right', marginBottom: '10px'}} variant="outline-success" size='sm'>Read More...</Button>{' '}
+                                </Card.Body>
+                            </Col>
+                            <Col>
+                                <Card.Img variant="top" src={lock} className={'blog-img'}/>
+                            </Col>
+                        </Row>
+                    </Card>
+                </Col>
             </Row>
         </CardGroup>
+    );
+}
+
+function Footer() {
+    return (
+        <footer style={{color: 'white', textAlign: 'center'}}>
+            <p>Copyright: <span>{new Date().getFullYear()}</span> © Webminers</p>
+        </footer>
     );
 }
 
@@ -195,7 +204,8 @@ function Blogpage() {
             <Example/>
             <BrandExample/>
             <Reactor/>
-            <Blogs/>
+            <Bloggrid/>
+            <Footer/>
         </React.Fragment>
     )
 }

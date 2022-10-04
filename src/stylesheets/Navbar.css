@@ -3,12 +3,15 @@
         display: none;
     }
 }
+
 @media only screen and (min-width: 900px) {
     #smallnav {
         display: none;
     }
 }
+
 .nav-link {
     text-align: right;
     padding: 7.5px 25px;
+
 }

@@ -3,17 +3,42 @@
         display: none;
     }
 }
+
 #offstyle {
     width: 100px;
-    background: rgb(33,37,41);
+    background: rgb(33, 37, 41);
 }
+
 #buttonside {
     margin-top: 15px;
 }
+
 body, html {
     background: rgb(33, 37, 41);
 }
+
 .g-4 {
-    background: aliceblue;
+    background: rgb(213, 233, 223);
     padding-bottom: 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:link {
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(0, 125, 50)
+}
+
+.nav-link:active {
+    text-decoration: none;
 }
