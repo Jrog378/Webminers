@@ -232,7 +232,11 @@ function Techgrid() {
     return (
         <CardGroup style={{margin: '15px'}}>
             <Row xs={1} className="g-4" style={{borderRadius: '15px'}}>
-                {TContent}
+                {TContent.map(item => (
+                    <div>
+                        {item}
+                    </div>
+                ))}
             </Row>
     </CardGroup>
 );
