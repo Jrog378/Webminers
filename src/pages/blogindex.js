@@ -16,21 +16,78 @@ import Button from "react-bootstrap/Button";
 import WhiteLogo from "../WebImg/WhiteLogo.png";
 import lock from "../WebImg/computer-security-lock-and-payment.jpg";
 import ReactMarkdown from "react-markdown";
+import ImproveMain from '../articles/ArtImg/ImproveMain.jpg'
+import GoodWriterMain from '../articles/ArtImg/GoodWriterMain.jpg'
+import IntroMain from '../articles/ArtImg/IntroMain.jpg'
+import PythonDataMain from '../articles/ArtImg/PythonDataMain.jpg'
+import SatMain from '../articles/ArtImg/SatMain.jpg'
+import TechieMain from '../articles/ArtImg/TechieMain.jpg'
+import VisualMain from '../articles/ArtImg/VisualMain.jpg'
 
 const blogposts = [
     {
-        id: 1,
+        id: 8,
         title: 'Changes Coming to Webminers for an Improved Experience',
-        date: 'Jan 1 2022',
-        text: '.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for',
-        url: '/article'
+        date: 'Sep 28 2022',
+        text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.',
+        url: '/changes-coming-to-webminers',
+        img: ImproveMain
+    },
+    {
+        id: 7,
+        title: 'What Truly Makes a Good Technical Copywriter Stand Out',
+        date: 'Sep 19 2022',
+        text: 'How to become a better technical copywriter and develop your in-demand skills to provide these services to businesses.',
+        url: '/what-makes-a-good-technical-copywriter',
+        img: GoodWriterMain
+    },
+    {
+        id: 6,
+        title: '6 Growing Jobs To Take Advantage of Our Technical Future',
+        date: 'Sep 14 2022',
+        text: 'Jobs that will not get wiped out by the technical wave of advancements. These jobs will only become more in need as time goes on.',
+        url: '/jobs-for-the-technical-future',
+        img: TechieMain
+    },
+    {
+        id: 5,
+        title: 'Satellites - The Space Spies That Watch Over The World',
+        date: 'Sep 11 2022',
+        text: 'Explaining the good and bad of satellites with where we draw the line between spying on people and privacy.',
+        url: '/satellite-space-spies',
+        img: SatMain
+    },
+    {
+        id: 4,
+        title: 'Python Has Been Taking Over The Data Science World',
+        date: 'Sep 7 2022',
+        text: 'Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science, but for good reason',
+        url: '/python-taking-over-data-science',
+        img: PythonDataMain
+    },
+    {
+        id: 3,
+        title: 'Data Visualization - A Profitable Data Science Subcategory',
+        date: 'Sep 6 2022',
+        text: 'Data Visualization is in Data Science but not many know it can be it\'s own profitable profession.',
+        url: '/profitable-data-vis',
+        img: VisualMain
     },
     {
         id: 2,
-        title: 'What Makes a Good Technical Copywriter And Why You Need One',
-        date: 'Jan 2 2022',
-        text: '.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for',
-        url: '/blog'
+        title: 'Ethical Hackers Are Needed More Than Ever In Our Future',
+        date: 'Sep 5 2022',
+        text: 'Hackers of all types are very active in this age of technology. We go into how this will affect us and what to watch out for.',
+        url: '/ethical-hacking-is-needed',
+        img: lock
+    },
+    {
+        id: 1,
+        title: 'Introduction To Justin Becoming A Technical Copywriter',
+        date: 'Sep 4 2022',
+        text: 'This is how our writer Justin became a Technical Copywriter from starting out by studying Data Science',
+        url: '/intro-tech-writing',
+        img: IntroMain
     }]
 
 function CollapsibleExample() {
@@ -200,7 +257,7 @@ function Bloggrid() {
                         </Card.Body>
                     </Col>
                     <Col style={{margin: 'auto'}}>
-                        <Card.Img variant="top" src={lock} className={'blog-img'} style={{margin: 'auto'}}/>
+                        <Card.Img variant="top" src={content.img} className={'blog-img'} style={{margin: 'auto'}}/>
                     </Col>
                 </Row>
             </Card>

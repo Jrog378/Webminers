@@ -15,6 +15,7 @@ import PythonData from "./articles/PythonData";
 import SatSpy from "./articles/SatSpies";
 import TechFuture from "./articles/TechJobs";
 import TechWriter from "./articles/WhyTechWriter";
+import WebChange from "./articles/WebPlans";
 
 const pages = createBrowserRouter([
     {
@@ -65,6 +66,11 @@ const pages = createBrowserRouter([
     {
         path: '/what-makes-a-good-technical-copywriter',
         element: <TechWriter/>,
+        errorElement: <ErrorPage/>
+    },
+    {
+        path: '/changes-coming-to-webminers',
+        element: <WebChange/>,
         errorElement: <ErrorPage/>
     },
 ])

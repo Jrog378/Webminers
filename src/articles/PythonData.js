@@ -173,7 +173,7 @@ function Artcontent() {
                         Python Has Been Taking Over The Data Science World
                     </Card.Title>
                     <Card.Text style={{padding: '5px 0 0 10%', fontStyle: 'italic'}}>
-                        Published on: Sep 5 2022
+                        Published on: Sep 7 2022
                     </Card.Text>
                 </Card>
                 {Sections}

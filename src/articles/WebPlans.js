@@ -36,7 +36,7 @@ const Artsections = [
             'though as we will be expanding more than you may expect.',
     },
     {
-        img: '',
+        img: Improve1,
         text: 'The first step of expansion is implementing our code on the website. We want to truly be the ' +
             'owners of everything we put out to the public and this includes our interface. Our website is ' +
             'currently from the [blogger platform](https://blogger.com/) with google where we chose a ' +
@@ -62,7 +62,7 @@ const Artsections = [
             'ourselves. This will not be a professionally made website but a hobbyist making a blog for Webminers.'
     },
     {
-        img: '',
+        img: Improve2,
         text: 'Learning how to make a website is not foreign to me, yet this will still be a challenge. [I have ' +
             'experience with the basics](/intro-tech-writing) like HTML and CSS. I even webscraped websites and ' +
             'learned even more about ' +
@@ -91,7 +91,7 @@ const Artsections = [
             'Webminers has much to come.'
     },
     {
-        img: '',
+        img: Improve3,
         text: 'Once we have the Website up and running next comes the UX, also known as [User Experience]' +
             '(https://binarapps.com/why-is-user-experience-important-the-starting-point-for-beginners/). ' +
             'This will include making the website as user-friendly as it can be.\n' +
@@ -126,6 +126,26 @@ const Artsections = [
             'programming language, we enjoy improving and learning more every day. If you have any preferences ' +
             'about whether or not we should include actual code embedded in future blogs make sure to let us ' +
             'know in the comments below.'
+    },
+    {
+        img: Improve4,
+        text: 'As I learn more and more about the language Javascript, I will continue to apply it in multiple ' +
+            'different ways for this blog. Whether it is Data Engineering, or just making a basic calculator. ' +
+            'I hope to inspire many of you to learn more about this language and go outside of your comfort zone.\n' +
+            '\n' +
+            '\n' +
+            '\n' +
+            'Technical Writing has helped test me in this way. As learning something new is never truly foreign ' +
+            'to me. The more you test yourself to learn something new, the easier it is to take on new topics. ' +
+            'Challenging yourself is the only way to become a better version of yourself.\n' +
+            '\n' +
+            '\n' +
+            'Otherwise, you won’t get to experience the variety of opportunities and assortment of benefits that ' +
+            'the world has to offer. You’d be shocked by the amount of knowledge that is just floating out ' +
+            'there waiting to be discovered.\n' +
+            '\n' +
+            '\n' +
+            'Take that step forward and never stop learning!'
     }
 ]
 
@@ -162,7 +182,7 @@ function Reactor() {
     return (
         <div>
             <header>
-                <img src={GoodWriterMain} style={{width: '98%', margin: '0 1%', borderRadius: '15px'}} alt="logo"/>
+                <img src={ImproveMain} style={{width: '98%', margin: '0 1%', borderRadius: '15px'}} alt="logo"/>
             </header>
         </div>
     );
