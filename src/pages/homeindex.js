@@ -14,7 +14,55 @@ import {CardGroup} from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import {Link} from "react-router-dom";
 import WhiteLogo from '../WebImg/WhiteLogo.png'
-import lock from "../WebImg/computer-security-lock-and-payment.jpg";
+import Braveimg from '../articles/ArtImg/Braveimg.jpg'
+import Signalimg from '../articles/ArtImg/Signalimg.png'
+import Protonimg from '../articles/ArtImg/ProtonVPN.jpg'
+import Duckimg from '../articles/ArtImg/DuckGoimg.jpg'
+import ReactMarkdown from "react-markdown";
+
+const TechContent = [
+    {
+        title: 'Brave Browser',
+        text: 'Brave Browser is probably one of the most recognizable decentralized browsers and this can be ' +
+            'credited due to having a very fast interface with a built in ad and cookie blocker. There is extra ' +
+            'protection in detecting when websites are trying to steal your information and lets you avoid those links. ' +
+            'Brave also shows you how much time and bandwidth you have saved on the browsers homepage ' +
+            'and provides you with earnings for their cryptocurrency based on your usage with their application.',
+        url: 'https://brave.com/',
+        img: Braveimg
+    },
+    {
+        title: 'Signal Messaging App',
+        text: 'The biggest pivital moment for me was when I started getting ads for items that i have never searched ' +
+            'for yet texted about and next time im browsing, I\'m getting ads based on my conversation. After a long' +
+            ' search for messaging apps made for security of data and messages, I came across multiple options. None' +
+            ' of these stood out to me though. When I found signal it was completely different, as it is fast ' +
+            'secure, reliable, and very easy to sign up for and use.',
+        url: 'https://www.signal.org/',
+        img: Signalimg
+    },
+    {
+        title: 'Proton VPN',
+        text: 'Proton VPN has been my go to VPN for as long as I can remember. I am still using the free version but' +
+            ' will be upgrading to the paid version very shortly as the extra capability would be very well used ' +
+            'Proton is super easy to connect to with the click of a button and is very fast a reliable, unlike other' +
+            ' free VPNs. Proton also has [other products](https://proton.me/) as well that I will be looking into ' +
+            'using very soon as well',
+        url: 'https://protonvpn.com/',
+        img: Protonimg
+    },
+    {
+        title: 'DuckDuckGo IOS Browser',
+        text: 'DuckDuckGo is my choice of mobile browser for many reasons, however the reason I started using it is' +
+            'not quite because of the features, more of other browsers featuring it through integration. From testing' +
+            'out mobile apps I came cross the name and recognized it. After that I discovered it would be my favorite. ' +
+            'With Automatic history wiping along with ad and cookie blockers, it is the easiest to use even comparing' +
+            'to Brave\'s application. They are in production of a computer browser and I cannot wait to get a hold of it' +
+            'as soon as it is released',
+        url: 'https://duckduckgo.com/spread',
+        img: Duckimg
+    },
+]
 
 function CollapsibleExample() {
     return (
@@ -161,29 +209,30 @@ function Reactor() {
 }
 
 function Techgrid() {
+    const TContent = TechContent.map(content =>
+        <Col style={{marginTop: '20px'}}>
+            <Card>
+                <Row className={'tech-row'}>
+                    <Col>
+                        <Card.Body>
+                            <Card.Title>{content.title}</Card.Title>
+                            <Card.Text>
+                                <ReactMarkdown>{content.text}</ReactMarkdown>
+                            </Card.Text>
+                            <Button href={content.url} style={{float: 'right', marginBottom: '10px'}} variant="outline-success" size='sm'>View Product...</Button>{' '}
+                        </Card.Body>
+                    </Col>
+                    <Col>
+                        <Card.Img variant="top" src={content.img} className={'tech-img'}/>
+                    </Col>
+                </Row>
+            </Card>
+        </Col>
+    )
     return (
         <CardGroup style={{margin: '15px'}}>
             <Row xs={1} className="g-4" style={{borderRadius: '15px'}}>
-                <Col style={{marginTop: '20px'}}>
-                    <Card>
-                        <Row className={'tech-row'}>
-                            <Col>
-                                <Card.Body>
-                                    <Card.Title>Tech title</Card.Title>
-                                    <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit
-                                        longer.
-                                    </Card.Text>
-                                    <Button style={{float: 'right', marginBottom: '10px'}} variant="outline-success" size='sm'>View Product...</Button>{' '}
-                                </Card.Body>
-                            </Col>
-                            <Col>
-                                <Card.Img variant="top" src={lock} className={'tech-img'}/>
-                            </Col>
-                        </Row>
-                    </Card>
-                </Col>
+                {TContent}
             </Row>
     </CardGroup>
 );
