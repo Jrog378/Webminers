@@ -11,7 +11,6 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import {CardGroup} from "react-bootstrap";
-import logo from "../WebImg/logo.svg";
 import Button from 'react-bootstrap/Button';
 import {Link} from "react-router-dom";
 import WhiteLogo from '../WebImg/WhiteLogo.png'

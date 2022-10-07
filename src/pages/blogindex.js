@@ -15,6 +15,23 @@ import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import WhiteLogo from "../WebImg/WhiteLogo.png";
 import lock from "../WebImg/computer-security-lock-and-payment.jpg";
+import ReactMarkdown from "react-markdown";
+
+const blogposts = [
+    {
+        id: 1,
+        title: 'Changes Coming to Webminers for an Improved Experience',
+        date: 'Jan 1 2022',
+        text: '.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for',
+        url: '/article'
+    },
+    {
+        id: 2,
+        title: 'What Makes a Good Technical Copywriter And Why You Need One',
+        date: 'Jan 2 2022',
+        text: '.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for',
+        url: '/blog'
+    }]
 
 function CollapsibleExample() {
     return (
@@ -160,31 +177,38 @@ function Reactor() {
     );
 }
 
-function Bloggrid({allPostsData}) {
+function Bloggrid() {
+    const Bloggers = blogposts.map(content =>
+        <Col style={{marginTop: '20px'}}>
+            <Card style={{height: '100%'}}>
+                <Row className={'blog-row'}>
+                    <Row>
+                        <Col>
+                            <Card.Body style={{paddingBottom: 0}}>
+                                <Card.Title key={content.id}>{content.title}</Card.Title>
+                            </Card.Body>
+                        </Col>
+                    </Row>
+                    <Col>
+                        <Card.Body style={{paddingTop: '8px'}}>
+                            <Card.Text>
+                                <ReactMarkdown>{content.text}</ReactMarkdown>
+                            </Card.Text>
+                            <Card.Text style={{fontStyle: 'italic', display: 'inline-block'}} >{content.date}</Card.Text>
+                            <Button href={content.url} style={{float: 'right', marginBottom: '10px'}} variant="outline-success"
+                                    size='sm'>Read More...</Button>
+                        </Card.Body>
+                    </Col>
+                    <Col style={{margin: 'auto'}}>
+                        <Card.Img variant="top" src={lock} className={'blog-img'} style={{margin: 'auto'}}/>
+                    </Col>
+                </Row>
+            </Card>
+        </Col>)
     return (
         <CardGroup style={{margin: '15px'}}>
             <Row xs={1} md={2} className="g-4" style={{borderRadius: '15px'}}>
-                <Col style={{marginTop: '20px'}}>
-                    <Card>
-                        <Row className={'blog-row'}>
-                            <Col>
-                                <Card.Body>
-                                    <Card.Title>Blog Title</Card.Title>
-                                    <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit
-                                        longer.
-                                    </Card.Text>
-                                    <Button style={{float: 'right', marginBottom: '10px'}} variant="outline-success"
-                                            size='sm'>Read More...</Button>{' '}
-                                </Card.Body>
-                            </Col>
-                            <Col>
-                                <Card.Img variant="top" src={lock} className={'blog-img'}/>
-                            </Col>
-                        </Row>
-                    </Card>
-                </Col>
+                {Bloggers}
             </Row>
         </CardGroup>
     );

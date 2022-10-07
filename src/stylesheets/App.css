@@ -68,6 +68,7 @@ a {
     color: rgb(0, 175, 75);
     font-weight: bold;
     font-family: 'Teko', sans-serif;
+    font-size: larger;
 }
 
 .navbar-brand > a {
@@ -107,4 +108,10 @@ a:active {
 
 .tech-row > .col:nth-child(2) {
     margin: auto;
+}
+
+.artimgs {
+    padding: 3%;
+    margin: auto;
+    border-radius: 30px;
 }
