@@ -50,7 +50,6 @@ export default function AuthPricing() {
                                     {/*<stripe-pricing-table pricing-table-id="prctbl_1MaQyOI0ncnoSqWdKqzqZ9k7"*/}
                                     {/*                      publishable-key="pk_test_51LHAg0I0ncnoSqWddZdSvphuvJUeCuQUNAysqSa74B02zg8ZGTrXl4Z3kgmJkgIOHNRX1V5590qZf9CZBgdIAFQd00WjC4iVmd"*/}
                                     {/*                      customer-email={email}>*/}
-                                    {/*</stripe-pricing-table>*/}
                                 </Container>
                                 : <Container><h1 style={{textAlign: "center"}}>Please Visit <Link
                                     className={styles.weblink}
