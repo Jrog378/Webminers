@@ -79,7 +79,9 @@ export default function Weightings() {
                                                     className={styles.weblink} href={'/auth/profile'}>Profile</Link> to
                                                     Upgrade Plan
                                                 </h1></Container>
-                                        : <Card.Title>Login</Card.Title>
+                                        : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                            className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                            see content</h1></Container>
                                 }
                             </Card>
                         </Container>
@@ -118,7 +120,9 @@ export default function Weightings() {
                                                                       variant="success"
                                                                       size='md'>Experimental Seasons</Button>
                                                         : <Card.Title>Please Upgrade Plan</Card.Title>
-                                                : <Card.Title>Login</Card.Title>
+                                                : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                                    className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                                    see content</h1></Container>
                                         }
                                     </Card.Body>
                                 </Container>

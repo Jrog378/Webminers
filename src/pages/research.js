@@ -74,7 +74,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Ethereum Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -117,7 +118,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Solana Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -160,7 +162,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Link Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -203,7 +206,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Matic Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -246,7 +250,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Avalanche Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -292,7 +297,9 @@ export default function Research() {
                                     : <Container><h1 style={{textAlign: "center"}}>Please visit <Link
                                         className={styles.weblink} href={'/auth/profile'}>Profile</Link> to Upgrade Plan
                                     </h1></Container>
-                            : <Container><h1>Login</h1></Container>
+                            : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                see content</h1></Container>
                     }
                 </Container>
                 <Container style={{padding: '25px 10%'}}>
@@ -353,7 +360,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Bitcoin Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -396,7 +404,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Litecoin Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -439,7 +448,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Dogecoin Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -482,7 +492,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Cosmos Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -525,7 +536,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Eos Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -568,7 +580,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     VeChain Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -611,7 +624,8 @@ export default function Research() {
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Tron Research
                                                                 </Card.Title>
-                                                                <Table className={styles.tablecen} style={{padding: '25px'}} striped>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
                                                                     <thead>
                                                                     <tr>
                                                                         <th>Timeframe</th>
@@ -665,7 +679,9 @@ export default function Research() {
                                                 Upgrade Plan to Strategist for Experimental Research</h2>
                                         </Container>
                             : <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                                Research</h1><h1>Please Login</h1></Container>
+                                Research</h1><Container><h1 style={{textAlign: "center"}}>Please <Link
+                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                see content</h1></Container></Container>
                     }
                 </Container>
             </Container>
