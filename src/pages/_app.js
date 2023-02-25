@@ -1,5 +1,19 @@
-import '@/styles/globals.css'
+import '@/styles/globals.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from '../components/layout';
+import {Figtree} from "@next/font/google";
+import {SSRProvider} from "react-bootstrap";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const Font = Figtree({subsets: ['latin']})
+
+export default function App({Component, pageProps}) {
+    return (
+        <SSRProvider>
+            <main className={Font.className}>
+                <Layout>
+                    <Component {...pageProps} />
+                </Layout>
+            </main>
+        </SSRProvider>
+    )
 }
