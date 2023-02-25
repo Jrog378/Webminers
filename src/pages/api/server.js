@@ -11,10 +11,10 @@ admin.initializeApp({
 });
 
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+const stripe = new Stripe('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', {
     apiVersion: "2020-08-27",
 });
-const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+const webhookSecret = 'whsec_Qidc89IoJrpnsu1Gp4whPbX5ZENVUhl6';
 export const config = {
     api: {
         bodyParser: false,
