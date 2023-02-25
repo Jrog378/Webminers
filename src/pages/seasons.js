@@ -144,7 +144,9 @@ export default function AuthSeasons(props) {
                                                     className={styles.weblink} href={'/auth/profile'}>Profile</Link> to
                                                     Upgrade Plan
                                                 </h1></Container>
-                                        : <Card.Title>Login</Card.Title>
+                                        : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                                    className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                                    see content</h1></Container>
                                 }
 
                             </Card>
@@ -192,7 +194,9 @@ export default function AuthSeasons(props) {
                                                                       style={{float: 'right', marginBottom: '10px'}}
                                                                       variant="success"
                                                                       size='md'>Our Plans</Button>
-                                                    : <Card.Title>Login</Card.Title>
+                                                    : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                                    className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                                    see content</h1></Container>
                                             }
                                         </Container>
                                     </Card.Body>
