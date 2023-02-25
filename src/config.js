@@ -19,9 +19,6 @@ const firebaseConfig = {
     appId: "1:829020836202:web:29b143e682e5ad92635513"
 };
 
-let UserPlan = 'Loading...'
-let UserEmail = 'Loading...'
-
 const logInWithEmailAndPassword = async (email, password) => {
     try {
         await signInWithEmailAndPassword(auth, email, password);
