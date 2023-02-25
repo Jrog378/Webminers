@@ -45,13 +45,13 @@ export default async function handler(req, res) {
             let webplan1 = ''
             if (event.type === "customer.subscription.created" || event.type === "customer.subscription.updated") {
                 console.log(charge1['customer'])
-                if (charge1['plan']['product'] === 'prod_NL75Mz1Lv1a99x') {
+                if (charge1['plan']['product'] === 'prod_NQ2zH4iXcDUl2n') {
                     console.log('Seasonalist')
                     webplan1 = 'Seasonalist'
-                } else if (charge1['plan']['product'] === 'prod_NL75ETJPk8RA5g') {
+                } else if (charge1['plan']['product'] === 'prod_NQ311iEHIEp7jE') {
                     console.log('Investor')
                     webplan1 = 'Investor'
-                } else if (charge1['plan']['product'] === 'prod_NOpiiZZAQRUEpP') {
+                } else if (charge1['plan']['product'] === 'prod_NQ35gcdCurUhVH') {
                     console.log('Strategist')
                     webplan1 = 'Strategist'
                 } else {
