@@ -16,6 +16,7 @@ import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "reac
 import Dropdown from 'react-bootstrap/Dropdown';
 import ReactMarkdown from "react-markdown";
 import {useState} from "react";
+import Head from "next/head";
 
 
 export default function Toplogos() {
@@ -219,6 +220,11 @@ export default function Toplogos() {
 
     return (
         <main style={{backgroundColor: '#212529'}}>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+            </Head>
             <Container style={{
                 margin: 'auto',
                 padding: '2%',
@@ -251,7 +257,7 @@ export default function Toplogos() {
             </Container>
             <Container style={{width: '100%'}}>
                 <Container style={{borderRadius: '15px', backgroundColor: 'rgb(213, 233, 223)'}}>
-                    <Row sm={1} md={2} style={{paddingBottom:'10px'}}>
+                    <Row sm={1} md={2} style={{paddingBottom: '10px'}}>
                         {Bloggers}
                     </Row>
                 </Container>

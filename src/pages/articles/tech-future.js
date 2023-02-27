@@ -9,6 +9,7 @@ import Techie6 from '../../images/articleimages/Techie6.webp'
 import TechieMain from '../../images/articleimages/TechieMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import Head from "next/head";
 
 export default function TechFuture() {
     const Artsections = [
@@ -210,6 +211,11 @@ export default function TechFuture() {
     return (
         <>
             <main style={{backgroundColor: '#212529'}}>
+                <Head>
+                    <script async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                            crossOrigin="anonymous"></script>
+                </Head>
                 <div>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>

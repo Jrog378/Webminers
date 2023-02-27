@@ -8,6 +8,7 @@ import GoodWriter6 from '../../images/articleimages/GoodWriter6.webp'
 import GoodWriterMain from '../../images/articleimages/GoodWriterMain.webp'
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function GoodTechWriter() {
     const Artsections = [
@@ -196,6 +197,11 @@ export default function GoodTechWriter() {
     return (
         <>
             <main style={{backgroundColor: '#212529'}}>
+                <Head>
+                    <script async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                            crossOrigin="anonymous"></script>
+                </Head>
                 <div>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
