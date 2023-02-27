@@ -3,6 +3,7 @@ import React from "react";
 import styles from '@/styles/Home.module.css'
 import {Alert, Button, Card, CardGroup, Col, Container, Row} from "react-bootstrap";
 import Link from "next/link";
+import logo from "@/images/WebminersLogo.webp";
 
 
 function EmailALert() {
@@ -50,7 +51,7 @@ export default function Home() {
                 <meta name="description"
                       content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <meta property='og:image' content={logo}/>
             </Head>
             <Container style={{
                 padding: '50px',

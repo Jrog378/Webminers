@@ -5,7 +5,9 @@ import Router from "next/router";
 import {doc, getDoc} from "firebase/firestore";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 
 export default function Research() {
@@ -25,6 +27,13 @@ export default function Research() {
     }, [user, loading]);
     return (
         <>
+            <Head>
+                <title>Webminers Research - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers Research are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container style={{backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <h1 style={{textAlign: 'center', padding: '25px'}}>Basic Research</h1>
                 <Container style={{padding: '25px 10%'}}>

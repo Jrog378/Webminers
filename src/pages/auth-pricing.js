@@ -7,6 +7,8 @@ import Router from "next/router";
 import {doc, getDoc} from "firebase/firestore";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 export default function AuthPricing() {
     let [plan, setPlan] = useState('')
@@ -28,6 +30,13 @@ export default function AuthPricing() {
     return (
         <>
             <Script async src="https://js.stripe.com/v3/pricing-table.js"/>
+            <Head>
+                <title>Webminers - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container className={styles.full}
                        style={{padding: '25px', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container>

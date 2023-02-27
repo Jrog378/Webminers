@@ -5,6 +5,8 @@ import Router from 'next/router'
 import Link from "next/link";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 
 function Reset() {
@@ -16,6 +18,11 @@ function Reset() {
     }, [user, loading]);
     return (
         <Container style={{padding: '25px'}} className="login">
+            <Head>
+                <title>Webminers - Reset</title>
+                <meta property='og:title' content='Reset'/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container style={{width: '400px', borderRadius: '20px'}} className="login__container">
                 <Col>
                     <Row>

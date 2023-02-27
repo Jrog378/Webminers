@@ -6,6 +6,8 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import {doc, getDoc} from "firebase/firestore";
 import Link from "next/link";
 import styles from '@/styles/Home.module.css'
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 export default function Profile() {
     const [user, loading] = useAuthState(auth)
@@ -26,15 +28,14 @@ export default function Profile() {
         }
         fetchData()
     }, [user, loading]);
-    // const [profile, loader] = getDoc(doc(db, 'users', user.uid))
-    //
-    // useEffect(() => {
-    //
-    // }, [profile, loader])
-
     return (
         <>
             <main>
+                <Head>
+                    <title>Webminers - Profile</title>
+                    <meta property='og:title' content='Profile'/>
+                    <meta property='og:image' content={logo}/>
+                </Head>
                 <Container style={{backgroundColor: 'whitesmoke', borderRadius: '25px', wordWrap: 'break-word'}}>
                     {user && !loading
                         ? <Container style={{padding: '5% 15%'}}>

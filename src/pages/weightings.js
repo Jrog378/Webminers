@@ -1,11 +1,13 @@
 import {Button, Card, Col, Container, Nav, Row, Tab} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {doc, getDoc} from "firebase/firestore";
 import {auth, db} from "@/config";
 import {useAuthState} from "react-firebase-hooks/auth";
 import Link from "next/link";
 import Image from "next/image";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 export default function Weightings() {
     let [plan, setPlan] = useState('')
@@ -26,6 +28,13 @@ export default function Weightings() {
 
     return (
         <>
+            <Head>
+                <title>Webminers Weightings - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers Weightings are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
                 <Row>
                     <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
