@@ -175,109 +175,65 @@ export default function Home() {
                         </Row>
                     </Container>
 
-                    <Container
-                        style={{backgroundColor: 'whitesmoke', borderRadius: '0 0 25px 25px', padding: '25px'}}>
-                        <Card>
-                            <h1 style={{textAlign: 'center', padding: '50px'}}>
-                                Testimonials
-                            </h1>
-                            <CardGroup style={{margin: '15px'}}>
-                                <Row>
-                                    <Col xs={12} md={6} lg={3}>
-                                        <Card>
-                                            <Card.Body>
-                                                <Card.Header>
-                                                    Email us to put your review here!
-                                                </Card.Header>
-                                                <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                                    *** Your Review! ***
-                                                </Card.Text>
-                                            </Card.Body>
-                                            <Container
-                                                style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'center',
-                                                    marginBottom: '16px'
-                                                }}>
-                                                <Button style={{width: '80%'}}
-                                                        href={'mailto:jusrogersdata@gmail.com'}
-                                                        variant={'outline-dark'}>Email
-                                                    Us</Button>
-                                            </Container>
-                                        </Card>
-                                    </Col>
-                                    <Col xs={12} md={6} lg={3}>
-                                        <Card>
-                                            <Card.Body>
-                                                <Card.Header>
-                                                    Email us to put your review here!
-                                                </Card.Header>
-                                                <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                                    *** Your Review! ***
-                                                </Card.Text>
-                                            </Card.Body>
-                                            <Container
-                                                style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'center',
-                                                    marginBottom: '16px'
-                                                }}>
-                                                <Button style={{width: '80%'}}
-                                                        href={'mailto:jusrogersdata@gmail.com'}
-                                                        variant={'outline-dark'}>Email
-                                                    Us</Button>
-                                            </Container>
-                                        </Card>
-                                    </Col>
-                                    <Col xs={12} md={6} lg={3}>
-                                        <Card>
-                                            <Card.Body>
-                                                <Card.Header>
-                                                    Email us to put your review here!
-                                                </Card.Header>
-                                                <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                                    *** Your Review! ***
-                                                </Card.Text>
-                                            </Card.Body>
-                                            <Container
-                                                style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'center',
-                                                    marginBottom: '16px'
-                                                }}>
-                                                <Button style={{width: '80%'}}
-                                                        href={'mailto:jusrogersdata@gmail.com'}
-                                                        variant={'outline-dark'}>Email
-                                                    Us</Button>
-                                            </Container>
-                                        </Card>
-                                    </Col>
-                                    <Col xs={12} md={6} lg={3}>
-                                        <Card>
-                                            <Card.Body>
-                                                <Card.Header>
-                                                    Email us to put your review here!
-                                                </Card.Header>
-                                                <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                                    *** Your Review! ***
-                                                </Card.Text>
-                                            </Card.Body>
-                                            <Container
-                                                style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'center',
-                                                    marginBottom: '16px'
-                                                }}>
-                                                <Button style={{width: '80%'}}
-                                                        href={'mailto:jusrogersdata@gmail.com'}
-                                                        variant={'outline-dark'}>Email
-                                                    Us</Button>
-                                            </Container>
-                                        </Card>
-                                    </Col>
-                                </Row>
-                            </CardGroup>
-                        </Card>
+                    <Container>
+                        <h1 style={{textAlign: 'center', padding: '25px'}}>
+                            Testimonials
+                        </h1>
+                        <CardGroup>
+                            <Row>
+                                <Col md={12} lg={4}>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Header>
+                                                Data-Driven
+                                            </Card.Header>
+                                            <Card.Text style={{textAlign: 'center', padding: '5px'}}>
+                                                Everything is very easy to understand and read. I love how the findings
+                                                are
+                                                backed by data and science! I think the research section is the best
+                                                part
+                                                where
+                                                I can compare assets to pick and choose from for my own investments.
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md={12} lg={4} style={{padding: '15px'}}>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Header>
+                                                Great Seasons!
+                                            </Card.Header>
+                                            <Card.Text style={{textAlign: 'center', padding: '5px'}}>
+                                                Market and Asset Seasons are a great help in understanding where the
+                                                market
+                                                is
+                                                and for what. I love that inflation is taken into account so I know how
+                                                well
+                                                the
+                                                economy is and where it&apos;s headed
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md={12} lg={4}>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Header>
+                                                Accurate Seasons and Weightings
+                                            </Card.Header>
+                                            <Card.Text style={{textAlign: 'center', padding: '5px'}}>
+                                                Super Accurate Seasons and Weightings. I check the daily updates before
+                                                doing
+                                                anything in the markets to make sure what I&apos;m doing is a smart
+                                                decision.
+                                                Reliable and consistently updated (a lot!).
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
+                        </CardGroup>
                     </Container>
 
                     <Container>

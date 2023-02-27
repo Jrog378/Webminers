@@ -246,7 +246,7 @@ export default function Pricing() {
                         one of our plans with a 3 day trial now</Link></h1>
                 </Container>
                 <Container>
-                    <h1 style={{textAlign: 'center', padding: '50px'}}>
+                    <h1 style={{textAlign: 'center', padding: '25px'}}>
                         Testimonials
                     </h1>
                     <CardGroup>
