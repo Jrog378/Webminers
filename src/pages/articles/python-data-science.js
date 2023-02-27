@@ -7,6 +7,7 @@ import PythonData4 from '../../images/articleimages/PythonData4.webp'
 import PythonDataMain from '../../images/articleimages/PythonDataMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import Head from "next/head";
 
 export default function PythonDataScience() {
     const Artsections = [
@@ -163,6 +164,11 @@ export default function PythonDataScience() {
     return (
         <>
             <main style={{backgroundColor: '#212529'}}>
+                <Head>
+                    <script async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                            crossOrigin="anonymous"></script>
+                </Head>
                 <div>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
