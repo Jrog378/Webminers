@@ -45,7 +45,7 @@ export default function Profile() {
                                 <Col>
                                     <Row>
                                         <h2 style={{textAlign: 'center', fontWeight: 'bolder'}}>
-                                            Account Details
+                                            Plan Details
                                         </h2>
                                     </Row>
                                     <Row style={{padding: '15px 0'}}>

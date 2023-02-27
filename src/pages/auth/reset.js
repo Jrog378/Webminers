@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useAuthState} from "react-firebase-hooks/auth";
-import {auth, sendPasswordResetEmail} from "@/config";
+import {auth, sendPasswordReset} from "@/config";
 import Router from 'next/router'
 import Link from "next/link";
 import {Button, Col, Container, Row} from "react-bootstrap";
@@ -35,7 +35,7 @@ function Reset() {
                     <Row style={{margin: '15px'}}>
                         <Button
                             variant={'success'}
-                            onClick={() => sendPasswordResetEmail(email)}>Send Password Reset Email</Button>
+                            onClick={() => sendPasswordReset(email)}>Send Password Reset Email</Button>
                     </Row>
                     <Row style={{color: 'whitesmoke', display: 'inline-block', width: '100%'}}>
                         <p style={{textAlign: 'center'}}>
