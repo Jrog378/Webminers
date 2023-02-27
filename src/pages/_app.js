@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout';
 import {Figtree} from "@next/font/google";
 import {SSRProvider} from "react-bootstrap";
+import Script from "next/script";
+import Head from "next/head";
 
 const Font = Figtree({subsets: ['latin']})
 
