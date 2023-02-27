@@ -527,3 +527,8 @@ main:has(> .full) {
     background-color: whitesmoke;
     border-radius: 25px;
 }
+
+.webmark {
+    font-size: large;
+    line-height: 2;
+}

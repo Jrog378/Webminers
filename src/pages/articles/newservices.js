@@ -89,12 +89,13 @@ export default function Newservices() {
     ]
 
     const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width:'80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius:'15px'}} alt={sections.description}
+        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                   alt={sections.description}
                    src={sections.img}/>
             <Card.Body style={{paddingBottom: 0}}>
-                <Card.Text style={{paddingTop: '0px'}}>
-                    <ReactMarkdown className={styles.webp}>{sections.text}</ReactMarkdown>
+                <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
+                    <ReactMarkdown>{sections.text}</ReactMarkdown>
                 </Card.Text>
             </Card.Body>
         </Card>
@@ -107,6 +108,13 @@ export default function Newservices() {
                     <script async
                             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                             crossOrigin="anonymous"></script>
+                    <title>Leveling Up Webminers Services and Content With Financial Data</title>
+                    <meta property='og:title' content='NewServices'/>
+                    <meta property='og:image' content={NewServicesMain}/>
+                    <meta name='description'
+                          content='Many upgrades have occurred since you last saw a Webminers article. We are
+                  adding features like Seasons, Asset Balancing, and Optimization.'/>
+
                 </Head>
                 <div>
                     <header>
@@ -132,7 +140,6 @@ export default function Newservices() {
                         borderRadius: '35px',
                         background: 'rgb(213, 233, 223)'
                     }}>
-                    <p/>
                     {Sections}
                     <br/>
                 </Card>

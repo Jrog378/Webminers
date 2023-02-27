@@ -7,6 +7,8 @@ import {auth, db} from "@/config";
 import {doc, getDoc} from "firebase/firestore";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 
 export default function AuthSeasons(props) {
@@ -78,6 +80,13 @@ export default function AuthSeasons(props) {
 
     return (
         <>
+            <Head>
+                <title>Webminers Seasons - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers Seasons are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container style={{padding: '0 25px 25px 25px'}}>
                 <Row>
                     <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>

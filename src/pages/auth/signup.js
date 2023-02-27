@@ -5,6 +5,8 @@ import Router from 'next/router'
 import {auth, logInWithEmailAndPassword, registerWithEmailAndPassword,} from "@/config";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 function Register() {
     const [email, setEmail] = useState("");
@@ -22,6 +24,11 @@ function Register() {
     }, [user, loading]);
     return (
         <Container style={{padding: '25px', height: '100%'}} className="login">
+            <Head>
+                <title>Webminers - Signup</title>
+                <meta property='og:title' content='Signup'/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             {!user && !loading
                 ? <Container style={{width: '400px', borderRadius: '20px'}} className="login__container">
                 <Col>

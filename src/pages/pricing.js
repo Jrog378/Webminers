@@ -2,12 +2,21 @@ import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table} from "rea
 import React from "react";
 import Link from "next/link";
 import styles from '@/styles/Home.module.css'
+import logo from "@/images/WebminersLogo.webp";
+import Head from "next/head";
 
 
 export default function Pricing() {
 
     return (
         <>
+            <Head>
+                <title>Webminers - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
+            </Head>
             <Container style={{backgroundColor: 'whitesmoke', borderRadius: '25px', padding: '25px'}}>
                 <h1 style={{textAlign: 'center', padding: '50px'}}>
                     Setup the plan to fuel your data-driven investing
