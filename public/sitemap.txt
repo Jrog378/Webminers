@@ -3,7 +3,7 @@ https://webminers.dev/pricing/
 https://webminers.dev/auth-pricing/
 https://webminers.dev/research/
 https://webminers.dev/seasons/
-https://webminers.dev/weightings/
+https://webminers.dev/balancing/
 https://webminers.dev/profile/
 https://webminers.dev/auth/login/
 https://webminers.dev/auth/logout/

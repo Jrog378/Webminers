@@ -9,7 +9,7 @@ import Image from "next/image";
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
-export default function Weightings() {
+export default function Balancing() {
     let [plan, setPlan] = useState('')
     const [user, loading] = useAuthState(auth)
 
@@ -29,9 +29,9 @@ export default function Weightings() {
     return (
         <>
             <Head>
-                <title>Webminers Weightings - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Balancing - Make Data-Driven Decisions With Investment Research</title>
                 <meta name="description"
-                      content="Webminers Weightings are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Balancing are revolutionizing how we make financial decisions with new balances and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
@@ -43,20 +43,20 @@ export default function Weightings() {
                                 <Container>
                                     <Card.Body style={{margin: 'auto'}}>
                                         <Card.Title style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
-                                            Cryptocurrency Weightings
+                                            Cryptocurrency Balancing
                                         </Card.Title>
                                     </Card.Body>
                                     <Card.Body style={{margin: 'auto'}}>
                                         <Card.Text style={{fontSize: '20px'}}>
-                                            These weightings are based on when you have the most potential for
-                                            rewards with both Alt Coins and Ethereum. These weightings do not mean
+                                            These balances are based on when you have the most potential for
+                                            rewards with both Alt Coins and Ethereum. These balances do not mean
                                             buy or sell, rather if you were to buy that these percentages are what
                                             the data is saying to do (visit our Economic Seasons page for this)
                                         </Card.Text>
                                         <br/>
                                         <Button href='#alt' style={{float: 'right', marginBottom: '10px'}}
                                                 variant="success"
-                                                size='md'>Alt Weightings</Button>
+                                                size='md'>Alt Balancing</Button>
                                     </Card.Body>
                                 </Container>
                             </Card>
@@ -101,12 +101,12 @@ export default function Weightings() {
                                 <Container>
                                     <Card.Body style={{margin: 'auto'}}>
                                         <Card.Title style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
-                                            Alt Weightings
+                                            Alt Balancing
                                         </Card.Title>
                                     </Card.Body>
                                     <Card.Body style={{margin: 'auto'}}>
                                         <Card.Text style={{fontSize: '20px'}}>
-                                            Here is where we have the weightings of our selected currencies. These
+                                            Here is where we have the balances of our selected currencies. These
                                             coins are picked for their ability to be predicted and possible outcome.
                                             This graph is only available through &apos;The Investors Plan&apos;, which
                                             you
@@ -123,7 +123,7 @@ export default function Weightings() {
                                                             ? <Button href='#exp'
                                                                       style={{float: 'right', marginBottom: '10px'}}
                                                                       variant="success"
-                                                                      size='md'>Experimental Seasons</Button>
+                                                                      size='md'>Experimental Weightings</Button>
                                                             : <Button href='/pricing'
                                                                       style={{float: 'right', marginBottom: '10px'}}
                                                                       variant="success"
@@ -158,12 +158,12 @@ export default function Weightings() {
                                                                         textAlign: 'center',
                                                                         paddingTop: '15px'
                                                                     }}>
-                                                            Experimental Weightings
+                                                            Experimental Balancing
                                                         </Card.Title>
                                                     </Card.Body>
                                                     <Card.Body style={{margin: 'auto'}}>
                                                         <Card.Text style={{fontSize: '20px'}}>
-                                                            Experimental Weightings are an accumulation of weightings
+                                                            Experimental Balancing are an accumulation of balances
                                                             that include assets having a set strategy and those that are
                                                             more relaxed in the way that we gauge when to buy and when
                                                             to sell. These are the balances that have resulted from the
@@ -199,7 +199,7 @@ export default function Weightings() {
                                         <h2 style={{textAlign: "center", color: 'whitesmoke'}}>Please visit <Link
                                             className={styles.weblink}
                                             href={'/auth/profile'}>Profile</Link> to
-                                            upgrade plan to Strategist for access to Experimental Seasons</h2>
+                                            upgrade plan to Strategist for access to Experimental Balancing</h2>
                                     </Container>
                         : <Container style={{display: 'none'}}></Container>
                 }

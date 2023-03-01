@@ -121,7 +121,7 @@
     transform: translateZ(0);
     border-radius: var(--border-radius);
     overflow: hidden;
-    box-shadow: 0px 2px 8px -1px #0000001a;
+    box-shadow: 0 2px 8px -1px #0000001a;
 }
 
 .thirteen::before,
@@ -492,17 +492,17 @@
 }
 
 .navgreen.active {
-    background-color: rgb(0,175,75) !important;
+    background-color: rgb(0, 175, 75) !important;
 }
 
-a:visited.weblink, a:active.weblink, a:link.weblink, .webp > p > a {
-    color: rgb(0,175,75);
+.webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, a:visited.weblink, a:active.weblink, a:link.weblink, .webp > p > a {
+    color: rgb(0, 175, 75);
     text-decoration: none;
     font-weight: bolder;
     font-size: inherit;
 }
 
-a:hover.weblink, .webp > p > a:hover {
+.webmark > p > a:hover, a:hover.weblink, .webp > p > a:hover {
     color: grey !important;
     text-decoration: none;
     font-weight: bolder;
@@ -510,15 +510,16 @@ a:hover.weblink, .webp > p > a:hover {
 }
 
 a:visited.webnav, a:active.webnav, a:link.webnav {
-    color: rgb(245,245,245);
+    color: rgb(245, 245, 245);
     font-weight: bolder;
 }
 
 a:hover.webnav {
-    color: rgb(0,125,75) !important;
+    color: rgb(0, 125, 75) !important;
     text-decoration: none;
     font-weight: bolder;
 }
+
 .tablecen {
     text-align: center;
 }

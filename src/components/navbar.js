@@ -17,7 +17,7 @@ export default function Pagenav() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='m-auto'>
                         <Nav.Link className={styles.webnav} href="/seasons">Seasons</Nav.Link>
-                        <Nav.Link className={styles.webnav} href="/weightings">Weightings</Nav.Link>
+                        <Nav.Link className={styles.webnav} href="/balancing">Balancing</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/research">Research</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/pricing">Pricing</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/articles">Articles</Nav.Link>

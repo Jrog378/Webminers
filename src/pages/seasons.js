@@ -103,7 +103,7 @@ export default function AuthSeasons(props) {
                                             other way, we can predict when that will happen. Webminers have seasons Long
                                             Term (50-100 Years), Mid Term (4-8 Years), Short Term (4-6 Months), and Mini
                                             Term (2-8 Weeks). Since market seasons are general, check out <Link
-                                            className={styles.weblink} href={'/weightings'}> Asset Weightings </Link> to
+                                            className={styles.weblink} href={'/balancing'}> Asset Weightings </Link> to
                                             find out what we have found to be the best assets to invest in.
                                         </Card.Text>
                                         <Container>
