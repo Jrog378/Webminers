@@ -28,11 +28,11 @@ export default function AuthSeasons(props) {
 
     }, [user, loading]);
 
-    let Assets = ['EthereumSeason', 'MaticSeason', 'SolanaSeason', 'AvalancheSeason', 'LinkSeason']
+    let Assets = ['EthereumSeason', 'MaticSeason', 'LitecoinSeason']
     let [asset, setAsset] = useState(0)
 
     function UpAsset() {
-        if (asset < 4) {
+        if (asset < 2) {
             setAsset(asset + 1)
         }
     }
@@ -59,15 +59,13 @@ export default function AuthSeasons(props) {
     }
 
     let Exp = [
-        'BitcoinSeason', 'LitecoinSeason',
-        'DogecoinSeason', 'CosmosSeason',
-        'EosSeason', 'VeChainSeason',
-        'TronSeason'
+        'VeChainSeason', 'CosmosSeason',
+         'DogecoinSeason', 'TronSeason'
     ]
     let [exp, setExp] = useState(0)
 
     function UpExp() {
-        if (exp < 6) {
+        if (exp < 3) {
             setExp(exp + 1)
         }
     }

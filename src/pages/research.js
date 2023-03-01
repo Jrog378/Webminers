@@ -46,29 +46,21 @@ export default function Research() {
                                     ?
                                     <Container>
                                         <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
-                                                       defaultActiveKey="first">
+                                                       defaultActiveKey="Ethereum">
                                             <Row>
                                                 <Col md={12} lg={4}>
                                                     <Nav variant="pills" className="flex-column">
                                                         <Nav.Item>
                                                             <Nav.Link className={'navgreen'}
-                                                                      eventKey="first">Ethereum</Nav.Link>
+                                                                      eventKey="Ethereum">Ethereum</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
                                                             <Nav.Link className={'navgreen'}
-                                                                      eventKey="second">Solana</Nav.Link>
+                                                                      eventKey="Bitcoin">Bitcoin</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
                                                             <Nav.Link className={'navgreen'}
-                                                                      eventKey="third">Link</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="fourth">Matic</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="fifth">Avalanche</Nav.Link>
+                                                                      eventKey="Solana">Solana</Nav.Link>
                                                         </Nav.Item>
                                                     </Nav>
                                                 </Col>
@@ -78,7 +70,7 @@ export default function Research() {
                                                     borderRadius: '10px'
                                                 }}>
                                                     <Tab.Content>
-                                                        <Tab.Pane eventKey="first">
+                                                        <Tab.Pane eventKey="Ethereum">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Ethereum Research
@@ -122,249 +114,7 @@ export default function Research() {
                                                                 </Table>
                                                             </Container>
                                                         </Tab.Pane>
-                                                        <Tab.Pane eventKey="second">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Solana Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.21</td>
-                                                                        <td>0.1</td>
-                                                                        <td>1.15</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.1</td>
-                                                                        <td>0.02</td>
-                                                                        <td>1.02</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.04</td>
-                                                                        <td>-0.03</td>
-                                                                        <td>0.94</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>0.93</td>
-                                                                        <td>0.11</td>
-                                                                        <td>1.21</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="third">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Link Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.34</td>
-                                                                        <td>0.43</td>
-                                                                        <td>1.57</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.24</td>
-                                                                        <td>0.06</td>
-                                                                        <td>1.12</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.12</td>
-                                                                        <td>0.0</td>
-                                                                        <td>0.99</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>0.31</td>
-                                                                        <td>0.06</td>
-                                                                        <td>1.13</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="fourth">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Matic Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.29</td>
-                                                                        <td>0.55</td>
-                                                                        <td>2</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.23</td>
-                                                                        <td>0.13</td>
-                                                                        <td>1.3</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.16</td>
-                                                                        <td>0.04</td>
-                                                                        <td>1.08</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>8.05</td>
-                                                                        <td>0.15</td>
-                                                                        <td>1.3</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="fifth">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Avalanche Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.22</td>
-                                                                        <td>0.23</td>
-                                                                        <td>1.39</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.22</td>
-                                                                        <td>0.08</td>
-                                                                        <td>1.16</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.05</td>
-                                                                        <td>-0.05</td>
-                                                                        <td>0.9</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>NA</td>
-                                                                        <td>NA</td>
-                                                                        <td>NA</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                    </Tab.Content>
-                                                </Col>
-                                            </Row>
-                                        </Tab.Container>
-                                    </Container>
-                                    : <Container><h1 style={{textAlign: "center"}}>Please visit <Link
-                                        className={styles.weblink} href={'/auth/profile'}>Profile</Link> to Upgrade Plan
-                                    </h1></Container>
-                            : <Container><h1 style={{textAlign: "center"}}>Please <Link
-                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
-                                see content</h1></Container>
-                    }
-                </Container>
-                <Container style={{padding: '25px 10%'}}>
-                    {loading
-                        ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                            Research</h1><h1>Loading...</h1></Container>
-                        : user
-                            ? plan === ''
-                                ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                                    Research</h1><h1>Loading...</h1></Container>
-                                : plan === 'Strategist'
-                                    ?
-                                    <Container>
-                                        <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Research</h1>
-                                        <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
-                                                       defaultActiveKey="firstE">
-                                            <Row>
-                                                <Col md={12} lg={4}>
-                                                    <Nav variant="pills" className="flex-column">
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="firstE">Bitcoin</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="secondE">Litecoin</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="thirdE">Dogecoin</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="fourthE">Cosmos</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="fifthE">Eos</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="sixthE">VeChain</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="seventhE">Tron</Nav.Link>
-                                                        </Nav.Item>
-                                                    </Nav>
-                                                </Col>
-                                                <Col md={12} lg={8} style={{
-                                                    border: '1px solid black',
-                                                    padding: '10px',
-                                                    borderRadius: '10px'
-                                                }}>
-                                                    <Tab.Content>
-                                                        <Tab.Pane eventKey="firstE">
+                                                        <Tab.Pane eventKey="Bitcoin">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Bitcoin Research
@@ -408,7 +158,169 @@ export default function Research() {
                                                                 </Table>
                                                             </Container>
                                                         </Tab.Pane>
-                                                        <Tab.Pane eventKey="secondE">
+                                                        <Tab.Pane eventKey="Solana">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Solana Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.21</td>
+                                                                        <td>0.1</td>
+                                                                        <td>1.15</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.1</td>
+                                                                        <td>0.02</td>
+                                                                        <td>1.02</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.04</td>
+                                                                        <td>-0.03</td>
+                                                                        <td>0.94</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>0.93</td>
+                                                                        <td>0.11</td>
+                                                                        <td>1.21</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                    </Tab.Content>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Container>
+                                    </Container>
+                                    : <Container><h1 style={{textAlign: "center"}}>Please visit <Link
+                                        className={styles.weblink} href={'/auth/profile'}>Profile</Link> to Upgrade Plan
+                                    </h1></Container>
+                            : <Container><h1 style={{textAlign: "center"}}>Please <Link
+                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
+                                see content</h1></Container>
+                    }
+                </Container>
+                <Container style={{padding: '25px 10%'}}>
+                    {loading
+                        ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
+                            Research</h1><h1>Loading...</h1></Container>
+                        : user
+                            ? plan === ''
+                                ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
+                                    Research</h1><h1>Loading...</h1></Container>
+                                : plan === 'Strategist'
+                                    ?
+                                    <Container>
+                                        <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Research</h1>
+                                        <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
+                                                       defaultActiveKey="Matic">
+                                            <Row>
+                                                <Col md={12} lg={4}>
+                                                    <Nav variant="pills" className="flex-column">
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Matic">Matic</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Litecoin">Litecoin</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Vet">VeChain</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Cosmos">Atom(Cosmos)</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Doge">Doge</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Tron">Tron</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Eos">Eos</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Link">Link</Nav.Link>
+                                                        </Nav.Item>
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'}
+                                                                      eventKey="Avax">Avalanche</Nav.Link>
+                                                        </Nav.Item>
+                                                    </Nav>
+                                                </Col>
+                                                <Col md={12} lg={8} style={{
+                                                    border: '1px solid black',
+                                                    padding: '10px',
+                                                    borderRadius: '10px'
+                                                }}>
+                                                    <Tab.Content>
+                                                        <Tab.Pane eventKey="Matic">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Matic Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.29</td>
+                                                                        <td>0.55</td>
+                                                                        <td>2</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.23</td>
+                                                                        <td>0.13</td>
+                                                                        <td>1.3</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.16</td>
+                                                                        <td>0.04</td>
+                                                                        <td>1.08</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>8.05</td>
+                                                                        <td>0.15</td>
+                                                                        <td>1.3</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Litecoin">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Litecoin Research
@@ -452,139 +364,7 @@ export default function Research() {
                                                                 </Table>
                                                             </Container>
                                                         </Tab.Pane>
-                                                        <Tab.Pane eventKey="thirdE">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Dogecoin Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.29</td>
-                                                                        <td>0.03</td>
-                                                                        <td>1.06</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.18</td>
-                                                                        <td>0.09</td>
-                                                                        <td>1.18</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.12</td>
-                                                                        <td>-0.01</td>
-                                                                        <td>1.03</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>2.28</td>
-                                                                        <td>0.18</td>
-                                                                        <td>1.42</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="fourthE">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Cosmos Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.24</td>
-                                                                        <td>0.18</td>
-                                                                        <td>1.27</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.23</td>
-                                                                        <td>0.06</td>
-                                                                        <td>1.14</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.1</td>
-                                                                        <td>0.0</td>
-                                                                        <td>1.0</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>0.45</td>
-                                                                        <td>0.08</td>
-                                                                        <td>1.15</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="fifthE">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Eos Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.3</td>
-                                                                        <td>0.31</td>
-                                                                        <td>1.44</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.28</td>
-                                                                        <td>0.04</td>
-                                                                        <td>1.09</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.12</td>
-                                                                        <td>-0.01</td>
-                                                                        <td>0.98</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>0.05</td>
-                                                                        <td>0.02</td>
-                                                                        <td>1.04</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="sixthE">
+                                                        <Tab.Pane eventKey="Vet">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     VeChain Research
@@ -628,7 +408,95 @@ export default function Research() {
                                                                 </Table>
                                                             </Container>
                                                         </Tab.Pane>
-                                                        <Tab.Pane eventKey="seventhE">
+                                                        <Tab.Pane eventKey="Cosmos">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Cosmos Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.24</td>
+                                                                        <td>0.18</td>
+                                                                        <td>1.27</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.23</td>
+                                                                        <td>0.06</td>
+                                                                        <td>1.14</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.1</td>
+                                                                        <td>0.0</td>
+                                                                        <td>1.0</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>0.45</td>
+                                                                        <td>0.08</td>
+                                                                        <td>1.15</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Doge">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Dogecoin Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.29</td>
+                                                                        <td>0.03</td>
+                                                                        <td>1.06</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.18</td>
+                                                                        <td>0.09</td>
+                                                                        <td>1.18</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.12</td>
+                                                                        <td>-0.01</td>
+                                                                        <td>1.03</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>2.28</td>
+                                                                        <td>0.18</td>
+                                                                        <td>1.42</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Tron">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
                                                                     Tron Research
@@ -667,6 +535,138 @@ export default function Research() {
                                                                         <td>0.66</td>
                                                                         <td>0.06</td>
                                                                         <td>1.16</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Eos">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Eos Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.3</td>
+                                                                        <td>0.31</td>
+                                                                        <td>1.44</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.28</td>
+                                                                        <td>0.04</td>
+                                                                        <td>1.09</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.12</td>
+                                                                        <td>-0.01</td>
+                                                                        <td>0.98</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>0.05</td>
+                                                                        <td>0.02</td>
+                                                                        <td>1.04</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Link">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Link Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.34</td>
+                                                                        <td>0.43</td>
+                                                                        <td>1.57</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.24</td>
+                                                                        <td>0.06</td>
+                                                                        <td>1.12</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.12</td>
+                                                                        <td>0.0</td>
+                                                                        <td>0.99</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>0.31</td>
+                                                                        <td>0.06</td>
+                                                                        <td>1.13</td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
+                                                            </Container>
+                                                        </Tab.Pane>
+                                                        <Tab.Pane eventKey="Avax">
+                                                            <Container>
+                                                                <Card.Title style={{textAlign: 'center'}}>
+                                                                    Avalanche Research
+                                                                </Card.Title>
+                                                                <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>Sharpe</th>
+                                                                        <th>Sortino</th>
+                                                                        <th>Omega</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td>0.22</td>
+                                                                        <td>0.23</td>
+                                                                        <td>1.39</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td>0.22</td>
+                                                                        <td>0.08</td>
+                                                                        <td>1.16</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td>0.05</td>
+                                                                        <td>-0.05</td>
+                                                                        <td>0.9</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td>NA</td>
+                                                                        <td>NA</td>
+                                                                        <td>NA</td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </Table>
