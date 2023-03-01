@@ -30,14 +30,14 @@ export default function Pricing() {
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link className={'navgreen'} eventKey="second">Seasonalist Plan
-                                        ($40)</Nav.Link>
+                                        ($30)</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($75)</Nav.Link>
+                                    <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($50)</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Plan
-                                        ($150)</Nav.Link>
+                                        ($100)</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Col>
@@ -243,7 +243,7 @@ export default function Pricing() {
                 </Tab.Container>
                 <Container style={{padding: '25px'}}>
                     <h1 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'/auth-pricing'}>Get
-                        one of our plans with a 3 day trial now</Link></h1>
+                        one of our plans with a 7 day trial now</Link></h1>
                 </Container>
                 <Container>
                     <h1 style={{textAlign: 'center', padding: '25px'}}>
