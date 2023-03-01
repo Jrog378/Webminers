@@ -37,8 +37,8 @@ export default function Newservices() {
                 '\n' +
                 'Next, we need to find out where to invest. Finding your assets can seem very daunting at first ' +
                 'because you might not know what the most profitable choices could be. Whether you lost a ton of ' +
-                'money on a penny coin or have only been investing in Bitcoin or Ethereum, [Asset Weightings]' +
-                '(/weightings) is where we will step things up and diversify for less risk. Our base digital asset ' +
+                'money on a penny coin or have only been investing in Bitcoin or Ethereum, [Asset Balancing]' +
+                '(/balancing) is where we will step things up and diversify for less risk. Our base digital asset ' +
                 'is Ethereum(Yes, over Bitcoin). We have chosen this coin for two reasons, market cap, and efficiency. ' +
                 'Our Altcoins make up the rest of our portfolio and are hand-picked with two things in mind: predictability ' +
                 'and efficiency. We want a coin that follows our data nicely, is not prone to unpredictable movements ' +

@@ -81,7 +81,7 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Weightings</td>
+                                            <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
@@ -129,7 +129,7 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Weightings</td>
+                                            <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
@@ -177,7 +177,7 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Weightings</td>
+                                            <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
@@ -225,7 +225,7 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u2713'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Weightings</td>
+                                            <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u2713'}</td>
                                         </tr>
                                         <tr>
@@ -286,10 +286,10 @@ export default function Pricing() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Header>
-                                            Accurate Seasons and Weightings
+                                            Accurate Seasons and Balancing
                                         </Card.Header>
                                         <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                            Super Accurate Seasons and Weightings. I check the daily updates before
+                                            Super Accurate Seasons and Balancing. I check the daily updates before
                                             doing
                                             anything in the markets to make sure what I&apos;m doing is a smart
                                             decision.
