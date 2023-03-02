@@ -38,7 +38,7 @@
     "stripe": "^11.10.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.1.6",
+    "@next/bundle-analyzer": "^13.2.3",
     "cross-env": "^7.0.3"
   }
 }

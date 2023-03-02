@@ -35,15 +35,195 @@ export default function Research() {
                 <meta property='og:image' content={logo}/>
             </Head>
             <Container style={{backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
-                <h1 style={{textAlign: 'center', padding: '25px'}}>Basic Research</h1>
-                <Container style={{padding: '25px 10%'}}>
-                    {loading
-                        ? <Container><h1>Loading...</h1></Container>
-                        : user
-                            ? plan === ''
-                                ? <Container><h1>Loading...</h1></Container>
-                                : plan === 'Investor' || plan === 'Strategist'
-                                    ?
+                {loading || plan === ''
+                    ?
+                    <Container style={{padding: '25px 10%'}}>
+                        <h1>Loading...</h1>
+                    </Container>
+                    : plan === 'Investor' //
+                        ?
+                        <Container>
+                            <h1 style={{textAlign: 'center', padding: '25px'}}>Basic Research</h1>
+                            <Container style={{padding: '25px 10%'}}>
+                                <Container>
+                                    <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
+                                                   defaultActiveKey="Ethereum">
+                                        <Row>
+                                            <Col md={12} lg={4}>
+                                                <Nav variant="pills" className="flex-column">
+                                                    <Nav.Item>
+                                                        <Nav.Link className={'navgreen'}
+                                                                  eventKey="Ethereum">Ethereum</Nav.Link>
+                                                    </Nav.Item>
+                                                    <Nav.Item>
+                                                        <Nav.Link className={'navgreen'}
+                                                                  eventKey="Bitcoin">Bitcoin</Nav.Link>
+                                                    </Nav.Item>
+                                                    <Nav.Item>
+                                                        <Nav.Link className={'navgreen'}
+                                                                  eventKey="Solana">Solana</Nav.Link>
+                                                    </Nav.Item>
+                                                </Nav>
+                                            </Col>
+                                            <Col md={12} lg={8} style={{
+                                                border: '1px solid black',
+                                                padding: '10px',
+                                                borderRadius: '10px'
+                                            }}>
+                                                <Tab.Content>
+                                                    <Tab.Pane eventKey="Ethereum">
+                                                        <Container>
+                                                            <Card.Title style={{textAlign: 'center'}}>
+                                                                Ethereum Research
+                                                            </Card.Title>
+                                                            <Table className={styles.tablecen}
+                                                                   style={{padding: '25px'}} striped>
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>Timeframe</th>
+                                                                    <th>Sharpe</th>
+                                                                    <th>Sortino</th>
+                                                                    <th>Omega</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>Mini Term (30 Days)</td>
+                                                                    <td>0.37</td>
+                                                                    <td>0.15</td>
+                                                                    <td>1.25</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Short Term (4 Months)</td>
+                                                                    <td>0.28</td>
+                                                                    <td>0.04</td>
+                                                                    <td>1.1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mid Term (1 Year)</td>
+                                                                    <td>0.15</td>
+                                                                    <td>-0.01</td>
+                                                                    <td>0.98</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Long Term (3 Years)</td>
+                                                                    <td>1.22</td>
+                                                                    <td>0.08</td>
+                                                                    <td>1.18</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </Table>
+                                                        </Container>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey="Bitcoin">
+                                                        <Container>
+                                                            <Card.Title style={{textAlign: 'center'}}>
+                                                                Bitcoin Research
+                                                            </Card.Title>
+                                                            <Table className={styles.tablecen}
+                                                                   style={{padding: '25px'}} striped>
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>Timeframe</th>
+                                                                    <th>Sharpe</th>
+                                                                    <th>Sortino</th>
+                                                                    <th>Omega</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>Mini Term (30 Days)</td>
+                                                                    <td>0.4</td>
+                                                                    <td>0.17</td>
+                                                                    <td>1.27</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Short Term (4 Months)</td>
+                                                                    <td>0.4</td>
+                                                                    <td>0.07</td>
+                                                                    <td>1.2</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mid Term (1 Year)</td>
+                                                                    <td>0.19</td>
+                                                                    <td>-0.03</td>
+                                                                    <td>0.93</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Long Term (3 Years)</td>
+                                                                    <td>0.64</td>
+                                                                    <td>0.05</td>
+                                                                    <td>1.13</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </Table>
+                                                        </Container>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey="Solana">
+                                                        <Container>
+                                                            <Card.Title style={{textAlign: 'center'}}>
+                                                                Solana Research
+                                                            </Card.Title>
+                                                            <Table className={styles.tablecen}
+                                                                   style={{padding: '25px'}} striped>
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>Timeframe</th>
+                                                                    <th>Sharpe</th>
+                                                                    <th>Sortino</th>
+                                                                    <th>Omega</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>Mini Term (30 Days)</td>
+                                                                    <td>0.21</td>
+                                                                    <td>0.1</td>
+                                                                    <td>1.15</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Short Term (4 Months)</td>
+                                                                    <td>0.1</td>
+                                                                    <td>0.02</td>
+                                                                    <td>1.02</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mid Term (1 Year)</td>
+                                                                    <td>0.04</td>
+                                                                    <td>-0.03</td>
+                                                                    <td>0.94</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Long Term (3 Years)</td>
+                                                                    <td>0.93</td>
+                                                                    <td>0.11</td>
+                                                                    <td>1.21</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </Table>
+                                                        </Container>
+                                                    </Tab.Pane>
+                                                </Tab.Content>
+                                            </Col>
+                                        </Row>
+                                    </Tab.Container>
+                                </Container>
+                            </Container>
+                            <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers Research</h1>
+                            <Container style={{padding: '25px 10%'}}>
+                                <Container>
+                                    <h1 style={{textAlign: "center"}}>
+                                        Please <Link className={styles.weblink}
+                                                     href={'/auth/profile'}>Upgrade Plan</Link> for this content
+                                    </h1>
+                                </Container>
+                            </Container>
+                        </Container>
+                        : plan === 'Strategist'
+                            ?
+                            <Container>
+                                <h1 style={{textAlign: 'center', padding: '25px'}}>Basic Research</h1>
+                                <Container style={{padding: '25px 10%'}}>
                                     <Container>
                                         <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
                                                        defaultActiveKey="Ethereum">
@@ -207,24 +387,9 @@ export default function Research() {
                                             </Row>
                                         </Tab.Container>
                                     </Container>
-                                    : <Container><h1 style={{textAlign: "center"}}>Please visit <Link
-                                        className={styles.weblink} href={'/auth/profile'}>Profile</Link> to Upgrade Plan
-                                    </h1></Container>
-                            : <Container><h1 style={{textAlign: "center"}}>Please <Link
-                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
-                                see content</h1></Container>
-                    }
-                </Container>
-                <Container style={{padding: '25px 10%'}}>
-                    {loading
-                        ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                            Research</h1><h1>Loading...</h1></Container>
-                        : user
-                            ? plan === ''
-                                ? <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                                    Research</h1><h1>Loading...</h1></Container>
-                                : plan === 'Strategist'
-                                    ?
+                                </Container>
+                                <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers Research</h1>
+                                <Container style={{padding: '25px 10%'}}>
                                     <Container>
                                         <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Research</h1>
                                         <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
@@ -677,22 +842,22 @@ export default function Research() {
                                             </Row>
                                         </Tab.Container>
                                     </Container>
-                                    : plan === 'none'
-                                        ? <Container style={{display: 'none'}}></Container>
-                                        : <Container style={{padding: '25px 10%'}}>
-                                            <h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                                                Research</h1>
-                                            <h2 style={{textAlign: "center"}}>Please visit <Link
-                                                className={styles.weblink}
-                                                href={'/auth/profile'}>Profile</Link> to
-                                                Upgrade Plan to Strategist for Experimental Research</h2>
-                                        </Container>
-                            : <Container><h1 style={{textAlign: 'center', padding: '25px'}}>Experimental Webminers
-                                Research</h1><Container><h1 style={{textAlign: "center"}}>Please <Link
-                                className={styles.weblink} href={'/auth/login'}>Login</Link> to
-                                see content</h1></Container></Container>
-                    }
-                </Container>
+                                </Container>
+                            </Container>
+                            :
+                            <Container>
+                                <h1 style={{textAlign: 'center', padding: '25px'}}>Basic Research</h1>
+                                <Container style={{padding: '25px 10%'}}>
+                                    <Container>
+                                        <h1 style={{textAlign: "center"}}>
+                                            Please <Link className={styles.weblink}
+                                                         href={'/auth/profile'}>Upgrade Plan</Link> for this content
+                                        </h1>
+                                    </Container>
+                                </Container>
+                            </Container>
+
+                }
             </Container>
         </>
     )
