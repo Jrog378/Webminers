@@ -9,6 +9,7 @@ import IntroMain from "../../images/articleimages/IntroMain.webp";
 import SiteMain from "../../images/articleimages/SiteMain.webp";
 import UniqueMain from "../../images/articleimages/UniqueMain.webp"
 import NewServicesMain from '../../images/articleimages/NewServicesMain.webp'
+import MentalMain from '../../images/articleimages/MentalMain.webp'
 import Image from 'next/image'
 import WhiteLogo from '../../images/WebLogo.webp'
 import styles from '@/styles/Home.module.css'
@@ -30,9 +31,21 @@ export default function Toplogos() {
 
     const blogposts = [
         {
+            id: 12,
+            title: 'The Best Ways to Improve your Mental State for Better Investing',
+            date: 'Mar 13th 2023',
+            text: 'The best ways to improve your mental state for better investing by improving your diet, physical ' +
+                'health, mentality, and goals.',
+            url: '/articles/mental-improve',
+            img: MentalMain,
+            tags: '',
+            alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
+                'sitting on a wooden desk that has a plant on it.'
+        },
+        {
             id: 11,
             title: 'Leveling Up Webminers Services and Content With Financial Data',
-            date: 'Feb 6th 2022',
+            date: 'Feb 6th 2023',
             text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
                 'Seasons, Asset Balancing, and Optimization.',
             url: '/articles/newservices',
