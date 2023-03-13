@@ -21,3 +21,4 @@ https://webminers.dev/articles/python-data-science/
 https://webminers.dev/articles/space-spies/
 https://webminers.dev/articles/stand-out/
 https://webminers.dev/articles/tech-future/
+https://webminers.dev/articles/mental-improve/
