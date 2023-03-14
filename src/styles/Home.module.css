@@ -495,14 +495,14 @@
     background-color: rgb(0, 175, 75) !important;
 }
 
-.webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, a:visited.weblink, a:active.weblink, a:link.weblink, .webp > p > a {
+.webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, .webmark > ol > li > a:visited, .webmark > ol > li > a:link, .webmark > ol > li > a:active, a:visited.weblink, a:active.weblink, a:link.weblink, .webp > p > a {
     color: rgb(0, 175, 75);
     text-decoration: none;
     font-weight: bolder;
     font-size: inherit;
 }
 
-.webmark > p > a:hover, a:hover.weblink, .webp > p > a:hover {
+.webmark > p > a:hover, .webmark > ol > li > a:hover, a:hover.weblink, .webp > p > a:hover {
     color: grey !important;
     text-decoration: none;
     font-weight: bolder;

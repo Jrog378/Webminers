@@ -10,35 +10,38 @@ import SiteMain from "../../images/articleimages/SiteMain.webp";
 import UniqueMain from "../../images/articleimages/UniqueMain.webp"
 import NewServicesMain from '../../images/articleimages/NewServicesMain.webp'
 import MentalMain from '../../images/articleimages/MentalMain.webp'
+import TopMain from '../../images/articleimages/TopMain.webp'
 import Image from 'next/image'
-import WhiteLogo from '../../images/WebLogo.webp'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "react-bootstrap";
 import Dropdown from 'react-bootstrap/Dropdown';
 import ReactMarkdown from "react-markdown";
-import {useState} from "react";
+import React, {useState} from "react";
 import Head from "next/head";
+import logo from "@/images/WebminersLogo.webp";
 
 
 export default function Toplogos() {
-    const [fin, setFin] = useState(0);
-    const [coding, setCoding] = useState(0);
-    const [data, setData] = useState(0);
-    const filters = ['', styles.notshowarticle]
-    const [title, setTitle] = useState(0)
-
-    const titles = ['All', 'Coding', 'Crypto & Finance', 'Data Science']
-
     const blogposts = [
         {
+            id: 13,
+            title: 'What it Takes to Become a Smart Emotionless Investor',
+            date: 'Mar 14th 2023',
+            text: 'Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your' +
+                ' strategies, and constant research.',
+            url: '/articles/top-investor',
+            img: TopMain,
+            alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
+                'sitting on a wooden desk that has a plant on it.'
+        },
+        {
             id: 12,
-            title: 'The Best Ways to Improve your Mental State for Better Investing',
+            title: 'The Best Ways to Improve your Mental State for Smarter Investing',
             date: 'Mar 13th 2023',
-            text: 'The best ways to improve your mental state for better investing by improving your diet, physical ' +
+            text: 'The best ways to improve your mental state for smarter investing by improving your diet, physical ' +
                 'health, mentality, and goals.',
             url: '/articles/mental-improve',
             img: MentalMain,
-            tags: '',
             alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.'
         },
@@ -50,7 +53,6 @@ export default function Toplogos() {
                 'Seasons, Asset Balancing, and Optimization.',
             url: '/articles/newservices',
             img: NewServicesMain,
-            tags: '',
             alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.'
         },
@@ -62,7 +64,6 @@ export default function Toplogos() {
                 'different you are and stand out with what you have.',
             url: '/articles/stand-out',
             img: UniqueMain,
-            tags: [filters[fin]],
             alt: 'Calculator application overtop of a white screen with code in blue, purple and orange color ' +
                 'typed on it on a mac laptop.'
         },
@@ -74,7 +75,6 @@ export default function Toplogos() {
                 'categories and plans to come for webminers.',
             url: '/articles/new-webminers',
             img: SiteMain,
-            tags: '',
             alt: 'Four lit up lightbulbs all handing in a line from black wires with one swinging off to the side like a newton\'s cradle.'
         },
         {
@@ -84,7 +84,6 @@ export default function Toplogos() {
             text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.',
             url: '/articles/new-changes',
             img: ImproveMain,
-            tags: '',
             alt: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has many thin black bars.'
         },
         {
@@ -94,7 +93,6 @@ export default function Toplogos() {
             text: 'How to become a better technical copywriter and develop in-demand skills to make an impact and provide these services to businesses.',
             url: '/articles/good-tech-writer',
             img: GoodWriterMain,
-            tags: [filters[coding], filters[fin], filters[data]],
             alt: 'Older dip pen resting on a black tabletop and a black background along with a black shadow covering over them.'
         },
         {
@@ -104,7 +102,6 @@ export default function Toplogos() {
             text: 'As Jobs began to be automated and replaced by technology, here are the few that have a prosperous future for anyone to take advantage.',
             url: '/articles/tech-future',
             img: TechieMain,
-            tags: '',
             alt: 'Black glasses sitting in front of 4 computer screens where only through the glasses the image is clear.'
         },
         {
@@ -114,7 +111,6 @@ export default function Toplogos() {
             text: 'Explaining the good and bad of constant satellite recording with where we draw the line between spying on people and privacy.',
             url: '/articles/space-spies',
             img: SatMain,
-            tags: filters[fin],
             alt: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue body of water.'
         },
         {
@@ -124,7 +120,6 @@ export default function Toplogos() {
             text: 'Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science. Let\'s see why.',
             url: '/articles/python-data-science',
             img: PythonDataMain,
-            tags: filters[fin],
             alt: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored code filling the page.'
         },
         {
@@ -134,7 +129,6 @@ export default function Toplogos() {
             text: 'Data Visualization is the art of displaying data in a way that anyone can read allowing for the value of true creativity to be shown.',
             url: '/articles/data-vis',
             img: VisualMain,
-            tags: filters[fin],
             alt: 'Bar graph on a purple sheet of paper with an iPhone displaying the calculator app next to a set of pencils and a notebook.'
         },
         {
@@ -144,7 +138,6 @@ export default function Toplogos() {
             text: 'As hackers are getting better and better, what can truly be done to stop them to keep you and your family digitally safe.',
             url: '/articles/ethical-hacking',
             img: lock,
-            tags: '',
             alt: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.'
         },
         {
@@ -154,13 +147,12 @@ export default function Toplogos() {
             text: 'Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why',
             url: '/articles/intro',
             img: IntroMain,
-            tags: '',
             alt: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.'
         }
     ]
 
     const Bloggers = blogposts.map(content =>
-        <Container key={content.id} className={content.tags} style={{padding: '10px'}}>
+        <Container key={content.id} style={{padding: '10px'}}>
             <Card style={{height: '100%', margin: '10px'}}>
                 <Container className={'blog-row'}>
                     <Row>
@@ -203,40 +195,17 @@ export default function Toplogos() {
         </Container>
     );
 
-    function allarticles() {
-        setCoding(0)
-        setData(0)
-        setFin(0)
-        setTitle(0)
-    }
-
-    function codingarticles() {
-        setCoding(0)
-        setData(1)
-        setFin(1)
-        setTitle(1)
-    }
-
-    function finarticles() {
-        setCoding(1)
-        setData(1)
-        setFin(0)
-        setTitle(2)
-    }
-
-    function dataarticles() {
-        setCoding(1)
-        setData(0)
-        setFin(1)
-        setTitle(3)
-    }
-
     return (
         <main style={{backgroundColor: '#212529'}}>
             <Head>
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                         crossOrigin="anonymous"></script>
+                <title>Webminers Articles - Make Data-Driven Decisions With Investment Research</title>
+                <meta name="description"
+                      content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta property='og:image' content={logo}/>
             </Head>
             <Container style={{
                 margin: 'auto',
@@ -246,27 +215,8 @@ export default function Toplogos() {
                 color: 'whitesmoke'
             }}>
                 <h1 className={styles.Apptext} style={{padding: '25px 10px', textAlign: 'center'}}>
-                    Welcome to the <code>webmienrs.js</code> project
+                    Webminers Articles
                 </h1>
-                <Row style={{width: '100%'}}>
-                    <Col>
-                        <DropdownButton menuVariant={'dark'} variant={'success'} id="dropdown-basic-button"
-                                        title="Sort By">
-                            <Dropdown.Item onClick={allarticles}>All Articles</Dropdown.Item>
-                            <Dropdown.Divider/>
-                            <Dropdown.Item onClick={finarticles}>Crypto & Finance</Dropdown.Item>
-                            <Dropdown.Item onClick={dataarticles}>Data Science</Dropdown.Item>
-                            <Dropdown.Item onClick={codingarticles}>Coding</Dropdown.Item>
-                        </DropdownButton>
-                    </Col>
-                    <Col>
-                        <h1 style={{fontWeight: 'bolder', textAlign: 'center'}}>
-                            {titles[title]} Articles
-                        </h1>
-                    </Col>
-                    <Col className={styles.disappear}>
-                    </Col>
-                </Row>
             </Container>
             <Container style={{width: '100%'}}>
                 <Container style={{borderRadius: '15px', backgroundColor: 'rgb(213, 233, 223)'}}>

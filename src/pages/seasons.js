@@ -5,7 +5,6 @@ import React, {useEffect, useState} from "react";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
 import {doc, getDoc} from "firebase/firestore";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
@@ -55,24 +54,6 @@ export default function AuthSeasons(props) {
     function DownSeason() {
         if (season > 0) {
             setSeason(season - 1)
-        }
-    }
-
-    let Exp = [
-        'VeChainSeason', 'CosmosSeason',
-         'DogecoinSeason', 'TronSeason'
-    ]
-    let [exp, setExp] = useState(0)
-
-    function UpExp() {
-        if (exp < 3) {
-            setExp(exp + 1)
-        }
-    }
-
-    function DownExp() {
-        if (exp > 0) {
-            setExp(exp - 1)
         }
     }
 
@@ -212,78 +193,6 @@ export default function AuthSeasons(props) {
                         </Container>
                     </Col>
                 </Row>
-            </Container>
-            <Container style={{padding: '0 25px 25px 25px'}}>
-                {loading
-                    ? <Container><h1 style={{color: 'whitesmoke'}}>Loading...</h1></Container>
-                    : user
-                        ? plan === ''
-                            ? <Container><h1 style={{color: 'whitesmoke'}}>Loading...</h1></Container>
-                            : plan === 'Strategist'
-                                ?
-                                <Row>
-                                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                                        <Container>
-                                            <Card style={{backgroundColor: 'rgb(225,225,225)'}}>
-                                                <Container>
-                                                    <Card.Body style={{margin: 'auto'}}>
-                                                        <Card.Title
-                                                            style={{
-                                                                fontSize: '30px',
-                                                                textAlign: 'center',
-                                                                paddingTop: '15px'
-                                                            }}>
-                                                            Experimental Seasons
-                                                        </Card.Title>
-                                                    </Card.Body>
-                                                    <Card.Body style={{margin: 'auto'}}>
-                                                        <Card.Text style={{fontSize: '20px'}}>
-                                                            Assets may come and go, but the process of investing will
-                                                            never leave. There is always somewhere that you can make
-                                                            money. Experimental Seasons will have new coins or assets
-                                                            that are up to par with our investing plan but may be hidden
-                                                            gems or coins that would be too good to release to a larger
-                                                            audience. Either way, these assets are an intriguing
-                                                            extension of our previous seasons
-                                                        </Card.Text>
-                                                        <Container>
-                                                            <Row>
-                                                                <Col>
-                                                                    <Button style={{float: 'right', margin: '5px'}}
-                                                                            variant="success" onClick={DownExp}
-                                                                            size='md'>Previous Season</Button>
-                                                                </Col>
-                                                                <Col>
-                                                                    <Button style={{float: 'left', margin: '5px'}}
-                                                                            variant="success" onClick={UpExp}
-                                                                            size='md'>Next Season</Button>
-                                                                </Col>
-                                                            </Row>
-                                                        </Container>
-
-                                                    </Card.Body>
-                                                </Container>
-                                            </Card>
-                                        </Container>
-                                    </Col>
-                                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                                        <Container>
-                                            <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                <Image src={'/plots/' + Exp[exp] + '.webp'} alt={Exp[exp]}/>
-                                            </Card>
-                                        </Container>
-                                    </Col>
-                                </Row>
-                                : plan === 'none'
-                                    ? <Container style={{display: 'none'}}></Container>
-                                    : <Container style={{padding: '25px 10%'}}>
-                                        <h2 style={{textAlign: "center", color: 'whitesmoke'}}>Please visit <Link
-                                            className={styles.weblink}
-                                            href={'/auth/profile'}>Profile</Link> to
-                                            upgrade plan to Strategist for access to Experimental Seasons</h2>
-                                    </Container>
-                        : <Container style={{display: 'none'}}></Container>
-                }
             </Container>
         </>
     )

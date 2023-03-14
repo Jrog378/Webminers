@@ -77,10 +77,6 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Seasons</td>
-                                            <td className={styles.tablecen}>{'\u00d7'}</td>
-                                        </tr>
-                                        <tr>
                                             <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
@@ -122,10 +118,6 @@ export default function Pricing() {
                                         </tr>
                                         <tr>
                                             <td>Asset Research</td>
-                                            <td className={styles.tablecen}>{'\u00d7'}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Experimental Asset Seasons</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
                                         <tr>
@@ -173,10 +165,6 @@ export default function Pricing() {
                                             <td className={styles.tablecen}>{'\u2713'}</td>
                                         </tr>
                                         <tr>
-                                            <td>Experimental Asset Seasons</td>
-                                            <td className={styles.tablecen}>{'\u00d7'}</td>
-                                        </tr>
-                                        <tr>
                                             <td>Experimental Asset Balancing</td>
                                             <td className={styles.tablecen}>{'\u00d7'}</td>
                                         </tr>
@@ -218,10 +206,6 @@ export default function Pricing() {
                                         </tr>
                                         <tr>
                                             <td>Asset Research</td>
-                                            <td className={styles.tablecen}>{'\u2713'}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Experimental Asset Seasons</td>
                                             <td className={styles.tablecen}>{'\u2713'}</td>
                                         </tr>
                                         <tr>
