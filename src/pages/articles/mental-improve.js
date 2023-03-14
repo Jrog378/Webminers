@@ -130,11 +130,11 @@ export default function MentalImprove() {
                     <script async
                             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                             crossOrigin="anonymous"></script>
-                    <title>The Best Ways to Improve your Mental State for Better Investing</title>
+                    <title>The Best Ways to Improve your Mental State for Smarter Investing</title>
                     <meta property='og:title' content='MentalImprove'/>
                     <meta property='og:image' content={Mentalmain}/>
                     <meta name='description'
-                          content='The best ways to improve your mental state for better investing by improving your diet, physical health, mentality, and goals.'/>
+                          content='The best ways to improve your mental state for smarter investing by improving your diet, physical health, mentality, and goals.'/>
 
                 </Head>
                 <div>
@@ -146,7 +146,7 @@ export default function MentalImprove() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                The Best Ways to Improve your Mental State for Better Investing
+                                The Best Ways to Improve your Mental State for Smarter Investing
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Mar 13 2022
