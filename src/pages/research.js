@@ -429,10 +429,6 @@ export default function Research() {
                                                             <Nav.Link className={'navgreen'}
                                                                       eventKey="Link">Link</Nav.Link>
                                                         </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="Avax">Avalanche</Nav.Link>
-                                                        </Nav.Item>
                                                     </Nav>
                                                 </Col>
                                                 <Col md={12} lg={8} style={{
@@ -788,50 +784,6 @@ export default function Research() {
                                                                         <td>0.31</td>
                                                                         <td>0.06</td>
                                                                         <td>1.13</td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="Avax">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Avalanche Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Mini Term (30 Days)</td>
-                                                                        <td>0.22</td>
-                                                                        <td>0.23</td>
-                                                                        <td>1.39</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Short Term (4 Months)</td>
-                                                                        <td>0.22</td>
-                                                                        <td>0.08</td>
-                                                                        <td>1.16</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Mid Term (1 Year)</td>
-                                                                        <td>0.05</td>
-                                                                        <td>-0.05</td>
-                                                                        <td>0.9</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Long Term (3 Years)</td>
-                                                                        <td>NA</td>
-                                                                        <td>NA</td>
-                                                                        <td>NA</td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </Table>

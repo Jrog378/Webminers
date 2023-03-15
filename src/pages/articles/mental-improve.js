@@ -13,6 +13,8 @@ import Head from "next/head";
 export default function MentalImprove() {
     const Artsections = [
         {
+            title:'',
+            id:'',
             img: Mentalmain,
             description: 'A man with a blue shirt writing using a black pen in an old book that has a leather book cover on a desk.',
             text: 'Keeping a clear mind can be beneficial in any area of your life, whether in high-stress ' +
@@ -22,12 +24,14 @@ export default function MentalImprove() {
                 '\n' +
                 'Some things that you can do to improve your mental health for improved investing performance a' +
                 're as follows:\n' +
-                '1. Perfect your morning routine\n' +
-                '2. Workout at least five times a week\n' +
-                '3. Hold yourself to the Golden Mean\n' +
-                '4. Set goals and accomplish them'
+                '1. [Perfect your morning routine](#MorningRoutine)\n' +
+                '2. [Workout at least five times a week](#WorkingOut)\n' +
+                '3. [Hold yourself to the Golden Mean](#GoldenMean)\n' +
+                '4. [Set goals and accomplish them](#SettingGoals)'
         },
         {
+            title:'Build Your Morning Routine',
+            id:'MorningRoutine',
             img: Mental1,
             description: 'A person pouring coffee into a see-through cup with coffee beans on a wooden table next to a black pitcher.',
             text: 'Waking up from 10 AM to noon is doable for some, but you must consider the downsides. When you lay ' +
@@ -48,6 +52,8 @@ export default function MentalImprove() {
                 'mornings. If you are looking for another option, water will do just fine.'
         },
         {
+            title:'Start Working Out',
+            id:'WorkingOut',
             img: Mental2,
             description: 'twenty-pound dumbbells all with metal handles on a black wrack containing more lighter dumbbells below it.',
             text: 'Working out is something that many people want to do but get lazy or don\'t stick to their ' +
@@ -69,6 +75,8 @@ export default function MentalImprove() {
                 'one when needed.\n'
         },
         {
+            title:'The Golden Mean',
+            id:'GoldenMean',
             img: Mental3,
             description: 'ten stones all stacked on top of each other from largest to smallest with a beach in the background.',
             text: 'The Golden Mean is a Philosophical term that comes from Aristotle. He believes that virtue ' +
@@ -84,6 +92,8 @@ export default function MentalImprove() {
                 ' that was offered to you that contains sugar.'
         },
         {
+            title:'Set Goals to Achieve',
+            id:'SettingGoals',
             img: Mental4,
             description: 'Checklist on a white notebook on a wooden desk next to a full cup of coffee and a mechanical pencil.',
             text: 'Setting goals and accomplishing them was something that drove me this year so far. I wrote ' +
@@ -99,6 +109,8 @@ export default function MentalImprove() {
                 'about it and how close or far from reaching it you are.'
         },
         {
+            title:'Conclusion',
+            id:'',
             img: Mental5,
             description: 'A candle chart of the stock market going up with lots of green bars and few red bars with a black background.',
             text: 'Investing is not just a few lines on a chart where you buy low and sell high. It is much more ' +
@@ -114,8 +126,9 @@ export default function MentalImprove() {
         <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
             <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
                    alt={sections.description}
-                   src={sections.img}/>
+                   src={sections.img} id={sections.id}/>
             <Card.Body style={{paddingBottom: 0}}>
+                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
                 <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
                     <ReactMarkdown>{sections.text}</ReactMarkdown>
                 </Card.Text>

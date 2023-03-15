@@ -1,4 +1,4 @@
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Nav, Row, Tab} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import React, {useEffect, useState} from "react";
@@ -26,36 +26,6 @@ export default function AuthSeasons(props) {
 
 
     }, [user, loading]);
-
-    let Assets = ['EthereumSeason', 'MaticSeason', 'LitecoinSeason']
-    let [asset, setAsset] = useState(0)
-
-    function UpAsset() {
-        if (asset < 2) {
-            setAsset(asset + 1)
-        }
-    }
-
-    function DownAsset() {
-        if (asset > 0) {
-            setAsset(asset - 1)
-        }
-    }
-
-    let seasons = ['LongTermSeason', 'MidTermSeason', 'ShortTermSeason', 'MiniTermSeason']
-    let [season, setSeason] = useState(0)
-
-    function UpSeason() {
-        if (season < 3) {
-            setSeason(season + 1)
-        }
-    }
-
-    function DownSeason() {
-        if (season > 0) {
-            setSeason(season - 1)
-        }
-    }
 
     return (
         <>
@@ -85,23 +55,15 @@ export default function AuthSeasons(props) {
                                             Term (50-100 Years), Mid Term (4-8 Years), Short Term (4-6 Months), and Mini
                                             Term (2-8 Weeks). Since market seasons are general, check out <Link
                                             className={styles.weblink} href={'/balancing'}> Asset Weightings </Link> to
-                                            find out what we have found to be the best assets to invest in.
+                                            find out what we have found to be the best assets to invest in. These
+                                            asset seasons can be an extension of the Mini Term Market Season as
+                                            they span 2-8 weeks. The importance of having individual asset seasons is to
+                                            catch a movement happening in an unexpectedly outstanding asset before it
+                                            happens for the rest of the market. You can do two things when this type of
+                                            event comes into play. You can sell and move to a new asset on the rise or
+                                            wait for it to see how high it can go. Both options are great but still rely
+                                            on the ability to catch an opportunity like this
                                         </Card.Text>
-                                        <Container>
-                                            <Row>
-                                                <Col>
-                                                    <Button style={{float: 'right', margin: '5px'}}
-                                                            variant="success" onClick={DownSeason}
-                                                            size='md'>Larger Season</Button>
-                                                </Col>
-                                                <Col>
-                                                    <Button style={{float: 'left', margin: '5px'}}
-                                                            variant="success" onClick={UpSeason}
-                                                            size='md'>Smaller Season</Button>
-                                                </Col>
-                                            </Row>
-                                        </Container>
-
                                     </Card.Body>
                                 </Container>
                             </Card>
@@ -110,85 +72,68 @@ export default function AuthSeasons(props) {
                     <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
                         <Container>
                             <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                <Image src={'/plots/' + seasons[season] + '.webp'} alt={seasons[season]}/>
-                            </Card>
-                        </Container>
-                    </Col>
-                </Row>
-            </Container>
-            <Container style={{padding: '0 25px 25px 25px'}}>
-                <Row>
-                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                        <Container style={{padding: '10px'}}>
-                            <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                {loading
-                                    ? <Card.Title>Loading...</Card.Title>
-                                    : user
-                                        ? plan === ''
-                                            ? <Card.Title>Loading...</Card.Title>
-                                            : plan !== 'none'
-                                                ? <Image src={'/plots/' + Assets[asset] + '.webp'} alt={Assets[asset]}/>
-                                                : <Container><h1 style={{textAlign: "center"}}>Please visit <Link
-                                                    className={styles.weblink} href={'/auth/profile'}>Profile</Link> to
-                                                    Upgrade Plan
-                                                </h1></Container>
-                                        : <Container><h1 style={{textAlign: "center"}}>Please <Link
-                                                    className={styles.weblink} href={'/auth/login'}>Login</Link> to
-                                                    see content</h1></Container>
-                                }
-
-                            </Card>
-                        </Container>
-                    </Col>
-                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                        <Container style={{padding: '10px'}}>
-                            <Card style={{backgroundColor: 'rgb(225,225,225)'}}>
-                                <Container>
-                                    <Card.Body style={{margin: 'auto'}}>
-                                        <Card.Title style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
-                                            Asset Seasons
-                                        </Card.Title>
-                                    </Card.Body>
-                                    <Card.Body style={{margin: 'auto'}}>
-                                        <Card.Text style={{fontSize: '20px'}}>
-                                            These asset seasons can be an extension of the Mini Term Market Season as
-                                            they span 2-8 weeks. The importance of having individual asset seasons is to
-                                            catch a movement happening in an unexpectedly outstanding asset before it
-                                            happens for the rest of the market. You can do two things when this type of
-                                            event comes into play. You can sell and move to a new asset on the rise or
-                                            wait for it to see how high it can go. Both options are great but still rely
-                                            on the ability to catch an opportunity like this
-                                        </Card.Text>
-                                        <Container>
-                                            {loading
-                                                ? <Card.Title>Loading...</Card.Title>
-                                                : user
-                                                    ? plan === ''
-                                                        ? <Card.Title>Loading...</Card.Title>
-                                                        : plan !== 'none'
-                                                            ? <Row>
-                                                                <Col>
-                                                                    <Button style={{float: 'right', margin: '5px'}}
-                                                                            variant="success" onClick={DownAsset}
-                                                                            size='md'>Previous Season</Button>
-                                                                </Col>
-                                                                <Col>
-                                                                    <Button style={{float: 'left', margin: '5px'}}
-                                                                            variant="success" onClick={UpAsset}
-                                                                            size='md'>Next Season</Button>
-                                                                </Col>
-                                                            </Row>
-                                                            : <Button href='/pricing'
-                                                                      style={{float: 'right', marginBottom: '10px'}}
-                                                                      variant="success"
-                                                                      size='md'>Our Plans</Button>
-                                                    : <Container><h1 style={{textAlign: "center"}}>Please <Link
-                                                    className={styles.weblink} href={'/auth/login'}>Login</Link> to
-                                                    see content</h1></Container>
-                                            }
+                                <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
+                                    <Col>
+                                        <Container style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                            <Row lg={12} style={{paddingBottom: '5px'}}>
+                                                <Col md={12}>
+                                                    <Nav variant="pills" className="flex-column">
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'} eventKey="Basic">Economic
+                                                                Seasons</Nav.Link>
+                                                        </Nav.Item>
+                                                    </Nav>
+                                                </Col>
+                                                <Col md={12}>
+                                                    <Nav variant="pills" className="flex-column">
+                                                        <Nav.Item>
+                                                            <Nav.Link className={'navgreen'} eventKey="Alt">Asset
+                                                                Seasons</Nav.Link>
+                                                        </Nav.Item>
+                                                    </Nav>
+                                                </Col>
+                                            </Row>
                                         </Container>
-                                    </Card.Body>
-                                </Container>
+                                        <Row lg={12}>
+                                            <Tab.Content>
+                                                <Tab.Pane eventKey='Basic'>
+                                                    <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Image src={'/plots/EconomicSeasonsPlot.webp'}
+                                                               alt={'Economic Seasons'}/>
+                                                    </Card>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey='Alt'>
+                                                    <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        {loading
+                                                            ? <Card.Title>Loading...</Card.Title>
+                                                            : user
+                                                                ? plan === ''
+                                                                    ? <Card.Title>Loading...</Card.Title>
+                                                                    : plan !== 'none'
+                                                                        ? <Image src={'/plots/AssetSeasonsPlot.webp'}
+                                                                                 alt={'Asset Seasons'}/>
+                                                                        :
+                                                                        <Container>
+                                                                            <h1 style={{textAlign: "center"}}>Please
+                                                                                visit <Link className={styles.weblink}
+                                                                                            href={'/auth/profile'}>Profile</Link>to
+                                                                                Upgrade Plan
+                                                                            </h1>
+                                                                        </Container>
+                                                                : <Container><h1
+                                                                    style={{textAlign: "center"}}>Please <Link
+                                                                    className={styles.weblink}
+                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    see content</h1></Container>
+                                                        }
+
+                                                    </Card>
+                                                </Tab.Pane>
+                                            </Tab.Content>
+                                        </Row>
+                                    </Col>
+                                </Tab.Container>
+
                             </Card>
                         </Container>
                     </Col>

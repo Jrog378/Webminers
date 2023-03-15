@@ -122,15 +122,15 @@ export default function Home() {
                                             never
                                             would have been able to before hand, leaving them to think they were
                                             just
-                                            unlucky. The second step of the Webminers system is weighting your
+                                            unlucky. The second step of the Webminers system is balancing your
                                             assets in
                                             a reasonable way that will make you more money than someone who just
                                             sticks
                                             to
                                             one asset.
                                         </Card.Text>
-                                        <Button variant="success" href='/weightings'>Webminers Crypto
-                                            Weightings</Button>
+                                        <Button variant="success" href='/balancing'>Webminers Crypto
+                                            Balancing</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -147,7 +147,7 @@ export default function Home() {
                                             you just want the seasons, need to balance our your portfolio with more
                                             assets, or plan on testing for optimization, we have a plan for you
                                             below. For the optimal investor our best offer includes optimization
-                                            tools, seasons, and asset weightings, which makes it our recommended
+                                            tools, seasons, and asset balancing, which makes it our recommended
                                             plan.
                                         </Card.Text>
                                         <Button variant="success" href='/pricing'>Pricing</Button>
@@ -220,10 +220,10 @@ export default function Home() {
                                     <Card>
                                         <Card.Body>
                                             <Card.Header>
-                                                Accurate Seasons and Weightings
+                                                Accurate Seasons and Balancing
                                             </Card.Header>
                                             <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                                Super Accurate Seasons and Weightings. I check the daily updates before
+                                                Super Accurate Seasons and Balancing. I check the daily updates before
                                                 doing
                                                 anything in the markets to make sure what I&apos;m doing is a smart
                                                 decision.

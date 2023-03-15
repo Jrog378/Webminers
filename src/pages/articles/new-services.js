@@ -7,9 +7,11 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 
-export default function Newservices() {
+export default function NewServices() {
     const Artsections = [
         {
+            title:'',
+            id:'',
             img: NewServicesMain,
             description: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.',
@@ -19,11 +21,14 @@ export default function Newservices() {
                 'hope you stick around to see the exciting future we have planned for you guys. Subscriptions, extended ' +
                 'features, and account management is coming sooner than you think.\n' +
                 '\n' +
-                'The Webminers System places great importance on the three biggest questions in finance that are \'When ' +
+                'The Webminers System places great importance on the [three biggest questions](#ThreeQuestions) in ' +
+                'finance that are \'When ' +
                 'to invest?\', \'What to invest?\', and \'How well did I invest?\'. These three questions come at ' +
                 'different levels but are critical for investors to ask themselves throughout their processes.'
         },
         {
+            title:'Three Big Questions',
+            id:'ThreeQuestions',
             img: NewServices1,
             description: 'Spreadsheet over a bar graph on a white piece of paper with a red pen resting on top of it' +
                 'next to a spiral notebook that has a light blue cover.',
@@ -60,6 +65,8 @@ export default function Newservices() {
                 'by time, and optimal enough to measure your system so you can track your efficiency and progress.'
         },
         {
+            title:'Webminers Articles',
+            id:'Articles',
             img: NewServices2,
             description: 'Man in a button down shirt and tie typing on a silver computer that is on a wooden desk' +
                 'with papers containing graphs and a calculator on it.',
@@ -92,8 +99,9 @@ export default function Newservices() {
         <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
             <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
                    alt={sections.description}
-                   src={sections.img}/>
+                   src={sections.img} id={sections.id}/>
             <Card.Body style={{paddingBottom: 0}}>
+                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
                 <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
                     <ReactMarkdown>{sections.text}</ReactMarkdown>
                 </Card.Text>
@@ -108,7 +116,7 @@ export default function Newservices() {
                     <script async
                             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                             crossOrigin="anonymous"></script>
-                    <title>Leveling Up Webminers Services and Content With Financial Data</title>
+                    <title>How I Built a Financial Website with Articles and an Investing System - Part 3</title>
                     <meta property='og:title' content='NewServices'/>
                     <meta property='og:image' content={NewServicesMain}/>
                     <meta name='description'
@@ -125,7 +133,7 @@ export default function Newservices() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Leveling Up Webminers Services and Content With Financial Data
+                                How I Built a Financial Website with Articles and an Investing System - Part 3
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Jan 06 2023
