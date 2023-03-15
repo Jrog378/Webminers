@@ -14,11 +14,11 @@ import TopMain from '../../images/articleimages/TopMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "react-bootstrap";
-import Dropdown from 'react-bootstrap/Dropdown';
 import ReactMarkdown from "react-markdown";
 import React, {useState} from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
+import Link from "next/link";
 
 
 export default function Toplogos() {
@@ -47,11 +47,11 @@ export default function Toplogos() {
         },
         {
             id: 11,
-            title: 'Leveling Up Webminers Services and Content With Financial Data',
+            title: 'How I Built a Financial Website with Articles and an Investing System - Part 4',
             date: 'Feb 6th 2023',
             text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
                 'Seasons, Asset Balancing, and Optimization.',
-            url: '/articles/newservices',
+            url: '/articles/new-services',
             img: NewServicesMain,
             alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.'
@@ -69,7 +69,7 @@ export default function Toplogos() {
         },
         {
             id: 9,
-            title: 'First post on the redone Webminers blog site - Updates',
+            title: 'How I Built a Financial Website with Articles and an Investing System - Part 3',
             date: 'Oct 15 2022',
             text: 'Introduction to the new blog site that has been fully redone along with summary of the new ' +
                 'categories and plans to come for webminers.',
@@ -79,7 +79,7 @@ export default function Toplogos() {
         },
         {
             id: 8,
-            title: 'Changes Coming to Webminers for an Improved Experience',
+            title: 'How I Built a Financial Website with Articles and an Investing System - Part 2',
             date: 'Sep 28 2022',
             text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.',
             url: '/articles/new-changes',
@@ -142,10 +142,10 @@ export default function Toplogos() {
         },
         {
             id: 1,
-            title: 'Introduction To Jus and the Formation of Webminers',
+            title: 'How I Built a Financial Website with Articles and an Investing System - Part 1',
             date: 'Sep 4 2022',
             text: 'Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why',
-            url: '/articles/intro',
+            url: '/articles/introduction',
             img: IntroMain,
             alt: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.'
         }
@@ -157,7 +157,7 @@ export default function Toplogos() {
                 <Container className={'blog-row'}>
                     <Row>
                         <Card.Body style={{paddingBottom: 0}}>
-                            <Card.Title>{content.title}</Card.Title>
+                            <Card.Title><Link style={{fontSize:'larger'}} className={styles.weblink} href={content.url}>{content.title}</Link></Card.Title>
                         </Card.Body>
                     </Row>
                     <Row>
@@ -207,17 +207,6 @@ export default function Toplogos() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <Container style={{
-                margin: 'auto',
-                padding: '2%',
-                minHeight: '100%',
-                backgroundColor: '#212529',
-                color: 'whitesmoke'
-            }}>
-                <h1 className={styles.Apptext} style={{padding: '25px 10px', textAlign: 'center'}}>
-                    Webminers Articles
-                </h1>
-            </Container>
             <Container style={{width: '100%'}}>
                 <Container style={{borderRadius: '15px', backgroundColor: 'rgb(213, 233, 223)'}}>
                     <Row sm={1} md={2} style={{paddingBottom: '10px'}}>

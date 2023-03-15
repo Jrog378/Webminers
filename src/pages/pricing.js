@@ -30,14 +30,14 @@ export default function Pricing() {
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link className={'navgreen'} eventKey="second">Seasonalist Plan
-                                        ($30)</Nav.Link>
+                                        ($29)</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($50)</Nav.Link>
+                                    <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($49)</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Plan
-                                        ($100)</Nav.Link>
+                                        ($99)</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Col>

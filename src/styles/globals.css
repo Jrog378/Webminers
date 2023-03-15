@@ -107,4 +107,5 @@ main {
 .nav-link.navgreen {
     color: rgb(0, 125, 75) !important;
     font-size: larger;
+    text-align: center;
 }
