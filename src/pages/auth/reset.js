@@ -23,7 +23,7 @@ function Reset() {
                 <meta property='og:title' content='Reset'/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <Container style={{width: '400px', borderRadius: '20px'}} className="login__container">
+            <Container className={styles.inputcon}>
                 <Col>
                     <Row>
                         <h1 style={{color: 'rgb(0,175,75)', fontWeight: 'bold', textAlign: 'center'}}>

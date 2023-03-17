@@ -88,7 +88,7 @@ export default function NewChanges() {
                 'of tasks to do. ' +
                 'There are many more upgrades that are even more exciting that are planned but at the moment are not ' +
                 'able to be released to viewers. If you want these sorts of updates, make sure you sign up for the ' +
-                'Webminers’ Newsletter to get notified directly to your email about plans and experiences before ' +
+                '[Webminers Email List](/email-list) to get notified directly to your email about plans and experiences before ' +
                 'anyone else.\n' +
                 '\n' +
                 'As a Technical Writer, I take it as my duty to challenge myself. This site is not just about cool ' +
