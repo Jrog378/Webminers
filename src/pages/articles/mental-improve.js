@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Mentalmain from '../../images/articleimages/MentalMain.webp'
 import Mental1 from '../../images/articleimages/Mental1.webp'
@@ -13,8 +13,8 @@ import Head from "next/head";
 export default function MentalImprove() {
     const Artsections = [
         {
-            title:'',
-            id:'',
+            title: '',
+            id: '',
             img: Mentalmain,
             description: 'A man with a blue shirt writing using a black pen in an old book that has a leather book cover on a desk.',
             text: 'Keeping a clear mind can be beneficial in any area of your life, whether in high-stress ' +
@@ -30,8 +30,8 @@ export default function MentalImprove() {
                 '4. [Set goals and accomplish them](#SettingGoals)'
         },
         {
-            title:'Build Your Morning Routine',
-            id:'MorningRoutine',
+            title: 'Build Your Morning Routine',
+            id: 'MorningRoutine',
             img: Mental1,
             description: 'A person pouring coffee into a see-through cup with coffee beans on a wooden table next to a black pitcher.',
             text: 'Waking up from 10 AM to noon is doable for some, but you must consider the downsides. When you lay ' +
@@ -52,8 +52,8 @@ export default function MentalImprove() {
                 'mornings. If you are looking for another option, water will do just fine.'
         },
         {
-            title:'Start Working Out',
-            id:'WorkingOut',
+            title: 'Start Working Out',
+            id: 'WorkingOut',
             img: Mental2,
             description: 'twenty-pound dumbbells all with metal handles on a black wrack containing more lighter dumbbells below it.',
             text: 'Working out is something that many people want to do but get lazy or don\'t stick to their ' +
@@ -75,8 +75,8 @@ export default function MentalImprove() {
                 'one when needed.\n'
         },
         {
-            title:'The Golden Mean',
-            id:'GoldenMean',
+            title: 'The Golden Mean',
+            id: 'GoldenMean',
             img: Mental3,
             description: 'ten stones all stacked on top of each other from largest to smallest with a beach in the background.',
             text: 'The Golden Mean is a Philosophical term that comes from Aristotle. He believes that virtue ' +
@@ -92,8 +92,8 @@ export default function MentalImprove() {
                 ' that was offered to you that contains sugar.'
         },
         {
-            title:'Set Goals to Achieve',
-            id:'SettingGoals',
+            title: 'Set Goals to Achieve',
+            id: 'SettingGoals',
             img: Mental4,
             description: 'Checklist on a white notebook on a wooden desk next to a full cup of coffee and a mechanical pencil.',
             text: 'Setting goals and accomplishing them was something that drove me this year so far. I wrote ' +
@@ -109,8 +109,8 @@ export default function MentalImprove() {
                 'about it and how close or far from reaching it you are.'
         },
         {
-            title:'Conclusion',
-            id:'',
+            title: 'Conclusion',
+            id: '',
             img: Mental5,
             description: 'A candle chart of the stock market going up with lots of green bars and few red bars with a black background.',
             text: 'Investing is not just a few lines on a chart where you buy low and sell high. It is much more ' +
@@ -138,19 +138,19 @@ export default function MentalImprove() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>The Best Ways to Improve your Mental State for Smarter Investing</title>
-                    <meta property='og:title' content='MentalImprove'/>
-                    <meta property='og:image' content={Mentalmain}/>
-                    <meta name='description'
-                          content='The best ways to improve your mental state for smarter investing by improving your diet, physical health, mentality, and goals.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>The Best Ways to Improve your Mental State for Smarter Investing</title>
+                <meta property='og:title' content='MentalImprove'/>
+                <meta property='og:image' content={Mentalmain}/>
+                <meta name='description'
+                      content='The best ways to improve your mental state for smarter investing by improving your diet, physical health, mentality, and goals.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -166,18 +166,18 @@ export default function MentalImprove() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

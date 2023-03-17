@@ -153,7 +153,7 @@ export default function Toplogos() {
 
     const Bloggers = blogposts.map(content =>
         <Container key={content.id} style={{padding: '10px'}}>
-            <Card style={{height: '100%', margin: '10px'}}>
+            <Card className={styles.arthover}>
                 <Container className={'blog-row'}>
                     <Row>
                         <Card.Body style={{paddingBottom: 0}}>
@@ -196,7 +196,7 @@ export default function Toplogos() {
     );
 
     return (
-        <main style={{backgroundColor: '#212529'}}>
+        <div style={{backgroundColor: 'whitesmoke', width:'100%', borderRadius:'25px'}}>
             <Head>
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
@@ -208,13 +208,13 @@ export default function Toplogos() {
                 <meta property='og:image' content={logo}/>
             </Head>
             <Container style={{width: '100%'}}>
-                <Container style={{borderRadius: '15px', backgroundColor: 'rgb(213, 233, 223)'}}>
+                <Container style={{borderRadius: '15px'}}>
                     <Row sm={1} md={2} style={{paddingBottom: '10px'}}>
                         {Bloggers}
                     </Row>
                 </Container>
 
             </Container>
-        </main>
+        </div>
     );
 }

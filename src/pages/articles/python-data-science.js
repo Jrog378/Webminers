@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import PythonData1 from '../../images/articleimages/PythonData1.webp'
 import PythonData2 from '../../images/articleimages/PythonData2.webp'
@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function PythonDataScience() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: PythonDataMain,
             description: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored code filling the page.',
             text: 'Python has been seen many times as one of the most popular programming languages in today’s world ' +
@@ -29,7 +29,7 @@ export default function PythonDataScience() {
                 'your native one. '
         },
         {
-            title:'First Lessons',
+            title: 'First Lessons',
             img: PythonData1,
             description: 'Mac Laptop with multicolored coding displayed on it alongside a notebook and a pen on top of that.',
             text: 'After learning a bit about the rules of strings, integers, and floats you can get into the math. ' +
@@ -46,7 +46,7 @@ export default function PythonDataScience() {
                 'Don’t be discouraged however because if they can do it so can you.'
         },
         {
-            title:'Introduction to Data Science',
+            title: 'Introduction to Data Science',
             img: PythonData2,
             description: 'Laptop with a notebook and pen resting on it with a spreadsheet all above a spreadsheet and a line graph in blue.',
             text: 'For data science one of the most basic tasks is loading up data and cleaning it. ' +
@@ -64,7 +64,7 @@ export default function PythonDataScience() {
                 'There is so much able to be done and the world of data is your playground.'
         },
         {
-            title:'Other Uses for Python',
+            title: 'Other Uses for Python',
             img: PythonData3,
             description: 'Glasses, a blue bar chart, a notepad with pen, coffee, a Mac Laptop, and paperclips on a black table.',
             text: 'If you are seeing this and telling yourself that you don\'t really want to work with algorithms ' +
@@ -96,7 +96,7 @@ export default function PythonDataScience() {
                 'because it rarely pays off.'
         },
         {
-            title:'Where to Go From Here',
+            title: 'Where to Go From Here',
             img: PythonData4,
             description: 'Dark desk lit up by a desk lite with a Mac Laptop on a computer stand with a book and a tiny globe.',
             text: 'One of the industry\'s favorite websites for coding help is [StackOverflow](https://stackoverflow.com/).' +
@@ -137,19 +137,19 @@ export default function PythonDataScience() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>Python Has Been Taking Over The Data Science World</title>
-                    <meta property='og:title' content='PythonData'/>
-                    <meta property='og:image' content={PythonDataMain}/>
-                    <meta name='description'
-                          content="Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science. Let's see why."/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>Python Has Been Taking Over The Data Science World</title>
+                <meta property='og:title' content='PythonData'/>
+                <meta property='og:image' content={PythonDataMain}/>
+                <meta name='description'
+                      content="Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science. Let's see why."/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -165,18 +165,18 @@ export default function PythonDataScience() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

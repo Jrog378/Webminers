@@ -30,13 +30,13 @@ export default function Profile() {
     }, [user, loading]);
     return (
         <>
-            <main>
+            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width:'100%'}}>
                 <Head>
                     <title>Webminers - Profile</title>
                     <meta property='og:title' content='Profile'/>
                     <meta property='og:image' content={logo}/>
                 </Head>
-                <Container style={{backgroundColor: 'whitesmoke', borderRadius: '25px', wordWrap: 'break-word'}}>
+                <Container style={{wordWrap: 'break-word'}}>
                     {user && !loading
                         ? <Container style={{padding: '5% 15%'}}>
                             <h1>Hello {name}</h1>
@@ -78,7 +78,7 @@ export default function Profile() {
                         </h3>
                     </Container>
                 </Container>
-            </main>
+            </div>
         </>
     );
 }

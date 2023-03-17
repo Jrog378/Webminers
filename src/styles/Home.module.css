@@ -529,7 +529,32 @@ main:has(> .full) {
     border-radius: 25px;
 }
 
+.cardhover {
+    background-color: whitesmoke;
+}
+
+.cardhover:hover {
+    background-color: rgb(213, 233, 223);
+}
+
 .webmark {
     font-size: large;
     line-height: 2;
+}
+
+.sales {
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+    padding: 25px;
+}
+
+.arthover {
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 10px;
+}
+
+.arthover:hover {
+    background-color: rgb(213, 233, 223);
 }

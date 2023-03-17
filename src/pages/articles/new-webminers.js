@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import SiteMain from '../../images/articleimages/SiteMain.webp'
 import Site1 from '../../images/articleimages/Site1.webp'
@@ -28,7 +28,7 @@ export default function NewWebminers() {
                 'I tested out the VueJS, AngularJS, and ReactJS frameworks for Javascript. \n'
         },
         {
-            title:'Choosing A Front End Framework',
+            title: 'Choosing A Front End Framework',
             img: Site1,
             description: 'A blurred out person that is holding a sticker or piece of paper that is displaying the blue ' +
                 'logo for the React JS library.',
@@ -59,7 +59,7 @@ export default function NewWebminers() {
                 'some reason changing one category made this change happen on every page.\n'
         },
         {
-            title:'Types of Articles we are Writing',
+            title: 'Types of Articles we are Writing',
             img: Site2,
             description: 'Scrabble letters on dark wood with black lettering spelling out fail your way to success with ' +
                 'each word being a new line.',
@@ -129,20 +129,20 @@ export default function NewWebminers() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>How I Built a Financial Website with Articles and an Investing System - Part 2</title>
-                    <meta property='og:title' content='NewWeb'/>
-                    <meta property='og:image' content={SiteMain}/>
-                    <meta name='description'
-                          content='Introduction to the new site that has been fully redone along with summary of the
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>How I Built a Financial Website with Articles and an Investing System - Part 3</title>
+                <meta property='og:title' content='NewWeb'/>
+                <meta property='og:image' content={SiteMain}/>
+                <meta name='description'
+                      content='Introduction to the new site that has been fully redone along with summary of the
                   new categories and plans to come for webminers.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -151,25 +151,25 @@ export default function NewWebminers() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 2
+                                How I Built a Financial Website with Articles and an Investing System - Part 3
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Oct 15 2022
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

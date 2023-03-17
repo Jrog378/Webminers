@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import NewServicesMain from '../../images/articleimages/NewServicesMain.webp'
 import NewServices1 from '../../images/articleimages/NewServices1.webp'
@@ -10,8 +10,8 @@ import Head from "next/head";
 export default function NewServices() {
     const Artsections = [
         {
-            title:'',
-            id:'',
+            title: '',
+            id: '',
             img: NewServicesMain,
             description: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.',
@@ -27,8 +27,8 @@ export default function NewServices() {
                 'different levels but are critical for investors to ask themselves throughout their processes.'
         },
         {
-            title:'Three Big Questions',
-            id:'ThreeQuestions',
+            title: 'Three Big Questions',
+            id: 'ThreeQuestions',
             img: NewServices1,
             description: 'Spreadsheet over a bar graph on a white piece of paper with a red pen resting on top of it' +
                 'next to a spiral notebook that has a light blue cover.',
@@ -65,8 +65,8 @@ export default function NewServices() {
                 'by time, and optimal enough to measure your system so you can track your efficiency and progress.'
         },
         {
-            title:'Webminers Articles',
-            id:'Articles',
+            title: 'Webminers Articles',
+            id: 'Articles',
             img: NewServices2,
             description: 'Man in a button down shirt and tie typing on a silver computer that is on a wooden desk' +
                 'with papers containing graphs and a calculator on it.',
@@ -111,20 +111,20 @@ export default function NewServices() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>How I Built a Financial Website with Articles and an Investing System - Part 3</title>
-                    <meta property='og:title' content='NewServices'/>
-                    <meta property='og:image' content={NewServicesMain}/>
-                    <meta name='description'
-                          content='Many upgrades have occurred since you last saw a Webminers article. We are
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>How I Built a Financial Website with Articles and an Investing System - Part 4</title>
+                <meta property='og:title' content='NewServices'/>
+                <meta property='og:image' content={NewServicesMain}/>
+                <meta name='description'
+                      content='Many upgrades have occurred since you last saw a Webminers article. We are
                   adding features like Seasons, Asset Balancing, and Optimization.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -133,25 +133,25 @@ export default function NewServices() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 3
+                                How I Built a Financial Website with Articles and an Investing System - Part 4
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Jan 06 2023
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

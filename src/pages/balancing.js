@@ -35,142 +35,152 @@ export default function Balancing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
-                <Row>
-                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                        <Container style={{padding: '10px'}}>
-                            <Card style={{backgroundColor: 'rgb(225,225,225)'}}>
-                                <Container>
-                                    <Card.Body style={{margin: 'auto'}}>
-                                        <Card.Title style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
-                                            Cryptocurrency Balancing
-                                        </Card.Title>
-                                    </Card.Body>
-                                    <Card.Body style={{margin: 'auto'}}>
-                                        <Card.Text style={{fontSize: '20px'}}>
-                                            These balances are based on when you have the most potential for
-                                            rewards with both Alt Coins and Ethereum. These balances do not mean
-                                            buy or sell, rather if you were to buy that these percentages are what
-                                            the data is saying to do (visit our Economic Seasons page for this).
-                                            Here is also where we have the balances of our selected currencies. These
-                                            coins are picked for their ability to be predicted and possible outcome.
-                                            This graph is only available through &apos;The Investors Plan&apos;, which
-                                            you can get if you haven&apos;t already below.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Container>
-                            </Card>
-                        </Container>
-                    </Col>
-                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                        <Container style={{padding: '10px'}}>
-                            <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
-                                    <Col>
-                                        <Container style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                            <Row lg={12} style={{paddingBottom: '5px'}}>
-                                                <Col md={12}>
-                                                    <Nav variant="pills" className="flex-column">
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'} eventKey="Basic">Basic
-                                                                Balancing</Nav.Link>
-                                                        </Nav.Item>
-                                                    </Nav>
-                                                </Col>
-                                                <Col md={12}>
-                                                    <Nav variant="pills" className="flex-column">
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'} eventKey="Alt">Alt
-                                                                Balancing</Nav.Link>
-                                                        </Nav.Item>
-                                                    </Nav>
-                                                </Col>
-                                                <Col md={12}>
-                                                    <Nav variant="pills" className="flex-column">
-                                                        <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
-                                                                      eventKey="Experimental">Experimental
-                                                                Balancing</Nav.Link>
-                                                        </Nav.Item>
-                                                    </Nav>
-                                                </Col>
-                                            </Row>
-                                        </Container>
-                                        <Row lg={12}>
-                                            <Tab.Content>
-                                                <Tab.Pane eventKey='Basic'>
-                                                    <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                        <Image src={'/plots/AssetBalancing.webp'}
-                                                               alt={'AssetBalancing'}/>
-                                                    </Card>
-                                                </Tab.Pane>
-                                                <Tab.Pane eventKey='Alt'>
-                                                    <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                        {loading
-                                                            ? <Card.Title>Loading...</Card.Title>
-                                                            : user
-                                                                ? plan === ''
-                                                                    ? <Card.Title>Loading...</Card.Title>
-                                                                    : plan !== 'none' && plan !== 'Seasonalist'
-                                                                        ? <Image src={'/plots/MiniAssetBalancing.webp'}
-                                                                                 alt={'MiniAssetWeighting'}/>
-                                                                        :
-                                                                        <Container><h1
-                                                                            style={{textAlign: "center"}}>Please
-                                                                            visit <Link
-                                                                                className={styles.weblink}
-                                                                                href={'/auth/profile'}>Profile</Link> to
-                                                                            Upgrade Plan
-                                                                        </h1></Container>
-                                                                : <Container><h1
-                                                                    style={{textAlign: "center"}}>Please <Link
-                                                                    className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
-                                                                    see content</h1></Container>
-                                                        }
-                                                    </Card>
-                                                </Tab.Pane>
-                                                <Tab.Pane eventKey='Experimental'>
-                                                    <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                        {loading
-                                                            ?
-                                                            <Card.Title>Loading...</Card.Title>
-                                                            : user
-                                                                ? plan === ''
-                                                                    ?
-                                                                    <Card.Title>Loading...</Card.Title>
-                                                                    : plan === 'Strategist'
+            <div style={{width:'100%', backgroundColor:'whitesmoke', borderRadius:'25px'}}>
+                <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
+                    <Row>
+                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                            <Container style={{padding: '10px'}}>
+                                <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
+                                    <Container>
+                                        <Card.Body style={{margin: 'auto'}}>
+                                            <Card.Title
+                                                style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
+                                                Cryptocurrency Balancing
+                                            </Card.Title>
+                                        </Card.Body>
+                                        <Card.Body style={{margin: 'auto'}}>
+                                            <Card.Text style={{fontSize: '20px'}}>
+                                                Asset balancing diversifies your portfolio and reduces risk. In
+                                                efficient investing, we <strong>need</strong> at least a little bit of
+                                                diversification. Rather than chucking a few assets into a hat and
+                                                picking from it, we have measured the efficiencies of many options
+                                                and selected the assets that stood out the most to us. This efficiency
+                                                data comes from <Link className={styles.weblink} href={'research'}>
+                                                Webminers Research</Link> if you want to build your portfolio.
+                                                There are three levels of Balancing, each with more assets for
+                                                you to pick from.
+                                                <br/>
+                                                <br/>
+                                                P.S. Now that we have answered &apos;What to invest in?&apos; visit
+                                                <Link className={styles.weblink} href={'seasons'}> Webminers Seasons
+                                                </Link> to answer &apos;When to invest?&apos;
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Container>
+                                </Card>
+                            </Container>
+                        </Col>
+                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                            <Container style={{padding: '10px'}}>
+                                <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                    <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
+                                        <Col>
+                                            <Container style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                <Row lg={12} style={{paddingBottom: '5px'}}>
+                                                    <Col md={12}>
+                                                        <Nav variant="pills" className="flex-column">
+                                                            <Nav.Item>
+                                                                <Nav.Link className={'navgreen'} eventKey="Basic">Basic
+                                                                    Balancing</Nav.Link>
+                                                            </Nav.Item>
+                                                        </Nav>
+                                                    </Col>
+                                                    <Col md={12}>
+                                                        <Nav variant="pills" className="flex-column">
+                                                            <Nav.Item>
+                                                                <Nav.Link className={'navgreen'} eventKey="Alt">Alt
+                                                                    Balancing</Nav.Link>
+                                                            </Nav.Item>
+                                                        </Nav>
+                                                    </Col>
+                                                    <Col md={12}>
+                                                        <Nav variant="pills" className="flex-column">
+                                                            <Nav.Item>
+                                                                <Nav.Link className={'navgreen'}
+                                                                          eventKey="Experimental">Experimental
+                                                                    Balancing</Nav.Link>
+                                                            </Nav.Item>
+                                                        </Nav>
+                                                    </Col>
+                                                </Row>
+                                            </Container>
+                                            <Row lg={12}>
+                                                <Tab.Content>
+                                                    <Tab.Pane eventKey='Basic'>
+                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                            <Image src={'/plots/AssetBalancing.webp'}
+                                                                   alt={'AssetBalancing'}/>
+                                                        </Card>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey='Alt'>
+                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                            {loading
+                                                                ? <Card.Title>Loading...</Card.Title>
+                                                                : user
+                                                                    ? plan === ''
+                                                                        ? <Card.Title>Loading...</Card.Title>
+                                                                        : plan !== 'none' && plan !== 'Seasonalist'
+                                                                            ? <Image
+                                                                                src={'/plots/MiniAssetBalancing.webp'}
+                                                                                alt={'MiniAssetWeighting'}/>
+                                                                            :
+                                                                            <Container><h1
+                                                                                style={{textAlign: "center"}}>Please
+                                                                                visit <Link
+                                                                                    className={styles.weblink}
+                                                                                    href={'/auth/profile'}>Profile</Link> to
+                                                                                Upgrade Plan
+                                                                            </h1></Container>
+                                                                    : <Container><h1
+                                                                        style={{textAlign: "center"}}>Please <Link
+                                                                        className={styles.weblink}
+                                                                        href={'/auth/login'}>Login</Link> to
+                                                                        see content</h1></Container>
+                                                            }
+                                                        </Card>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey='Experimental'>
+                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                            {loading
+                                                                ?
+                                                                <Card.Title>Loading...</Card.Title>
+                                                                : user
+                                                                    ? plan === ''
                                                                         ?
-                                                                        <Image
-                                                                            src={'/plots/MiniAssetBalancingExp.webp'}
-                                                                            alt={'MiniAssetWeighting'}/>
-                                                                        :
-                                                                        <Container style={{padding: '25px 10%'}}>
-                                                                            <h2 style={{
-                                                                                textAlign: "center",
-                                                                            }}>Please visit <Link
-                                                                                className={styles.weblink}
-                                                                                href={'/auth/profile'}>Profile</Link> to
-                                                                                upgrade to Strategist plan</h2>
-                                                                        </Container>
-                                                                : <Container><h1
-                                                                    style={{textAlign: "center"}}>Please <Link
-                                                                    className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
-                                                                    see content</h1></Container>
+                                                                        <Card.Title>Loading...</Card.Title>
+                                                                        : plan === 'Strategist'
+                                                                            ?
+                                                                            <Image
+                                                                                src={'/plots/MiniAssetBalancingExp.webp'}
+                                                                                alt={'MiniAssetWeighting'}/>
+                                                                            :
+                                                                            <Container style={{padding: '25px 10%'}}>
+                                                                                <h2 style={{
+                                                                                    textAlign: "center",
+                                                                                }}>Please visit <Link
+                                                                                    className={styles.weblink}
+                                                                                    href={'/auth/profile'}>Profile</Link> to
+                                                                                    upgrade to Strategist plan</h2>
+                                                                            </Container>
+                                                                    : <Container><h1
+                                                                        style={{textAlign: "center"}}>Please <Link
+                                                                        className={styles.weblink}
+                                                                        href={'/auth/login'}>Login</Link> to
+                                                                        see content</h1></Container>
 
-                                                        }
-                                                    </Card>
-                                                </Tab.Pane>
-                                            </Tab.Content>
-                                        </Row>
-                                    </Col>
-                                </Tab.Container>
-                            </Card>
-                        </Container>
-                    </Col>
-                </Row>
-            </Container>
+                                                            }
+                                                        </Card>
+                                                    </Tab.Pane>
+                                                </Tab.Content>
+                                            </Row>
+                                        </Col>
+                                    </Tab.Container>
+                                </Card>
+                            </Container>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </>
     )
 }

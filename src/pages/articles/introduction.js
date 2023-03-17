@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Intro1 from '../../images/articleimages/Intro1.webp'
 import Intro2 from '../../images/articleimages/Intro2.webp'
@@ -11,7 +11,7 @@ import Head from "next/head";
 export default function Introduction() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: IntroMain,
             description: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.',
             text: 'Welcome to part 1 of an ongoing series here at Webminers, where I share the journey of ' +
@@ -32,7 +32,7 @@ export default function Introduction() {
                 'liked the classes much better and switched shortly after.'
         },
         {
-            title:'Filling Free Time',
+            title: 'Filling Free Time',
             img: Intro1,
             description: 'Many graphs in a mac laptop including, bar chart, map, donut chart, and line graph with a blue theme.',
             text: 'In data science, I freed up my schedule more than before from having classes I took in high ' +
@@ -60,7 +60,7 @@ export default function Introduction() {
                 'was a must for me to succeed.'
         },
         {
-            title:'What to Provide',
+            title: 'What to Provide',
             img: Intro2,
             description: 'HTML code on a mac laptop that is in the process of being made into a website with different types of tags.',
             text: 'Once again, the programming side of things did not seem to stick with me. I loved programming' +
@@ -80,7 +80,7 @@ export default function Introduction() {
                 ' This time was different. I wanted to use my data science knowledge in the markets.\n'
         },
         {
-            title:'The Foundation',
+            title: 'The Foundation',
             img: Intro3,
             description: 'Grey Mac Laptop with a black keyboard with a rainbow gradient light shining down on it from above.',
             text: 'I decided to create a system that could compete with the best in the market and bring me the ' +
@@ -114,19 +114,19 @@ export default function Introduction() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>How I Built a Financial Website with Articles and an Investing System - Part 1</title>
-                    <meta property='og:title' content='IntroJus'/>
-                    <meta property='og:image' content={IntroMain}/>
-                    <meta name='description'
-                          content='Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>How I Built a Financial Website with Articles and an Investing System - Part 1</title>
+                <meta property='og:title' content='IntroJus'/>
+                <meta property='og:image' content={IntroMain}/>
+                <meta name='description'
+                      content='Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -142,18 +142,18 @@ export default function Introduction() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

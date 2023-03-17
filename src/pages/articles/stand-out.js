@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Unique1 from '../../images/articleimages/Unique1.webp'
 import Unique2 from '../../images/articleimages/Unique2.webp'
@@ -162,19 +162,19 @@ export default function StandOut() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>Avoid the copy and paste psyche & break applicant uniformity</title>
-                    <meta property='og:title' content='UniqueJob'/>
-                    <meta property='og:image' content={UniqueMain}/>
-                    <meta name='description'
-                          content='The world of developers and programmers is a plentiful place. However, you want to show how
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>Avoid the copy and paste psyche & break applicant uniformity</title>
+                <meta property='og:title' content='UniqueJob'/>
+                <meta property='og:image' content={UniqueMain}/>
+                <meta name='description'
+                      content='The world of developers and programmers is a plentiful place. However, you want to show how
                   different you are and stand out with what you have.'/>
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -190,18 +190,18 @@ export default function StandOut() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

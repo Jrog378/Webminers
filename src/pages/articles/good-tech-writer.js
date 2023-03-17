@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import GoodWriter1 from '../../images/articleimages/GoodWriter1.webp'
 import GoodWriter3 from '../../images/articleimages/GoodWriter3.webp'
@@ -13,8 +13,8 @@ import Head from "next/head";
 export default function GoodTechWriter() {
     const Artsections = [
         {
-            title:'',
-            id:'',
+            title: '',
+            id: '',
             img: GoodWriterMain,
             description: 'Older dip pen resting on a black tabletop and a black background along with a black shadow covering over them.',
             text: 'Technical Copywriting or Writing has so many opportunities for almost anyone who is willing to ' +
@@ -33,8 +33,8 @@ export default function GoodTechWriter() {
                 '4. [Always learn and grow](#LearnAndGrow)'
         },
         {
-            title:'Work to Develop Your Skills',
-            id:'DevelopSkills',
+            title: 'Work to Develop Your Skills',
+            id: 'DevelopSkills',
             img: GoodWriter1,
             description: 'Pen and paper on a desk with a book next to it and a clock resting on top along with a bag and pencil case next to these.',
             text: 'Practice is one of the first things I did when I started learning how to copywrite and I ' +
@@ -59,8 +59,8 @@ export default function GoodTechWriter() {
                 'as you have set yourself up with a framework that can be expanded into larger pieces.'
         },
         {
-            title:'Read Back Your Work',
-            id:'ReadWorkOutLoud',
+            title: 'Read Back Your Work',
+            id: 'ReadWorkOutLoud',
             img: GoodWriter3,
             description: 'Tablet with writing on a white screen on a dark brown wooden desk next to a large stack of books with a library in the background.',
             text: 'I am combining these next two because they are very similar. The mind is an extremely confusing ' +
@@ -91,8 +91,8 @@ export default function GoodTechWriter() {
                 'changed-ceadc40b76c1) as well'
         },
         {
-            title:'Free Value',
-            id:'FreeValue',
+            title: 'Free Value',
+            id: 'FreeValue',
             img: GoodWriter4,
             description: 'Black cursive writing on an old white piece of paper that is zoomed in on and focused just in the middle.',
             text: 'Working for free is a confusing topic for many people and isn’t always the most popular opinion ' +
@@ -115,8 +115,8 @@ export default function GoodTechWriter() {
                 '#Freeloaders).'
         },
         {
-            title:'Learn and Grow',
-            id:'LearnAndGrow',
+            title: 'Learn and Grow',
+            id: 'LearnAndGrow',
             img: GoodWriter5,
             description: 'A black ballpoint pen writing the two words be creative with a lightbulb next to it on a white sheet of paper.',
             text: 'Practicing was already mentioned but this type of practice is different. As you are ' +
@@ -134,8 +134,8 @@ export default function GoodTechWriter() {
                 'grow and will keep you in check.'
         },
         {
-            title:'Conclusion',
-            id:'',
+            title: 'Conclusion',
+            id: '',
             img: GoodWriter6,
             description: 'A pen and paper resting on a laptop on a brown wooden desk with a cup of brown coffee with a creamer design on it next to them.',
             text: 'Technical copywriting for me has been a life-changing journey and I am becoming a better and ' +
@@ -168,19 +168,19 @@ export default function GoodTechWriter() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>What Truly Makes a Good Technical Copywriter Stand Out</title>
-                    <meta property='og:title' content='WhyTechWriter'/>
-                    <meta property='og:image' content={GoodWriterMain}/>
-                    <meta name='description'
-                          content='How to become a better technical copywriter and develop in-demand skills to make an impact and provide these services to businesses.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>What Truly Makes a Good Technical Copywriter Stand Out</title>
+                <meta property='og:title' content='WhyTechWriter'/>
+                <meta property='og:image' content={GoodWriterMain}/>
+                <meta name='description'
+                      content='How to become a better technical copywriter and develop in-demand skills to make an impact and provide these services to businesses.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -196,7 +196,7 @@ export default function GoodTechWriter() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
@@ -207,7 +207,7 @@ export default function GoodTechWriter() {
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

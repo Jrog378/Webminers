@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Improve1 from '../../images/articleimages/Improve1.webp'
 import Improve2 from '../../images/articleimages/Improve2.webp'
@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function NewChanges() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: ImproveMain,
             description: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has many thin black bars.',
             text: 'Webminers is a small company that is working with little to no budget. All we have is a Domain on ' +
@@ -26,7 +26,7 @@ export default function NewChanges() {
                 'though as we will be expanding more than you may expect.',
         },
         {
-            title:'Finding a Hosting Service',
+            title: 'Finding a Hosting Service',
             img: Improve1,
             description: 'Scrabble pieces with the letters w, e, and b, to spell out the word web with a grey background and a black vignette.',
             text: 'The first step of expansion is implementing our code on the website. We want to truly be the ' +
@@ -48,7 +48,7 @@ export default function NewChanges() {
                 'ourselves. This will not be a professionally made website but a hobbyist making a article for Webminers.'
         },
         {
-            title:'Learning Code for the Website',
+            title: 'Learning Code for the Website',
             img: Improve2,
             description: 'iMac on a tiny white desk with a matching apple keyboard and mouse with an image of a staircase leading into moving ocean waves.',
             text: 'Learning how to make a website is not foreign to me, yet this will still be a challenge. I have ' +
@@ -71,7 +71,7 @@ export default function NewChanges() {
                 'Webminers has much to come.'
         },
         {
-            title:'Making Things Look Nice',
+            title: 'Making Things Look Nice',
             img: Improve3,
             description: 'A white piece of paper with a drawn-out model of a website in black pen with multiple squares and writing in a grid format.',
             text: 'Once we have the Website up and running next comes the UX, also known as [User Experience]' +
@@ -100,7 +100,7 @@ export default function NewChanges() {
                 'know in the comments below.'
         },
         {
-            title:'More to Come',
+            title: 'More to Come',
             img: Improve4,
             description: 'Scrabble pieces of b, l, o, g, to spell out blog with numbers on each resting on a middle-colored wooden desk.',
             text: 'As I learn more and more about the language Javascript, I will continue to apply it in multiple ' +
@@ -134,19 +134,19 @@ export default function NewChanges() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>How I Built a Financial Website with Articles and an Investing System - Part 2</title>
-                    <meta property='og:title' content='NewChanges'/>
-                    <meta property='og:image' content={ImproveMain}/>
-                    <meta name='description'
-                          content='Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>How I Built a Financial Website with Articles and an Investing System - Part 2</title>
+                <meta property='og:title' content='NewChanges'/>
+                <meta property='og:image' content={ImproveMain}/>
+                <meta name='description'
+                      content='Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -162,18 +162,18 @@ export default function NewChanges() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }
