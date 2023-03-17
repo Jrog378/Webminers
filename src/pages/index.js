@@ -76,7 +76,7 @@ function EmailALert() {
                                                 setMail(e.target.value);
                                             }}
                                             type='email'
-                                            placeholder='Email Address'
+                                            placeholder='E-mail Address'
                                             className={styles.inputs}></input>
                                     </Col>
                                     <Col style={{paddingTop: '5px'}}>

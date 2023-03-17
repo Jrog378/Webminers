@@ -103,8 +103,8 @@ export default function TopInvestor() {
                 ' by removing unnecessary work.\n' +
                 '\n' +
                 'There are many types of investing styles. Our in-depth article will be coming out soon about ' +
-                'what they are and how you can pick one that goes with your personality. Join our email list ' +
-                'for updates on this.\n'
+                'what they are and how you can pick one that goes with your personality. Join our ' +
+                '[Email List](/email-list) for updates on this.\n'
         },
         {
             img: Top4,
