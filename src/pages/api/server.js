@@ -151,22 +151,3 @@ export default async function handler(req, res) {
         res.status(405).end("Method Not Allowed");
     }
 };
-
-//
-// let userID = ''
-//
-// const options = {
-//     method: 'GET',
-//     url: process.env.AUTH0_API_URL + '/api/v2/users-by-email?email=' + Email,
-//     headers: {authorization: 'Bearer ' + token, 'content-type': 'application/json'},
-// };
-// await axios.request(options).then(function (response) {
-//     userID = response.data[0]['identities'][0]['user_id']
-//     console.log(response.data)
-//     console.log(userID);
-// }).catch(function (error) {
-//     console.error(error);
-// });
-//
-// let UserID = 'auth0%7C' + userID
-// console.log(UserID)
