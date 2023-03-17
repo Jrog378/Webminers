@@ -213,7 +213,6 @@ export default function Toplogos() {
                         {Bloggers}
                     </Row>
                 </Container>
-
             </Container>
         </div>
     );
