@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Sat1 from '../../images/articleimages/Sat1.webp'
 import Sat2 from '../../images/articleimages/Sat2.webp'
@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function SpaceSpies() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: SatMain,
             description: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue body of water.',
             text: 'Satellites have accomplished a large multitude of achievements from quality communication ' +
@@ -22,7 +22,7 @@ export default function SpaceSpies() {
                 'Most people, however, do not recognize the large impact that they have truly provided on technology.'
         },
         {
-            title:'Background to Satellites',
+            title: 'Background to Satellites',
             img: Sat1,
             description: 'Large grey metal Satellite tower that is covered with over ten satellite dishes under the cloudy sky.',
             text: 'There are over 5500 operating Satellites across the entire world. Some ' +
@@ -48,7 +48,7 @@ export default function SpaceSpies() {
                 'spatial data to assign numbers to a place.'
         },
         {
-            title:'Uses of Satellites',
+            title: 'Uses of Satellites',
             img: Sat2,
             description: 'Brown map on the wall of a white room with a computer on a wooden desk below it with coffee there too.',
             text: 'Spatial Data and satellite investigation advancements have also significantly contributed to ' +
@@ -82,7 +82,7 @@ export default function SpaceSpies() {
                 'wrong person gets into contact with them.'
         },
         {
-            title:'The Threat of Hackers',
+            title: 'The Threat of Hackers',
             img: Sat3,
             description: 'Large metal satellite disk on a metal structure looking up at the clear nighttime sky covered in bright stars.',
             text: 'Hackers can spy on individuals and groups to gain information or steal older records. This is not ' +
@@ -105,7 +105,7 @@ export default function SpaceSpies() {
                 'people who want the opposite with it'
         },
         {
-            title:'Our Safety',
+            title: 'Our Safety',
             img: Sat4,
             description: 'Satellite photo of Italy from the space at night with lights covering the visible land completely.',
             text: 'Precautions must be of high importance now that we know what is at stake. Security must be ' +
@@ -146,18 +146,18 @@ export default function SpaceSpies() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>Satellites - The Space Spies That Watch Over The World</title>
-                    <meta property='og:title' content='SatSpies'/>
-                    <meta property='og:image' content={SatMain}/>
-                    <meta name='description'
-                          content='Explaining the good and bad of constant satellite recording with where we draw the line between spying on people and privacy.'/>
-                </Head>
-                <div>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>Satellites - The Space Spies That Watch Over The World</title>
+                <meta property='og:title' content='SatSpies'/>
+                <meta property='og:image' content={SatMain}/>
+                <meta name='description'
+                      content='Explaining the good and bad of constant satellite recording with where we draw the line between spying on people and privacy.'/>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -173,18 +173,18 @@ export default function SpaceSpies() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

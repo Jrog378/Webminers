@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Ethical1 from '../../images/articleimages/Ethical1.webp'
 import Ethical2 from '../../images/articleimages/Ethical2.webp'
@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function EthicalHacking() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: lock,
             description: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
             text: 'The terms Cryptocurrency and Web3 have been tossed around lately and with good reason. They are ' +
@@ -22,7 +22,7 @@ export default function EthicalHacking() {
                 'downsides and just how exposed we really are.'
         },
         {
-            title:'Background for Safety',
+            title: 'Background for Safety',
             img: Ethical1,
             description: 'A small section of a Mac Laptop with a rainbow gradient light from red to blue and a black keyboard.',
             text: 'Web3 is also known as the movement towards a more decentralized web. ' +
@@ -47,7 +47,7 @@ export default function EthicalHacking() {
                 'Once someone is successful at stealing large sums of money on the internet, will most likely steal again.\n'
         },
         {
-            title:'Digital Dangers',
+            title: 'Digital Dangers',
             img: Ethical2,
             description: 'Bitcoin sitting in front of a computer screen that has the crypto market graph that is in the color blue.',
             text: 'Crypto owners aren\'t the only ones at threat as well. Smart contracts on the blockchain(a network ' +
@@ -78,7 +78,7 @@ export default function EthicalHacking() {
                 'compromised and hacked into without really any protection.'
         },
         {
-            title:'How to Keep Yourself Safe',
+            title: 'How to Keep Yourself Safe',
             img: Ethical3,
             description: 'Computer screen with a mouse hovering over a button that is labeled with the word security in the color blue.',
             text: 'This all may sound very concerning and you may wonder what should you do and how can you stop ' +
@@ -105,7 +105,7 @@ export default function EthicalHacking() {
                 'like the firewall or how easy it would be to steal data.'
         },
         {
-            title:'Summary',
+            title: 'Summary',
             img: Ethical4,
             description: 'Random characters flowing over the screen from top to bottom in the color green with a black background, the matrix.',
             text: 'In today\'s age of the internet, some white hat hackers were not respected that well by companies, ' +
@@ -145,19 +145,19 @@ export default function EthicalHacking() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>Ethical Hackers Are Needed More Than Ever In Our Future</title>
-                    <meta property='og:title' content='EthicalHackers'/>
-                    <meta property='og:image' content={lock}/>
-                    <meta name='description'
-                          content='As hackers are getting better and better, what can truly be done to stop them to keep you and your family digitally safe.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>Ethical Hackers Are Needed More Than Ever In Our Future</title>
+                <meta property='og:title' content='EthicalHackers'/>
+                <meta property='og:image' content={lock}/>
+                <meta name='description'
+                      content='As hackers are getting better and better, what can truly be done to stop them to keep you and your family digitally safe.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -173,18 +173,18 @@ export default function EthicalHacking() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

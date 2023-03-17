@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Techie1 from '../../images/articleimages/Techie1.webp'
 import Techie2 from '../../images/articleimages/Techie2.webp'
@@ -176,19 +176,19 @@ export default function TechFuture() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>6 Growing Jobs To Take Advantage of Our Technical Future</title>
-                    <meta property='og:title' content='TechJobs'/>
-                    <meta property='og:image' content={TechieMain}/>
-                    <meta name='description'
-                          content='As Jobs began to be automated and replaced by technology, here are the few that have a prosperous future for anyone to take advantage.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>6 Growing Jobs To Take Advantage of Our Technical Future</title>
+                <meta property='og:title' content='TechJobs'/>
+                <meta property='og:image' content={TechieMain}/>
+                <meta name='description'
+                      content='As Jobs began to be automated and replaced by technology, here are the few that have a prosperous future for anyone to take advantage.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -204,18 +204,18 @@ export default function TechFuture() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

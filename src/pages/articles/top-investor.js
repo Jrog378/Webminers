@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import TopMain from '../../images/articleimages/TopMain.webp'
 import Top1 from '../../images/articleimages/Top1.webp'
@@ -14,8 +14,8 @@ export default function TopInvestor() {
     const Artsections = [
         {
             img: TopMain,
-            title:'',
-            id:'',
+            title: '',
+            id: '',
             description: '',
             text: '95% of people who go into investing lose money. As investors, we must limit our losses and not ' +
                 'become that 95%. What does it take to be in the top five or even one percent? In this article, ' +
@@ -31,8 +31,8 @@ export default function TopInvestor() {
         },
         {
             img: Top1,
-            title:'No More Emotional Investing',
-            id:'EmotionalInvesting',
+            title: 'No More Emotional Investing',
+            id: 'EmotionalInvesting',
             description: '',
             text: 'Emotion comes naturally to humans. Fundamentally the act of competition is a very emotion-induc' +
                 'ing activity. Trying hard to make money without losing all your money can cause worry and stress. ' +
@@ -57,8 +57,8 @@ export default function TopInvestor() {
         },
         {
             img: Top2,
-            title:'Build Your Investing System',
-            id:'InvestingSystem',
+            title: 'Build Your Investing System',
+            id: 'InvestingSystem',
             description: '',
             text: 'Investing systems are how you automate your investments so that data or rules make decisions ' +
                 'instead of you and your emotions. This data may be collected daily, weekly, or even monthly, ' +
@@ -81,8 +81,8 @@ export default function TopInvestor() {
         },
         {
             img: Top3,
-            title:'Stop Trying To Catch Everything',
-            id:'CatchEverything',
+            title: 'Stop Trying To Catch Everything',
+            id: 'CatchEverything',
             description: '',
             text: 'Being able to catch every move successfully will never happen. The markets are unpredictable, ' +
                 'and attempting to get every move will only ruin your accuracy. The market moves happen for ' +
@@ -108,8 +108,8 @@ export default function TopInvestor() {
         },
         {
             img: Top4,
-            title:'More Research',
-            id:'Research',
+            title: 'More Research',
+            id: 'Research',
             description: '',
             text: 'Research is a fantastic opportunity to improve and learn something new. Never stop learning ' +
                 'life and investing because there will always be ways to improve. Improvement in investing comes ' +
@@ -128,7 +128,7 @@ export default function TopInvestor() {
         {
             img: Top5,
             title: 'Summary',
-            id:'',
+            id: '',
             description: '',
             text: 'To be in the top percent of investors, you must take investing seriously. No successful' +
                 ' investor has ever gotten there by accident. Control your emotions, create an investing ' +
@@ -155,19 +155,19 @@ export default function TopInvestor() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>What it Takes to Become a Smart Emotionless Investor</title>
-                    <meta property='og:title' content='TopInvestor'/>
-                    <meta property='og:image' content={TopMain}/>
-                    <meta name='description'
-                          content='Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your strategies, and constant research.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>What it Takes to Become a Smart Emotionless Investor</title>
+                <meta property='og:title' content='TopInvestor'/>
+                <meta property='og:image' content={TopMain}/>
+                <meta name='description'
+                      content='Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your strategies, and constant research.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -183,18 +183,18 @@ export default function TopInvestor() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }

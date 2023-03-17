@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import Visual1 from '../../images/articleimages/Visual1.webp'
 import Visual2 from '../../images/articleimages/Visual2.webp'
@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function DataVis() {
     const Artsections = [
         {
-            title:'',
+            title: '',
             img: Visualmain,
             description: 'Bar graph on a purple sheet of paper with an iPhone displaying the calculator app next to a set of pencils and a notebook.',
             text: 'While I was teaching myself the different aspects of data mining, Data Visualization came up. ' +
@@ -22,7 +22,7 @@ export default function DataVis() {
                 'For example, the stock market.'
         },
         {
-            title:'Why Data Visualization is Important',
+            title: 'Why Data Visualization is Important',
             img: Visual1,
             description: 'The stock market graph on the screen of an IPad in the color green with a pen and piece of paper sitting next to it.',
             text: 'Everyone has seen a stock market chart even if it is just a demo of the up and down lines. ' +
@@ -47,7 +47,7 @@ export default function DataVis() {
                 'able to show good work and experience really sets you apart from the crowd.'
         },
         {
-            title:'Learning Data Visualization',
+            title: 'Learning Data Visualization',
             img: Visual2,
             description: 'Sheet of graphs with a Mac Laptop on the left side of it and a group of colored pencils on the right side of it.',
             text: 'There are many aspects that need to be mastered in order to perfect your ability to visualize data. ' +
@@ -72,7 +72,7 @@ export default function DataVis() {
                 'not quite expect or want where you could have to start over.'
         },
         {
-            title:'Soft Skills to Build',
+            title: 'Soft Skills to Build',
             img: Visual3,
             description: 'Empty classroom with wooden chairs and a large chalkboard at the front with a podium on the left side of it.',
             text: 'Presentation and communication skills are the final skill that you really need to drill home ' +
@@ -105,7 +105,7 @@ export default function DataVis() {
                 'this could cause you to lose an opportunity.'
         },
         {
-            title:'Start Practicing',
+            title: 'Start Practicing',
             img: Visual4,
             description: 'Spreadsheet filled with numbers with a piece of paper with a blue line graph on the far left side of the spreadsheet.',
             text: 'To get started if you haven’t already, I would recommend you explore kaggle.com for a dataset that ' +
@@ -142,19 +142,19 @@ export default function DataVis() {
 
     return (
         <>
-            <main style={{backgroundColor: '#212529'}}>
-                <Head>
-                    <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                            crossOrigin="anonymous"></script>
-                    <title>Data Visualization - A Profitable Data Science Subcategory</title>
-                    <meta property='og:title' content='DataVis'/>
-                    <meta property='og:image' content={Visualmain}/>
-                    <meta name='description'
-                          content='Data Visualization is the art of displaying data in a way that anyone can read allowing for the value of true creativity to be shown.'/>
+            <Head>
+                <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
+                        crossOrigin="anonymous"></script>
+                <title>Data Visualization - A Profitable Data Science Subcategory</title>
+                <meta property='og:title' content='DataVis'/>
+                <meta property='og:image' content={Visualmain}/>
+                <meta name='description'
+                      content='Data Visualization is the art of displaying data in a way that anyone can read allowing for the value of true creativity to be shown.'/>
 
-                </Head>
-                <div>
+            </Head>
+            <div style={{backgroundColor: '#212529'}}>
+                <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
                             <Card.Title style={{
@@ -170,18 +170,18 @@ export default function DataVis() {
                             </Card.Text>
                         </Card>
                     </header>
-                </div>
+                </Container>
                 <Card
                     style={{
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        backgroundColor: 'whitesmoke'
                     }}>
                     {Sections}
                     <br/>
                 </Card>
-            </main>
+            </div>
         </>
     )
 }
