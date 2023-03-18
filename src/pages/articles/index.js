@@ -196,7 +196,12 @@ export default function Toplogos() {
                     <Row>
                         <Col style={{margin: 'auto'}}>
                             <Card.Link href={content.url}>
-                                <Image src={content.img} alt={content.alt} className={styles.blogimgs}/>
+                                <Image
+                                    src={content.img}
+                                    alt={content.alt}
+                                    className={styles.blogimgs}
+                                    placeholder={'blur'}
+                                />
                             </Card.Link>
                         </Col>
                     </Row>

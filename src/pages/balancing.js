@@ -109,7 +109,9 @@ export default function Balancing() {
                                                     <Tab.Pane eventKey='Basic'>
                                                         <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
                                                             <Image src={'/plots/AssetBalancing.webp'}
-                                                                   alt={'AssetBalancing'}/>
+                                                                   alt={'AssetBalancing'}
+                                                                   placeholder={'blur'}
+                                                            />
                                                         </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Alt'>
@@ -122,7 +124,9 @@ export default function Balancing() {
                                                                         : plan !== 'none' && plan !== 'Seasonalist'
                                                                             ? <Image
                                                                                 src={'/plots/MiniAssetBalancing.webp'}
-                                                                                alt={'MiniAssetWeighting'}/>
+                                                                                alt={'MiniAssetWeighting'}
+                                                                                placeholder={'blur'}
+                                                                            />
                                                                             :
                                                                             <Container><h1
                                                                                 style={{textAlign: "center"}}>Please
@@ -152,7 +156,9 @@ export default function Balancing() {
                                                                             ?
                                                                             <Image
                                                                                 src={'/plots/MiniAssetBalancingExp.webp'}
-                                                                                alt={'MiniAssetWeighting'}/>
+                                                                                alt={'MiniAssetWeighting'}
+                                                                                placeholder={'blur'}
+                                                                            />
                                                                             :
                                                                             <Container style={{padding: '25px 10%'}}>
                                                                                 <h2 style={{

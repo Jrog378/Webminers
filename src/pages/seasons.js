@@ -99,7 +99,9 @@ export default function AuthSeasons(props) {
                                                     <Tab.Pane eventKey='Basic'>
                                                         <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
                                                             <Image src={'/plots/EconomicSeasonsPlot.webp'}
-                                                                   alt={'Economic Seasons'}/>
+                                                                   alt={'Economic Seasons'}
+                                                                   placeholder={'blur'}
+                                                            />
                                                         </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Alt'>
@@ -112,7 +114,9 @@ export default function AuthSeasons(props) {
                                                                         : plan !== 'none'
                                                                             ?
                                                                             <Image src={'/plots/AssetSeasonsPlot.webp'}
-                                                                                   alt={'Asset Seasons'}/>
+                                                                                   alt={'Asset Seasons'}
+                                                                                   placeholder={'blur'}
+                                                                            />
                                                                             :
                                                                             <Container>
                                                                                 <h1 style={{textAlign: "center"}}>Please
