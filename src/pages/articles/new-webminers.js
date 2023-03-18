@@ -117,7 +117,9 @@ export default function NewWebminers() {
         <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
             <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
                    alt={sections.description}
-                   src={sections.img}/>
+                   src={sections.img}
+                   placeholder={'blur'}
+            />
             <Card.Body style={{paddingBottom: 0}}>
                 <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
                 <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
