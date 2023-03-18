@@ -16,7 +16,7 @@ export default function TopInvestor() {
             img: TopMain,
             title: '',
             id: '',
-            description: '',
+            description: 'Maroon and old styled typewriter with aged metal parts that has written on a white page to never be afraid',
             text: '95% of people who go into investing lose money. As investors, we must limit our losses and not ' +
                 'become that 95%. What does it take to be in the top five or even one percent? In this article, ' +
                 'we will find out. \n' +
@@ -33,7 +33,7 @@ export default function TopInvestor() {
             img: Top1,
             title: 'No More Emotional Investing',
             id: 'EmotionalInvesting',
-            description: '',
+            description: 'Stock market website opening in a Mac laptop on a glass table with a notebook and pen resting on top of it',
             text: 'Emotion comes naturally to humans. Fundamentally the act of competition is a very emotion-induc' +
                 'ing activity. Trying hard to make money without losing all your money can cause worry and stress. ' +
                 'It is up to us to be emotionless investors if we want to make money in the markets. You cannot let' +
@@ -59,10 +59,10 @@ export default function TopInvestor() {
             img: Top2,
             title: 'Build Your Investing System',
             id: 'InvestingSystem',
-            description: '',
+            description: 'Large road system of bridges and highways going around each other in twists and bends near buildings and trees',
             text: 'Investing systems are how you automate your investments so that data or rules make decisions ' +
                 'instead of you and your emotions. This data may be collected daily, weekly, or even monthly, ' +
-                'depending on what type of investor you plan to be. It doesn’t matter how often you gather your ' +
+                'depending on what type of investor you plan to be. It doesn\'t matter how often you gather your ' +
                 'data, but what does matter is how accurate the data you collect is.\n' +
                 '\n' +
                 'Data for an investing system comes from many sources. Data can be found directly from markets ' +
@@ -83,7 +83,7 @@ export default function TopInvestor() {
             img: Top3,
             title: 'Stop Trying To Catch Everything',
             id: 'CatchEverything',
-            description: '',
+            description: 'Five Bitcoins and one other coin resting on top of multiple One Hundred dollar bills with the face side up',
             text: 'Being able to catch every move successfully will never happen. The markets are unpredictable, ' +
                 'and attempting to get every move will only ruin your accuracy. The market moves happen for ' +
                 'different reasons. The only way to make money every time the market moves would be to broaden ' +
@@ -110,7 +110,7 @@ export default function TopInvestor() {
             img: Top4,
             title: 'More Research',
             id: 'Research',
-            description: '',
+            description: 'Black glasses, five red-orange colored pencils, and a white lined notebook are all resting on a white table',
             text: 'Research is a fantastic opportunity to improve and learn something new. Never stop learning ' +
                 'life and investing because there will always be ways to improve. Improvement in investing comes ' +
                 'in the form of researching and honing your techniques. If your system seems inaccurate, one of ' +
@@ -129,7 +129,7 @@ export default function TopInvestor() {
             img: Top5,
             title: 'Summary',
             id: '',
-            description: '',
+            description: 'A black chess piece on a board with black and white on either side with a shining gold crow resting on top of it',
             text: 'To be in the top percent of investors, you must take investing seriously. No successful' +
                 ' investor has ever gotten there by accident. Control your emotions, create an investing ' +
                 'system, do not worry about every move, and keep improving. These are what define top-tier ' +

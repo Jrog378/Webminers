@@ -11,6 +11,7 @@ import UniqueMain from "../../images/articleimages/UniqueMain.webp"
 import NewServicesMain from '../../images/articleimages/NewServicesMain.webp'
 import MentalMain from '../../images/articleimages/MentalMain.webp'
 import TopMain from '../../images/articleimages/TopMain.webp'
+import TimelessMain from '../../images/articleimages/TimelessMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "react-bootstrap";
@@ -24,6 +25,16 @@ import Link from "next/link";
 export default function Toplogos() {
     const blogposts = [
         {
+            id: 14,
+            title: 'What Makes Investing a Timeless Money Maker',
+            date: 'Mar 18th 2023',
+            text: 'Timeless money making comes best from investing, where there are many forms, each having its own ' +
+                'strengths and weaknesses',
+            url: '/articles/timeless-investing',
+            img: TimelessMain,
+            alt: 'Pink piggy bank that has a coin in it\'s slot on a white table surrounded in ten bronze coins'
+        },
+        {
             id: 13,
             title: 'What it Takes to Become a Smart Emotionless Investor',
             date: 'Mar 14th 2023',
@@ -31,8 +42,7 @@ export default function Toplogos() {
                 ' strategies, and constant research.',
             url: '/articles/top-investor',
             img: TopMain,
-            alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
-                'sitting on a wooden desk that has a plant on it.'
+            alt: 'Maroon and old styled typewriter with aged metal parts that has written on a white page to never be afraid'
         },
         {
             id: 12,
