@@ -232,7 +232,7 @@ export default function Pricing() {
                     </Container>
                     <Container>
                         <h1 style={{textAlign: 'center', padding: '25px'}}>
-                            Testimonials
+                            What Others Think
                         </h1>
                         <CardGroup>
                             <Row>

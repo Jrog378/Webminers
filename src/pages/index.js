@@ -58,7 +58,7 @@ function EmailALert() {
                        }}
                        show={open} onClose={closeModal}>
                     <Toast.Header>
-                        <strong className={'me-auto'}>Webminers Mailing List</strong>
+                        <strong className={'me-auto'}>Webminers Emailing List</strong>
                     </Toast.Header>
                     <Toast.Body>
                         <Container style={{display: disp1[disp]}}>
@@ -66,7 +66,7 @@ function EmailALert() {
                                 Want in important updates on Webminers Seasons and Investing System?
                                 <br/>
                                 <br/>
-                                Join our mailing list today!
+                                Join our Emailing List today!
                             </h4>
                             <Container>
                                 <Row>
@@ -76,7 +76,7 @@ function EmailALert() {
                                                 setMail(e.target.value);
                                             }}
                                             type='email'
-                                            placeholder='E-mail Address'
+                                            placeholder='Email Address'
                                             className={styles.inputs}></input>
                                     </Col>
                                     <Col style={{paddingTop: '5px'}}>
@@ -254,7 +254,7 @@ export default function Home() {
 
                             <Container>
                                 <h1 style={{textAlign: 'center', padding: '25px'}}>
-                                    Testimonials
+                                    What Others Think
                                 </h1>
                                 <CardGroup>
                                     <Row>
