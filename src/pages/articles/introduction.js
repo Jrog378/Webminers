@@ -154,6 +154,15 @@ export default function Introduction() {
                     }}>
                     {Sections}
                     <br/>
+                    <ins className="adsbygoogle"
+                         style={{display:"block"}}
+                         data-ad-client="ca-pub-7878345029704986"
+                         data-ad-slot="4814394435"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </Card>
             </div>
         </>
