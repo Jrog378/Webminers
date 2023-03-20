@@ -120,6 +120,7 @@ export default function Introduction() {
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                         crossOrigin="anonymous"></script>
+                <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
                 <title>How I Built a Financial Website with Articles and an Investing System - Part 1</title>
                 <meta property='og:title' content='IntroJus'/>
                 <meta property='og:image' content={IntroMain}/>
@@ -154,15 +155,14 @@ export default function Introduction() {
                     }}>
                     {Sections}
                     <br/>
-                    <ins className="adsbygoogle"
-                         style={{display:"block"}}
-                         data-ad-client="ca-pub-7878345029704986"
-                         data-ad-slot="4814394435"
-                         data-ad-format="auto"
-                         data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    <amp-ad width="100vw" height="320"
+                            type="adsense"
+                            data-ad-client="ca-pub-7878345029704986"
+                            data-ad-slot="4814394435"
+                            data-auto-format="rspv"
+                            data-full-width="">
+                        <div></div>
+                    </amp-ad>
                 </Card>
             </div>
         </>
