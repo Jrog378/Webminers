@@ -31,7 +31,7 @@ export default function AuthPricing() {
         <>
             <Script async src="https://js.stripe.com/v3/pricing-table.js"/>
             <Head>
-                <title>Webminers - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers - Make Data-Driven Decisions With Investing Systems</title>
                 <meta name="description"
                       content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -80,7 +80,7 @@ export default function AuthPricing() {
                                         </Card.Header>
                                         <Card.Text style={{textAlign: 'center', padding: '5px'}}>
                                             Everything is very easy to understand and read. I love how the findings are
-                                            backed by data and science! I think the research section is the best part
+                                            backed by data and science! I think the analysis section is the best part
                                             where
                                             I can compare assets to pick and choose from for my own investments.
                                         </Card.Text>

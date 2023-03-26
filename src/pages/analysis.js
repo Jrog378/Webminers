@@ -10,7 +10,7 @@ import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 
-export default function Research() {
+export default function Analysis() {
     let [plan, setPlan] = useState('')
     const [user, loading] = useAuthState(auth)
     useEffect(() => {

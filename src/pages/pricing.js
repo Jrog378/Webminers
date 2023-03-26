@@ -11,7 +11,7 @@ export default function Pricing() {
     return (
         <>
             <Head>
-                <title>Webminers - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers - Make Data-Driven Decisions With Investing Systems</title>
                 <meta name="description"
                       content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -39,6 +39,11 @@ export default function Pricing() {
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Plan
                                             ($99)</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link className={'navgreen'} href={'/auth-pricing'}>
+                                            Get one of our plans with a 7 day trial now
+                                        </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                             </Col>
@@ -74,7 +79,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Asset Research</td>
+                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
@@ -82,7 +87,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Research</td>
+                                                <td>Experimental Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -118,7 +123,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Asset Research</td>
+                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
@@ -126,7 +131,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Research</td>
+                                                <td>Experimental Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -162,7 +167,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Asset Research</td>
+                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -170,7 +175,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Research</td>
+                                                <td>Experimental Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -206,7 +211,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Asset Research</td>
+                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -214,7 +219,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Research</td>
+                                                <td>Experimental Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             </tbody>
@@ -231,9 +236,6 @@ export default function Pricing() {
                             one of our plans with a 7 day trial now</Link></h1>
                     </Container>
                     <Container>
-                        <h1 style={{textAlign: 'center', padding: '25px'}}>
-                            What Others Think
-                        </h1>
                         <CardGroup>
                             <Row>
                                 <Col md={12} lg={4}>
@@ -245,7 +247,7 @@ export default function Pricing() {
                                             <Card.Text style={{textAlign: 'center', padding: '5px'}}>
                                                 Everything is very easy to understand and read. I love how the findings
                                                 are
-                                                backed by data and science! I think the research section is the best
+                                                backed by data and science! I think the analysis section is the best
                                                 part
                                                 where
                                                 I can compare assets to pick and choose from for my own investments.

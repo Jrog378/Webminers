@@ -216,7 +216,7 @@ export default function Toplogos() {
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
                         crossOrigin="anonymous"></script>
-                <title>Webminers Articles - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Articles - Make Data-Driven Decisions With Investing Systems</title>
                 <meta name="description"
                       content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
