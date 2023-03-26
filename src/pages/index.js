@@ -63,7 +63,7 @@ function EmailALert() {
                     <Toast.Body>
                         <Container style={{display: disp1[disp]}}>
                             <h4 style={{padding: '5px'}}>
-                                Want in important updates on Webminers Seasons and Investing System?
+                                Want in important updates on Webminers Investing Research and Education?
                                 <br/>
                                 <br/>
                                 Join our Emailing List today!
