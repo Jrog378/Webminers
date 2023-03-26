@@ -29,7 +29,7 @@ export default function Balancing() {
     return (
         <>
             <Head>
-                <title>Webminers Balancing - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Balancing - Make Data-Driven Decisions With Investing Systems</title>
                 <meta name="description"
                       content="Webminers Balancing are revolutionizing how we make financial decisions with new balances and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>

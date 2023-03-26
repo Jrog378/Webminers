@@ -97,7 +97,7 @@ export default function TopInvestor() {
                 'Over-diversification can take place with the collection of data or the assets that you are ' +
                 'tracking. I experienced this when following too many assets at once, seeing when they were at ' +
                 'the best time to buy. Rather than adding all this work to my plate, I took the time to develop' +
-                ' [Webminers Research](https://webminers.dev/research) so I could then pick and choose which ' +
+                ' [Webminers Analysis](https://webminers.dev/analysis) so I could then pick and choose which ' +
                 'assets I wanted to track and which I would save for later if one of my mains were to stop ' +
                 'performing as well. Minimization eases the load of updating the Seasons and makes life easier' +
                 ' by removing unnecessary work.\n' +

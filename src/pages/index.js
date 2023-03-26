@@ -119,11 +119,11 @@ export default function Home() {
                         <Row>
                             <Col md={8}>
                                 <h1 style={{color: 'whitesmoke', fontSize: '50px'}}>
-                                    Bringing real data to your investing like never before
+                                    Bringing Real Data-Driven Insights to Your Investing Journey
                                 </h1>
                                 <br/>
                                 <br/>
-                                <Button variant="success" href='#why'>Get a hold of your data-driven research
+                                <Button variant="success" href='#why'>Get a hold of your successful investing decisions
                                     →</Button>
                             </Col>
                         </Row>
@@ -131,42 +131,77 @@ export default function Home() {
                 </div>
                 <div className={styles.sales}>
                     <Container>
-                        <Container style={{textAlign: 'center'}}>
-                            <h1 id={'why'}>
-                                The Two Biggest Questions in Investing
-                            </h1>
-                            <h3>
-                                &apos;When to invest?&apos; and &apos;Where to invest?&apos;
+                        <Container style={{padding: '15px'}}>
+                            <h3 id={'why'} style={{paddingBottom: '15px'}}>
+                                Missing out on opportunities to grow your wealth because
+                                of the right tools or knowledge?
                             </h3>
+                            <p style={{fontSize: 'larger'}}>
+                                If you want efficient profits and to beat the market, Webminers is where to be.
+                                We
+                                specialize in identifying the ups and downs of the market and identifying how
+                                much
+                                of what asset is best for efficiency, all backed by data.
+                            </p>
+                            <Card className={styles.cardhover}>
+                                <Card.Body>
+                                    <Card.Title style={{width:'90%', textAlign:'center'}}>
+                                        Let Webminers help out by giving you all the research and education you need
+                                        to be successful in the markets
+                                    </Card.Title>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>
+                                                Consistent returns from a system that takes the clear and concise for
+                                                how to
+                                                invest,
+                                                providing you the straight path to growing your wealth.
+                                            </li>
+                                            <li>
+                                                Beat the market by outperforming top assets like BTC and the S&P 500
+                                                with
+                                                efficient
+                                                investing from an investing system.
+                                            </li>
+                                            <li>
+                                                Reduce risk by investing in the right assets based on data-driven
+                                                findings
+                                                with
+                                                maintaining and rebalancing your portfolio accordingly.
+                                            </li>
+                                            <li>
+                                                Follow along with easy-to-understand research and findings that are
+                                                simple
+                                                to use
+                                                to your advantage
+                                            </li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </Container>
                         <Container>
-                            <Container style={{padding: '25px'}}>
+                            <Container style={{padding: '15px'}}>
                                 <Row>
                                     <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
                                         <Card className={styles.cardhover}>
                                             <Card.Body>
                                                 <Card.Title>
-                                                    When to invest?
+                                                    Maximize Returns with Data-Driven Findings
                                                 </Card.Title>
                                                 <Card.Text>
-                                                    &apos;No one knows if the market will go up down left
-                                                    right&apos; is
-                                                    a
-                                                    complete lie.
-                                                    People make money in the market all the time. Data defines
-                                                    the most
-                                                    likely
-                                                    outcome of the markets and here at Webminers, we can give
-                                                    you our
-                                                    data-driven
-                                                    graphics so that you can make the investing decisions you
-                                                    have
-                                                    always
-                                                    dreamed
-                                                    of.
+                                                    Finding insights is easier than it may seem if you know where to
+                                                    look. Our discoveries provide important topics:
+                                                    <Link className={styles.weblink} href={'/seasons'}> Seasons </Link>,
+                                                    locating where we are in the market,
+                                                    <Link className={styles.weblink}
+                                                          href={'/balancing'}> Balancing </Link>,
+                                                    setting up portfolios, and
+                                                    <Link className={styles.weblink} href={'/research'}> Research</Link>,
+                                                    where we look into how efficient assets are.
                                                 </Card.Text>
-                                                <Button variant="success" href='/seasons'>Webminers
-                                                    Seasons</Button>
+                                                <Button variant="success" href='/pricing'>Webminers
+                                                    Pricing</Button>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -174,78 +209,17 @@ export default function Home() {
                                         <Card className={styles.cardhover}>
                                             <Card.Body>
                                                 <Card.Title>
-                                                    Where to invest?
+                                                    Learn to Unlock Your Investing Potential
                                                 </Card.Title>
                                                 <Card.Text>
-                                                    Markets move together most of the time, but being able to
-                                                    identify
-                                                    when
-                                                    they
-                                                    don&apos;t allows investors to take advantage of
-                                                    opportunities they
-                                                    would have
-                                                    never
-                                                    would have been able to before hand, leaving them to think
-                                                    they were
-                                                    just
-                                                    unlucky. The second step of the Webminers system is
-                                                    balancing your
-                                                    assets in
-                                                    a reasonable way that will make you more money than someone
-                                                    who just
-                                                    sticks
-                                                    to
-                                                    one asset.
+                                                    There are infinite ways to invest, and finding your investing
+                                                    system can be tricky. We are here to help. Whether you are just
+                                                    starting or have been investing for years, we have educational
+                                                    content for you. We want to help anyone become more informed
+                                                    investors with confidence in their systems to achieve their
+                                                    financial goals.
                                                 </Card.Text>
-                                                <Button variant="success" href='/balancing'>Webminers Crypto
-                                                    Balancing</Button>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                </Row>
-                                <Row style={{padding: '10px 0'}}>
-                                    <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
-                                        <Card className={styles.cardhover}>
-                                            <Card.Body>
-                                                <Card.Title>
-                                                    Webminers Pricing
-                                                </Card.Title>
-                                                <Card.Text>
-                                                    Here at Webminers we offer three plans to fit your specific
-                                                    needs.
-                                                    Whether
-                                                    you just want the seasons, need to balance our your
-                                                    portfolio with
-                                                    more
-                                                    assets, or plan on testing for optimization, we have a plan
-                                                    for you
-                                                    below. For the optimal investor our best offer includes
-                                                    optimization
-                                                    tools, seasons, and asset balancing, which makes it our
-                                                    recommended
-                                                    plan.
-                                                </Card.Text>
-                                                <Button variant="success" href='/pricing'>Pricing</Button>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                    <Col lg={6} md={12} sm={12} style={{padding: '10px', fontSize: 'larger'}}>
-                                        <Card className={styles.cardhover}>
-                                            <Card.Body>
-                                                <Card.Title>
-                                                    Need Help Deciding?
-                                                </Card.Title>
-                                                <Card.Text>
-                                                    Don&apos;t worry about it. We are here to help you if you
-                                                    still need
-                                                    help deciding what you need in your investing toolset. <Link
-                                                    className={styles.weblink}
-                                                    href={'mailto:webminers.dev@gmail.com'}>Contact
-                                                    Us</Link> with any
-                                                    questions you may have about your free trial or our features
-                                                </Card.Text>
-                                                <Button variant="success" href='mailto:webminers.dev@gmail.com'>Email
-                                                    Us</Button>
+                                                <Button variant="success" href='/articles'>Educational Content</Button>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -266,16 +240,10 @@ export default function Home() {
                                                     </Card.Header>
                                                     <Card.Text style={{textAlign: 'center', padding: '5px'}}>
                                                         Everything is very easy to understand and read. I love
-                                                        how the
-                                                        findings
-                                                        are
-                                                        backed by data and science! I think the research section
-                                                        is the
-                                                        best
-                                                        part
-                                                        where
-                                                        I can compare assets to pick and choose from for my own
-                                                        investments.
+                                                        how the findings are backed by data and science! I
+                                                        think the analysis section is the best part where
+                                                        I can compare assets to pick and choose from for
+                                                        my own investments.
                                                     </Card.Text>
                                                 </Card.Body>
                                             </Card>
@@ -327,7 +295,7 @@ export default function Home() {
                                 </CardGroup>
                             </Container>
 
-                            <Container>
+                            <Container style={{padding: '15px'}}>
                                 <Card className={styles.cardhover}>
                                     <Card.Body>
                                         <Card.Title style={{fontSize: '30px'}}>
@@ -360,8 +328,7 @@ export default function Home() {
                                                     <Card.Body>
                                                         <Card.Text>
                                                             Visit our twitter page where we strive to tweet
-                                                            quality
-                                                            financial information and research daily
+                                                            quality financial information and findings daily
                                                         </Card.Text>
                                                         <Button href='https://twitter.com/JusWebminers'
                                                                 target={'_blank'}

@@ -30,7 +30,7 @@ export default function AuthSeasons(props) {
     return (
         <>
             <Head>
-                <title>Webminers Seasons - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Seasons - Make Data-Driven Decisions With Investing Systems</title>
                 <meta name="description"
                       content="Webminers Seasons are revolutionizing how we make financial decisions with new seasons and optimization"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -54,7 +54,7 @@ export default function AuthSeasons(props) {
                                                 Seasonality, also known as the ups and downs of the market, is
                                                 inevitable. What we have to do with this knowledge is predict
                                                 when the market will start going up or down. Webminers has produced
-                                                its Research on Seasonality in two forms. The first is the Economy
+                                                its findings on Seasonality in two forms. The first is the Economy
                                                 or Generalized Market, and the second is Asset Specific. Some may
                                                 say that the markets are unpredictable. However, with well-suited
                                                 data, Seasonality becomes crystal clear.
