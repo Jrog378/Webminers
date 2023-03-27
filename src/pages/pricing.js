@@ -1,6 +1,5 @@
 import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table} from "react-bootstrap";
 import React from "react";
-import Link from "next/link";
 import styles from '@/styles/Home.module.css'
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
@@ -17,7 +16,7 @@ export default function Pricing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width:'100%'}}>
+            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container style={{padding: '25px'}}>
                     <h1 style={{textAlign: 'center', padding: '50px'}}>
                         Setup the plan to fuel your data-driven investing
@@ -27,18 +26,18 @@ export default function Pricing() {
                             <Col md={12} lg={4}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan ($0)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan ($13)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} eventKey="second">Seasonalist Plan
                                             ($29)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($49)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($25)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Plan
-                                            ($99)</Nav.Link>
+                                            ($50)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} href={'/auth-pricing'}>
@@ -231,11 +230,10 @@ export default function Pricing() {
                             </Col>
                         </Row>
                     </Tab.Container>
-                    <Container style={{padding: '25px'}}>
-                        <h1 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'/auth-pricing'}>Get
-                            one of our plans with a 7 day trial now</Link></h1>
-                    </Container>
                     <Container>
+                        <h1 style={{textAlign: 'center', padding: '25px'}}>
+                            What Others Think
+                        </h1>
                         <CardGroup>
                             <Row>
                                 <Col md={12} lg={4}>
