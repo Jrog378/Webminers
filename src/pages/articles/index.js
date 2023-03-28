@@ -15,16 +15,14 @@ import TimelessMain from '../../images/articleimages/TimelessMain.webp'
 import StartInvestingMain from '../../images/articleimages/StartInvestingMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
-import React, {useState} from "react";
+import React from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
 
-
-export default function Toplogos() {
-    const blogposts = [
+const blogposts = [
         {
             id: 15,
             title: 'How to Start Investing - What I Did to Create my Investing System',
@@ -173,13 +171,15 @@ export default function Toplogos() {
         }
     ]
 
+export default function Toplogos() {
     const Bloggers = blogposts.map(content =>
         <Container key={content.id} style={{padding: '10px'}}>
             <Card className={styles.arthover}>
                 <Container className={'blog-row'}>
                     <Row>
                         <Card.Body style={{paddingBottom: 0}}>
-                            <Card.Title><Link style={{fontSize:'larger'}} className={styles.weblink} href={content.url}>{content.title}</Link></Card.Title>
+                            <Card.Title><Link style={{fontSize: 'larger'}} className={styles.weblink}
+                                              href={content.url}>{content.title}</Link></Card.Title>
                         </Card.Body>
                     </Row>
                     <Row>
@@ -223,7 +223,7 @@ export default function Toplogos() {
     );
 
     return (
-        <div style={{backgroundColor: 'whitesmoke', width:'100%', borderRadius:'25px'}}>
+        <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
             <Head>
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
