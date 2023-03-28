@@ -12,6 +12,7 @@ import NewServicesMain from '../../images/articleimages/NewServicesMain.webp'
 import MentalMain from '../../images/articleimages/MentalMain.webp'
 import TopMain from '../../images/articleimages/TopMain.webp'
 import TimelessMain from '../../images/articleimages/TimelessMain.webp'
+import StartInvestingMain from '../../images/articleimages/StartInvestingMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, DropdownButton, Row} from "react-bootstrap";
@@ -24,6 +25,17 @@ import Link from "next/link";
 
 export default function Toplogos() {
     const blogposts = [
+        {
+            id: 15,
+            title: 'How to Start Investing - What I Did to Create my Investing System',
+            date: 'Mar 28th 2023',
+            text: 'Finding valuable investments and creating your own investing system can seem complex' +
+                'but things can be much easier than they seem with the right guidance.',
+            url: '/articles/start-investing',
+            img: StartInvestingMain,
+            alt: 'Black iPhone screen displaying the stocks app with 6 different companies resting on a sheet' +
+                ' of paper with a blue chart on it.'
+        },
         {
             id: 14,
             title: 'What Makes Investing a Timeless Money Maker',
