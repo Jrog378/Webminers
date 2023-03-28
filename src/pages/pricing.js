@@ -6,7 +6,6 @@ import Head from "next/head";
 
 
 export default function Pricing() {
-
     return (
         <>
             <Head>
@@ -26,11 +25,11 @@ export default function Pricing() {
                             <Col md={12} lg={4}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan ($13)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan ($0)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} eventKey="second">Seasonalist Plan
-                                            ($29)</Nav.Link>
+                                            ($13)</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($25)</Nav.Link>
