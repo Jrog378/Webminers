@@ -22,7 +22,8 @@ import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
 
-const blogposts = [
+export default function Toplogos() {
+    const blogposts = [
         {
             id: 15,
             title: 'How to Start Investing - What I Did to Create my Investing System',
@@ -171,7 +172,6 @@ const blogposts = [
         }
     ]
 
-export default function Toplogos() {
     const Bloggers = blogposts.map(content =>
         <Container key={content.id} style={{padding: '10px'}}>
             <Card className={styles.arthover}>
