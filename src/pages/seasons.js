@@ -122,7 +122,7 @@ export default function AuthSeasons(props) {
                                                                                 <h1 style={{textAlign: "center"}}>Please
                                                                                     visit <Link
                                                                                         className={styles.weblink}
-                                                                                        href={'/auth/profile'}>Profile</Link>to
+                                                                                        href={'/auth/profile'}>Profile</Link> to
                                                                                     Upgrade Plan
                                                                                 </h1>
                                                                             </Container>
