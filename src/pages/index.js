@@ -132,10 +132,10 @@ export default function Home() {
                 <div className={styles.sales}>
                     <Container>
                         <Container style={{padding: '15px'}}>
-                            <h3 id={'why'} style={{paddingBottom: '15px'}}>
+                            <Card.Title id={'why'} style={{paddingBottom: '15px', fontSize: 'x-large'}}>
                                 Missing out on opportunities to grow your wealth because
                                 of the right tools or knowledge?
-                            </h3>
+                            </Card.Title>
                             <p style={{fontSize: 'larger'}}>
                                 If you want efficient profits and to beat the market, Webminers is where to be.
                                 We
@@ -145,38 +145,36 @@ export default function Home() {
                             </p>
                             <Card className={styles.cardhover}>
                                 <Card.Body>
-                                    <Card.Title style={{width:'90%', textAlign:'center'}}>
+                                    <Card.Title style={{width: '90%', textAlign: 'center'}}>
                                         Let Webminers help out by giving you all the research and education you need
                                         to be successful in the markets
                                     </Card.Title>
-                                    <Card.Text>
-                                        <ul>
-                                            <li>
-                                                Consistent returns from a system that takes the clear and concise for
-                                                how to
-                                                invest,
-                                                providing you the straight path to growing your wealth.
-                                            </li>
-                                            <li>
-                                                Beat the market by outperforming top assets like BTC and the S&P 500
-                                                with
-                                                efficient
-                                                investing from an investing system.
-                                            </li>
-                                            <li>
-                                                Reduce risk by investing in the right assets based on data-driven
-                                                findings
-                                                with
-                                                maintaining and rebalancing your portfolio accordingly.
-                                            </li>
-                                            <li>
-                                                Follow along with easy-to-understand research and findings that are
-                                                simple
-                                                to use
-                                                to your advantage
-                                            </li>
-                                        </ul>
-                                    </Card.Text>
+                                    <ul>
+                                        <li>
+                                            Consistent returns from a system that takes the clear and concise for
+                                            how to
+                                            invest,
+                                            providing you the straight path to growing your wealth.
+                                        </li>
+                                        <li>
+                                            Beat the market by outperforming top assets like BTC and the S&P 500
+                                            with
+                                            efficient
+                                            investing from an investing system.
+                                        </li>
+                                        <li>
+                                            Reduce risk by investing in the right assets based on data-driven
+                                            findings
+                                            with
+                                            maintaining and rebalancing your portfolio accordingly.
+                                        </li>
+                                        <li>
+                                            Follow along with easy-to-understand research and findings that are
+                                            simple
+                                            to use
+                                            to your advantage
+                                        </li>
+                                    </ul>
                                 </Card.Body>
                             </Card>
                         </Container>
