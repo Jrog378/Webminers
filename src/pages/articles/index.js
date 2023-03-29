@@ -21,6 +21,7 @@ import React from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Toplogos() {
     const blogposts = [
@@ -185,9 +186,7 @@ export default function Toplogos() {
                     <Row>
                         <Card.Body style={{paddingTop: '8px'}}>
                             <Row>
-                                <Card.Text>
-                                    <ReactMarkdown>{content.text}</ReactMarkdown>
-                                </Card.Text>
+                                <ReactMarkdown>{content.text}</ReactMarkdown>
                             </Row>
                             <Row>
                                 <Col>
@@ -223,24 +222,23 @@ export default function Toplogos() {
     );
 
     return (
-        <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
-            <Head>
-                <script async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                        crossOrigin="anonymous"></script>
-                <title>Webminers Articles - Make Data-Driven Decisions With Investing Systems</title>
-                <meta name="description"
-                      content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={logo}/>
-            </Head>
-            <Container style={{width: '100%'}}>
-                <Container style={{borderRadius: '15px'}}>
-                    <Row sm={1} md={2} style={{paddingBottom: '10px'}}>
-                        {Bloggers}
-                    </Row>
+        <>
+            <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
+                <Head>
+                    <title>Webminers Articles - Make Data-Driven Decisions With Investing Systems</title>
+                    <meta name="description"
+                          content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    <meta property='og:image' content={logo}/>
+                </Head>
+                <Container style={{width: '100%'}}>
+                    <Container style={{borderRadius: '15px'}}>
+                        <Row sm={1} md={2} style={{paddingBottom: '10px'}}>
+                            {Bloggers}
+                        </Row>
+                    </Container>
                 </Container>
-            </Container>
-        </div>
+            </div>
+        </>
     );
 }

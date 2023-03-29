@@ -132,9 +132,9 @@ export default function MentalImprove() {
             />
             <Card.Body style={{paddingBottom: 0}}>
                 <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
+                <Container className={styles.webmark} style={{padding: '0px'}}>
                     <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Card.Text>
+                </Container>
             </Card.Body>
         </Card>
     )
@@ -142,9 +142,6 @@ export default function MentalImprove() {
     return (
         <>
             <Head>
-                <script async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                        crossOrigin="anonymous"></script>
                 <title>The Best Ways to Improve your Mental State for Smarter Investing</title>
                 <meta property='og:title' content='MentalImprove'/>
                 <meta property='og:image' content={Mentalmain}/>

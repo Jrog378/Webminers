@@ -130,9 +130,9 @@ export default function PythonDataScience() {
             />
             <Card.Body style={{paddingBottom: 0}}>
                 <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Card.Text className={styles.webmark} style={{paddingTop: '0px'}}>
+                <Container className={styles.webmark} style={{padding: '0px'}}>
                     <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Card.Text>
+                </Container>
             </Card.Body>
         </Card>
     )
@@ -140,9 +140,6 @@ export default function PythonDataScience() {
     return (
         <>
             <Head>
-                <script async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                        crossOrigin="anonymous"></script>
                 <title>Python Has Been Taking Over The Data Science World</title>
                 <meta property='og:title' content='PythonData'/>
                 <meta property='og:image' content={PythonDataMain}/>
