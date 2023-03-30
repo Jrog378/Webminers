@@ -281,12 +281,14 @@
 @media only screen and (min-width: 767px) {
     .AlertSizer {
         width: 600px;
+        left: calc(50% - 300px);
     }
 }
 
 @media only screen and (min-width: 444px) and (max-width: 767px) {
     .AlertSizer {
         width: 79%;
+        left: 10.5%;
     }
 
     .disappear {
@@ -297,6 +299,7 @@
 @media only screen and (max-width: 443px) {
     .AlertSizer {
         width: 99%;
+        left: 0.5%
     }
 
     .disappear {
@@ -436,20 +439,21 @@ main:has(> .full) {
 }
 
 .inputs {
-    width:100%;
-    height:100%;
-    padding:1%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
     background-color: rgb(213, 233, 223);
-    border-color: rgb(0,175,75);
+    border-color: rgb(0, 175, 75);
     border-radius: 10px;
     color: #282c34;
     font-size: larger;
 }
+
 .inputss {
-    width:100%;
-    height:100%;
-    padding:1%;
-    border-color: rgb(0,175,75);
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    border-color: rgb(0, 175, 75);
     border-radius: 10px;
     color: whitesmoke;
     font-size: larger;
@@ -464,8 +468,16 @@ main:has(> .full) {
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 400px) {
     .inputcon {
         width: 400px;
     }
+}
+
+.AlertSizer {
+    -moz-box-shadow: 0 0 1000px rgba(0,0,0,1);
+    -webkit-box-shadow: 0 0 1000px rgba(0,0,0,1);
+    box-shadow: 0 0 1000px rgba(0,0,0,1);
+    overflow: auto;
 }
