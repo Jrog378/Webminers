@@ -188,7 +188,7 @@ export default function StartInvesting() {
                                 How to Start Investing - What I Did to Create my Investing System
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Mar 28 2022
+                                Published on: Mar 28 2023
                             </Card.Text>
                         </Card>
                     </header>

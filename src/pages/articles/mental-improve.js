@@ -162,7 +162,7 @@ export default function MentalImprove() {
                                 The Best Ways to Improve your Mental State for Smarter Investing
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Mar 13 2022
+                                Published on: Mar 13 2023
                             </Card.Text>
                         </Card>
                     </header>

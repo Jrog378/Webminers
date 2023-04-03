@@ -200,7 +200,7 @@ export default function TechFuture() {
                                 6 Growing Jobs To Take Advantage of Our Technical Future
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 14 2022
+                                Published on: Sep 14 2023
                             </Card.Text>
                         </Card>
                     </header>

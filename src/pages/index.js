@@ -6,6 +6,7 @@ import Link from "next/link";
 import logo from "@/images/WebminersLogo.webp";
 import axios from "axios";
 import {toast} from "react-toastify";
+import CloseButton from 'react-bootstrap/CloseButton';
 
 
 function EmailALert() {
@@ -14,6 +15,10 @@ function EmailALert() {
     const closeModal = () => {
         setOpen(false)
         setTimer(timer + 1)
+    }
+
+    const closeList = () => {
+        setOpen(false)
     }
 
     React.useEffect(() => {
@@ -58,45 +63,46 @@ function EmailALert() {
                            backgroundColor: 'rgba(245,255,245,1)'
                        }}
                        show={open} onClose={closeModal}>
-                    <Toast.Header>
-                        <strong className={'me-auto'}>Webminers Emailing List</strong>
-                    </Toast.Header>
-                    <Toast.Body style={{padding:'0 30px'}}>
-                        <Container style={{display: disp1[disp]}}>
-                            <h3 style={{padding: '5px'}}>
-                                Want Better Investing Data & Insights?
-                            </h3>
-                            <Card.Text style={{fontSize:'larger'}}>
-                                Join our Emailing List today and get Webminers Season Updates, New Features, and More!
-                            </Card.Text>
-                            <Container>
-                                <Row style={{padding: '5px'}}>
-                                    <input
-                                        onChange={(e) => {
-                                            setMail(e.target.value);
-                                        }}
-                                        type='email'
-                                        placeholder='Email Address'
-                                        className={styles.inputs}></input>
-                                </Row>
-                                <Row style={{padding: '5px'}}>
-                                    <Button variant="success" onClick={subscribe}
-                                            className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
-                                        Join Now!
-                                    </Button>
-                                </Row>
+                    <Container>
+                        <CloseButton style={{padding: '10px, 20px', position: 'absolute', right: '10px', top: '5px'}} onClick={closeList}/>
+                        <Container style={{padding: '30px'}}>
+                            <Container style={{display: disp1[disp]}}>
+                                <h3 style={{padding: '5px'}}>
+                                    Want Better Investing Data & Insights?
+                                </h3>
+                                <Card.Text style={{fontSize: 'larger'}}>
+                                    Join our Emailing List today and get updates on Webminers Seasons, New Features, and
+                                    More!
+                                </Card.Text>
+                                <Container>
+                                    <Row style={{padding: '5px'}}>
+                                        <input
+                                            onChange={(e) => {
+                                                setMail(e.target.value);
+                                            }}
+                                            type='email'
+                                            placeholder='Email Address'
+                                            className={styles.inputs}></input>
+                                    </Row>
+                                    <Row style={{padding: '5px'}}>
+                                        <Button variant="success" onClick={subscribe}
+                                                className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
+                                            Join Now!
+                                        </Button>
+                                    </Row>
+                                </Container>
+                            </Container>
+                            <Container style={{display: disp2[disp]}}>
+                                <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
                             </Container>
                         </Container>
-                        <Container style={{display: disp2[disp]}}>
-                            <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
-                        </Container>
-                    </Toast.Body>
+                    </Container>
                 </Toast>
                 <Toast style={{
                     position: 'absolute',
                     zIndex: '99',
                     width: '100%',
-                    top:'0',
+                    top: '0',
                     height: '100%',
                     backgroundColor: 'rgba(0,0,0,0.5)'
                 }}

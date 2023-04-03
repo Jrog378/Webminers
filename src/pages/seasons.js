@@ -36,7 +36,7 @@ export default function AuthSeasons(props) {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius:'25px'}}>
+            <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
                     <Row>
                         <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
@@ -118,19 +118,30 @@ export default function AuthSeasons(props) {
                                                                                    placeholder={'blur'}
                                                                             />
                                                                             :
-                                                                            <Container>
-                                                                                <h1 style={{textAlign: "center"}}>Please
-                                                                                    visit <Link
-                                                                                        className={styles.weblink}
-                                                                                        href={'/auth/profile'}>Profile</Link> to
-                                                                                    Upgrade Plan
+                                                                            <>
+                                                                                <h1 style={{textAlign: "center"}}><Link
+                                                                                    className={styles.weblink}
+                                                                                    href={'/pricing'}>Seasonalist
+                                                                                    Plan</Link> Required
                                                                                 </h1>
-                                                                            </Container>
-                                                                    : <Container><h1
-                                                                        style={{textAlign: "center"}}>Please <Link
-                                                                        className={styles.weblink}
-                                                                        href={'/auth/login'}>Login</Link> to
-                                                                        see content</h1></Container>
+                                                                                <Image
+                                                                                    src={'/plots/SeasonsPlot.webp'}
+                                                                                    alt={'Seasons Plot'}
+                                                                                    placeholder={'blur'}
+                                                                                />
+                                                                            </>
+                                                                    :
+                                                                    <>
+                                                                        <h1
+                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            className={styles.weblink}
+                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            see content</h1>
+                                                                        <Image src={'/plots/SeasonsPlot.webp'}
+                                                                               alt={'Seasons Plot'}
+                                                                               placeholder={'blur'}
+                                                                        />
+                                                                    </>
                                                             }
 
                                                         </Card>
