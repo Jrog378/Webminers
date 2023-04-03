@@ -35,7 +35,7 @@ export default function Balancing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
-            <div style={{width:'100%', backgroundColor:'whitesmoke', borderRadius:'25px'}}>
+            <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
                     <Row>
                         <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
@@ -122,24 +122,39 @@ export default function Balancing() {
                                                                     ? plan === ''
                                                                         ? <Card.Title>Loading...</Card.Title>
                                                                         : plan !== 'none' && plan !== 'Seasonalist'
-                                                                            ? <Image
+                                                                            ?
+                                                                            <Image
                                                                                 src={'/plots/MiniAssetBalancing.webp'}
-                                                                                alt={'MiniAssetWeighting'}
+                                                                                alt={'Mini Asset Balancing'}
                                                                                 placeholder={'blur'}
                                                                             />
                                                                             :
-                                                                            <Container><h1
-                                                                                style={{textAlign: "center"}}>Please
-                                                                                visit <Link
+                                                                            <>
+                                                                                <h1
+                                                                                    style={{textAlign: "center"}}><Link
                                                                                     className={styles.weblink}
-                                                                                    href={'/auth/profile'}>Profile</Link> to
-                                                                                Upgrade Plan
-                                                                            </h1></Container>
-                                                                    : <Container><h1
-                                                                        style={{textAlign: "center"}}>Please <Link
-                                                                        className={styles.weblink}
-                                                                        href={'/auth/login'}>Login</Link> to
-                                                                        see content</h1></Container>
+                                                                                    href={'/pricing'}>Investor
+                                                                                    Plan</Link> Required
+                                                                                </h1>
+                                                                                <Image
+                                                                                    src={'/plots/BalancingPlot.webp'}
+                                                                                    alt={'Balancing Plot'}
+                                                                                    placeholder={'blur'}
+                                                                                />
+                                                                            </>
+                                                                    :
+                                                                    <>
+                                                                        <h1
+                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            className={styles.weblink}
+                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            see content</h1>
+                                                                        <Image
+                                                                            src={'/plots/BalancingPlot.webp'}
+                                                                            alt={'Balancing Plot'}
+                                                                            placeholder={'blur'}
+                                                                        />
+                                                                    </>
                                                             }
                                                         </Card>
                                                     </Tab.Pane>
@@ -156,23 +171,35 @@ export default function Balancing() {
                                                                             ?
                                                                             <Image
                                                                                 src={'/plots/MiniAssetBalancingExp.webp'}
-                                                                                alt={'MiniAssetWeighting'}
+                                                                                alt={'Mini Asset Weighting Experienced'}
                                                                                 placeholder={'blur'}
                                                                             />
                                                                             :
-                                                                            <Container style={{padding: '25px 10%'}}>
-                                                                                <h2 style={{
+                                                                            <>
+                                                                                <h1 style={{
                                                                                     textAlign: "center",
-                                                                                }}>Please visit <Link
+                                                                                }}><Link
                                                                                     className={styles.weblink}
-                                                                                    href={'/auth/profile'}>Profile</Link> to
-                                                                                    upgrade to Strategist plan</h2>
-                                                                            </Container>
-                                                                    : <Container><h1
-                                                                        style={{textAlign: "center"}}>Please <Link
-                                                                        className={styles.weblink}
-                                                                        href={'/auth/login'}>Login</Link> to
-                                                                        see content</h1></Container>
+                                                                                    href={'/pricing'}>Strategist
+                                                                                    Plan</Link> Required</h1>
+                                                                                <Image
+                                                                                    src={'/plots/BalancingPlot.webp'}
+                                                                                    alt={'Balancing Plot'}
+                                                                                    placeholder={'blur'}
+                                                                                />
+                                                                            </>
+                                                                    : <>
+                                                                        <h1
+                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            className={styles.weblink}
+                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            see content</h1>
+                                                                        <Image
+                                                                                src={'/plots/BalancingPlot.webp'}
+                                                                                alt={'Balancing Plot'}
+                                                                                placeholder={'blur'}
+                                                                            />
+                                                                    </>
 
                                                             }
                                                         </Card>

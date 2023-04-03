@@ -65,8 +65,8 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Market Seasons</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
+                                                <td>Basic Asset Analysis</td>
+                                                <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
                                                 <td>Premium Asset Seasons</td>
@@ -74,10 +74,6 @@ export default function Pricing() {
                                             </tr>
                                             <tr>
                                                 <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
@@ -109,7 +105,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Market Seasons</td>
+                                                <td>Basic Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -118,10 +114,6 @@ export default function Pricing() {
                                             </tr>
                                             <tr>
                                                 <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
@@ -153,7 +145,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Market Seasons</td>
+                                                <td>Basic Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -162,10 +154,6 @@ export default function Pricing() {
                                             </tr>
                                             <tr>
                                                 <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -197,7 +185,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Market Seasons</td>
+                                                <td>Basic Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -206,10 +194,6 @@ export default function Pricing() {
                                             </tr>
                                             <tr>
                                                 <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Asset Analysis</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>

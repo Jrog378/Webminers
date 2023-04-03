@@ -174,7 +174,7 @@ export default function TimelessInvesting() {
                                 What Makes Investing a Timeless Money Maker
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Mar 18 2022
+                                Published on: Mar 18 2023
                             </Card.Text>
                         </Card>
                     </header>

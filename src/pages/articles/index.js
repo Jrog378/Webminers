@@ -13,6 +13,7 @@ import MentalMain from '../../images/articleimages/MentalMain.webp'
 import TopMain from '../../images/articleimages/TopMain.webp'
 import TimelessMain from '../../images/articleimages/TimelessMain.webp'
 import StartInvestingMain from '../../images/articleimages/StartInvestingMain.webp'
+import BigCryptoMain from '../../images/articleimages/BigCryptoMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
@@ -21,10 +22,19 @@ import React from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
-import Script from "next/script";
-
-export default function Toplogos() {
+export default function Articles() {
     const blogposts = [
+        {
+            id: 16,
+            title: 'Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023',
+            date: 'Apr 3rd 2023',
+            text: 'There are many ways to find profitable coins in investing. It takes efficiency, ' +
+                'popularity, and longevity to determine how successful a cryptocurrency will be.',
+            url: '/articles/next-big-crypto',
+            img: BigCryptoMain,
+            alt: 'A tiny clay man in a blue jacket and brown hair reading a book sitting on a pile of ' +
+                'eleven foreign coins with gold coatings.'
+        },
         {
             id: 15,
             title: 'How to Start Investing - What I Did to Create my Investing System',
