@@ -5,14 +5,24 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                <Script
+                <script
+                    data-ad-client="7878345029704986"
                     async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7878345029704986"
-                    crossOrigin="anonymous"
-                    strategy='afterInteractive'
-                />
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
             </Head>
             <body>
+            <Script
+                id="google-auto-ads"
+                dangerouslySetInnerHTML={{
+                    __html: `
+            (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "7878345029704986",
+              enable_page_level_ads: true
+            });
+          `,
+                }}
+            />
             <Main/>
             <NextScript/>
             </body>
