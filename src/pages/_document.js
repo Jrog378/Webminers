@@ -22,6 +22,7 @@ export default function Document() {
             });
           `,
                 }}
+                strategy={'lazyOnload'}
             />
             <Main/>
             <NextScript/>
