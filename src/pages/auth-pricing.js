@@ -68,59 +68,60 @@ export default function AuthPricing() {
                 }
                 <Container style={{padding: '25px'}}>
                     <h1 style={{textAlign: 'center', padding: '25px'}}>
-                        Testimonials
+                        What Others Think
                     </h1>
                     <CardGroup>
-                        <Row>
-                            <Col md={12} lg={4}>
-                                <Card>
-                                    <Card.Body>
-                                        <Card.Header>
-                                            Data-Driven
-                                        </Card.Header>
-                                        <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                            Everything is very easy to understand and read. I love how the findings are
-                                            backed by data and science! I think the analysis section is the best part
-                                            where
-                                            I can compare assets to pick and choose from for my own investments.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col md={12} lg={4} style={{padding: '15px'}}>
-                                <Card>
-                                    <Card.Body>
-                                        <Card.Header>
-                                            Great Seasons!
-                                        </Card.Header>
-                                        <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                            Market and Asset Seasons are a great help in understanding where the market
-                                            is
-                                            and for what. I love that inflation is taken into account so I know how well
-                                            the
-                                            economy is and where it&apos;s headed
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col md={12} lg={4}>
-                                <Card>
-                                    <Card.Body>
-                                        <Card.Header>
-                                            Accurate Seasons and Weightings
-                                        </Card.Header>
-                                        <Card.Text style={{textAlign: 'center', padding: '5px'}}>
-                                            Super Accurate Seasons and Weightings. I check the daily updates before
-                                            doing
-                                            anything in the markets to make sure what I&apos;m doing is a smart
-                                            decision.
-                                            Reliable and consistently updated(a lot!).
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        </Row>
-                    </CardGroup>
+                            <Row>
+                                <Col md={12} lg={4}>
+                                    <Card className={styles.cardhover}>
+                                        <Card.Body>
+                                            <p style={{textAlign: 'center', padding: '5px'}}>
+                                                I was a complete novice when it came to investing, but everything was
+                                                very easy to understand and read. I now feel confident making informed
+                                                decisions about my money. I think the analysis section is the best
+                                                part where I can compare assets to pick and choose from for my own
+                                                investments.
+                                            </p>
+                                            <p style={{margin:0}}>
+                                                - John S.
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md={12} lg={4} style={{padding: '15px'}}>
+                                    <Card className={styles.cardhover}>
+                                        <Card.Body>
+                                            <p style={{textAlign: 'center', padding: '5px'}}>
+                                                I was skeptical about the whole Webminers Investing System at first,
+                                                but after going through everything I can truly state that it was far
+                                                beyond my expectations. The Seasons organized and simple to understand.
+                                                Everything in my Subscription was easy to find and I have a much deeper
+                                                understanding of my personal investing plans.
+                                            </p>
+                                            <p style={{margin:0}}>
+                                                - Sarah L.
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md={12} lg={4}>
+                                    <Card className={styles.cardhover}>
+                                        <Card.Body>
+                                            <p style={{textAlign: 'center', padding: '5px'}}>
+                                                Whether you&apos;re a seasoned investor or a newcomer to the world of
+                                                crypto, I highly recommend working with Webminers. Their A-Class
+                                                research resources have helped me make informed decisions about my
+                                                investments and guide me through my previous crypto difficulties.
+                                                I couldn&apos;t recommend them enough!
+                                            </p>
+                                            <p style={{margin:0}}>
+                                                - Mark T.
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
+                        </CardGroup>
                 </Container>
             </Container>
         </>

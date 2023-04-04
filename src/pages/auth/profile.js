@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import {auth, db} from "@/config";
 import Router from "next/router";
 import {useAuthState} from "react-firebase-hooks/auth";
@@ -30,44 +30,66 @@ export default function Profile() {
     }, [user, loading]);
     return (
         <>
-            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width:'100%'}}>
+            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Head>
                     <title>Webminers - Profile</title>
                     <meta property='og:title' content='Profile'/>
                     <meta property='og:image' content={logo}/>
                 </Head>
-                <Container style={{wordWrap: 'break-word'}}>
+                <Container style={{wordWrap: 'break-word', padding: '30px'}}>
                     {user && !loading
-                        ? <Container style={{padding: '5% 15%'}}>
-                            <h1>Hello {name}</h1>
-                            <h3>Email: {email}</h3>
-
-                            <Container style={{paddingTop: '10%'}}>
-                                <Col>
-                                    <Row>
-                                        <h2 style={{textAlign: 'center', fontWeight: 'bolder'}}>
-                                            Plan Details
-                                        </h2>
-                                    </Row>
-                                    <Row style={{padding: '15px 0'}}>
-                                        <h3>Account Plan: {plan}</h3>
-                                    </Row>
-                                    <Row>
-                                        {plan === 'none'
-                                            ? <Button style={{width: '80%', margin: 'auto'}} variant={'success'}
-                                                      href={'/pricing'}>Get a Plan</Button>
-                                            : plan === ''
-                                                ? <Button style={{width: '80%', margin: 'auto'}} variant={'success'}
-                                                          href={''}>Loading</Button>
-                                                : <Button style={{width: '80%', margin: 'auto'}} variant={'success'}
-                                                          href={'https://checkout.webminers.dev/p/login/bIY5leaPGengaVG9AA'}>Subscription
-                                                    Management</Button>
-                                        }
-                                    </Row>
-                                </Col>
+                        ?
+                        <>
+                            <h1>Hello {name}!</h1>
+                            <Container style={{padding: '20px'}}>
+                                <h2 style={{textAlign: 'center', fontWeight: 'bolder'}}>
+                                    Profile Details
+                                </h2>
+                                <Container style={{padding: '15px'}}>
+                                    <h4>Email: {email}</h4>
+                                    <h4>Account Plan: {plan}</h4>
+                                </Container>
                             </Container>
-                        </Container>
-                        : <Container><h1>Loading...</h1></Container>
+                            <Container>
+                                <Row>
+                                    <Col md={12} lg={6} style={{padding: '10px'}}>
+                                        <Card className={styles.cardhover} style={{padding: '10px'}}>
+                                            <h3 style={{textAlign: 'center'}}>Wondering What Webminers Has to
+                                                Offer?</h3>
+                                            <p style={{fontSize: 'larger'}}>Checkout our other plans for Investing
+                                                Seasons,
+                                                Balancing, and Analysis.</p>
+                                            <Button variant={'success'} style={{width: '80%', margin: '0 auto'}}
+                                                    href={'/pricing'}>Visit Pricing</Button>
+                                        </Card>
+                                    </Col>
+                                    <Col md={12} lg={6} style={{padding: '10px'}}>
+                                        <Card className={styles.cardhover} style={{padding: '10px'}}>
+                                            <h3 style={{textAlign: 'center'}}>Ready For An Upgrade?</h3>
+                                            <p style={{fontSize: 'larger'}}>Purchase one of our plans or modify and
+                                                existing plan below.</p>
+                                            {plan === 'Loading...'
+                                                ?
+                                                <Button style={{width: '80%', margin: '0 auto'}} variant={'success'}
+                                                        href={''}>Loading...</Button>
+                                                : plan === 'none'
+                                                    ?
+                                                    <Button style={{width: '80%', margin: '0 auto'}} variant={'success'}
+                                                            href={'/auth-pricing'}>Get a Plan</Button>
+                                                    :
+                                                    <Button style={{width: '80%', margin: '0 auto'}} variant={'success'}
+                                                            href={'https://checkout.webminers.dev/p/login/bIY5leaPGengaVG9AA'}>
+                                                        Subscription Management</Button>
+                                            }
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </>
+                        :
+                        <>
+                            <h1>Loading...</h1>
+                        </>
                     }
                     <Container>
                         <h2 style={{textAlign: 'center', padding: '0 10%'}}>

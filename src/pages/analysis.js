@@ -1107,6 +1107,43 @@ export default function Analysis() {
                                                         className={styles.weblink}
                                                         href={'/auth/login'}>Login</Link> to
                                                         see content</h1>
+                                                    <Table className={styles.tablecen}
+                                                                       style={{padding: '25px'}} striped>
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>Timeframe</th>
+                                                                        <th>?</th>
+                                                                        <th>?</th>
+                                                                        <th>?</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>Mini Term (30 Days)</td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Short Term (4 Months)</td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Mid Term (1 Year)</td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Long Term (3 Years)</td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </Table>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="Doge">
                                                     <h1 style={{textAlign: "center"}}>Please <Link
