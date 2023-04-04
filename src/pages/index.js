@@ -68,7 +68,7 @@ function EmailALert() {
                         <Container style={{padding: '30px'}}>
                             <Container style={{display: disp1[disp]}}>
                                 <h3 style={{padding: '5px'}}>
-                                    Want Better Investing Data & Insights?
+                                    Want Better Investing Information & Research?
                                 </h3>
                                 <Card.Text style={{fontSize: 'larger'}}>
                                     Join our Emailing List today and get updates on Webminers Seasons, New Features, and
