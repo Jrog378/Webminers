@@ -64,7 +64,7 @@ function EmailALert() {
                        }}
                        show={open} onClose={closeModal}>
                     <Container>
-                        <CloseButton style={{padding: '10px, 20px', position: 'absolute', right: '10px', top: '5px'}}
+                        <CloseButton style={{padding: '20px', position: 'absolute', right: '10px', top: '5px'}}
                                      onClick={closeList}/>
                         <Container style={{padding: '30px'}}>
                             <Container style={{display: disp1[disp]}}>
