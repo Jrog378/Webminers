@@ -82,7 +82,7 @@ export default function Articles() {
             title: 'How I Built a Financial Website with Articles and an Investing System - Part 4',
             date: 'Feb 6th 2023',
             text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
-                'Seasons, Asset Balancing, and Optimization.',
+                'Market Insights, Asset Balancing, and Asset Efficiency.',
             url: '/articles/new-services',
             img: NewServicesMain,
             alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +

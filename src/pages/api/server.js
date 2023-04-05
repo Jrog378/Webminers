@@ -46,11 +46,11 @@ export default async function handler(req, res) {
             if (event.type === "customer.subscription.created" || event.type === "customer.subscription.updated") {
                 console.log(charge1['customer'])
                 if (charge1['plan']['product'] === 'prod_NQ2zH4iXcDUl2n') {
-                    console.log('Seasonalist')
-                    webplan1 = 'Seasonalist'
+                    console.log('Essential')
+                    webplan1 = 'Essential'
                 } else if (charge1['plan']['product'] === 'prod_NQ311iEHIEp7jE') {
-                    console.log('Investor')
-                    webplan1 = 'Investor'
+                    console.log('Balanced')
+                    webplan1 = 'Balanced'
                 } else if (charge1['plan']['product'] === 'prod_NQ35gcdCurUhVH') {
                     console.log('Strategist')
                     webplan1 = 'Strategist'
@@ -109,11 +109,11 @@ export default async function handler(req, res) {
             if (event.type === "customer.subscription.created" || event.type === "customer.subscription.updated") {
                 console.log(charge3['customer'])
                 if (charge3['plan']['product'] === 'prod_NL75Mz1Lv1a99x') {
-                    console.log('Seasonalist')
-                    webplan3 = 'Seasonalist'
+                    console.log('Essential')
+                    webplan3 = 'Essential'
                 } else if (charge3['plan']['product'] === 'prod_NL75ETJPk8RA5g') {
-                    console.log('Investor')
-                    webplan3 = 'Investor'
+                    console.log('Balanced')
+                    webplan3 = 'Balanced'
                 } else if (charge3['plan']['product'] === 'prod_NOpiiZZAQRUEpP') {
                     console.log('Strategist')
                     webplan3 = 'Strategist'

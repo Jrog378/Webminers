@@ -39,7 +39,7 @@ export default function TopInvestor() {
                 'It is up to us to be emotionless investors if we want to make money in the markets. You cannot let' +
                 ' your emotions take control. Every decision must have empirical evidence to back it. Otherwise, ' +
                 'you might as well be gambling. We have an insightful article on emotion called [The Best Ways ' +
-                'to Improve your Mental State for Better Investing](https://webminers.dev/articles/mental-improve).\n' +
+                'to Improve your Mental State for Better Investing](/articles/mental-improve).\n' +
                 '\n' +
                 'When talking about emotions and investing, the two emotions that come into play the most are fear' +
                 ' and greed. [Alternative’s Fear and Greed scale](https://alternative.me/crypto/fear-and-greed-index/)' +
@@ -74,9 +74,9 @@ export default function TopInvestor() {
                 ' firms with a lot of money. It is up to the investor to build their system to suit the investing' +
                 ' style that compliments them.\n' +
                 '\n' +
-                '[Webminers Seasons](https://webminers.dev/seasons) is an example of our investing system. For the ' +
-                'Webminers Seasons, we use Macroeconomic data and Custom indicators to determine a good time to buy ' +
-                'and sell. This data is collected daily. We specialize in the Seasonality of the markets. Seasonality' +
+                '[Webminers Market Insights](/insights) is an example of our investing system. For Market' +
+                'Insights, we use Macroeconomic data and Custom indicators to determine a good time to buy ' +
+                'and sell. This data is collected daily. We specialize in the reflexivity of the markets. reflexivity' +
                 ' shows us what goes up must come down and the other way around.'
         },
         {
@@ -97,9 +97,9 @@ export default function TopInvestor() {
                 'Over-diversification can take place with the collection of data or the assets that you are ' +
                 'tracking. I experienced this when following too many assets at once, seeing when they were at ' +
                 'the best time to buy. Rather than adding all this work to my plate, I took the time to develop' +
-                ' [Webminers Analysis](https://webminers.dev/analysis) so I could then pick and choose which ' +
+                ' [Webminers Asset Efficiency](/efficiency) so I could then pick and choose which ' +
                 'assets I wanted to track and which I would save for later if one of my mains were to stop ' +
-                'performing as well. Minimization eases the load of updating the Seasons and makes life easier' +
+                'performing as well. Minimization eases the load of updating the Market Insights and makes life easier' +
                 ' by removing unnecessary work.\n' +
                 '\n' +
                 'There are many types of investing styles. Our in-depth article will be coming out soon about ' +

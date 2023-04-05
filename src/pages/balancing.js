@@ -29,9 +29,10 @@ export default function Balancing() {
     return (
         <>
             <Head>
-                <title>Webminers Balancing - Make Data-Driven Decisions With Investing Systems</title>
+                <title>Webminers Investing - Asset Balancing</title>
                 <meta name="description"
-                      content="Webminers Balancing are revolutionizing how we make financial decisions with new balances and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
@@ -62,7 +63,7 @@ export default function Balancing() {
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;What to invest in?&apos; visit
-                                                <Link className={styles.weblink} href={'seasons'}> Webminers Seasons
+                                                <Link className={styles.weblink} href={'insights'}> Webminers Market Insights
                                                 </Link> to answer &apos;When to invest?&apos;
                                             </Card.Text>
                                         </Card.Body>
@@ -80,16 +81,16 @@ export default function Balancing() {
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Basic">Basic
-                                                                    Balancing</Nav.Link>
+                                                                <Nav.Link className={'navgreen'} eventKey="Basic">
+                                                                    Basic Asset Balancing</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
                                                     </Col>
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Alt">Alt
-                                                                    Balancing</Nav.Link>
+                                                                <Nav.Link className={'navgreen'} eventKey="Alt">
+                                                                    Premium Asset Balancing</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
                                                     </Col>
@@ -97,8 +98,8 @@ export default function Balancing() {
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
                                                                 <Nav.Link className={'navgreen'}
-                                                                          eventKey="Experimental">Experimental
-                                                                    Balancing</Nav.Link>
+                                                                          eventKey="Experimental">
+                                                                    Experimental Asset Balancing</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
                                                     </Col>
@@ -121,21 +122,22 @@ export default function Balancing() {
                                                                 : user
                                                                     ? plan === ''
                                                                         ? <Card.Title>Loading...</Card.Title>
-                                                                        : plan !== 'none' && plan !== 'Seasonalist'
+                                                                        : plan !== 'none' && plan !== 'Balanced'
                                                                             ?
                                                                             <Image
-                                                                                src={'/plots/MiniAssetBalancing.webp'}
-                                                                                alt={'Mini Asset Balancing'}
+                                                                                src={'/plots/AssetBalancingPlot.webp'}
+                                                                                alt={'Asset Balancing Plot'}
                                                                                 placeholder={'blur'}
                                                                             />
                                                                             :
                                                                             <>
-                                                                                <h1
+                                                                                <h2
                                                                                     style={{textAlign: "center"}}><Link
                                                                                     className={styles.weblink}
-                                                                                    href={'/pricing'}>Investor
-                                                                                    Plan</Link> Required
-                                                                                </h1>
+                                                                                    href={'/pricing'}>
+                                                                                    Balanced Investing Plan </Link>
+                                                                                    Required
+                                                                                </h2>
                                                                                 <Image
                                                                                     src={'/plots/BalancingPlot.webp'}
                                                                                     alt={'Balancing Plot'}
@@ -144,11 +146,11 @@ export default function Balancing() {
                                                                             </>
                                                                     :
                                                                     <>
-                                                                        <h1
+                                                                        <h2
                                                                             style={{textAlign: "center"}}>Please <Link
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
-                                                                            see content</h1>
+                                                                            see content</h2>
                                                                         <Image
                                                                             src={'/plots/BalancingPlot.webp'}
                                                                             alt={'Balancing Plot'}
@@ -170,18 +172,19 @@ export default function Balancing() {
                                                                         : plan === 'Strategist'
                                                                             ?
                                                                             <Image
-                                                                                src={'/plots/MiniAssetBalancingExp.webp'}
+                                                                                src={'/plots/AssetBalancingExp.webp'}
                                                                                 alt={'Mini Asset Weighting Experienced'}
                                                                                 placeholder={'blur'}
                                                                             />
                                                                             :
                                                                             <>
-                                                                                <h1 style={{
+                                                                                <h2 style={{
                                                                                     textAlign: "center",
                                                                                 }}><Link
                                                                                     className={styles.weblink}
-                                                                                    href={'/pricing'}>Strategist
-                                                                                    Plan</Link> Required</h1>
+                                                                                    href={'/pricing'}>
+                                                                                    Strategist Investing Plan </Link>
+                                                                                    Required</h2>
                                                                                 <Image
                                                                                     src={'/plots/BalancingPlot.webp'}
                                                                                     alt={'Balancing Plot'}
@@ -189,11 +192,11 @@ export default function Balancing() {
                                                                                 />
                                                                             </>
                                                                     : <>
-                                                                        <h1
+                                                                        <h2
                                                                             style={{textAlign: "center"}}>Please <Link
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
-                                                                            see content</h1>
+                                                                            see content</h2>
                                                                         <Image
                                                                                 src={'/plots/BalancingPlot.webp'}
                                                                                 alt={'Balancing Plot'}

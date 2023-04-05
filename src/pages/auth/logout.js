@@ -22,7 +22,7 @@ const Home = () => {
         <>
             <Container>
                 <Head>
-                    <title>Webminers - Logout</title>
+                    <title>Webminers Investing - Logout</title>
                     <meta property='og:title' content='Login'/>
                     <meta property='og:image' content={logo}/>
                 </Head>

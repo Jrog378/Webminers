@@ -19,7 +19,7 @@ function Reset() {
     return (
         <Container style={{padding: '25px'}} className="login">
             <Head>
-                <title>Webminers - Reset</title>
+                <title>Webminers Investing - Reset Password</title>
                 <meta property='og:title' content='Reset'/>
                 <meta property='og:image' content={logo}/>
             </Head>

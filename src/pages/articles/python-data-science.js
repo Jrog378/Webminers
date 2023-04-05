@@ -59,7 +59,7 @@ export default function PythonDataScience() {
                 'After you know how to graph, in comes data science. These can be executed with different algorithms ' +
                 'and equations that are completely done by the code so you don’t really have to remember anything(but ' +
                 'you eventually should). ' +
-                'These algorithms range from Data Mining, Statistical Analysis, and even Deep Learning/Machine ' +
+                'These algorithms range from Data Mining, Statistical Efficiency, and even Deep Learning/Machine ' +
                 'Learning/AI. ' +
                 'There is so much able to be done and the world of data is your playground.'
         },
@@ -100,7 +100,7 @@ export default function PythonDataScience() {
             img: PythonData4,
             description: 'Dark desk lit up by a desk lite with a Mac Laptop on a computer stand with a book and a tiny globe.',
             text: 'One of the industry\'s favorite websites for coding help is [StackOverflow](https://stackoverflow.com/).' +
-                'Coders tend to only use this for their questions but I recommend looking through other people’s ' +
+                ' Coders tend to only use this for their questions but I recommend looking through other people’s ' +
                 'questions and learning from the answers for 15 minutes a day.' +
                 'There won’t be any shortcuts along your way to becoming fluent in python but that doesn’t mean there ' +
                 'isn’t any way to increase your productivity.\n' +

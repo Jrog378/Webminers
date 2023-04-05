@@ -25,7 +25,7 @@ function Register() {
     return (
         <Container style={{padding: '25px', height: '100%'}} className="login">
             <Head>
-                <title>Webminers - Signup</title>
+                <title>Webminers Investing - Signup</title>
                 <meta property='og:title' content='Signup'/>
                 <meta property='og:image' content={logo}/>
             </Head>
