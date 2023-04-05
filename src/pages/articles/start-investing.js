@@ -91,7 +91,7 @@ export default function StartInvesting() {
                 'light blue and light orange.',
             text: 'Successful investing comes in many forms. With this amount of different types of ' +
                 'investing comes similarities. The categories that collect these similarities are Market Structure ' +
-                'Investing and Seasonalist Investing. I’m sure you will find more out there, and these categories ' +
+                'Investing and Reflexive Investing. I’m sure you will find more out there, and these categories ' +
                 'are just guidelines for your to build your investing system on top of. Both of these work on ' +
                 'every timeframe as well.\n' +
                 '\n' +
@@ -103,13 +103,13 @@ export default function StartInvesting() {
                 'for a successful Market Structure Investing strategy. Indicators like RSI or Moving Averages a' +
                 're necessary for this type of investing to ensure accuracy.\n' +
                 '\n' +
-                'Seasonalist Investing takes advantage of the fact that markets have turning points where they ' +
+                'Reflexive Investing takes advantage of the fact that markets have turning points where they ' +
                 'will change direction. These changes in momentum are the buying and selling points of your ' +
-                'strategy. Seasonalist Investing is mainly data-driven from indicators from before or your ' +
+                'strategy. Reflexive Investing is mainly data-driven from indicators from before or your ' +
                 'custom-made indicators. Here at Webminers, we use both. The Webminers investing system has ' +
                 'lots of different data. Our data can then come together to create one solid signal with few ' +
                 'weaknesses since our target is on just one type of movement. Check it out at ' +
-                '[Webminers Seasons](https://webminers.dev/seasons)\n'
+                '[Webminers Market Insights](/insights)\n'
         },
         {
             img: StartInvesting4,
@@ -143,7 +143,7 @@ export default function StartInvesting() {
                 'suits you, it is time to develop your system. Finally, bring home the profit and keep ' +
                 'growing.\n' +
                 '\n' +
-                'Enjoyed this blog? Consider joining our [Email List](https://webminers.dev/email-list)'
+                'Enjoyed this blog? Consider joining our [Email List](/email-list)'
         }
     ]
 

@@ -20,7 +20,12 @@ export default function Profile() {
             if (user) {
                 const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
                 console.log(promise)
-                setPlan(promise['plan'])
+                if (promise['plan'] === 'none') {
+                    setPlan(promise['plan'])
+                }
+                else {
+                    setPlan(promise['plan'] + ' Investing Plan')
+                }
                 setName(promise['name'])
                 setEmail(promise['email'])
             }
@@ -32,7 +37,7 @@ export default function Profile() {
         <>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Head>
-                    <title>Webminers - Profile</title>
+                    <title>Webminers Investing - Profile</title>
                     <meta property='og:title' content='Profile'/>
                     <meta property='og:image' content={logo}/>
                 </Head>

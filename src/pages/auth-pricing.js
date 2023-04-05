@@ -31,9 +31,10 @@ export default function AuthPricing() {
         <>
             <Script async src="https://js.stripe.com/v3/pricing-table.js"/>
             <Head>
-                <title>Webminers - Make Data-Driven Decisions With Investing Systems</title>
+                <title>Webminers Investing - Authorized Pricing</title>
                 <meta name="description"
-                      content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>

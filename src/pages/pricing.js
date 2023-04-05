@@ -9,9 +9,10 @@ export default function Pricing() {
     return (
         <>
             <Head>
-                <title>Webminers - Make Data-Driven Decisions With Investing Systems</title>
+                <title>Webminers Investing - Pricing</title>
                 <meta name="description"
-                      content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
@@ -25,18 +26,19 @@ export default function Pricing() {
                             <Col md={12} lg={4}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan ($0)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="second">Seasonalist Plan
-                                            ($13)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="second">Essential Investing Plan
+                                        </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="third">Investor Plan ($25)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="third">Balanced Investing Plan
+                                        </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Plan
-                                            ($50)</Nav.Link>
+                                        <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Investing Plan
+                                        </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link className={'navgreen'} href={'/auth-pricing'}>
@@ -52,24 +54,24 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Free Plan</th>
+                                                <th className={styles.tablecen}>Free Plan $0</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>Basic Seasons</td>
+                                                <td>Basic Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Balancing</td>
+                                                <td>Basic Asset Balancing</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Asset Analysis</td>
+                                                <td>Basic Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Asset Seasons</td>
+                                                <td>Premium Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
@@ -81,7 +83,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Analysis</td>
+                                                <td>Experimental Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -92,24 +94,24 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Seasonalist Plan</th>
+                                                <th className={styles.tablecen}>Essential Investing Plan $13</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>Basic Seasons</td>
+                                                <td>Basic Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Balancing</td>
+                                                <td>Basic Asset Balancing</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Asset Analysis</td>
+                                                <td>Basic Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Asset Seasons</td>
+                                                <td>Premium Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -121,7 +123,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Analysis</td>
+                                                <td>Experimental Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -132,24 +134,24 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Investor Plan</th>
+                                                <th className={styles.tablecen}>Balanced Investing Plan $25</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>Basic Seasons</td>
+                                                <td>Basic Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Balancing</td>
+                                                <td>Basic Asset Balancing</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Asset Analysis</td>
+                                                <td>Basic Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Asset Seasons</td>
+                                                <td>Premium Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -161,7 +163,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Analysis</td>
+                                                <td>Experimental Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u00d7'}</td>
                                             </tr>
                                             </tbody>
@@ -172,24 +174,24 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Strategist Plan</th>
+                                                <th className={styles.tablecen}>Strategist Investing Plan $50</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>Basic Seasons</td>
+                                                <td>Basic Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Balancing</td>
+                                                <td>Basic Asset Balancing</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Basic Asset Analysis</td>
+                                                <td>Basic Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Premium Asset Seasons</td>
+                                                <td>Premium Market Insights</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
@@ -201,7 +203,7 @@ export default function Pricing() {
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             <tr>
-                                                <td>Experimental Analysis</td>
+                                                <td>Experimental Asset Efficiency</td>
                                                 <td className={styles.tablecen}>{'\u2713'}</td>
                                             </tr>
                                             </tbody>
@@ -239,9 +241,9 @@ export default function Pricing() {
                                     <Card className={styles.cardhover}>
                                         <Card.Body>
                                             <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was skeptical about the whole Webminers Investing System at first,
+                                                I was skeptical about the whole Webminers Investing at first,
                                                 but after going through everything I can truly state that it was far
-                                                beyond my expectations. The Seasons organized and simple to understand.
+                                                beyond my expectations. The Insights organized and simple to understand.
                                                 Everything in my Subscription was easy to find and I have a much deeper
                                                 understanding of my personal investing plans.
                                             </p>

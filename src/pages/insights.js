@@ -27,41 +27,51 @@ export default function AuthSeasons(props) {
 
     }, [user, loading]);
 
+    function calculate() {
+        const initialInvestment = document.getElementById("initial-investment").value;
+        const monthlyReturn = document.getElementById("monthly-return").value;
+        const months = document.getElementById("months").value;
+        const totalProfit = initialInvestment * Math.pow(1 + monthlyReturn / 100, months) - initialInvestment;
+        const result = document.getElementById("result");
+        result.value = "$" + totalProfit.toFixed(2); // display result
+    }
+
     return (
         <>
             <Head>
-                <title>Webminers Seasons - Make Data-Driven Decisions With Investing Systems</title>
+                <title>Webminers Investing - Market Insights</title>
                 <meta name="description"
-                      content="Webminers Seasons are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
                     <Row>
-                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xl={5} lg={6} md={12} sm={12} style={{padding: '10px'}}>
                             <Container>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
                                         <Card.Body style={{margin: 'auto'}}>
                                             <Card.Title
                                                 style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
-                                                Market Seasons
+                                                Market Insights
                                             </Card.Title>
                                         </Card.Body>
                                         <Card.Body style={{margin: 'auto'}}>
                                             <Card.Text style={{fontSize: '20px'}}>
-                                                Seasonality, also known as the ups and downs of the market, is
+                                                Reflexivity, also known as the ups and downs of the market, is
                                                 inevitable. What we have to do with this knowledge is predict
                                                 when the market will start going up or down. Webminers has produced
-                                                its findings on Seasonality in two forms. The first is the Economy
-                                                or Generalized Market, and the second is Asset Specific. Some may
+                                                its findings on reflexivity in two forms. The first is the Generalized
+                                                Market Insights, and the second is Asset Specific. Some may
                                                 say that the markets are unpredictable. However, with well-suited
-                                                data, Seasonality becomes crystal clear.
+                                                data, reflexivity becomes crystal clear.
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;When to invest?&apos; visit
-                                                <Link className={styles.weblink} href={'balancing'}> Webminers Balancing
+                                                <Link className={styles.weblink} href={'balancing'}> Asset Balancing
                                                 </Link> to answer &apos;What to invest in?&apos;
                                             </Card.Text>
                                         </Card.Body>
@@ -69,7 +79,7 @@ export default function AuthSeasons(props) {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xl={5} lg={6} md={12} sm={12} style={{padding: '10px'}}>
                             <Container>
                                 <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
@@ -79,16 +89,16 @@ export default function AuthSeasons(props) {
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Basic">Economic
-                                                                    Seasons</Nav.Link>
+                                                                <Nav.Link className={'navgreen'} eventKey="Basic">
+                                                                    Overall Economic Insights</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
                                                     </Col>
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Alt">Asset
-                                                                    Seasons</Nav.Link>
+                                                                <Nav.Link className={'navgreen'} eventKey="Alt">
+                                                                    Crypto Insights</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
                                                     </Col>
@@ -98,7 +108,7 @@ export default function AuthSeasons(props) {
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
                                                         <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                            <Image src={'/plots/EconomicSeasonsPlot.webp'}
+                                                            <Image src={'/plots/EconomicInsightsPlot.webp'}
                                                                    alt={'Economic Seasons'}
                                                                    placeholder={'blur'}
                                                             />
@@ -113,31 +123,32 @@ export default function AuthSeasons(props) {
                                                                         ? <Card.Title>Loading...</Card.Title>
                                                                         : plan !== 'none'
                                                                             ?
-                                                                            <Image src={'/plots/AssetSeasonsPlot.webp'}
+                                                                            <Image src={'/plots/AssetInsightsPlot.webp'}
                                                                                    alt={'Asset Seasons'}
                                                                                    placeholder={'blur'}
                                                                             />
                                                                             :
                                                                             <>
-                                                                                <h1 style={{textAlign: "center"}}><Link
+                                                                                <h2 style={{textAlign: "center"}}><Link
                                                                                     className={styles.weblink}
-                                                                                    href={'/pricing'}>Seasonalist
+                                                                                    href={'/pricing'}>Essential
+                                                                                    Investing
                                                                                     Plan</Link> Required
-                                                                                </h1>
+                                                                                </h2>
                                                                                 <Image
-                                                                                    src={'/plots/SeasonsPlot.webp'}
+                                                                                    src={'/plots/InsightsPlot.webp'}
                                                                                     alt={'Seasons Plot'}
                                                                                     placeholder={'blur'}
                                                                                 />
                                                                             </>
                                                                     :
                                                                     <>
-                                                                        <h1
+                                                                        <h2
                                                                             style={{textAlign: "center"}}>Please <Link
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
-                                                                            see content</h1>
-                                                                        <Image src={'/plots/SeasonsPlot.webp'}
+                                                                            see content</h2>
+                                                                        <Image src={'/plots/InsightsPlot.webp'}
                                                                                alt={'Seasons Plot'}
                                                                                placeholder={'blur'}
                                                                         />
@@ -150,9 +161,37 @@ export default function AuthSeasons(props) {
                                             </Row>
                                         </Col>
                                     </Tab.Container>
-
                                 </Card>
                             </Container>
+                        </Col>
+                        <Col xl={2} lg={12}  style={{padding: '10px'}}>
+                            <div>
+                                <h2 style={{textAlign: 'center'}}>Investing Calculator</h2>
+                                <p>Predicted profit based on average monthly return.</p>
+                                <Col>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding:0}} htmlFor="initial-investment">Starting Amount</label>
+                                        <input className={styles.inputs} type="number" id="initial-investment" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding:0}} htmlFor="monthly-return">Monthly Profit %</label>
+                                        <input className={styles.inputs} type="number" id="monthly-return" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding:0}} htmlFor="months">Month Count</label>
+                                        <input className={styles.inputs} type="number" id="months" min="0" required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding:0}} htmlFor="result">Total Profit</label>
+                                        <input className={styles.inputs} type="text" id="result" disabled/>
+                                    </Row>
+                                </Col>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

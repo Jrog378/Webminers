@@ -23,7 +23,7 @@ function Login() {
     return (
         <Container style={{padding: '25px', height: '100%'}} className="login">
             <Head>
-                <title>Webminers - Login</title>
+                <title>Webminers Investing - Login</title>
                 <meta property='og:title' content='Login'/>
                 <meta property='og:image' content={logo}/>
             </Head>

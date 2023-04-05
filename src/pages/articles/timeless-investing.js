@@ -24,7 +24,7 @@ export default function TimelessInvesting() {
                 '1. [Inflation only decreases assets value](#Inflation)\n' +
                 '2. [You do not only have to invest in an asset](#Knowledge)\n' +
                 '3. [Online investment opportunities are increasing](#OnlineInvesting)\n' +
-                '4. [Reflexive Investing Seasons](#InvestingSeasons)'
+                '4. [Reflexive Investing](#ReflexiveInvesting)'
         },
         {
             img: Timeless1,
@@ -46,8 +46,9 @@ export default function TimelessInvesting() {
                 'savings account because historically, we have seen many times that interest in savings ' +
                 'accounts under performs inflation. Don\'t think your money is safe from being devalued in a ' +
                 'bank. Assets like stocks and cryptocurrencies are on the riskier side you can pick from. ' +
-                'Visit ***Webminers Seasons*** to learn more if you are interested. If the risk is not your thing, ' +
-                'try looking into collecting different types of tangled assets like art or stamps.\n'
+                'Visit [Webminers Asset Balancing](/balancing) to learn more if you are interested in finding assets to ' +
+                'combat inflation. If the risk is not your thing, try looking into collecting different types of' +
+                ' tangled assets like art or stamps.\n'
         },
         {
             img: Timeless2,
@@ -99,12 +100,12 @@ export default function TimelessInvesting() {
         },
         {
             img: Timeless4,
-            title: 'Reflexive Investing Seasons',
-            id: 'InvestingSeasons',
+            title: 'Reflexive Investing',
+            id: 'ReflexiveInvesting',
             description: 'Dark setting that has small slices in it where light can get through that slowly gets smaller towards the center',
-            text: 'Investing Seasons are reflexive. The markets will go up and down for infinity, meaning there ' +
+            text: 'Investing markets are reflexive. They will go up and down for infinity, meaning there ' +
                 'will always be a good enough time to buy coming up or a good time to sell. ' +
-                '[Webminers Seasons](/seasons) makes finding that easy for you. Since the markets will either ' +
+                '[Webminers Market Insights](/insights) makes finding that easy for you. Since the markets will either ' +
                 'be going up or down, all we have to do is time the transition point correctly to make money.\n' +
                 '\n' +
                 'Transition points from many different timelines. The most notable is the 2-8 week season. ' +

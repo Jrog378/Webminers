@@ -10,7 +10,7 @@ import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 
-export default function Analysis() {
+export default function Efficiency() {
     let [plan, setPlan] = useState('')
     const [user, loading] = useAuthState(auth)
     useEffect(() => {
@@ -28,9 +28,10 @@ export default function Analysis() {
     return (
         <>
             <Head>
-                <title>Webminers Research - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Investing - Asset Efficiency</title>
                 <meta name="description"
-                      content="Webminers Research are revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
@@ -254,7 +255,7 @@ export default function Analysis() {
                     {loading
                         ?
                         <Container style={{padding: '25px 10%'}}>
-                            <h1>Loading...</h1>
+                            <h2>Loading...</h2>
                         </Container>
                         : plan === 'Strategist'
                             ?
@@ -662,16 +663,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -717,16 +718,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -772,16 +773,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -827,16 +828,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -882,16 +883,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -937,16 +938,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>
@@ -992,16 +993,16 @@ export default function Analysis() {
                                                             ?
                                                             <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
                                                             :
-                                                            <h1 style={{textAlign: "center",}}>
+                                                            <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
                                                                       href={'/pricing'}>Strategist
                                                                     Plan</Link> Required
-                                                            </h1>
+                                                            </h2>
                                                         :
-                                                        <h1 style={{textAlign: "center"}}>Please <Link
+                                                        <h2 style={{textAlign: "center"}}>Please <Link
                                                             className={styles.weblink}
                                                             href={'/auth/login'}>Login</Link> to
-                                                            see content</h1>
+                                                            see content</h2>
                                                     }
                                                     <Table className={styles.tablecen}
                                                            style={{padding: '25px'}} striped>

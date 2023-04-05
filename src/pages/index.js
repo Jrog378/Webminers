@@ -64,14 +64,16 @@ function EmailALert() {
                        }}
                        show={open} onClose={closeModal}>
                     <Container>
-                        <CloseButton style={{padding: '10px, 20px', position: 'absolute', right: '10px', top: '5px'}} onClick={closeList}/>
+                        <CloseButton style={{padding: '10px, 20px', position: 'absolute', right: '10px', top: '5px'}}
+                                     onClick={closeList}/>
                         <Container style={{padding: '30px'}}>
                             <Container style={{display: disp1[disp]}}>
                                 <h3 style={{padding: '5px'}}>
                                     Want Better Investing Information & Research?
                                 </h3>
                                 <Card.Text style={{fontSize: 'larger'}}>
-                                    Join our Emailing List today and get updates on Webminers Seasons, New Features, and
+                                    Join our Emailing List today and get updates on Webminers Insights, New Features,
+                                    and
                                     More!
                                 </Card.Text>
                                 <Container>
@@ -117,9 +119,10 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Webminers - Make Data-Driven Decisions With Investment Research</title>
+                <title>Webminers Investing - Invest Smarter with Scientifically-Backed Research and Education</title>
                 <meta name="description"
-                      content="Webminers is revolutionizing how we make financial decisions with new seasons and optimization"/>
+                      content="Webminers Investing provides scientifically backed research and education to help you
+                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
             </Head>
@@ -203,15 +206,16 @@ export default function Home() {
                                                     Maximize Returns with Data-Driven Findings
                                                 </Card.Title>
                                                 <Card.Text>
-                                                    Finding insights is easier than it may seem if you know where to
-                                                    look. Our discoveries provide important topics:
-                                                    <Link className={styles.weblink} href={'/seasons'}> Seasons </Link>,
-                                                    locating where we are in the market,
+                                                    Webminers Investing provides scientifically backed research and
+                                                    education to help you make informed investing decisions with
+                                                    <Link className={styles.weblink} href={'/insights'}> Market
+                                                        Insights</Link>,
                                                     <Link className={styles.weblink}
-                                                          href={'/balancing'}> Balancing </Link>,
-                                                    setting up portfolios, and
-                                                    <Link className={styles.weblink} href={'/research'}> Research</Link>,
-                                                    where we look into how efficient assets are.
+                                                          href={'/balancing'}> Asset Balancing</Link>, and
+                                                    <Link className={styles.weblink} href={'/research'}> Asset
+                                                        Efficiency</Link>. These factors can help build a well rounded
+                                                    investing system with Risk Management, Asset Allocation, and Asset
+                                                    Selection.
                                                 </Card.Text>
                                                 <Button variant="success" href='/pricing'>Webminers
                                                     Pricing</Button>
@@ -244,57 +248,68 @@ export default function Home() {
                                     What Others Think
                                 </h1>
                                 <CardGroup>
-                            <Row>
-                                <Col md={12} lg={4}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was a complete novice when it came to investing, but everything was
-                                                very easy to understand and read. I now feel confident making informed
-                                                decisions about my money. I think the analysis section is the best
-                                                part where I can compare assets to pick and choose from for my own
-                                                investments.
-                                            </p>
-                                            <p style={{margin:0}}>
-                                                - John S.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col md={12} lg={4} style={{padding: '15px'}}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was skeptical about the whole Webminers Investing System at first,
-                                                but after going through everything I can truly state that it was far
-                                                beyond my expectations. The Seasons organized and simple to understand.
-                                                Everything in my Subscription was easy to find and I have a much deeper
-                                                understanding of my personal investing plans.
-                                            </p>
-                                            <p style={{margin:0}}>
-                                                - Sarah L.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col md={12} lg={4}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                Whether you&apos;re a seasoned investor or a newcomer to the world of
-                                                crypto, I highly recommend working with Webminers. Their A-Class
-                                                research resources have helped me make informed decisions about my
-                                                investments and guide me through my previous crypto difficulties.
-                                                I couldn&apos;t recommend them enough!
-                                            </p>
-                                            <p style={{margin:0}}>
-                                                - Mark T.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            </Row>
-                        </CardGroup>
+                                    <Row>
+                                        <Col md={12} lg={4}>
+                                            <Card className={styles.cardhover}>
+                                                <Card.Body>
+                                                    <p style={{textAlign: 'center', padding: '5px'}}>
+                                                        I was a complete novice when it came to investing, but
+                                                        everything was
+                                                        very easy to understand and read. I now feel confident making
+                                                        informed
+                                                        decisions about my money. I think the analysis section is the
+                                                        best
+                                                        part where I can compare assets to pick and choose from for my
+                                                        own
+                                                        investments.
+                                                    </p>
+                                                    <p style={{margin: 0}}>
+                                                        - John S.
+                                                    </p>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col md={12} lg={4} style={{padding: '15px'}}>
+                                            <Card className={styles.cardhover}>
+                                                <Card.Body>
+                                                    <p style={{textAlign: 'center', padding: '5px'}}>
+                                                        I was skeptical about the whole Webminers Investing System at
+                                                        first,
+                                                        but after going through everything I can truly state that it was
+                                                        far
+                                                        beyond my expectations. The Insights organized and simple to
+                                                        understand.
+                                                        Everything in my Subscription was easy to find and I have a much
+                                                        deeper
+                                                        understanding of my personal investing plans.
+                                                    </p>
+                                                    <p style={{margin: 0}}>
+                                                        - Sarah L.
+                                                    </p>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col md={12} lg={4}>
+                                            <Card className={styles.cardhover}>
+                                                <Card.Body>
+                                                    <p style={{textAlign: 'center', padding: '5px'}}>
+                                                        Whether you&apos;re a seasoned investor or a newcomer to the
+                                                        world of
+                                                        crypto, I highly recommend working with Webminers. Their A-Class
+                                                        research resources have helped me make informed decisions about
+                                                        my
+                                                        investments and guide me through my previous crypto
+                                                        difficulties.
+                                                        I couldn&apos;t recommend them enough!
+                                                    </p>
+                                                    <p style={{margin: 0}}>
+                                                        - Mark T.
+                                                    </p>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                    </Row>
+                                </CardGroup>
                             </Container>
 
                             <Container style={{padding: '15px'}}>

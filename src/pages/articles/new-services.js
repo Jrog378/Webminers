@@ -32,8 +32,8 @@ export default function NewServices() {
             img: NewServices1,
             description: 'Spreadsheet over a bar graph on a white piece of paper with a red pen resting on top of it' +
                 'next to a spiral notebook that has a light blue cover.',
-            text: 'Let\'s start with when to invest. [Webminers Seasons](/seasons) has a great set of graphics displaying Long ' +
-                'Term(50-100 Years), Mid Term(4-8 Years), and Short Term(4-6 Months) seasons all on one page. ' +
+            text: 'Let\'s start with when to invest. [Webminers Market Insights](/insights) has a great set of graphics displaying Long ' +
+                'Term(50-100 Years), Mid Term(4-8 Years), and Short Term(4-6 Months) timeframes all on one page. ' +
                 'Shorter timeframes are available with our Investors\' Plan(link coming soon). Each plot has a ' +
                 'simplistic marker to show what our market insights are saying. It also must be mentioned that just ' +
                 'because the point is at the bottom does not mean the market cannot go any lower. When dealing ' +
@@ -47,7 +47,7 @@ export default function NewServices() {
                 'is Ethereum(Yes, over Bitcoin). We have chosen this coin for two reasons, market cap, and efficiency. ' +
                 'Our Altcoins make up the rest of our portfolio and are hand-picked with two things in mind: predictability ' +
                 'and efficiency. We want a coin that follows our data nicely, is not prone to unpredictable movements ' +
-                'and does not carry unnecessary risk. Each coin in our portfolio has its own \'mini-term\' seasons' +
+                'and does not carry unnecessary risk. Each coin in our portfolio has its own \'mini-term\' timeframe' +
                 '(2-8 Weeks) for extreme accuracy and will be available through our Swing Traders Plan(link coming ' +
                 'soon).\n' +
                 '\n' +
@@ -120,7 +120,7 @@ export default function NewServices() {
                 <meta property='og:image' content={NewServicesMain}/>
                 <meta name='description'
                       content='Many upgrades have occurred since you last saw a Webminers article. We are
-                  adding features like Seasons, Asset Balancing, and Optimization.'/>
+                  adding features like Market Insights, Asset Balancing, and Asset Research.'/>
 
             </Head>
             <div style={{backgroundColor: '#212529'}}>

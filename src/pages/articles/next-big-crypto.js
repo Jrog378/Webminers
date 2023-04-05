@@ -57,7 +57,7 @@ export default function NextBigCrypto() {
                 'important ratios like the Sortino and Sharpe Ratios. Investopedia wrote an article called ' +
                 '[What Are Greeks in Finance and How Are They Used?](https://www.investopedia.com/terms/g/greeks.asp)' +
                 '  on many other types of risk-related variables. It is also another option to leave the calculations ' +
-                'to an outside source. Webminers has our very own [Analysis Page](https://webminers.dev/analysis) ' +
+                'to an outside source. Webminers has our very own [Asset Efficiency Page](/efficiency) ' +
                 'dedicated to the most important ratios available.\n'
         },
         {
@@ -127,7 +127,7 @@ export default function NextBigCrypto() {
                 'end up buying Eth and Btc as well. After all who wouldn’t? \n' +
                 '\n' +
                 'Eth and Btc remain at the top of my list for big coins to hold which is why if you take a look at ' +
-                '[Webminers Weightings](https://webminers.dev/weightings) ' +
+                '[Webminers Asset Balancing](/balancing) ' +
                 'you will see that Ethereum takes up the majority of the research-suggested portfolio. ' +
                 'Eth is efficient, has popularity, and trends, and is one of the big dogs of cryptocurrencies. ' +
                 'I believe that for the time being, even when Btc does better for short periods, Eth will catch ' +
@@ -141,10 +141,10 @@ export default function NextBigCrypto() {
                 'it colored blue, green, and yellow.\n',
             text: 'Now that we know how to find the next big cryptocurrencies to invest in, it’s time to go out ' +
                 'and find them. To find a generally good time to buy based on multiple different timeframes, ' +
-                'you can visit [Webminers Seasons](https://webminers.dev/seasons) to keep track of where we are ' +
+                'you can visit [Webminers Market Insights](/insights) to keep track of where we are ' +
                 'in the market and time your decisions based on research.\n' +
                 '\n' +
-                'Join the [Webminers Mailing List](https://webminers.dev/email-list) to get notified when new articles ' +
+                'Join the [Webminers Mailing List](/email-list) to get notified when new articles ' +
                 'are published'
         }
     ]

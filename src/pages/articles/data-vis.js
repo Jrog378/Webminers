@@ -94,7 +94,7 @@ export default function DataVis() {
                 'overlaps with many. ' +
                 'You can go into Web Scraping [as I did](introduction) and learn how to get your own data for the ' +
                 'businesses, ' +
-                'or you could go work with Machine Learning and Data Analysis to further help people analyze your ' +
+                'or you could go work with Machine Learning and Data Efficiency to further help people analyze your ' +
                 'graphics.\n' +
                 '\n' +
                 'There are so many different supporting skills that can be used in this field. ' +
