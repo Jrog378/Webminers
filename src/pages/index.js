@@ -127,27 +127,25 @@ export default function Home() {
                 <meta property='og:image' content={logo}/>
             </Head>
             <div style={{margin: '0', width: '100%'}}>
-                <div style={{
-                    width: '100%',
-                    padding: '50px',
-                    borderRadius: '20px',
-                    background: 'linear-gradient(0deg, rgba(33,37,41,1) 25%, rgba(20,75,0,1) 100%'
-                }}>
-                    <Container>
+                <div className={styles.sales}>
+                    <Card className={styles.cardhover} style={{
+                        width: '100%',
+                        padding: '50px',
+                        borderRadius: '20px',
+                    }}>
                         <Row>
                             <Col md={8}>
-                                <h1 style={{color: 'whitesmoke', fontSize: '50px'}}>
-                                    Bringing Real Data-Driven Insights to Your Investing Journey
+                                <h1 style={{fontSize: '50px'}}>
+                                    Bringing Real Scientific Insights to Your Investing Journey
                                 </h1>
                                 <br/>
                                 <br/>
-                                <Button variant="success" href='#why'>Get a hold of your successful investing decisions
+                                <Button variant="success" href='/pricing'>Get a hold of your successful investing
+                                    decisions
                                     →</Button>
                             </Col>
                         </Row>
-                    </Container>
-                </div>
-                <div className={styles.sales}>
+                    </Card>
                     <Container>
                         <Container style={{padding: '15px'}}>
                             <Card.Title id={'why'} style={{paddingBottom: '15px', fontSize: 'x-large'}}>

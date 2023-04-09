@@ -314,12 +314,14 @@
 }
 
 .bignav {
-    background-color: #212529;
+    background: rgb(33, 37, 41);
+    background: linear-gradient(0deg, rgba(33, 37, 41, 1) 0%, rgba(0, 100, 25, 0.5) 100%);
     z-index: 3;
 }
 
 .webnav {
     font-size: 18px;
+    font-weight: normal !important;
 }
 
 .web {
@@ -410,10 +412,12 @@ main:has(> .full) {
 
 .cardhover {
     background-color: whitesmoke;
+    transition: transform 0.3s ease-out;
 }
 
 .cardhover:hover {
     background-color: rgb(213, 233, 223);
+    transform: translateY(-10px);
 }
 
 .webmark {
@@ -424,7 +428,7 @@ main:has(> .full) {
 .sales {
     background-color: whitesmoke;
     width: 100%;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px;
     padding: 25px;
 }
 
@@ -476,8 +480,8 @@ main:has(> .full) {
 }
 
 .AlertSizer {
-    -moz-box-shadow: 0 0 1000px rgba(0,0,0,1);
-    -webkit-box-shadow: 0 0 1000px rgba(0,0,0,1);
-    box-shadow: 0 0 1000px rgba(0,0,0,1);
+    -moz-box-shadow: 0 0 1000px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 0 1000px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 1);
     overflow: auto;
 }

@@ -3,25 +3,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout';
 import {Figtree} from "@next/font/google";
 import {SSRProvider} from "react-bootstrap";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import { initGA, logPageView } from '@/utils/gtag';
+import Head from "next/head";
 
 const Font = Figtree({subsets: ['latin']})
 
 export default function App({Component, pageProps}) {
-    const router = useRouter();
-
-    useEffect(() => {
-        if (!window.GA_INITIALIZED) {
-            initGA('G-38KM92RY3N');
-            window.GA_INITIALIZED = true;
-        }
-        logPageView();
-    }, [router.asPath]);
-
     return (
         <SSRProvider>
+            <Head>
+                {/* Global site tag (gtag.js) - Google Analytics */}
+                <script async src={`https://www.googletagmanager.com/gtag/js?id=G-38KM92RY3N`}/>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                              window.dataLayer = window.dataLayer || [];
+                              function gtag(){dataLayer.push(arguments);}
+                              gtag('js', new Date());
+                
+                              gtag('config', 'G-38KM92RY3N', {
+                                page_path: window.location.pathname,
+                              });
+                            `,
+                    }}
+                />
+            </Head>
             <main className={Font.className}>
                 <Layout>
                     <Component {...pageProps} />
