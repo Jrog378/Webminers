@@ -11,9 +11,10 @@ const Font = Figtree({subsets: ['latin']})
 export default function App({Component, pageProps}) {
     return (
         <SSRProvider>
+            <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-38KM92RY3N`}
+                strategy={'lazyOnload'}/>
             <Head>
                 {/* Global site tag (gtag.js) - Google Analytics */}
-                <script async src={`https://www.googletagmanager.com/gtag/js?id=G-38KM92RY3N`}/>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
