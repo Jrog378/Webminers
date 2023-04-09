@@ -49,7 +49,7 @@ export default function AuthSeasons(props) {
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
                     <Row>
-                        <Col xxl={5} lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
                             <Container>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
@@ -79,7 +79,7 @@ export default function AuthSeasons(props) {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={5} lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
                             <Container>
                                 <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
