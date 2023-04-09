@@ -661,7 +661,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -716,7 +717,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -771,7 +773,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -826,7 +829,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -881,7 +885,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -936,7 +941,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
@@ -991,7 +997,8 @@ export default function Efficiency() {
                                                     {user
                                                         ? plan === ''
                                                             ?
-                                                            <Card.Title style={{textAlign:'center'}}>Loading...</Card.Title>
+                                                            <Card.Title
+                                                                style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                             :
                                                             <h2 style={{textAlign: "center",}}>
                                                                 <Link className={styles.weblink}
