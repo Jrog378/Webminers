@@ -18,7 +18,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
-import React from "react";
+import React, {useState} from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
@@ -184,7 +184,7 @@ export default function Articles() {
     ]
 
     const Bloggers = blogposts.map(content =>
-        <Container key={content.id} style={{padding: '10px'}}>
+        <Col xl={4} md={6} sm={12} key={content.id} style={{padding: '10px'}}>
             <Card className={styles.arthover}>
                 <Container className={'blog-row'}>
                     <Row>
@@ -228,8 +228,14 @@ export default function Articles() {
                     </Row>
                 </Container>
             </Card>
-        </Container>
+        </Col>
     );
+
+    const [showAds, setShowAds] = useState(false);
+
+    const handleLoad = () => {
+        setShowAds(true);
+    };
 
     return (
         <>
@@ -243,9 +249,20 @@ export default function Articles() {
                 </Head>
                 <Container style={{width: '100%'}}>
                     <Container style={{borderRadius: '15px'}}>
-                        <Row sm={1} md={2} style={{paddingBottom: '10px'}}>
+                        <Row style={{paddingBottom: '10px'}}>
                             {Bloggers}
                         </Row>
+                        {showAds && (
+                            <ins
+                                className="adsbygoogle"
+                                style={{display: "block"}}
+                                data-ad-client="ca-pub-7878345029704986"
+                                data-ad-slot="1008265344"
+                                data-ad-format="auto"
+                                data-full-width-responsive="true"
+                                onLoad={handleLoad}
+                            />
+                        )}
                     </Container>
                 </Container>
             </div>
