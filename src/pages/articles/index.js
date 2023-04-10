@@ -22,6 +22,7 @@ import React, {useState} from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
+
 export default function Articles() {
     const blogposts = [
         {
@@ -246,6 +247,10 @@ export default function Articles() {
                           content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta property='og:image' content={logo}/>
+                    <script
+                        async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                    ></script>
                 </Head>
                 <Container style={{width: '100%'}}>
                     <Container style={{borderRadius: '15px'}}>
