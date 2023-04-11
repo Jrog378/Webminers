@@ -136,7 +136,7 @@ export default function Home() {
                         <Row>
                             <Col md={8}>
                                 <h1 style={{fontSize: '50px'}}>
-                                    Bringing Real Scientific Insights to Your Investing Journey
+                                    Bringing Real Insights to Your Investing Journey
                                 </h1>
                                 <br/>
                                 <br/>
@@ -179,7 +179,7 @@ export default function Home() {
                                             investing from an investing system.
                                         </li>
                                         <li>
-                                            Reduce risk by investing in the right assets based on data-driven
+                                            Reduce risk by investing in the right assets based on scientific
                                             findings
                                             with
                                             maintaining and rebalancing your portfolio accordingly.
@@ -201,7 +201,7 @@ export default function Home() {
                                         <Card className={styles.cardhover}>
                                             <Card.Body>
                                                 <Card.Title>
-                                                    Maximize Returns with Data-Driven Findings
+                                                    Maximize Returns with Scientific Findings
                                                 </Card.Title>
                                                 <Card.Text>
                                                     Webminers Investing provides scientifically backed research and
