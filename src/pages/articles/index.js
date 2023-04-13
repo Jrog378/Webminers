@@ -14,6 +14,7 @@ import TopMain from '../../images/articleimages/TopMain.webp'
 import TimelessMain from '../../images/articleimages/TimelessMain.webp'
 import StartInvestingMain from '../../images/articleimages/StartInvestingMain.webp'
 import BigCryptoMain from '../../images/articleimages/BigCryptoMain.webp'
+import PythonFinMain from '../../images/articleimages/PythonFinMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
@@ -25,6 +26,17 @@ import Link from "next/link";
 
 export default function Articles() {
     const blogposts = [
+        {
+            id: 17,
+            title: 'Python for Finance - How FinTech Uses Python to Make Lots of Money',
+            date: 'Apr 13th 2023',
+            text: 'Python for Finance has never been in more demand. There is more money to be made and the ' +
+                'only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.',
+            url: '/articles/python-for-finance',
+            img: PythonFinMain,
+            alt: 'Robot hand reaching out with one finger to a geometrically shaped group of white lines ' +
+                'with a black background lit up by light.'
+        },
         {
             id: 16,
             title: 'Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023',
