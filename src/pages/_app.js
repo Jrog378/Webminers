@@ -23,7 +23,7 @@ export default function App({Component, pageProps}) {
                 setCookie(null, 'auth-token', token, {
                     maxAge: 60 * 60 * 24 * 7, // 1 week
                     path: '/',
-                    sameSite: 'strict',
+                    sameSite: 'None; Secure',
                 });
             }
         };
