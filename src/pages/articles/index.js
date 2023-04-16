@@ -19,7 +19,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
-import React, {useState} from "react";
+import React from "react";
 import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
@@ -244,12 +244,6 @@ export default function Articles() {
         </Col>
     );
 
-    const [showAds, setShowAds] = useState(false);
-
-    const handleLoad = () => {
-        setShowAds(true);
-    };
-
     return (
         <>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
@@ -259,27 +253,12 @@ export default function Articles() {
                           content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta property='og:image' content={logo}/>
-                    <script
-                        async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-                    ></script>
                 </Head>
                 <Container style={{width: '100%'}}>
                     <Container style={{borderRadius: '15px'}}>
                         <Row style={{paddingBottom: '10px'}}>
                             {Bloggers}
                         </Row>
-                        {showAds && (
-                            <ins
-                                className="adsbygoogle"
-                                style={{display: "block"}}
-                                data-ad-client="ca-pub-7878345029704986"
-                                data-ad-slot="1008265344"
-                                data-ad-format="auto"
-                                data-full-width-responsive="true"
-                                onLoad={handleLoad}
-                            />
-                        )}
                     </Container>
                 </Container>
             </div>
