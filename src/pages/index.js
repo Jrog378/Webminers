@@ -119,9 +119,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Invest Smarter with Scientifically-Backed Research and Education</title>
+                <title>Webminers Investing - Invest Smarter with Research and Education Backed by Data Mining</title>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
+                      content="Webminers Investing provides data mining supported research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={logo}/>
