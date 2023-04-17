@@ -86,25 +86,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
-                                                            <td>0.37</td>
-                                                            <td>0.15</td>
-                                                            <td>1.25</td>
+                                                            <td>One Month Term</td>
+                                                            <td>0.48</td>
+                                                            <td>0.65</td>
+                                                            <td>2.15</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
-                                                            <td>0.28</td>
-                                                            <td>0.04</td>
-                                                            <td>1.1</td>
+                                                            <td>Four Month Term</td>
+                                                            <td>0.66</td>
+                                                            <td>0.34</td>
+                                                            <td>1.69</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td>0.15</td>
                                                             <td>-0.01</td>
                                                             <td>0.98</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td>1.22</td>
                                                             <td>0.08</td>
                                                             <td>1.18</td>
@@ -130,25 +130,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
-                                                            <td>0.4</td>
-                                                            <td>0.17</td>
-                                                            <td>1.27</td>
+                                                            <td>One Month Term</td>
+                                                            <td>0.48</td>
+                                                            <td>0.66</td>
+                                                            <td>2.17</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
+                                                            <td>0.68</td>
                                                             <td>0.4</td>
-                                                            <td>0.07</td>
-                                                            <td>1.2</td>
+                                                            <td>1.85</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td>0.19</td>
                                                             <td>-0.03</td>
                                                             <td>0.93</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td>0.64</td>
                                                             <td>0.05</td>
                                                             <td>1.13</td>
@@ -174,25 +174,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
-                                                            <td>0.21</td>
-                                                            <td>0.1</td>
-                                                            <td>1.15</td>
+                                                            <td>One Month Term</td>
+                                                            <td>0.35</td>
+                                                            <td>0.48</td>
+                                                            <td>1.84</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
-                                                            <td>0.1</td>
-                                                            <td>0.02</td>
-                                                            <td>1.02</td>
+                                                            <td>Four Month Term</td>
+                                                            <td>0.34</td>
+                                                            <td>0.28</td>
+                                                            <td>1.46</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td>0.04</td>
                                                             <td>-0.03</td>
                                                             <td>0.94</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td>0.93</td>
                                                             <td>0.11</td>
                                                             <td>1.21</td>
@@ -218,19 +218,19 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
-                                                            <td>0.33</td>
-                                                            <td>0.2</td>
-                                                            <td>1.28</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>One Month Term</td>
                                                             <td>0.39</td>
-                                                            <td>0.3</td>
-                                                            <td>1.43</td>
+                                                            <td>0.42</td>
+                                                            <td>2.02</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>Four Month Term</td>
+                                                            <td>0.45</td>
+                                                            <td>0.21</td>
+                                                            <td>1.38</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>One Year Term</td>
                                                             <td>0.21</td>
                                                             <td>0.02</td>
                                                             <td>1.05</td>
@@ -318,25 +318,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
-                                                                <td>0.29</td>
-                                                                <td>0.55</td>
-                                                                <td>2</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.36</td>
+                                                                <td>0.08</td>
+                                                                <td>1.13</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.23</td>
-                                                                <td>0.13</td>
+                                                                <td>Four Month Term</td>
+                                                                <td>0.38</td>
+                                                                <td>0.18</td>
                                                                 <td>1.3</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.16</td>
                                                                 <td>0.04</td>
                                                                 <td>1.08</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>8.05</td>
                                                                 <td>0.15</td>
                                                                 <td>1.3</td>
@@ -362,25 +362,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
-                                                                <td>0.26</td>
-                                                                <td>0.47</td>
-                                                                <td>1.79</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Short Term (4 Months)</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.35</td>
                                                                 <td>0.29</td>
-                                                                <td>0.1</td>
-                                                                <td>1.22</td>
+                                                                <td>1.54</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>Four Month Term</td>
+                                                                <td>0.37</td>
+                                                                <td>0.18</td>
+                                                                <td>1.33</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>One Year Term</td>
                                                                 <td>0.14</td>
                                                                 <td>0.0</td>
                                                                 <td>1.0</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Month Term</td>
                                                                 <td>0.66</td>
                                                                 <td>0.08</td>
                                                                 <td>1.17</td>
@@ -406,25 +406,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
-                                                                <td>0.24</td>
-                                                                <td>0.18</td>
-                                                                <td>1.27</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.33</td>
+                                                                <td>0.0</td>
+                                                                <td>1.01</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.23</td>
-                                                                <td>0.06</td>
-                                                                <td>1.14</td>
+                                                                <td>Four Month Term</td>
+                                                                <td>0.4</td>
+                                                                <td>0.17</td>
+                                                                <td>1.3</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.1</td>
                                                                 <td>0.0</td>
                                                                 <td>1.0</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>0.45</td>
                                                                 <td>0.08</td>
                                                                 <td>1.15</td>
@@ -450,25 +450,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.24</td>
+                                                                <td>0.44</td>
+                                                                <td>1.62</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Four Month Term</td>
                                                                 <td>0.29</td>
-                                                                <td>0.03</td>
-                                                                <td>1.06</td>
+                                                                <td>0.08</td>
+                                                                <td>1.14</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.18</td>
-                                                                <td>0.09</td>
-                                                                <td>1.18</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.12</td>
                                                                 <td>-0.01</td>
                                                                 <td>1.03</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>2.28</td>
                                                                 <td>0.18</td>
                                                                 <td>1.42</td>
@@ -494,25 +494,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.35</td>
+                                                                <td>0.04</td>
+                                                                <td>1.14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Four Month Term</td>
                                                                 <td>0.44</td>
-                                                                <td>0.24</td>
-                                                                <td>1.73</td>
+                                                                <td>0.09</td>
+                                                                <td>1.25</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.43</td>
-                                                                <td>0.05</td>
-                                                                <td>1.13</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.33</td>
                                                                 <td>0.04</td>
                                                                 <td>1.09</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>0.66</td>
                                                                 <td>0.06</td>
                                                                 <td>1.16</td>
@@ -538,25 +538,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
-                                                                <td>0.3</td>
-                                                                <td>0.31</td>
-                                                                <td>1.44</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.35</td>
+                                                                <td>0.22</td>
+                                                                <td>1.48</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.28</td>
-                                                                <td>0.04</td>
-                                                                <td>1.09</td>
+                                                                <td>Four Month Term</td>
+                                                                <td>0.41</td>
+                                                                <td>0.16</td>
+                                                                <td>1.29</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.12</td>
                                                                 <td>-0.01</td>
                                                                 <td>0.98</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>0.05</td>
                                                                 <td>0.02</td>
                                                                 <td>1.04</td>
@@ -582,25 +582,25 @@ export default function Efficiency() {
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>Mini Term (30 Days)</td>
-                                                                <td>0.34</td>
-                                                                <td>0.43</td>
-                                                                <td>1.57</td>
+                                                                <td>One Month Term</td>
+                                                                <td>0.36</td>
+                                                                <td>0.41</td>
+                                                                <td>1.69</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Short Term (4 Months)</td>
-                                                                <td>0.24</td>
-                                                                <td>0.06</td>
-                                                                <td>1.12</td>
+                                                                <td>Four Month Term</td>
+                                                                <td>0.42</td>
+                                                                <td>0.17</td>
+                                                                <td>1.26</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Mid Term (1 Year)</td>
+                                                                <td>One Year Term</td>
                                                                 <td>0.12</td>
                                                                 <td>0.0</td>
                                                                 <td>0.99</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Long Term (3 Years)</td>
+                                                                <td>Three Year Term</td>
                                                                 <td>0.31</td>
                                                                 <td>0.06</td>
                                                                 <td>1.13</td>
@@ -687,25 +687,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -743,25 +743,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -799,25 +799,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -855,25 +855,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -911,25 +911,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -967,25 +967,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
@@ -1023,25 +1023,25 @@ export default function Efficiency() {
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>Mini Term (30 Days)</td>
+                                                            <td>One Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Short Term (4 Months)</td>
+                                                            <td>Four Month Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Mid Term (1 Year)</td>
+                                                            <td>One Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Long Term (3 Years)</td>
+                                                            <td>Three Year Term</td>
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
