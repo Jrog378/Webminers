@@ -115,7 +115,7 @@ export default function NewServices() {
     return (
         <>
             <Head>
-                <title>How I Built a Financial Website with Articles and an Investing System - Part 4</title>
+                <title>How I Built a Crypto Website with Articles and an Investing System - Part 4</title>
                 <meta property='og:title' content='NewServices'/>
                 <meta property='og:image' content={NewServicesMain}/>
                 <meta name='description'
@@ -133,7 +133,7 @@ export default function NewServices() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 4
+                                How I Built a Crypto Website with Articles and an Investing System - Part 4
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Jan 06 2023

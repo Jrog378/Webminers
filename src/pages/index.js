@@ -132,15 +132,16 @@ export default function Home() {
                         width: '100%',
                         padding: '50px',
                         borderRadius: '20px',
+                        backgroundColor: 'rgb(213, 233, 223)',
                     }}>
                         <Row>
                             <Col md={8}>
                                 <h1 style={{fontSize: '50px'}}>
-                                    Bringing Real Insights to Your Investing Journey
+                                    Bringing Real Insights to Your Crypto Investing Journey
                                 </h1>
                                 <br/>
                                 <br/>
-                                <Button variant="success" href='/pricing'>Get a hold of your successful investing
+                                <Button variant="success" href='/pricing'>Get a hold of your successful cryptocurrency
                                     decisions
                                     →</Button>
                             </Col>
@@ -149,46 +150,38 @@ export default function Home() {
                     <Container>
                         <Container style={{padding: '15px'}}>
                             <Card.Title id={'why'} style={{paddingBottom: '15px', fontSize: 'x-large'}}>
-                                Missing out on opportunities to grow your wealth because
-                                of the right tools or knowledge?
+                                Missing out on opportunities to grow your wealth from not having
+                                the right tools or knowledge?
                             </Card.Title>
                             <p style={{fontSize: 'larger'}}>
                                 If you want efficient profits and to beat the market, Webminers is where to be.
                                 We
-                                specialize in identifying the ups and downs of the market and identifying how
+                                specialize in identifying the ups and downs of the crypto market and identifying how
                                 much
-                                of what asset is best for efficiency, all backed by data.
+                                of what asset is best for and efficient portfolio, all backed by data mining strategies.
                             </p>
                             <Card className={styles.cardhover}>
                                 <Card.Body>
                                     <Card.Title style={{width: '90%', textAlign: 'center'}}>
                                         Let Webminers help out by giving you all the research and education you need
-                                        to be successful in the markets
+                                        to be successful in the crypto market
                                     </Card.Title>
                                     <ul>
                                         <li>
-                                            Consistent returns from a system that takes the clear and concise for
-                                            how to
-                                            invest,
-                                            providing you the straight path to growing your wealth.
+                                            Learn to build an Investing System that produces consistent returns making it,
+                                            clear and concise to grow your wealth.
                                         </li>
                                         <li>
                                             Beat the market by outperforming top assets like BTC and the S&P 500
-                                            with
-                                            efficient
-                                            investing from an investing system.
+                                            with efficient investing from an systems similar to our already achieven result.
                                         </li>
                                         <li>
-                                            Reduce risk by investing in the right assets based on scientific
-                                            findings
-                                            with
-                                            maintaining and rebalancing your portfolio accordingly.
+                                            Reduce risk by investing in the right assets based on data mining
+                                            findings with maintaining and rebalancing your portfolio accordingly.
                                         </li>
                                         <li>
-                                            Follow along with easy-to-understand research and findings that are
-                                            simple
-                                            to use
-                                            to your advantage
+                                            Follow along with easy-to-understand research that is
+                                            simple to use to your advantage
                                         </li>
                                     </ul>
                                 </Card.Body>
@@ -201,11 +194,11 @@ export default function Home() {
                                         <Card className={styles.cardhover}>
                                             <Card.Body>
                                                 <Card.Title>
-                                                    Maximize Returns with Scientific Findings
+                                                    Maximize Returns with Data Mining Findings
                                                 </Card.Title>
                                                 <Card.Text>
-                                                    Webminers Investing provides scientifically backed research and
-                                                    education to help you make informed investing decisions with
+                                                    Webminers Investing provides data mining research backed
+                                                    education to help you make informed crypto investing decisions with
                                                     <Link className={styles.weblink} href={'/insights'}> Market
                                                         Insights</Link>,
                                                     <Link className={styles.weblink}
@@ -227,11 +220,11 @@ export default function Home() {
                                                     Learn to Unlock Your Investing Potential
                                                 </Card.Title>
                                                 <Card.Text>
-                                                    There are infinite ways to invest, and finding your investing
+                                                    There are infinite ways to invest, and building your investing
                                                     system can be tricky. We are here to help. Whether you are just
                                                     starting or have been investing for years, we have educational
-                                                    content for you. We want to help anyone become more informed
-                                                    investors with confidence in their systems to achieve their
+                                                    content for you. We want to help crypto investors become more
+                                                    informed and confident in their systems to achieve their
                                                     financial goals.
                                                 </Card.Text>
                                                 <Button variant="success" href='/articles'>Educational Content</Button>
@@ -251,11 +244,11 @@ export default function Home() {
                                             <Card className={styles.cardhover}>
                                                 <Card.Body>
                                                     <p style={{textAlign: 'center', padding: '5px'}}>
-                                                        I was a complete novice when it came to investing, but
+                                                        I was a complete novice when it came to crypto, but
                                                         everything was
                                                         very easy to understand and read. I now feel confident making
                                                         informed
-                                                        decisions about my money. I think the analysis section is the
+                                                        decisions about my money. I think the efficiency section is the
                                                         best
                                                         part where I can compare assets to pick and choose from for my
                                                         own
@@ -271,7 +264,7 @@ export default function Home() {
                                             <Card className={styles.cardhover}>
                                                 <Card.Body>
                                                     <p style={{textAlign: 'center', padding: '5px'}}>
-                                                        I was skeptical about the whole Webminers Investing System at
+                                                        I was skeptical about the whole Webminers Investing Education at
                                                         first,
                                                         but after going through everything I can truly state that it was
                                                         far

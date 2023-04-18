@@ -28,9 +28,9 @@ export default function Articles() {
     const blogposts = [
         {
             id: 17,
-            title: 'Python for Finance - How FinTech Uses Python to Make Lots of Money',
+            title: 'Python for Crypto and Finance - How FinTech Uses Python to Make Lots of Money',
             date: 'Apr 13th 2023',
-            text: 'Python for Finance has never been in more demand. There is more money to be made and the ' +
+            text: 'Python for Crypto and Finance has never been in more demand. There is more money to be made and the ' +
                 'only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.',
             url: '/articles/python-for-finance',
             img: PythonFinMain,
@@ -50,7 +50,7 @@ export default function Articles() {
         },
         {
             id: 15,
-            title: 'How to Start Investing - What I Did to Create my Investing System',
+            title: 'How to Start Investing in Crypto - What I Did to Create my Crypto Investing System',
             date: 'Mar 28th 2023',
             text: 'Finding valuable investments and creating your own investing system can seem complex' +
                 'but things can be much easier than they seem with the right guidance.',
@@ -71,7 +71,7 @@ export default function Articles() {
         },
         {
             id: 13,
-            title: 'What it Takes to Become a Smart Emotionless Investor',
+            title: 'What it Takes to Become a Smart Emotionless Crypto Investor',
             date: 'Mar 14th 2023',
             text: 'Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your' +
                 ' strategies, and constant research.',
@@ -81,7 +81,7 @@ export default function Articles() {
         },
         {
             id: 12,
-            title: 'The Best Ways to Improve your Mental State for Smarter Investing',
+            title: 'The Best Ways to Improve your Mental State for Smarter Crypto Investing',
             date: 'Mar 13th 2023',
             text: 'The best ways to improve your mental state for smarter investing by improving your diet, physical ' +
                 'health, mentality, and goals.',
@@ -92,7 +92,7 @@ export default function Articles() {
         },
         {
             id: 11,
-            title: 'How I Built a Financial Website with Articles and an Investing System - Part 4',
+            title: 'How I Built a Crypto Website with Articles and an Investing System - Part 4',
             date: 'Feb 6th 2023',
             text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
                 'Market Insights, Asset Balancing, and Asset Efficiency.',
@@ -114,7 +114,7 @@ export default function Articles() {
         },
         {
             id: 9,
-            title: 'How I Built a Financial Website with Articles and an Investing System - Part 3',
+            title: 'How I Built a Crypto Website with Articles and an Investing System - Part 3',
             date: 'Oct 15 2022',
             text: 'Introduction to the new blog site that has been fully redone along with summary of the new ' +
                 'categories and plans to come for webminers.',
@@ -124,7 +124,7 @@ export default function Articles() {
         },
         {
             id: 8,
-            title: 'How I Built a Financial Website with Articles and an Investing System - Part 2',
+            title: 'How I Built a Crypto Website with Articles and an Investing System - Part 2',
             date: 'Sep 28 2022',
             text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.',
             url: '/articles/new-changes',
@@ -187,7 +187,7 @@ export default function Articles() {
         },
         {
             id: 1,
-            title: 'How I Built a Financial Website with Articles and an Investing System - Part 1',
+            title: 'How I Built a Crypto Website with Articles and an Investing System - Part 1',
             date: 'Sep 4 2022',
             text: 'Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why',
             url: '/articles/introduction',
