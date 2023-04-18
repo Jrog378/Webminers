@@ -97,7 +97,7 @@ export default function PythonForFinance() {
                 'you can get your hands on, and develop your data based on the price and volume. Do anything ' +
                 'you can to be creative so that you can come out on top with something unique to you.\n' +
                 '\n' +
-                'When I started in Quantitative Programming I tested out a lot of libraries but none of them ' +
+                'When I started in Quantitative Programming in crypto I tested out a lot of libraries but none of them ' +
                 'for the actual finance part were good enough. Building your own comes with the customization ' +
                 'you need to be successful. After that, you can get into becoming a lucrative Quantitative ' +
                 'Programmer, being able to make financial decisions with the touch of a button.\n'
@@ -160,11 +160,11 @@ export default function PythonForFinance() {
     return (
         <>
             <Head>
-                <title>Python for Finance - How FinTech Uses Python to Make Lots of Money</title>
+                <title>Python for Crypto and Finance - How FinTech Uses Python to Make Lots of Money</title>
                 <meta property='og:title' content='PythonFOrFinance'/>
                 <meta property='og:image' content={PythonFinMain}/>
                 <meta name='description'
-                      content='Python for Finance has never been in more demand. There is more money to be made and
+                      content='Python for Crypto and Finance has never been in more demand. There is more money to be made and
                       the only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.'/>
             </Head>
             <div style={{backgroundColor: '#212529'}}>
@@ -177,7 +177,7 @@ export default function PythonForFinance() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Python for Finance - How FinTech Uses Python to Make Lots of Money
+                                Python for Crypto and Finance - How FinTech Uses Python to Make Lots of Money
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: April 13 2023

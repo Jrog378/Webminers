@@ -19,10 +19,10 @@ export default function MentalImprove() {
             description: 'A man with a blue shirt writing using a black pen in an old book that has a leather book cover on a desk.',
             text: 'Keeping a clear mind can be beneficial in any area of your life, whether in high-stress ' +
                 'situations or to complete tasks more efficiently.\n' +
-                'Your health is of great importance in the lifestyle you choose, especially in investing in ' +
+                'Your health is of great importance in the lifestyle you choose, especially in crypto investing in ' +
                 'your mental health is critical.\n' +
                 '\n' +
-                'Some things that you can do to improve your mental health for improved investing performance a' +
+                'Some things that you can do to improve your mental health for improved crypto investing performance a' +
                 're as follows:\n' +
                 '1. [Perfect your morning routine](#MorningRoutine)\n' +
                 '2. [Workout at least five times a week](#WorkingOut)\n' +
@@ -113,7 +113,7 @@ export default function MentalImprove() {
             id: '',
             img: Mental5,
             description: 'A candle chart of the stock market going up with lots of green bars and few red bars with a black background.',
-            text: 'Investing is not just a few lines on a chart where you buy low and sell high. It is much more ' +
+            text: 'Investing in crypto is not just a few lines on a chart where you buy low and sell high. It is much more ' +
                 'than that. Emotions come in when you don\'t want to miss out on any money or even if you have to ' +
                 'make money right now. All these things are stacking up, showing that you HAVE to make money right ' +
                 'now. These are all influencing your mind. To be a good investor, you have to be able to stop that.' +
@@ -142,7 +142,7 @@ export default function MentalImprove() {
     return (
         <>
             <Head>
-                <title>The Best Ways to Improve your Mental State for Smarter Investing</title>
+                <title>The Best Ways to Improve your Mental State for Smarter Crypto Investing</title>
                 <meta property='og:title' content='MentalImprove'/>
                 <meta property='og:image' content={Mentalmain}/>
                 <meta name='description'
@@ -159,7 +159,7 @@ export default function MentalImprove() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                The Best Ways to Improve your Mental State for Smarter Investing
+                                The Best Ways to Improve your Mental State for Smarter Crypto Investing
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Mar 13 2023

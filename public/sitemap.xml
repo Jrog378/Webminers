@@ -5,12 +5,12 @@
         https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://webminers.dev/</loc>
-        <lastmod>2023-04-13</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/pricing/</loc>
-        <lastmod>2023-03-28</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -20,7 +20,7 @@
     </url>
     <url>
         <loc>https://webminers.dev/insights/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
@@ -30,12 +30,12 @@
     </url>
     <url>
         <loc>https://webminers.dev/efficiency/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-17</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -55,27 +55,27 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/introduction/</loc>
-        <lastmod>2023-03-20</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/new-changes/</loc>
-        <lastmod>2023-03-18</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/new-webminers/</loc>
-        <lastmod>2023-03-18</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/new-services/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/python-data-science/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -95,12 +95,12 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/mental-improve/</loc>
-        <lastmod>2023-04-03</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/top-investor/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -110,7 +110,7 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/start-investing/</loc>
-        <lastmod>2023-04-05</lastmod>
+        <lastmod>2023-04-18</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>

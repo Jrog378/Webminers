@@ -132,7 +132,7 @@ export default function NewWebminers() {
     return (
         <>
             <Head>
-                <title>How I Built a Financial Website with Articles and an Investing System - Part 3</title>
+                <title>How I Built a Crypto Website with Articles and an Investing System - Part 3</title>
                 <meta property='og:title' content='NewWeb'/>
                 <meta property='og:image' content={SiteMain}/>
                 <meta name='description'
@@ -150,7 +150,7 @@ export default function NewWebminers() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 3
+                                How I Built a Crypto Website with Articles and an Investing System - Part 3
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Oct 15 2022

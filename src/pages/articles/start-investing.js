@@ -25,7 +25,7 @@ export default function StartInvesting() {
                 ' learning more about what you can invest in? I wrote about that in ' +
                 '[What Makes Investing a Timeless Money Maker](timeless-investing).\n' +
                 '\n' +
-                'We will go into how I got into investing first. After that, we will ease into examples of' +
+                'We will go into how I got into crypto investing. After that, we will ease into examples of' +
                 ' valuable investments and the different investing styles. Finally, we will cover how to ' +
                 'keep improving your investing game.\n' +
                 '\n' +
@@ -40,19 +40,19 @@ export default function StartInvesting() {
             id: 'InvestingBackground',
             description: 'A piece of paper with multiple stats both in number and graphical form on top of another ' +
                 'piece of paper displaying a map.',
-            text: 'My background didn’t start in the investing world. I began with programming and later on ' +
+            text: 'My background didn’t start in the cryptocurrency world. I began with programming and later on ' +
                 'joined the data science field, where I would then learn about finding information from data ' +
                 'and being able to use these findings. I had been using [Coinbase](https://www.coinbase.com/) ' +
                 'around these times with the free coins they would give, but none of my money.\n' +
                 '\n' +
-                'After being exposed to Data Science, I knew the possibilities and how this can apply to finance. ' +
+                'After being exposed to Data Science, I knew the possibilities and how this can apply to investing. ' +
                 'I began to research. I looked into programming algorithms and data found on the web. I also ' +
                 'looked into Economic data. I got to pick and choose what things I liked and didn’t like until' +
                 ' I was satisfied with the results.\n' +
                 '\n' +
                 'After finding what best suited my investing style, I refined everything and put it all together ' +
                 'to work with my other resources to give me a final answer of what the market is like each day. ' +
-                'My investing system has a little bit of everything, each having its purpose and coming together ' +
+                'My crypto investing system has a little bit of everything, each having its purpose and coming together ' +
                 'nicely.\n'
         },
         {
@@ -185,7 +185,7 @@ export default function StartInvesting() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How to Start Investing - What I Did to Create my Investing System
+                                How to Start Investing in Crypto - What I Did to Create my Crypto Investing System
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Mar 28 2023

@@ -17,7 +17,7 @@ export default function TopInvestor() {
             title: '',
             id: '',
             description: 'Maroon and old styled typewriter with aged metal parts that has written on a white page to never be afraid',
-            text: '95% of people who go into investing lose money. As investors, we must limit our losses and not ' +
+            text: '95% of people who go into crypto investing lose money. As investors, we must limit our losses and not ' +
                 'become that 95%. What does it take to be in the top five or even one percent? In this article, ' +
                 'we will find out. \n' +
                 '\n' +
@@ -34,8 +34,8 @@ export default function TopInvestor() {
             title: 'No More Emotional Investing',
             id: 'EmotionalInvesting',
             description: 'Stock market website opening in a Mac laptop on a glass table with a notebook and pen resting on top of it',
-            text: 'Emotion comes naturally to humans. Fundamentally the act of competition is a very emotion-induc' +
-                'ing activity. Trying hard to make money without losing all your money can cause worry and stress. ' +
+            text: 'Emotion comes naturally to humans. Fundamentally the act of competition is a very emotion-inducing ' +
+                'activity. Trying hard to make money without losing all your money can cause worry and stress. ' +
                 'It is up to us to be emotionless investors if we want to make money in the markets. You cannot let' +
                 ' your emotions take control. Every decision must have empirical evidence to back it. Otherwise, ' +
                 'you might as well be gambling. We have an insightful article on emotion called [The Best Ways ' +
@@ -47,7 +47,7 @@ export default function TopInvestor() {
                 ' Fear is more common at the bottom of a trend where everyone is afraid to buy because the ' +
                 'market could go lower, and greed takes place when the market is at its top, and people buy high ' +
                 'in hopes it will go higher. Fear and greed are vital to prevent the same mistakes the emotional' +
-                ' investor makes. The market moves all around. No one move determines the next.\n' +
+                ' investor makes. The crypto market moves all around. No one move determines the next.\n' +
                 '\n' +
                 'Fear of missing out, known as FOMO, will make you want to buy too early. FOMO happens when it ' +
                 'seems like the perfect time to buy, but you are afraid of making the wrong decision and losing ' +
@@ -159,7 +159,7 @@ export default function TopInvestor() {
     return (
         <>
             <Head>
-                <title>What it Takes to Become a Smart Emotionless Investor</title>
+                <title>What it Takes to Become a Smart Emotionless Crypto Investor</title>
                 <meta property='og:title' content='TopInvestor'/>
                 <meta property='og:image' content={TopMain}/>
                 <meta name='description'

@@ -137,7 +137,7 @@ export default function NewChanges() {
     return (
         <>
             <Head>
-                <title>How I Built a Financial Website with Articles and an Investing System - Part 2</title>
+                <title>How I Built a Crypto Website with Articles and an Investing System - Part 2</title>
                 <meta property='og:title' content='NewChanges'/>
                 <meta property='og:image' content={ImproveMain}/>
                 <meta name='description'
@@ -154,7 +154,7 @@ export default function NewChanges() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 2
+                                How I Built a Crypto Website with Articles and an Investing System - Part 2
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Sep 28 2022

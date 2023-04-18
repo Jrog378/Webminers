@@ -3,6 +3,7 @@ import React from "react";
 import styles from '@/styles/Home.module.css'
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
+import Link from "next/link";
 
 
 export default function Pricing() {
@@ -54,7 +55,7 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Free Plan $0</th>
+                                                <th className={styles.tablecen}>Free Plan $0 / month</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -94,7 +95,8 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Essential Investing Plan $13</th>
+                                                <th className={styles.tablecen}>Essential Investing Plan $13 / month
+                                                </th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -134,7 +136,7 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Balanced Investing Plan $25</th>
+                                                <th className={styles.tablecen}>Balanced Investing Plan $25 / month</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -174,7 +176,8 @@ export default function Pricing() {
                                             <thead>
                                             <tr>
                                                 <th>Feature</th>
-                                                <th className={styles.tablecen}>Strategist Investing Plan $50</th>
+                                                <th className={styles.tablecen}>Strategist Investing Plan $50 / month
+                                                </th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -225,13 +228,17 @@ export default function Pricing() {
                                     <Card className={styles.cardhover}>
                                         <Card.Body>
                                             <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was a complete novice when it came to investing, but everything was
-                                                very easy to understand and read. I now feel confident making informed
-                                                decisions about my money. I think the analysis section is the best
-                                                part where I can compare assets to pick and choose from for my own
+                                                I was a complete novice when it came to crypto, but
+                                                everything was
+                                                very easy to understand and read. I now feel confident making
+                                                informed
+                                                decisions about my money. I think the efficiency section is the
+                                                best
+                                                part where I can compare assets to pick and choose from for my
+                                                own
                                                 investments.
                                             </p>
-                                            <p style={{margin:0}}>
+                                            <p style={{margin: 0}}>
                                                 - John S.
                                             </p>
                                         </Card.Body>
@@ -241,13 +248,17 @@ export default function Pricing() {
                                     <Card className={styles.cardhover}>
                                         <Card.Body>
                                             <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was skeptical about the whole Webminers Investing at first,
-                                                but after going through everything I can truly state that it was far
-                                                beyond my expectations. The Insights organized and simple to understand.
-                                                Everything in my Subscription was easy to find and I have a much deeper
+                                                I was skeptical about the whole Webminers Investing Education at
+                                                first,
+                                                but after going through everything I can truly state that it was
+                                                far
+                                                beyond my expectations. The Insights organized and simple to
+                                                understand.
+                                                Everything in my Subscription was easy to find and I have a much
+                                                deeper
                                                 understanding of my personal investing plans.
                                             </p>
-                                            <p style={{margin:0}}>
+                                            <p style={{margin: 0}}>
                                                 - Sarah L.
                                             </p>
                                         </Card.Body>
@@ -257,13 +268,16 @@ export default function Pricing() {
                                     <Card className={styles.cardhover}>
                                         <Card.Body>
                                             <p style={{textAlign: 'center', padding: '5px'}}>
-                                                Whether you&apos;re a seasoned investor or a newcomer to the world of
+                                                Whether you&apos;re a seasoned investor or a newcomer to the
+                                                world of
                                                 crypto, I highly recommend working with Webminers. Their A-Class
-                                                research resources have helped me make informed decisions about my
-                                                investments and guide me through my previous crypto difficulties.
+                                                research resources have helped me make informed decisions about
+                                                my
+                                                investments and guide me through my previous crypto
+                                                difficulties.
                                                 I couldn&apos;t recommend them enough!
                                             </p>
-                                            <p style={{margin:0}}>
+                                            <p style={{margin: 0}}>
                                                 - Mark T.
                                             </p>
                                         </Card.Body>
@@ -271,6 +285,27 @@ export default function Pricing() {
                                 </Col>
                             </Row>
                         </CardGroup>
+                    </Container>
+                    <Container style={{padding: '15px'}}>
+                        <Container style={{padding: '15px'}}>
+                            <h1 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'/auth-pricing'}>Get
+                                one of our plans with a 7 day trial now</Link></h1>
+                        </Container>
+                        <Container style={{padding: '15px'}}>
+                            <Card className={styles.cardhover}>
+                                <Card.Body>
+                                    <Card.Title style={{fontSize: 'xx-large', textAlign: 'center'}}>Not Ready For a Paid
+                                        Plan?</Card.Title>
+                                    <Card.Text style={{fontSize: 'x-large', textAlign:'center'}}>
+                                        <Link className={styles.weblink}
+                                              href={'/auth/signup'}>Signup</Link> today for a
+                                        completely <strong>free</strong> account and get <Link className={styles.weblink}
+                                                                                       href={'/email-list'}>Email
+                                        Updates</Link> about what webminers has to offer
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Container>
                     </Container>
                 </Container>
             </div>

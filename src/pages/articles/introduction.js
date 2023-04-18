@@ -15,7 +15,7 @@ export default function Introduction() {
             img: IntroMain,
             description: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.',
             text: 'Welcome to part 1 of an ongoing series here at Webminers, where I share the journey of ' +
-                'producing our investing website, where we will be writing articles and offering services. Before ' +
+                'producing our crypto investing website, where we will be writing articles and offering services. Before ' +
                 'we see how Webminers became what it is today, we will start with who I am. Not interested in my ' +
                 'background? Fear not, as it is optional. You can continue to [Part 2](new-changes).\n' +
                 '\n' +
@@ -24,7 +24,8 @@ export default function Introduction() {
                 'wanted to be hands-on and do something. I was the person around the house called to fix things.' +
                 ' Eventually, this escalated to repairing vehicles and machines.\n' +
                 '\n' +
-                'I went to college unsure of what major I wanted to do and just picked one that my parent suggested,' +
+                'I went to college unsure of what major I wanted to do and just picked one that made money from working ' +
+                'with my hands,' +
                 ' engineering. After looking into classes provided by the engineering department, I wasn\'t too ' +
                 'sure it was what I wanted to spend four years learning. I began to look into my alternatives. ' +
                 'Computer Science was on the table. I looked into Comp Sci to find myself in a similar situation.' +
@@ -44,11 +45,11 @@ export default function Introduction() {
                 'for myself.\n' +
                 '\n' +
                 'One problem caused the next, and I didn\'t know where to go. Now we must think about what to ' +
-                'do. I have been doing in python for over half a decade. I knew that. I could learn anything ' +
+                'do. I have been doing in python for over half a decade. I knew that I could learn anything ' +
                 'new I put my mind to, but what?\n' +
                 '\n' +
                 'I needed that unique idea to get me into the life I wanted to live by owning my business. It ' +
-                'was summer. I worked on my car or doing projects around the house, working with my hands ' +
+                'was summer. I spend time working on my car or doing projects around the house, working with my hands ' +
                 'back to my engineer routes. I decided I would attempt a new type of service. I wanted to ' +
                 'use my python knowledge and mix it with my major in data science. I started to research what ' +
                 'I could do, finding little things like Data Visualization, Data Storytelling, Data Mining, ' +
@@ -117,7 +118,7 @@ export default function Introduction() {
     return (
         <>
             <Head>
-                <title>How I Built a Financial Website with Articles and an Investing System - Part 1</title>
+                <title>How I Built a Crypto Website with Articles and an Investing System - Part 1</title>
                 <meta property='og:title' content='IntroJus'/>
                 <meta property='og:image' content={IntroMain}/>
                 <meta name='description'
@@ -134,7 +135,7 @@ export default function Introduction() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Financial Website with Articles and an Investing System - Part 1
+                                How I Built a Crypto Website with Articles and an Investing System - Part 1
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
                                 Published on: Sep 4 2022
