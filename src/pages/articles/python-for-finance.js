@@ -167,7 +167,7 @@ export default function PythonForFinance() {
                       content='Python for Crypto and Finance has never been in more demand. There is more money to be made and
                       the only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.'/>
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -195,7 +195,7 @@ export default function PythonForFinance() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

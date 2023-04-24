@@ -149,7 +149,7 @@ export default function MentalImprove() {
                       content='The best ways to improve your mental state for smarter investing by improving your diet, physical health, mentality, and goals.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -177,7 +177,7 @@ export default function MentalImprove() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

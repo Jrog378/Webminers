@@ -152,7 +152,7 @@ export default function DataVis() {
                       content='Data Visualization is the art of displaying data in a way that anyone can read allowing for the value of true creativity to be shown.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -180,7 +180,7 @@ export default function DataVis() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

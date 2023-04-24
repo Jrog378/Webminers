@@ -177,7 +177,7 @@ export default function NextBigCrypto() {
                        popularity, and longevity to determine how successful a cryptocurrency will be.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -205,7 +205,7 @@ export default function NextBigCrypto() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

@@ -125,7 +125,7 @@ export default function Introduction() {
                       content='Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -153,7 +153,7 @@ export default function Introduction() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

@@ -173,7 +173,7 @@ export default function StandOut() {
                       content='The world of developers and programmers is a plentiful place. However, you want to show how
                   different you are and stand out with what you have.'/>
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -201,7 +201,7 @@ export default function StandOut() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

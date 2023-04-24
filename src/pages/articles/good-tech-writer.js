@@ -178,7 +178,7 @@ export default function GoodTechWriter() {
                       content='How to become a better technical copywriter and develop in-demand skills to make an impact and provide these services to businesses.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -206,7 +206,7 @@ export default function GoodTechWriter() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

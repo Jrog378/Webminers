@@ -155,7 +155,7 @@ export default function EthicalHacking() {
                       content='As hackers are getting better and better, what can truly be done to stop them to keep you and your family digitally safe.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -183,7 +183,7 @@ export default function EthicalHacking() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

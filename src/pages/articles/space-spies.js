@@ -155,7 +155,7 @@ export default function SpaceSpies() {
                 <meta name='description'
                       content='Explaining the good and bad of constant satellite recording with where we draw the line between spying on people and privacy.'/>
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -183,7 +183,7 @@ export default function SpaceSpies() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }
