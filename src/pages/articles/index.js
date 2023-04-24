@@ -14,6 +14,7 @@ import TopMain from '../../images/articleimages/TopMain.webp'
 import TimelessMain from '../../images/articleimages/TimelessMain.webp'
 import StartInvestingMain from '../../images/articleimages/StartInvestingMain.webp'
 import BigCryptoMain from '../../images/articleimages/BigCryptoMain.webp'
+import BestCryptoMain from '../../images/articleimages/BestCryptoMain.webp'
 import PythonFinMain from '../../images/articleimages/PythonFinMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
@@ -26,6 +27,17 @@ import Link from "next/link";
 
 export default function Articles() {
     const blogposts = [
+        {
+            id: 18,
+            title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
+            date: 'Apr 24th 2023',
+            text: 'There are many ways to find the best crypto to invest in. Efficiency remains the most                      ' +
+                'accurate and we will be going into four of the most efficient cryptos to pick from.',
+            url: '/articles/best-efficient-crypto',
+            img: BestCryptoMain,
+            alt: 'Three cryptocurrency coins resting on top of a one hundred dollar bill with a piece ' +
+                'of paper on top and a gold watch next to it.'
+        },
         {
             id: 17,
             title: 'Python for Crypto and Finance - How FinTech Uses Python to Make Lots of Money',

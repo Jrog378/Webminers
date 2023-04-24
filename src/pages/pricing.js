@@ -299,9 +299,9 @@ export default function Pricing() {
                                     <Card.Text style={{fontSize: 'x-large', textAlign:'center'}}>
                                         <Link className={styles.weblink}
                                               href={'/auth/signup'}>Signup</Link> today for a
-                                        completely <strong>free</strong> account and get <Link className={styles.weblink}
+                                        completely <strong>free</strong> account or subscribe to our <Link className={styles.weblink}
                                                                                        href={'/email-list'}>Email
-                                        Updates</Link> about what webminers has to offer
+                                        List</Link> to get updates about what Webminers has to offer
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
