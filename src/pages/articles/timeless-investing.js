@@ -162,7 +162,7 @@ export default function TimelessInvesting() {
                       content='Timeless money making comes best from investing, where there are many forms, each having its own strengths'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -190,7 +190,7 @@ export default function TimelessInvesting() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

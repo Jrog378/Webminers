@@ -123,7 +123,7 @@ export default function NewServices() {
                   adding features like Market Insights, Asset Balancing, and Asset Research.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -151,7 +151,7 @@ export default function NewServices() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

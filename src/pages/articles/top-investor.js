@@ -166,7 +166,7 @@ export default function TopInvestor() {
                       content='Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your strategies, and constant research.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -194,7 +194,7 @@ export default function TopInvestor() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

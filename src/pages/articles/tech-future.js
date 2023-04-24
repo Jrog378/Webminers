@@ -187,7 +187,7 @@ export default function TechFuture() {
                       content='As Jobs began to be automated and replaced by technology, here are the few that have a prosperous future for anyone to take advantage.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -215,7 +215,7 @@ export default function TechFuture() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

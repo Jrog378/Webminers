@@ -180,7 +180,7 @@ export default function BestEfficientCrypto() {
                       accurate and we will be going into four of the most efficient cryptos to pick from.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -208,7 +208,7 @@ export default function BestEfficientCrypto() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

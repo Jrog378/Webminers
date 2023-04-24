@@ -175,7 +175,7 @@ export default function StartInvesting() {
                        but things can be much easier than they seem with the right guidance.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -203,7 +203,7 @@ export default function StartInvesting() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

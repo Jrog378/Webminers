@@ -147,7 +147,7 @@ export default function PythonDataScience() {
                       content="Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science. Let's see why."/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -175,7 +175,7 @@ export default function PythonDataScience() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }

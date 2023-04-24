@@ -144,7 +144,7 @@ export default function NewChanges() {
                       content='Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.'/>
 
             </Head>
-            <div style={{backgroundColor: '#212529'}}>
+            <article style={{backgroundColor: '#212529'}}>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -172,7 +172,7 @@ export default function NewChanges() {
                     {Sections}
                     <br/>
                 </Card>
-            </div>
+            </article>
         </>
     )
 }
