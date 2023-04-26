@@ -16,6 +16,7 @@ import StartInvestingMain from '../../images/articleimages/StartInvestingMain.we
 import BigCryptoMain from '../../images/articleimages/BigCryptoMain.webp'
 import BestCryptoMain from '../../images/articleimages/BestCryptoMain.webp'
 import PythonFinMain from '../../images/articleimages/PythonFinMain.webp'
+import CryptoCodingMain from '../../images/articleimages/CryptoCodingMain.webp'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
@@ -27,6 +28,17 @@ import Link from "next/link";
 
 export default function Articles() {
     const blogposts = [
+        {
+            id: 19,
+            title: 'Crypto Programming - Python Crypto Libraries Used For Investing',
+            date: 'Apr 26th 2023',
+            text: 'Programming in crypto gives you an advantage in the market that requires libraries to help ' +
+                'you with this. Here are some essential Python libraries for crypto programming.',
+            url: '/articles/python-crypto-libraries',
+            img: CryptoCodingMain,
+            alt: 'Mac laptop with multiple lines of code shown on its screen next to a black mouse as ' +
+                'well as a black iPhone and Apple watch.'
+        },
         {
             id: 18,
             title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
