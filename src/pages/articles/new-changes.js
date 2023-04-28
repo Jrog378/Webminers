@@ -8,9 +8,11 @@ import ImproveMain from '../../images/articleimages/ImproveMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function NewChanges() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
             img: ImproveMain,
@@ -52,7 +54,7 @@ export default function NewChanges() {
             img: Improve2,
             description: 'iMac on a tiny white desk with a matching apple keyboard and mouse with an image of a staircase leading into moving ocean waves.',
             text: 'Learning how to make a website is not foreign to me, yet this will still be a challenge. I have ' +
-                '[experience](introduction) with the basics like HTML and CSS. I even webscraped websites and ' +
+                '[experience](introduction) with the basics like HTML and CSS. I even web scraped websites and ' +
                 'learned even more about how they work. I also have projects in my belt with [Ruby on Rails 7]' +
                 '(https://rubyonrails.org/). ' +
                 'This time is different though. I hope to make an AJAX(Asynchronous Javascript And XML) website that ' +
@@ -117,32 +119,38 @@ export default function NewChanges() {
                 'Take that step forward and never stop learning!'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/new-changes');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>How I Built a Crypto Website with Articles and an Investing System - Part 2</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='NewChanges'/>
                 <meta property='og:image' content={ImproveMain}/>
                 <meta name='description'
-                      content='Improvements to Webminers are necessary and this is a brief overview of some of the things we have planned to come for readers.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -154,10 +162,10 @@ export default function NewChanges() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Crypto Website with Articles and an Investing System - Part 2
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 28 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -169,8 +177,8 @@ export default function NewChanges() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

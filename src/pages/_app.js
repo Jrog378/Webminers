@@ -1,13 +1,14 @@
 import '@/styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from '../components/layout';
 import {Figtree} from "@next/font/google";
 import {SSRProvider} from "react-bootstrap";
 import Head from "next/head";
 import Script from "next/script";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import { parseCookies, setCookie } from 'nookies';
+import {useEffect} from 'react';
+import {useRouter} from 'next/router';
+import {parseCookies, setCookie} from 'nookies';
+import Navbar from '../components/navbar'
+import Footer from "@/components/footer";
 
 const Font = Figtree({subsets: ['latin']})
 
@@ -38,7 +39,7 @@ export default function App({Component, pageProps}) {
     return (
         <SSRProvider>
             <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-38KM92RY3N`}
-                strategy={'lazyOnload'}/>
+                    strategy={'lazyOnload'}/>
             <Head>
                 {/* Global site tag (gtag.js) - Google Analytics */}
                 <script
@@ -56,9 +57,9 @@ export default function App({Component, pageProps}) {
                 />
             </Head>
             <main className={Font.className}>
-                <Layout>
-                    <Component {...pageProps} />
-                </Layout>
+                <Navbar/>
+                <Component {...pageProps} />
+                <Footer/>
             </main>
         </SSRProvider>
     )

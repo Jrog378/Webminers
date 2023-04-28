@@ -9,9 +9,11 @@ import BigCrypto5 from '../../images/articleimages/BigCrypto5.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function NextBigCrypto() {
-    const Artsections = [
+    const Article = [
         {
             img: BigCryptoMain,
             title: '',
@@ -92,7 +94,7 @@ export default function NextBigCrypto() {
             text: 'Trends are always surrounding us. Trending videos, careers, and applications are coming and going ' +
                 'quickly. AI is one of the most notable recent trends. When ChatGPT had its big trend of attention ' +
                 'AI cryptos began to soar. Following trends in your field can help you identify when there will be ' +
-                'an outperformance when compared to another part of the market. Maybe this is data science coins ' +
+                'an outperforming asset when compared to another part of the market. Maybe this is data science coins ' +
                 'or decentralized finance. Whatever it may be, staying on top of the news can help you get the ' +
                 'edge over others. \n' +
                 '\n' +
@@ -148,34 +150,38 @@ export default function NextBigCrypto() {
                 'are published'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   id={sections.id}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/next-big-crypto');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='NextBigCrypto'/>
                 <meta property='og:image' content={BigCryptoMain}/>
                 <meta name='description'
-                      content='There are many ways to find profitable coins in investing. It takes efficiency,
-                       popularity, and longevity to determine how successful a cryptocurrency will be.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -187,10 +193,10 @@ export default function NextBigCrypto() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: April 3 2023
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -202,8 +208,8 @@ export default function NextBigCrypto() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

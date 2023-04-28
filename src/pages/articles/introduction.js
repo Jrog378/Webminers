@@ -7,9 +7,11 @@ import IntroMain from '../../images/articleimages/IntroMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function Introduction() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
             img: IntroMain,
@@ -98,32 +100,38 @@ export default function Introduction() {
                 'Welcome to the next chapter of my journey.'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/introduction');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>How I Built a Crypto Website with Articles and an Investing System - Part 1</title>
-                <meta property='og:title' content='IntroJus'/>
+                <title>{Detail.title}</title>
+                <meta property='og:title' content='Introduction'/>
                 <meta property='og:image' content={IntroMain}/>
                 <meta name='description'
-                      content='Starting from programming to engineering to programming. The full cycle of why Jus is where he is and why'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -135,10 +143,10 @@ export default function Introduction() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Crypto Website with Articles and an Investing System - Part 1
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 4 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -150,8 +158,8 @@ export default function Introduction() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

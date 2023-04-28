@@ -7,9 +7,11 @@ import Site3 from '../../images/articleimages/Site3.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function NewWebminers() {
-    const Artsections = [
+    const Article = [
         {
             img: SiteMain,
             description: 'Four lit up lightbulbs all handing in a line from black wires with one swinging off to the ' +
@@ -112,33 +114,38 @@ export default function NewWebminers() {
                 'I can’t wait until I have more updates, for now, enjoy the new site!'
         },
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/new-webminers');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>How I Built a Crypto Website with Articles and an Investing System - Part 3</title>
-                <meta property='og:title' content='NewWeb'/>
+                <title>{Detail.title}</title>
+                <meta property='og:title' content='NewWebminers'/>
                 <meta property='og:image' content={SiteMain}/>
                 <meta name='description'
-                      content='Introduction to the new site that has been fully redone along with summary of the
-                  new categories and plans to come for webminers.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -150,10 +157,10 @@ export default function NewWebminers() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                How I Built a Crypto Website with Articles and an Investing System - Part 3
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Oct 15 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -165,8 +172,8 @@ export default function NewWebminers() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

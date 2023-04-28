@@ -4,16 +4,18 @@ import Visual1 from '../../images/articleimages/Visual1.webp'
 import Visual2 from '../../images/articleimages/Visual2.webp'
 import Visual3 from '../../images/articleimages/Visual3.webp'
 import Visual4 from '../../images/articleimages/Visual4.webp'
-import Visualmain from '../../images/articleimages/VisualMain.webp'
+import VisualMain from '../../images/articleimages/VisualMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function DataVis() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
-            img: Visualmain,
+            img: VisualMain,
             description: 'Bar graph on a purple sheet of paper with an iPhone displaying the calculator app next to a set of pencils and a notebook.',
             text: 'While I was teaching myself the different aspects of data mining, Data Visualization came up. ' +
                 'I did not know this at the time but I would soon realize how Data Visualization can become its own ' +
@@ -82,7 +84,7 @@ export default function DataVis() {
                 '\n' +
                 'Your job is to let them know your work’s importance. Without labels and Descriptions, your work ' +
                 'is incomplete and lacks the intention that it needs to have. ' +
-                'Instead of this make your visuals decision influencers and give them importance. Data visuals ' +
+                'Instead of this make your visuals influence the readers and give the graphics importance. Data visuals ' +
                 'with great descriptions and explanations can have a lot of impacts. ' +
                 'This is your job. You are helping businesses make data-driven decisions and now is your time to ' +
                 'shine to show off and explain your work. \n' +
@@ -125,32 +127,38 @@ export default function DataVis() {
                 'Good Luck!'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/data-vis');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Data Visualization - A Profitable Data Science Subcategory</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='DataVis'/>
-                <meta property='og:image' content={Visualmain}/>
+                <meta property='og:image' content={VisualMain}/>
                 <meta name='description'
-                      content='Data Visualization is the art of displaying data in a way that anyone can read allowing for the value of true creativity to be shown.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -162,10 +170,10 @@ export default function DataVis() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Data Visualization - A Profitable Data Science Subcategory
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 6 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -175,10 +183,10 @@ export default function DataVis() {
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        backgroundColor: 'whitesmoke'
+                        background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

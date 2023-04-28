@@ -9,9 +9,11 @@ import GoodWriterMain from '../../images/articleimages/GoodWriterMain.webp'
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function GoodTechWriter() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
             id: '',
@@ -74,7 +76,7 @@ export default function GoodTechWriter() {
                 '\n' +
                 'I almost always make mistakes in my writing, but I read out loud to ensure that the final product is ' +
                 'exactly how I want it. ' +
-                'Studying other people’s work can help a ton as well whereas you think your writing is mistakeless ' +
+                'Studying other people’s work can help a ton as well whereas you think your writing is without mistakes ' +
                 'and then you read someone else’s writing and notice what they are doing right and comparing it to ' +
                 'your work brings out any mistakes that remain in your piece. ' +
                 'Reading a book every day is highly recommended by many successful figures with good reason. There ' +
@@ -151,32 +153,38 @@ export default function GoodTechWriter() {
                 'technical copywriters come in.'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img} id={sections.id}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/good-tech-writer');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>What Truly Makes a Good Technical Copywriter Stand Out</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='WhyTechWriter'/>
                 <meta property='og:image' content={GoodWriterMain}/>
                 <meta name='description'
-                      content='How to become a better technical copywriter and develop in-demand skills to make an impact and provide these services to businesses.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -188,10 +196,10 @@ export default function GoodTechWriter() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                What Truly Makes a Good Technical Copywriter Stand Out
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 19 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -201,10 +209,10 @@ export default function GoodTechWriter() {
                         alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
-                        background: 'rgb(213, 233, 223)'
+                        background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>
