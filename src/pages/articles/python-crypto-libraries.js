@@ -3,12 +3,19 @@ import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
-import CryptoCodingHeader from "../../images/articleimages/CryptoCodingMain.webp";
+import CryptoCoding1 from "../../images/articleimages/CryptoCoding1.webp";
+import CryptoCoding2 from "../../images/articleimages/CryptoCoding2.webp";
+import CryptoCoding3 from "../../images/articleimages/CryptoCoding3.webp";
+import CryptoCoding4 from "../../images/articleimages/CryptoCoding4.webp";
+import CryptoCoding5 from "../../images/articleimages/CryptoCoding5.webp";
+import CryptoCodingMain from "../../images/articleimages/CryptoCodingMain.webp";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function PythonCryptoLibraries() {
-    const Artsections = [
+    const Article = [
         {
-            img: 'CryptoCodingMain.webp',
+            img: CryptoCodingMain,
             title: '',
             id: '',
             description: 'Mac laptop with multiple lines of code shown on its screen next to a black mouse as ' +
@@ -22,15 +29,15 @@ export default function PythonCryptoLibraries() {
                 'crypto investing, and luckily I have already tried all the bad ones. Here are the best ' +
                 'libraries I have found when coding for crypto.\n' +
                 '\n' +
-                '1. [Pytorch / Sklearn](#Pytorch+Sklearn)\n' +
+                '1. [Pytorch / Sklearn](#PytorchSklearn)\n' +
                 '2. [CoinGecko](#Coingecko)\n' +
                 '3. [Scrapy](#Scrapy)\n' +
                 '4. [APIs and Personal Code](#APIs)\n'
         },
         {
-            img: 'CryptoCoding1.webp',
+            img: CryptoCoding1,
             title: 'PyTorch / Sklearn',
-            id: 'PyTorch+Sklearn',
+            id: 'PytorchSklearn',
             description: 'A white typewriter with white keys and a white piece of paper in it with the words ' +
                 'machine learning typed out in bold letters.',
             text: 'Pytorch and Sklearn may sound similar, that is because they are machine-learning ' +
@@ -50,7 +57,7 @@ export default function PythonCryptoLibraries() {
                 'news will turn into a [Black Swan Event](https://www.investopedia.com/terms/b/blackswan.asp)\n'
         },
         {
-            img: 'CryptoCoding2.webp',
+            img: CryptoCoding2,
             title: 'CoinGecko',
             id: 'Coingecko',
             description: 'Fifty-four golden, bronze, and silver cryptocurrency coins all sitting out on a dark grey ' +
@@ -72,7 +79,7 @@ export default function PythonCryptoLibraries() {
                 'learning model with the previous packages, PyTorch and Sklearn.\n'
         },
         {
-            img: 'CryptoCoding3.webp',
+            img: CryptoCoding3,
             title: 'Scrapy',
             id: 'Scrapy',
             description: 'A person holding an iPhone with a stocks balance screen showing on it with a mac ' +
@@ -93,7 +100,7 @@ export default function PythonCryptoLibraries() {
                 'to store all the datasets.\n'
         },
         {
-            img: 'CryptoCoding4.webp',
+            img: CryptoCoding4,
             title: 'APIs and Personal Code',
             id: 'APIs',
             description: 'A giant downward swirl of lines that look like a tornado containing different ' +
@@ -114,7 +121,7 @@ export default function PythonCryptoLibraries() {
                 'allows you to be much more versatile with the data and resources that you end up using.\n'
         },
         {
-            img: 'CryptoCoding5.webp',
+            img: CryptoCoding5,
             title: 'Final Comments',
             id: '',
             description: 'A dark room with a desk that has a plant, laptop, lamp, and a lit-up computer screen ' +
@@ -133,32 +140,38 @@ export default function PythonCryptoLibraries() {
                 'for updates on articles and general information\n'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={require(`../../images/articleimages/${sections.img}`)}
-                   id={sections.id}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/python-crypto-libraries');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Crypto Programming - Python Crypto Libraries Used For Investing</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='PythonCryptoLibraries'/>
-                <meta property='og:image' content={CryptoCodingHeader}/>
+                <meta property='og:image' content={CryptoCodingMain}/>
                 <meta name='description'
-                      content='Programming in crypto gives you an advantage in the market that requires libraries to help you with this. Here are some essential Python libraries for crypto programming.'/>
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -170,10 +183,10 @@ export default function PythonCryptoLibraries() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Crypto Programming - Python Crypto Libraries Used For Investing
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: April 26 2023
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -185,9 +198,10 @@ export default function PythonCryptoLibraries() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
+
             </article>
         </>
     )

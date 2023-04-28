@@ -8,6 +8,10 @@ import {doc, getDoc} from "firebase/firestore";
 import Image from "next/image";
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
+import EconomicInsightsPlot from '@/images/plots/EconomicInsightsPlot.webp'
+import AssetInsightsPlot from '@/images/plots/AssetInsightsPlot.webp'
+import InsightsPlot from '@/images/plots/InsightsPlot.webp'
+import Email from "@/components/email";
 
 
 export default function AuthSeasons(props) {
@@ -108,7 +112,8 @@ export default function AuthSeasons(props) {
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
                                                         <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                            <Image src={'/plots/EconomicInsightsPlot.webp'}
+                                                            <Image style={{height: '100%', width: '100%'}}
+                                                                   src={EconomicInsightsPlot}
                                                                    alt={'Economic Seasons'}
                                                                    placeholder={'blur'}
                                                             />
@@ -123,9 +128,11 @@ export default function AuthSeasons(props) {
                                                                         ? <Card.Title>Loading...</Card.Title>
                                                                         : plan !== 'none'
                                                                             ?
-                                                                            <Image src={'/plots/AssetInsightsPlot.webp'}
-                                                                                   alt={'Asset Seasons'}
-                                                                                   placeholder={'blur'}
+                                                                            <Image
+                                                                                style={{height: '100%', width: '100%'}}
+                                                                                src={AssetInsightsPlot}
+                                                                                alt={'Asset Seasons'}
+                                                                                placeholder={'blur'}
                                                                             />
                                                                             :
                                                                             <>
@@ -135,10 +142,13 @@ export default function AuthSeasons(props) {
                                                                                     Investing
                                                                                     Plan</Link> Required
                                                                                 </h2>
-                                                                                <Image
-                                                                                    src={'/plots/InsightsPlot.webp'}
-                                                                                    alt={'Seasons Plot'}
-                                                                                    placeholder={'blur'}
+                                                                                <Image style={{
+                                                                                    height: '100%',
+                                                                                    width: '100%'
+                                                                                }}
+                                                                                       src={InsightsPlot}
+                                                                                       alt={'Seasons Plot'}
+                                                                                       placeholder={'blur'}
                                                                                 />
                                                                             </>
                                                                     :
@@ -148,7 +158,8 @@ export default function AuthSeasons(props) {
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
                                                                             see content</h2>
-                                                                        <Image src={'/plots/InsightsPlot.webp'}
+                                                                        <Image style={{height: '100%', width: '100%'}}
+                                                                               src={InsightsPlot}
                                                                                alt={'Seasons Plot'}
                                                                                placeholder={'blur'}
                                                                         />
@@ -164,30 +175,30 @@ export default function AuthSeasons(props) {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={2} lg={12}  style={{padding: '10px'}}>
+                        <Col xxl={2} lg={12} style={{padding: '10px'}}>
                             <div>
                                 <h2 style={{textAlign: 'center'}}>Investing Calculator</h2>
                                 <p>Predicted profit based on average monthly return.</p>
                                 <Col>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding:0}} htmlFor="initial-investment">Starting Amount</label>
+                                        <label style={{padding: 0}} htmlFor="initial-investment">Starting Amount</label>
                                         <input className={styles.inputs} type="number" id="initial-investment" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding:0}} htmlFor="monthly-return">Monthly Profit %</label>
+                                        <label style={{padding: 0}} htmlFor="monthly-return">Monthly Profit %</label>
                                         <input className={styles.inputs} type="number" id="monthly-return" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding:0}} htmlFor="months">Month Count</label>
+                                        <label style={{padding: 0}} htmlFor="months">Month Count</label>
                                         <input className={styles.inputs} type="number" id="months" min="0" required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding:0}} htmlFor="result">Total Profit</label>
+                                        <label style={{padding: 0}} htmlFor="result">Total Profit</label>
                                         <input className={styles.inputs} type="text" id="result" disabled/>
                                     </Row>
                                 </Col>

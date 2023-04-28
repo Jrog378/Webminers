@@ -8,6 +8,10 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
+import BalancingPlot from '@/images/plots/BalancingPlot.webp'
+import AssetBalancing from '@/images/plots/AssetBalancing.webp'
+import AssetBalancingPlot from '@/images/plots/AssetBalancingPlot.webp'
+import AssetBalancingExp from '@/images/plots/AssetBalancingExp.webp'
 
 export default function Balancing() {
     let [plan, setPlan] = useState('')
@@ -63,7 +67,8 @@ export default function Balancing() {
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;What to invest in?&apos; visit
-                                                <Link className={styles.weblink} href={'insights'}> Webminers Market Insights
+                                                <Link className={styles.weblink} href={'insights'}> Webminers Market
+                                                    Insights
                                                 </Link> to answer &apos;When to invest?&apos;
                                             </Card.Text>
                                         </Card.Body>
@@ -109,7 +114,8 @@ export default function Balancing() {
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
                                                         <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
-                                                            <Image src={'/plots/AssetBalancing.webp'}
+                                                            <Image style={{height: '100%', width: '100%'}}
+                                                                   src={AssetBalancing}
                                                                    alt={'AssetBalancing'}
                                                                    placeholder={'blur'}
                                                             />
@@ -125,7 +131,8 @@ export default function Balancing() {
                                                                         : plan !== 'none' && plan !== 'Balanced'
                                                                             ?
                                                                             <Image
-                                                                                src={'/plots/AssetBalancingPlot.webp'}
+                                                                                style={{height: '100%', width: '100%'}}
+                                                                                src={AssetBalancingPlot}
                                                                                 alt={'Asset Balancing Plot'}
                                                                                 placeholder={'blur'}
                                                                             />
@@ -138,10 +145,13 @@ export default function Balancing() {
                                                                                     Balanced Investing Plan </Link>
                                                                                     Required
                                                                                 </h2>
-                                                                                <Image
-                                                                                    src={'/plots/BalancingPlot.webp'}
-                                                                                    alt={'Balancing Plot'}
-                                                                                    placeholder={'blur'}
+                                                                                <Image style={{
+                                                                                    height: '100%',
+                                                                                    width: '100%'
+                                                                                }}
+                                                                                       src={BalancingPlot}
+                                                                                       alt={'Balancing Plot'}
+                                                                                       placeholder={'blur'}
                                                                                 />
                                                                             </>
                                                                     :
@@ -151,10 +161,10 @@ export default function Balancing() {
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
                                                                             see content</h2>
-                                                                        <Image
-                                                                            src={'/plots/BalancingPlot.webp'}
-                                                                            alt={'Balancing Plot'}
-                                                                            placeholder={'blur'}
+                                                                        <Image style={{height: '100%', width: '100%'}}
+                                                                               src={BalancingPlot}
+                                                                               alt={'Balancing Plot'}
+                                                                               placeholder={'blur'}
                                                                         />
                                                                     </>
                                                             }
@@ -172,7 +182,8 @@ export default function Balancing() {
                                                                         : plan === 'Strategist'
                                                                             ?
                                                                             <Image
-                                                                                src={'/plots/AssetBalancingExp.webp'}
+                                                                                style={{height: '100%', width: '100%'}}
+                                                                                src={AssetBalancingExp}
                                                                                 alt={'Mini Asset Weighting Experienced'}
                                                                                 placeholder={'blur'}
                                                                             />
@@ -185,10 +196,13 @@ export default function Balancing() {
                                                                                     href={'/pricing'}>
                                                                                     Strategist Investing Plan </Link>
                                                                                     Required</h2>
-                                                                                <Image
-                                                                                    src={'/plots/BalancingPlot.webp'}
-                                                                                    alt={'Balancing Plot'}
-                                                                                    placeholder={'blur'}
+                                                                                <Image style={{
+                                                                                    height: '100%',
+                                                                                    width: '100%'
+                                                                                }}
+                                                                                       src={BalancingPlot}
+                                                                                       alt={'Balancing Plot'}
+                                                                                       placeholder={'blur'}
                                                                                 />
                                                                             </>
                                                                     : <>
@@ -197,11 +211,11 @@ export default function Balancing() {
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Link> to
                                                                             see content</h2>
-                                                                        <Image
-                                                                                src={'/plots/BalancingPlot.webp'}
-                                                                                alt={'Balancing Plot'}
-                                                                                placeholder={'blur'}
-                                                                            />
+                                                                        <Image style={{height: '100%', width: '100%'}}
+                                                                               src={BalancingPlot}
+                                                                               alt={'Balancing Plot'}
+                                                                               placeholder={'blur'}
+                                                                        />
                                                                     </>
 
                                                             }

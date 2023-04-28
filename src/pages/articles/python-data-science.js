@@ -8,9 +8,11 @@ import PythonDataMain from '../../images/articleimages/PythonDataMain.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function PythonDataScience() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
             img: PythonDataMain,
@@ -102,7 +104,7 @@ export default function PythonDataScience() {
             text: 'One of the industry\'s favorite websites for coding help is [StackOverflow](https://stackoverflow.com/).' +
                 ' Coders tend to only use this for their questions but I recommend looking through other people’s ' +
                 'questions and learning from the answers for 15 minutes a day.' +
-                'There won’t be any shortcuts along your way to becoming fluent in python but that doesn’t mean there ' +
+                'There won’t be any shortcuts along your way to becoming fluent in python but that does not mean there ' +
                 'isn’t any way to increase your productivity.\n' +
                 '\n' +
                 'Burnouts are a thing to look out for, they happen to the best of us and making achievable goals that ' +
@@ -120,32 +122,38 @@ export default function PythonDataScience() {
                 'Remember, don’t give up, and enjoy the process!'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/python-data-science');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Python Has Been Taking Over The Data Science World</title>
-                <meta property='og:title' content='PythonData'/>
+                <title>{Detail.title}</title>
+                <meta property='og:title' content='PythonDataScience'/>
                 <meta property='og:image' content={PythonDataMain}/>
                 <meta name='description'
-                      content="Python has been hitting the world by storm, becoming the most popular programming language, especially in Data Science. Let's see why."/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -157,10 +165,10 @@ export default function PythonDataScience() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Python Has Been Taking Over The Data Science World
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 7 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -172,8 +180,8 @@ export default function PythonDataScience() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

@@ -9,9 +9,11 @@ import BestCrypto5 from '../../images/articleimages/BestCrypto5.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function BestEfficientCrypto() {
-    const Artsections = [
+    const Article = [
         {
             img: BestCryptoMain,
             title: '',
@@ -35,7 +37,7 @@ export default function BestEfficientCrypto() {
             img: BestCrypto1,
             title: 'Ethereum - Eth',
             id: 'Ethereum',
-            description: 'A golden Ethereum coin with fine sketchings and etchings that is resting on top of a very ' +
+            description: 'A golden Ethereum coin with fine sketches and etchings that is resting on top of a very ' +
                 'lightly colored table or surface.',
             text: '[Ethereum](https://ethereum.org/en/) has been around since 2013. A solid 10 years of history ' +
                 'backing it. Ethereum has a powerful position in the world of ' +
@@ -151,34 +153,38 @@ export default function BestEfficientCrypto() {
                 'a professional before investing.\n'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   id={sections.id}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/best-efficient-crypto');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Best Efficient Crypto to Buy - Efficient Crypto Updates</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='BestEfficientCrypto'/>
                 <meta property='og:image' content={BestCryptoMain}/>
                 <meta name='description'
-                      content='There are many ways to find the best crypto to invest in. Efficiency remains the most
-                      accurate and we will be going into four of the most efficient cryptos to pick from.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -190,10 +196,10 @@ export default function BestEfficientCrypto() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Best Efficient Crypto to Buy - Efficient Crypto Updates
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: April 24 2023
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -205,8 +211,8 @@ export default function BestEfficientCrypto() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>

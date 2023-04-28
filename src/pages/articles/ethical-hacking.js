@@ -4,16 +4,18 @@ import Ethical1 from '../../images/articleimages/Ethical1.webp'
 import Ethical2 from '../../images/articleimages/Ethical2.webp'
 import Ethical3 from '../../images/articleimages/Ethical3.webp'
 import Ethical4 from '../../images/articleimages/Ethical4.webp'
-import lock from '../../images/articleimages/computer-security-lock-and-payment.webp'
+import EthicalMain from '../../images/articleimages/computer-security-lock-and-payment.webp'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
+import Details from "@/components/details";
+import Email from "@/components/email";
 
 export default function EthicalHacking() {
-    const Artsections = [
+    const Article = [
         {
             title: '',
-            img: lock,
+            img: EthicalMain,
             description: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
             text: 'The terms Cryptocurrency and Web3 have been tossed around lately and with good reason. They are ' +
                 'revolutionary and have a lot of purposes, because of this they are getting a lot of attention from ' +
@@ -118,7 +120,7 @@ export default function EthicalHacking() {
                 'of unprotected companies or individuals. ' +
                 'Innovation on the internet is not exactly good or bad, in my opinion, it can be seen as a middle ' +
                 'ground. Where there is light there will always be shadow.' +
-                'As black hat hackers rise to the occasion so will white hat hackers. I wouldn’t say there is anything ' +
+                'As black hat hackers rise to the occasion so will white hat hackers. I would not say there is anything ' +
                 'to worry about though. Individuals need to keep themselves and their information safe.\n' +
                 '\n' +
                 'If this post does well I will be releasing a new article about being safe on the internet and new ways ' +
@@ -128,32 +130,38 @@ export default function EthicalHacking() {
                 'Be safe!'
         }
     ]
-
-    const Sections = Artsections.map(sections =>
-        <Card key={sections.id} style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-            <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                   alt={sections.description}
-                   src={sections.img}
-                   placeholder={'blur'}
-            />
-            <Card.Body style={{paddingBottom: 0}}>
-                <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                <Container className={styles.webmark} style={{padding: '0px'}}>
-                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                </Container>
-            </Card.Body>
-        </Card>
-    )
+    const Detail = Details.find((article) => article.url === '/articles/ethical-hacking');
+    const Sections = () => {
+        return (
+            <>
+                {Article.map(sections =>
+                    <Card key={sections.id}
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
+                               alt={sections.description}
+                               src={sections.img}
+                               id={sections.id}
+                               placeholder={'blur'}
+                        />
+                        <Card.Body style={{paddingBottom: 0}}>
+                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                            <Container className={styles.webmark} style={{padding: '0px'}}>
+                                <ReactMarkdown>{sections.text}</ReactMarkdown>
+                            </Container>
+                        </Card.Body>
+                    </Card>)}
+            </>
+        )
+    }
 
     return (
         <>
             <Head>
-                <title>Ethical Hackers Are Needed More Than Ever In Our Future</title>
+                <title>{Detail.title}</title>
                 <meta property='og:title' content='EthicalHackers'/>
-                <meta property='og:image' content={lock}/>
+                <meta property='og:image' content={EthicalMain}/>
                 <meta name='description'
-                      content='As hackers are getting better and better, what can truly be done to stop them to keep you and your family digitally safe.'/>
-
+                      content={Detail.description}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
@@ -165,10 +173,10 @@ export default function EthicalHacking() {
                                 fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                Ethical Hackers Are Needed More Than Ever In Our Future
+                                {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: Sep 4 2022
+                                Published on: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -180,8 +188,8 @@ export default function EthicalHacking() {
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    {Sections}
-                    <br/>
+                    <Sections/>
+                    <Email/>
                 </Card>
             </article>
         </>
