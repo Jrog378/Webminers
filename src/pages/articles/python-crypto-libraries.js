@@ -11,6 +11,8 @@ import CryptoCoding5 from "../../images/articleimages/CryptoCoding5.webp";
 import CryptoCodingMain from "../../images/articleimages/CryptoCodingMain.webp";
 import Details from "@/components/details";
 import Email from "@/components/email";
+import {GoogleAdSense} from "nextjs-google-adsense";
+import React from "react";
 
 export default function PythonCryptoLibraries() {
     const Article = [
@@ -166,6 +168,7 @@ export default function PythonCryptoLibraries() {
 
     return (
         <>
+            <GoogleAdSense publisherId="pub-7878345029704986" />
             <Head>
                 <title>{Detail.title}</title>
                 <meta property='og:title' content='PythonCryptoLibraries'/>
