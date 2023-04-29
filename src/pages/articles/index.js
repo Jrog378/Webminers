@@ -7,7 +7,7 @@ import Head from "next/head";
 import logo from "@/images/WebminersLogo.webp";
 import Link from "next/link";
 import Details from "@/components/details";
-import { GoogleAdSense } from "nextjs-google-adsense";
+import {GoogleAdSense} from "nextjs-google-adsense";
 
 export default function Articles() {
     const Cards = () => {
@@ -72,7 +72,7 @@ export default function Articles() {
 
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" />
+            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Head>
                     <title>Webminers Articles - Make Data-Driven Decisions With Investing Systems</title>
