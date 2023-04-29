@@ -10,6 +10,8 @@ import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 import Details from "@/components/details";
 import Email from "@/components/email";
+import {GoogleAdSense} from "nextjs-google-adsense";
+import React from "react";
 
 export default function DataVis() {
     const Article = [
@@ -153,6 +155,7 @@ export default function DataVis() {
 
     return (
         <>
+            <GoogleAdSense publisherId="pub-7878345029704986" />
             <Head>
                 <title>{Detail.title}</title>
                 <meta property='og:title' content='DataVis'/>
