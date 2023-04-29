@@ -142,7 +142,7 @@ export default function NewWebminers() {
 
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" />
+            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
             <Head>
                 <title>{Detail.title}</title>
                 <meta property='og:title' content='NewWebminers'/>

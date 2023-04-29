@@ -10,9 +10,6 @@
     "analyze": "NODE_ENV=production next build && webpack-bundle-analyzer .next/stats.json"
   },
   "dependencies": {
-    "@auth0/auth0-react": "^2.0.0",
-    "@auth0/auth0-spa-js": "^2.0.3",
-    "@auth0/nextjs-auth0": "^2.2.1",
     "@next/bundle-analyzer": "^13.2.4",
     "@next/font": "13.1.6",
     "@stripe/react-stripe-js": "^1.16.4",
