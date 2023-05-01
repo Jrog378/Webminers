@@ -13,6 +13,7 @@ import Details from "@/components/details";
 import Email from "@/components/email";
 import {GoogleAdSense} from "nextjs-google-adsense";
 import React from "react";
+import {adsense} from '@/components/article-ad'
 
 export default function DecentralizationForCrypto() {
     const Article = [
@@ -180,6 +181,7 @@ export default function DecentralizationForCrypto() {
                             </Container>
                         </Card.Body>
                     </Card>)}
+                {adsense()}
             </>
         )
     }
