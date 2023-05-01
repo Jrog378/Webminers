@@ -1,5 +1,16 @@
 const details = [
     {
+        id: 20,
+        title: 'What is Decentralization - What Does Decentralized Mean for Crypto Investors',
+        date: 'May 1st 2023',
+        text: 'There are many aspects of decentralization that are constantly developing, much of which is related ' +
+            'to the blockchain. As crypto investors we will look into more about this technology.\n',
+        url: '/articles/decentralization-for-crypto',
+        img: 'DecenterMain.webp',
+        alt: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
+                'multiple houseplants sitting behind it.'
+    },
+    {
         id: 19,
         title: 'Crypto Programming - Python Crypto Libraries Used For Investing',
         date: 'Apr 26th 2023',
