@@ -30,37 +30,35 @@ export default function Email() {
     };
 
     return (
-            <Card style={{borderRadius:'25px', background: 'none', padding: '1% 8%', width: '80%', marginBottom: '2%'}}>
-                <Container style={{display: disp1[disp]}}>
-                    <h3 style={{padding: '5px'}}>
-                        Want Better Investing Information & Research?
-                    </h3>
-                    <Card.Text style={{fontSize: 'larger'}}>
-                        Join our Emailing List today and get updates on Webminers Insights, New Features,
-                        and
-                        More!
-                    </Card.Text>
-                    <Container>
-                        <Row style={{padding: '5px'}}>
-                            <input
-                                onChange={(e) => {
-                                    setMail(e.target.value);
-                                }}
-                                type='email'
-                                placeholder='Email Address'
-                                className={styles.inputs}></input>
-                        </Row>
-                        <Row style={{padding: '5px'}}>
-                            <Button variant="success" onClick={subscribe}
-                                    className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
-                                Join Now!
-                            </Button>
-                        </Row>
-                    </Container>
+        <Card style={{borderRadius: '25px', background: 'none', padding: '1% 8%', marginBottom: '2%'}}>
+            <Container style={{display: disp1[disp]}}>
+                <h3 style={{padding: '5px', textAlign: 'center'}}>
+                    Desire to be a better Investor?
+                </h3>
+                <Card.Text style={{fontSize: 'larger'}}>
+                    Are you ready to start implementing scientifically proven methods into your crypto investing?
+                </Card.Text>
+                <Container>
+                    <Row style={{padding: '5px'}}>
+                        <input
+                            onChange={(e) => {
+                                setMail(e.target.value);
+                            }}
+                            type='email'
+                            placeholder='Email Address'
+                            className={styles.inputs}></input>
+                    </Row>
+                    <Row style={{padding: '5px'}}>
+                        <Button variant="success" onClick={subscribe}
+                                className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
+                            Join Email List!
+                        </Button>
+                    </Row>
                 </Container>
-                <Container style={{display: disp2[disp]}}>
-                    <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
-                </Container>
+            </Container>
+            <Container style={{display: disp2[disp]}}>
+                <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
+            </Container>
         </Card>
     );
 }

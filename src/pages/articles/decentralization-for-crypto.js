@@ -1,4 +1,4 @@
-import {Card, Container} from "react-bootstrap";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import DecenterMain from '../../images/articleimages/DecenterMain.webp'
 import Decenter1 from '../../images/articleimages/Decenter1.webp'
@@ -167,7 +167,7 @@ export default function DecentralizationForCrypto() {
             <>
                 {Article.map(sections =>
                     <Card key={sections.id}
-                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
+                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%'}}>
                         <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
                                alt={sections.description}
                                src={sections.img}
@@ -181,7 +181,7 @@ export default function DecentralizationForCrypto() {
                             </Container>
                         </Card.Body>
                     </Card>)}
-                {adsense()}
+
             </>
         )
     }
@@ -216,13 +216,24 @@ export default function DecentralizationForCrypto() {
                 </Container>
                 <Card
                     style={{
-                        alignItems: 'center',
                         display: 'flex',
                         borderRadius: '35px',
                         background: 'whitesmoke'
                     }}>
-                    <Sections/>
-                    <Email/>
+                    <Row style={{padding: '0 25px 15px 25px'}}>
+                        <Col md={8} sm={12} style={{padding: '10px'}}>
+                            <Sections/>
+                            {adsense()}
+                        </Col>
+                        <Col md={4} sm={12} style={{paddingTop: '15px'}}>
+                            <div style={{
+                                position: 'sticky',
+                                top: 10
+                            }}>
+                                <Email/>
+                            </div>
+                        </Col>
+                    </Row>
                 </Card>
             </article>
         </>
