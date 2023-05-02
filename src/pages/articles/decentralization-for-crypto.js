@@ -14,6 +14,7 @@ import Email from "@/components/email";
 import {GoogleAdSense} from "nextjs-google-adsense";
 import React from "react";
 import {adsense} from '@/components/article-ad'
+import ArticleFormat from "@/components/format";
 
 export default function DecentralizationForCrypto() {
     const Article = [
@@ -47,7 +48,7 @@ export default function DecentralizationForCrypto() {
                 'DeFi provides a place to store your money that isn’t a bank. This place is called a wallet. ' +
                 'Wallets can store many different cryptocurrencies as well. The main ones are called ' +
                 'stablecoins, which are coins that normally stick to a single price. If you are interested,' +
-                'check out [Top Stablecoins by Market Cap](https://www.coingecko.com/en/categories/stablecoins)' +
+                'check out [Top Stablecoins by Market Cap](https://www.coingecko.com/en/categories/stablecoins) ' +
                 'from CoinGecko\n' +
                 '\n' +
                 'Defi also provides quick transactions since everything is through the blockchain. For banks ' +
@@ -166,21 +167,8 @@ export default function DecentralizationForCrypto() {
         return (
             <>
                 {Article.map(sections =>
-                    <Card key={sections.id}
-                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%'}}>
-                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                               alt={sections.description}
-                               src={sections.img}
-                               id={sections.id}
-                               placeholder={'blur'}
-                        />
-                        <Card.Body style={{paddingBottom: 0}}>
-                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                            <Container className={styles.webmark} style={{padding: '0px'}}>
-                                <ReactMarkdown>{sections.text}</ReactMarkdown>
-                            </Container>
-                        </Card.Body>
-                    </Card>)}
+                    <ArticleFormat key={sections.id} sections={sections}/>
+                )}
 
             </>
         )
@@ -226,6 +214,9 @@ export default function DecentralizationForCrypto() {
                             {adsense()}
                         </Col>
                         <Col md={4} sm={12} style={{paddingTop: '15px'}}>
+                            <div style={{paddingBottom: '10px'}}>
+                                {adsense()}
+                            </div>
                             <div style={{
                                 position: 'sticky',
                                 top: 10
