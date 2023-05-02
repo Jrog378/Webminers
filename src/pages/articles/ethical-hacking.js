@@ -2,7 +2,7 @@ import Ethical1 from '../../images/articleimages/Ethical1.webp'
 import Ethical2 from '../../images/articleimages/Ethical2.webp'
 import Ethical3 from '../../images/articleimages/Ethical3.webp'
 import Ethical4 from '../../images/articleimages/Ethical4.webp'
-import EthicalMain from '../../images/articleimages/computer-security-lock-and-payment.webp'
+import EthicalMain from '../../images/articleimages/EthicalMain.webp'
 import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
