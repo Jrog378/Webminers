@@ -294,14 +294,12 @@ export default function Pricing() {
                         <Container style={{padding: '15px'}}>
                             <Card className={styles.cardhover}>
                                 <Card.Body>
-                                    <Card.Title style={{fontSize: 'xx-large', textAlign: 'center'}}>Not Ready For a Paid
+                                    <Card.Title style={{fontSize: 'xxx-large', textAlign: 'center'}}>Not Ready For a Paid
                                         Plan?</Card.Title>
-                                    <Card.Text style={{fontSize: 'x-large', textAlign:'center'}}>
-                                        <Link className={styles.weblink}
-                                              href={'/auth/signup'}>Signup</Link> today for a
-                                        completely <strong>free</strong> account or subscribe to our <Link className={styles.weblink}
-                                                                                       href={'/email-list'}>Email
-                                        List</Link> to get updates about what Webminers has to offer
+                                    <Card.Text style={{fontSize: 'xx-large', textAlign:'center'}}>
+                                        Start today with a
+                                        completely <strong>free</strong> with our basic features and email updates - <Link className={styles.weblink}
+                                              href={'/auth/signup'}>Signup Now</Link>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

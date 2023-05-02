@@ -1,17 +1,11 @@
-import {Card, Container} from "react-bootstrap";
-import ReactMarkdown from "react-markdown";
 import Improve1 from '../../images/articleimages/Improve1.webp'
 import Improve2 from '../../images/articleimages/Improve2.webp'
 import Improve3 from '../../images/articleimages/Improve3.webp'
 import Improve4 from '../../images/articleimages/Improve4.webp'
 import ImproveMain from '../../images/articleimages/ImproveMain.webp'
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import Head from "next/head";
-import Details from "@/components/details";
-import Email from "@/components/email";
-import {GoogleAdSense} from "nextjs-google-adsense";
 import React from "react";
+import {useRouter} from "next/router";
+import ArticleFormat from "@/components/format";
 
 export default function NewChanges() {
     const Article = [
@@ -121,69 +115,10 @@ export default function NewChanges() {
                 'Take that step forward and never stop learning!'
         }
     ]
-    const Detail = Details.find((article) => article.url === '/articles/new-changes');
-    const Sections = () => {
-        return (
-            <>
-                {Article.map(sections =>
-                    <Card key={sections.id}
-                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                               alt={sections.description}
-                               src={sections.img}
-                               id={sections.id}
-                               placeholder={'blur'}
-                        />
-                        <Card.Body style={{paddingBottom: 0}}>
-                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                            <Container className={styles.webmark} style={{padding: '0px'}}>
-                                <ReactMarkdown>{sections.text}</ReactMarkdown>
-                            </Container>
-                        </Card.Body>
-                    </Card>)}
-            </>
-        )
-    }
-
+    const router = useRouter();
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
-            <Head>
-                <title>{Detail.title}</title>
-                <meta property='og:title' content='NewChanges'/>
-                <meta property='og:image' content={ImproveMain}/>
-                <meta name='description'
-                      content={Detail.description}/>
-            </Head>
-            <article style={{backgroundColor: '#212529'}}>
-                <Container>
-                    <header>
-                        <Card style={{borderStyle: 'none', background: 'none'}}>
-                            <Card.Title style={{
-                                color: 'rgb(200,200,200)',
-                                textAlign: 'center',
-                                fontSize: 'xx-large',
-                                padding: '20px 3% 0 3%'
-                            }}>
-                                {Detail.title}
-                            </Card.Title>
-                            <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: {Detail.date}
-                            </Card.Text>
-                        </Card>
-                    </header>
-                </Container>
-                <Card
-                    style={{
-                        alignItems: 'center',
-                        display: 'flex',
-                        borderRadius: '35px',
-                        background: 'whitesmoke'
-                    }}>
-                    <Sections/>
-                    <Email/>
-                </Card>
-            </article>
+            <ArticleFormat Article={Article} url={router.pathname}/>
         </>
     )
 }
