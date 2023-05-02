@@ -1,25 +1,19 @@
-import {Card, Container} from "react-bootstrap";
-import ReactMarkdown from "react-markdown";
-import Mentalmain from '../../images/articleimages/MentalMain.webp'
+import MentalMain from '../../images/articleimages/MentalMain.webp'
 import Mental1 from '../../images/articleimages/Mental1.webp'
 import Mental2 from '../../images/articleimages/Mental2.webp'
 import Mental3 from '../../images/articleimages/Mental3.webp'
 import Mental4 from '../../images/articleimages/Mental4.webp'
 import Mental5 from '../../images/articleimages/Mental5.webp'
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import Head from "next/head";
-import Details from "@/components/details";
-import Email from "@/components/email";
-import {GoogleAdSense} from "nextjs-google-adsense";
 import React from "react";
+import {useRouter} from "next/router";
+import ArticleFormat from "@/components/format";
 
 export default function MentalImprove() {
     const Article = [
         {
             title: '',
             id: '',
-            img: Mentalmain,
+            img: MentalMain,
             description: 'A man with a blue shirt writing using a black pen in an old book that has a leather book cover on a desk.',
             text: 'Keeping a clear mind can be beneficial in any area of your life, whether in high-stress ' +
                 'situations or to complete tasks more efficiently.\n' +
@@ -125,69 +119,10 @@ export default function MentalImprove() {
                 ' or people. Then you will be able to succeed in following your investment plan as you want to.'
         }
     ]
-    const Detail = Details.find((article) => article.url === '/articles/mental-improve');
-    const Sections = () => {
-        return (
-            <>
-                {Article.map(sections =>
-                    <Card key={sections.id}
-                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%', width: '80%'}}>
-                        <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                               alt={sections.description}
-                               src={sections.img}
-                               id={sections.id}
-                               placeholder={'blur'}
-                        />
-                        <Card.Body style={{paddingBottom: 0}}>
-                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
-                            <Container className={styles.webmark} style={{padding: '0px'}}>
-                                <ReactMarkdown>{sections.text}</ReactMarkdown>
-                            </Container>
-                        </Card.Body>
-                    </Card>)}
-            </>
-        )
-    }
-
+    const router = useRouter();
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
-            <Head>
-                <title>{Detail.title}</title>
-                <meta property='og:title' content='MentalImprove'/>
-                <meta property='og:image' content={Mentalmain}/>
-                <meta name='description'
-                      content={Detail.description}/>
-            </Head>
-            <article style={{backgroundColor: '#212529'}}>
-                <Container>
-                    <header>
-                        <Card style={{borderStyle: 'none', background: 'none'}}>
-                            <Card.Title style={{
-                                color: 'rgb(200,200,200)',
-                                textAlign: 'center',
-                                fontSize: 'xx-large',
-                                padding: '20px 3% 0 3%'
-                            }}>
-                                {Detail.title}
-                            </Card.Title>
-                            <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: {Detail.date}
-                            </Card.Text>
-                        </Card>
-                    </header>
-                </Container>
-                <Card
-                    style={{
-                        alignItems: 'center',
-                        display: 'flex',
-                        borderRadius: '35px',
-                        background: 'whitesmoke'
-                    }}>
-                    <Sections/>
-                    <Email/>
-                </Card>
-            </article>
+            <ArticleFormat Article={Article} url={router.pathname}/>
         </>
     )
 }

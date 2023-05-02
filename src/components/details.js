@@ -12,7 +12,7 @@ const details = [
     },
     {
         id: 19,
-        title: 'Crypto Programming - Python Crypto Libraries Used For Investing',
+        title: 'Crypto Programming Libraries - Python Libraries Used For Crypto Investing',
         date: 'Apr 26th 2023',
         text: 'Programming in crypto gives you an advantage in the market that requires libraries to help ' +
             'you with this. Here are some essential Python libraries for crypto programming.',

@@ -1,20 +1,12 @@
-import {Card, Col, Container, Row} from "react-bootstrap";
-import ReactMarkdown from "react-markdown";
 import DecenterMain from '../../images/articleimages/DecenterMain.webp'
 import Decenter1 from '../../images/articleimages/Decenter1.webp'
 import Decenter2 from '../../images/articleimages/Decenter2.webp'
 import Decenter3 from '../../images/articleimages/Decenter3.webp'
 import Decenter4 from '../../images/articleimages/Decenter4.webp'
 import Decenter5 from '../../images/articleimages/Decenter5.webp'
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import Head from "next/head";
-import Details from "@/components/details";
-import Email from "@/components/email";
-import {GoogleAdSense} from "nextjs-google-adsense";
 import React from "react";
-import {adsense} from '@/components/article-ad'
 import ArticleFormat from "@/components/format";
+import {useRouter} from "next/router";
 
 export default function DecentralizationForCrypto() {
     const Article = [
@@ -162,71 +154,10 @@ export default function DecentralizationForCrypto() {
                 'read my article [6 Growing Jobs For The Future](tech-future)\n'
         }
     ]
-    const Detail = Details.find((article) => article.url === '/articles/decentralization-for-crypto');
-    const Sections = () => {
-        return (
-            <>
-                {Article.map(sections =>
-                    <ArticleFormat key={sections.id} sections={sections}/>
-                )}
-
-            </>
-        )
-    }
-
+    const router = useRouter();
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
-            <Head>
-                <title>{Detail.title}</title>
-                <meta property='og:title' content='DecentralizationForCrypto'/>
-                <meta property='og:image' content={DecenterMain}/>
-                <meta name='description'
-                      content={Detail.description}/>
-            </Head>
-            <article style={{backgroundColor: '#212529'}}>
-                <Container>
-                    <header>
-                        <Card style={{borderStyle: 'none', background: 'none'}}>
-                            <Card.Title style={{
-                                color: 'rgb(200,200,200)',
-                                textAlign: 'center',
-                                fontSize: 'xx-large',
-                                padding: '20px 3% 0 3%'
-                            }}>
-                                {Detail.title}
-                            </Card.Title>
-                            <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: {Detail.date}
-                            </Card.Text>
-                        </Card>
-                    </header>
-                </Container>
-                <Card
-                    style={{
-                        display: 'flex',
-                        borderRadius: '35px',
-                        background: 'whitesmoke'
-                    }}>
-                    <Row style={{padding: '0 25px 15px 25px'}}>
-                        <Col md={8} sm={12} style={{padding: '10px'}}>
-                            <Sections/>
-                            {adsense()}
-                        </Col>
-                        <Col md={4} sm={12} style={{paddingTop: '15px'}}>
-                            <div style={{paddingBottom: '10px'}}>
-                                {adsense()}
-                            </div>
-                            <div style={{
-                                position: 'sticky',
-                                top: 10
-                            }}>
-                                <Email/>
-                            </div>
-                        </Col>
-                    </Row>
-                </Card>
-            </article>
+            <ArticleFormat Article={Article} url={router.pathname}/>
         </>
     )
 }
