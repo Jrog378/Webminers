@@ -421,7 +421,7 @@ main:has(> .full) {
 }
 
 .webmark {
-    font-size: large;
+    font-size: 20px;
     line-height: 2;
 }
 
