@@ -19,9 +19,8 @@ const ArticleFormat = ({Article, url}) => {
             <Head>
                 <title>{Detail.title}</title>
                 <meta property='og:title' content={Detail.title}/>
-                <meta property='og:image' content={DecenterMain}/>
-                <meta name='description'
-                      content={Detail.description}/>
+                <meta property='og:image' content={'localhost:3000/images/' + Detail.header}/>
+                <meta name='description' content={Detail.text}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <Container>
