@@ -20,8 +20,8 @@ function Reset() {
         <Container style={{padding: '25px'}} className="login">
             <Head>
                 <title>Webminers Investing - Reset Password</title>
-                <meta property='og:title' content='Reset'/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:title' content='Webminers Investing - Reset Password'/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             <Container className={styles.inputcon}>
                 <Col>

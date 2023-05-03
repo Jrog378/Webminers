@@ -26,8 +26,8 @@ function Register() {
         <Container style={{padding: '25px', height: '100%'}} className="login">
             <Head>
                 <title>Webminers Investing - Signup</title>
-                <meta property='og:title' content='Signup'/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:title' content='Webminers Investing - Signup'/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             {!user && !loading
                 ?

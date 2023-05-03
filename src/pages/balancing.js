@@ -29,6 +29,20 @@ export default function Balancing() {
         fetchData()
     }, [user, loading]);
 
+    function calculate() {
+        const startingAmount = document.getElementById("starting-amount").value;
+        const endingAmount = document.getElementById("ending-amount").value;
+        const diff = endingAmount - startingAmount
+        const taxResult = document.getElementById("tax-result");
+        const profitResult = document.getElementById("profit-result");
+        if (diff < 0) {
+            taxResult.value = 0
+            profitResult.value = diff
+        } else {
+            taxResult.value = diff * 0.15
+            profitResult.value = diff * 0.85
+        }
+    }
 
     return (
         <>
@@ -38,12 +52,12 @@ export default function Balancing() {
                       content="Webminers Investing provides scientifically backed research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
                     <Row>
-                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
                             <Container style={{padding: '10px'}}>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
@@ -76,7 +90,7 @@ export default function Balancing() {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col lg={6} md={12} sm={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
                             <Container style={{padding: '10px'}}>
                                 <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
@@ -227,6 +241,36 @@ export default function Balancing() {
                                     </Tab.Container>
                                 </Card>
                             </Container>
+                        </Col>
+                        <Col xxl={2} lg={12} style={{padding: '10px'}}>
+                            <div>
+                                <h3 style={{textAlign: 'center'}}>Short-Term Capital Gains Tax Calculator</h3>
+                                <p><strong>Not Tax Advice.</strong> Finding predicted tax based on 15% tax rate.</p>
+                                <Col>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="starting-amount">Starting Amount</label>
+                                        <input className={styles.inputs} type="number" id="starting-amount" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="ending-amount">Ending Amount</label>
+                                        <input className={styles.inputs} type="number" id="ending-amount" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="tax-result">Predicted Tax</label>
+                                        <input className={styles.inputs} type="text" id="tax-result" disabled/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="profit-result">Predicted Profit
+                                            After</label>
+                                        <input className={styles.inputs} type="text" id="profit-result" disabled/>
+                                    </Row>
+                                </Col>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
