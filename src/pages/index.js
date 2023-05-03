@@ -120,11 +120,12 @@ export default function Home() {
         <>
             <Head>
                 <title>Webminers Investing - Invest Smarter with Research and Education Backed by Data Mining</title>
+                <meta name={'og:title'} content={'Webminers Investing - Invest Smarter with Research and Education Backed by Data Mining'}/>
                 <meta name="description"
                       content="Webminers Investing provides data mining supported research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             <div style={{margin: '0', width: '100%'}}>
                 <div className={styles.sales}>

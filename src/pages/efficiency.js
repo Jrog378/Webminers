@@ -5,7 +5,6 @@ import {doc, getDoc} from "firebase/firestore";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import React, {useEffect, useState} from "react";
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 export default function Efficiency() {
@@ -46,11 +45,12 @@ export default function Efficiency() {
         <>
             <Head>
                 <title>Webminers Investing - Asset Efficiency</title>
+                <meta name={'og:title'} content={'Webminers Investing - Asset Efficiency'}/>
                 <meta name="description"
                       content="Webminers Investing provides scientifically backed research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>
@@ -1081,7 +1081,7 @@ export default function Efficiency() {
                                 <p>Find monthly savings to reach a total savings goal.</p>
                                 <Col>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="ending-investment">Ending Amount</label>
+                                        <label style={{padding: 0}} htmlFor="ending-investment">Goal Amount</label>
                                         <input className={styles.inputs} type="number" id="ending-investment" min="0"
                                                required/>
                                     </Row>

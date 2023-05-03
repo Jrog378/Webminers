@@ -24,8 +24,8 @@ function Login() {
         <Container style={{padding: '25px', height: '100%'}} className="login">
             <Head>
                 <title>Webminers Investing - Login</title>
-                <meta property='og:title' content='Login'/>
-                <meta property='og:image' content={logo}/>
+                <meta property='og:title' content='Webminers Investing - Login'/>
+                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
             {!user && !loading
                 ? <Container className={styles.inputcon}>

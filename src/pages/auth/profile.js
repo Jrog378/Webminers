@@ -38,8 +38,8 @@ export default function Profile() {
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Head>
                     <title>Webminers Investing - Profile</title>
-                    <meta property='og:title' content='Profile'/>
-                    <meta property='og:image' content={logo}/>
+                    <meta property='og:title' content='Webminers Investing - Profile'/>
+                    <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
                 </Head>
                 <Container style={{wordWrap: 'break-word', padding: '30px'}}>
                     {user && !loading
