@@ -100,16 +100,6 @@ function EmailALert() {
                         </Container>
                     </Container>
                 </Toast>
-                <Toast style={{
-                    position: 'absolute',
-                    zIndex: '99',
-                    width: '100%',
-                    top: '0',
-                    height: '100%',
-                    backgroundColor: 'rgba(0,0,0,0.25)'
-                }}
-                       show={open} onClose={closeModal}>
-                </Toast>
             </>
         );
     }
