@@ -54,7 +54,7 @@ export default function AuthSeasons(props) {
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
                     <Row>
-                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} className={styles.pad}>
                             <Container>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
@@ -84,17 +84,17 @@ export default function AuthSeasons(props) {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} className={styles.pad}>
                             <Container>
-                                <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                <Card className={styles.card1}>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
                                         <Col>
-                                            <Container style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                            <Container className={styles.card1}>
                                                 <Row lg={12} style={{paddingBottom: '5px'}}>
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Basic">
+                                                                <Nav.Link className={styles.navgreen} eventKey="Basic">
                                                                     Overall Economic Insights</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
@@ -102,7 +102,7 @@ export default function AuthSeasons(props) {
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Alt">
+                                                                <Nav.Link className={styles.navgreen} eventKey="Alt">
                                                                     Crypto Insights</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
@@ -112,7 +112,7 @@ export default function AuthSeasons(props) {
                                             <Row lg={12}>
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
-                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Card className={styles.card1}>
                                                             <Image style={{height: '100%', width: '100%'}}
                                                                    src={EconomicInsightsPlot}
                                                                    alt={'Economic Seasons'}
@@ -121,7 +121,7 @@ export default function AuthSeasons(props) {
                                                         </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Alt'>
-                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Card className={styles.card1}>
                                                             {loading
                                                                 ? <Card.Title>Loading...</Card.Title>
                                                                 : user
@@ -176,7 +176,7 @@ export default function AuthSeasons(props) {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={2} lg={12} style={{padding: '10px'}}>
+                        <Col xxl={2} lg={12} className={styles.pad}>
                             <div>
                                 <h2 style={{textAlign: 'center'}}>Investing Calculator</h2>
                                 <p>Predicted profit based on average monthly return.</p>

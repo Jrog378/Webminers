@@ -5,7 +5,6 @@ import ReactMarkdown from "react-markdown";
 import React from "react";
 import {GoogleAdSense} from "nextjs-google-adsense";
 import Head from "next/head";
-import DecenterMain from "@/images/articleimages/DecenterMain.webp";
 import {adsense} from "@/components/article-ad";
 import Email from "@/components/email";
 import Suggest from "@/components/suggest";
@@ -47,10 +46,10 @@ const ArticleFormat = ({Article, url}) => {
                         background: 'whitesmoke'
                     }}>
                     <Row style={{padding: '0 25px 15px 25px'}}>
-                        <Col lg={8} md={12} style={{padding: '10px'}}>
+                        <Col lg={8} md={12} className={styles.pad}>
                             {Article.map(sections => (
                                     <Card key={sections.id}
-                                          style={{borderStyle: 'none', background: 'none', padding: '1% 8%'}}>
+                                          style={{borderStyle: 'none', background: 'none', padding: '0 8%'}}>
                                         <Image style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
                                                alt={sections.description}
                                                src={sections.img}
@@ -58,7 +57,7 @@ const ArticleFormat = ({Article, url}) => {
                                                placeholder={'blur'}
                                         />
                                         <Card.Body style={{paddingBottom: 0}}>
-                                            <Card.Title style={{padding: '5px 0'}}><h2>{sections.title}</h2></Card.Title>
+                                            <Card.Title className={styles.pad}><h2>{sections.title}</h2></Card.Title>
                                             <Container className={styles.webmark} style={{padding: '0px'}}>
                                                 <ReactMarkdown>{sections.text}</ReactMarkdown>
                                             </Container>
@@ -68,11 +67,11 @@ const ArticleFormat = ({Article, url}) => {
                             )
                             }
                         </Col>
-                        <Col lg={4} md={12} style={{paddingTop: '15px'}}>
-                            <div style={{padding: '10px'}}>
+                        <Col lg={4} md={12} className={styles.pad}>
+                            <div className={styles.pad}>
                                 <Email/>
                             </div>
-                            <div style={{padding: '10px'}}>
+                            <div className={styles.pad}>
                                 {adsense()}
                             </div>
                             <div style={{

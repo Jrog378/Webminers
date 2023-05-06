@@ -65,19 +65,19 @@ export default function Efficiency() {
                                             <Col md={12} lg={4}>
                                                 <Nav variant="pills" className="flex-column">
                                                     <Nav.Item>
-                                                        <Nav.Link className={'navgreen'}
+                                                        <Nav.Link className={styles.navgreen}
                                                                   eventKey="Ethereum">Ethereum</Nav.Link>
                                                     </Nav.Item>
                                                     <Nav.Item>
-                                                        <Nav.Link className={'navgreen'}
+                                                        <Nav.Link className={styles.navgreen}
                                                                   eventKey="Bitcoin">Bitcoin</Nav.Link>
                                                     </Nav.Item>
                                                     <Nav.Item>
-                                                        <Nav.Link className={'navgreen'}
+                                                        <Nav.Link className={styles.navgreen}
                                                                   eventKey="Solana">Solana</Nav.Link>
                                                     </Nav.Item>
                                                     <Nav.Item>
-                                                        <Nav.Link className={'navgreen'}
+                                                        <Nav.Link className={styles.navgreen}
                                                                   eventKey="Litecoin">Litecoin</Nav.Link>
                                                     </Nav.Item>
                                                 </Nav>
@@ -285,31 +285,31 @@ export default function Efficiency() {
                                                 <Col md={12} lg={4}>
                                                     <Nav variant="pills" className="flex-column">
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Matic">Matic</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Vet">VeChain</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Cosmos">Atom(Cosmos)</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Doge">Doge</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Tron">Tron</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Eos">Eos</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Link">Link</Nav.Link>
                                                         </Nav.Item>
                                                     </Nav>
@@ -641,31 +641,31 @@ export default function Efficiency() {
                                                 <Col md={12} lg={4}>
                                                     <Nav variant="pills" className="flex-column">
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Matic">Matic</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Vet">VeChain</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Cosmos">Atom(Cosmos)</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Doge">Doge</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Tron">Tron</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Eos">Eos</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
-                                                            <Nav.Link className={'navgreen'}
+                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Link">Link</Nav.Link>
                                                         </Nav.Item>
                                                     </Nav>

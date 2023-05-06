@@ -38,8 +38,7 @@ export default function AuthPricing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
-            <Container className={styles.full}
-                       style={{padding: '25px', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
+            <Container className={styles.full}>
                 <Container>
                     <h1 style={{textAlign: 'center', padding: '50px'}}>
                         Setup the plan to fuel your data-driven investing
