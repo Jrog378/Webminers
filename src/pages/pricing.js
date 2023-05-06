@@ -18,7 +18,7 @@ export default function Pricing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
             </Head>
-            <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
+            <div className={styles.full}>
                 <Container style={{padding: '25px'}}>
                     <h1 style={{textAlign: 'center', padding: '50px'}}>
                         Setup the plan to fuel your data-driven investing
@@ -28,22 +28,22 @@ export default function Pricing() {
                             <Col md={12} lg={4}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="first">Free Plan</Nav.Link>
+                                        <Nav.Link className={styles.navgreen} eventKey="first">Free Plan</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="second">Essential Investing Plan
+                                        <Nav.Link className={styles.navgreen} eventKey="second">Essential Investing Plan
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="third">Balanced Investing Plan
+                                        <Nav.Link className={styles.navgreen} eventKey="third">Balanced Investing Plan
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} eventKey="fourth">Strategist Investing Plan
+                                        <Nav.Link className={styles.navgreen} eventKey="fourth">Strategist Investing Plan
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={'navgreen'} href={'/auth-pricing'}>
+                                        <Nav.Link className={styles.navgreen} href={'/auth-pricing'}>
                                             Get one of our plans with a 7 day trial now
                                         </Nav.Link>
                                     </Nav.Item>

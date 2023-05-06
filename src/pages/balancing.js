@@ -57,8 +57,8 @@ export default function Balancing() {
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
                     <Row>
-                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
-                            <Container style={{padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} className={styles.pad}>
+                            <Container className={styles.pad}>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
                                         <Card.Body style={{margin: 'auto'}}>
@@ -90,17 +90,17 @@ export default function Balancing() {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={5} lg={6} md={12} style={{padding: '10px'}}>
-                            <Container style={{padding: '10px'}}>
-                                <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                        <Col xxl={5} lg={6} md={12} className={styles.pad}>
+                            <Container className={styles.pad}>
+                                <Card >
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
                                         <Col>
-                                            <Container style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                            <Container className={styles.card1}>
                                                 <Row lg={12} style={{paddingBottom: '5px'}}>
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Basic">
+                                                                <Nav.Link className={styles.navgreen} eventKey="Basic">
                                                                     Basic Asset Balancing</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
@@ -108,7 +108,7 @@ export default function Balancing() {
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'} eventKey="Alt">
+                                                                <Nav.Link className={styles.navgreen} eventKey="Alt">
                                                                     Premium Asset Balancing</Nav.Link>
                                                             </Nav.Item>
                                                         </Nav>
@@ -116,7 +116,7 @@ export default function Balancing() {
                                                     <Col md={12}>
                                                         <Nav variant="pills" className="flex-column">
                                                             <Nav.Item>
-                                                                <Nav.Link className={'navgreen'}
+                                                                <Nav.Link className={styles.navgreen}
                                                                           eventKey="Experimental">
                                                                     Experimental Asset Balancing</Nav.Link>
                                                             </Nav.Item>
@@ -127,7 +127,7 @@ export default function Balancing() {
                                             <Row lg={12}>
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
-                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Card className={styles.card1}>
                                                             <Image style={{height: '100%', width: '100%'}}
                                                                    src={AssetBalancing}
                                                                    alt={'AssetBalancing'}
@@ -136,7 +136,7 @@ export default function Balancing() {
                                                         </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Alt'>
-                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Card className={styles.card1}>
                                                             {loading
                                                                 ? <Card.Title>Loading...</Card.Title>
                                                                 : user
@@ -185,7 +185,7 @@ export default function Balancing() {
                                                         </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Experimental'>
-                                                        <Card style={{height: 'auto', width: 'auto', padding: '10px'}}>
+                                                        <Card className={styles.card1}>
                                                             {loading
                                                                 ?
                                                                 <Card.Title>Loading...</Card.Title>
@@ -242,18 +242,18 @@ export default function Balancing() {
                                 </Card>
                             </Container>
                         </Col>
-                        <Col xxl={2} lg={12} style={{padding: '10px'}}>
+                        <Col xxl={2} lg={12} className={styles.pad}>
                             <div>
                                 <h3 style={{textAlign: 'center'}}>Short-Term Capital Gains Tax Calculator</h3>
                                 <p><strong>Not Tax Advice.</strong> Finding predicted tax based on 15% tax rate.</p>
                                 <Col>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="starting-amount">Starting Amount</label>
+                                        <label htmlFor="starting-amount">Starting Amount</label>
                                         <input className={styles.inputs} type="number" id="starting-amount" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="ending-amount">Ending Amount</label>
+                                        <label htmlFor="ending-amount">Ending Amount</label>
                                         <input className={styles.inputs} type="number" id="ending-amount" min="0"
                                                required/>
                                     </Row>
@@ -261,12 +261,11 @@ export default function Balancing() {
                                         <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="tax-result">Predicted Tax</label>
+                                        <label htmlFor="tax-result">Predicted Tax</label>
                                         <input className={styles.inputs} type="text" id="tax-result" disabled/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="profit-result">Predicted Profit
-                                            After</label>
+                                        <label htmlFor="profit-result">Predicted Profit</label>
                                         <input className={styles.inputs} type="text" id="profit-result" disabled/>
                                     </Row>
                                 </Col>

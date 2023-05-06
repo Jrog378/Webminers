@@ -376,6 +376,12 @@
     background-color: rgb(0, 175, 75) !important;
 }
 
+.navgreen {
+    color: rgb(0, 125, 75) !important;
+    font-size: larger;
+    text-align: center;
+}
+
 .webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, .webmark > ol > li > a:visited, .webmark > ol > li > a:link, .webmark > ol > li > a:active, a:visited.weblink, a:active.weblink, a:link.weblink {
     color: rgb(0, 175, 75);
     text-decoration: none;
@@ -396,7 +402,7 @@ a:visited.webnav, a:active.webnav, a:link.webnav {
 }
 
 a:hover.webnav {
-    color: rgba(150,200,150,1) !important;
+    color: rgba(150, 200, 150, 1) !important;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -483,4 +489,31 @@ main:has(> .full) {
     -webkit-box-shadow: 0 0 1000px rgba(0, 0, 0, 1);
     box-shadow: 0 0 1000px rgba(0, 0, 0, 1);
     overflow: auto;
+}
+
+.full {
+    padding: 25px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.card1 {
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.margins {
+    margin: 15px;
+}
+
+.sales > .cardhover {
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(213, 233, 223);
 }

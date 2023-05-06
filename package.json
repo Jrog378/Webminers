@@ -40,8 +40,13 @@
     "react-firebase-hooks": "^5.1.1",
     "react-markdown": "^8.0.5",
     "react-toastify": "^9.1.1",
+    "rehype-parse": "^8.0.4",
+    "rehype-react": "^7.2.0",
+    "remark": "^14.0.2",
+    "remark-react": "^9.0.1",
     "sharp": "^0.31.3",
-    "stripe": "^11.10.0"
+    "stripe": "^11.10.0",
+    "unified": "^10.1.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
