@@ -106,7 +106,7 @@ function EmailALert() {
                     width: '100%',
                     top: '0',
                     height: '100%',
-                    backgroundColor: 'rgba(0,0,0,0.5)'
+                    backgroundColor: 'rgba(0,0,0,0.25)'
                 }}
                        show={open} onClose={closeModal}>
                 </Toast>
