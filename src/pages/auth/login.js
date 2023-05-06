@@ -6,7 +6,6 @@ import Router from 'next/router'
 import {Button, Col, Container, Row} from "react-bootstrap";
 import Link from "next/link";
 import styles from '../../styles/Home.module.css'
-import logo from '@/images/WebminersLogo.webp'
 import Head from "next/head";
 
 function Login() {
@@ -25,7 +24,7 @@ function Login() {
             <Head>
                 <title>Webminers Investing - Login</title>
                 <meta property='og:title' content='Webminers Investing - Login'/>
-                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
+                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
             </Head>
             {!user && !loading
                 ? <Container className={styles.inputcon}>

@@ -37,7 +37,7 @@ function EmailList() {
             <Head>
                 <title>Webminers Investing - Email List</title>
                 <meta property='og:title' content='Webminers Investing - Email List'/>
-                <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
+                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
                 <meta name='description'
                       content='Webminers Investing provides scientifically backed research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency.'

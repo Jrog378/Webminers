@@ -23,8 +23,31 @@ const logInWithEmailAndPassword = async (email, password) => {
     try {
         await signInWithEmailAndPassword(auth, email, password);
     } catch (err) {
-        console.error(err);
-        alert(err.message);
+        switch (err.code) {
+            case 'auth/invalid-email':
+                console.error(err.code);
+                alert('Invalid Email. Please try again');
+                break
+            case 'auth/user-not-found':
+                    console.error(err.code);
+                    alert('User Not Found. Please try again');
+                    break
+            case 'auth/wrong-password':
+                console.error(err.code);
+                alert('Invalid Password. Please try again');
+                break
+            case 'auth/missing-email':
+                    console.error(err.code);
+                    alert('Please Enter Email');
+                    break
+                case 'auth/missing-password':
+                    console.error(err.code);
+                    alert('Please Enter Password');
+                    break
+            default:
+                console.error(err.code);
+                alert('Error. Please Try Again');
+        }
     }
 };
 
@@ -33,25 +56,44 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 const registerWithEmailAndPassword = async (name, email, password) => {
-    try {
-        const res = await createUserWithEmailAndPassword(auth, email, password);
-        const user = res.user;
+        try {
+            const res = await createUserWithEmailAndPassword(auth, email, password);
+            const user = res.user;
 
-        await setDoc(doc(db, "users", user.uid), {
-            uid: user.uid,
-            name,
-            authProvider: "local",
-            email,
-            plan: 'none',
-        });
+            await setDoc(doc(db, "users", user.uid), {
+                uid: user.uid,
+                name,
+                authProvider: "local",
+                email,
+                plan: 'none',
+            });
 
 
-    } catch
-        (err) {
-        console.error(err);
-        alert(err.message);
+        } catch (err) {
+            switch (err.code) {
+                case 'auth/invalid-email':
+                    console.error(err.code);
+                    alert('Invalid Email. Please try again');
+                    break
+                case 'auth/email-already-in-use':
+                    console.error(err.code);
+                    alert('Email Already In Use. Please try again');
+                    break
+                case 'auth/missing-email':
+                    console.error(err.code);
+                    alert('Please Enter Email');
+                    break
+                case 'auth/missing-password':
+                    console.error(err.code);
+                    alert('Please Enter Password');
+                    break
+                default:
+                    console.error(err.code);
+                    alert('Error. Please Try Again');
+            }
+        }
     }
-};
+;
 
 const sendPasswordReset = async (email) => {
     try {
@@ -64,7 +106,9 @@ const sendPasswordReset = async (email) => {
 };
 
 const logout = () => {
-    signOut(auth).then(() => Router.push('/'))
+    signOut(auth).then(() => Router.push('/')).catch((error) => {
+        console.log(error)
+    })
 };
 
 export {
