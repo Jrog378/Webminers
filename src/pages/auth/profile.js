@@ -39,7 +39,7 @@ export default function Profile() {
                 <Head>
                     <title>Webminers Investing - Profile</title>
                     <meta property='og:title' content='Webminers Investing - Profile'/>
-                    <meta property='og:image' content={'webminers.dev/webminerslogo.webp'}/>
+                    <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
                 </Head>
                 <Container style={{wordWrap: 'break-word', padding: '30px'}}>
                     {user && !loading
