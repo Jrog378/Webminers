@@ -383,7 +383,7 @@
 }
 
 .webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, .webmark > ol > li > a:visited, .webmark > ol > li > a:link, .webmark > ol > li > a:active, a:visited.weblink, a:active.weblink, a:link.weblink {
-    color: rgb(0, 175, 75);
+    color: rgb(0, 125, 75);
     text-decoration: none;
     font-weight: bolder;
     font-size: inherit;
