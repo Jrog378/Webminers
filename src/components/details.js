@@ -1,10 +1,22 @@
 const details = [
     {
+        id: 21,
+        title: 'Financial AI - How AI and Data Science Will Take Finance by Storm for Investors',
+        date: 'May 8th 2023',
+        text: 'Financial AI is on the move and we will be going over how AI will be impacting Automation, ' +
+            'Sentiment, Market Correlation, and Robo Advising in the Financial World of Investing.',
+        url: '/articles/financial-ai-and-data-science',
+        img: 'AIFinanceMain.webp',
+        alt: 'A black head cutout with eighteen googly eyes fully covering it with the letters A I resting ' +
+            'over top all on a white surface.',
+        header: 'AIFinance.webp'
+    },
+    {
         id: 20,
         title: 'What is Decentralization - What Does Decentralized Mean for Crypto Investors',
         date: 'May 1st 2023',
         text: 'There are many aspects of decentralization that are constantly developing, much of which is related ' +
-            'to the blockchain. As crypto investors we will look into more about this technology.\n',
+            'to the blockchain. As crypto investors we will look into more about this technology.',
         url: '/articles/decentralization-for-crypto',
         img: 'DecenterMain.webp',
         alt: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
