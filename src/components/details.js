@@ -1,8 +1,20 @@
 const details = [
     {
+        id: 22,
+        title: 'AI Investing - How to Become an AI Quant',
+        date: 'May 8th 2023',
+        text: 'AI Quants are the new age of top level investors and to become one, it takes building ' +
+            'an investing system with AI, then perfecting it with coding, data, and market skills.',
+        url: '/articles/ai-quant-investing',
+        img: 'AIQuantMain.webp',
+        alt: 'Apple iPad with an investing app open that is showing the value of Bitcoin with a red ' +
+                'line chart sitting on a wooden table.',
+        header: 'AIQuant.webp'
+    },
+    {
         id: 21,
         title: 'Financial AI - How AI and Data Science Will Take Finance by Storm for Investors',
-        date: 'May 8th 2023',
+        date: 'May 7th 2023',
         text: 'Financial AI is on the move and we will be going over how AI will be impacting Automation, ' +
             'Sentiment, Market Correlation, and Robo Advising in the Financial World of Investing.',
         url: '/articles/financial-ai-and-data-science',
@@ -108,7 +120,7 @@ const details = [
     },
     {
         id: 12,
-        title: 'The Best Ways to Improve your Mental State for Smarter Crypto Investing',
+        title: 'The Best Ways to Improve Your Mental State for Smarter Crypto Investing',
         date: 'Mar 13th 2023',
         text: 'The best ways to improve your mental state for smarter investing by improving your diet, physical ' +
             'health, mentality, and goals.',
@@ -132,7 +144,7 @@ const details = [
     },
     {
         id: 10,
-        title: 'Avoid the copy and paste psyche & break applicant uniformity',
+        title: 'Avoid the Copy and Paste Psyche & Break Applicant Uniformity',
         date: 'Oct 26th 2022',
         text: 'The world of developers and programmers is a plentiful place. However, you want to show how ' +
             'different you are and stand out with what you have.',
@@ -180,7 +192,7 @@ const details = [
     },
     {
         id: 6,
-        title: '6 Growing Jobs To Take Advantage of Our Technical Future',
+        title: '6 Growing Jobs To Take Advantage of our Technical Future',
         date: 'Sep 14th 2022',
         text: 'As Jobs began to be automated and replaced by technology, here are the few that have a ' +
             'prosperous future for anyone to take advantage.',
@@ -191,7 +203,7 @@ const details = [
     },
     {
         id: 5,
-        title: 'Satellites - The Space Spies That Watch Over The World',
+        title: 'Satellites - The Space Spies That Watch Over the World',
         date: 'Sep 11th 2022',
         text: 'Explaining the good and bad of constant satellite recording with where we draw the line between ' +
             'spying on people and privacy.',
@@ -203,7 +215,7 @@ const details = [
     },
     {
         id: 4,
-        title: 'Python Has Been Taking Over The Data Science World',
+        title: 'Python has Been Taking Over the Data Science World',
         date: 'Sep 7th 2022',
         text: 'Python has been hitting the world by storm, becoming the most popular programming language, ' +
             'especially in Data Science. Let\'s see why.',
@@ -227,7 +239,7 @@ const details = [
     },
     {
         id: 2,
-        title: 'Ethical Hackers Are Needed More Than Ever In Our Future',
+        title: 'Ethical Hackers are Needed More Than Ever in Our Future',
         date: 'Sep 5th 2022',
         text: 'As hackers are getting better and better, what can truly be done to stop them to keep you and ' +
             'your family digitally safe.',
