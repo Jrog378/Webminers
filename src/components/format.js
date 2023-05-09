@@ -55,6 +55,7 @@ const ArticleFormat = ({Article, url}) => {
                                                src={sections.img}
                                                id={sections.id}
                                                placeholder={'blur'}
+                                               lazy
                                         />
                                         <Card.Body style={{paddingBottom: 0}}>
                                             <Card.Title className={styles.pad}><h2>{sections.title}</h2></Card.Title>
