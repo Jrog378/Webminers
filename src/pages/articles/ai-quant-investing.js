@@ -64,7 +64,7 @@ export default function BestEfficientCrypto() {
             title: 'Build an Investing System',
             id: 'InvestingSystem',
             description: 'A smartphone in someone’s hand with a black screen that has an investing portfolio ' +
-                'balance of $38,000 and a green line chart.\n',
+                'balance of $38,000 and a green line chart.',
             text: 'Building your investing system will come in many phases and it is important to start ' +
                 'small. It will never be perfect and never be absolute. Certain parts will stop working ' +
                 'and others will shine more than you have originally expected. Being able to adapt to your ' +
