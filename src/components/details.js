@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 23,
+        title: 'Downsides of AI - What Crypto Investors Have to Look Out For',
+        date: 'May 9th 2023',
+        text: 'AI, as of right now, is an amazing tool for crypto investors to keep in their back pocket, however, ' +
+            'As AI begins to get more popular in Investing, there are many downsides too.',
+        url: '/articles/downsides-of-ai',
+        img: 'DownsideAIMain.webp',
+        alt: 'A blue realistic animated brain that has lines of wires as if it was a part of a ' +
+                'computer representing artificial intelligence.',
+        header: 'DownsideAI.webp'
+    },
+    {
         id: 22,
         title: 'AI Investing - How to Become an AI Quant',
         date: 'May 8th 2023',
