@@ -2,7 +2,7 @@ const details = [
     {
         id: 23,
         title: 'Downsides of AI - What Crypto Investors Have to Look Out For',
-        date: 'May 9th 2023',
+        date: 'May 10th 2023',
         text: 'AI, as of right now, is an amazing tool for crypto investors to keep in their back pocket, however, ' +
             'As AI begins to get more popular in Investing, there are many downsides too.',
         url: '/articles/downsides-of-ai',
@@ -14,7 +14,7 @@ const details = [
     {
         id: 22,
         title: 'AI Investing - How to Become an AI Quant',
-        date: 'May 8th 2023',
+        date: 'May 9th 2023',
         text: 'AI Quants are the new age of top level investors and to become one, it takes building ' +
             'an investing system with AI, then perfecting it with coding, data, and market skills.',
         url: '/articles/ai-quant-investing',

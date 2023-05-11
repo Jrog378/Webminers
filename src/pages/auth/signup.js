@@ -5,7 +5,6 @@ import Router from 'next/router'
 import {auth, logInWithEmailAndPassword, registerWithEmailAndPassword,} from "@/config";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 function Register() {
@@ -64,6 +63,9 @@ function Register() {
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="Password"
                             />
+                        </Row>
+                        <Row style={{color: 'whitesmoke', textAlign:'center'}}>
+                            <p>By Registering you agree to our <Link className={styles.weblink} href={'/terms-of-service'}>Terms of Service</Link></p>
                         </Row>
                         <Row style={{margin: '15px'}}>
                             <Button variant={'success'} onClick={register}>
