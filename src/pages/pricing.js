@@ -298,7 +298,7 @@ export default function Pricing() {
                                     <Card.Title style={{fontSize: 'xxx-large', textAlign: 'center'}}>Not Ready For a Paid
                                         Plan?</Card.Title>
                                     <Card.Text style={{fontSize: 'xx-large', textAlign:'center'}}>
-                                        Start today with a
+                                        Start today
                                         completely <strong>free</strong> with our basic features and email updates - <Link className={styles.weblink}
                                               href={'/auth/signup'}>Signup Now</Link>
                                     </Card.Text>

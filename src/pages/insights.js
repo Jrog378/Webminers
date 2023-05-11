@@ -6,12 +6,10 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
 import {doc, getDoc} from "firebase/firestore";
 import Image from "next/image";
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 import EconomicInsightsPlot from '@/images/plots/EconomicInsightsPlot.webp'
 import AssetInsightsPlot from '@/images/plots/AssetInsightsPlot.webp'
 import InsightsPlot from '@/images/plots/InsightsPlot.webp'
-import Email from "@/components/email";
 
 
 export default function AuthSeasons(props) {

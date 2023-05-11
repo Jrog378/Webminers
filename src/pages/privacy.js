@@ -19,15 +19,13 @@ export default function Privacy() {
                 <Container style={{padding: '25px'}}>
                     <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
-                            <Card.Title style={{fontSize:'xx-large'}}>Privacy Policy</Card.Title>
+                            <Card.Title style={{fontSize: 'xx-large'}}>Privacy Policy</Card.Title>
                             <Card.Text>
                                 We are committed to protecting your privacy. This Privacy Policy explains how we
                                 collect, use, and share your personal information when you visit or make a purchase from
                                 our website.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>What personal information do we collect?</Card.Title>
                             <Card.Text>
@@ -39,8 +37,6 @@ export default function Privacy() {
                                 information about cookies, please see the &apos;Cookies&apos; section below.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>How do we use your personal information?</Card.Title>
                             <Card.Text>
@@ -54,8 +50,6 @@ export default function Privacy() {
                                 </ul>
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>How do we share your personal information?</Card.Title>
                             <Card.Text>
@@ -70,8 +64,6 @@ export default function Privacy() {
 
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>How do we protect your personal information?</Card.Title>
                             <Card.Text>
@@ -79,8 +71,6 @@ export default function Privacy() {
                                 software and encryption.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>How long do we keep your personal information?</Card.Title>
                             <Card.Text>
@@ -89,8 +79,6 @@ export default function Privacy() {
                                 disputes, and enforce our agreements.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>Your rights</Card.Title>
                             <Card.Text>
@@ -100,8 +88,6 @@ export default function Privacy() {
                                 To exercise these rights, please contact us at [email protected]
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>Cookies</Card.Title>
                             <Card.Text>
@@ -111,8 +97,6 @@ export default function Privacy() {
                                 may not be able to use all of the features of our website.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>Changes to this Privacy Policy</Card.Title>
                             <Card.Text>
@@ -120,8 +104,6 @@ export default function Privacy() {
                                 we will notify you by email or through a prominent notice on our website.
                             </Card.Text>
                         </Card.Body>
-                    </Card>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title>Contact us</Card.Title>
                             <Card.Text>

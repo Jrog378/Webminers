@@ -145,7 +145,12 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/ai-quant-investing</loc>
-        <lastmod>2023-05-08</lastmod>
+        <lastmod>2023-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/downsides-of-ai</loc>
+        <lastmod>2023-05-10</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
