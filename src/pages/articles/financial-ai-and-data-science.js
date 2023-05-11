@@ -8,7 +8,7 @@ import React from "react";
 import ArticleFormat from "@/components/format";
 import {useRouter} from "next/router";
 
-export default function DecentralizationForCrypto() {
+export default function FinancialAiAndDataScience() {
     const Article = [
         {
             img: AIFinanceMain,
