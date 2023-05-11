@@ -8,7 +8,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
 
-export default function BestEfficientCrypto() {
+export default function DownsidesOfAi() {
     const Article = [
         {
             img: DownsideAIMain,
