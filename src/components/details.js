@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 25,
+        title: 'AI Jobs - How AI Can Improve Your Work Productivity Rather Than Replace You',
+        date: 'May 12th 2023',
+        text: 'In terms of Investing, Creative Work, Programming, and Customer Support, instead of trying ' +
+            'to outrun AI, workers can incorporate it to improve their productivity and value even more.',
+        url: '/articles/ai-jobs-productivity',
+        img: 'JobsAIMain.webp',
+        alt: 'A head that is made up of technology as a image of artificial intelligence that is ' +
+                'blue one one side and orange on the other.',
+        header: 'JobsAI.webp'
+    },
+    {
         id: 24,
         title: 'Is Cryptocurrency Safe? - How to Keep Your Money and Devices Secure While Investing',
         date: 'May 11th 2023',
@@ -37,7 +49,7 @@ const details = [
     },
     {
         id: 21,
-        title: 'Financial AI - How AI and Data Science Will Take Finance by Storm for Investors',
+        title: 'Financial AI - How AI and Data Science Will Take Finance and Investing by Storm',
         date: 'May 7th 2023',
         text: 'Financial AI is on the move and we will be going over how AI will be impacting Automation, ' +
             'Sentiment, Market Correlation, and Robo Advising in the Financial World of Investing.',
