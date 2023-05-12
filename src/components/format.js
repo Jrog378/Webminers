@@ -78,11 +78,11 @@ const ArticleFormat = ({Article, url}) => {
                                             <Email/>
                                         </div>
                                     </Row>
-                                    {/*<Row>*/}
-                                    {/*    <div className={styles.pad}>*/}
-                                    {/*        {adsense()}*/}
-                                    {/*    </div>*/}
-                                    {/*</Row>*/}
+                                    <Row>
+                                        <div className={styles.pad}>
+                                            {adsense()}
+                                        </div>
+                                    </Row>
                                 </Col>
                                 <Col sm={12} md={6} lg={12}>
                                     <div className={styles.pad}>
