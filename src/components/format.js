@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
 import React from "react";
@@ -9,7 +9,6 @@ import {adsense} from "@/components/article-ad";
 import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
-import BalancingPlot from '@/images/plots/BalancingPlot.webp'
 import Link from "next/link";
 
 const ArticleFormat = ({Article, url}) => {
@@ -79,11 +78,11 @@ const ArticleFormat = ({Article, url}) => {
                                             <Email/>
                                         </div>
                                     </Row>
-                                    <Row>
-                                        <div className={styles.pad}>
-                                            {adsense()}
-                                        </div>
-                                    </Row>
+                                    {/*<Row>*/}
+                                    {/*    <div className={styles.pad}>*/}
+                                    {/*        {adsense()}*/}
+                                    {/*    </div>*/}
+                                    {/*</Row>*/}
                                 </Col>
                                 <Col sm={12} md={6} lg={12}>
                                     <div className={styles.pad}>
