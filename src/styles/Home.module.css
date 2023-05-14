@@ -529,5 +529,6 @@ main:has(> .full) {
     border-width: 2px !important;
 }
 .buttons:hover {
-    background-color: rgb(0, 125, 75);
+    background-color: rgb(0, 125, 75) !important;
+    border-color: rgb(0, 125, 75);
 }
