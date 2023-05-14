@@ -50,7 +50,7 @@ export default function Efficiency() {
                       content="Webminers Investing provides scientifically backed research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>

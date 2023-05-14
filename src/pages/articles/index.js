@@ -80,7 +80,7 @@ export default function Articles() {
                     <meta name="description"
                           content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                    <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                    <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 </Head>
                 <Cards/>
 

@@ -26,7 +26,7 @@ function Register() {
             <Head>
                 <title>Webminers Investing - Signup</title>
                 <meta property='og:title' content='Webminers Investing - Signup'/>
-                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
             {!user && !loading
                 ?

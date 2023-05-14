@@ -24,7 +24,7 @@ function Login() {
             <Head>
                 <title>Webminers Investing - Login</title>
                 <meta property='og:title' content='Webminers Investing - Login'/>
-                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
             {!user && !loading
                 ? <Container className={styles.inputcon}>

@@ -116,7 +116,7 @@ export default function Home() {
                       content="Webminers Investing provides data mining supported research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
             <div style={{margin: '0', width: '100%'}}>
                 <div className={styles.sales}>
