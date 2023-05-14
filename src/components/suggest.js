@@ -51,7 +51,7 @@ const Suggest = ({Detail}) => {
                                 <Button href={Details[num].url}
                                         className={styles.buttons}
                                         variant="outline-success"
-                                        size='sm'>Read More...</Button>
+                                        size='md'>Read More...</Button>
                             </Col>
                         </Row>
                     </Card.Body>
