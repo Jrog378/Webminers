@@ -9,7 +9,7 @@ export default function NewServices() {
     const Article = [
         {
             title: '',
-            id: '',
+            id: 'Intro',
             img: NewServicesMain,
             description: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
                 'sitting on a wooden desk that has a plant on it.',

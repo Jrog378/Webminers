@@ -13,7 +13,7 @@ export default function TimelessInvesting() {
         {
             img: TimelessMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Pink piggy bank that has a coin in it\'s slot on a white table surrounded in ten bronze coins',
             text: 'Trends are all around us, especially those who are the ones trying to create new trends. Trends also must last. How long trends last is arguably as important as creating one. Something trendy for a day is undesirable for those who want to make money. That is why timeless trends are the golden prize.\n' +
                 '\n' +
@@ -121,7 +121,7 @@ export default function TimelessInvesting() {
         {
             img: Timeless5,
             title: 'Summary',
-            id: '',
+            id: 'Summary',
             description: 'A large Stock Exchange TV with a lot of green numbers in the middle of it with red numbers surrounding them',
             text: 'We have outlined what makes investing timeless. It\'s your turn to act on this knowledge. ' +
                 'Securing your money in an investment opportunity will shield it from inflation, no matter ' +

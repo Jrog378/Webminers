@@ -12,6 +12,8 @@ export default function AiJobsProductivity() {
     const Article = [
         {
             img: JobsAIMain,
+            title: '',
+            id: 'Intro',
             description: 'A head that is made up of technology as a image of artificial intelligence that is ' +
                 'blue one one side and orange on the other.',
             text: 'When new technology comes around people are always worried about their jobs ' +
@@ -154,6 +156,7 @@ export default function AiJobsProductivity() {
         {
             img: JobsAI5,
             title: 'Ending Notes',
+            id: 'EndingNotes',
             description: 'Black board with a bunch of lightbulbs and a plus sign then a bunch of gears that ' +
                 'equal a bar chart that is flowing upwards.',
             text: 'The thought of AI being just as capable as a human worker can be scary though. The way to ' +

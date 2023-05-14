@@ -12,7 +12,7 @@ export default function MentalImprove() {
     const Article = [
         {
             title: '',
-            id: '',
+            id: 'Intro',
             img: MentalMain,
             description: 'A man with a blue shirt writing using a black pen in an old book that has a leather book cover on a desk.',
             text: 'Keeping a clear mind can be beneficial in any area of your life, whether in high-stress ' +
@@ -108,7 +108,7 @@ export default function MentalImprove() {
         },
         {
             title: 'Conclusion',
-            id: '',
+            id: 'Conclusion',
             img: Mental5,
             description: 'A candle chart of the stock market going up with lots of green bars and few red bars with a black background.',
             text: 'Investing in crypto is not just a few lines on a chart where you buy low and sell high. It is much more ' +

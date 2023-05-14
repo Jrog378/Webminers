@@ -13,7 +13,7 @@ export default function AiQuantInvesting() {
         {
             img: AIQuantMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Apple iPad with an investing app open that is showing the value of Bitcoin with a red ' +
                 'line chart sitting on a wooden table.',
             text: 'AI is a powerful thinking machine that is getting closer to being able to make ' +
@@ -145,7 +145,7 @@ export default function AiQuantInvesting() {
         {
             img: AIQuant5,
             title: 'Final Comments',
-            id: '',
+            id: 'FinalComments',
             description: 'A white and black robot holding two money bags at the bottom of a bar graph with a ' +
                 'line going across the tops going upward.',
             text: 'AI-Powered Investing can hold amazing riches and incredible risk. When making your AI ' +

@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 26,
+        title: 'What to do in a Bear Market - Work to do During Slow Crypto Markets',
+        date: 'May 13th 2023',
+        text: 'Bearish Markets are a great time for robust crypto investing practices, investing your time into a ' +
+            'business, and spending your well-earned money on enjoyment until bullish again.',
+        url: '/articles/what-to-do-in-bear-markets',
+        img: 'BearMarketMain.webp',
+        alt: 'Stacks of coins increasing as they go to the right with little plants on the top of them all next ' +
+            'to a jar filled with coins.',
+        header: 'BearMarket.webp',
+    },
+    {
         id: 25,
         title: 'AI Jobs - How AI Can Improve Your Work Productivity Rather Than Replace You',
         date: 'May 12th 2023',

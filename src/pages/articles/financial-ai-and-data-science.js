@@ -13,7 +13,7 @@ export default function FinancialAiAndDataScience() {
         {
             img: AIFinanceMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'A black head cutout with eighteen googly eyes fully covering it with the letters A I resting ' +
             'over top all on a white surface.',
             text: 'AI is a powerful data machine marching through almost everything recently with ChatGPT, ' +
@@ -141,7 +141,7 @@ export default function FinancialAiAndDataScience() {
         {
             img: AIFinance5,
             title: 'Final Thoughts',
-            id: '',
+            id: 'FinalThoughts',
             description: 'An AI robot arm that is playing chess on a wooden chess board on the brown side ' +
                 'inside a dark room all on a white tabletop.\n',
             text: 'AI-powered financial services are great and its development so far has been nothing shy of ' +

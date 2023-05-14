@@ -13,7 +13,7 @@ export default function BestEfficientCrypto() {
         {
             img: BestCryptoMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Three cryptocurrency coins resting on top of a one hundred dollar bill with a piece ' +
                 'of paper on top and a gold watch next to it.',
             text: 'In a world of crypto where efficiency is critical, we must consider the periods of our ' +
@@ -130,7 +130,7 @@ export default function BestEfficientCrypto() {
         {
             img: BestCrypto5,
             title: 'Closing',
-            id: '',
+            id: 'Closing',
             description: 'Litecoin, Ethereum, and Bitcoin are all sitting inside a brown and rusty vice grip that ' +
                 'is in front of a black background.',
             text: 'Keeping up with efficiency is almost as important as knowing how efficient ' +

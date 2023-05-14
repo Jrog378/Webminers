@@ -10,8 +10,9 @@ import ArticleFormat from "@/components/format";
 export default function DataVis() {
     const Article = [
         {
-            title: '',
             img: VisualMain,
+            title: '',
+            id: 'Intro',
             description: 'Bar graph on a purple sheet of paper with an iPhone displaying the calculator app next to a set of pencils and a notebook.',
             text: 'While I was teaching myself the different aspects of data mining, Data Visualization came up. ' +
                 'I did not know this at the time but I would soon realize how Data Visualization can become its own ' +
@@ -103,8 +104,9 @@ export default function DataVis() {
                 'this could cause you to lose an opportunity.'
         },
         {
-            title: 'Start Practicing',
             img: Visual4,
+            title: 'Start Practicing',
+            id: 'StartPracticing',
             description: 'Spreadsheet filled with numbers with a piece of paper with a blue line graph on the far left side of the spreadsheet.',
             text: 'To get started if you haven’t already, I would recommend you explore kaggle.com for a dataset that ' +
                 'you like. Next, use [Tableau Public](https://public.tableau.com/app/discover)(Free Version of Tableau) ' +

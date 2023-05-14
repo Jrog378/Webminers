@@ -10,8 +10,9 @@ import ArticleFormat from "@/components/format";
 export default function NewChanges() {
     const Article = [
         {
-            title: '',
             img: ImproveMain,
+            title: '',
+            id: 'Intro',
             description: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has many thin black bars.',
             text: 'Webminers is a small company that is working with little to no budget. All we have is a Domain on ' +
                 'a yearly subscription and a dream, but we are stretching the abilities of what you can do for free. ' +
@@ -100,6 +101,7 @@ export default function NewChanges() {
         {
             title: 'More to Come',
             img: Improve4,
+            id: 'More',
             description: 'Scrabble pieces of b, l, o, g, to spell out blog with numbers on each resting on a middle-colored wooden desk.',
             text: 'As I learn more and more about the language Javascript, I will continue to apply it in multiple ' +
                 'different ways for this site. Whether it is Data Engineering, or just making a basic calculator. ' +

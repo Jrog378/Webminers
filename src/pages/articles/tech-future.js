@@ -13,7 +13,7 @@ export default function TechFuture() {
     const Article = [
         {
             title: '',
-            id: '',
+            id: 'Intro',
             img: TechieMain,
             description: 'Black glasses sitting in front of 4 computer screens where only through the glasses the image is clear.',
             text: 'Advancements in technology are changing the world, but you can be prepared for these changes' +

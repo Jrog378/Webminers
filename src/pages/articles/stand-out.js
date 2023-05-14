@@ -13,7 +13,7 @@ export default function StandOut() {
     const Article = [
         {
             title: '',
-            id: '',
+            id: 'Intro',
             img: UniqueMain,
             description: 'Calculator application overtop of a white screen with code in blue, purple and orange color ' +
                 'typed on it on a mac laptop.',
@@ -132,7 +132,7 @@ export default function StandOut() {
         },
         {
             title: 'Conclusion',
-            id: '',
+            id: 'Conclusion',
             img: Unique6,
             description: 'A white lit up sign plugged in on a wooden desk that says you can do this next to a mac ' +
                 'laptop and a black notebook.',

@@ -12,6 +12,8 @@ export default function DownsidesOfAi() {
     const Article = [
         {
             img: DownsideAIMain,
+            title: '',
+            id: 'Intro',
             description: 'A blue realistic animated brain that has lines of wires as if it was a part of a ' +
                 'computer representing artificial intelligence.',
             text: 'AI, as of right now, is an amazing tool for crypto investors to keep in their ' +
@@ -129,6 +131,7 @@ export default function DownsidesOfAi() {
         {
             img: DownsideAI5,
             title: 'Final Thoughts',
+            id: 'FinalThoughts',
             description: 'A back background that has a blue outline of a head and a question mark in the ' +
                 'middle of it with blue lines going all over.',
             text: 'AI has amazing applications, as mentioned in my article [Financial AI]' +
