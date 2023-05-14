@@ -1,5 +1,16 @@
 const details = [
     {
+        id: 27,
+        title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
+        date: 'May 14th 2023',
+        text: '',
+        url: '/articles/biggest-crypto-mistakes',
+        img: 'CryptoMistakesMain.webp',
+        alt: 'The cryptocurrency market in all red going up and down along a candle with lines going around it ' +
+            'and arrows pointing downwards.',
+        header: 'CryptoMistakes.webp',
+    },
+    {
         id: 26,
         title: 'What to do in a Bear Market - Work to do During Slow Crypto Markets',
         date: 'May 13th 2023',
