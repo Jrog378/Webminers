@@ -10,6 +10,8 @@ export default function NewWebminers() {
     const Article = [
         {
             img: SiteMain,
+            title: '',
+            id: 'Intro',
             description: 'Four lit up lightbulbs all handing in a line from black wires with one swinging off to the ' +
                 'side like a newton\'s cradle.',
             text: 'Here is the new webminers website!\n' +
@@ -85,6 +87,7 @@ export default function NewWebminers() {
         {
             title: 'More to Come',
             img: Site3,
+            id: 'More',
             description: 'Pen sitting next to a notebook with writing on it in black ink in a dark setting sitting on a ' +
                 'piece of paper on a dark desk.',
             text: 'I know there is a lot coming to webminers but how can readers know if my content is authentic? ' +

@@ -12,7 +12,7 @@ export default function GoodTechWriter() {
     const Article = [
         {
             title: '',
-            id: '',
+            id: 'Intro',
             img: GoodWriterMain,
             description: 'Older dip pen resting on a black tabletop and a black background along with a black shadow covering over them.',
             text: 'Technical Copywriting or Writing has so many opportunities for almost anyone who is willing to ' +
@@ -133,7 +133,7 @@ export default function GoodTechWriter() {
         },
         {
             title: 'Conclusion',
-            id: '',
+            id: 'Conclusion',
             img: GoodWriter6,
             description: 'A pen and paper resting on a laptop on a brown wooden desk with a cup of brown coffee with a creamer design on it next to them.',
             text: 'Technical copywriting for me has been a life-changing journey and I am becoming a better and ' +

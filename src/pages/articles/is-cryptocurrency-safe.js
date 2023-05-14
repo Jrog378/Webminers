@@ -12,6 +12,8 @@ export default function IsCryptocurrencySafe() {
     const Article = [
         {
             img: SafeCryptoMain,
+            title: '',
+            id: 'Intro',
             description: 'Earth from space with the northern lights in the background and a bunch of connected ' +
                 'shining white lines wrapped around earth.',
             text: 'Cryptocurrency can be seen as both an amazing asset and a complete joke depending ' +
@@ -134,6 +136,7 @@ export default function IsCryptocurrencySafe() {
         {
             img: SafeCrypto5,
             title: 'Short Review',
+            id: 'ShortReview',
             description: 'A metal caliper that is holding ten coins of different sizes next to a calculator ' +
                 'on a piece of paper that has numbers on it.',
             text: 'Now that we have gone into the question ‘Is Cryptocurrency Safe?’ you can determine ' +

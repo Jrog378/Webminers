@@ -10,8 +10,9 @@ import ArticleFormat from "@/components/format";
 export default function EthicalHacking() {
     const Article = [
         {
-            title: '',
             img: EthicalMain,
+            title: '',
+            id: 'Intro',
             description: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
             text: 'The terms Cryptocurrency and Web3 have been tossed around lately and with good reason. They are ' +
                 'revolutionary and have a lot of purposes, because of this they are getting a lot of attention from ' +
@@ -105,6 +106,7 @@ export default function EthicalHacking() {
         {
             title: 'Summary',
             img: Ethical4,
+            id: 'Summary',
             description: 'Random characters flowing over the screen from top to bottom in the color green with a black background, the matrix.',
             text: 'In today\'s age of the internet, some white hat hackers were not respected that well by companies, ' +
                 'and some were neglected to the point where companies don’t think they need them. ' +

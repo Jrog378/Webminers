@@ -9,8 +9,9 @@ import ArticleFormat from "@/components/format";
 export default function Introduction() {
     const Article = [
         {
-            title: '',
             img: IntroMain,
+            title: '',
+            id: 'Intro',
             description: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.',
             text: 'Welcome to part 1 of an ongoing series here at Webminers, where I share the journey of ' +
                 'producing our crypto investing website, where we will be writing articles and offering services. Before ' +
@@ -81,6 +82,7 @@ export default function Introduction() {
         {
             title: 'The Foundation',
             img: Intro3,
+            id: 'TheFoundation',
             description: 'Grey Mac Laptop with a black keyboard with a rainbow gradient light shining down on it from above.',
             text: 'I decided to create a system that could compete with the best in the market and bring me the ' +
                 'self-made success I desired so much. I knew it would take a while. So I studied and tested with ' +

@@ -13,7 +13,7 @@ export default function NextBigCrypto() {
         {
             img: BigCryptoMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'A tiny clay man in a blue jacket and brown hair reading a book sitting on a pile of ' +
                 'eleven foreign coins with gold coatings.',
             text: 'The world of investing is very broad and crypto is one of the more volatile categories. ' +
@@ -134,7 +134,7 @@ export default function NextBigCrypto() {
         {
             img: BigCrypto5,
             title: 'Closing',
-            id: '',
+            id: 'Closing',
             description: 'Cryptocurrency candle chart on a screen that is heading downward with three lines above ' +
                 'it colored blue, green, and yellow.\n',
             text: 'Now that we know how to find the next big cryptocurrencies to invest in, it’s time to go out ' +

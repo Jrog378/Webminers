@@ -12,6 +12,8 @@ export default function PythonForFinance() {
     const Article = [
         {
             img: PythonFinMain,
+            title: '',
+            id: 'Intro',
             description: 'Robot hand reaching out with one finger to a geometrically shaped group of white lines ' +
                 'with a black background lit up by light.',
             text: 'The field of finance is very diverse and full of opportunity. Well, what if you want an opportunity with programming? You’re in luck. Finance is a great field for programming and Financial Programmers and Developers will only be more needed as time goes on. Here are some ways that you can get involved with finance using programming knowledge in Python Online.\n' +
@@ -125,6 +127,7 @@ export default function PythonForFinance() {
         {
             img: PythonFin5,
             title: 'Final Thoughts',
+            id: 'FinalThoughts',
             description: 'A bunch of dollar bills all stacked on top of each other with the face side up in a ' +
                 'spiral pattern going counter clockwise.',
             text: 'Financial Programming in Python can be whatever you decide to make of it. Whether this be AI, ' +

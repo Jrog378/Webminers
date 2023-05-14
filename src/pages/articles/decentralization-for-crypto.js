@@ -13,7 +13,7 @@ export default function DecentralizationForCrypto() {
         {
             img: DecenterMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
                 'multiple houseplants sitting behind it.',
             text: 'Decentralization is a large movement right now as privacy concern grows. Decentralization is ' +
@@ -139,7 +139,7 @@ export default function DecentralizationForCrypto() {
         {
             img: Decenter5,
             title: 'Closing',
-            id: '',
+            id: 'Closing',
             description: 'The word blockchain in white letters is resting next to a pen, smart phone, calendar, ' +
                 'pair of glasses, and a silver mac laptop.',
             text: 'If you value your privacy and want to stop big corporations from stealing your information ' +

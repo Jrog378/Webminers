@@ -13,7 +13,7 @@ export default function StartInvesting() {
         {
             img: StartInvestingMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Black iPhone screen displaying the stocks app with 6 different companies resting on a sheet' +
                 ' of paper with a blue chart on it.',
             text: 'Investing is such a broad topic that when looking into it before starting in this field, ' +
@@ -132,7 +132,7 @@ export default function StartInvesting() {
         {
             img: StartInvesting5,
             title: 'Summary',
-            id: '',
+            id: 'Summary',
             description: 'Success go get it with arrows on either side of the text is written on a black board in ' +
                 'chalk with success in a bolder font.',
             text: 'Most investors receive inconsistent gains in their portfolios. Reaching consistency ' +

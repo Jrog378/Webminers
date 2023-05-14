@@ -4,9 +4,6 @@ import {toast} from "react-toastify";
 import {Button, Col, Container, Row, Toast} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
-import logo from "@/images/WebminersLogo.webp";
-import {logInWithEmailAndPassword} from "@/config";
-import Link from "next/link";
 
 function EmailList() {
     const [mail, setMail] = useState(null);

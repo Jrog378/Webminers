@@ -10,8 +10,9 @@ import ArticleFormat from "@/components/format";
 export default function PythonDataScience() {
     const Article = [
         {
-            title: '',
             img: PythonDataMain,
+            title: '',
+            id: 'Intro',
             description: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored code filling the page.',
             text: 'Python has been seen many times as one of the most popular programming languages in today’s world ' +
                 'and with the rise of Data Science, it can be seen to truly shine.' +
@@ -96,6 +97,7 @@ export default function PythonDataScience() {
         {
             title: 'Where to Go From Here',
             img: PythonData4,
+            id: 'FromHere',
             description: 'Dark desk lit up by a desk lite with a Mac Laptop on a computer stand with a book and a tiny globe.',
             text: 'One of the industry\'s favorite websites for coding help is [StackOverflow](https://stackoverflow.com/).' +
                 ' Coders tend to only use this for their questions but I recommend looking through other people’s ' +

@@ -13,7 +13,7 @@ export default function TopInvestor() {
         {
             img: TopMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Maroon and old styled typewriter with aged metal parts that has written on a white page to never be afraid',
             text: '95% of people who go into crypto investing lose money. As investors, we must limit our losses and not ' +
                 'become that 95%. What does it take to be in the top five or even one percent? In this article, ' +
@@ -126,7 +126,7 @@ export default function TopInvestor() {
         {
             img: Top5,
             title: 'Summary',
-            id: '',
+            id: 'Summary',
             description: 'A black chess piece on a board with black and white on either side with a shining gold crow resting on top of it',
             text: 'To be in the top percent of investors, you must take investing seriously. No successful' +
                 ' investor has ever gotten there by accident. Control your emotions, create an investing ' +

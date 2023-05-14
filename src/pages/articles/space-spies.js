@@ -11,8 +11,9 @@ import ArticleFormat from "@/components/format";
 export default function SpaceSpies() {
     const Article = [
         {
-            title: '',
             img: SatMain,
+            title: '',
+            id: 'Intro',
             description: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue body of water.',
             text: 'Satellites have accomplished a large multitude of achievements from quality communication ' +
                 'to NASA’s Manned Space Station, the [ISS(International Space Station)](https://www.nasa.gov/' +
@@ -106,6 +107,7 @@ export default function SpaceSpies() {
         {
             title: 'Our Safety',
             img: Sat4,
+            id: 'OurSafety',
             description: 'Satellite photo of Italy from the space at night with lights covering the visible land completely.',
             text: 'Precautions must be of high importance now that we know what is at stake. Security must be ' +
                 'top-notch before the recording should even begin to happen so that only those who should see what ' +

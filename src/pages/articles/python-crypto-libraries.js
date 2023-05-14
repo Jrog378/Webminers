@@ -13,7 +13,7 @@ export default function PythonCryptoLibraries() {
         {
             img: CryptoCodingMain,
             title: '',
-            id: '',
+            id: 'Intro',
             description: 'Mac laptop with multiple lines of code shown on its screen next to a black mouse as ' +
                 'well as a black iPhone and Apple watch.',
             text: 'Knowing how to program in Python can be an amazing tool, especially in the world of ' +
@@ -119,7 +119,7 @@ export default function PythonCryptoLibraries() {
         {
             img: CryptoCoding5,
             title: 'Final Comments',
-            id: '',
+            id: 'FinalComments',
             description: 'A dark room with a desk that has a plant, laptop, lamp, and a lit-up computer screen ' +
                 'on top of it next to a leather chair.',
             text: 'Machine Learning, Finance APIs, web Scraping, and personal automation can help you create ' +
