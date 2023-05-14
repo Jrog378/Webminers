@@ -519,3 +519,10 @@ main:has(> .full) {
     border-radius: 20px;
     background-color: rgb(213, 233, 223);
 }
+
+.buttons {
+    float: right;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    border-width: 2px !important;
+}

@@ -49,7 +49,7 @@ const Suggest = ({Detail}) => {
                             </Col>
                             <Col>
                                 <Button href={Details[num].url}
-                                        style={{float: 'right', marginBottom: '10px'}}
+                                        className={styles.buttons}
                                         variant="outline-success"
                                         size='sm'>Read More...</Button>
                             </Col>
