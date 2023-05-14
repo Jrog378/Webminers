@@ -47,7 +47,7 @@ export default function AuthSeasons(props) {
                       content="Webminers Investing provides scientifically backed research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>

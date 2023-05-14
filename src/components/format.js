@@ -20,7 +20,7 @@ const ArticleFormat = ({Article, url}) => {
             <Head>
                 <title>{Detail.title}</title>
                 <meta property='og:title' content={Detail.title}/>
-                <meta property='og:image' content={'webminers.dev/images/' + Detail.header}/>
+                <meta property='og:image' content={'https://webminers.dev/images/' + Detail.header}/>
                 <meta name='description' content={Detail.text}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>

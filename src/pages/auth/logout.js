@@ -16,7 +16,7 @@ const Home = () => {
                 <Head>
                     <title>Webminers Investing - Logout</title>
                     <meta property='og:title' content='Webminers Investing - Logout'/>
-                    <meta property='og:image' content={'webminers.dev/webminers-logo.webp'}/>
+                    <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 </Head>
                 <h1 style={{color: 'whitesmoke'}}>Logging You Out...</h1>
             </Container>
