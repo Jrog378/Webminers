@@ -3,7 +3,8 @@ const details = [
         id: 27,
         title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
         date: 'May 14th 2023',
-        text: '',
+        text: 'Not using a plan, allowing emotion to take control, and decisions without volatility can be ' +
+            'detrimental to your crypto investing as a beginner. Mistakes are how we become better.',
         url: '/articles/biggest-crypto-mistakes',
         img: 'CryptoMistakesMain.webp',
         alt: 'The cryptocurrency market in all red going up and down along a candle with lines going around it ' +
