@@ -521,6 +521,8 @@ main:has(> .full) {
 }
 
 .buttons {
+    color: rgb(0, 125, 75);
+    border-color: rgb(0, 125, 75);
     float: right;
     margin-bottom: 10px;
     font-weight: bolder;
