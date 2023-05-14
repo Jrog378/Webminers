@@ -53,7 +53,7 @@ export default function Articles() {
                                                     </Col>
                                                     <Col>
                                                         <Button href={content.url}
-                                                                style={{float: 'right', marginBottom: '10px'}}
+                                                                className={styles.buttons}
                                                                 variant="outline-success"
                                                                 size='sm'>Read More...</Button>
                                                     </Col>
