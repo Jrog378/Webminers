@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 28,
+        title: 'Impactful Crypto Market Crashes - What You Can Learn From Them',
+        date: 'May 15th 2023',
+        text: 'Market Crashes in crypto can be a scary event, but being able to understand them more can help ' +
+            'you better handle future crashes by looking into arbitrage events from the past.',
+        url: '/articles/crypto-market-crashes',
+        img: 'ArbitrageMain.webp',
+        alt: 'A shiny metal Ethereum crypto coin with a leather wallet next to it containing a credit ' +
+            'card all on to pof a stack of dollars.',
+        header: 'Arbitrage.webp',
+    },
+    {
         id: 27,
         title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
         date: 'May 14th 2023',
