@@ -1,13 +1,11 @@
-import {Button, Card, CardGroup, Col, Container, Row} from "react-bootstrap";
+import {Card, CardGroup, Col, Container, Row} from "react-bootstrap";
 import React, {useEffect, useState} from "react";
 import Script from "next/script";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
 import Router from "next/router";
 import {doc, getDoc} from "firebase/firestore";
-import Link from "next/link";
 import styles from "@/styles/Home.module.css";
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 export default function AuthPricing() {
@@ -16,7 +14,7 @@ export default function AuthPricing() {
     const [user, loading] = useAuthState(auth)
     useEffect(() => {
         const fetchData = async () => {
-            if (!user) Router.push('/auth/login');
+            if (!user) await Router.push('/auth/login');
             if (user) {
                 const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
                 console.log(promise)
@@ -60,9 +58,9 @@ export default function AuthPricing() {
                                     {/*                      publishable-key="pk_test_51LHAg0I0ncnoSqWddZdSvphuvJUeCuQUNAysqSa74B02zg8ZGTrXl4Z3kgmJkgIOHNRX1V5590qZf9CZBgdIAFQd00WjC4iVmd"*/}
                                     {/*                      customer-email={email}>*/}
                                 </Container>
-                                : <Container><h1 style={{textAlign: "center"}}>Please Visit <Link
+                                : <Container><h1 style={{textAlign: "center"}}>Please Visit <Card.Link
                                     className={styles.weblink}
-                                    href={'/auth/profile'}>Profile</Link> to
+                                    href={'/auth/profile'}>Profile</Card.Link> to
                                     Upgrade Plan</h1></Container>
                         : <Container><h1>Login</h1></Container>
                 }

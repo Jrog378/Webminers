@@ -29,9 +29,10 @@ const Suggest = ({Detail}) => {
                 </Row>
                 <Row>
                     <Card.Body style={{paddingTop: 0, paddingBottom: 0}}>
-                        <Card.Title><Link style={{fontSize: 'larger'}}
+                        <Card.Link
+                            style={{fontSize: 'x-large'}}
                                           className={styles.weblink}
-                                          href={Details[num].url}>{Details[num].title}</Link></Card.Title>
+                                          href={Details[num].url}>{Details[num].title}</Card.Link>
                     </Card.Body>
                 </Row>
                 <Row>
