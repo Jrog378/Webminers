@@ -1,9 +1,7 @@
 import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table} from "react-bootstrap";
 import React from "react";
 import styles from '@/styles/Home.module.css'
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
-import Link from "next/link";
 
 
 export default function Pricing() {
@@ -289,8 +287,8 @@ export default function Pricing() {
                     </Container>
                     <Container style={{padding: '15px'}}>
                         <Container style={{padding: '15px'}}>
-                            <h1 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'/auth-pricing'}>Get
-                                one of our plans with a 7 day trial now</Link></h1>
+                            <h1 style={{textAlign: 'center'}}><Card.Link className={styles.weblink} href={'/auth-pricing'}>Get
+                                one of our plans with a 7 day trial now</Card.Link></h1>
                         </Container>
                         <Container style={{padding: '15px'}}>
                             <Card className={styles.cardhover}>
@@ -299,8 +297,8 @@ export default function Pricing() {
                                         Plan?</Card.Title>
                                     <Card.Text style={{fontSize: 'xx-large', textAlign:'center'}}>
                                         Start today
-                                        completely <strong>free</strong> with our basic features and email updates - <Link className={styles.weblink}
-                                              href={'/auth/signup'}>Signup Now</Link>
+                                        completely <strong>free</strong> with our basic features and email updates - <Card.Link className={styles.weblink}
+                                              href={'/auth/signup'}>Signup Now</Card.Link>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

@@ -11,9 +11,9 @@ const Outline = ({article}) => {
                         Article Outline
                     </Card.Title>
                     {article.map(content => (
-                        <Card.Text style={{textAlign:"center"}} key={content.id}><Link style={{fontSize:'larger'}} className={styles.weblink} href={`#${content.id}`}>
+                        <Card.Text style={{textAlign:"center"}} key={content.id}><Card.Link style={{fontSize:'larger'}} className={styles.weblink} href={`#${content.id}`}>
                             - {content.title !== '' ? content.title : 'Introduction'}
-                        </Link></Card.Text>
+                        </Card.Link></Card.Text>
                     ))}
                 </Card.Body>
             </Card>

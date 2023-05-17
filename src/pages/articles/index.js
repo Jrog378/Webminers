@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, OffcanvasTitle, Row} from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import React from "react";
 import Head from "next/head";
@@ -33,9 +33,10 @@ export default function Articles() {
                                         </Row>
                                         <Row>
                                             <Card.Body style={{paddingTop: 0, paddingBottom: 0}}>
-                                                <Card.Title><Link style={{fontSize: 'larger'}}
-                                                                  className={styles.weblink}
-                                                                  href={content.url}>{content.title}</Link></Card.Title>
+                                                <Card.Link
+                                                    style={{fontSize: 'x-large'}}
+                                                    className={styles.weblink}
+                                                    href={content.url}>{content.title}</Card.Link>
                                             </Card.Body>
                                         </Row>
                                         <Row>
@@ -76,7 +77,8 @@ export default function Articles() {
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Head>
                     <title>Webminers Articles - Making Smarted Scientific Decisions with Investing Systems</title>
-                    <meta name={'og:title'} content={'Webminers Articles - Making Smarted Scientific Decisions with Investing Systems'}/>
+                    <meta name={'og:title'}
+                          content={'Webminers Articles - Making Smarted Scientific Decisions with Investing Systems'}/>
                     <meta name="description"
                           content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>

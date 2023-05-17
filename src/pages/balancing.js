@@ -4,9 +4,7 @@ import React, {useEffect, useState} from "react";
 import {doc, getDoc} from "firebase/firestore";
 import {auth, db} from "@/config";
 import {useAuthState} from "react-firebase-hooks/auth";
-import Link from "next/link";
 import Image from "next/image";
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 import BalancingPlot from '@/images/plots/BalancingPlot.webp'
 import AssetBalancing from '@/images/plots/AssetBalancing.webp'
@@ -74,16 +72,16 @@ export default function Balancing() {
                                                 diversification. Rather than chucking a few assets into a hat and
                                                 picking from it, we have measured the efficiencies of many options
                                                 and selected the assets that stood out the most to us. This efficiency
-                                                data comes from <Link className={styles.weblink} href={'research'}>
-                                                Webminers Research</Link> if you want to build your portfolio.
+                                                data comes from <Card.Link className={styles.weblink} href={'research'}>
+                                                Webminers Research</Card.Link> if you want to build your portfolio.
                                                 There are three levels of Balancing, each with more assets for
                                                 you to pick from.
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;What to invest in?&apos; visit
-                                                <Link className={styles.weblink} href={'insights'}> Webminers Market
+                                                <Card.Link className={styles.weblink} href={'insights'}> Webminers Market
                                                     Insights
-                                                </Link> to answer &apos;When to invest?&apos;
+                                                </Card.Link> to answer &apos;When to invest?&apos;
                                             </Card.Text>
                                         </Card.Body>
                                     </Container>
@@ -153,10 +151,10 @@ export default function Balancing() {
                                                                             :
                                                                             <>
                                                                                 <h2
-                                                                                    style={{textAlign: "center"}}><Link
+                                                                                    style={{textAlign: "center"}}><Card.Link
                                                                                     className={styles.weblink}
                                                                                     href={'/pricing'}>
-                                                                                    Balanced Investing Plan </Link>
+                                                                                    Balanced Investing Plan </Card.Link>
                                                                                     Required
                                                                                 </h2>
                                                                                 <Image style={{
@@ -171,9 +169,9 @@ export default function Balancing() {
                                                                     :
                                                                     <>
                                                                         <h2
-                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            style={{textAlign: "center"}}>Please <Card.Link
                                                                             className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            href={'/auth/login'}>Login</Card.Link> to
                                                                             see content</h2>
                                                                         <Image style={{height: '100%', width: '100%'}}
                                                                                src={BalancingPlot}
@@ -205,10 +203,10 @@ export default function Balancing() {
                                                                             <>
                                                                                 <h2 style={{
                                                                                     textAlign: "center",
-                                                                                }}><Link
+                                                                                }}><Card.Link
                                                                                     className={styles.weblink}
                                                                                     href={'/pricing'}>
-                                                                                    Strategist Investing Plan </Link>
+                                                                                    Strategist Investing Plan </Card.Link>
                                                                                     Required</h2>
                                                                                 <Image style={{
                                                                                     height: '100%',
@@ -221,9 +219,9 @@ export default function Balancing() {
                                                                             </>
                                                                     : <>
                                                                         <h2
-                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            style={{textAlign: "center"}}>Please <Card.Link
                                                                             className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            href={'/auth/login'}>Login</Card.Link> to
                                                                             see content</h2>
                                                                         <Image style={{height: '100%', width: '100%'}}
                                                                                src={BalancingPlot}

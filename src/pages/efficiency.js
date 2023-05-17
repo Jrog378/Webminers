@@ -2,7 +2,6 @@ import {Button, Card, Col, Container, Nav, Row, Tab, Table} from "react-bootstra
 import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
 import {doc, getDoc} from "firebase/firestore";
-import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import React, {useEffect, useState} from "react";
 import Head from "next/head";
@@ -684,14 +683,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -740,14 +739,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -796,14 +795,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -852,14 +851,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -908,14 +907,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -964,14 +963,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}
@@ -1020,14 +1019,14 @@ export default function Efficiency() {
                                                                         style={{textAlign: 'center'}}>Loading...</Card.Title>
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
-                                                                        <Link className={styles.weblink}
+                                                                        <Card.Link className={styles.weblink}
                                                                               href={'/pricing'}>Strategist
-                                                                            Plan</Link> Required
+                                                                            Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
-                                                                <h2 style={{textAlign: "center"}}>Please <Link
+                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
                                                                     className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Link> to
+                                                                    href={'/auth/login'}>Login</Card.Link> to
                                                                     see content</h2>
                                                             }
                                                             <Table className={styles.tablecen}

@@ -1,6 +1,5 @@
 import {Button, Card, Col, Container, Nav, Row, Tab} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
-import Link from "next/link";
 import React, {useEffect, useState} from "react";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
@@ -74,8 +73,8 @@ export default function AuthSeasons(props) {
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;When to invest?&apos; visit
-                                                <Link className={styles.weblink} href={'balancing'}> Asset Balancing
-                                                </Link> to answer &apos;What to invest in?&apos;
+                                                <Card.Link className={styles.weblink} href={'balancing'}> Asset Balancing
+                                                </Card.Link> to answer &apos;What to invest in?&apos;
                                             </Card.Text>
                                         </Card.Body>
                                     </Container>
@@ -135,11 +134,11 @@ export default function AuthSeasons(props) {
                                                                             />
                                                                             :
                                                                             <>
-                                                                                <h2 style={{textAlign: "center"}}><Link
+                                                                                <h2 style={{textAlign: "center"}}><Card.Link
                                                                                     className={styles.weblink}
                                                                                     href={'/pricing'}>Essential
                                                                                     Investing
-                                                                                    Plan</Link> Required
+                                                                                    Plan</Card.Link> Required
                                                                                 </h2>
                                                                                 <Image style={{
                                                                                     height: '100%',
@@ -153,9 +152,9 @@ export default function AuthSeasons(props) {
                                                                     :
                                                                     <>
                                                                         <h2
-                                                                            style={{textAlign: "center"}}>Please <Link
+                                                                            style={{textAlign: "center"}}>Please <Card.Link
                                                                             className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Link> to
+                                                                            href={'/auth/login'}>Login</Card.Link> to
                                                                             see content</h2>
                                                                         <Image style={{height: '100%', width: '100%'}}
                                                                                src={InsightsPlot}

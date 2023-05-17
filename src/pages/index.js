@@ -2,7 +2,6 @@ import Head from 'next/head'
 import React, {useState} from "react";
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, Row, Toast} from "react-bootstrap";
-import Link from "next/link";
 import axios from "axios";
 import {toast} from "react-toastify";
 import CloseButton from 'react-bootstrap/CloseButton';
@@ -151,13 +150,13 @@ export default function Home() {
                                         <Card.Text style={{fontSize: 'larger'}}>
                                             We believe that cryptocurrency is a great option as an investment
                                             asset and are happy to direct your to our research resources.
-                                            <Link className={styles.weblink} href={'/insights'}> Market
-                                                Insights</Link>,
-                                            <Link className={styles.weblink}
-                                                  href={'/balancing'}> Asset Balancing</Link>,
-                                            <Link className={styles.weblink} href={'/research'}> Asset
-                                                Efficiency</Link>, and <Link className={styles.weblink}
-                                                                             href={'/articles'}> Education </Link>
+                                            <Card.Link className={styles.weblink} href={'/insights'}> Market
+                                                Insights</Card.Link>,
+                                            <Card.Link className={styles.weblink}
+                                                  href={'/balancing'}> Asset Balancing</Card.Link>,
+                                            <Card.Link className={styles.weblink} href={'/research'}> Asset
+                                                Efficiency</Card.Link>, and <Card.Link className={styles.weblink}
+                                                                             href={'/articles'}> Education </Card.Link>
                                             can help provide you the knowledge and research to
                                             build or improve a well rounded investing system with Risk Management,
                                             Asset Allocation, and Asset Selection.
