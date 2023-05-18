@@ -49,7 +49,7 @@ const details = [
     },
     {
         id: 25,
-        title: 'AI Jobs - How AI Can Improve Your Work Productivity Rather Than Replace You',
+        title: 'AI Jobs - How AI Can Improve Your Work Productivity, Not Replace You',
         date: 'May 12th 2023',
         text: 'In terms of Investing, Creative Work, Programming, and Customer Support, instead of trying ' +
             'to outrun AI, workers can incorporate it to improve their productivity and value even more.',
@@ -61,7 +61,7 @@ const details = [
     },
     {
         id: 24,
-        title: 'Is Cryptocurrency Safe? - How to Keep Your Money and Devices Secure While Investing',
+        title: 'Is Cryptocurrency Safe? - Keep Your Money and Devices Secure',
         date: 'May 11th 2023',
         text: 'The question of is cryptocurrency safe is an important one to answer. We can determine this ' +
             'with digital security, efficient investing, downsides of crypto, and finding legit cryptos.',
@@ -97,7 +97,7 @@ const details = [
     },
     {
         id: 21,
-        title: 'Financial AI - How AI and Data Science Will Take Finance and Investing by Storm',
+        title: 'Financial AI - How AI and Data Science Can Help Crypto Investors',
         date: 'May 7th 2023',
         text: 'Financial AI is on the move and we will be going over how AI will be impacting Automation, ' +
             'Sentiment, Market Correlation, and Robo Advising in the Financial World of Investing.',
@@ -109,7 +109,7 @@ const details = [
     },
     {
         id: 20,
-        title: 'What is Decentralization - What Does Decentralized Mean for Crypto Investors',
+        title: 'What is Decentralization - Decentralized for Crypto Investors',
         date: 'May 1st 2023',
         text: 'There are many aspects of decentralization that are constantly developing, much of which is related ' +
             'to the blockchain. As crypto investors we will look into more about this technology.',
@@ -121,7 +121,7 @@ const details = [
     },
     {
         id: 19,
-        title: 'Python Crypto Libraries - Programming Libraries Used For Crypto Investing',
+        title: 'Python Crypto Libraries - Programming Libraries For Crypto Investing',
         date: 'Apr 26th 2023',
         text: 'Programming in crypto gives you an advantage in the market that requires libraries to help ' +
             'you with this. Here are some essential Python libraries for crypto programming.',
@@ -145,7 +145,7 @@ const details = [
     },
     {
         id: 17,
-        title: 'Python for Crypto and Finance - How FinTech Uses Python to Make Lots of Money',
+        title: 'Python for Crypto and Finance - How FinTech Uses Python for Profits',
         date: 'Apr 13th 2023',
         text: 'Python for Crypto and Finance has never been in more demand. There is more money to be made and the ' +
             'only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.',
@@ -169,7 +169,7 @@ const details = [
     },
     {
         id: 15,
-        title: 'How to Start Investing in Crypto - What I Did to Create my Crypto Investing System',
+        title: 'How to Start Investing in Crypto - Making a Crypto Investing System',
         date: 'Mar 28th 2023',
         text: 'Finding valuable investments and creating your own investing system can seem complex' +
             'but things can be much easier than they seem with the right guidance.',
@@ -204,7 +204,7 @@ const details = [
     },
     {
         id: 12,
-        title: 'The Best Ways to Improve Your Mental State for Smarter Crypto Investing',
+        title: 'The Best Ways to Improve Your Mental State for Crypto Investing',
         date: 'Mar 13th 2023',
         text: 'The best ways to improve your mental state for smarter investing by improving your diet, physical ' +
             'health, mentality, and goals.',
