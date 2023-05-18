@@ -5,12 +5,11 @@ import ReactMarkdown from "react-markdown";
 import React from "react";
 import {GoogleAdSense} from "nextjs-google-adsense";
 import Head from "next/head";
-import {adsense} from "@/components/article-ad";
 import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
-import Link from "next/link";
 import Outline from "@/components/outline";
+import {Adsense} from "@/components/article-ad";
 
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
@@ -81,7 +80,7 @@ const ArticleFormat = ({Article, url}) => {
                                         </Row>
                                         <Row>
                                             <div className={styles.pad}>
-                                                {adsense()}
+                                                <Adsense slot={"4158745359"}/>
                                             </div>
                                         </Row>
                                     </Col>
@@ -90,7 +89,7 @@ const ArticleFormat = ({Article, url}) => {
                                             <Suggest Detail={Detail.id}/>
                                         </div>
                                         <div className={styles.pad}>
-                                            {adsense()}
+                                            <Adsense slot={"1008265344"}/>
                                         </div>
                                     </Col>
                                 </Row>
