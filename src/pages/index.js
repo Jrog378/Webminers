@@ -108,9 +108,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Invest Smarter with Research and Education Backed by Data Mining</title>
+                <title>Webminers Investing - Smarter Crypto Investing, More Profit</title>
                 <meta name={'og:title'}
-                      content={'Webminers Investing - Invest Smarter with Research and Education Backed by Data Mining'}/>
+                      content={'Webminers Investing - Smarter Crypto Investing, More Profit'}/>
                 <meta name="description"
                       content="Webminers Investing provides data mining supported research and education to help you
                       make informed investing decisions with Insights, Balancing, and Efficiency."/>
