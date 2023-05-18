@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 29,
+        title: 'Short-Term vs Long-Term Crypto Investing - Top Crypto Styles',
+        date: 'May 16th 2023',
+        text: 'Short-term and Long-term crypto investing are both great options to incorporate in your ' +
+            'investing style and it is important to know how they differ with profit and efficiency.',
+        url: '/articles/short-term-vs-long-term-crypto-investing',
+        img: 'ShortLongMain.webp',
+        alt: 'A shiny ethereum crypto gold coin sitting up on its edge with other coins laying beneath it with ' +
+            'the market chart in behind them.',
+        header: 'ShortLong.webp',
+    },
+    {
         id: 28,
         title: 'Impactful Crypto Market Crashes - What You Can Learn From Them',
         date: 'May 15th 2023',
