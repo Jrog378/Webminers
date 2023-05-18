@@ -389,6 +389,7 @@
     text-decoration: none;
     font-weight: bolder;
     font-size: inherit;
+    margin: 0;
 }
 
 .webmark > p > a:hover, .webmark > ol > li > a:hover, a:hover.weblink {
