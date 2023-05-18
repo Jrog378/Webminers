@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://webminers.dev/</loc>
         <lastmod>2023-05-03</lastmod>
@@ -156,6 +156,36 @@
     <url>
         <loc>https://webminers.dev/articles/is-cryptocurrency-safe</loc>
         <lastmod>2023-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/is-cryptocurrency-safe</loc>
+        <lastmod>2023-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/ai-jobs-productivity</loc>
+        <lastmod>2023-05-12</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/what-to-do-in-bear-markets</loc>
+        <lastmod>2023-05-13</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/biggest-crypto-mistakes</loc>
+        <lastmod>2023-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/crypto-market-crashes</loc>
+        <lastmod>2023-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/short-term-vs-long-term-crypto-investing</loc>
+        <lastmod>2023-05-16</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
