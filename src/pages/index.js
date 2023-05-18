@@ -123,11 +123,11 @@ export default function Home() {
                         <Row>
                             <Col md={8} sm={12}>
                                 <h1 style={{fontSize: '50px'}}>
-                                    Bringing Real Insights to Your Crypto Investing Journey
+                                    Better Knowledge, Better Data, Better Profits
                                 </h1>
                                 <br/>
                                 <br/>
-                                <Button variant="success" href='/pricing'>Get a hold of your successful cryptocurrency
+                                <Button variant="success" href='/pricing'>Get a hold of your successful crypto
                                     decisions
                                     →</Button>
                             </Col>
