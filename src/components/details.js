@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 30,
+        title: 'What is a Crypto Bubble - Why Does The Crypto Market Crash',
+        date: 'May 17th 2023',
+        text: 'A crypto bubble is difficult to predict, but we should still study it to avoid losses. ' +
+            'Crypto psychology, pump and dumps, and Black Swan events can help with these bubbles.',
+        url: '/articles/what-is-a-crypto-bubble',
+        img: 'CryptoBubbleMain.webp',
+        alt: 'Stack of hundred dollar bills rolled up with a rubber band around them with a ' +
+                'wooden hourglass in the background with white sand.',
+        header: 'CryptoBubble.webp',
+    },
+    {
         id: 29,
         title: 'Short-Term vs Long-Term Crypto Investing - Top Crypto Styles',
         date: 'May 16th 2023',
