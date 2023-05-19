@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 31,
+        title: 'What is The Crypto Blockchain - Finances of the Blockchain',
+        date: 'May 18th 2023',
+        text: 'The crypto blockchain has many uses, mainly of which are based around working with money, ' +
+            'including the crypto blockchain has investing and trading, staking, and smart contracts.',
+        url: '/articles/what-is-the-crypto-blockchain',
+        img: 'CryptoBlockMain.webp',
+        alt: 'A golden Bitcoin crypto coin sitting on top of the face of a one hundred dollar bill with two ' +
+            'other one hundred dollar bills.',
+        header: 'CryptoBlock.webp',
+    },
+    {
         id: 30,
         title: 'What is a Crypto Bubble - Why Does The Crypto Market Crash',
         date: 'May 17th 2023',
