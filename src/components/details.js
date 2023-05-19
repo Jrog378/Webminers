@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 32,
+        title: 'What is an Altcoin - Should You be Investing in Altcoins?',
+        date: 'May 19th 2023',
+        text: 'Altcoins, also known as alternative coins, are a great option to invest in other the main coins ' +
+            'Bitcoin and Ethereum, however, there are some things you must know beforehand.',
+        url: '/articles/what-is-an-altcoin',
+        img: 'AltcoinMain.webp',
+        alt: 'A single golden Bitcoin crypto coin with its logo on the face of the coin fading away into dust ' +
+            'surrounded by other coins.',
+        header: 'Altcoin.webp',
+    },
+    {
         id: 31,
         title: 'What is The Crypto Blockchain - Finances of the Blockchain',
         date: 'May 18th 2023',
