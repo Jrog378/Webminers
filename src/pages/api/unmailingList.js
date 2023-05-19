@@ -5,8 +5,8 @@ export default async function handler(req, res) {
             .put(
                 "https://api.sendgrid.com/v3/marketing/contacts",
                 {
-                    contacts: [{email: `${req.body.mail}`}],
-                    list_ids: ['db53fad6-f1fb-4291-94b5-689dd8c43424'],
+                    contacts: [{email: `${req.body.mail}`, first_name: 'Removed'}],
+                    list_ids: ['cb80dd0b-8471-42ef-8012-3f715df71a1d'],
                 },
                 {
                     headers: {
@@ -18,13 +18,13 @@ export default async function handler(req, res) {
             .then((result) => {
                 res.status(200).send({
                     message:
-                        "Your email has been successfully added to the mailing list. Welcome 👋",
+                        "Your email has been successfully removed from the mailing list.",
                 });
             })
             .catch((err) => {
                 res.status(500).send({
                     message:
-                        "Oops, there was a problem with your subscription, please try again or contact us",
+                        "Oops, there was a problem with your unsubscribe, please try again or contact us",
                 });
             });
     }

@@ -1,9 +1,8 @@
 import React, {useState} from "react";
 import axios from "axios";
 import {toast} from "react-toastify";
-import {Button, Card, Container, Row, Toast} from "react-bootstrap";
+import {Button, Card, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
-import CloseButton from "react-bootstrap/CloseButton";
 
 export default function Email() {
     const [mail, setMail] = useState(null);
@@ -58,6 +57,8 @@ export default function Email() {
             </Container>
             <Container style={{display: disp2[disp]}}>
                 <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
+                <h4 style={{padding: '5px', textAlign: 'center'}}>Check your inbox Tuesday for you introduction
+                    email.</h4>
             </Container>
         </Card>
     );

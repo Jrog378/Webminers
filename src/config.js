@@ -9,6 +9,8 @@ import {
     signOut,
 } from "firebase/auth";
 import Router from "next/router";
+import axios from "axios";
+import {toast} from "react-toastify";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAXAn0p7_SG9pxz4GPQkxYmUSo0rBaZiDI",
@@ -68,6 +70,14 @@ const registerWithEmailAndPassword = async (name, email, password) => {
                 plan: 'none',
             });
 
+            await axios.put("api/mailingList", {email,}).then((result) => {
+            if (result.status === 200) {
+                toast.success(result.data.message);
+            }
+        })
+            .catch((err) => {
+                console.log(err);
+            });
 
         } catch (err) {
             switch (err.code) {

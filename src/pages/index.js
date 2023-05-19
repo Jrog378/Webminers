@@ -95,6 +95,8 @@ function EmailALert() {
                             </Container>
                             <Container style={{display: disp2[disp]}}>
                                 <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
+                                <h4 style={{padding: '5px', textAlign: 'center'}}>Check your inbox Tuesday for you
+                                    introduction email.</h4>
                             </Container>
                         </Container>
                     </Container>
@@ -153,10 +155,10 @@ export default function Home() {
                                             <Card.Link className={styles.weblink} href={'/insights'}> Market
                                                 Insights</Card.Link>,
                                             <Card.Link className={styles.weblink}
-                                                  href={'/balancing'}> Asset Balancing</Card.Link>,
+                                                       href={'/balancing'}> Asset Balancing</Card.Link>,
                                             <Card.Link className={styles.weblink} href={'/research'}> Asset
                                                 Efficiency</Card.Link>, and <Card.Link className={styles.weblink}
-                                                                             href={'/articles'}> Education </Card.Link>
+                                                                                       href={'/articles'}> Education </Card.Link>
                                             can help provide you the knowledge and research to
                                             build or improve a well rounded investing system with Risk Management,
                                             Asset Allocation, and Asset Selection.
