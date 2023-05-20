@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 33,
+        title: 'Seeing into the Crypto Future - Crypto\'s History and Direction',
+        date: 'May 20th 2023',
+        text: 'Crypto has a promising future ahead.Once we take a look into cryptos past we can decide what to do ' +
+            'now to get involved and ahead for the innovative future ahead.',
+        url: '/articles/into-the-crypto-future',
+        img: 'CryptoFutureMain.webp',
+        alt: 'A Golden Bitcoin crypto coin sitting on a top of a pile of multiple crypto coins of Ethereum ' +
+            'and Litecoin that are gold and blue.',
+        header: 'CryptoFuture.webp',
+    },
+    {
         id: 32,
         title: 'What is an Altcoin - Should You be Investing in Altcoins?',
         date: 'May 19th 2023',
