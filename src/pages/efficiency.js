@@ -105,15 +105,15 @@ export default function Efficiency() {
                                                                 <tbody>
                                                                 <tr>
                                                                     <td>One Month Term</td>
-                                                                    <td>0.48</td>
-                                                                    <td>0.65</td>
-                                                                    <td>2.15</td>
+                                                                    <td>0.34</td>
+                                                                    <td>-0.24</td>
+                                                                    <td>0.57</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Four Month Term</td>
-                                                                    <td>0.66</td>
-                                                                    <td>0.34</td>
-                                                                    <td>1.69</td>
+                                                                    <td>0.41</td>
+                                                                    <td>0.1</td>
+                                                                    <td>1.17</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>One Year Term</td>
@@ -149,15 +149,15 @@ export default function Efficiency() {
                                                                 <tbody>
                                                                 <tr>
                                                                     <td>One Month Term</td>
-                                                                    <td>0.48</td>
-                                                                    <td>0.66</td>
-                                                                    <td>2.17</td>
+                                                                    <td>0.44</td>
+                                                                    <td>-0.27</td>
+                                                                    <td>0.6</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Four Month Term</td>
-                                                                    <td>0.68</td>
-                                                                    <td>0.4</td>
-                                                                    <td>1.85</td>
+                                                                    <td>0.47</td>
+                                                                    <td>0.17</td>
+                                                                    <td>1.29</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>One Year Term</td>
@@ -193,15 +193,15 @@ export default function Efficiency() {
                                                                 <tbody>
                                                                 <tr>
                                                                     <td>One Month Term</td>
-                                                                    <td>0.35</td>
-                                                                    <td>0.48</td>
-                                                                    <td>1.84</td>
+                                                                    <td>0.26</td>
+                                                                    <td>-0.3</td>
+                                                                    <td>0.61</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Four Month Term</td>
-                                                                    <td>0.34</td>
-                                                                    <td>0.28</td>
-                                                                    <td>1.46</td>
+                                                                    <td>0.21</td>
+                                                                    <td>0.02</td>
+                                                                    <td>1.03</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>One Year Term</td>
@@ -237,15 +237,15 @@ export default function Efficiency() {
                                                                 <tbody>
                                                                 <tr>
                                                                     <td>One Month Term</td>
-                                                                    <td>0.39</td>
-                                                                    <td>0.42</td>
-                                                                    <td>2.02</td>
+                                                                    <td>0.25</td>
+                                                                    <td>-0.11</td>
+                                                                    <td>0.77</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Four Month Term</td>
-                                                                    <td>0.45</td>
-                                                                    <td>0.21</td>
-                                                                    <td>1.38</td>
+                                                                    <td>0.29</td>
+                                                                    <td>0.05</td>
+                                                                    <td>1.1</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>One Year Term</td>
@@ -337,15 +337,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.36</td>
-                                                                        <td>0.08</td>
-                                                                        <td>1.13</td>
+                                                                        <td>0.27</td>
+                                                                        <td>-0.54</td>
+                                                                        <td>0.43</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.38</td>
-                                                                        <td>0.18</td>
-                                                                        <td>1.3</td>
+                                                                        <td>0.24</td>
+                                                                        <td>0.0</td>
+                                                                        <td>1.0</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -381,15 +381,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.35</td>
-                                                                        <td>0.29</td>
-                                                                        <td>1.54</td>
+                                                                        <td>0.27</td>
+                                                                        <td>-0.43</td>
+                                                                        <td>0.37</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.37</td>
-                                                                        <td>0.18</td>
-                                                                        <td>1.33</td>
+                                                                        <td>0.23</td>
+                                                                        <td>0.02</td>
+                                                                        <td>1.03</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -425,15 +425,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.33</td>
-                                                                        <td>0.0</td>
-                                                                        <td>1.01</td>
+                                                                        <td>0.32</td>
+                                                                        <td>-0.28</td>
+                                                                        <td>0.63</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.4</td>
-                                                                        <td>0.17</td>
-                                                                        <td>1.3</td>
+                                                                        <td>0.25</td>
+                                                                        <td>-0.01</td>
+                                                                        <td>0.98</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -469,15 +469,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.24</td>
-                                                                        <td>0.44</td>
-                                                                        <td>1.62</td>
+                                                                        <td>0.31</td>
+                                                                        <td>-0.36</td>
+                                                                        <td>0.41</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.29</td>
-                                                                        <td>0.08</td>
-                                                                        <td>1.14</td>
+                                                                        <td>0.23</td>
+                                                                        <td>-0.01</td>
+                                                                        <td>0.99</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -513,15 +513,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.35</td>
-                                                                        <td>0.04</td>
-                                                                        <td>1.14</td>
+                                                                        <td>0.84</td>
+                                                                        <td>0.31</td>
+                                                                        <td>1.37</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
                                                                         <td>0.44</td>
-                                                                        <td>0.09</td>
-                                                                        <td>1.25</td>
+                                                                        <td>0.07</td>
+                                                                        <td>1.21</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -557,15 +557,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.35</td>
-                                                                        <td>0.22</td>
-                                                                        <td>1.48</td>
+                                                                        <td>0.28</td>
+                                                                        <td>-0.45</td>
+                                                                        <td>0.31</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.41</td>
-                                                                        <td>0.16</td>
-                                                                        <td>1.29</td>
+                                                                        <td>0.26</td>
+                                                                        <td>-0.01</td>
+                                                                        <td>0.98</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
@@ -601,15 +601,15 @@ export default function Efficiency() {
                                                                     <tbody>
                                                                     <tr>
                                                                         <td>One Month Term</td>
-                                                                        <td>0.36</td>
-                                                                        <td>0.41</td>
-                                                                        <td>1.69</td>
+                                                                        <td>0.26</td>
+                                                                        <td>-0.39</td>
+                                                                        <td>0.48</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Four Month Term</td>
-                                                                        <td>0.42</td>
-                                                                        <td>0.17</td>
-                                                                        <td>1.26</td>
+                                                                        <td>0.29</td>
+                                                                        <td>0.03</td>
+                                                                        <td>1.05</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>One Year Term</td>
