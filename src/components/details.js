@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 34,
+        title: 'Popular Cryptocurrency - Why More Investors Means Less Risk',
+        date: 'May 21st 2023',
+        text: 'Popular cryptocurrencies make for great investments for many reasons, they have more profit, ' +
+            'lower downside potential and a long price history that is trustworthy to investors.',
+        url: '/articles/popular-cryptocurrency',
+        img: 'PopularCryptoMain.webp',
+        alt: 'A golden bitcoin crypto coin sitting on top of a silver ethereum crypto coin and three other coins ' +
+            'with a black background.',
+        header: 'PopularCrypto.webp',
+    },
+    {
         id: 33,
         title: 'Seeing into the Crypto Future - Crypto\'s History and Direction',
         date: 'May 20th 2023',
