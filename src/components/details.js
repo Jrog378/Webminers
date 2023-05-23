@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 35,
+        title: 'Why the Stablecoin Price Isn’t Always Stable',
+        date: 'May 22nd 2023',
+        text: 'Stablecoins, based on the name, are supposed to be stable. This is not always the case though. ' +
+            'They can become unstable when matched with being backed by banks and other cryptos.',
+        url: '/articles/are-stablecoins-stable',
+        img: 'StablecoinMain.webp',
+        alt: 'A golden Bitcoin crypto coin in the sand by the beach with an hourglass sitting next to it along ' +
+            'with some sticks and leaves.',
+        header: 'Stablecoin.webp',
+    },
+    {
         id: 34,
         title: 'Popular Cryptocurrency - Why More Investors Means Less Risk',
         date: 'May 21st 2023',
