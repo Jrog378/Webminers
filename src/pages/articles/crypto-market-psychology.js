@@ -7,7 +7,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
 
-export default function CryptoMarketCrashes() {
+export default function CryptoMarketPsychology() {
     const Article = [
         {
             img: CryptoPsychologyMain,

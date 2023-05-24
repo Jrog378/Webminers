@@ -1,6 +1,6 @@
 const details = [
     {
-        id: 36,
+        id: 37,
         title: 'Crypto Market Psychology - Into the Mind of a Crypto Investor',
         date: 'May 23rd 2023',
         text: 'Looking into crypto market psychology can help us see the thinking behind movements fed by emotion ' +
@@ -10,6 +10,18 @@ const details = [
         alt: 'An unlit glass light bulb resting on its side in front of an unfocused set of lights that are in ' +
             'the shape of an upwards beam.',
         header: 'CryptoPsychology.webp',
+    },
+    {
+        id: 36,
+        title: 'Blockchain Transaction - The Variations and How They Work',
+        date: 'May 23rd 2023',
+        text: 'The blockchain has many different types of transactions that are not just for exchanging, selling, ' +
+            'and buying crypto. There are closed and hybrid transactions for better security.',
+        url: '/articles/blockchain-transaction',
+        img: 'BlockchainTransMain.webp',
+        alt: 'The world is seen from outer space with lines and dots all over it that are connected to each other ' +
+            'and glowing with rings.',
+        header: 'BlockchainTrans.webp',
     },
     {
         id: 35,
