@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 36,
+        title: 'Crypto Market Psychology - Into the Mind of a Crypto Investor',
+        date: 'May 23rd 2023',
+        text: 'Looking into crypto market psychology can help us see the thinking behind movements fed by emotion ' +
+            'and how we can take advantage of the money made available from those moves.',
+        url: '/articles/crypto-market-psychology',
+        img: 'CryptoPsychologyMain.webp',
+        alt: 'An unlit glass light bulb resting on its side in front of an unfocused set of lights that are in ' +
+            'the shape of an upwards beam.',
+        header: 'CryptoPsychology.webp',
+    },
+    {
         id: 35,
         title: 'Why the Stablecoin Price Isn’t Always Stable',
         date: 'May 22nd 2023',
