@@ -72,8 +72,8 @@ export default function Balancing() {
                                                 diversification. Rather than chucking a few assets into a hat and
                                                 picking from it, we have measured the efficiencies of many options
                                                 and selected the assets that stood out the most to us. This efficiency
-                                                data comes from <Card.Link className={styles.weblink} href={'research'}>
-                                                Webminers Research</Card.Link> if you want to build your portfolio.
+                                                data comes from <Card.Link className={styles.weblink} href={'efficiency'}>
+                                                Webminers Efficiency</Card.Link> if you want to build your portfolio.
                                                 There are three levels of Balancing, each with more assets for
                                                 you to pick from.
                                                 <br/>

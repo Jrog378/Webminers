@@ -99,8 +99,8 @@ export default function WhatIsAnAltcoin() {
                 'have a very good investing system for your altcoin. Market manipulation is much easier on ' +
                 'altcoins when compared to Bitcoin and Ethereum.\n' +
                 '\n' +
-                'The market manipulation I am talking about is [pump and dump](/https://webminers.dev/articles/' +
-                'what-is-a-crypto-bubble). Pump and dumps are when an altcoin or crypto does not have a lot of ' +
+                'The market manipulation I am talking about is [pump and dump](what-is-a-crypto-bubble). ' +
+                'Pump and dumps are when an altcoin or crypto does not have a lot of ' +
                 'investors and someone with a lot of money purposely raises the price by buying coins until ' +
                 'people catch on and want to be part of the movement, once at the top the large investor sell ' +
                 'their coins for a lot of money and then all of the little guys panic as the crypto soars right ' +
