@@ -33,7 +33,7 @@ export default function FinancialAiAndDataScience() {
             title: 'Automation',
             id: 'Automation',
             description: 'A screen with 8 different line graphs that are different colors showing numbers ' +
-                'and percentages as part of an automation test.\n',
+                'and percentages as part of an automation test.',
             text: 'Everyone wants to save time. After all, time is money. What better way than financial ' +
                 'automation using AI? AI-powered financial automation is the act of creating something ' +
                 'to automatically do a task or action for you and you can read about it more in my article ' +
@@ -65,7 +65,7 @@ export default function FinancialAiAndDataScience() {
             title: 'Sentiment',
             id: 'Sentiment',
             description: 'Phone screen showing the social media apps LinkedIn, Snapchat, Pinterest, ' +
-                'Twitter, Telegram, Facebook, Instagram, and more.\n',
+                'Twitter, Telegram, Facebook, Instagram, and more.',
             text: 'What people think about the markets will largely impact which way people are believing ' +
                 'the market will go. If large companies and hedge funds are unsure of what is going on in ' +
                 'the markets, they will not be putting their money anywhere near them. This is important for ' +
@@ -93,7 +93,7 @@ export default function FinancialAiAndDataScience() {
             title: 'Market Correlation',
             id: 'MarketCorrelation',
             description: 'A sheet of white paper with a candle chart of a stock that is going up and down ' +
-                'with moving averages and volume lines on it.\n',
+                'with moving averages and volume lines on it.',
             text: 'Market Correlation has pros and cons to traditional trading markets. First, we have to ' +
                 'understand what AI and market correlation means. Market Correlation is the impact that one ' +
                 'asset has on the other. Investopedia wrote a good article on [Why Market Correlation Matters]' +
@@ -119,7 +119,7 @@ export default function FinancialAiAndDataScience() {
             title: 'Robo Advising',
             id: 'RoboAdvising',
             description: 'A metal robot with one giant eye standing in front of a giant screen that is ' +
-                'showing a picture of a glowing moon on top of it.\n',
+                'showing a picture of a glowing moon on top of it.',
             text: 'Robo Advising has already begun its road with AI in today\'s world of finance. With the use of ' +
                 'AI-powered robo advising, insights from a computer have become more specialized than ever. We ' +
                 'are in a time where Robo Advising is changing the financial industry and has only one way to go, ' +
@@ -143,7 +143,7 @@ export default function FinancialAiAndDataScience() {
             title: 'Final Thoughts',
             id: 'FinalThoughts',
             description: 'An AI robot arm that is playing chess on a wooden chess board on the brown side ' +
-                'inside a dark room all on a white tabletop.\n',
+                'inside a dark room all on a white tabletop.',
             text: 'AI-powered financial services are great and its development so far has been nothing shy of ' +
                 'impressive. Some flaws and problems come with it that the regular investor must know about. Being ' +
                 'prepared for when these issues become more large-scale can help you avoid great losses or even ' +
