@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 39,
+        title: 'How the News Influences the Crypto Market - For Investors',
+        date: 'May 24rd, 2023',
+        text: 'Crypto Volatility is a driving force for profit that can be influenced and impacted by digital ' +
+            'crypto regulation, market sentiment, and market psychology.',
+        url: '/articles/what-impacts-crypto-volatility',
+        img: 'VolatileCryptoMain.webp',
+        alt: 'A golden Ethereum crypto coin sitting on its side on top of a stack of other golden coins in front ' +
+            'of a gauge pointing green.',
+        header: 'VolatileCrypto.webp',
+    },
+    {
         id: 38,
         title: 'How the News Influences the Crypto Market - For Investors',
         date: 'May 24rd, 2023',
