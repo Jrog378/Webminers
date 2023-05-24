@@ -7,7 +7,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
 
-export default function ShortTermVsLongTermCryptoInvesting() {
+export default function PopularCryptocurrency() {
     const Article = [
         {
             img: PopularCryptoMain,
