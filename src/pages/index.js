@@ -156,7 +156,7 @@ export default function Home() {
                                                 Insights</Card.Link>,
                                             <Card.Link className={styles.weblink}
                                                        href={'/balancing'}> Asset Balancing</Card.Link>,
-                                            <Card.Link className={styles.weblink} href={'/research'}> Asset
+                                            <Card.Link className={styles.weblink} href={'/efficiency'}> Asset
                                                 Efficiency</Card.Link>, and <Card.Link className={styles.weblink}
                                                                                        href={'/articles'}> Education </Card.Link>
                                             can help provide you the knowledge and research to
