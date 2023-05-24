@@ -35,7 +35,7 @@ const ArticleFormat = ({Article, url}) => {
                                 {Detail.title}
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Published on: {Detail.date}
+                                Last updated: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>

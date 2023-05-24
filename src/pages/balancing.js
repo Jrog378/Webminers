@@ -73,13 +73,13 @@ export default function Balancing() {
                                                 picking from it, we have measured the efficiencies of many options
                                                 and selected the assets that stood out the most to us. This efficiency
                                                 data comes from <Card.Link className={styles.weblink} href={'efficiency'}>
-                                                Webminers Efficiency</Card.Link> if you want to build your portfolio.
+                                                Asset Efficiency</Card.Link> if you want to build your portfolio.
                                                 There are three levels of Balancing, each with more assets for
                                                 you to pick from.
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;What to invest in?&apos; visit
-                                                <Card.Link className={styles.weblink} href={'insights'}> Webminers Market
+                                                <Card.Link className={styles.weblink} href={'insights'}> Market
                                                     Insights
                                                 </Card.Link> to answer &apos;When to invest?&apos;
                                             </Card.Text>
