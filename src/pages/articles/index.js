@@ -76,11 +76,11 @@ export default function Articles() {
             <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Head>
-                    <title>Webminers Articles - Making Smarted Scientific Decisions with Investing Systems</title>
+                    <title>Webminers Educational and Research-Based Crypto Articles</title>
                     <meta name={'og:title'}
-                          content={'Webminers Articles - Making Smarted Scientific Decisions with Investing Systems'}/>
+                          content={'Webminers Educational and Research-Based Crypto Articles'}/>
                     <meta name="description"
-                          content="Webminers Articles are revolutionizing how we make financial decisions with new balances and optimization"/>
+                          content="Crypto investing, blockchain technology, and AI should be topics that are not difficult to get into or understand. Webminers articles strive to reach that goal."/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 </Head>
