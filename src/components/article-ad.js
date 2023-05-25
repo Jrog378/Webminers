@@ -17,6 +17,6 @@ export const Adsense = ({slot}) => {
 
     return (
         <div style={{minHeight: '250px', padding:'1% 8%'}}
-             dangerouslySetInnerHTML={{__html: adSenseScript, nonce: 'my-nonce'}}/>
+             dangerouslySetInnerHTML={{__html: adSenseScript, nonce: 'CodeAbs%1434@*'}}/>
     );
 };

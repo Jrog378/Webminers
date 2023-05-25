@@ -10,6 +10,7 @@ import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
 import {Adsense} from "@/components/article-ad";
+import {AdRecover} from "@/components/ad-recover";
 
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
@@ -23,6 +24,7 @@ const ArticleFormat = ({Article, url}) => {
                 <meta name='description' content={Detail.text}/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
+                <AdRecover/>
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
