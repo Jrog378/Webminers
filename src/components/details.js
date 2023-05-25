@@ -1,8 +1,20 @@
 const details = [
     {
+        id: 40,
+        title: 'Investing vs Gambling - Valuing Profit Over Greed in Crypto',
+        date: 'May 25th, 2023',
+        text: 'Crypto Investing and gambling are closer than you think, in fact there are investors in gambling ' +
+            'and gamblers in investing. Money can be made and lost in both.',
+        url: '/articles/investing-vs-gambling',
+        img: 'InvestGambleMain.webp',
+        alt: 'A golden coin with a bitcoin logo on it is sitting up on its edge with an image of the market in ' +
+            'green going up behind it.',
+        header: 'InvestGamble.webp',
+    },
+    {
         id: 39,
         title: 'What Impacts Crypto Volatility - How Investors Identify Risk',
-        date: 'May 24rd, 2023',
+        date: 'May 24th, 2023',
         text: 'Crypto Volatility is a driving force for profit that can be influenced and impacted by digital ' +
             'crypto regulation, market sentiment, and market psychology.',
         url: '/articles/what-impacts-crypto-volatility',
@@ -14,7 +26,7 @@ const details = [
     {
         id: 38,
         title: 'How the News Influences the Crypto Market - For Investors',
-        date: 'May 24rd, 2023',
+        date: 'May 24th, 2023',
         text: 'The news helps us stay updated with important event updates and interesting articles, but ' +
             'regulation and sentiment in the news can influence crypto markets.',
         url: '/articles/news-in-the-crypto-market',
@@ -255,7 +267,7 @@ const details = [
         id: 18,
         title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
         date: 'Apr 24th, 2023',
-        text: 'There are many ways to find the best crypto to invest in. Efficiency remains the most                      ' +
+        text: 'There are many ways to find the best crypto to invest in. Efficiency remains the most' +
             'accurate and we will be going into four of the most efficient cryptos to pick from.',
         url: '/articles/best-efficient-crypto',
         img: 'BestCryptoMain.webp',
