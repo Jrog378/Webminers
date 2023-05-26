@@ -32,13 +32,11 @@ function EmailList() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Email List</title>
-                <meta property='og:title' content='Webminers Investing - Email List'/>
+                <title>Email List for Webminers Investing</title>
+                <meta property='og:title' content='Email List for Webminers Investing'/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta name='description'
-                      content='Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency.'
-                />
+                      content='Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content.'/>
             </Head>
             <Container style={{padding: '25px', height: '100%'}} className="login">
                 <Container className={styles.inputcon}>

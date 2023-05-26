@@ -8,10 +8,10 @@ export default function TermsOfService() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Terms of Service</title>
+                <title>Terms of Service for Webminers Investing</title>
+                <meta name={'og:title'} content={'Terms of Service for Webminers Investing'}/>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>

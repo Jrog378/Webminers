@@ -32,13 +32,11 @@ function Unsubscribe() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Unsubscribe From Email List</title>
-                <meta property='og:title' content='Webminers Investing - Unsubscribe From Email List'/>
+                <title>Unsubscribe From Webminers Investing Email List</title>
+                <meta property='og:title' content='Unsubscribe From Webminers Investing Email List'/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta name='description'
-                      content='Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency.'
-                />
+                      content='Unsubscribe from our email list with this page. We are sad to see you go but are happy that you stuck with us for this long. You are welcomed back anytime.'/>
             </Head>
             <Container style={{padding: '25px', height: '100%'}} className="login">
                 <Container className={styles.inputcon}>

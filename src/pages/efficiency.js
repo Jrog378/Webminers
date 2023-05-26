@@ -46,8 +46,7 @@ export default function Efficiency() {
                 <title>Webminers Investing - Asset Efficiency</title>
                 <meta name={'og:title'} content={'Webminers Investing - Asset Efficiency'}/>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>

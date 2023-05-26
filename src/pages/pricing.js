@@ -8,11 +8,10 @@ export default function Pricing() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Pricing</title>
-                <meta name={'og:title'} content={'Webminers Investing - Pricing'}/>
+                <title>Plan Pricing for Webminers Investing</title>
+                <meta name={'og:title'} content={'Plan Pricing for Webminers Investing'}/>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>

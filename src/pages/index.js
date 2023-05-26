@@ -114,8 +114,7 @@ export default function Home() {
                 <meta name={'og:title'}
                       content={'Webminers Investing - Smarter Crypto Investing, More Profit'}/>
                 <meta name="description"
-                      content="Webminers Investing provides data mining supported research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
@@ -141,10 +140,10 @@ export default function Home() {
                                 <Card className={styles.cardhover}>
                                     <Card.Body>
                                         <Card.Title style={{fontSize: 'x-large'}}>
-                                            Maximize Returns with Data Mining Findings
+                                            Maximize feturns with historically tested findings
                                         </Card.Title>
                                         <Card.Text style={{fontSize: 'larger'}}>
-                                            Webminers Investing provides data mining research backed
+                                            Webminers Investing provides historically and research backed
                                             education to help you make informed crypto investing decisions.
                                             Our mission is to help anyone from those who are just starting out
                                             with crypto to veteran investors.
@@ -187,8 +186,8 @@ export default function Home() {
                                         specialize in identifying the ups and downs of the crypto market and identifying
                                         how
                                         much
-                                        of what asset is best for and efficient portfolio, all backed by data mining
-                                        strategies.
+                                        of what asset is best for and efficient portfolio, all fully tested with past
+                                        and current data.
                                     </p>
                                 </Container>
                             </Col>
