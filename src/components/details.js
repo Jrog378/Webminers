@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 42,
+        title: 'Crypto Bull Market - Profit for Some, Disaster for Many',
+        date: 'May 26th, 2023',
+        text: 'Crypto bull markets are supposed to be only profit, somehow people still manage to lose money ' +
+            'from emotion, lost investing, and not knowing when it starts.',
+        url: '/articles/crypto-bull-market',
+        img: 'BullMarketMain.webp',
+        alt: 'The large metal bull statue that sits in wall street in New York while it is snowing outside and ' +
+            'the pathway has snow on it.',
+        header: 'BullMarket.webp',
+    },
+    {
         id: 41,
         title: 'Web3 Crypto - The Currency Growing Faster Than You Think',
         date: 'May 26th, 2023',
