@@ -45,10 +45,9 @@ export default function Balancing() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Asset Balancing</title>
+                <title>Asset Balancing - Finding Your Efficient Asset Percentages</title>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
