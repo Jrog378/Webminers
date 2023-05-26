@@ -40,11 +40,10 @@ export default function AuthSeasons(props) {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Market Insights</title>
-                <meta name={'og:title'} content={'Webminers Investing - Market Insights'}/>
+                <title>Market Insights - Historically-Backed Crypto Indicator</title>
+                <meta name={'og:title'} content={'Market Insights - Historically-Backed Crypto Indicator'}/>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>

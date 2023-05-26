@@ -8,10 +8,10 @@ export default function Privacy() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Privacy</title>
+                <title>Privacy Policy for Webminers Investing</title>
+                <meta name={'og:title'} content={'Privacy Policy for Webminers Investing'}/>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
