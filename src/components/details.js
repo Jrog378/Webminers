@@ -87,8 +87,8 @@ const details = [
         id: 36,
         title: 'Blockchain Transaction - The Variations and How They Work',
         date: 'May 23rd, 2023',
-        text: 'The blockchain has many different types of transactions that are not just for exchanging, selling, ' +
-            'and buying crypto. There are closed and hybrid transactions for better security.',
+        text: 'The blockchain has many different types of transactions. Exchanging, selling, and buying crypto ' +
+            'are open, we also have closed and hybrid for better security.',
         url: '/articles/blockchain-transaction',
         img: 'BlockchainTransMain.webp',
         alt: 'The world is seen from outer space with lines and dots all over it that are connected to each other ' +
@@ -99,8 +99,8 @@ const details = [
         id: 35,
         title: 'Why the Stablecoin Price Isn’t Always Stable',
         date: 'May 22nd, 2023',
-        text: 'Stablecoins, based on the name, are supposed to be stable. This is not always the case though. ' +
-            'They can become unstable when matched with being backed by banks and other cryptos.',
+        text: 'Stablecoins, based on the name, are supposed to be stable. This is not always the case when they ' +
+            'are not fully decentralized or have unstable backings to them.',
         url: '/articles/are-stablecoins-stable',
         img: 'StablecoinMain.webp',
         alt: 'A golden Bitcoin crypto coin in the sand by the beach with an hourglass sitting next to it along ' +
@@ -111,8 +111,8 @@ const details = [
         id: 34,
         title: 'Popular Cryptocurrency - Why More Investors Means Less Risk',
         date: 'May 21st, 2023',
-        text: 'Popular cryptocurrencies make for great investments for many reasons, they have more profit, ' +
-            'lower downside potential and a long price history that is trustworthy to investors.',
+        text: 'Popular cryptocurrencies make for great investments. They have more profit, lower downside ' +
+            'potential and a long price history that is trustworthy to investors.',
         url: '/articles/popular-cryptocurrency',
         img: 'PopularCryptoMain.webp',
         alt: 'A golden bitcoin crypto coin sitting on top of a silver ethereum crypto coin and three other coins ' +
@@ -123,8 +123,8 @@ const details = [
         id: 33,
         title: 'Seeing into the Crypto Future - Crypto\'s History and Direction',
         date: 'May 20th, 2023',
-        text: 'Crypto has a promising future ahead.Once we take a look into cryptos past we can decide what to do ' +
-            'now to get involved and ahead for the innovative future ahead.',
+        text: 'Crypto has a promising future ahead.Once we take a look into crypto\'s past we can decide what to ' +
+            'do now to get involved and for the innovative future ahead.',
         url: '/articles/into-the-crypto-future',
         img: 'CryptoFutureMain.webp',
         alt: 'A Golden Bitcoin crypto coin sitting on a top of a pile of multiple crypto coins of Ethereum ' +
@@ -135,8 +135,8 @@ const details = [
         id: 32,
         title: 'What is an Altcoin - Should You be Investing in Altcoins?',
         date: 'May 19th, 2023',
-        text: 'Altcoins, also known as alternative coins, are a great option to invest in other the main coins ' +
-            'Bitcoin and Ethereum, however, there are some things you must know beforehand.',
+        text: 'Altcoins, or alternative coins, are a great option to invest in other than Bitcoin and Ethereum, ' +
+            'however, there are some things you must know beforehand.',
         url: '/articles/what-is-an-altcoin',
         img: 'AltcoinMain.webp',
         alt: 'A single golden Bitcoin crypto coin with its logo on the face of the coin fading away into dust ' +
@@ -147,8 +147,8 @@ const details = [
         id: 31,
         title: 'What is The Crypto Blockchain - Finances of the Blockchain',
         date: 'May 18th, 2023',
-        text: 'The crypto blockchain has many uses, mainly of which are based around working with money, ' +
-            'including the crypto blockchain has investing and trading, staking, and smart contracts.',
+        text: 'The crypto blockchain has many functions like working with money, including the crypto blockchain ' +
+            'has investing and trading, staking, and smart contracts.',
         url: '/articles/what-is-the-crypto-blockchain',
         img: 'CryptoBlockMain.webp',
         alt: 'A golden Bitcoin crypto coin sitting on top of the face of a one hundred dollar bill with two ' +
@@ -159,8 +159,8 @@ const details = [
         id: 30,
         title: 'What is a Crypto Bubble - Why Does The Crypto Market Crash',
         date: 'May 17th, 2023',
-        text: 'A crypto bubble is difficult to predict, but we should still study it to avoid losses. ' +
-            'Crypto psychology, pump and dumps, and Black Swan events can help with these bubbles.',
+        text: 'A crypto bubble is difficult to predict, but by studying crypto psychology, pump and dumps, and ' +
+            'Black Swan events can help avoid losing money to these bubbles.',
         url: '/articles/what-is-a-crypto-bubble',
         img: 'CryptoBubbleMain.webp',
         alt: 'Stack of hundred dollar bills rolled up with a rubber band around them with a ' +
@@ -171,8 +171,8 @@ const details = [
         id: 29,
         title: 'Short-Term vs Long-Term Crypto Investing - Top Crypto Styles',
         date: 'May 16th, 2023',
-        text: 'Short-term and Long-term crypto investing are both great options to incorporate in your ' +
-            'investing style and it is important to know how they differ with profit and efficiency.',
+        text: 'Short-term and Long-term crypto investing are both great to use in your investing style and ' +
+            'it is important to know how they differ with profit and efficiency.',
         url: '/articles/short-term-vs-long-term-crypto-investing',
         img: 'ShortLongMain.webp',
         alt: 'A shiny ethereum crypto gold coin sitting up on its edge with other coins laying beneath it with ' +
@@ -184,7 +184,7 @@ const details = [
         title: 'Impactful Crypto Market Crashes - What You Can Learn From Them',
         date: 'May 15th, 2023',
         text: 'Market Crashes in crypto can be a scary event, but being able to understand them more can help ' +
-            'you better handle future crashes by looking into arbitrage events from the past.',
+            'you handle future crashes from arbitrage events from the past.',
         url: '/articles/crypto-market-crashes',
         img: 'ArbitrageMain.webp',
         alt: 'A shiny metal Ethereum crypto coin with a leather wallet next to it containing a credit ' +
@@ -196,7 +196,7 @@ const details = [
         title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
         date: 'May 14th, 2023',
         text: 'Not using a plan, allowing emotion to take control, and decisions without volatility can be ' +
-            'detrimental to your crypto investing as a beginner. Mistakes are how we become better.',
+            'detrimental to your crypto investing for any level of investor.',
         url: '/articles/biggest-crypto-mistakes',
         img: 'CryptoMistakesMain.webp',
         alt: 'The cryptocurrency market in all red going up and down along a candle with lines going around it ' +
@@ -207,8 +207,8 @@ const details = [
         id: 26,
         title: 'What to do in a Bear Market - Work to do During Slow Crypto Markets',
         date: 'May 13th, 2023',
-        text: 'Bearish Markets are a great time for robust crypto investing practices, investing your time into a ' +
-            'business, and spending your well-earned money on enjoyment until bullish again.',
+        text: 'Bearish Markets are a great time for robust crypto investing practices, businesses, and spending ' +
+            'your well-earned money on enjoyment until bullish again.',
         url: '/articles/what-to-do-in-bear-markets',
         img: 'BearMarketMain.webp',
         alt: 'Stacks of coins increasing as they go to the right with little plants on the top of them all next ' +
@@ -219,8 +219,8 @@ const details = [
         id: 25,
         title: 'AI Jobs - How AI Can Improve Your Work Productivity, Not Replace You',
         date: 'May 12th, 2023',
-        text: 'In terms of Investing, Creative Work, Programming, and Customer Support, instead of trying ' +
-            'to outrun AI, workers can incorporate it to improve their productivity and value even more.',
+        text: 'In terms of Investing, Creative Work, Programming, and Customer Support, instead of trying to ' +
+            'outrun AI, workers can use it to improve productivity and value.',
         url: '/articles/ai-jobs-productivity',
         img: 'JobsAIMain.webp',
         alt: 'A head that is made up of technology as a image of artificial intelligence that is ' +
@@ -231,8 +231,8 @@ const details = [
         id: 24,
         title: 'Is Cryptocurrency Safe? - Keep Your Money and Devices Secure',
         date: 'May 11th, 2023',
-        text: 'The question of is cryptocurrency safe is an important one to answer. We can determine this ' +
-            'with digital security, efficient investing, downsides of crypto, and finding legit cryptos.',
+        text: 'The question is cryptocurrency safe can importantly be answered with digital security, efficient ' +
+            'investing, downsides of crypto, and finding legit cryptos.',
         url: '/articles/is-cryptocurrency-safe',
         img: 'SafeCryptoMain.webp',
         alt: 'Earth from space with the northern lights in the background and a bunch of connected ' +
@@ -243,8 +243,8 @@ const details = [
         id: 23,
         title: 'Downsides of AI - What Crypto Investors Have to Look Out For',
         date: 'May 10th, 2023',
-        text: 'AI, as of right now, is an amazing tool for crypto investors to keep in their back pocket, however, ' +
-            'As AI begins to get more popular in Investing, there are many downsides too.',
+        text: 'AI is an amazing tool for crypto investors to keep in their back pocket, however, As AI begins ' +
+            'to get more popular in Investing, there are many downsides too.',
         url: '/articles/downsides-of-ai',
         img: 'DownsideAIMain.webp',
         alt: 'A blue realistic animated brain that has lines of wires as if it was a part of a ' +
@@ -255,8 +255,8 @@ const details = [
         id: 22,
         title: 'AI Investing - How to Become an AI Quant',
         date: 'May 9th, 2023',
-        text: 'AI Quants are the new age of top level investors and to become one, it takes building ' +
-            'an investing system with AI, then perfecting it with coding, data, and market skills.',
+        text: 'AI Quants are the new age of top level investors and to become one, it takes building an ' +
+            'investing system with complex coding, data, AI, and market skills.',
         url: '/articles/ai-quant-investing',
         img: 'AIQuantMain.webp',
         alt: 'Apple iPad with an investing app open that is showing the value of Bitcoin with a red ' +
@@ -267,8 +267,8 @@ const details = [
         id: 21,
         title: 'Financial AI - How AI and Data Science Can Help Crypto Investors',
         date: 'May 7th, 2023',
-        text: 'Financial AI is on the move and we will be going over how AI will be impacting Automation, ' +
-            'Sentiment, Market Correlation, and Robo Advising in the Financial World of Investing.',
+        text: 'Financial AI will be impacting Automation, Sentiment, Market Correlation, and Robo Advising in ' +
+            'the Financial World of Investing and we must stay updated.',
         url: '/articles/financial-ai-and-data-science',
         img: 'AIFinanceMain.webp',
         alt: 'A black head cutout with eighteen googly eyes fully covering it with the letters A I resting ' +
@@ -279,8 +279,8 @@ const details = [
         id: 20,
         title: 'What is Decentralization - Decentralized for Crypto Investors',
         date: 'May 1st, 2023',
-        text: 'There are many aspects of decentralization that are constantly developing, much of which is related ' +
-            'to the blockchain. As crypto investors we will look into more about this technology.',
+        text: 'There are many aspects of decentralization that are constantly developing, especially the ' +
+            'blockchain. Crypto investors should know everything about this tech.',
         url: '/articles/decentralization-for-crypto',
         img: 'DecenterMain.webp',
         alt: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
@@ -291,8 +291,8 @@ const details = [
         id: 19,
         title: 'Python Crypto Libraries - Programming Libraries For Crypto Investing',
         date: 'Apr 26th, 2023',
-        text: 'Programming in crypto gives you an advantage in the market that requires libraries to help ' +
-            'you with this. Here are some essential Python libraries for crypto programming.',
+        text: 'Programming in crypto gives you an advantage in the market, but many times we need libraries. ' +
+            'Here are some essential Python libraries for crypto programming.',
         url: '/articles/python-crypto-libraries',
         img: 'CryptoCodingMain.webp',
         alt: 'Mac laptop with multiple lines of code shown on its screen next to a black mouse as ' +
@@ -303,8 +303,8 @@ const details = [
         id: 18,
         title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
         date: 'Apr 24th, 2023',
-        text: 'There are many ways to find the best crypto to invest in. Efficiency remains the most' +
-            'accurate and we will be going into four of the most efficient cryptos to pick from.',
+        text: 'Finding the best crypto to invest in is easier than you think with the most accurate method, ' +
+            'efficiency, we can find the most efficient cryptos to pick from.',
         url: '/articles/best-efficient-crypto',
         img: 'BestCryptoMain.webp',
         alt: 'Three cryptocurrency coins resting on top of a one hundred dollar bill with a piece ' +
@@ -315,8 +315,8 @@ const details = [
         id: 17,
         title: 'Python for Crypto and Finance - How FinTech Uses Python for Profits',
         date: 'Apr 13th, 2023',
-        text: 'Python for Crypto and Finance has never been in more demand. There is more money to be made and the ' +
-            'only question is how. We dive into AI, Automation, Quants, and Data Visualization for Finance.',
+        text: 'Python for Crypto and Finance has never been in more demand. There is more money to be made in ' +
+            'AI, Automation, Quants, and Data Visualization for Finance.',
         url: '/articles/python-for-finance',
         img: 'PythonFinMain.webp',
         alt: 'Robot hand reaching out with one finger to a geometrically shaped group of white lines ' +
@@ -352,7 +352,7 @@ const details = [
         title: 'What Makes Investing a Timeless Money Maker',
         date: 'Mar 18th, 2023',
         text: 'Timeless money making comes best from investing, where there are many forms, each having its own ' +
-            'strengths and weaknesses',
+            'strengths and weaknesses.',
         url: '/articles/timeless-investing',
         img: 'TimelessMain.webp',
         alt: 'Pink piggy bank that has a coin in it\'s slot on a white table surrounded in ten bronze coins',
