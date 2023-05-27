@@ -14,118 +14,53 @@ export default function EthicalHacking() {
             title: '',
             id: 'Intro',
             description: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
-            text: 'The terms Cryptocurrency and Web3 have been tossed around lately and with good reason. They are ' +
-                'revolutionary and have a lot of purposes, because of this they are getting a lot of attention from ' +
-                'investors and the public. ' +
-                'This innovation is amazing and will make history, but not a lot of people know the specifics of the ' +
-                'downsides and just how exposed we really are.'
+            text: 'Crypto investors can have entire life savings online at a given time that they are unable to afford to lose, then crypto hackers come along. Mercilessly taking everything. The crypto industry is revolutionary for their technology and decentralization, but there are still some drawbacks. Hackers have become an issue recently in the crypto world.\n' +
+                '\n' +
+                'There is still hope though, here are some ways that you can keep yourself safe from crypto hackers:\n' +
+                '\n' +
+                '1. [Safety Basics](#Basics)\n' +
+                '2. [Crypto Vulnerabilities](#Vulnerabilities)\n' +
+                '3. [Crypto Device Protections](#DeviceProtections)\n'
         },
         {
-            title: 'Background for Safety',
+            title: 'Safety Basics',
+            id: 'Basics',
             img: Ethical1,
             description: 'A small section of a Mac Laptop with a rainbow gradient light from red to blue and a black keyboard.',
-            text: 'Web3 is also known as the movement towards a more decentralized web. ' +
-                'Having a Decentralized web would mean that there would be no central service that stores information ' +
-                'or data and would be more of person-to-person interaction. ' +
-                'This allows for complete privacy. \n' +
+            text: 'When talking about ethical hackers and regular hackers, it may get confusing which side they are on. To clarify, Ethical Hackers, also known as white hat hackers, are those who use hacking for ethical purposes to try and find weaknesses and how to fix them. Regular hackers, on the other hand, also known as black hat hackers, find those weaknesses and use them for their good.\n' +
                 '\n' +
-                'Today\'s internet has search engines like Google, Yahoo, Firefox, or Microsoft Edge that collect ' +
-                'cookies and your Internet Protocol address(IP address) or device identification number and location ' +
-                'every time you visit a website. ' +
-                'Check out the website [whatismyipaddress.com](https://whatismyipaddress.com/) if you don’t believe me. ' +
-                'Web3 strives for privacy among all users where no search engine gets your information. ' +
-                'This is great for the everyday user with no Ill intent but when it comes to those wishing to break ' +
-                'the law, it can lead to even more crime. \n' +
+                'Just because there are black hat hackers out there does not mean that they are attacking you specifically. They will be going after individuals that take the least amount of work to hack into for the most return. If you are to put up minimal defenses, many hackers would rather just find someone else rather than attempt to hack you. Defenses that you can use are not using public Wifi, using a [VPN](https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/) on private Wifis, and using built-in virus protection on your devices.\n' +
                 '\n' +
-                'Illegal acts on the internet will be easier than ever to get away with when web3 comes around, ' +
-                'this is extremely alarming especially with online currencies becoming popular.' +
-                'One instance of this is since 2019 over [$4 Billion has been stolen](https://www.forbes.com/sites/' +
-                'jeanbaptiste/2019/08/15/hackers-stole-over-4-billion-from-crypto-crimes-in-2019-so-far-up-from-1-7-' +
-                'billion-in-all-of-2018/?sh=39e8b25955f5) from people on the internet ' +
-                'and criminals won’t just make a one-time appearance. ' +
-                'Once someone is successful at stealing large sums of money on the internet, will most likely steal again.\n'
+                'Web safety is also important to take into consideration because even if you have a fully protected computer, you still have to worry about what you willingly give access to your computer. When on the web make sure to only use trusted links or [https, rather than http](https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/) sites. Don’t click links from untrusted emails or text messages. Even trusted contacts sending you a sketchy link should not be fully trusted, just because someone else trusts a link does not mean you have to as well. Trust your instincts.\n'
         },
         {
-            title: 'Digital Dangers',
+            title: 'Crypto Vulnerabilities',
+            id: 'Vulnerabilities',
             img: Ethical2,
             description: 'Bitcoin sitting in front of a computer screen that has the crypto market graph that is in the color blue.',
-            text: 'Crypto owners aren\'t the only ones at threat as well. Smart contracts on the blockchain(a network ' +
-                'of data and pathways) are rising in popularity from their ability to completely remove a middleman ' +
-                'in deals. ' +
-                'This allows for much more trust between companies and is a great addition to business. \n' +
+            text: 'While crypto is known for its safety there are still some vulnerabilities that you have to look out for. The blockchain technology that is used in [crypto transactions](blockchain-transaction) is a peer-to-peer system that is very open to the public including hackers. Your crypto\'s safety will be largely dependent on your actions on your computer as well as how you manage the risk that comes with crypto investing online. Hackers can even make money right from your accounts. \n' +
                 '\n' +
-                'As you could imagine, since this is relatively new, many contracts have flaws that can be exploited ' +
-                'if the right hacker gets his hands on them, especially this time when [$31 Million](https://www.fast' +
-                'company.com/40587391/now-hackers-have-stolen-another-31-million-in-cryptocurrencies) was stolen. ' +
-                'Smart contracts are only going to get more popular even with the possibility of getting hacked. ' +
-                'Most of the public does not quite notice the dangers of the internet fully and how easily it is to ' +
-                'get hacked or negatively impacted by someone else, especially with these last two examples increasing ' +
-                'in popularity. \n' +
+                'When it comes to your hard-earned money’s safety, not every exchange will be a good fit for you. Some exchanges that you will be forced to use when investing out of the [ordinary altcoins](what-is-an-altcoin) may not be that secure. They can be vulnerable to hacks themselves, risking the money you put into your account with them. The other issue that exchanges may have is internal issues that you should look out for. The [FTX situation](https://www.investopedia.com/what-went-wrong-with-ftx-6828447) is a great example of how much money was stolen from regular crypto investors from trusting a corrupt exchange.\n' +
                 '\n' +
-                'The internet will only get more and more popular no matter how dangerous it can be. People love the ' +
-                'internet and what it has to offer. ' +
-                'Jobs are becoming fully remote, fully online Entrepreneurs are on the rise, Startups don’t even need ' +
-                'offices anymore, and people are liking it. ' +
-                'A majority of workers prefer remote work and motives include being with their families more or being ' +
-                'more productive. With the increase in people online comes the increase of opportunities for people ' +
-                'seeking harm.\n' +
-                '\n' +
-                'There are so many different ways for these criminals to negatively impact your entire life as well. ' +
-                'For example, imagine you are a remote worker working from home, and one day you decide to get a coffee ' +
-                'from the coffee shop nearby. ' +
-                'If you connect to that public network, your information and device are fully at the risk of being ' +
-                'compromised and hacked into without really any protection.'
+                'There are also centralized companies backing certain decentralized cryptocurrencies like Silicon Valley Bank backing USDC. When the bank failed the price of USDC fell almost 20 cents lower than a dollar, which was not supposed to happen for [this stablecoin](are-stablecoins-stable). The background and foundation of crypto can be irregular and cause extra risk when hoping to invest in it. One of the easiest ways to keep yourself safe from these issues is by sticking with a [popular cryptocurrency](popular-cryptocurrency).\n'
         },
         {
-            title: 'How to Keep Yourself Safe',
+            title: 'Crypto Device Protections',
+            id: 'DeviceProtections',
             img: Ethical3,
             description: 'Computer screen with a mouse hovering over a button that is labeled with the word security in the color blue.',
-            text: 'This all may sound very concerning and you may wonder what should you do and how can you stop ' +
-                'yourself. ' +
-                'Many countermeasures are becoming a lot more popular and these are very important if you want to be ' +
-                'safe on the web ' +
-                'One of them is a Virtual Protective Network(VPN). VPNs put a mask over your IP address with a new ' +
-                'one and shield your location.\n' +
+            text: 'To keep yourself safe from crypto hacks there is still more that you can do on your side to keep [your crypto wallets](https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet) safe from harm. The basics like a VPN and no public wifi are still suggested and are a great start to your security, but you are going to need more. Hackers will be persistent when there is a lot of money involved.\n' +
                 '\n' +
-                'Some websites don’t like VPNs however because they like to know this info about you so make sure ' +
-                'you get a good one that can be hard to detect. ' +
-                'I use [Proton VPN](https://protonvpn.com/) personally. ' +
-                'Another great thing that is coming into play is that white hat hackers are being respected more ' +
-                'and becoming more valuable. \n' +
+                'Do not write your secret phrases on your laptop or iPhone. If one of your devices happens to get hacked you want to make sure that they are not able to do any more harm than just what’s on the phone. These phrases should also not be put in plain sight. If someone were to break into the area where you store your computer they have that phrase right there. It would be a good idea to write it down somewhere you will remember or save it in an encrypted file that you put onto a USB.\n' +
                 '\n' +
-                'Now if you don\'t know what the different types of hackers are, [Geeksforgeeks wrote a great article]' +
-                '(https://www.geeksforgeeks.org/types-of-hackers/) I recommend you read.' +
-                'To summarize, black hat hackers are the hackers that are there with ill intent. These are the ones ' +
-                'that will steal money and information. Some even just ruin things for enjoyment. ' +
-                'Grey hat hackers can be easily explained in the "grey" area of the two of them. This is because ' +
-                'they are not legally authorized hackers but do not always act to hurt others. ' +
-                'Finally, white hat hackers, also known as ethical hackers, are hired by companies to try and hack ' +
-                'into their websites or database to find vulnerabilities. These hackers will test security features ' +
-                'like the firewall or how easy it would be to steal data.'
+                'Another type of hack is where two companies or partners will make an agreement called a [smart contract](https://www.ibm.com/topics/smart-contracts). This smart contract is on the blockchain and removes the need for a middleman. The money is then put into the blockchain and held there until all terms of the agreement have been met, where the two sides then exchange what was agreed upon. This sounds great and more secure than usual, yet there are still vulnerabilities. If this smart contract is not written well, a hacker can exploit the contract, taking all the cryptocurrency that was supposed to be sent to the worker.\n'
         },
         {
             title: 'Summary',
             img: Ethical4,
             id: 'Summary',
             description: 'Random characters flowing over the screen from top to bottom in the color green with a black background, the matrix.',
-            text: 'In today\'s age of the internet, some white hat hackers were not respected that well by companies, ' +
-                'and some were neglected to the point where companies don’t think they need them. ' +
-                'As the future of the web comes along it will be increasingly important for these white hat hackers to ' +
-                'be a part of online companies and increase safety for their users.\n' +
-                '\n' +
-                'Not only will white hat hackers help keep companies and their data safe, but they will also help ' +
-                'with these upcoming smart contracts as well as blockchain security to stop people from taking advantage ' +
-                'of unprotected companies or individuals. ' +
-                'Innovation on the internet is not exactly good or bad, in my opinion, it can be seen as a middle ' +
-                'ground. Where there is light there will always be shadow.' +
-                'As black hat hackers rise to the occasion so will white hat hackers. I would not say there is anything ' +
-                'to worry about though. Individuals need to keep themselves and their information safe.\n' +
-                '\n' +
-                'If this post does well I will be releasing a new article about being safe on the internet and new ways ' +
-                'to protect yourself and your information with the evolving web. ' +
-                'Comment below as well if you have any topics you would like me to write about.\n' +
-                '\n' +
-                'Be safe!'
+            text: 'Overall there are many methods to protect yourself from the possible outcomes that come with crypto hackers. Ethical hackers are great because they will be able to help regular businesses find the same vulnerabilities that those black hat hackers are looking for. Staying safe takes some time so that you can look into what you are doing. Always remember your VPN and do not use public wifi. Crypto investing is only as safe as you let it be.\n'
         }
     ]
     const router = useRouter();
