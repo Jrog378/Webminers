@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 43,
+        title: ' Crypto Opportunities - How crypto could change your life',
+        date: 'May 27th, 2023',
+        text: 'Crypto has many opportunities for you to pursue like wealth, networking, and business that can ' +
+            'fill your future, if you get the crucial head start needed.',
+        url: '/articles/crypto-opportunities',
+        img: 'CryptoOpportunitiesMain.webp',
+        alt: 'A golden coin on a stack of multiple other regular currency coins that has a bitcoin logo ' +
+            'imprinted into it on a grayish table.',
+        header: 'CryptoOpportunities.webp',
+    },
+    {
         id: 42,
         title: 'Crypto Bull Market - Profit for Some, Disaster for Many',
         date: 'May 26th, 2023',
