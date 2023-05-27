@@ -479,10 +479,10 @@ const details = [
     },
     {
         id: 2,
-        title: 'Ethical Hackers are Needed More Than Ever in Our Future',
-        date: 'Sep 5th, 2022',
-        text: 'As hackers are getting better and better, what can truly be done to stop them to keep you and ' +
-            'your family digitally safe.',
+        title: 'Ethical Hackers Against Crypto Hackers Are Greatly Needed',
+        date: 'May 27th, 2023',
+        text: 'Crypto Hackers are taking millions without much resistance, and this needs to change. Ethical ' +
+            'Hackers in crypto are needed for the future safety of crypto.',
         url: '/articles/ethical-hacking',
         img: 'EthicalMain.webp',
         alt: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
@@ -490,10 +490,10 @@ const details = [
     },
     {
         id: 1,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 1',
-        date: 'Sep 4th, 2022',
+        title: 'The Origin Story of Webminers - Our Crypto Investing Website',
+        date: 'May 26th, 2023',
         text: 'Starting from programming to engineering to programming. The full cycle of why Jus is where ' +
-            'he is and why',
+            'he is and why.',
         url: '/articles/introduction',
         img: 'IntroMain.webp',
         alt: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.',
