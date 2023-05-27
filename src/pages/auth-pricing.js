@@ -29,10 +29,9 @@ export default function AuthPricing() {
         <>
             <Script async src="https://js.stripe.com/v3/pricing-table.js"/>
             <Head>
-                <title>Webminers Investing - Authorized Pricing</title>
+                <title>Authorized Pricing for Webminers Investing</title>
                 <meta name="description"
-                      content="Webminers Investing provides scientifically backed research and education to help you
-                      make informed investing decisions with Insights, Balancing, and Efficiency."/>
+                      content="Authorized pricing is where you will buy all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
