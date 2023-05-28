@@ -92,7 +92,7 @@ const ArticleFormat = ({Article, url}) => {
                                             <Suggest Detail={Detail.id}/>
                                         </div>
                                         <div className={styles.pad}>
-                                            <ArticleAd slot={"2104885557"}/>
+                                            <DisplayAd slot={1008265344}/>
                                         </div>
                                     </Col>
                                 </Row>
