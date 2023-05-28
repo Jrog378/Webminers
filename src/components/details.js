@@ -479,10 +479,10 @@ const details = [
     },
     {
         id: 3,
-        title: 'Data Visualization - A Profitable Data Science Subcategory',
-        date: 'Sep 6th, 2022',
-        text: 'Data Visualization is the art of displaying data in a way that anyone can read allowing for the ' +
-            'value of true creativity to be shown.',
+        title: 'Financial Data Visualization - Visualizing Riches and Profit',
+        date: 'May 27th, 2023',
+        text: 'Financial data visualization is a great tool to be able to use. To even get started make sure you ' +
+            'have the basics down, then you can get into complex graphics.',
         url: '/articles/data-vis',
         img: 'VisualMain.webp',
         alt: 'Bar graph on a purple sheet of paper with an iPhone displaying the calculator app next to a set ' +
