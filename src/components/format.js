@@ -9,8 +9,9 @@ import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
-import {Adsense} from "@/components/article-ad";
+import {DisplayAd} from "@/components/display-ad";
 import {AdRecover} from "@/components/ad-recover";
+import {ArticleAd} from "@/components/article-ad";
 
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
@@ -82,7 +83,7 @@ const ArticleFormat = ({Article, url}) => {
                                         </Row>
                                         <Row>
                                             <div className={styles.pad}>
-                                                <Adsense slot={"4158745359"}/>
+                                                <DisplayAd slot={"4158745359"}/>
                                             </div>
                                         </Row>
                                     </Col>
@@ -91,7 +92,7 @@ const ArticleFormat = ({Article, url}) => {
                                             <Suggest Detail={Detail.id}/>
                                         </div>
                                         <div className={styles.pad}>
-                                            <Adsense slot={"1008265344"}/>
+                                            <ArticleAd slot={"2104885557"}/>
                                         </div>
                                     </Col>
                                 </Row>
