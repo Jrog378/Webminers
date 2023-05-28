@@ -21,7 +21,11 @@ export default function WhatToDoInBearMarkets() {
                 '(https://www.thetimes.co.uk/money-mentor/article/is-bitcoin-crash-coming/) after 2021. ' +
                 'Bear Markets are not always a bad thing as long as you can find out what you are going ' +
                 'to be spending your working hours doing rather than wasting your time. Let\'s get into ' +
-                'what you can do when met with bearish markets.'
+                'what you can do when met with bearish markets.\n' +
+                '\n' +
+                '1. [Continue Investing](#Investing)\n' +
+                '2. [Spending Time on Businesses](#BusinessTime)\n' +
+                '3. [Spend Your Money](#SpendMoney)\n'
         },
         {
             img: BearMarket1,
