@@ -1,7 +1,7 @@
 const details = [
     {
         id: 43,
-        title: ' Crypto Opportunities - How crypto could change your life',
+        title: ' Crypto Opportunities - How Crypto Could Change Your Life',
         date: 'May 27th, 2023',
         text: 'Crypto has many opportunities for you to pursue like wealth, networking, and business that can ' +
             'fill your future, if you get the crucial head start needed.',
