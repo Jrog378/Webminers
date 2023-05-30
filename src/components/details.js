@@ -1,7 +1,19 @@
 const details = [
     {
+        id: 44,
+        title: 'The Crypto Crowd is Always Wrong - How to Avoid Their Losses',
+        date: 'May 28th, 2023',
+        text: 'You never want to follow the crowd in crypto. Many times they have bad data, are easily manipulated, ' +
+            'and will end up being the main ones funding other’s profit.',
+        url: '/articles/crypto-crowd-is-wrong',
+        img: 'CryptoCrowdMain.webp',
+        alt: 'A white money bag filled with stacks of cash next to some gold and silver coin showing the Bitcoin ' +
+            'logo all on a brown table.',
+        header: 'CryptoCrowd.webp',
+    },
+    {
         id: 43,
-        title: ' Crypto Opportunities - How Crypto Could Change Your Life',
+        title: 'Crypto Opportunities - How Crypto Could Change Your Life',
         date: 'May 27th, 2023',
         text: 'Crypto has many opportunities for you to pursue like wealth, networking, and business that can ' +
             'fill your future, if you get the crucial head start needed.',
@@ -384,101 +396,17 @@ const details = [
     },
     {
         id: 11,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 4',
-        date: 'Feb 6th, 2023',
-        text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
-            'Market Insights, Asset Balancing, and Asset Efficiency.',
-        url: '/articles/new-services',
-        img: 'NewServicesMain.webp',
-        alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
-            'sitting on a wooden desk that has a plant on it.',
-        header: 'NewServices.webp'
+        title: 'Ethical Hackers Against Crypto Hackers Are Greatly Needed',
+        date: 'May 27th, 2023',
+        text: 'Crypto Hackers are taking millions without much resistance, and this needs to change. Ethical ' +
+            'Hackers in crypto are needed for the future safety of crypto.',
+        url: '/articles/ethical-hacking',
+        img: 'EthicalMain.webp',
+        alt: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
+        header: 'Ethical.webp'
     },
     {
         id: 10,
-        title: 'Avoid the Copy and Paste Psyche & Break Applicant Uniformity',
-        date: 'Oct 26th, 2022',
-        text: 'The world of developers and programmers is a plentiful place. However, you want to show how ' +
-            'different you are and stand out with what you have.',
-        url: '/articles/stand-out',
-        img: 'UniqueMain.webp',
-        alt: 'Calculator application overtop of a white screen with code in blue, purple and orange color ' +
-            'typed on it on a mac laptop.',
-        header: 'Unique.webp'
-    },
-    {
-        id: 9,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 3',
-        date: 'Oct 15th, 2022',
-        text: 'Introduction to the new blog site that has been fully redone along with summary of the new ' +
-            'categories and plans to come for webminers.',
-        url: '/articles/new-webminers',
-        img: 'SiteMain.webp',
-        alt: 'Four lit up light bulbs all handing in a line from black wires with one swinging ' +
-            'off to the side like a newton\'s cradle.',
-        header: 'Site.webp'
-    },
-    {
-        id: 8,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 2',
-        date: 'Sep 28th, 2022',
-        text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have ' +
-            'planned to come for readers.',
-        url: '/articles/new-changes',
-        img: 'ImproveMain.webp',
-        alt: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has ' +
-            'many thin black bars.',
-        header: 'Improve.webp'
-    },
-    {
-        id: 7,
-        title: 'What Truly Makes a Good Technical Copywriter Stand Out',
-        date: 'Sep 19th, 2022',
-        text: 'How to become a better technical copywriter and develop in-demand skills to make an impact ' +
-            'and provide these services to businesses.',
-        url: '/articles/good-tech-writer',
-        img: 'GoodWriterMain.webp',
-        alt: 'Older dip pen resting on a black tabletop and a black background along with a black shadow ' +
-            'covering over them.',
-        header: 'GoodWriter.webp'
-    },
-    {
-        id: 6,
-        title: '6 Growing Jobs To Take Advantage of our Technical Future',
-        date: 'Sep 14th, 2022',
-        text: 'As Jobs began to be automated and replaced by technology, here are the few that have a ' +
-            'prosperous future for anyone to take advantage.',
-        url: '/articles/tech-future',
-        img: 'TechieMain.webp',
-        alt: 'Black glasses sitting in front of 4 computer screens where only through the glasses the image is clear.',
-        header: 'Techie.webp'
-    },
-    {
-        id: 5,
-        title: 'Satellites - The Space Spies That Watch Over the World',
-        date: 'Sep 11th, 2022',
-        text: 'Explaining the good and bad of constant satellite recording with where we draw the line between ' +
-            'spying on people and privacy.',
-        url: '/articles/space-spies',
-        img: 'SatMain.webp',
-        alt: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue ' +
-            'body of water.',
-        header: 'Sat.webp'
-    },
-    {
-        id: 4,
-        title: 'Python has Been Taking Over the Data Science World',
-        date: 'Sep 7th, 2022',
-        text: 'Python has been hitting the world by storm, becoming the most popular programming language, ' +
-            'especially in Data Science. Let\'s see why.',
-        url: '/articles/python-data-science',
-        img: 'PythonDataMain.webp',
-        alt: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored ' +
-            'code filling the page.',
-        header: 'PythonData.webp'
-    },
-    {
-        id: 3,
         title: 'Financial Data Visualization - Visualizing Riches and Profit',
         date: 'May 27th, 2023',
         text: 'Financial data visualization is a great tool to be able to use. To even get started make sure you ' +
@@ -490,15 +418,99 @@ const details = [
         header: 'Visual.webp'
     },
     {
+        id: 9,
+        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 4',
+        date: 'Feb 6th, 2023',
+        text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
+            'Market Insights, Asset Balancing, and Asset Efficiency.',
+        url: '/articles/new-services',
+        img: 'NewServicesMain.webp',
+        alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
+            'sitting on a wooden desk that has a plant on it.',
+        header: 'NewServices.webp'
+    },
+    {
+        id: 8,
+        title: 'Avoid the Copy and Paste Psyche & Break Applicant Uniformity',
+        date: 'Oct 26th, 2022',
+        text: 'The world of developers and programmers is a plentiful place. However, you want to show how ' +
+            'different you are and stand out with what you have.',
+        url: '/articles/stand-out',
+        img: 'UniqueMain.webp',
+        alt: 'Calculator application overtop of a white screen with code in blue, purple and orange color ' +
+            'typed on it on a mac laptop.',
+        header: 'Unique.webp'
+    },
+    {
+        id: 7,
+        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 3',
+        date: 'Oct 15th, 2022',
+        text: 'Introduction to the new blog site that has been fully redone along with summary of the new ' +
+            'categories and plans to come for webminers.',
+        url: '/articles/new-webminers',
+        img: 'SiteMain.webp',
+        alt: 'Four lit up light bulbs all handing in a line from black wires with one swinging ' +
+            'off to the side like a newton\'s cradle.',
+        header: 'Site.webp'
+    },
+    {
+        id: 6,
+        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 2',
+        date: 'Sep 28th, 2022',
+        text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have ' +
+            'planned to come for readers.',
+        url: '/articles/new-changes',
+        img: 'ImproveMain.webp',
+        alt: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has ' +
+            'many thin black bars.',
+        header: 'Improve.webp'
+    },
+    {
+        id: 5,
+        title: 'What Truly Makes a Good Technical Copywriter Stand Out',
+        date: 'Sep 19th, 2022',
+        text: 'How to become a better technical copywriter and develop in-demand skills to make an impact ' +
+            'and provide these services to businesses.',
+        url: '/articles/good-tech-writer',
+        img: 'GoodWriterMain.webp',
+        alt: 'Older dip pen resting on a black tabletop and a black background along with a black shadow ' +
+            'covering over them.',
+        header: 'GoodWriter.webp'
+    },
+    {
+        id: 4,
+        title: '6 Growing Jobs To Take Advantage of our Technical Future',
+        date: 'Sep 14th, 2022',
+        text: 'As Jobs began to be automated and replaced by technology, here are the few that have a ' +
+            'prosperous future for anyone to take advantage.',
+        url: '/articles/tech-future',
+        img: 'TechieMain.webp',
+        alt: 'Black glasses sitting in front of 4 computer screens where only through the glasses the image is clear.',
+        header: 'Techie.webp'
+    },
+    {
+        id: 3,
+        title: 'Satellites - The Space Spies That Watch Over the World',
+        date: 'Sep 11th, 2022',
+        text: 'Explaining the good and bad of constant satellite recording with where we draw the line between ' +
+            'spying on people and privacy.',
+        url: '/articles/space-spies',
+        img: 'SatMain.webp',
+        alt: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue ' +
+            'body of water.',
+        header: 'Sat.webp'
+    },
+    {
         id: 2,
-        title: 'Ethical Hackers Against Crypto Hackers Are Greatly Needed',
-        date: 'May 27th, 2023',
-        text: 'Crypto Hackers are taking millions without much resistance, and this needs to change. Ethical ' +
-            'Hackers in crypto are needed for the future safety of crypto.',
-        url: '/articles/ethical-hacking',
-        img: 'EthicalMain.webp',
-        alt: 'MacBook Pro Laptop with two credit cards resting on the keyboard with a padlock on top of those.',
-        header: 'Ethical.webp'
+        title: 'Python has Been Taking Over the Data Science World',
+        date: 'Sep 7th, 2022',
+        text: 'Python has been hitting the world by storm, becoming the most popular programming language, ' +
+            'especially in Data Science. Let\'s see why.',
+        url: '/articles/python-data-science',
+        img: 'PythonDataMain.webp',
+        alt: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored ' +
+            'code filling the page.',
+        header: 'PythonData.webp'
     },
     {
         id: 1,
