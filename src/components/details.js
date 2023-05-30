@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 45,
+        title: '5 Ways Crypto Gaming Mixed Video Games With the Blockchain',
+        date: 'May 29th, 2023',
+        text: 'Crypto gaming paved its way in the public by using free crypto, NFTs, blockchain technology, ' +
+            'virtual reality, and amplifying the feeling of winning for users.',
+        url: '/articles/video-games-with-the-blockchain',
+        img: 'CryptoGamingMain.webp',
+        alt: 'A gaming controller with a blue light on the top that is shining off of a reflective table and fully ' +
+            'lighting up a dark room.',
+        header: 'CryptoGaming.webp',
+    },
+    {
         id: 44,
         title: 'The Crypto Crowd is Always Wrong - How to Avoid Their Losses',
         date: 'May 28th, 2023',
