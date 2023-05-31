@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 46,
+        title: '6 Ways to Make Money With Cryptocurrency - For Crypto Buyers',
+        date: 'May 30th, 2023',
+        text: 'There are many ways to make money with cryptocurrency, including but not limited to investing or ' +
+            'trading in different types of cryptos with different methods.',
+        url: '/articles/make-money-with-cryptocurrency',
+        img: 'CryptoMoneyMain.webp',
+        alt: 'A stack of one hundred dollar bills rolled up with a rubber band around it and the crypto market ' +
+            'on a computer screen behind it.',
+        header: 'CryptoMoney.webp',
+    },
+    {
         id: 45,
         title: '5 Ways Crypto Gaming Mixed Video Games With the Blockchain',
         date: 'May 29th, 2023',
