@@ -35,12 +35,12 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles</loc>
-        <lastmod>2023-05-08</lastmod>
+        <lastmod>2023-05-27</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/data-vis</loc>
-        <lastmod>2023-05-02</lastmod>
+        <lastmod>2023-05-27</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -55,7 +55,7 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/introduction</loc>
-        <lastmod>2023-05-02</lastmod>
+        <lastmod>2023-05-27</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -80,7 +80,7 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/space-spies</loc>
-        <lastmod>2023-05-02</lastmod>
+        <lastmod>2023-05-27</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -230,17 +230,37 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/what-impacts-crypto-volatility</loc>
-        <lastmod>2023-05-24</lastmod>
+        <lastmod>2023-05-25</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/web3-crypto-growth</loc>
-        <lastmod>2023-05-24</lastmod>
+        <lastmod>2023-05-26</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://webminers.dev/articles/crypto-bull-market</loc>
-        <lastmod>2023-05-24</lastmod>
+        <lastmod>2023-05-27</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/crypto-opportunities</loc>
+        <lastmod>2023-05-28</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/crypto-crowd-is-wrong</loc>
+        <lastmod>2023-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/video-games-with-the-blockchain</loc>
+        <lastmod>2023-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/make-money-with-cryptocurrency</loc>
+        <lastmod>2023-05-30</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
