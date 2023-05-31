@@ -32,13 +32,12 @@ const ArticleFormat = ({Article, url}) => {
                             <Card.Title style={{
                                 color: 'rgb(200,200,200)',
                                 textAlign: 'center',
-                                fontSize: 'xx-large',
                                 padding: '20px 3% 0 3%'
                             }}>
-                                {Detail.title}
+                                <h1 style={{fontSize: 'xx-large'}}>{Detail.title}</h1>
                             </Card.Title>
                             <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
-                                Last updated: {Detail.date}
+                                Last modified: {Detail.date}
                             </Card.Text>
                         </Card>
                     </header>
@@ -64,14 +63,27 @@ const ArticleFormat = ({Article, url}) => {
                                                 lazy
                                             />
                                             <Card.Body style={{paddingBottom: 0}}>
-                                                <Card.Title className={styles.pad}><h2>{sections.title}</h2></Card.Title>
                                                 <Container className={styles.webmark} style={{padding: '0px'}}>
+                                                    <Card.Title style={{padding: '10px 0'}}><h2>{sections.title}</h2>
+                                                    </Card.Title>
                                                     <ReactMarkdown>{sections.text}</ReactMarkdown>
                                                 </Container>
                                             </Card.Body>
                                         </Card>
                                     )
                                 )}
+                                <Card style={{background:'whitesmoke', color:'rgb(75,75,75)'}}>
+                                    <Card.Body>
+                                        <Card.Title>Disclaimer</Card.Title>
+                                        <Card.Text>
+                                            The information provided in this article is not investment advice. We are
+                                            not responsible for any losses incurred by readers who choose to invest in
+                                            cryptocurrency. Readers should do their own research before investing in
+                                            cryptocurrency. Cryptocurrency is a volatile asset and there is a high risk
+                                            of loss. Readers should only invest money that they can afford to lose.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
                             </Col>
                             <Col lg={4} md={12} className={styles.pad}>
                                 <Row>
