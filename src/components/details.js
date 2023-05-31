@@ -385,14 +385,15 @@ const details = [
     },
     {
         id: 14,
-        title: 'What Makes Investing a Timeless Money Maker',
-        date: 'Mar 18th, 2023',
-        text: 'Timeless money making comes best from investing, where there are many forms, each having its own ' +
-            'strengths and weaknesses.',
+        title: '5 Reasons Crypto Investing Will Last Forever and be Timeless',
+        date: 'Mar 31st, 2023',
+        text: 'Crypto investing will never go away and last forever due to being digital and having a community, ' +
+            'market recovery, inflation beater, and blockchain technology.',
         url: '/articles/timeless-investing',
-        img: 'TimelessMain.webp',
-        alt: 'Pink piggy bank that has a coin in it\'s slot on a white table surrounded in ten bronze coins',
-        header: 'Timeless.webp'
+        img: 'TimelessCryptoMain.webp',
+        alt: 'Pink piggy bank that has a coin inside of its slot surrounded by ten other bronze colored coins ' +
+            'while on two of them on a table.',
+        header: 'TimelessCrypto.webp'
     },
     {
         id: 13,
