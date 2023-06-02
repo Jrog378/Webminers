@@ -11,18 +11,42 @@ import Details from "@/components/details";
 import Outline from "@/components/outline";
 import {DisplayAd} from "@/components/display-ad";
 import {AdRecover} from "@/components/ad-recover";
-import {ArticleAd} from "@/components/article-ad";
+// import {ArticleAd} from "@/components/article-ad";
 
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
+
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "name": Detail.title,
+        "author": {
+            "@type": "Person",
+            "name": "Justin Rogers"
+        },
+        "datePublished": Detail.pub,
+        "dateModified": Detail.date,
+        "description": Detail.text,
+        "image": "https://webminers.dev/images/" + Detail.header,
+        "url": "https://webminers.dev" + Detail.url,
+
+    }
     return (
         <>
             <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
             <Head>
                 <title>{Detail.title}</title>
+                <meta property='og:type' content='article'/>
                 <meta property='og:title' content={Detail.title}/>
                 <meta property='og:image' content={'https://webminers.dev/images/' + Detail.header}/>
+                <meta property='og:description' content={Detail.text}/>
+                <meta property='og:sitename' content='Webminers'/>
                 <meta name='description' content={Detail.text}/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content={Detail.title}/>
+                <meta name='twitter:image' content={'https://webminers.dev/images/' + Detail.header}/>
+                <meta name='twitter:description' content={Detail.text}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 <AdRecover/>
@@ -72,7 +96,7 @@ const ArticleFormat = ({Article, url}) => {
                                         </Card>
                                     )
                                 )}
-                                <Card style={{background:'whitesmoke', color:'rgb(75,75,75)'}}>
+                                <Card style={{background: 'whitesmoke', color: 'rgb(75,75,75)'}}>
                                     <Card.Body>
                                         <Card.Title>Disclaimer</Card.Title>
                                         <Card.Text>
