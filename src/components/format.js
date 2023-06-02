@@ -20,16 +20,16 @@ const ArticleFormat = ({Article, url}) => {
         "@context": "https://schema.org",
         "@type": "Article",
         "name": Detail.title,
-        "author": {
-            "@type": "Person",
-            "name": "Justin Rogers"
-        },
+        "author":
+            {
+                "@type": "Person",
+                "name": "Justin Rogers"
+            },
         "datePublished": Detail.pub,
         "dateModified": Detail.date,
         "description": Detail.text,
         "image": "https://webminers.dev/images/" + Detail.header,
-        "url": "https://webminers.dev" + Detail.url,
-
+        "url": "https://webminers.dev" + Detail.url
     }
     return (
         <>
