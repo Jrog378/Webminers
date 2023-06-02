@@ -229,9 +229,11 @@ export default function Home() {
                         </Row>
                     </Container>
                     <Container>
-                        <h1 style={{textAlign: 'center', padding: '25px'}}>
-                            What Others Think
-                        </h1>
+                        <Card.Title>
+                            <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
+                                What Others Think
+                            </h2>
+                        </Card.Title>
                         <CardGroup>
                             <Row>
                                 <Col md={12} lg={4} className={styles.pad}>

@@ -217,9 +217,9 @@ export default function Pricing() {
                         </Row>
                     </Tab.Container>
                     <Container>
-                        <h1 style={{textAlign: 'center', padding: '25px'}}>
+                        <h2 style={{textAlign: 'center', padding: '25px', fontSize:'40px'}}>
                             What Others Think
-                        </h1>
+                        </h2>
                         <CardGroup>
                             <Row>
                                 <Col md={12} lg={4}>
@@ -286,8 +286,8 @@ export default function Pricing() {
                     </Container>
                     <Container style={{padding: '15px'}}>
                         <Container style={{padding: '15px'}}>
-                            <h1 style={{textAlign: 'center'}}><Card.Link className={styles.weblink} href={'/auth-pricing'}>Get
-                                one of our plans with a 7 day trial now</Card.Link></h1>
+                            <h2 style={{textAlign: 'center', fontSize:'40px'}}><Card.Link className={styles.weblink} href={'/auth-pricing'}>Get
+                                one of our plans with a 7 day trial now</Card.Link></h2>
                         </Container>
                         <Container style={{padding: '15px'}}>
                             <Card className={styles.cardhover}>
