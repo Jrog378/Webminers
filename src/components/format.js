@@ -19,6 +19,7 @@ const ArticleFormat = ({Article, url}) => {
     const schemaMarkup = {
         "@context": "https://schema.org",
         "@type": "Article",
+        "headline": Detail.title,
         "name": Detail.title,
         "author":
             {
