@@ -222,6 +222,18 @@ export default function Efficiency() {
         setTimeUnit(Math.abs(timeUnit - 1))
     }
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/efficiency/",
+        "url": "https://webminers.dev/efficiency/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Webminers Investing - Asset Efficiency",
+        "datePublished": "February 24th, 2023",
+        "dateModified": "June 1st, 2023",
+        "description": "Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."
+    }
+
     return (
         <>
             <Head>
@@ -231,6 +243,14 @@ export default function Efficiency() {
                       content="Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Webminers Investing - Asset Efficiency'/>
+                <meta name='twitter:description' content='Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>

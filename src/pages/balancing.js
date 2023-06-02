@@ -42,6 +42,18 @@ export default function Balancing() {
         }
     }
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/balancing/",
+        "url": "https://webminers.dev/balancing/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Asset Balancing - Finding Your Efficient Asset Percentages",
+        "datePublished": "February 24th, 2023",
+        "dateModified": "May 26th, 2023",
+        "description": "Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit"
+    }
+
     return (
         <>
             <Head>
@@ -50,6 +62,14 @@ export default function Balancing() {
                       content="Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Asset Balancing - Finding Your Efficient Asset Percentages'/>
+                <meta name='twitter:description' content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
@@ -71,7 +91,8 @@ export default function Balancing() {
                                                 diversification. Rather than chucking a few assets into a hat and
                                                 picking from it, we have measured the efficiencies of many options
                                                 and selected the assets that stood out the most to us. This efficiency
-                                                data comes from <Card.Link className={styles.weblink} href={'efficiency'}>
+                                                data comes from <Card.Link className={styles.weblink}
+                                                                           href={'efficiency'}>
                                                 Asset Efficiency</Card.Link> if you want to build your portfolio.
                                                 There are three levels of Balancing, each with more assets for
                                                 you to pick from.
@@ -89,7 +110,7 @@ export default function Balancing() {
                         </Col>
                         <Col xxl={5} lg={6} md={12} className={styles.pad}>
                             <Container className={styles.pad}>
-                                <Card >
+                                <Card>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
                                         <Col>
                                             <Container className={styles.card1}>
@@ -150,10 +171,12 @@ export default function Balancing() {
                                                                             :
                                                                             <>
                                                                                 <h2
-                                                                                    style={{textAlign: "center"}}><Card.Link
-                                                                                    className={styles.weblink}
-                                                                                    href={'/pricing'}>
-                                                                                    Balanced Investing Plan </Card.Link>
+                                                                                    style={{textAlign: "center"}}>
+                                                                                    <Card.Link
+                                                                                        className={styles.weblink}
+                                                                                        href={'/pricing'}>
+                                                                                        Balanced Investing
+                                                                                        Plan </Card.Link>
                                                                                     Required
                                                                                 </h2>
                                                                                 <Image style={{
@@ -205,7 +228,8 @@ export default function Balancing() {
                                                                                 }}><Card.Link
                                                                                     className={styles.weblink}
                                                                                     href={'/pricing'}>
-                                                                                    Strategist Investing Plan </Card.Link>
+                                                                                    Strategist Investing
+                                                                                    Plan </Card.Link>
                                                                                     Required</h2>
                                                                                 <Image style={{
                                                                                     height: '100%',

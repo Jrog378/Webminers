@@ -29,14 +29,35 @@ function Unsubscribe() {
             });
     };
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/unsubscribe/",
+        "url": "https://webminers.dev/unsubscribe/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Unsubscribe From Webminers Investing Email List",
+        "datePublished": "May 19th, 2023",
+        "dateModified": "May 26th, 2023",
+        "description": "Unsubscribe from our email list with this page. We are sad to see you go but are happy that you stuck with us for this long. You are welcomed back anytime."
+    }
+
     return (
         <>
             <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Unsubscribe From Webminers Investing Email List</title>
                 <meta property='og:title' content='Unsubscribe From Webminers Investing Email List'/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta name='description'
                       content='Unsubscribe from our email list with this page. We are sad to see you go but are happy that you stuck with us for this long. You are welcomed back anytime.'/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Unsubscribe from our email list with this page. We are sad to see you go but are happy that you stuck with us for this long. You are welcomed back anytime.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Unsubscribe From Webminers Investing Email List'/>
+                <meta name='twitter:description' content='Unsubscribe from our email list with this page. We are sad to see you go but are happy that you stuck with us for this long. You are welcomed back anytime.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <Container style={{padding: '25px', height: '100%'}} className="login">
                 <Container className={styles.inputcon}>

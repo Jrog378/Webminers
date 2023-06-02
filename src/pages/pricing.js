@@ -5,6 +5,19 @@ import Head from "next/head";
 
 
 export default function Pricing() {
+
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/pricing/",
+        "url": "https://webminers.dev/pricing/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Plan Pricing for Webminers Investing",
+        "datePublished": "February 24th, 2023",
+        "dateModified": "June 1st, 2023",
+        "description": "Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."
+    }
+
     return (
         <>
             <Head>
@@ -14,6 +27,14 @@ export default function Pricing() {
                       content="Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Plan Pricing for Webminers Investing'/>
+                <meta name='twitter:description' content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div className={styles.full}>
                 <Container style={{padding: '25px'}}>
@@ -36,7 +57,8 @@ export default function Pricing() {
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} eventKey="fourth">Strategist Investing Plan
+                                        <Nav.Link className={styles.navgreen} eventKey="fourth">Strategist Investing
+                                            Plan
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
@@ -217,7 +239,7 @@ export default function Pricing() {
                         </Row>
                     </Tab.Container>
                     <Container>
-                        <h2 style={{textAlign: 'center', padding: '25px', fontSize:'40px'}}>
+                        <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
                             What Others Think
                         </h2>
                         <CardGroup>
@@ -286,18 +308,21 @@ export default function Pricing() {
                     </Container>
                     <Container style={{padding: '15px'}}>
                         <Container style={{padding: '15px'}}>
-                            <h2 style={{textAlign: 'center', fontSize:'40px'}}><Card.Link className={styles.weblink} href={'/auth-pricing'}>Get
+                            <h2 style={{textAlign: 'center', fontSize: '40px'}}><Card.Link className={styles.weblink}
+                                                                                           href={'/auth-pricing'}>Get
                                 one of our plans with a 7 day trial now</Card.Link></h2>
                         </Container>
                         <Container style={{padding: '15px'}}>
                             <Card className={styles.cardhover}>
                                 <Card.Body>
-                                    <Card.Title style={{fontSize: 'xxx-large', textAlign: 'center'}}>Not Ready For a Paid
+                                    <Card.Title style={{fontSize: 'xxx-large', textAlign: 'center'}}>Not Ready For a
+                                        Paid
                                         Plan?</Card.Title>
-                                    <Card.Text style={{fontSize: 'xx-large', textAlign:'center'}}>
+                                    <Card.Text style={{fontSize: 'xx-large', textAlign: 'center'}}>
                                         Start today
-                                        completely <strong>free</strong> with our basic features and email updates - <Card.Link className={styles.weblink}
-                                              href={'/auth/signup'}>Signup Now</Card.Link>
+                                        completely <strong>free</strong> with our basic features and email updates
+                                        - <Card.Link className={styles.weblink}
+                                                     href={'/auth/signup'}>Signup Now</Card.Link>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
