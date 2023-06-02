@@ -107,6 +107,19 @@ function EmailALert() {
 }
 
 export default function Home() {
+
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/",
+        "url": "https://webminers.dev/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Webminers Investing - Smarter Crypto Investing, More Profit",
+        "datePublished": "August 7th, 2022",
+        "dateModified": "June 1st, 2023",
+        "description": "Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested."
+    }
+
     return (
         <>
             <Head>
@@ -117,6 +130,16 @@ export default function Home() {
                       content="Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description'
+                      content='Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Webminers Investing - Smarter Crypto Investing, More Profit'/>
+                <meta name='twitter:description'
+                      content='Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div style={{margin: '0', width: '100%'}}>
                 <div className={styles.sales}>

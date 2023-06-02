@@ -29,6 +29,18 @@ function EmailList() {
             });
     };
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/email-list/",
+        "url": "https://webminers.dev/email-list/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Email List for Webminers Investing",
+        "datePublished": "March 17th, 2023",
+        "dateModified": "May 26th, 2023",
+        "description": "Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content."
+    }
+
     return (
         <>
             <Head>
@@ -37,12 +49,28 @@ function EmailList() {
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta name='description'
                       content='Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content.'/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description'
+                      content='Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Email List for Webminers Investing'/>
+                <meta name='twitter:description'
+                      content='Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <Container style={{padding: '25px', height: '100%'}} className="login">
                 <Container className={styles.inputcon}>
-                    <h2 style={{padding: '5px', color: 'rgb(0,175,75)', textAlign: 'center', fontWeight: 'bold'}}>
+                    <h1 style={{
+                        padding: '5px',
+                        color: 'rgb(0,175,75)',
+                        textAlign: 'center',
+                        fontWeight: 'bold',
+                        fontSize: '30px'
+                    }}>
                         Webminers Mailing List
-                    </h2>
+                    </h1>
                     <Container style={{display: disp1[disp]}}>
                         <Col>
                             <Row style={{padding: '10px'}}>

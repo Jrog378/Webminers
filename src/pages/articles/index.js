@@ -4,10 +4,7 @@ import {Button, Card, Col, Container, OffcanvasTitle, Row} from "react-bootstrap
 import ReactMarkdown from "react-markdown";
 import React from "react";
 import Head from "next/head";
-import logo from "@/images/WebminersLogo.webp";
-import Link from "next/link";
 import Details from "@/components/details";
-import {GoogleAdSense} from "nextjs-google-adsense";
 
 export default function Articles() {
     const Cards = () => {
@@ -71,9 +68,20 @@ export default function Articles() {
         )
     }
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": ["WebPage", "CollectionPage"],
+        "@id": "https://webminers.dev/articles/",
+        "url": "https://webminers.dev/articles/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Webminers Educational and Research-Based Crypto Articles",
+        "datePublished": "August 7th, 2022",
+        "dateModified": "June 2nd, 2023",
+        "description": "Crypto investing, blockchain technology, and AI should be topics that are not difficult to get into or understand. Webminers articles strive to reach that goal."
+    }
+
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Head>
                     <title>Webminers Educational and Research-Based Crypto Articles</title>
@@ -83,10 +91,18 @@ export default function Articles() {
                           content="Crypto investing, blockchain technology, and AI should be topics that are not difficult to get into or understand. Webminers articles strive to reach that goal."/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                    <meta property='og:type' content='website'/>
+                    <meta property='og:description' content='Crypto investing, blockchain technology, and AI should be topics that are not difficult to get into or understand. Webminers articles strive to reach that goal.'/>
+                    <meta property='og:sitename' content='Webminers'/>
+                    <meta name="twitter:card" content="summary"/>
+                    <meta name='twitter:title' content='Webminers Educational and Research-Based Crypto Articles'/>
+                    <meta name='twitter:description' content='Crypto investing, blockchain technology, and AI should be topics that are not difficult to get into or understand. Webminers articles strive to reach that goal.'/>
+                    <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                    <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
                 </Head>
                 <Cards/>
-
             </div>
         </>
-    );
+    )
+        ;
 }

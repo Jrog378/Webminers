@@ -3,14 +3,14 @@ import {Card, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
 import React from "react";
-import {GoogleAdSense} from "nextjs-google-adsense";
 import Head from "next/head";
 import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
-import {DisplayAd} from "@/components/display-ad";
-import {AdRecover} from "@/components/ad-recover";
+// import {GoogleAdSense} from "nextjs-google-adsense";
+// import {AdRecover} from "@/components/ad-recover";
+// import {DisplayAd} from "@/components/display-ad";
 // import {ArticleAd} from "@/components/article-ad";
 
 const ArticleFormat = ({Article, url}) => {
@@ -34,8 +34,9 @@ const ArticleFormat = ({Article, url}) => {
     }
     return (
         <>
-            <GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>
+            {/*<GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>*/}
             <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>{Detail.title}</title>
                 <meta property='og:type' content='article'/>
                 <meta property='og:title' content={Detail.title}/>
@@ -50,7 +51,7 @@ const ArticleFormat = ({Article, url}) => {
                 <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
-                <AdRecover/>
+                {/*<AdRecover/>*/}
                 <Container>
                     <header>
                         <Card style={{borderStyle: 'none', background: 'none'}}>
@@ -118,19 +119,19 @@ const ArticleFormat = ({Article, url}) => {
                                                 <Email/>
                                             </div>
                                         </Row>
-                                        <Row>
-                                            <div className={styles.pad}>
-                                                <DisplayAd slot={"4158745359"}/>
-                                            </div>
-                                        </Row>
+                                        {/*<Row>*/}
+                                        {/*    <div className={styles.pad}>*/}
+                                        {/*        <DisplayAd slot={"4158745359"}/>*/}
+                                        {/*    </div>*/}
+                                        {/*</Row>*/}
                                     </Col>
                                     <Col sm={12} md={6} lg={12}>
                                         <div className={styles.pad}>
                                             <Suggest Detail={Detail.id}/>
                                         </div>
-                                        <div className={styles.pad}>
-                                            <DisplayAd slot={1008265344}/>
-                                        </div>
+                                        {/*<div className={styles.pad}>*/}
+                                        {/*    <DisplayAd slot={1008265344}/>*/}
+                                        {/*</div>*/}
                                     </Col>
                                 </Row>
                                 <div style={{

@@ -37,6 +37,18 @@ export default function AuthSeasons(props) {
         result.value = "$" + totalProfit.toFixed(2); // display result
     }
 
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/insights/",
+        "url": "https://webminers.dev/insights/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Market Insights - Historically-Backed Crypto Indicator",
+        "datePublished": "February 24th, 2023",
+        "dateModified": "May 26th, 2023",
+        "description": "Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately."
+    }
+
     return (
         <>
             <Head>
@@ -46,6 +58,14 @@ export default function AuthSeasons(props) {
                       content="Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Market Insights - Historically-Backed Crypto Indicator'/>
+                <meta name='twitter:description' content='Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
@@ -72,7 +92,8 @@ export default function AuthSeasons(props) {
                                                 <br/>
                                                 <br/>
                                                 P.S. Now that we have answered &apos;When to invest?&apos; visit
-                                                <Card.Link className={styles.weblink} href={'balancing'}> Asset Balancing
+                                                <Card.Link className={styles.weblink} href={'balancing'}> Asset
+                                                    Balancing
                                                 </Card.Link> to answer &apos;What to invest in?&apos;
                                             </Card.Text>
                                         </Card.Body>
@@ -133,11 +154,12 @@ export default function AuthSeasons(props) {
                                                                             />
                                                                             :
                                                                             <>
-                                                                                <h2 style={{textAlign: "center"}}><Card.Link
-                                                                                    className={styles.weblink}
-                                                                                    href={'/pricing'}>Essential
-                                                                                    Investing
-                                                                                    Plan</Card.Link> Required
+                                                                                <h2 style={{textAlign: "center"}}>
+                                                                                    <Card.Link
+                                                                                        className={styles.weblink}
+                                                                                        href={'/pricing'}>Essential
+                                                                                        Investing
+                                                                                        Plan</Card.Link> Required
                                                                                 </h2>
                                                                                 <Image style={{
                                                                                     height: '100%',

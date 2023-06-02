@@ -5,6 +5,19 @@ import styles from "@/styles/Home.module.css";
 
 
 export default function TermsOfService() {
+
+    const schemaMarkup = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://webminers.dev/terms-of-service/",
+        "url": "https://webminers.dev/terms-of-service/",
+        "image": "https://webminers.dev/webminers-logo.webp",
+        "name": "Terms of Service for Webminers Investing",
+        "datePublished": "May 11th, 2023",
+        "dateModified": "May 23rd, 2023",
+        "description": "Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security."
+    }
+
     return (
         <>
             <Head>
@@ -14,6 +27,14 @@ export default function TermsOfService() {
                       content="Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <meta property='og:type' content='website'/>
+                <meta property='og:description' content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
+                <meta property='og:sitename' content='Webminers'/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name='twitter:title' content='Terms of Service for Webminers Investing'/>
+                <meta name='twitter:description' content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
+                <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
+                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
