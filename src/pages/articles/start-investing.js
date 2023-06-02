@@ -3,7 +3,6 @@ import StartInvesting1 from '../../images/articleimages/StartInvesting1.webp'
 import StartInvesting2 from '../../images/articleimages/StartInvesting2.webp'
 import StartInvesting3 from '../../images/articleimages/StartInvesting3.webp'
 import StartInvesting4 from '../../images/articleimages/StartInvesting4.webp'
-import StartInvesting5 from '../../images/articleimages/StartInvesting5.webp'
 import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
@@ -14,134 +13,79 @@ export default function StartInvesting() {
             img: StartInvestingMain,
             title: '',
             id: 'Intro',
-            description: 'Black iPhone screen displaying the stocks app with 6 different companies resting on a sheet' +
-                ' of paper with a blue chart on it.',
-            text: 'Investing is such a broad topic that when looking into it before starting in this field, ' +
-                'it can be very overwhelming. Don’t worry because it doesn\'t have to be this way. ' +
-                'Investing is strategically giving something away to get something more valuable. Investing ' +
-                'can be the trade of money for assets, time for money, or even money for time. Interested in' +
-                ' learning more about what you can invest in? I wrote about that in ' +
-                '[What Makes Investing a Timeless Money Maker](timeless-investing).\n' +
+            description: 'A blue animated coin that has the Bitcoin logo on the front of it that says peer-to-' +
+                'peer on it surrounded in circles and numbers.',
+            text: 'Investing is essentially the willing exchange of goods for something you feel is more ' +
+                'valuable. This can be time for money, money for possessions, and in our case, money for ' +
+                'assets. Crypto investing is a great field full of technology, innovation, and profit. To ' +
+                'be a part of this movement pays much more than money as well. Cryptocurrency is the start ' +
+                'of something new. A new way of currency that is pushing for attention along with the ' +
+                'movement of decentralization. The world of crypto might seem complex from the outside, ' +
+                'however, it can be quite simple when you choose the right way to learn about it.\n' +
                 '\n' +
-                'We will go into how I got into crypto investing. After that, we will ease into examples of' +
-                ' valuable investments and the different investing styles. Finally, we will cover how to ' +
-                'keep improving your investing game.\n' +
+                'This is my simple step-by-step guide to help you get on the right path to making profits ' +
+                'with crypto investing:\n' +
                 '\n' +
-                '1. [My Investing Background](#InvestingBackground)\n' +
-                '2. [Best Investments You Can Make](#BestInvestments)\n' +
-                '3. [Different Investing Styles](#InvestingStyles)\n' +
-                '4. [How To Keep Improving](#KeepImproving)\n'
+                '1. [Choosing a Cryptocurrency](#ChoosingCryptocurrency)\n' +
+                '2. [Different Investing Styles](#InvestingStyles)\n' +
+                '3. [Up Your Investing Game](#Improve)\n'
         },
         {
             img: StartInvesting1,
-            title: 'My Investing Background',
-            id: 'InvestingBackground',
-            description: 'A piece of paper with multiple stats both in number and graphical form on top of another ' +
-                'piece of paper displaying a map.',
-            text: 'My background didn’t start in the cryptocurrency world. I began with programming and later on ' +
-                'joined the data science field, where I would then learn about finding information from data ' +
-                'and being able to use these findings. I had been using [Coinbase](https://www.coinbase.com/) ' +
-                'around these times with the free coins they would give, but none of my money.\n' +
+            title: 'Choosing a Cryptocurrency',
+            id: 'ChoosingCryptocurrency',
+            description: 'A bunch of coins sitting around a notes that says looking for freedom with the logos ' +
+                'of cryptocurrencies on them like btc and eth.',
+            text: 'Crypto is considered a digital asset. Unlike something like gold, you do not get to feel or touch what you buy. This might be sad for those who are sentimental, but keep in mind assets like gold don’t move around as much, meaning that you do not make as much profit. [Cryptocurrencies are also volatile assets](what-impacts-crypto-volatility) because of this. They move up and down in heavy movements providing great chances for profits and losses together. Our goal as crypto investors is to reduce those losses and take as many of those profits as possible.\n' +
                 '\n' +
-                'After being exposed to Data Science, I knew the possibilities and how this can apply to investing. ' +
-                'I began to research. I looked into programming algorithms and data found on the web. I also ' +
-                'looked into Economic data. I got to pick and choose what things I liked and didn’t like until' +
-                ' I was satisfied with the results.\n' +
+                'There are two ways to reduce this risk. The first, and the easiest method, is to pick the right assets. There are so many assets out there so how will you know which are best? The easiest way to do it is to [just pick popular crypto](popular-cryptocurrency) like Bitcoin or Ethereum as they have steady price history and a lot of investors. They are popular for a reason and are great options. Now if you want more than the basics then we must get into the numbers. To measure a cryptos efficiency we have to calculate it using the price history.\n' +
                 '\n' +
-                'After finding what best suited my investing style, I refined everything and put it all together ' +
-                'to work with my other resources to give me a final answer of what the market is like each day. ' +
-                'My crypto investing system has a little bit of everything, each having its purpose and coming together ' +
-                'nicely.\n'
+                'We do this with financial ratios like the Sharpe, Sortino, and Omega Ratios. You don’t need to know how they are done for now, but what you need to know is [Omega is the most important](https://en.wikipedia.org/wiki/Omega_ratio). The higher the Omega Ratio the more efficient the asset will be. That means the better your profit potential is. When looking at asset tables you can compare and contrast which assets have the best numbers to build your optimal portfolio. [Webminers Asset Efficiency](/efficiency) is a great place to look for these exact numbers in different time frames.\n' +
+                '\n' +
+                'Once you pick your assets or even a single asset. It is time to start testing them. Even though you have assets that are very good with numbers does not mean that you will want to invest in them. You will have to start to build your investing strategy with data like the RSI, Moving Averages, or [other indicators to find trends](https://www.investopedia.com/top-7-technical-analysis-tools-4773275). Once you find a trend that you enjoy and repeat well over and over from your backtesting, you are ready to start buying cryptocurrency.\n'
         },
         {
             img: StartInvesting2,
-            title: 'What Are Your Investing Options?',
-            id: 'BestInvestments',
-            description: 'Five large bars of gold next to eight tiny bars of gold all containing engravings ' +
-                'of the weight as well as a company.',
-            text: 'The best investments you can make go into two categories, assets, and non-assets. ' +
-                'Most assets must have a set strategy and rules you must follow because if you are going away ' +
-                'from them, this is an emotional decision. Emotional decisions are also decisions without data' +
-                ' to support them, leading to us avoiding these as much as possible to prevent losses. You can' +
-                ' read more about it in my article ' +
-                '[What it Takes to Become a Smart Emotionless Investor](top-investor). ' +
-                'Non-assets are more item specific that do not require this type of strategy.\n' +
+            title: 'Different Investing Styles',
+            id: 'InvestingStyles',
+            description: 'Two golden coins that are stacked with the one on top on its edge showing a bitcoin ' +
+                'logo next to a cryptocurrency market chart.',
+            text: 'Successful investing comes in many forms that almost anyone can build out of thin air. There is no one single way to reach profit. Even though there are tons of different ways to invest, we still seem to see similarities between them. The two most notable categories that are noticed tend to use price data indicators or price movements.\n' +
                 '\n' +
-                'All assets hold risk. Some are slightly risky, like bonds. Others are more risky, like ' +
-                'cryptocurrencies and shares of a company. Physical Assets can be Businesses, Stocks, ' +
-                'Cryptocurrencies, or collector’s items like cars or watches. The price of these assets ' +
-                'will go up and down as time progresses. It is up to you to determine when the price is ' +
-                'less costly than usual and when it is more. It is important that anytime you buy an asset, ' +
-                'you are hoping it will eventually be more valuable than when you bought it.\n' +
+                'Using price movements is very similar to crypto trading in a long-term way. Investing with price movements [uses patterns from candle charts](https://www.thestreet.com/dictionary/c/candlestick-chart) that can be identified as possible profit trends. A common thing that happens in the crypto markets is head and shoulders. When this happens, the investors believe that the market will go in a certain direction, which allows them to invest their money and make a profit from it. Keep in mind that data can still be used in this form of investing but the main method of finding profitable movements is with the price charts.\n' +
                 '\n' +
-                'In many cases, non-assets require something other than money to acquire. Knowledge, happiness, ' +
-                'and personal health are all great examples of this. Working out and studying both take time. ' +
-                'Non-assets can be valuable or worthless, depending on which you get. The important part is ' +
-                'finding out which they are is more simplistic than buying a stock or crypto. Non-assets are ' +
-                'just as needed because your well-being is closely linked. Never put a price on your health ' +
-                'and happiness.\n'
+                'Data investing takes advantage of the fact that markets have points in time when they will change direction. Being able to identify these movements lets you hitch a ride for however long you believe the market will continue in that direction to make your profit. Being able to use data to your advantage removes a lot of the [emotion out of your investing](https://www.forbes.com/sites/forbesfinancecouncil/2022/11/02/emotional-investing-is-a-risky-strategy-but-leveraging-emotional-intelligence-can-transform-your-investment-choices/?sh=6f48423816e0) as well. You will not have to be so worried about your money as long as your data is accurate and you stick to what your system is telling you to do. While everyone else panics you will be happily waiting for your system to let you know what to do next.\n' +
+                '\n' +
+                'These two methods are only meant to be guidelines as there are a ton of ways to make money with cryptocurrency. Using [macroeconomic data can also help you](https://www.blackrock.com/us/individual/insights/macro-economic-insights) in both methods as this data largely represents how the public and large banks feel about money. When the economy is good, people want to spend money in all sorts of ways, including assets, which brings up their price and provides you with profit. However, when the economy is down, the public and banks are cutting spending, they want to preserve their money which causes fewer people to invest in markets. It is important to keep an eye on where the economy is going and what it is currently doing. If you are interested in checking out our research on the economy, [Webminers Market Insights](/insights) has multiple timeframes with our custom indicators to say where we believe we are right now.\n'
         },
         {
             img: StartInvesting3,
-            title: 'Finding Your Investing Style',
-            id: 'InvestingStyles',
-            description: 'Gold Coins Bitcoin and Litecoin sitting on top of a two-toned background with the colors ' +
-                'light blue and light orange.',
-            text: 'Successful investing comes in many forms. With this amount of different types of ' +
-                'investing comes similarities. The categories that collect these similarities are Market Structure ' +
-                'Investing and Reflexive Investing. I’m sure you will find more out there, and these categories ' +
-                'are just guidelines for your to build your investing system on top of. Both of these work on ' +
-                'every timeframe as well.\n' +
+            title: 'Up Your Investing Game',
+            id: 'Improve',
+            description: 'A pair of black glasses on the pages of an open book with a black cover that are all on ' +
+                'a wooden table that is a little blurry.',
+            text: 'Once you build something amazing like your investing system, you must maintain it. This also means swapping out the bad parts that stop working and improving on them with new shiny ways to make a profit. If you notice that some of the data you use is not as accurate as you would like, stop using it and find something else. There is plenty of data out there and certain indicators and trends stop working for no reason at all. Continue to research [new ways to make money from crypto investing](https://worldcoin.org/articles/how-to-research-crypto) and you will never have to worry about your data getting old or outdated because you will always be finding new and better ways to upgrade your system.\n' +
                 '\n' +
-                'Market Structure Investing uses patterns and possible directions based on ' +
-                '[Candle Charts](https://www.wikihow.com/Read-a-Candlestick-Chart). ' +
-                'These candle charts will give you insights into the price, including different areas of ' +
-                'resistance and support based on previous candles. Candles will show you the open, close, ' +
-                'high, and low for that given period. Finding patterns in the data and candles is crucial ' +
-                'for a successful Market Structure Investing strategy. Indicators like RSI or Moving Averages a' +
-                're necessary for this type of investing to ensure accuracy.\n' +
+                'Improving your investing system also means improving yourself. Keep yourself in a good headspace and avoid emotional interactions that could carry into your investing. You should also be improving your general investing and crypto knowledge with [up-to-date articles and reports](/articles). Exercise and eating well can help you keep a clear mind and reduce stress. Taking care of yourself should be a top priority. Be careful with crypto scams and those trying to take your money. Storing your cryptocurrency in a safe wallet and putting those [keys somewhere you will remember](https://chainstack.com/how-to-store-private-keys-securely/) which isn’t on any of your devices is a must to keep your money secure. It is also good practice to keep your coins off of cryptocurrency exchanges.\n' +
                 '\n' +
-                'Reflexive Investing takes advantage of the fact that markets have turning points where they ' +
-                'will change direction. These changes in momentum are the buying and selling points of your ' +
-                'strategy. Reflexive Investing is mainly data-driven from indicators from before or your ' +
-                'custom-made indicators. Here at Webminers, we use both. The Webminers investing system has ' +
-                'lots of different data. Our data can then come together to create one solid signal with few ' +
-                'weaknesses since our target is on just one type of movement. Check it out at ' +
-                '[Webminers Market Insights](/insights)\n'
+                'Avoid risks by knowing what the [news is capable of doing to the crypto markets](news-in-the-crypto-market). Crashes and black swan events are going to happen eventually, so it is your job to try and reduce that risk as much as you can. [Everyone loses money while investing](https://www.thebalancemoney.com/how-to-deal-with-losses-in-the-stock-market-3141314) and you should keep your head up even in loss so that you can take it as a lesson and learn from it, rather than feeling angry and losing even more money. Don’t be afraid to take breaks from investing after big losses or even after big wins. They can help you keep your cool rather than risk investing with biases that could negatively impact your decisions.\n' +
+                '\n' +
+                'When the market goes up, most people are going to want to just keep buying when it is the best time to sell. The same goes the other way around where when the markets are falling, people are most likely to sell even more when they should be buying. This is the [market psychology of crypto](crypto-market-psychology) and can be extremely useful if used properly to set yourself apart from the crowd and take advantage of their mistakes. These psychological traits can also be observed when looking at crypto bull markets and crypto bear markets. You might even be able to identify market tops and bottoms from these key points being made if the conditions are right.\n'
         },
         {
             img: StartInvesting4,
-            title: 'Continuously Getting Better',
-            id: 'KeepImproving',
-            description: 'Blank crabble letter blocks in a pile with the letters l e a r n on top in black text to ' +
-                'spell out the word learn.',
-            text: 'Building an Investing System is the first step. Next, you must maintain it. Maintaining an ' +
-                'investing system takes time and research. You should test your investing system often, ensuring ' +
-                'you can trust it. Make sure to start small and see how it performs. This way, if you lose money, ' +
-                'it will only be a tiny amount.\n' +
-                '\n' +
-                'Being able to lose money with a calm mind is very important in investing because you will ' +
-                'encounter losses eventually. Managing those losses and not letting your emotions take control ' +
-                'will prevent even further loss. Teach yourself new topics, learn about the philosophies of ' +
-                'the market, and develop yourself into a successful investor. \n' +
-                '\n' +
-                'Money doesn\'t grow on trees. Once you start to get returns with your investing system, don’t ' +
-                'stop working hard on it. Keep learning and keep developing. Keeping your mind set on the next ' +
-                'goal will keep you going. Make sure to invest in yourself when you can.\n'
-        },
-        {
-            img: StartInvesting5,
-            title: 'Summary',
+            title: 'Main Takeaways',
             id: 'Summary',
-            description: 'Success go get it with arrows on either side of the text is written on a black board in ' +
-                'chalk with success in a bolder font.',
-            text: 'Most investors receive inconsistent gains in their portfolios. Reaching consistency ' +
-                'and prestige takes time, focus, and effort. Those lazy investors are only good news for ' +
-                'you because this creates opportunities. After finding the type of investing style that ' +
-                'suits you, it is time to develop your system. Finally, bring home the profit and keep ' +
-                'growing.\n' +
+            description: 'A market chat that has been printed out onto a piece of paper with the line being in ' +
+                'the color red with blue lines around it.',
+            text: '#### How to start investing in crypto?\n' +
+                'After finding efficient assets with low downside potential, you can begin to set up your investing system. This system will use data and indicators to help you bring home consistent profits.\n' +
                 '\n' +
-                'Enjoyed this blog? Consider joining our [Email List](/email-list)'
+                '#### What are efficient assets?\n' +
+                'Efficient assets are asset choices that have a high chance for profit and a low chance for loss. These can be calculated using financial ratios like the Omega Ratio.\n' +
+                '\n' +
+                '#### How to make money investing?\n' +
+                'Most investors receive inconsistent gains in their portfolios. Reaching consistency and prestige takes time, focus, and effort. Those lazy investors are only good news for you because this creates opportunities.\n'
         }
     ]
     const router = useRouter();
