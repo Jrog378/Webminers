@@ -1,6 +1,6 @@
 const details = [
     {
-        id: 46,
+        id: 38,
         title: '6 Ways to Make Money With Cryptocurrency - For Crypto Buyers',
         date: 'May 30th, 2023',
         pub: 'May 30th, 2023',
@@ -13,7 +13,7 @@ const details = [
         header: 'CryptoMoney.webp',
     },
     {
-        id: 45,
+        id: 37,
         title: '5 Ways Crypto Gaming Mixed Video Games With the Blockchain',
         date: 'May 29th, 2023',
         pub: 'May 29th, 2023',
@@ -26,7 +26,7 @@ const details = [
         header: 'CryptoGaming.webp',
     },
     {
-        id: 44,
+        id: 36,
         title: 'The Crypto Crowd is Always Wrong - How to Avoid Their Losses',
         date: 'May 28th, 2023',
         pub: 'May 28th, 2023',
@@ -39,7 +39,7 @@ const details = [
         header: 'CryptoCrowd.webp',
     },
     {
-        id: 43,
+        id: 35,
         title: 'Crypto Opportunities - How Crypto Could Change Your Life',
         date: 'May 27th, 2023',
         pub: 'May 27th, 2023',
@@ -52,7 +52,7 @@ const details = [
         header: 'CryptoOpportunities.webp',
     },
     {
-        id: 42,
+        id: 34,
         title: 'Crypto Bull Market - Profit for Some, Disaster for Many',
         date: 'May 26th, 2023',
         pub: 'May 26th, 2023',
@@ -65,7 +65,7 @@ const details = [
         header: 'BullMarket.webp',
     },
     {
-        id: 41,
+        id: 33,
         title: 'Web3 Crypto - The Currency Growing Faster Than You Think',
         date: 'May 26th, 2023',
         pub: 'May 26th, 2023',
@@ -78,7 +78,7 @@ const details = [
         header: 'WebCrypto.webp',
     },
     {
-        id: 40,
+        id: 32,
         title: 'Investing vs Gambling - Valuing Profit Over Greed in Crypto',
         date: 'May 25th, 2023',
         pub: 'May 25th, 2023',
@@ -91,7 +91,7 @@ const details = [
         header: 'InvestGamble.webp',
     },
     {
-        id: 39,
+        id: 31,
         title: 'What Impacts Crypto Volatility - How Investors Identify Risk',
         date: 'May 24th, 2023',
         pub: 'May 24th, 2023',
@@ -104,7 +104,7 @@ const details = [
         header: 'VolatileCrypto.webp',
     },
     {
-        id: 38,
+        id: 30,
         title: 'How the News Influences the Crypto Market - For Investors',
         date: 'May 24th, 2023',
         pub: 'May 24th, 2023',
@@ -117,7 +117,7 @@ const details = [
         header: 'CryptoNews.webp',
     },
     {
-        id: 37,
+        id: 29,
         title: 'Crypto Market Psychology - Into the Mind of a Crypto Investor',
         date: 'May 23rd, 2023',
         pub: 'May 23rd, 2023',
@@ -130,7 +130,7 @@ const details = [
         header: 'CryptoPsychology.webp',
     },
     {
-        id: 36,
+        id: 28,
         title: 'Blockchain Transaction - The Variations and How They Work',
         date: 'May 23rd, 2023',
         pub: 'May 23rd, 2023',
@@ -143,7 +143,7 @@ const details = [
         header: 'BlockchainTrans.webp',
     },
     {
-        id: 35,
+        id: 27,
         title: 'Why the Stablecoin Price Isn’t Always Stable',
         date: 'May 22nd, 2023',
         pub: 'May 22nd, 2023',
@@ -156,7 +156,7 @@ const details = [
         header: 'Stablecoin.webp',
     },
     {
-        id: 34,
+        id: 26,
         title: 'Popular Cryptocurrency - Why More Investors Means Less Risk',
         date: 'May 21st, 2023',
         pub: 'May 21st, 2023',
@@ -169,7 +169,7 @@ const details = [
         header: 'PopularCrypto.webp',
     },
     {
-        id: 33,
+        id: 25,
         title: 'Seeing into the Crypto Future - Crypto\'s History and Direction',
         date: 'May 20th, 2023',
         pub: 'May 20th, 2023',
@@ -182,7 +182,7 @@ const details = [
         header: 'CryptoFuture.webp',
     },
     {
-        id: 32,
+        id: 24,
         title: 'What is an Altcoin - Should You be Investing in Altcoins?',
         date: 'May 19th, 2023',
         pub: 'May 19th, 2023',
@@ -195,7 +195,7 @@ const details = [
         header: 'Altcoin.webp',
     },
     {
-        id: 31,
+        id: 23,
         title: 'What is The Crypto Blockchain - Finances of the Blockchain',
         date: 'May 18th, 2023',
         pub: 'May 18th, 2023',
@@ -208,7 +208,7 @@ const details = [
         header: 'CryptoBlock.webp',
     },
     {
-        id: 30,
+        id: 22,
         title: 'What is a Crypto Bubble - Why Does The Crypto Market Crash',
         date: 'May 17th, 2023',
         pub: 'May 17th, 2023',
@@ -221,7 +221,7 @@ const details = [
         header: 'CryptoBubble.webp',
     },
     {
-        id: 29,
+        id: 21,
         title: 'Short-Term vs Long-Term Crypto Investing - Top Crypto Styles',
         date: 'May 16th, 2023',
         pub: 'May 16th, 2023',
@@ -234,7 +234,7 @@ const details = [
         header: 'ShortLong.webp',
     },
     {
-        id: 28,
+        id: 20,
         title: 'Impactful Crypto Market Crashes - What You Can Learn From Them',
         date: 'May 15th, 2023',
         pub: 'May 15th, 2023',
@@ -247,7 +247,7 @@ const details = [
         header: 'Arbitrage.webp',
     },
     {
-        id: 27,
+        id: 19,
         title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
         date: 'May 14th, 2023',
         pub: 'May 14th, 2023',
@@ -260,7 +260,7 @@ const details = [
         header: 'CryptoMistakes.webp',
     },
     {
-        id: 26,
+        id: 18,
         title: 'What to do in a Bear Market - Work to do During Slow Crypto Markets',
         date: 'May 13th, 2023',
         pub: 'May 13th, 2023',
@@ -273,7 +273,7 @@ const details = [
         header: 'BearMarket.webp',
     },
     {
-        id: 25,
+        id: 17,
         title: 'AI Jobs - How AI Can Improve Your Work Productivity, Not Replace You',
         date: 'May 12th, 2023',
         pub: 'May 12th, 2023',
@@ -286,7 +286,7 @@ const details = [
         header: 'JobsAI.webp'
     },
     {
-        id: 24,
+        id: 16,
         title: 'Is Cryptocurrency Safe? - Keep Your Money and Devices Secure',
         date: 'May 11th, 2023',
         pub: 'May 11th, 2023',
@@ -299,7 +299,7 @@ const details = [
         header: 'SafeCrypto.webp'
     },
     {
-        id: 23,
+        id: 15,
         title: 'Downsides of AI - What Crypto Investors Have to Look Out For',
         date: 'May 10th, 2023',
         pub: 'May 10th, 2023',
@@ -312,7 +312,7 @@ const details = [
         header: 'DownsideAI.webp'
     },
     {
-        id: 22,
+        id: 14,
         title: 'AI Investing - How to Become an AI Quant',
         date: 'May 9th, 2023',
         pub: 'May 9th, 2023',
@@ -325,7 +325,7 @@ const details = [
         header: 'AIQuant.webp'
     },
     {
-        id: 21,
+        id: 13,
         title: 'Financial AI - How AI and Data Science Can Help Crypto Investors',
         date: 'May 7th, 2023',
         pub: 'May 7th, 2023',
@@ -338,7 +338,7 @@ const details = [
         header: 'AIFinance.webp'
     },
     {
-        id: 20,
+        id: 12,
         title: 'What is Decentralization - Decentralized for Crypto Investors',
         date: 'May 1st, 2023',
         pub: 'May 1st, 2023',
@@ -351,7 +351,7 @@ const details = [
         header: 'Decenter.webp'
     },
     {
-        id: 19,
+        id: 11,
         title: 'Python Crypto Libraries - Programming Libraries For Crypto Investing',
         date: 'April 26th, 2023',
         pub: 'April 26th, 2023',
@@ -364,7 +364,7 @@ const details = [
         header: 'CryptoCoding.webp'
     },
     {
-        id: 18,
+        id: 10,
         title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
         date: 'April 24th, 2023',
         pub: 'April 24th, 2023',
@@ -377,7 +377,7 @@ const details = [
         header: 'BestCrypto.webp'
     },
     {
-        id: 17,
+        id: 9,
         title: 'Python for Crypto and Finance - How FinTech Uses Python for Profits',
         date: 'April 13th, 2023',
         pub: 'April 13th, 2023',
@@ -390,7 +390,7 @@ const details = [
         header: 'PythonFin.webp'
     },
     {
-        id: 16,
+        id: 8,
         title: 'Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023',
         date: 'April 3rd, 2023',
         pub: 'April 3rd, 2023',
@@ -403,7 +403,7 @@ const details = [
         header: 'BigCrypto.webp'
     },
     {
-        id: 15,
+        id: 7,
         title: 'How to Start Investing in Crypto - Making a Crypto Investing System',
         date: 'June 2nd, 2023',
         pub: 'March 28th, 2023',
@@ -416,7 +416,7 @@ const details = [
         header: 'StartInvesting.webp'
     },
     {
-        id: 14,
+        id: 6,
         title: '5 Reasons Crypto Investing Will Last Forever and be Timeless',
         date: 'May 31st, 2023',
         pub: 'March 22nd, 2023',
@@ -429,7 +429,7 @@ const details = [
         header: 'TimelessCrypto.webp'
     },
     {
-        id: 13,
+        id: 5,
         title: 'What it Takes to Become a Smart Emotionless Crypto Investor',
         date: 'March 14th, 2023',
         pub: 'March 14th, 2023',
@@ -442,20 +442,20 @@ const details = [
         header: 'Top.webp'
     },
     {
-        id: 12,
-        title: 'The Best Ways to Improve Your Mental State for Crypto Investing',
-        date: 'March 13th, 2023',
+        id: 4,
+        title: '7 Tips for Staying Focused in Volatile Markets for Investors',
+        date: 'June 3rd, 2023',
         pub: 'March 13th, 2023',
-        text: 'The best ways to improve your mental state for smarter investing by improving your diet, physical ' +
-            'health, mentality, and goals.',
-        url: '/articles/mental-improve',
-        img: 'MentalMain.webp',
-        alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
-            'sitting on a wooden desk that has a plant on it.',
-        header: 'Mental.webp'
+        text: 'Crypto markets are volatile and investors have to find a way to control their emotions. ' +
+            'Morning routines, goals, and studying both yourself and others can help.',
+        url: '/articles/crypto-mental-focus',
+        img: 'MentalFocusMain.webp',
+        alt: 'Digital Portfolio Balance on an iPhone screen displayed using a green line sitting on a ' +
+            'wooden desk that has a plant on it.',
+        header: 'MentalFocus.webp'
     },
     {
-        id: 11,
+        id: 3,
         title: 'Ethical Hackers Against Crypto Hackers Are Greatly Needed',
         date: 'May 27th, 2023',
         pub: 'February 28th, 2023',
@@ -467,7 +467,7 @@ const details = [
         header: 'Ethical.webp'
     },
     {
-        id: 10,
+        id: 2,
         title: 'Financial Data Visualization - Visualizing Riches and Profit',
         date: 'May 27th, 2023',
         pub: 'February 19th, 2023',
@@ -480,111 +480,8 @@ const details = [
         header: 'Visual.webp'
     },
     {
-        id: 9,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 4',
-        date: 'February 6th, 2023',
-        pub: 'February 6th, 2023',
-        text: 'Many upgrades have occurred since you last saw a Webminers article. We are adding features like ' +
-            'Market Insights, Asset Balancing, and Asset Efficiency.',
-        url: '/articles/new-services',
-        img: 'NewServicesMain.webp',
-        alt: 'Digital Portfolio Balance on a phone screen displayed using a green line and a black background' +
-            'sitting on a wooden desk that has a plant on it.',
-        header: 'NewServices.webp'
-    },
-    {
-        id: 8,
-        title: 'Avoid the Copy and Paste Psyche & Break Applicant Uniformity',
-        date: 'October 26th, 2022',
-        pub: 'October 26th, 2022',
-        text: 'The world of developers and programmers is a plentiful place. However, you want to show how ' +
-            'different you are and stand out with what you have.',
-        url: '/articles/stand-out',
-        img: 'UniqueMain.webp',
-        alt: 'Calculator application overtop of a white screen with code in blue, purple and orange color ' +
-            'typed on it on a mac laptop.',
-        header: 'Unique.webp'
-    },
-    {
-        id: 7,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 3',
-        date: 'October 15th, 2022',
-        pub: 'October 15th, 2022',
-        text: 'Introduction to the new blog site that has been fully redone along with summary of the new ' +
-            'categories and plans to come for webminers.',
-        url: '/articles/new-webminers',
-        img: 'SiteMain.webp',
-        alt: 'Four lit up light bulbs all handing in a line from black wires with one swinging ' +
-            'off to the side like a newton\'s cradle.',
-        header: 'Site.webp'
-    },
-    {
-        id: 6,
-        title: 'How I Built a Crypto Website with Articles and an Investing System - Part 2',
-        date: 'September 28th, 2022',
-        pub: 'September 28th, 2022',
-        text: 'Improvements to Webminers are necessary and this is a brief overview of some of the things we have ' +
-            'planned to come for readers.',
-        url: '/articles/new-changes',
-        img: 'ImproveMain.webp',
-        alt: 'A black calculator, paperclip, and a pen on a piece of paper with a bar graph that has ' +
-            'many thin black bars.',
-        header: 'Improve.webp'
-    },
-    {
-        id: 5,
-        title: 'What Truly Makes a Good Technical Copywriter Stand Out',
-        date: 'September 19th, 2022',
-        pub: 'September 19th, 2022',
-        text: 'How to become a better technical copywriter and develop in-demand skills to make an impact ' +
-            'and provide these services to businesses.',
-        url: '/articles/good-tech-writer',
-        img: 'GoodWriterMain.webp',
-        alt: 'Older dip pen resting on a black tabletop and a black background along with a black shadow ' +
-            'covering over them.',
-        header: 'GoodWriter.webp'
-    },
-    {
-        id: 4,
-        title: '6 Growing Jobs To Take Advantage of our Technical Future',
-        date: 'September 14th, 2022',
-        pub: 'September 14th, 2022',
-        text: 'As Jobs began to be automated and replaced by technology, here are the few that have a ' +
-            'prosperous future for anyone to take advantage.',
-        url: '/articles/tech-future',
-        img: 'TechieMain.webp',
-        alt: 'Black glasses sitting in front of 4 computer screens where only through the glasses the image is clear.',
-        header: 'Techie.webp'
-    },
-    {
-        id: 3,
-        title: 'Satellites - The Space Spies That Watch Over the World',
-        date: 'September 11th, 2022',
-        pub: 'September 11th, 2022',
-        text: 'Explaining the good and bad of constant satellite recording with where we draw the line between ' +
-            'spying on people and privacy.',
-        url: '/articles/space-spies',
-        img: 'SatMain.webp',
-        alt: 'Satellite in space looking down onto earth where there are brown dry mountains next to a deep blue ' +
-            'body of water.',
-        header: 'Sat.webp'
-    },
-    {
-        id: 2,
-        title: 'Python has Been Taking Over the Data Science World',
-        date: 'September 7th, 2022',
-        pub: 'September 7th, 2022',
-        text: 'Python has been hitting the world by storm, becoming the most popular programming language, ' +
-            'especially in Data Science. Let\'s see why.',
-        url: '/articles/python-data-science',
-        img: 'PythonDataMain.webp',
-        alt: 'Person in a black hoodie typing on a Mac Laptop with a black mouse next to it with green colored ' +
-            'code filling the page.',
-        header: 'PythonData.webp'
-    },
-    {
         id: 1,
-        title: 'The Origin Story of Webminers - Our Crypto Investing Website',
+        title: 'The Origin of Our Crypto Investing Site - What is Webminers?',
         date: 'May 26th, 2023',
         pub: 'September 5th, 2022',
         text: 'Starting from programming to engineering to programming. The full cycle of why Jus is where ' +
@@ -593,6 +490,6 @@ const details = [
         img: 'IntroMain.webp',
         alt: 'Man in a black suit suit and a light grey shirt that is reaching out his hand for a greeting handshake.',
         header: 'Intro.webp'
-    }
+    },
 ]
 export default details;

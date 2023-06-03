@@ -36,8 +36,8 @@ export default function TopInvestor() {
                 'activity. Trying hard to make money without losing all your money can cause worry and stress. ' +
                 'It is up to us to be emotionless investors if we want to make money in the markets. You cannot let' +
                 ' your emotions take control. Every decision must have empirical evidence to back it. Otherwise, ' +
-                'you might as well be gambling. We have an insightful article on emotion called [The Best Ways ' +
-                'to Improve your Mental State for Better Investing](/articles/mental-improve).\n' +
+                'you might as well be gambling. We have an insightful article on emotion called ' +
+                '[7 Tips for Staying Focused in Volatile Markets for Investors](/articles/crypto-mental-focus).\n' +
                 '\n' +
                 'When talking about emotions and investing, the two emotions that come into play the most are fear' +
                 ' and greed. [Alternative’s Fear and Greed scale](https://alternative.me/crypto/fear-and-greed-index/)' +

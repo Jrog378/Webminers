@@ -105,8 +105,8 @@ export default function WhatToDoInBearMarkets() {
                 'experiences and learn new things. Getting outdoors for new hobbies can be perfect for clearing ' +
                 'your mind from the stress caused by investing in crypto. The outdoors also offers many ' +
                 'activities like rock climbing or biking that you can spend hours training for a day. If ' +
-                'you are interested in more ways to calm your mind, look over my article on [The Best Ways ' +
-                'to Improve Your Mental State for Smarter Crypto Investing](/articles/mental-improve)\n' +
+                'you are interested in more ways to calm your mind, look over my article on ' +
+                '[7 Tips for Staying Focused in Volatile Markets for Investors](/articles/crypto-mental-focus)\n' +
                 '\n' +
                 'The other way to spend money is in a way that is right at home. Enjoying a new car is an ' +
                 'amazing opportunity to spend your time in bear markets. Going on long drives or repairing ' +
