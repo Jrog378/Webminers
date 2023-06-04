@@ -710,14 +710,14 @@ export default function Efficiency() {
                                     </Tab.Container>
                                 </Container>
                             </Container>
-                            <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>Experimental
+                            <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>Premium
                                 Research</h2>
                             {loading
                                 ?
                                 <Container style={{padding: '25px 10%'}}>
                                     <h2>Loading...</h2>
                                 </Container>
-                                : plan === 'Strategist'
+                                : plan === 'Strategist' || 'Balanced'
                                     ?
                                     <Container style={{padding: '25px 10%'}}>
                                         <Tab.Container style={{padding: '25px 10%'}} id="left-tabs-example"
@@ -1546,7 +1546,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1602,7 +1602,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1658,7 +1658,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1714,7 +1714,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1770,7 +1770,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1826,7 +1826,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
@@ -1882,7 +1882,7 @@ export default function Efficiency() {
                                                                     :
                                                                     <h2 style={{textAlign: "center",}}>
                                                                         <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Strategist
+                                                                                   href={'/pricing'}>Balanced
                                                                             Plan</Card.Link> Required
                                                                     </h2>
                                                                 :
