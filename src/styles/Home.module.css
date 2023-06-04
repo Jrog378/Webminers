@@ -312,6 +312,11 @@
         font-size: smaller;
     }
 }
+@media only screen and (max-width: 991px) {
+    .EmailDis {
+        display: none;
+    }
+}
 
 .bignav {
     background: rgb(33, 37, 41);
@@ -532,4 +537,11 @@ main:has(> .full) {
 .buttons:hover {
     background-color: rgb(0, 125, 75) !important;
     border-color: rgb(0, 125, 75);
+}
+
+.saleimg {
+    border-radius: 0.375rem;
+    padding-top: 5px;
+    max-width: 100%;
+    height: auto;
 }

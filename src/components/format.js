@@ -8,6 +8,7 @@ import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
+import EfficientSales from "@/components/efficient-sales";
 // import {GoogleAdSense} from "nextjs-google-adsense";
 // import {AdRecover} from "@/components/ad-recover";
 // import {DisplayAd} from "@/components/display-ad";
@@ -98,18 +99,30 @@ const ArticleFormat = ({Article, url}) => {
                                         </Card>
                                     )
                                 )}
-                                <Card style={{background: 'whitesmoke', color: 'rgb(75,75,75)'}}>
-                                    <Card.Body>
-                                        <Card.Title>Disclaimer</Card.Title>
-                                        <Card.Text>
-                                            The information provided in this article is not investment advice. We are
-                                            not responsible for any losses incurred by readers who choose to invest in
-                                            cryptocurrency. Readers should do their own research before investing in
-                                            cryptocurrency. Cryptocurrency is a volatile asset and there is a high risk
-                                            of loss. Readers should only invest money that they can afford to lose.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                                <Row>
+                                    <Col>
+                                        <Card style={{background: 'whitesmoke', color: 'rgb(75,75,75)'}}>
+                                            <Card.Body>
+                                                <Card.Title>Disclaimer</Card.Title>
+                                                <Card.Text>
+                                                    The information provided in this article is not investment advice.
+                                                    We are
+                                                    not responsible for any losses incurred by readers who choose to
+                                                    invest in
+                                                    cryptocurrency. Readers should do their own research before
+                                                    investing in
+                                                    cryptocurrency. Cryptocurrency is a volatile asset and there is a
+                                                    high risk
+                                                    of loss. Readers should only invest money that they can afford to
+                                                    lose.
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col className={styles.EmailDis}>
+                                        <Email/>
+                                    </Col>
+                                </Row>
                             </Col>
                             <Col lg={4} md={12} className={styles.pad}>
                                 <Row>
@@ -134,6 +147,9 @@ const ArticleFormat = ({Article, url}) => {
                                         {/*</div>*/}
                                     </Col>
                                 </Row>
+                                <div className={styles.pad}>
+                                    <EfficientSales/>
+                                </div>
                                 <div style={{
                                     position: 'sticky',
                                     top: 50,
