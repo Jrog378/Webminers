@@ -506,13 +506,13 @@ export default function Efficiency() {
                                                                     </td>
                                                                     <td>
                                                                         {Sol30
-                                                                            ? Sol30['Sharpe']
+                                                                            ? Sol30['Sortino']
                                                                             : ''
                                                                         }
                                                                     </td>
                                                                     <td>
                                                                         {Sol30
-                                                                            ? Sol30['Sharpe']
+                                                                            ? Sol30['Omega']
                                                                             : ''
                                                                         }
                                                                     </td>
@@ -548,13 +548,13 @@ export default function Efficiency() {
                                                                     </td>
                                                                     <td>
                                                                         {Sol365
-                                                                            ? Sol365['Sharpe']
+                                                                            ? Sol365['Sortino']
                                                                             : ''
                                                                         }
                                                                     </td>
                                                                     <td>
                                                                         {Sol365
-                                                                            ? Sol365['Sharpe']
+                                                                            ? Sol365['Omega']
                                                                             : ''
                                                                         }
                                                                     </td>
