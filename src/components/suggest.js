@@ -2,7 +2,6 @@ import Details from "@/components/details";
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import React, {useState} from "react";
 
