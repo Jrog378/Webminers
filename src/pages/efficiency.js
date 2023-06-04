@@ -45,10 +45,6 @@ export default function Efficiency() {
     let [Trx120, setTrx120] = useState(null)
     let [Trx365, setTrx365] = useState(null)
     let [Trx1460, setTrx1460] = useState(null)
-    let [Eos30, setEos30] = useState(null)
-    let [Eos120, setEos120] = useState(null)
-    let [Eos365, setEos365] = useState(null)
-    let [Eos1460, setEos1460] = useState(null)
     let [Link30, setLink30] = useState(null)
     let [Link120, setLink120] = useState(null)
     let [Link365, setLink365] = useState(null)
@@ -172,18 +168,6 @@ export default function Efficiency() {
                 const Trx4 = await getDoc(doc(db, 'closed-ratios', 'Trx1460')).then(ratio => ratio.data())
                 console.log(Trx4)
                 setTrx1460(Trx4)
-                const Eos1 = await getDoc(doc(db, 'closed-ratios', 'Eos30')).then(ratio => ratio.data())
-                console.log(Eos1)
-                setEos30(Eos1)
-                const Eos2 = await getDoc(doc(db, 'closed-ratios', 'Eos120')).then(ratio => ratio.data())
-                console.log(Eos2)
-                setEos120(Eos2)
-                const Eos3 = await getDoc(doc(db, 'closed-ratios', 'Eos365')).then(ratio => ratio.data())
-                console.log(Eos3)
-                setEos365(Eos3)
-                const Eos4 = await getDoc(doc(db, 'closed-ratios', 'Eos1460')).then(ratio => ratio.data())
-                console.log(Eos4)
-                setEos1460(Eos4)
                 const Link1 = await getDoc(doc(db, 'closed-ratios', 'Link30')).then(ratio => ratio.data())
                 console.log(Link1)
                 setLink30(Link1)
@@ -747,10 +731,6 @@ export default function Efficiency() {
                                                         </Nav.Item>
                                                         <Nav.Item>
                                                             <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Eos">Eos</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={styles.navgreen}
                                                                       eventKey="Link">Link</Nav.Link>
                                                         </Nav.Item>
                                                     </Nav>
@@ -1281,110 +1261,6 @@ export default function Efficiency() {
                                                                 </Table>
                                                             </Container>
                                                         </Tab.Pane>
-                                                        <Tab.Pane eventKey="Eos">
-                                                            <Container>
-                                                                <Card.Title style={{textAlign: 'center'}}>
-                                                                    Eos Research
-                                                                </Card.Title>
-                                                                <Table className={styles.tablecen}
-                                                                       style={{padding: '25px'}} striped>
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th>Timeframe</th>
-                                                                        <th>Sharpe</th>
-                                                                        <th>Sortino</th>
-                                                                        <th>Omega</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>One Month Term</td>
-                                                                        <td>
-                                                                            {Eos30
-                                                                                ? Eos30['Sharpe']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos30
-                                                                                ? Eos30['Sortino']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos30
-                                                                                ? Eos30['Omega']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Four Month Term</td>
-                                                                        <td>
-                                                                            {Eos120
-                                                                                ? Eos120['Sharpe']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos120
-                                                                                ? Eos120['Sortino']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos120
-                                                                                ? Eos120['Omega']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>One Year Term</td>
-                                                                        <td>
-                                                                            {Eos365
-                                                                                ? Eos365['Sharpe']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos365
-                                                                                ? Eos365['Sortino']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos365
-                                                                                ? Eos365['Omega']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Four Year Term</td>
-                                                                        <td>
-                                                                            {Eos1460
-                                                                                ? Eos1460['Sharpe']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos1460
-                                                                                ? Eos1460['Sortino']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                        <td>
-                                                                            {Eos1460
-                                                                                ? Eos1460['Omega']
-                                                                                : ''
-                                                                            }
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </Table>
-                                                            </Container>
-                                                        </Tab.Pane>
                                                         <Tab.Pane eventKey="Link">
                                                             <Container>
                                                                 <Card.Title style={{textAlign: 'center'}}>
@@ -1520,10 +1396,6 @@ export default function Efficiency() {
                                                         <Nav.Item>
                                                             <Nav.Link className={styles.navgreen}
                                                                       eventKey="Tron">Tron</Nav.Link>
-                                                        </Nav.Item>
-                                                        <Nav.Item>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Eos">Eos</Nav.Link>
                                                         </Nav.Item>
                                                         <Nav.Item>
                                                             <Nav.Link className={styles.navgreen}
@@ -1762,62 +1634,6 @@ export default function Efficiency() {
                                                             </Table>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Tron">
-                                                            {user
-                                                                ? plan === ''
-                                                                    ?
-                                                                    <Card.Title
-                                                                        style={{textAlign: 'center'}}>Loading...</Card.Title>
-                                                                    :
-                                                                    <h2 style={{textAlign: "center",}}>
-                                                                        <Card.Link className={styles.weblink}
-                                                                                   href={'/pricing'}>Balanced
-                                                                            Plan</Card.Link> Required
-                                                                    </h2>
-                                                                :
-                                                                <h2 style={{textAlign: "center"}}>Please <Card.Link
-                                                                    className={styles.weblink}
-                                                                    href={'/auth/login'}>Login</Card.Link> to
-                                                                    see content</h2>
-                                                            }
-                                                            <Table className={styles.tablecen}
-                                                                   style={{padding: '25px'}} striped>
-                                                                <thead>
-                                                                <tr>
-                                                                    <th>Timeframe</th>
-                                                                    <th>?</th>
-                                                                    <th>?</th>
-                                                                    <th>?</th>
-                                                                </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                <tr>
-                                                                    <td>One Month Term</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Four Month Term</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>One Year Term</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Three Year Term</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                </tr>
-                                                                </tbody>
-                                                            </Table>
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey="Eos">
                                                             {user
                                                                 ? plan === ''
                                                                     ?
