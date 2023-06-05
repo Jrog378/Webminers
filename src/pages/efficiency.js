@@ -111,12 +111,18 @@ export default function Efficiency() {
     }, [user, loading]);
 
     function calculate() {
-        const initialInvestment = document.getElementById("initial-investment").value;
-        const monthlyReturn = document.getElementById("monthly-return").value;
-        const months = document.getElementById("months").value;
-        const totalProfit = initialInvestment * Math.pow(1 + monthlyReturn / 100, months) - initialInvestment;
-        const result = document.getElementById("result");
-        result.value = "$" + totalProfit.toFixed(2); // display result
+        const startingAmount = document.getElementById("starting-amount").value;
+        const endingAmount = document.getElementById("ending-amount").value;
+        const diff = endingAmount - startingAmount
+        const taxResult = document.getElementById("tax-result");
+        const profitResult = document.getElementById("profit-result");
+        if (diff < 0) {
+            taxResult.value = 0
+            profitResult.value = diff
+        } else {
+            taxResult.value = diff * 0.15
+            profitResult.value = diff * 0.85
+        }
     }
 
     const schemaMarkup = {
@@ -498,29 +504,29 @@ export default function Efficiency() {
                         </Col>
                         <Col xxl={2} lg={12} style={{paddingTop: '15px'}}>
                             <div>
-                                <h2 style={{textAlign: 'center'}}>Investing Calculator</h2>
-                                <p>Predicted profit based on average monthly return.</p>
+                                <h3 style={{textAlign: 'center'}}>Short-Term Capital Gains Tax Calculator</h3>
+                                <p><strong>Not Tax Advice.</strong> Finding predicted tax based on 15% tax rate.</p>
                                 <Col>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="initial-investment">Starting Amount</label>
-                                        <input className={styles.inputs} type="number" id="initial-investment" min="0"
+                                        <label htmlFor="starting-amount">Starting Amount</label>
+                                        <input className={styles.inputs} type="number" id="starting-amount" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="monthly-return">Monthly Profit %</label>
-                                        <input className={styles.inputs} type="number" id="monthly-return" min="0"
+                                        <label htmlFor="ending-amount">Ending Amount</label>
+                                        <input className={styles.inputs} type="number" id="ending-amount" min="0"
                                                required/>
-                                    </Row>
-                                    <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="months">Month Count</label>
-                                        <input className={styles.inputs} type="number" id="months" min="0" required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label style={{padding: 0}} htmlFor="result">Total Profit</label>
-                                        <input className={styles.inputs} type="text" id="result" disabled/>
+                                        <label htmlFor="tax-result">Predicted Tax</label>
+                                        <input className={styles.inputs} type="text" id="tax-result" disabled/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label htmlFor="profit-result">Predicted Profit</label>
+                                        <input className={styles.inputs} type="text" id="profit-result" disabled/>
                                     </Row>
                                 </Col>
                             </div>
