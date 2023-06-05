@@ -27,19 +27,23 @@ export default function Balancing() {
         fetchData()
     }, [user, loading]);
 
+    const [timeUnit, setTimeUnit] = useState(0);
+    const [totalProfit, setProfit] = useState(0)
+
+    const times = ['Months', 'Years']
+
     function calculate() {
-        const startingAmount = document.getElementById("starting-amount").value;
-        const endingAmount = document.getElementById("ending-amount").value;
-        const diff = endingAmount - startingAmount
-        const taxResult = document.getElementById("tax-result");
-        const profitResult = document.getElementById("profit-result");
-        if (diff < 0) {
-            taxResult.value = 0
-            profitResult.value = diff
+        const endingInvestment = document.getElementById("ending-investment").value;
+        const time = document.getElementById("time").value;
+        if (times[timeUnit] === 'Months') {
+            setProfit(endingInvestment / time)
         } else {
-            taxResult.value = diff * 0.15
-            profitResult.value = diff * 0.85
+            setProfit((endingInvestment / time) / 12)
         }
+    }
+
+    function changeTime() {
+        setTimeUnit(Math.abs(timeUnit - 1))
     }
 
     const schemaMarkup = {
@@ -63,11 +67,13 @@ export default function Balancing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta property='og:type' content='website'/>
-                <meta property='og:description' content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
+                <meta property='og:description'
+                      content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
                 <meta name='twitter:title' content='Asset Balancing - Finding Your Efficient Asset Percentages'/>
-                <meta name='twitter:description' content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
+                <meta name='twitter:description'
+                      content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
             </Head>
@@ -145,116 +151,130 @@ export default function Balancing() {
                                             <Row lg={12}>
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey='Basic'>
-                                                        <Card className={styles.card1}>
-                                                            <Image style={{height: '100%', width: '100%'}}
-                                                                   src={AssetBalancing}
-                                                                   alt={'AssetBalancing'}
-                                                                   placeholder={'blur'}
-                                                            />
-                                                        </Card>
+                                                        <Container className={styles.pad}>
+                                                            <Card className={styles.card1}>
+                                                                <Image style={{height: '100%', width: '100%'}}
+                                                                       src={AssetBalancing}
+                                                                       alt={'AssetBalancing'}
+                                                                       placeholder={'blur'}
+                                                                />
+                                                            </Card>
+                                                        </Container>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Alt'>
-                                                        <Card className={styles.card1}>
-                                                            {loading
-                                                                ? <Card.Title>Loading...</Card.Title>
-                                                                : user
-                                                                    ? plan === ''
-                                                                        ? <Card.Title>Loading...</Card.Title>
-                                                                        : plan !== 'none' && plan !== 'Balanced'
-                                                                            ?
+                                                        <Container className={styles.pad}>
+                                                            <Card className={styles.card1}>
+                                                                {loading
+                                                                    ? <Card.Title>Loading...</Card.Title>
+                                                                    : user
+                                                                        ? plan === ''
+                                                                            ? <Card.Title>Loading...</Card.Title>
+                                                                            : plan !== 'none' && plan !== 'Balanced'
+                                                                                ?
+                                                                                <Image
+                                                                                    style={{
+                                                                                        height: '100%',
+                                                                                        width: '100%'
+                                                                                    }}
+                                                                                    src={AssetBalancingPlot}
+                                                                                    alt={'Asset Balancing Plot'}
+                                                                                    placeholder={'blur'}
+                                                                                />
+                                                                                :
+                                                                                <>
+                                                                                    <h2
+                                                                                        style={{textAlign: "center"}}>
+                                                                                        <Card.Link
+                                                                                            className={styles.weblink}
+                                                                                            href={'/pricing'}>
+                                                                                            Balanced Investing
+                                                                                            Plan </Card.Link>
+                                                                                        Required
+                                                                                    </h2>
+                                                                                    <Image style={{
+                                                                                        height: '100%',
+                                                                                        width: '100%'
+                                                                                    }}
+                                                                                           src={BalancingPlot}
+                                                                                           alt={'Balancing Plot'}
+                                                                                           placeholder={'blur'}
+                                                                                    />
+                                                                                </>
+                                                                        :
+                                                                        <>
+                                                                            <h2
+                                                                                style={{textAlign: "center"}}>Please <Card.Link
+                                                                                className={styles.weblink}
+                                                                                href={'/auth/login'}>Login</Card.Link> to
+                                                                                see content</h2>
                                                                             <Image
                                                                                 style={{height: '100%', width: '100%'}}
-                                                                                src={AssetBalancingPlot}
-                                                                                alt={'Asset Balancing Plot'}
+                                                                                src={BalancingPlot}
+                                                                                alt={'Balancing Plot'}
                                                                                 placeholder={'blur'}
                                                                             />
-                                                                            :
-                                                                            <>
-                                                                                <h2
-                                                                                    style={{textAlign: "center"}}>
-                                                                                    <Card.Link
-                                                                                        className={styles.weblink}
-                                                                                        href={'/pricing'}>
-                                                                                        Balanced Investing
-                                                                                        Plan </Card.Link>
-                                                                                    Required
-                                                                                </h2>
-                                                                                <Image style={{
-                                                                                    height: '100%',
-                                                                                    width: '100%'
-                                                                                }}
-                                                                                       src={BalancingPlot}
-                                                                                       alt={'Balancing Plot'}
-                                                                                       placeholder={'blur'}
-                                                                                />
-                                                                            </>
-                                                                    :
-                                                                    <>
-                                                                        <h2
-                                                                            style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h2>
-                                                                        <Image style={{height: '100%', width: '100%'}}
-                                                                               src={BalancingPlot}
-                                                                               alt={'Balancing Plot'}
-                                                                               placeholder={'blur'}
-                                                                        />
-                                                                    </>
-                                                            }
-                                                        </Card>
+                                                                        </>
+                                                                }
+                                                            </Card>
+                                                        </Container>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey='Experimental'>
-                                                        <Card className={styles.card1}>
-                                                            {loading
-                                                                ?
-                                                                <Card.Title>Loading...</Card.Title>
-                                                                : user
-                                                                    ? plan === ''
-                                                                        ?
-                                                                        <Card.Title>Loading...</Card.Title>
-                                                                        : plan === 'Strategist'
+                                                        <Container className={styles.pad}>
+                                                            <Card className={styles.card1}>
+                                                                {loading
+                                                                    ?
+                                                                    <Card.Title>Loading...</Card.Title>
+                                                                    : user
+                                                                        ? plan === ''
                                                                             ?
+                                                                            <Card.Title>Loading...</Card.Title>
+                                                                            : plan === 'Strategist'
+                                                                                ?
+                                                                                <Image
+                                                                                    style={{
+                                                                                        height: '100%',
+                                                                                        width: '100%'
+                                                                                    }}
+                                                                                    src={AssetBalancingExp}
+                                                                                    alt={'Mini Asset Weighting Experienced'}
+                                                                                    placeholder={'blur'}
+                                                                                />
+                                                                                :
+                                                                                <>
+                                                                                    <h2 style={{
+                                                                                        textAlign: "center",
+                                                                                    }}><Card.Link
+                                                                                        className={styles.weblink}
+                                                                                        href={'/pricing'}>
+                                                                                        Strategist Investing
+                                                                                        Plan </Card.Link>
+                                                                                        Required</h2>
+                                                                                    <Image style={{
+                                                                                        height: '100%',
+                                                                                        width: '100%'
+                                                                                    }}
+                                                                                           src={BalancingPlot}
+                                                                                           alt={'Balancing Plot'}
+                                                                                           placeholder={'blur'}
+                                                                                    />
+                                                                                </>
+                                                                        : <>
+                                                                            <h2
+                                                                                style={{textAlign: "center"}}>Please <Card.Link
+                                                                                className={styles.weblink}
+                                                                                href={'/auth/login'}>Login</Card.Link> to
+                                                                                see content</h2>
                                                                             <Image
                                                                                 style={{height: '100%', width: '100%'}}
-                                                                                src={AssetBalancingExp}
-                                                                                alt={'Mini Asset Weighting Experienced'}
+                                                                                src={BalancingPlot}
+                                                                                alt={'Balancing Plot'}
                                                                                 placeholder={'blur'}
                                                                             />
-                                                                            :
-                                                                            <>
-                                                                                <h2 style={{
-                                                                                    textAlign: "center",
-                                                                                }}><Card.Link
-                                                                                    className={styles.weblink}
-                                                                                    href={'/pricing'}>
-                                                                                    Strategist Investing
-                                                                                    Plan </Card.Link>
-                                                                                    Required</h2>
-                                                                                <Image style={{
-                                                                                    height: '100%',
-                                                                                    width: '100%'
-                                                                                }}
-                                                                                       src={BalancingPlot}
-                                                                                       alt={'Balancing Plot'}
-                                                                                       placeholder={'blur'}
-                                                                                />
-                                                                            </>
-                                                                    : <>
-                                                                        <h2
-                                                                            style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h2>
-                                                                        <Image style={{height: '100%', width: '100%'}}
-                                                                               src={BalancingPlot}
-                                                                               alt={'Balancing Plot'}
-                                                                               placeholder={'blur'}
-                                                                        />
-                                                                    </>
+                                                                        </>
 
-                                                            }
-                                                        </Card>
+                                                                }
+                                                            </Card>
+                                                        </Container>
                                                     </Tab.Pane>
                                                 </Tab.Content>
                                             </Row>
@@ -265,29 +285,30 @@ export default function Balancing() {
                         </Col>
                         <Col xxl={2} lg={12} className={styles.pad}>
                             <div>
-                                <h3 style={{textAlign: 'center'}}>Short-Term Capital Gains Tax Calculator</h3>
-                                <p><strong>Not Tax Advice.</strong> Finding predicted tax based on 15% tax rate.</p>
+                                <h2 style={{textAlign: 'center'}}>Savings Calculator</h2>
+                                <p>Find monthly savings to reach a total savings goal.</p>
                                 <Col>
                                     <Row style={{margin: '15px'}}>
-                                        <label htmlFor="starting-amount">Starting Amount</label>
-                                        <input className={styles.inputs} type="number" id="starting-amount" min="0"
+                                        <label style={{padding: 0}} htmlFor="ending-investment">Goal Amount</label>
+                                        <input className={styles.inputs} type="number" id="ending-investment" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label htmlFor="ending-amount">Ending Amount</label>
-                                        <input className={styles.inputs} type="number" id="ending-amount" min="0"
-                                               required/>
+                                        <label style={{padding: 0}} htmlFor="time">{times[timeUnit]} till Goal</label>
+                                        <input className={styles.inputs} type="number" id="time" min="0" required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} onClick={changeTime}>Change
+                                            to {times[Math.abs(timeUnit - 1)]}</Button>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
-                                        <label htmlFor="tax-result">Predicted Tax</label>
-                                        <input className={styles.inputs} type="text" id="tax-result" disabled/>
-                                    </Row>
-                                    <Row style={{margin: '15px'}}>
-                                        <label htmlFor="profit-result">Predicted Profit</label>
-                                        <input className={styles.inputs} type="text" id="profit-result" disabled/>
+                                        <label style={{padding: 0}} htmlFor="result">$ Savings Per Month</label>
+                                        <input className={styles.inputs} value={Math.round(totalProfit)}
+                                               type="text"
+                                               id="result" disabled/>
                                     </Row>
                                 </Col>
                             </div>
