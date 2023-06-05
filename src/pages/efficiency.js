@@ -168,14 +168,13 @@ export default function Efficiency() {
                                             <Card.Text style={{fontSize: '20px'}}>
                                                 <p>
                                                     Our asset efficiency gauges tell us each asset&apos;s risk-to-return
-                                                    ratio. Calculating these numbers includes the use of financial
-                                                    ratios that are then compared to a baseline efficiency. These gauges
-                                                    are color coded and labeled.
+                                                    ratio from 1 to 100 in comparison to other cryptocurrencies. The
+                                                    main timeframes are around 30 to 120 days, however data from up to 4
+                                                    years is being used for historical accuracy.
                                                 </p>
                                                 <p>
-                                                    With a main timeframe of around 30 to 120 days, the gauges can be
-                                                    used with portfolio rebalancing, asset allocation, or even just
-                                                    finding a new efficient crypto you would like to invest in.
+                                                    Research purposes only. We are not responsible for the taxes of the
+                                                    extra profit you may make from this efficiency data.
                                                 </p>
                                             </Card.Text>
                                         </Card.Body>
