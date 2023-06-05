@@ -1,7 +1,7 @@
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import Image from "next/image";
-import EfficiencyTable from '../images/plots/EfficiencyTable.webp'
+import EfficiencyChart from '../images/plots/EfficiencyChart.webp'
 import styles from "@/styles/Home.module.css";
 
 export default function EfficientSales() {
@@ -9,7 +9,7 @@ export default function EfficientSales() {
         <Card.Link href={'/efficiency'} className={styles.weblink}>
             <Card style={{background:'whitesmoke'}}>
                 <Image
-                    src={EfficiencyTable}
+                    src={EfficiencyChart}
                     className={styles.saleimg}
                     alt={'EfficiencyTable'}
                     placeholder={'blur'}
