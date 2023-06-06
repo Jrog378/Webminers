@@ -70,7 +70,7 @@ export default function WhatIsACryptoBubble() {
                 '\n' +
                 'Pump and dumps are just a crypto bubble created with newer cryptos that do not have a lot of ' +
                 'investors involved. This makes for conditions that do not have volatility and can easily ' +
-                'be [manipulated](​​https://corporatefinanceinstitute.com/resources/capital-markets/' +
+                'be [manipulated](https://corporatefinanceinstitute.com/resources/capital-markets/' +
                 'market-manipulation/) in favor of the highest bidder. Being able to recognize why crypto ' +
                 'is beginning to gain traction in price can help you identify whether or not this is an ' +
                 'opportunity where you can make money.\n' +

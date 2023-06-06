@@ -148,10 +148,7 @@ export default function DecentralizationForCrypto() {
                 'mean that you can be right at the face of development and innovation. As Crypto Investors it is our job' +
                 'to take advantage of the parts of our field and keep up with the times. If you are interesting in' +
                 'building your own investing system make sure to check out, [How to Start Investing in Crypto]' +
-                '(start-investing)\n' +
-                '\n' +
-                'If you are interested in actually working with the blockchain and being apart of the innovation, ' +
-                'read my article [6 Growing Jobs For The Future](tech-future)\n'
+                '(start-investing)\n'
         }
     ]
     const router = useRouter();

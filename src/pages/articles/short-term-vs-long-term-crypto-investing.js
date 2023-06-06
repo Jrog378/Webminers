@@ -118,8 +118,8 @@ export default function ShortTermVsLongTermCryptoInvesting() {
                 'investors as well, giving you a perfect opportunity to ride along trends that other investors ' +
                 'see at the same time as you. As the masses begin to buy into the trend, your cryptos will ' +
                 'continue to gain profit. Short-term crypto investing will trigger your emotions much more ' +
-                'than long-term crypto investing so you must take care of your [Mental Health](/articles/' +
-                'mental-improve) and learn how to [Avoid Emotional Investing](avoid-emotional-investing).\n'
+                'than long-term crypto investing so you must take care of your [Mental Health](crypto-mental-focus) ' +
+                'and learn how to [Avoid Emotional Investing](avoid-emotional-investing).\n'
         },
         {
             img: ShortLong4,

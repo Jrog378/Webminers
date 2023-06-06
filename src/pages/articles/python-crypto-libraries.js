@@ -125,9 +125,7 @@ export default function PythonCryptoLibraries() {
             text: 'Machine Learning, Finance APIs, web Scraping, and personal automation can help you create ' +
                 'the ultimate toolkit for incorporating programming into your Crypto Investing. All of this is ' +
                 'no good until you master the basics of Python. Some of these libraries are complex and might ' +
-                'not make sense to someone who has just started in Python. Check out ' +
-                '[Python Has Been Taking Over The Data Science World](python-data-science) ' +
-                'if you are interested in a brief introduction to Python for Data Science learning Python.\n' +
+                'not make sense to someone who has just started in Python.\n' +
                 '\n' +
                 'Once you know enough Python consider reading [Python for Crypto and Finance](python-for-finance) for direct uses ' +
                 'for these Python libraries in Crypto and Finance.\n' +
