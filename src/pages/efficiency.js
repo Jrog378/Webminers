@@ -1,4 +1,4 @@
-import {Button, Card, Col, Container, Nav, Row, Tab, Table, Toast} from "react-bootstrap";
+import {Button, Card, Col, Container, Nav, Row, Tab} from "react-bootstrap";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {auth, db} from "@/config";
 import {doc, getDoc} from "firebase/firestore";
@@ -12,6 +12,7 @@ import EfficiencyImg from '@/images/plots/Efficiency.webp'
 export default function Efficiency() {
     let [plan, setPlan] = useState('')
     const [user, loading] = useAuthState(auth)
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -125,17 +126,24 @@ export default function Efficiency() {
         }
     }
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/efficiency/",
-        "url": "https://webminers.dev/efficiency/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Webminers Investing - Asset Efficiency",
-        "datePublished": "February 24th, 2023",
-        "dateModified": "June 1st, 2023",
-        "description": "Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/efficiency/",
+                    "url": "https://webminers.dev/efficiency/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Webminers Investing - Asset Efficiency",
+                    "datePublished": "February 24th, 2023",
+                    "dateModified": "June 1st, 2023",
+                    "description": "Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -155,7 +163,7 @@ export default function Efficiency() {
                 <meta name='twitter:description'
                       content='Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>
@@ -224,20 +232,20 @@ export default function Efficiency() {
                                             }}>
                                                 <Tab.Content>
                                                     <Tab.Pane eventKey="Ethereum">
-                                                        <img className={styles.effImg} id="EthImg"
-                                                             alt={'Loading...'}/>
+                                                        <Image className={styles.effImg} id="EthImg"
+                                                               alt={'Loading...'} src={''} unoptimized={true}/>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey="Bitcoin">
-                                                        <img className={styles.effImg} id="BtcImg"
-                                                             alt={'Loading...'}/>
+                                                        <Image className={styles.effImg} id="BtcImg"
+                                                               alt={'Loading...'} src={''} unoptimized={true}/>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey="Solana">
-                                                        <img className={styles.effImg} id="SolImg"
-                                                             alt={'Loading...'}/>
+                                                        <Image className={styles.effImg} id="SolImg"
+                                                               alt={'Loading...'} src={''} unoptimized={true}/>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey="Litecoin">
-                                                        <img className={styles.effImg} id="LtcImg"
-                                                             alt={'Loading...'}/>
+                                                        <Image className={styles.effImg} id="LtcImg"
+                                                               alt={'Loading...'} src={''} unoptimized={true}/>
                                                     </Tab.Pane>
                                                 </Tab.Content>
                                             </Col>
@@ -294,28 +302,28 @@ export default function Efficiency() {
                                                 }}>
                                                     <Tab.Content>
                                                         <Tab.Pane eventKey="Matic">
-                                                            <img className={styles.effImg} id="MaticImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="MaticImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Vet">
-                                                            <img className={styles.effImg} id="VetImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="VetImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Cosmos">
-                                                            <img className={styles.effImg} id="AtomImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="AtomImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Doge">
-                                                            <img className={styles.effImg} id="DogeImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="DogeImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Tron">
-                                                            <img className={styles.effImg} id="TrxImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="TrxImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Link">
-                                                            <img className={styles.effImg} id="LinkImg"
-                                                                 alt={'Loading...'}/>
+                                                            <Image className={styles.effImg} id="LinkImg"
+                                                                   alt={'Loading...'} src={''} unoptimized={true}/>
                                                         </Tab.Pane>
                                                     </Tab.Content>
                                                 </Col>
@@ -383,7 +391,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Vet">
                                                             {user
@@ -405,7 +414,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Cosmos">
                                                             {user
@@ -427,7 +437,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Doge">
                                                             {user
@@ -449,7 +460,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Tron">
                                                             {user
@@ -471,7 +483,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="Link">
                                                             {user
@@ -493,7 +506,8 @@ export default function Efficiency() {
                                                             }
                                                             <Image className={styles.effImg}
                                                                    src={EfficiencyImg}
-                                                                   alt={'Link Efficiency'}/>
+                                                                   alt={'Open Efficiency'}
+                                                                   unoptimized={true}/>
                                                         </Tab.Pane>
                                                     </Tab.Content>
                                                 </Col>
