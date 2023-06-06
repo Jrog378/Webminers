@@ -44,7 +44,7 @@ export default function WhatIsACryptoBubble() {
                 'Why didn’t the investors see it coming? Greed gets the best of many people, which is why [gambling ' +
                 'is so addictive](https://www.healthline.com/health/addiction/gambling). Winning makes you happy and ' +
                 'can blind you from the dangers that the market can hold. Keeping yourself accountable and ' +
-                '[preventing your emotions from taking over](/articles/top-investor) is essential to keeping ' +
+                '[preventing your emotions from taking over](avoid-emotional-investing) is essential to keeping ' +
                 'yourself out of risky situations. When emotion is at its peak, crypto markets are most likely ' +
                 'to crash.\n' +
                 '\n' +

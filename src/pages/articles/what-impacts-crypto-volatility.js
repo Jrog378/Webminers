@@ -63,7 +63,7 @@ export default function NewsInTheCryptoMarket() {
             id: 'EmotionalInvesting',
             description: 'Three cards being a king, queen, and ace next to multicolored poker chips in a pile ' +
                 'on top of a darkly colored wooden table.',
-            text: '[Emotional Investing causes the most extreme volatility](top-investor) because of how angry ' +
+            text: '[Emotional Investing causes the most extreme volatility](avoid-emotinoal-investing) because of how angry ' +
                 'some people can get. The market can go down and investors think that they should have sold and ' +
                 'then sell at the bottom. The market goes back up and they say that they missed a buying ' +
                 'opportunity and they have to buy now for any profit, just to be crushed as the market falls ' +

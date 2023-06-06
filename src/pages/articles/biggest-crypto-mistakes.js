@@ -84,7 +84,7 @@ export default function BiggestCryptoMistakes() {
                 'to yourself since it would have made you money. Hindsight bias is powerful because many times ' +
                 'it will only take into account the outcomes that would have been positive and not the bad ones. ' +
                 'If you are interested in finding out more about your crypto investing emotions read my article ' +
-                'called [What it Takes to Become a Smart Emotionless Crypto Investor](/articles/top-investor)\n'
+                'called [What it Takes to Become a Smart Emotionless Crypto Investor](avoid-emotional-investing)\n'
         },
         {
             img: CryptoMistakes3,
