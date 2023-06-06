@@ -6,17 +6,24 @@ import Head from "next/head";
 
 export default function Pricing() {
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/pricing/",
-        "url": "https://webminers.dev/pricing/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Plan Pricing for Webminers Investing",
-        "datePublished": "February 24th, 2023",
-        "dateModified": "June 1st, 2023",
-        "description": "Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/pricing/",
+                    "url": "https://webminers.dev/pricing/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Plan Pricing for Webminers Investing",
+                    "datePublished": "February 24th, 2023",
+                    "dateModified": "June 1st, 2023",
+                    "description": "Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required."
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -34,7 +41,7 @@ export default function Pricing() {
                 <meta name='twitter:title' content='Plan Pricing for Webminers Investing'/>
                 <meta name='twitter:description' content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <div className={styles.full}>
                 <Container style={{padding: '25px'}}>

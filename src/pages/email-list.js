@@ -29,17 +29,24 @@ function EmailList() {
             });
     };
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/email-list/",
-        "url": "https://webminers.dev/email-list/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Email List for Webminers Investing",
-        "datePublished": "March 17th, 2023",
-        "dateModified": "May 26th, 2023",
-        "description": "Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content."
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/email-list/",
+                    "url": "https://webminers.dev/email-list/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Email List for Webminers Investing",
+                    "datePublished": "March 17th, 2023",
+                    "dateModified": "May 26th, 2023",
+                    "description": "Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content."
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -58,7 +65,7 @@ function EmailList() {
                 <meta name='twitter:description'
                       content='Join our email list where you will receive weekly emails about important updates with our research or highlight articles and extra crypto investing content.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <Container style={{padding: '25px', height: '100%'}} className="login">
                 <Container className={styles.inputcon}>

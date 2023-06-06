@@ -6,17 +6,24 @@ import styles from "@/styles/Home.module.css";
 
 export default function Privacy() {
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/privacy/",
-        "url": "https://webminers.dev/privacy/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Privacy Policy for Webminers Investing",
-        "datePublished": "May 10th, 2023",
-        "dateModified": "May 26th, 2023",
-        "description": "Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is."
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/privacy/",
+                    "url": "https://webminers.dev/privacy/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Privacy Policy for Webminers Investing",
+                    "datePublished": "May 10th, 2023",
+                    "dateModified": "May 26th, 2023",
+                    "description": "Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is."
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -28,13 +35,15 @@ export default function Privacy() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta property='og:type' content='website'/>
-                <meta property='og:description' content='Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is.'/>
+                <meta property='og:description'
+                      content='Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is.'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
                 <meta name='twitter:title' content='Privacy Policy for Webminers Investing'/>
-                <meta name='twitter:description' content='Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is.'/>
+                <meta name='twitter:description'
+                      content='Our privacy policy gives customers the opportunity to view where their data is going, why we use cookies, and how safe your connection with us truly is.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>

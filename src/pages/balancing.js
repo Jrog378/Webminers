@@ -46,17 +46,24 @@ export default function Balancing() {
         setTimeUnit(Math.abs(timeUnit - 1))
     }
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/balancing/",
-        "url": "https://webminers.dev/balancing/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Asset Balancing - Finding Your Efficient Asset Percentages",
-        "datePublished": "February 24th, 2023",
-        "dateModified": "May 26th, 2023",
-        "description": "Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit"
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/balancing/",
+                    "url": "https://webminers.dev/balancing/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Asset Balancing - Finding Your Efficient Asset Percentages",
+                    "datePublished": "February 24th, 2023",
+                    "dateModified": "May 26th, 2023",
+                    "description": "Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit"
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -75,7 +82,7 @@ export default function Balancing() {
                 <meta name='twitter:description'
                       content='Efficiency is very important to profitable investing. Balancing your money between efficient assets divides and reduces your risk to allow for more profit'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container id={'top'} style={{padding: '0 25px 25px 25px'}}>
