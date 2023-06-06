@@ -57,8 +57,7 @@ export default function FinancialAiAndDataScience() {
                 'their jobs due to this technology, forcing employees who are doing work replaced by AI to ' +
                 'go to a job completely different. Worker productivity is essential to economic growth, however, ' +
                 'employment rates are also taken into consideration. It will be very interesting to see if ' +
-                'one will overpower the other. If you are interested in jobs that are built for events like ' +
-                'ai, read my article [6 Growing Jobs For Our Technical Future](/articles/tech-future).\n'
+                'one will overpower the other.\n'
         },
         {
             img: AIFinance2,

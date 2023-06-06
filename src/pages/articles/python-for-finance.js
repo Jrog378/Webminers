@@ -70,9 +70,7 @@ export default function PythonForFinance() {
                 'is all the reason that automation is in so much demand.\n' +
                 '\n' +
                 'Being able to build quality automation will take time, but that is fine because everyone starts ' +
-                'somewhere. Keeping a clear mind will help you along your journey, ' +
-                '[The Best Ways to Improve your Mental State for Smarter Investing](mental-improve) will guide you ' +
-                'in the right direction for this. ' +
+                'somewhere. Keeping a clear mind will help you along your journey. ' +
                 'Check out packages like Numpy, Pandas, BeautifulSoup, and Scrapy to fast-forward the process ' +
                 'of learning Python Automation.\n'
         },
