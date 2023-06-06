@@ -17,22 +17,29 @@ import EfficientSales from "@/components/efficient-sales";
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": Detail.title,
-        "name": Detail.title,
-        "author":
-            {
-                "@type": "Person",
-                "name": "Justin Rogers"
-            },
-        "datePublished": Detail.pub,
-        "dateModified": Detail.date,
-        "description": Detail.text,
-        "image": "https://webminers.dev/images/" + Detail.header,
-        "url": "https://webminers.dev" + Detail.url
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": Detail.title,
+                    "name": Detail.title,
+                    "author":
+                        {
+                            "@type": "Person",
+                            "name": "Justin Rogers"
+                        },
+                    "datePublished": Detail.pub,
+                    "dateModified": Detail.date,
+                    "description": Detail.text,
+                    "image": "https://webminers.dev/images/" + Detail.header,
+                    "url": "https://webminers.dev" + Detail.url
+                }),
+            }}
+        />
+    )
     return (
         <>
             {/*<GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>*/}
@@ -49,7 +56,7 @@ const ArticleFormat = ({Article, url}) => {
                 <meta name='twitter:title' content={Detail.title}/>
                 <meta name='twitter:image' content={'https://webminers.dev/images/' + Detail.header}/>
                 <meta name='twitter:description' content={Detail.text}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <article style={{backgroundColor: '#212529'}}>
                 {/*<AdRecover/>*/}
