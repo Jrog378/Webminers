@@ -430,16 +430,16 @@ const details = [
     },
     {
         id: 5,
-        title: 'What it Takes to Become a Smart Emotionless Crypto Investor',
-        date: 'March 14th, 2023',
+        title: '5 Ways Avoid Emotional Investing in Crypto and be Efficient',
+        date: 'June 5th, 2023',
         pub: 'March 14th, 2023',
-        text: 'Becoming a Smart Emotionless Investor takes dedication through Investing Systems, limiting your' +
-            ' strategies, and constant research.',
-        url: '/articles/top-investor',
-        img: 'TopMain.webp',
-        alt: 'Maroon and old styled typewriter with aged metal parts that has written on a white page to ' +
-            'never be afraid',
-        header: 'Top.webp'
+        text: 'Emotional investing is a big problem, but you can find the root of it by studying your own ' +
+            'decisions and the decisions of others. Then putting systems in place.',
+        url: '/articles/avoid-emotional-investing',
+        img: 'EmotionInvestingMain.webp',
+        alt: 'A foggy forest with a single tree up front that has no leaves and very tall that you can barely see ' +
+            'with other trees behind it.',
+        header: 'EmotionInvesting.webp'
     },
     {
         id: 4,

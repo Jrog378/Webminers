@@ -71,7 +71,8 @@ export default function CryptoMarketPsychology() {
                 'psychological battles involved in investing.\n' +
                 '\n' +
                 'When investors are excited about the markets, they are more likely to put money in and buy ' +
-                'without fully using their evidence. [Emotional investing](top-investor) decisions can also be ' +
+                'without fully using their evidence. [Emotional investing](avoid-emotional-investing) decisions can ' +
+                'also be ' +
                 'false signals that were not checked for accuracy instead the investor rushed into the markets ' +
                 'to buy at the slightest bit of a buy signal. This is important to know because you can tell when ' +
                 'people are buying without reason, even for long-term investors, causing unpredictable movements ' +
