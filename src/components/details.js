@@ -430,7 +430,7 @@ const details = [
     },
     {
         id: 5,
-        title: '5 Ways Avoid Emotional Investing in Crypto and be Efficient',
+        title: '5 Methods to Efficiently Avoid Emotional Investing in Crypto',
         date: 'June 5th, 2023',
         pub: 'March 14th, 2023',
         text: 'Emotional investing is a big problem, but you can find the root of it by studying your own ' +
