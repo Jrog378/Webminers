@@ -37,17 +37,24 @@ export default function AuthSeasons(props) {
         result.value = "$" + totalProfit.toFixed(2); // display result
     }
 
-    const schemaMarkup = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://webminers.dev/insights/",
-        "url": "https://webminers.dev/insights/",
-        "image": "https://webminers.dev/webminers-logo.webp",
-        "name": "Market Insights - Historically-Backed Crypto Indicator",
-        "datePublished": "February 24th, 2023",
-        "dateModified": "May 26th, 2023",
-        "description": "Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately."
-    }
+    const SchemaMarkup = () => (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://webminers.dev/insights/",
+                    "url": "https://webminers.dev/insights/",
+                    "image": "https://webminers.dev/webminers-logo.webp",
+                    "name": "Market Insights - Historically-Backed Crypto Indicator",
+                    "datePublished": "February 24th, 2023",
+                    "dateModified": "May 26th, 2023",
+                    "description": "Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately."
+                }),
+            }}
+        />
+    )
 
     return (
         <>
@@ -67,7 +74,7 @@ export default function AuthSeasons(props) {
                 <meta name='twitter:description'
                       content='Finding out what the market is doing right now can be difficult. We provide you with an easy to follow indicator of where we believe the market is accurately.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+                <SchemaMarkup/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', width: '100%', borderRadius: '25px'}}>
                 <Container style={{padding: '0 25px 25px 25px'}}>
