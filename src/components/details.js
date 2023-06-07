@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 39,
+        title: '5 Easy and Efficient Ways to Store and Invest Cryptocurrency',
+        date: 'June 7th, 2023',
+        pub: 'June 7th, 2023',
+        text: 'Tasks in crypto should be efficient, however, that is not always the case. Investing, Storing, Transferring, and Crisis should be as efficient as possible.',
+        url: '/articles/efficiently-store-and-invest-crypto',
+        img: 'EfficientCryptoMain.webp',
+        alt: 'Two silver coins with the Bitcoin logo and text on them are resting on top of another silver coin with ' +
+            'the Ethereum logo on it.',
+        header: 'EfficientCrypto.webp',
+    },
+    {
         id: 38,
         title: '6 Ways to Make Money With Cryptocurrency - For Crypto Buyers',
         date: 'May 30th, 2023',
@@ -217,7 +229,7 @@ const details = [
         url: '/articles/what-is-a-crypto-bubble',
         img: 'CryptoBubbleMain.webp',
         alt: 'Stack of hundred dollar bills rolled up with a rubber band around them with a ' +
-                'wooden hourglass in the background with white sand.',
+            'wooden hourglass in the background with white sand.',
         header: 'CryptoBubble.webp',
     },
     {
@@ -282,7 +294,7 @@ const details = [
         url: '/articles/ai-jobs-productivity',
         img: 'JobsAIMain.webp',
         alt: 'A head that is made up of technology as a image of artificial intelligence that is ' +
-                'blue one one side and orange on the other.',
+            'blue one one side and orange on the other.',
         header: 'JobsAI.webp'
     },
     {
@@ -295,7 +307,7 @@ const details = [
         url: '/articles/is-cryptocurrency-safe',
         img: 'SafeCryptoMain.webp',
         alt: 'Earth from space with the northern lights in the background and a bunch of connected ' +
-                'shining white lines wrapped around earth.',
+            'shining white lines wrapped around earth.',
         header: 'SafeCrypto.webp'
     },
     {
@@ -308,7 +320,7 @@ const details = [
         url: '/articles/downsides-of-ai',
         img: 'DownsideAIMain.webp',
         alt: 'A blue realistic animated brain that has lines of wires as if it was a part of a ' +
-                'computer representing artificial intelligence.',
+            'computer representing artificial intelligence.',
         header: 'DownsideAI.webp'
     },
     {
@@ -321,7 +333,7 @@ const details = [
         url: '/articles/ai-quant-investing',
         img: 'AIQuantMain.webp',
         alt: 'Apple iPad with an investing app open that is showing the value of Bitcoin with a red ' +
-                'line chart sitting on a wooden table.',
+            'line chart sitting on a wooden table.',
         header: 'AIQuant.webp'
     },
     {
@@ -347,7 +359,7 @@ const details = [
         url: '/articles/decentralization-for-crypto',
         img: 'DecenterMain.webp',
         alt: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
-                'multiple houseplants sitting behind it.',
+            'multiple houseplants sitting behind it.',
         header: 'Decenter.webp'
     },
     {
