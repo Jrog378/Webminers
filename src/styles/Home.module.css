@@ -551,3 +551,8 @@ main:has(> .full) {
     max-width: 100%;
     height: auto;
 }
+
+.webmark > h4 {
+    color: rgb(0, 125, 75);
+    font-weight: bolder;
+}
