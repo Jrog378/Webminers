@@ -403,11 +403,11 @@ const details = [
     },
     {
         id: 8,
-        title: 'Finding the Next Big Cryptocurrency - How I Find Cryptos in 2023',
-        date: 'April 3rd, 2023',
+        title: '5 Keys to Finding the Next Big Cryptocurrency to Invest in',
+        date: 'June 8th, 2023',
         pub: 'April 3rd, 2023',
-        text: 'There are many ways to find profitable coins in investing. It takes efficiency, ' +
-            'popularity, and longevity to determine how successful a cryptocurrency will be.',
+        text: 'When looking for the next big crypto, we must look at efficiency, popularity, predictability, ' +
+            'reliability, and narratives to be able to determine our evidence.',
         url: '/articles/next-big-crypto',
         img: 'BigCryptoMain.webp',
         alt: 'A tiny clay man in a blue jacket and brown hair reading a book sitting on a pile of ' +
