@@ -22,7 +22,7 @@ export default function NextBigCrypto() {
                 'Here are my 5 proven methods for finding cryptocurrencies that won’t fail you:\n' +
                 '\n' +
                 '1. [Efficiency](#Efficiency)\n' +
-                '2. [Popularity](#Popularity\n' +
+                '2. [Popularity](#Popularity)\n' +
                 '3. [Predictability](#Predictability)\n' +
                 '4. [Reliability](#Reliability)\n' +
                 '5. [Narratives](#Narratives)\n'
