@@ -13,8 +13,8 @@ export default function BiggestCryptoMistakes() {
             img: CryptoMistakesMain,
             title: '',
             id: 'Intro',
-            description: 'The cryptocurrency market in all red going up and down along a candle with lines going ' +
-                'around it and arrows pointing downwards.',
+            description: 'Two stacks of coins next to each other with candle wicks on top that are lit up ' +
+                'and have been slowly melting the coin stacks.',
             text: 'Investing in Crypto is an amazing way to use your money to purchase assets that can go ' +
                 'up in value. Crypto is not an easy road to riches as some people may make it seem like. It ' +
                 'takes time to learn the markets and understand how they act. There are some big mistakes ' +
@@ -119,8 +119,8 @@ export default function BiggestCryptoMistakes() {
             img: CryptoMistakes4,
             title: 'Concluding Words',
             id: 'Conclusion',
-            description: 'Two stacks of coins next to each other with candle wicks on top that are lit up ' +
-                'and have been slowly melting the coin stacks.',
+            description: 'Five red blocks that are getting bigger as you go right each with a gray set of buildings ' +
+                'in front of them getting bigger too.',
             text: 'There are many mistakes that you are going to make along the way of becoming a more ' +
                 'experienced investor and it is important to continue learning because you will never be ' +
                 'able to know everything. Improvement is always possible. Use your resources and write ' +
