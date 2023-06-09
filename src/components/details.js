@@ -267,8 +267,8 @@ const details = [
             'detrimental to your crypto investing for any level of investor.',
         url: '/articles/biggest-crypto-mistakes',
         img: 'CryptoMistakesMain.webp',
-        alt: 'The cryptocurrency market in all red going up and down along a candle with lines going around it ' +
-            'and arrows pointing downwards.',
+        alt: 'Two stacks of coins next to each other with candle wicks on top that are lit up ' +
+            'and have been slowly melting the coin stacks.',
         header: 'CryptoMistakes.webp',
     },
     {
@@ -390,15 +390,15 @@ const details = [
     },
     {
         id: 9,
-        title: 'Python for Crypto and Finance - How FinTech Uses Python for Profits',
-        date: 'April 13th, 2023',
+        title: '4 Ways to Use Python to Make Money in Cryptocurrency Markets',
+        date: 'June 8th, 2023',
         pub: 'April 13th, 2023',
-        text: 'Python for Crypto and Finance has never been in more demand. There is more money to be made in ' +
-            'AI, Automation, Quants, and Data Visualization for Finance.',
+        text: 'Using python with AI, Automation, Quants, and Data Visualization improves profit and simplicity ' +
+            'in investing systems that increase profits for crypto investors.',
         url: '/articles/python-for-finance',
         img: 'PythonFinMain.webp',
-        alt: 'Robot hand reaching out with one finger to a geometrically shaped group of white lines ' +
-            'with a black background lit up by light.',
+        alt: 'A bunch of dollar bills all stacked on top of each other with the face side up in a ' +
+                'spiral pattern going counter clockwise.',
         header: 'PythonFin.webp'
     },
     {
@@ -423,8 +423,8 @@ const details = [
             'your efficient assets and start adding in your data for profits.',
         url: '/articles/start-investing',
         img: 'StartInvestingMain.webp',
-        alt: 'A blue animated coin that has the Bitcoin logo on the front of it that says peer-to-peer on it ' +
-            'surrounded in circles and numbers.',
+        alt: 'A golden coin with the bitcoin logo on the front sitting on a silver disk with metal bars below it ' +
+            'and a silver city behind it.',
         header: 'StartInvesting.webp'
     },
     {
