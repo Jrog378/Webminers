@@ -13,8 +13,8 @@ export default function StartInvesting() {
             img: StartInvestingMain,
             title: '',
             id: 'Intro',
-            description: 'A blue animated coin that has the Bitcoin logo on the front of it that says peer-to-' +
-                'peer on it surrounded in circles and numbers.',
+            description: 'A golden coin with the bitcoin logo on the front sitting on a silver disk with metal ' +
+                'bars below it and a silver city behind it.',
             text: 'Investing is essentially the willing exchange of goods for something you feel is more ' +
                 'valuable. This can be time for money, money for possessions, and in our case, money for ' +
                 'assets. Crypto investing is a great field full of technology, innovation, and profit. To ' +
