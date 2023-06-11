@@ -1,10 +1,24 @@
 const details = [
     {
+        id: 40,
+        title: 'The Crypto Workplace: 6 High-Paying Decentralized Jobs',
+        date: 'June 10th, 2023',
+        pub: 'June 10th, 2023',
+        text: 'With decentralization growing along with the crypto workplace, jobs in this field are a great ' +
+            'opportunity to impact the development of an innovative movement.',
+        url: '/articles/decentralized-crypto-jobs',
+        img: 'CryptoJobsMain.webp',
+        alt: 'A golden coin resting on its edge with the Bitcoin logo on it facing forward in front of a city made ' +
+            'from silver buildings.',
+        header: 'CryptoJobs.webp',
+    },
+    {
         id: 39,
         title: '5 Easy and Efficient Ways to Store and Invest Cryptocurrency',
         date: 'June 7th, 2023',
         pub: 'June 7th, 2023',
-        text: 'Tasks in crypto should be efficient, however, that is not always the case. Investing, Storing, Transferring, and Crisis should be as efficient as possible.',
+        text: 'Tasks in crypto should be efficient, however, that is not always the case. Investing, Storing, ' +
+            'Transferring, and Crisis should be as efficient as possible.',
         url: '/articles/efficiently-store-and-invest-crypto',
         img: 'EfficientCryptoMain.webp',
         alt: 'Two silver coins with the Bitcoin logo and text on them are resting on top of another silver coin with ' +
