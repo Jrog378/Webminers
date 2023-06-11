@@ -16,116 +16,54 @@ export default function BestEfficientCrypto() {
             id: 'Intro',
             description: 'Three cryptocurrency coins resting on top of a one hundred dollar bill with a piece ' +
                 'of paper on top and a gold watch next to it.',
-            text: 'In a world of crypto where efficiency is critical, we must consider the periods of our ' +
-                'assets. Some cryptos are more efficient short term and others take a bit longer to ' +
-                'develop a nice average efficiency. No matter the coin, we must consider many timeframes ' +
-                'before passing judgment. This is a new series where we will be going into depth about ' +
-                'assets and their efficiencies.\n' +
+            text: 'In a world of crypto where efficiency is critical, we must consider the periods of our assets. Some cryptos are more efficient short term and others take a bit longer to develop a nice average efficiency. No matter the coin, we must consider many timeframes before passing judgment. This is a new series where we will be going into depth about assets and their efficiencies.\n' +
                 '\n' +
                 'Today we will be going over some reliable and popular coins:\n' +
                 '\n' +
-                '1. [Ethereum](#Ethereum)\n' +
-                '2. [Bitcoin](#Bitcoin)\n' +
+                '1. [Bitcoin](#Bitcoin)\n' +
+                '2. [Ethereum](#Ethereum)\n' +
                 '3. [Solana](#Solana)\n' +
                 '4. [Litecoin](#Litecoin)\n'
         },
         {
             img: BestCrypto1,
-            title: 'Ethereum - Eth',
-            id: 'Ethereum',
-            description: 'A golden Ethereum coin with fine sketches and etchings that is resting on top of a very ' +
-                'lightly colored table or surface.',
-            text: '[Ethereum](https://ethereum.org/en/) has been around since 2013. A solid 10 years of history ' +
-                'backing it. Ethereum has a powerful position in the world of ' +
-                '[Decentralization](https://aws.amazon.com/blockchain/decentralization-in-blockchain/)' +
-                ' as well. Those who ' +
-                'need to create decentralized apps have many places to store their data and make ' +
-                'transactions, however, Ethereum is one of the biggest platforms for this type of ' +
-                'technology. Being a large player allows Eth to be backed by its technology. Being ' +
-                'the face of the decentralization movement gives more attention to the actual currency ' +
-                'trading scene which is good news for investors. \n' +
-                '\n' +
-                'Ethereum, due to its large volume and demand, has become more stable than other ' +
-                'alternative coins. More stability leads to less risk. Since risk is inverse to ' +
-                'efficiency, we have more efficiency with Eth when compared to other coins. With an ' +
-                'omega of 2.15 in the past 30 days, we can see just how this can come into effect.\n' +
-                '\n' +
-                'Being second on the list for market cap comes with the promising ability to have a ' +
-                'ton of investors that are all shooting their shot at making some money. The Eth ' +
-                'market cap will only go up due to being at a low in the market. Due to Eth being a ' +
-                'personal favorite, you will see it with the most percentage in Webminers Balancing, ' +
-                'with the basic portfolio of just Eth and Alts.\n'
-        },
-        {
-            img: BestCrypto2,
-            title: 'Bitcoin - Btc',
+            title: 'Bitcoin (Btc)',
             id: 'Bitcoin',
             description: 'A Bitcoin sitting on top of a wooden chess table with the white pieces all lined up in ' +
                 'the background in an outdoor setting.',
-            text: 'Bitcoin has been considered the top dog of crypto for some time now. Largest market ' +
-                'cap, second largest 24h volume behind Tether, and being the face of cryptocurrency in ' +
-                'the news. Having been in action since 2009, Bitcoin has probably been in everyone\'s ' +
-                'wallet at some point in time, but what does this mean for price?\n' +
+            text: 'Bitcoin is the father of all [blockchain technology](what-is-the-crypto-blockchain) being the first ever invented. This revolutionary innovation was only the beginning of decentralization as it was back in 2008. After its creation, more cryptocurrencies came into action, however, Bitcoin is just different. It has this unmatched feeling to it and no matter who tried to beat the legendary coin, they all have fallen short. Many of its long-time competitors have already failed as well and are no longer in the markets to see.\n' +
                 '\n' +
-                'Bitcoin has better short-term efficiency with an omega of 2.17 when compared to ' +
-                'Ethereum, however, the last bull run reflects in its three-year Omega of 1.13, ' +
-                'which is less than Eth 1.18 Omega. This means that Eth is historically better ' +
-                'when all coins are going up, however, once the bull run calms, Btc is more ' +
-                'efficient.\n' +
+                'Bitcoin has the highest market capitalization out of all cryptocurrencies making it an amazing option for you if you’re looking for the most [popular cryptocurrency to invest in](popular-cryptocurrency) and just hold on to for a long time. There has never been a time when Bitcoin has had a crash and not fully recovered as well as reaching all-new highs. For investors, this means that you do not have to worry about your Bitcoin losing its value in the long run as statistically, it will end up reaching all-time highs above previous ones. Out of all of the cryptos, Bitcoin is the most likely to be [accepted at restaurants and stores](https://bitpay.com/blog/how-to-pay-with-crypto/), as it is the biggest crypto and gets the most attention.\n'
+        },
+        {
+            img: BestCrypto2,
+            title: 'Ethereum (Eth)',
+            id: 'Ethereum',
+            description: 'A golden Ethereum coin with fine sketches and etchings that is resting on top of a very ' +
+                'lightly colored table or surface.',
+            text: 'Ethereum has been around since 2013 and with a solid 10 years of history backing it, Ethereum has held its powerful position in the [world of decentralization](decentralization-for-crypto). With this decentralization dominance, we can see Ethereum in areas like NFTs, smart contracts, and decentralized applications. There is no doubt about it that when it comes to versatility, Ethereum is the best option for decentralized finance, also known as DeFi. Ethereum is a crypto that has a purpose outside of the currency itself. The blockchain associated with it has helped applications become [more secure and transfer data without central power](blockchain-transaction). Being a driving force in its uses, Ethereum is paving its way with popularity from multiple different professional fields by making contracts without a middleman possible using smart contracts.\n' +
                 '\n' +
-                'Bitcoin is not going away anytime soon. Even though Btc is not backed by much ' +
-                'blockchain technology, it is a long-term provider for those trying to store ' +
-                'and transfer money without a bank. Btc is even starting to be accepted at ' +
-                'stores, including over 250 online stores provided in an article called, ' +
-                '[Who Accepts Crypto?](https://usethebitcoin.com/list-of-online-stores-accepting-bitcoin/)\n'
+                'Ethereum still has an extremely high market cap and a large number of investors allowing it to come second in terms of decentralized assets. Even though Bitcoin beats it in terms of assets, Ethereum is an amazing option as it is backed by technology and a very large community. Ethereum is also able to maintain a very efficient market movement from the consistent support of crypto investors and those looking for [efficient and popular cryptocurrencies](/efficiency). Ethereum is a great asset for creating investing systems due to its efficiency and predictability.\n'
         },
         {
             img: BestCrypto3,
-            title: 'Solana - Sol',
+            title: 'Solana (Sol)',
             id: 'Solana',
             description: 'A Rainbow-colored Solana logo front and center with a black background and many other ' +
                 'Solana logos floating all around each other.',
-            text: 'Solana has had a rough patch with the giant fall of 66%, completely ruining its ' +
-                'history of efficiency. Before the incident, I enjoyed investing in Solana. It had good ' +
-                'volatility and I was able to predict the price to some extent. Fortunately, I did not ' +
-                'have anything in Solana when the crash happened.\n' +
+            text: 'Solana has had a relatively good price history. For a coin second to Ethereum and Bitcoin, many investors are not sure whether it should be considered a main coin or just an altcoin. The biggest hiccup for Solana [was a giant fall of 66%](https://beincrypto.com/three-surprising-facts-why-solana-sol-crashed/), completely ruining its efficiency for the time being, until things balance out. Before the incident, Solana was one of my favorite cryptos as it moved around quite efficiently and was predictable. The polygon network is not as secure as the Ethereum blockchain and the technology supporting polygon is not as popular or advanced as Ethereum.\n' +
                 '\n' +
-                'What does this mean for the data? Well, the past 3 months of Solana have produced an ' +
-                'omega ratio of only 1.83, which is terrible compared to other assets. The large fall ' +
-                'has impacted other timeframes as well. Until Sol can somehow revive itself, I will ' +
-                'not be going anywhere near it.\n' +
-                '\n' +
-                'This is unfortunate as well. Sol was promising over the NFT scene and has good ' +
-                'decentralization and blockchain technology with it. I believe it had the potential ' +
-                'to be a large contender with Eth, and very well still could be. Due to its ' +
-                'promising past, Sol has room for improvement, and of all the coins, probably ' +
-                'the most likely to make a comeback.\n'
+                'Even though Solana is not the king of blockchain transactions and technology, this does not mean that it isn\'t a close second. Solana still has community support for its decentralization. Applications enjoy the Solana blockchain because it is not as crowded as the Ethereum one can seem, making the [polygon network a more unique solution](https://www.kraken.com/learn/what-is-polygon-matic). Solana also has a powerful NFT community that is a good rival for Ethereum as they are both considered the top blockchains for this digital art.\n'
         },
         {
             img: BestCrypto4,
-            title: 'Litecoin - Ltc',
+            title: 'Litecoin (Ltc)',
             id: 'Litecoin',
             description: 'A silver Litecoin with a white USB male end resting on top of the coin showing the USB ' +
                 'symbol all sitting on a black surface.',
-            text: 'Last but not least we have Litecoin. I love Litecoin. It is my go-to Alt Coin when ' +
-                'Eth or Btc are not performing well. I have strategies and indicators specifically ' +
-                'designed for this coin and believe it is a great match for anyone trying to spice ' +
-                'up their portfolio. Litecoin is also considered the Second Oldest Cryptocurrency ' +
-                'by Forbes in their article ' +
-                '[What is Litecoin?](https://www.forbes.com/advisor/investing/cryptocurrency/litecoin/)\n' +
+            text: 'Litecoin was created in the hopes of making a better Bitcoin. It is built using Bitcoin\'s blockchain as well and started just 3 years after Bitcoins creation. Even though Litecoin does not have the [market capitalization](https://www.nerdwallet.com/article/investing/what-is-market-cap) or amount of investors as Bitcoin does not mean that it isn’t a good alternative. Being one of the top altcoins, it can hold extra market volatility, providing investors with an opportunity when main coins like Bitcoin are slow.\n' +
                 '\n' +
-                'In terms of efficiency, we have a very nice Omega of 2.02, which compared to other ' +
-                'Alt Coins in [Webminers Asset Efficiency](/efficiency), is currently doing much better than ' +
-                'most. Litecoin tends to be a more reliable coin than a profitable coin. History ' +
-                'tells us that Ltc enjoys going up enough to make money when other coins go up, and ' +
-                'barely goes down when other coins are going down. This increases its risk to reward.\n' +
-                '\n' +
-                'The whole goal of Litecoin is to be the better Bitcoin. This is great news because ' +
-                'investing in Litecoin as an alternative coin allows us to get the best of both ' +
-                'worlds, part of our money goes up and makes a risky profit with Bitcoin and the ' +
-                'other part will consistently make us money at lower risk with Litecoin. Ltc belongs ' +
-                'in any portfolio that needs to reduce a little risk without sacrificing a ton of ' +
-                'profit, at least until the Efficiency tells us otherwise.\n'
+                'This extra volatility may come at a price as when market crashes happen, altcoins tend to fall more than main coins. Bitcoin is great at resistinting the falls of the market. When Other altcoin fall rapidly, Litecoin is still able to do smoother movements where price does not make these rapid drops to 0. While other altcoins end up falling over 50% at times, Litecoin might only fall half that, while main coins fall even less. This shows the reliability of Litecoin and puts trust back into investors hands. Litecoin is a very efficient cryptocurrency that can even pass Bitcoin and Ethereum in long-term efficiency if conditions are right. It is a [great option](https://www.fool.com/investing/2021/11/18/3-reasons-to-buy-litecoin/) to have in your back pocket.\n'
         },
         {
             img: BestCrypto5,
@@ -133,20 +71,14 @@ export default function BestEfficientCrypto() {
             id: 'Closing',
             description: 'Litecoin, Ethereum, and Bitcoin are all sitting inside a brown and rusty vice grip that ' +
                 'is in front of a black background.',
-            text: 'Keeping up with efficiency is almost as important as knowing how efficient ' +
-                'an asset is. Old data is bad data and if you are not sure if this data is still ' +
-                'accurate, make sure to visit [Webminers Efficiency](/efficiency) for the current numbers. ' +
-                'After knowing what assets you think are best to invest in make sure you balance ' +
-                'your portfolio right. Visit [Webminers Balancing](/balancing) to see my balances based ' +
-                'on this data. Finally when to put money in and out. If you are concerned about ' +
-                'the weekly status of the crypto market then it will probably be best if you ' +
-                'check out [Webminers Insights](/insights) and see just where each asset is in a short ' +
-                'timeframe. \n' +
+            text: '### What is the Best Cryptocurrency?\n' +
+                'There is no best cryptocurrency, as there are many great options that have their specialties. Ultimately it is up to the investor and their style to determine their choice. Some good options are Bitcoin, Ethereum, Solana, and Litecoin.\n' +
                 '\n' +
-                'Use your data effectively by taking a closer look at the assets you are ' +
-                'interested in. Join the [Webminers Emailing List](/email-list) for updates to new ' +
-                'cryptos that are up and coming in efficiency. Do your research and consult ' +
-                'a professional before investing.\n'
+                '### What Influenced the Decision of These Coins?\n' +
+                'These cryptos were picked based on reliability, history, and efficiency to set themselves apart from the other cryptocurrencies as the top 4 options.\n' +
+                '\n' +
+                '### Should I Buy One Now?\n' +
+                'I am unsure if the time of reading is a good time to buy these cryptos, your best bet is to build an investing system that can help guide you through the markets. These signals along with research can help you decide if now is a good time to buy these cryptos.\n'
         }
     ]
     const router = useRouter();

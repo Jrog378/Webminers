@@ -391,11 +391,11 @@ const details = [
     },
     {
         id: 10,
-        title: 'Best Efficient Crypto to Buy - Efficient Crypto Updates',
-        date: 'April 24th, 2023',
+        title: 'History of the Best Efficient and Popular Cryptocurrencies',
+        date: 'June 11th, 2023',
         pub: 'April 24th, 2023',
-        text: 'Finding the best crypto to invest in is easier than you think with the most accurate method, ' +
-            'efficiency, we can find the most efficient cryptos to pick from.',
+        text: 'There are many cryptocurrencies to pick from, but to find the best asset, we must look into the ' +
+            'history involving efficiency, reliability, and popularity.',
         url: '/articles/best-efficient-crypto',
         img: 'BestCryptoMain.webp',
         alt: 'Three cryptocurrency coins resting on top of a one hundred dollar bill with a piece ' +
