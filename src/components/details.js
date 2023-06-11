@@ -378,7 +378,7 @@ const details = [
     },
     {
         id: 11,
-        title: 'Python Crypto Libraries - Programming Libraries For Crypto Investing',
+        title: 'Python Crypto Libraries: The Coding Future of the Blockchain',
         date: 'June 11th, 2023',
         pub: 'April 26th, 2023',
         text: 'Programming in Python and Blockchain Technology are both promising and growing fields. When we ' +
