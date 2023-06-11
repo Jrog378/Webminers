@@ -379,10 +379,10 @@ const details = [
     {
         id: 11,
         title: 'Python Crypto Libraries - Programming Libraries For Crypto Investing',
-        date: 'April 26th, 2023',
+        date: 'June 11th, 2023',
         pub: 'April 26th, 2023',
-        text: 'Programming in crypto gives you an advantage in the market, but many times we need libraries. ' +
-            'Here are some essential Python libraries for crypto programming.',
+        text: 'Programming in Python and Blockchain Technology are both promising and growing fields. When we ' +
+            'combine them with libraries we can see great results in finance.',
         url: '/articles/python-crypto-libraries',
         img: 'CryptoCodingMain.webp',
         alt: 'Mac laptop with multiple lines of code shown on its screen next to a black mouse as ' +
