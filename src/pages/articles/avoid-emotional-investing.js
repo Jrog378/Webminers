@@ -94,13 +94,13 @@ export default function AvoidEmotionalInvesting() {
             id: 'Main',
             description: 'A darkly colored leather wallet with credit cards inside on its side resting on a white ' +
                 'surface with a white tape measure.',
-            text: '#### How to avoid making emotional decisions when investing in crypto?\n' +
+            text: '### How to avoid making emotional decisions when investing in crypto?\n' +
                 'Recognize the issue. Knowing what is going on can help you see it in real-time or when you look back at your investing journal to see previous market decisions. After this put systems in place to avoid emotion and improve your efficiency and accuracy when investing in crypto.\n' +
                 '\n' +
-                '#### What is the most important thing to improve to avoid emotional investing?\n' +
+                '### What is the most important thing to improve to avoid emotional investing?\n' +
                 'The most important thing to improve is yourself. Improving your lifestyle can set you up for success in the market. After you improve yourself, you will be less prone to emotional mistakes even if you already have an investing system.\n' +
                 '\n' +
-                '#### Why should I study Market Psychology?\n' +
+                '### Why should I study Market Psychology?\n' +
                 'Market psychology helps you see the mistakes that other investors make. Doing this will help you avoid them yourself as well as take advantage and helpfully profit from these opportunities.\n'
         }
     ]

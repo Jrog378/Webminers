@@ -84,7 +84,7 @@ export default function CryptoMentalFocus() {
         },
         {
             title: 'Invest With a Purpose',
-            id: 'Investing Purpose',
+            id: 'InvestingPurpose',
             img: MentalFocus5,
             description: 'A golden piggy bank sitting on a table with three full stacks of one hundred dollar ' +
                 'bills leaning on each other next to it.',
@@ -118,13 +118,13 @@ export default function CryptoMentalFocus() {
             img: MentalFocus8,
             description: 'A candle chart of the stock market going up with lots of green bars and few red bars ' +
                 'going upwards with a black background.',
-            text: '#### How to avoid emotional investing?\n' +
+            text: '### How to avoid emotional investing?\n' +
                 'Avoiding emotional investing can be done by ensuring that you are in the best mental condition yourself. Once you have done that you can put investing systems in place to avoid the emotional stress that can come from the markets.\n' +
                 '\n' +
-                '#### Investing morning routine\n' +
+                '### Investing morning routine\n' +
                 'Wake up at a consistent time and get sunlight. Water should be the first thing you consume along with avoiding sugar early on. Try and fit in a workout before you start working.\n' +
                 '\n' +
-                '#### How to get over demotivation?\n' +
+                '### How to get over demotivation?\n' +
                 'Set consistent goals that are closer together than crazy milestones. Make sure you are doing things outside of work that are reducing your stress and helping you feel better during the day. Look at yourself and your investment for areas of improvement.\n'
         }
     ]
