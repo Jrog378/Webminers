@@ -87,13 +87,13 @@ export default function NextBigCrypto() {
             id: 'Closing',
             description: 'Cryptocurrency candle chart on a screen that is heading downward with three lines above ' +
                 'it colored blue, green, and yellow.',
-            text: '#### How to find the next big cryptocurrency to invest in?\n' +
+            text: '### How to find the next big cryptocurrency to invest in?\n' +
                 'There is not one size fits all however efficiency, popularity, predictability, reliability, and narratives are methods of gaining the edge on the market when trying to identify the next big cryptos.\n' +
                 '\n' +
-                '#### Why is efficiency important?\n' +
+                '### Why is efficiency important?\n' +
                 'The efficiency of a cryptocurrency can determine how well investors make money. Efficient cryptos should attract more investors, thus causing the movements to be even better and creating more profit. This chain reaction can make a cryptocurrency extremely big.\n' +
                 '\n' +
-                '#### What is a crypto narrative\n' +
+                '### What is a crypto narrative?\n' +
                 'The narrative is like the backstory of a cryptocurrency. When we look at narrative there are two main things to look for: community and technology behind the movement. A good community will create a loyal fanbase and good technology is setting up the crypto for long-term success.\n'
         }
     ]

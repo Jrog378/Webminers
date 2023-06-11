@@ -94,13 +94,13 @@ export default function EfficientlyStoreAndInvestCrypto() {
             id: 'Final',
             description: 'A golden coin with the Bitcoin logo on it sitting on top of a pile of other differently ' +
                 'colored coins all on a white surface.',
-            text: '#### How do you stay efficient when you invest in and store crypto?\n' +
+            text: '### How do you stay efficient when you invest in and store crypto?\n' +
                 'Investing in crypto is a lot more than just buying and selling, where you have to be efficient in the way you store and transfer your cryptocurrency as well. This efficiency comes from planning, investigating the market and crypto space, understanding the possible downfalls, and being able to fast to change.\n' +
                 '\n' +
-                '#### What is the most important part of avoiding potential downfalls?\n' +
+                '### What is the most important part of avoiding potential downfalls?\n' +
                 'Speed. Those who struggle to act fast will be left behind, getting hit the worst out of everyone, making speed a big part of avoiding the risk in crypto as a whole while maximizing how much of your profit you get to keep.\n' +
                 '\n' +
-                '#### Why should investors care about efficiency?\n' +
+                '### Why should investors care about efficiency?\n' +
                 'Efficiency helps you maintain your profit by reducing your risk. This is not just risk with buying and selling, but also the risk you hold with your cryptocurrency and how you move it around. Keeping your wallets and cryptocurrency safe will help protect you from the potential downsides that are both predictable and unpredictable.\n'
         }
     ]

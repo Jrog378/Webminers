@@ -552,7 +552,7 @@ main:has(> .full) {
     height: auto;
 }
 
-.webmark > h4 {
+.webmark > h3 {
     color: rgb(0, 125, 75);
-    font-weight: bolder;
+    font-weight: 600;
 }

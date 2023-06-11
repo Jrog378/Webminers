@@ -78,13 +78,13 @@ export default function StartInvesting() {
             id: 'Summary',
             description: 'A market chat that has been printed out onto a piece of paper with the line being in ' +
                 'the color red with blue lines around it.',
-            text: '#### How to start investing in crypto?\n' +
+            text: '### How to start investing in crypto?\n' +
                 'After finding efficient assets with low downside potential, you can begin to set up your investing system. This system will use data and indicators to help you bring home consistent profits.\n' +
                 '\n' +
-                '#### What are efficient assets?\n' +
+                '### What are efficient assets?\n' +
                 'Efficient assets are asset choices that have a high chance for profit and a low chance for loss. These can be calculated using financial ratios like the Omega Ratio.\n' +
                 '\n' +
-                '#### How to make money investing?\n' +
+                '### How to make money investing?\n' +
                 'Most investors receive inconsistent gains in their portfolios. Reaching consistency and prestige takes time, focus, and effort. Those lazy investors are only good news for you because this creates opportunities.\n'
         }
     ]

@@ -79,13 +79,13 @@ export default function PythonForFinance() {
             id: 'FinalThoughts',
             description: 'A bunch of dollar bills all stacked on top of each other with the face side up in a ' +
                 'spiral pattern going counter clockwise.',
-            text: '#### How can I use Python to Make Money in Cryptocurrency Markets?\n' +
+            text: '### How can I use Python to Make Money in Cryptocurrency Markets?\n' +
                 'By pursuing artificial intelligence, automation, quantitative programming, and data visualization, you will be able to make investing in crypto easier, and simpler, and expand your profit-making potential.\n' +
                 '\n' +
-                '#### What is a Crypto Quant?\n' +
+                '### What is a Crypto Quant?\n' +
                 'A crypto quant is someone who uses quantitative programming to create an automated system that analyzes the market and performs trades. These quants can use AI and data analysis techniques to find trends in data and beat the market.\n' +
                 '\n' +
-                '#### Why Should I Pick Python for Crypto?\n' +
+                '### Why Should I Pick Python for Crypto?\n' +
                 'Python is the most popular programming language in the world with tons of libraries and community support for those attempting to use this programming language with crypto. It can help with automation, AI, data visualization, and data analysis.\n'
         }
     ]
