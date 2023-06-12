@@ -365,15 +365,15 @@ const details = [
     },
     {
         id: 12,
-        title: 'What is Decentralization - Decentralized for Crypto Investors',
-        date: 'May 1st, 2023',
+        title: 'What is Decentralization: 5 Key Aspects of the Blockchain',
+        date: 'June 12th, 2023',
         pub: 'May 1st, 2023',
-        text: 'There are many aspects of decentralization that are constantly developing, especially the ' +
-            'blockchain. Crypto investors should know everything about this tech.',
+        text: 'There are many aspects of decentralization that are constantly developing, especially ' +
+            'blockchain technology, this is essential for digital privacy and security.',
         url: '/articles/decentralization-for-crypto',
         img: 'DecenterMain.webp',
-        alt: 'Mac Laptop on a small wooden table displaying a purple screen that says blockchain with ' +
-            'multiple houseplants sitting behind it.',
+        alt: 'An orange glowing cube that is surrounded by other small dark gray cubes stuck to it that form lines ' +
+            'of cubes on both sides.',
         header: 'Decenter.webp'
     },
     {
