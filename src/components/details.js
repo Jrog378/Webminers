@@ -339,11 +339,11 @@ const details = [
     },
     {
         id: 14,
-        title: 'AI Investing - How to Become an AI Quant',
-        date: 'May 9th, 2023',
+        title: 'How to Become an AI Quant: The Master of Investing in Crypto',
+        date: 'June 12th, 2023',
         pub: 'May 9th, 2023',
-        text: 'AI Quants are the new age of top level investors and to become one, it takes building an ' +
-            'investing system with complex coding, data, AI, and market skills.',
+        text: 'Quants using artificial intelligence are able to make investing decisions faster and more accurately. ' +
+            'This is from a good foundation, investing system, and AI.',
         url: '/articles/ai-quant-investing',
         img: 'AIQuantMain.webp',
         alt: 'Apple iPad with an investing app open that is showing the value of Bitcoin with a red ' +
@@ -352,10 +352,10 @@ const details = [
     },
     {
         id: 13,
-        title: 'Financial AI - How AI and Data Science Can Help Crypto Investors',
-        date: 'May 7th, 2023',
+        title: 'Using Financial Artificial Intelligence for Maximum Profits',
+        date: 'June 12th, 2023',
         pub: 'May 7th, 2023',
-        text: 'Financial AI will be impacting Automation, Sentiment, Market Correlation, and Robo Advising in ' +
+        text: 'Financial AI will be impacting Automation, Sentiment, Market Analysis, and Robo Advising in ' +
             'the Financial World of Investing and we must stay updated.',
         url: '/articles/financial-ai-and-data-science',
         img: 'AIFinanceMain.webp',
