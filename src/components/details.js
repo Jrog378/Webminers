@@ -326,11 +326,11 @@ const details = [
     },
     {
         id: 15,
-        title: 'Downsides of AI - What Crypto Investors Have to Look Out For',
-        date: 'May 10th, 2023',
+        title: '3 Downsides Caused by AI in Investing and How to Avoid Them',
+        date: 'June 13th, 2023',
         pub: 'May 10th, 2023',
         text: 'AI is an amazing tool for crypto investors to keep in their back pocket, however, As AI begins ' +
-            'to get more popular in Investing, there are many downsides too.',
+            'to get more popular in investing, there are many downsides too.',
         url: '/articles/downsides-of-ai',
         img: 'DownsideAIMain.webp',
         alt: 'A blue realistic animated brain that has lines of wires as if it was a part of a ' +
