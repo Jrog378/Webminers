@@ -15,13 +15,9 @@ export default function WhatToDoInBearMarkets() {
             id: 'Intro',
             description: 'Stacks of coins increasing as they go to the right with little plants on the top of ' +
                 'them all next to a jar filled with coins.',
-            text: 'Bear markets are time frames when the market is going downward. Bear markets ' +
-                'are usually times when there are not a lot of people in the markets and not a lot of ' +
-                'money to be made. Crypto Bear Markets can be seen like the [fall of Bitcoin]' +
-                '(https://www.thetimes.co.uk/money-mentor/article/is-bitcoin-crash-coming/) after 2021. ' +
-                'Bear Markets are not always a bad thing as long as you can find out what you are going ' +
-                'to be spending your working hours doing rather than wasting your time. Let\'s get into ' +
-                'what you can do when met with bearish markets.\n' +
+            text: 'Everyone loves bull markets. Prices are going up, things are going great and profits are coming. Once this changes and the market decides to flip. The bear market begins. Prices start to fall and we enter a downtrend. Bear Markets may seem like the enemy, however, they are not always a bad thing as long as you can find out how you are going to make the most of what’s going on rather than wasting your time sitting around waiting for the next bull market.\n' +
+                '\n' +
+                'Here are the 3 things you can do when the bull market leaves you and you are met with a bear market.\n' +
                 '\n' +
                 '1. [Continue Investing](#Investing)\n' +
                 '2. [Spending Time on Businesses](#BusinessTime)\n' +
@@ -33,27 +29,13 @@ export default function WhatToDoInBearMarkets() {
             id: 'Investing',
             description: 'A Macbook laptop showing a cryptocurrency trading screen next time a pile of crypto coins ' +
                 'and an iphone showing another screen.',
-            text: 'Investing during a bull market is great. Money comes much easier and you do not have to ' +
-                'look too much into your signals. However, during a crypto bear market, it is not as easy going. ' +
-                'Markets do not move as much and there are not many opportunities to make the big bucks like ' +
-                'before. You have to work harder for less and most investors would rather save their time and ' +
-                'money until the next bull market. There are still opportunities to make money though.\n' +
+            text: 'Investing during a [bull market is great](crypto-bull-market). Money comes much easier and you do not have to look too much into your signals. However, during a crypto bear market, it is not as easy going. Markets do not move as much and there are not many opportunities to make big profits like before. You have to work harder for less and most investors would rather save their time and money until the next bull market. There are still opportunities to make money though.\n' +
                 '\n' +
-                'The first step to continue making money during a crypto bear market is to reduce your buying ' +
-                'power. The less money you put in means the less money you can make, but this also means the ' +
-                'less you can lose. Using less money also comes with more efficiency when looking at the ratios ' +
-                'used in Webminers [Asset Efficiency](/efficiency). More efficient investing with less downside ' +
-                'is exactly what you need to be able to make money rather than lose it during a bear market.\n' +
+                'If you want to prevent yourself from losing all your money in a bear run, the first thing you should take a look at is where you are investing your assets. [Using efficient assets](/efficiency) will prevent you from getting wrapped up in altcoins that will just crash to the ground. When you look for how to build a [strong crypto portfolio](/balancing) and use efficient assets, the chances of them dropping to 0 are much less, which is something you need in a time like this. Efficient assets help you obtain efficient investing.\n' +
                 '\n' +
-                'Another thing you can do to continue making money through Crypto Investing when the market is ' +
-                'bearish is to “Bear Proof” your investing system. If you do not have an investing system ' +
-                'already, check out my article on how to create one called [How to Start Investing in Crypto]' +
-                '(/articles/start-investing), to build one of your own. To “Bear Proof” your investing system, ' +
-                'you must make sure that the data you are using to test with is from bear markets. Once you have ' +
-                'bear market data, you can then incorporate it into your strategy. It is important to take into ' +
-                'account this bearish market data because it will not act the same way that normal data would. ' +
-                'You should be able to create a robust system that can help guide you through bear markets with ' +
-                'minimal losses.\n'
+                'Data does not act the same in bear markets. [Your investing system](start-investing) might not be as accurate and this is something that you need to remember when starting after a bull market ends. To “Bear Proof” your investing system we have to change things up to adapt to what is going on. You must make sure that the data you are using to test is from other bear markets. Once you have bear market data, you can then [incorporate trends you find](https://www.gsam.com/content/gsam/global/en/market-insights/gsam-insights/gsam-perspectives/2016/big-data/gsam-roundtable.html) into your strategy. It is important to take into account this bearish market data because it will not act the same way that normal market data does. With this, you should be able to create a robust system that can help guide you through bear markets with minimal losses.\n' +
+                '\n' +
+                'The psychology of investing in a bear market is different from that of a bull market. Understanding those who you are trying to gain money from in the markets can give you the edge in figuring out ways to make more profit. When you [study market psychology](crypto-market-psychology), the area of bull markets is the most common for mistakes as all of these negative emotions tend to bring investors down. [Less people will be involved with the markets](https://www.nerdwallet.com/article/investing/how-to-invest-during-a-bear-market) as well and because of this, you will be able to understand that it will be easier to move the markets from a small mishap. If something negative comes out in the news, you will know that it makes more of an impact than if it were a bull market.\n'
         },
         {
             img: BearMarket2,
@@ -61,32 +43,11 @@ export default function WhatToDoInBearMarkets() {
             id: 'BusinessTime',
             description: 'A cup of coffee with a small green plant next to black glasses and an open Apple ' +
                 'Macbook laptop all on a dark wooden table.',
-            text: 'Running a business along with Investing is a great way for the two to intertwine and make a ' +
-                'lot of money. If your business is low on sales, you might not have the money for advertising, ' +
-                'but by investing you can fuel that for further growth. On the flip side if investing is ' +
-                'bringing you a lot of losses to stay in the game you can allow your business to make up for ' +
-                'those losses.\n' +
+            text: 'Since the [market sentiment is low](https://www.investopedia.com/terms/m/marketsentiment.asp), to ensure you know how to protect your portfolio in a bear market, you may just want to avoid the markets almost completely. Running a business along with Investing is a great way for the two to intertwine and make a lot of money by finding [multiple ways to generate income](make-money-with-cryptocurrency). By investing you can fuel that for further growth within your business. On the flip side if investing is bringing you a lot of losses to stay in the game you can allow your business to make up for those losses. This way of balancing out the two is how you can avoid your income falling when the market cycle is not in your favor.\n' +
                 '\n' +
-                'Keeping up with businesses is a perfect resource to use during bear markets because it can be ' +
-                'a better way to spend your time. A yearly schedule could be Investing when the markets are ' +
-                'going up with business on the side. Then when the bear market hits, you can begin to shift ' +
-                'and put more time into your business and less time into investing. You can even stick to ' +
-                'finance, Deloitte mentions 7 movements you can hop on board with to help the finance industry ' +
-                'with your business in their article [Seven Forces Shaping the Future of Financial Services]' +
-                '(https://www2.deloitte.com/us/en/pages/financial-services/articles/future-of-financial-' +
-                'services.html).\n' +
+                'Finding how to survive a crypto bear market can be keeping up with businesses, as it is a perfect resource to use during markets with [less volatility than usual](what-impacts-crypto-volatility) because it can be a better way to spend your time. A yearly schedule dividing where you put the majority of your focus could be investing when the markets are going up with business on the side. Then when the bear market hits, you can begin to shift and put more time into [your business](https://blog.hubspot.com/sales/small-business-ideas) and less time investing. By doing this, you can continue making money and reduce the risk involved with continuing investing.\n' +
                 '\n' +
-                'If you are someone who runs a low-maintenance business, similar to the ones listed by Vital ' +
-                'Dollar in their article [13 Low-Maintenance Businesses](https://vitaldollar.com/low-' +
-                'maintenance-business/), where you can still make money while not spending much time on it, ' +
-                'then you are in a good spot. Investing and your business may still take less than 4 hours a ' +
-                'day in work while providing you great returns. When the bear market hits, this may be time ' +
-                'for you to start doing the behind-the-scenes work that you might have been pushing off for ' +
-                'some time. You can spend this time updating your website and email templates, hiring new staff, ' +
-                'looking into ways to make business processes more efficient, and even finding new ways to ' +
-                'provide value to customers. Free time is greatly filled with creative work because you are ' +
-                'not in any rush for a final product. Taking care of these issues may be annoying when doing ' +
-                'it, but will pay off in the long run.\n'
+                'When the bear market hits, this is the perfect time to work on risk management in your business and investing system. You can start doing the behind-the-scenes work that you might have been pushing off. Spending this time updating your website and email templates, hiring new staff, looking into ways to make business processes more efficient, and even finding new ways to [provide value to customers](https://www.forbes.com/sites/theyec/2022/04/27/11-ways-to-ensure-youre-always-bringing-value-to-your-customers/) will help you make your customers happier and provide a more steady income. Free time is greatly filled with creative work because you are not in any rush for a final product. Taking care of these issues may be annoying when doing it, but will pay off in the long run.\n'
         },
         {
             img: BearMarket3,
@@ -94,28 +55,13 @@ export default function WhatToDoInBearMarkets() {
             id: 'SpendMoney',
             description: 'A large green field of grass with a single tree on one of the hills with birds in ' +
                 'the sky underneath lots of dark clouds.',
-            text: 'If all you do is make money then you are not putting it to good use. Money is meant to be ' +
-                'spent and not just piled up doing nothing. Something that you can do when the crypto markets ' +
-                'are not going your way is have some fun and spend that money. If you have a new hobby you ' +
-                'would like to pick up, now is the time to do it when you don\'t have to pay attention to the ' +
-                'markets.\n' +
+            text: 'If all you do is make money and never spend it then you are not putting it to good use. Money is meant to be used and not just piled up doing nothing, losing its value to inflation. One of the easiest ways to find out how to stay positive during a bear market is by having fun and not worrying about the markets. They can do what they want while you spend some of your hard-earned money you made from the bull run before. Having some fun and spending the money you’ve made is the best way to avoid [emotional investing](avoid-emotional-investing) as well. You can just not worry because you won’t be involved. The only issue you will have to solve is how to identify the start and end of a bear market.\n' +
                 '\n' +
-                'Since you have the time and money to spend on enjoyment, one thing you can do to fill it is ' +
-                'put yourself in a new environment and go somewhere new. Traveling is a great way to gain new ' +
-                'experiences and learn new things. Getting outdoors for new hobbies can be perfect for clearing ' +
-                'your mind from the stress caused by investing in crypto. The outdoors also offers many ' +
-                'activities like rock climbing or biking that you can spend hours training for a day. If ' +
-                'you are interested in more ways to calm your mind, look over my article on ' +
-                '[7 Tips for Staying Focused in Volatile Markets for Investors](/articles/crypto-mental-focus)\n' +
+                'When outside of the markets, you may want to spend your money to improve your investing system for when the bull markets start back up and this is a perfect opportunity to try out some crypto investing services. When we look for how to manage risk in a bear market, it may take some time to find the perfect solution. What better time to do it than a bear market when you aren’t involved? Don’t be afraid to [spend a little money](https://www.bankrate.com/investing/best-investment-apps/#best-investment-apps) to get your investing system to the point where you want it to be. It will be with it in the end.\n' +
                 '\n' +
-                'The other way to spend money is in a way that is right at home. Enjoying a new car is an ' +
-                'amazing opportunity to spend your time in bear markets. Going on long drives or repairing ' +
-                'things that go wrong. Another way to spend your time and money is renovations. Installing ' +
-                'new things to your house or living space and improving your living standard. A new office ' +
-                'for your investing can go a long way as well as building yourself a new PC. If you plan to ' +
-                'read my article about [How AI Can Improve Your Work Productivity Rather Than Replace You]' +
-                '(/articles/ai-jobs-productivity), why not do it with an upgraded desk layout? There are ' +
-                'endless ways to spend your money, why invest if you aren\'t going to use your profits?\n'
+                'Since you have the time and money to spend on enjoyment or hobbies, one thing you can do to fill it is put yourself in a different environment and [go somewhere new](https://www.nationalgeographic.com/travel/article/why-travel-should-be-considered-an-essential-human-activity). Traveling is a great way to gain new experiences and learn new things. Getting outdoors for new hobbies can be perfect for clearing your mind and healing your mental state from the stress caused by investing in crypto. The outdoors also offers many activities like rock climbing or biking that you can spend hours training for a day.\n' +
+                '\n' +
+                'The other way to [spend money](https://www.cnbc.com/2021/06/28/here-are-5-ways-to-spend-money-that-can-actually-make-you-happier.html) is in a way that is right at home. Enjoying a new car is an amazing opportunity to spend your time in bear markets. Going on long drives or repairing things that go wrong. Another way to spend your time and money is renovations. Installing new things to your house or living space and improving your living standard. Make sure that you are still finding ways to learn how to stay informed about the crypto market so that you know what is going on and once you come back it won’t be as if you missed a ton of events.\n'
         },
         {
             img: BearMarket4,
@@ -123,11 +69,14 @@ export default function WhatToDoInBearMarkets() {
             id: 'FinalWords',
             description: 'A large green field of grass with a single tree on one of the hills with birds in ' +
                 'the sky underneath lots of dark clouds.',
-            text: 'Bear Markets can be tough for crypto investors to find out how to spend their time, but that ' +
-                'doesn\'t mean it\'s impossible to make money or f it\'s ind a good way to spend this time. Bearish ' +
-                'Markets are a great time for robust crypto investing practices, investing your time into a ' +
-                'business, and spending your well-earned money on enjoyment. No matter what you do, understand ' +
-                'what goes down must come up and to still be watching for when the bear market returns.\n'
+            text: '### What is the difference between a bear market and a bull market?\n' +
+                'A bull market is a period where things are going great and the market continues to be in an uptrend where profit can be made. There are a lot of people involved in bear markets.\n' +
+                '\n' +
+                '### What is the easiest way to protect your money during a bear market?\n' +
+                'The best way to keep you and your money safe is to not invest at all. If you do not touch the markets, then there is no chance of you losing any money to it. There are many other ways to make money including working on a business.\n' +
+                '\n' +
+                '### What should you do if your investing system is not working as well?\n' +
+                'Since bear markets act differently than bull markets, you have to understand that the data you are trying to use will act differently as well. Your options are to use different data that works better or adapt how you are using your current data if you are experiencing a loss of accuracy or efficiency.\n'
         },
     ]
     const router = useRouter();
