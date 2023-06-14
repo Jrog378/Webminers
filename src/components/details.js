@@ -287,11 +287,11 @@ const details = [
     },
     {
         id: 18,
-        title: 'What to do in a Bear Market - Work to do During Slow Crypto Markets',
-        date: 'May 13th, 2023',
+        title: 'What to do in a Bear Market: Handling Slow Crypto Markets',
+        date: 'June 14th, 2023',
         pub: 'May 13th, 2023',
-        text: 'Bearish Markets are a great time for robust crypto investing practices, businesses, and spending ' +
-            'your well-earned money on enjoyment until bullish again.',
+        text: 'Bear Markets are a great time for robust crypto investing practices, businesses, and spending your ' +
+            'well-earned money on enjoyment until the bull market is back.',
         url: '/articles/what-to-do-in-bear-markets',
         img: 'BearMarketMain.webp',
         alt: 'Stacks of coins increasing as they go to the right with little plants on the top of them all next ' +
