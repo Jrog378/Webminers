@@ -314,10 +314,10 @@ const details = [
     {
         id: 16,
         title: 'Is Cryptocurrency Safe? - Keep Your Money and Devices Secure',
-        date: 'May 11th, 2023',
+        date: 'June 13th, 2023',
         pub: 'May 11th, 2023',
-        text: 'The question is cryptocurrency safe can importantly be answered with digital security, efficient ' +
-            'investing, downsides of crypto, and finding legit cryptos.',
+        text: 'Figuring out How to invest in cryptocurrency safely takes avoiding Unpredictable Markets, ' +
+            'Unsafe Cryptos, Digital Insecurity, and the Dark Side of Crypto.',
         url: '/articles/is-cryptocurrency-safe',
         img: 'SafeCryptoMain.webp',
         alt: 'Earth from space with the northern lights in the background and a bunch of connected ' +
