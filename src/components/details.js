@@ -274,11 +274,11 @@ const details = [
     },
     {
         id: 19,
-        title: '3 Biggest Mistakes Crypto Investors Make - How to Avoid Them',
-        date: 'May 14th, 2023',
+        title: '3 Biggest Mistakes Crypto Investors Make: How to Avoid Them',
+        date: 'June 14th, 2023',
         pub: 'May 14th, 2023',
-        text: 'Not using a plan, allowing emotion to take control, and decisions without volatility can be ' +
-            'detrimental to your crypto investing for any level of investor.',
+        text: 'Understanding how to avoid crypto investing mistakes takes using a system, not letting emotional ' +
+            'investing happen, and learning to use crypto volatility.',
         url: '/articles/biggest-crypto-mistakes',
         img: 'CryptoMistakesMain.webp',
         alt: 'Two stacks of coins next to each other with candle wicks on top that are lit up ' +
