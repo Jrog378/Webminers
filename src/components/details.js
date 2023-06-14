@@ -300,11 +300,11 @@ const details = [
     },
     {
         id: 17,
-        title: 'AI Jobs - How AI Can Improve Your Work Productivity, Not Replace You',
-        date: 'May 12th, 2023',
+        title: 'AI Jobs And Tasks To Increase Crypto Investing Productivity',
+        date: 'June 14th, 2023',
         pub: 'May 12th, 2023',
-        text: 'In terms of Investing, Creative Work, Programming, and Customer Support, instead of trying to ' +
-            'outrun AI, workers can use it to improve productivity and value.',
+        text: 'AI has lots of uses with crypto investing, most are not taking advantage of it. AI improves ' +
+            'productivity in investing, programming, creative work, and guidance.',
         url: '/articles/ai-jobs-productivity',
         img: 'JobsAIMain.webp',
         alt: 'A head that is made up of technology as a image of artificial intelligence that is ' +
