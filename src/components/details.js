@@ -313,7 +313,7 @@ const details = [
     },
     {
         id: 16,
-        title: 'Is Cryptocurrency Safe? - Keep Your Money and Devices Secure',
+        title: 'How to Carefully Invest in Crypto: Is Cryptocurrency Safe',
         date: 'June 13th, 2023',
         pub: 'May 11th, 2023',
         text: 'Figuring out How to invest in cryptocurrency safely takes avoiding Unpredictable Markets, ' +
