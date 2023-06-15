@@ -261,11 +261,11 @@ const details = [
     },
     {
         id: 20,
-        title: 'Impactful Crypto Market Crashes - What You Can Learn From Them',
-        date: 'May 15th, 2023',
+        title: 'Impactful Crypto Market Crashes And What to Learn From Them',
+        date: 'June 14th, 2023',
         pub: 'May 15th, 2023',
-        text: 'Market Crashes in crypto can be a scary event, but being able to understand them more can help ' +
-            'you handle future crashes from arbitrage events from the past.',
+        text: 'Crypto market crashes can cause large drops in profit, but understanding them can help you limit ' +
+            'that loss by avoiding emotional investing in future crashes.',
         url: '/articles/crypto-market-crashes',
         img: 'ArbitrageMain.webp',
         alt: 'A shiny metal Ethereum crypto coin with a leather wallet next to it containing a credit ' +
