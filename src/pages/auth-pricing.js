@@ -42,10 +42,10 @@ export default function AuthPricing() {
                     </h1>
                 </Container>
                 {loading
-                    ? <Container><h1>Loading...</h1></Container>
+                    ? <Container><h2>Loading...</h2></Container>
                     : user
                         ? plan === ''
-                            ? <Container><h1>Loading...</h1></Container>
+                            ? <Container><h2>Loading...</h2></Container>
                             : plan === 'none'
                                 ?
                                 <Container>
@@ -57,16 +57,16 @@ export default function AuthPricing() {
                                     {/*                      publishable-key="pk_test_51LHAg0I0ncnoSqWddZdSvphuvJUeCuQUNAysqSa74B02zg8ZGTrXl4Z3kgmJkgIOHNRX1V5590qZf9CZBgdIAFQd00WjC4iVmd"*/}
                                     {/*                      customer-email={email}>*/}
                                 </Container>
-                                : <Container><h1 style={{textAlign: "center"}}>Please Visit <Card.Link
+                                : <Container><h2 style={{textAlign: "center"}}>Please Visit <Card.Link
                                     className={styles.weblink}
                                     href={'/auth/profile'}>Profile</Card.Link> to
-                                    Upgrade Plan</h1></Container>
-                        : <Container><h1>Login</h1></Container>
+                                    Upgrade Plan</h2></Container>
+                        : <Container><h2>Login</h2></Container>
                 }
                 <Container style={{padding: '25px'}}>
-                    <h1 style={{textAlign: 'center', padding: '25px'}}>
+                    <h2 style={{textAlign: 'center', padding: '25px'}}>
                         What Others Think
-                    </h1>
+                    </h2>
                     <CardGroup>
                             <Row>
                                 <Col md={12} lg={4}>

@@ -209,11 +209,11 @@ const details = [
     },
     {
         id: 24,
-        title: 'What is an Altcoin - Should You be Investing in Altcoins?',
-        date: 'May 19th, 2023',
+        title: 'What are Altcoins and How Should Beginners Invest in Them',
+        date: 'June 15th, 2023',
         pub: 'May 19th, 2023',
-        text: 'Altcoins, or alternative coins, are a great option to invest in other than Bitcoin and Ethereum, ' +
-            'however, there are some things you must know beforehand.',
+        text: 'Altcoins are great assets for portfolio diversification, however, before that we must see the ' +
+            'risks of investing in altcoins compared to main cryptocurrencies.',
         url: '/articles/what-is-an-altcoin',
         img: 'AltcoinMain.webp',
         alt: 'A single golden Bitcoin crypto coin with its logo on the face of the coin fading away into dust ' +
