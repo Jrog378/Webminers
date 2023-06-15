@@ -15,108 +15,55 @@ export default function WhatIsTheCryptoBlockchain() {
             id: 'Intro',
             description: 'A golden Bitcoin crypto coin sitting on top of the face of a one hundred dollar bill with two ' +
             'other one hundred dollar bills.',
-            text: 'The blockchain is simply a database that is made up of secure nodes. This database is ' +
-                'decentralized, meaning not under a government or central power’s control. The blockchain ' +
-                'has many uses, but the most commonly known one is with crypto. The crypto blockchain ' +
-                'defines everything there is to do with cryptocurrencies, but what does this mean exactly?\n' +
+            text: 'The blockchain is a network full of nodes that has functions in finance, business, software, and any other area hoping to gain more security. The crypto blockchain is the decentralized finance, also known as the DeFi sector that comes with the general blockchain. When we look at decentralized finance, we can see that the main goal of the movement is to limit a central entity to take advantage of users and violate their privacy for their good. There are many aspects to cryptocurrency’s purpose that can be a very broad topic.\n' +
                 '\n' +
-                'The parts of the crypto blockchain are as follows:\n' +
+                'Here are 3 categories we can use to narrow down what the crypto in Blockchain technology and the rise of DeFi is made up of:\n' +
                 '\n' +
-                '1. [Buying and Selling Crypto](#BuySellCrypto)\n' +
-                '2. [Crypto Staking](#Staking)\n' +
-                '3. [Smart Contracts](#SmartContracts)\n'
+                '1. [Decentralized Asset](#Asset)\n' +
+                '2. [Digital Currency](#Currency)\n' +
+                '3. [NFTs](#NFTs)\n'
         },
         {
             img: CryptoBlock1,
-            title: 'Buying and Selling Crypto',
-            id: 'BuySellCrypto',
+            title: 'Decentralized Asset',
+            id: 'Asset',
             description: 'The words profit, loss, and risk, spelled out on a crossword section of a newspaper ' +
                 'using white dice with letters in black.',
-            text: 'The buying and selling of crypto is without a doubt the most fundamental method of interacting ' +
-                'with the crypto blockchain. Crypto investing and crypto trading are commonly referred to as the ' +
-                'two methods of buying and selling crypto. There are many cryptocurrencies to choose from, the ' +
-                'main ones for you to remember being Ethereum, Bitcoin, and Solana.\n' +
+            text: 'Decentralized assets are great options for investors to put their money in since they value the privacy and transparency of the holder. Since the blockchain has open transactions, there is an anonymous peer-to-peer security that takes place when you are involved in cryptocurrencies. [Investing in the crypto blockchain](start-investing) involves looking through data to find trends that you are then able to follow for a profit.\n' +
                 '\n' +
-                'Investing in the crypto blockchain involves looking through data to [find trends](/articles/' +
-                'start-investing) that you are then able to follow for a profit. This style of attempting to ' +
-                'make money from the crypto blockchain has great diversity in [investing styles](/articles/short-' +
-                'term-vs-long-term-crypto-investing) to different forms of data, like the economy or social ' +
-                'media sentiment. All data is welcome for the test. The only thing that matters is if you can ' +
-                'actually use it and how well it works. Efficiency is very important when investing in the ' +
-                'crypto blockchain. Efficiency should be valued much more than dollars made because risky ' +
-                'profits do not last forever. Investing in the crypto blockchain can often involve transactions ' +
-                'that last days, weeks, and even months before finally selling for profit.\n' +
+                'This style of attempting to make money from the crypto blockchain has great diversity in investing styles to different forms of data, like economic data or [social media sentiment](https://www.fool.com/investing/how-to-invest/stocks/market-sentiment/). The only thing that matters in which data you choose is how well it works. When we are using our investing systems with decentralized assets, we want to make sure the ones we pick are the most efficient as possible. [Efficient assets are very important](/efficiency) in the crypto blockchain because they have a low amount of downside risk and a high amount of upside potential.\n' +
                 '\n' +
-                'Crypto trading is more of a short-term version of investing. Since it is harder to get a full ' +
-                'on automation setup on such low timeframes, much of the work is [done by hand](https://finbold.' +
-                'com/guide/cryptocurrency-trading/). This means that when you are involved in the market, the ' +
-                'majority of the time you will be looking at your screen to see what happens. A rule of thumb ' +
-                'is that if you are unable to close a trade in time before having to leave your computer, end ' +
-                'the trade there since there is a large potential for downside, especially if you are unable to ' +
-                'stop it. Trading often comes with more variability in profit since you are making much more ' +
-                'transactions on the crypto blockchain than regular investing. This comes with the trade-off of ' +
-                'only needing to be in the market for a few hours a day and being completely out of it the rest ' +
-                'of the time.\n'
+                'Crypto trading mainly uses different types of data to make a profit. Trading takes place on [lower time frames](short-term-vs-long-term-crypto-investing) and the time that you are active in the market is much faster. While investors may hold a position for days and up to months, traders look to be in and out with the most amount of profit possible. Trading often comes with more variability in profit] since you are [making much more transactions](https://cointelegraph.com/learn/how-to-trade-cryptocurrencies-the-ultimate-beginners-guide) on the crypto blockchain than regular investing. This comes with the trade-off of only needing to be in the market for a few hours a day and being completely out of it the rest of the time.\n' +
+                '\n' +
+                'Crypto staking is our next form of making returns on the crypto blockchain. Crypto staking is a way for you to be able to invest your money in a secure location, like a bank if it were decentralized, and earn interest on that money by being the future of crypto lending and trading. This money, since stored in a node, will not be fully used by the organization you are lending it to, allowing for more security of your money than regular banks. Every staking company should not be trusted though since there are some bad apples. [With decentralization](decentralization-for-crypto), there are almost no regulations on who can ask for your money. It is important to research who you will be working with so that you know that they have a strong history and can be trusted with your money.\n'
         },
         {
             img: CryptoBlock2,
-            title: 'Crypto Staking',
-            id: 'Staking',
+            title: 'Digital Currency',
+            id: 'Currency',
             description: 'Dollar bills wrapped up into cone shapes pointed down and stuck into the a garden bed ' +
                 'like plants with a mini black shovel.',
-            text: 'Crypto staking is our next form of making returns on the crypto blockchain. Crypto staking ' +
-                'is a way for you to be able to invest your money in a secure location, like a bank if it were ' +
-                '[decentralized](/articles/decentralization-for-crypto), and earn interest on that money. This ' +
-                'money, since stored in a node, will not be fully used by the organization you are lending it to, ' +
-                'allowing for more security of your money than regular banks.\n' +
+            text: 'Cryptocurrency is not just an asset that is meant to be bought and sold for profit. The other main purpose for its existence is to be used. Being a digital currency has its perks as you can transfer large amounts of money in a short time and the money is yours. Rather than sending money digitally through a bank or central entity, crypto remains in your wallet and can be sent whenever you would like since you control how much goes in and out whenever you want it to. As time goes on and [web3 becomes more popular](web3-crypto-growth), more businesses are starting to accept cryptocurrency as payment. This means that DeFi is going in the right direction.\n' +
                 '\n' +
-                'Crypto staking is a way for an organization to [gain support](https://www.coindesk.com/learn/' +
-                'crypto-staking-101-what-is-staking/) for their cryptocurrency if that is the one you have to ' +
-                'buy to stake your money. The organization can use the popularity and money for the better of ' +
-                'their community and mission, with the return of giving you a percent interest on the money you ' +
-                'have given them. Staking should not be trusted by every company though. Since this is ' +
-                'decentralized, there are almost no regulations on who can ask for your money. It is important ' +
-                'to research who you will be working with so that you know that they have a strong history and ' +
-                'can be trusted with your money.\n' +
+                '[Smart contracts](https://www.ibm.com/topics/smart-contracts) are growing in popularity as they can help remove the middleman from deals or trades in the business. Smart contracts use the crypto blockchain to set up a list of required steps that have to be completed before a trade can be finalized. Those who want double-sided protection when making business deals can use these types of agreements, as long as the other party agrees as well. The transfer of goods or services can be done by using the digital currency of crypto and once all parameters are met, [the two sides swap](blockchain-transaction), giving away the money and what the customer paid for.\n' +
                 '\n' +
-                'While you are checking their history it would be a good idea to make sure that you are not ' +
-                'getting scammed as well. [Cryptocurrency scams](https://consumer.ftc.gov/articles/what-know-' +
-                'about-cryptocurrency-and-scams) are a popular way for scammers to get your money as there are ' +
-                'few ways to test their legitimacy or find who stole your money if you do get scammed. Do not ' +
-                'trust any random links that are sent to you asking for your money, especially if they are from ' +
-                'a contact you have never seen before. [Keeping yourself safe](/articles/is-cryptocurrency-safe) ' +
-                'with the crypto blockchain is very important and should always be your first step before ' +
-                'committing your money anywhere.\n'
+                'Something to be careful of is how new this technology is. There can be many flaws in deals leaving money vulnerable and having [millions of dollars at risk](https://arstechnica.com/information-technology/2021/12/hackers-drain-31-million-from-cryptocurrency-service-monox-finance/) if the proper precautions are not taken into account. Financial AI is starting to be able to detect and fix vulnerabilities in these contracts and can be used as a resource to ensure the safety of both parties. Smart contracts can also be used to maintain the privacy of both sides of a deal if someone were to want their identity private from the other party.\n' +
+                '\n' +
+                'As this[ technology begins to grow](https://www.forbes.com/sites/cognitiveworld/2019/03/10/rise-of-the-smart-contract/?sh=18dca25379f4), I am sure that those who are building the contracts will slowly gain a higher standard of work, allowing for the contracts to be more secure by nature. Smart contracts will only be getting smarter and used more frequently. Although these contracts are growing with the use of the crypto blockchain, there is still no telling if they will become the standard of contracts in the future or just a useful alternative.\n'
         },
         {
             img: CryptoBlock3,
-            title: 'Smart Contracts',
-            id: 'SmartContracts',
-            description: 'A light brown wooden ballpoint pen with a polished chrome point on it is resting on a ' +
-                'piece of paper with a checkbox on it.',
-            text: 'Smart contracts are growing in popularity as they can help remove the middleman from deals or ' +
-                'trades in the business. [Smart contracts use the crypto blockchain](https://ethereum.org/en/' +
-                'developers/docs/smart-contracts/) to set up a list of required steps that have to be completed ' +
-                'before a trade can be finalized. Those who do not trust one another to fully pay for a service ' +
-                'or just want to protect their own company can use these types of agreements, as long as the ' +
-                'other party agrees as well. The transfer of goods or services can be done with cryptocurrency ' +
-                'and once all parameters are met, the two sides swap, giving away the money and what the customer ' +
-                'paid for.\n' +
+            title: 'NFTs',
+            id: 'NFTs',
+            description: 'A glass cup that has multiple varying colors of paint on the outside of it with many ' +
+                'differently colored paint brushes inside.',
+            text: 'NFTs are the final category included in the crypto blockchain as this art is a [Non-Fungible Token](https://www.investopedia.com/non-fungible-tokens-nft-5115211). NFTs are a way for digital artists to gain recognition for their art by putting it for sale on the blockchain to be bought by investors or NFT collectors. These tokens are a great way to fund an artist\'s work because they get paid every single time anyone buys or sells their NFT. It is a source of consistent income as long as they can maintain their work.\n' +
                 '\n' +
-                'Something to be careful of is how new this technology is. There can be many flaws in deals ' +
-                'leaving money vulnerable and having [millions of dollars at risk](https://arstechnica.com/' +
-                'information-technology/2021/12/hackers-drain-31-million-from-cryptocurrency-service-monox-' +
-                'finance/) if the proper precautions are not taken into account. [Financial AI](/articles/' +
-                'financial-ai-and-data-science) can be used to both detect and fix vulnerabilities in these ' +
-                'contracts and can be used as a resource to ensure the safety of both parties. Smart contracts ' +
-                'can also be used to maintain the privacy of both sides of a deal if someone were to want their ' +
-                'identity private from the other party.\n' +
+                'The community built by NFTs is a great way to bring together people with similar goals. In many cases, how well you build a community can determine how well your NFTs will sell. This community can be wherever you would like, the main part is the ease of access. Digital communities can be accessed from anywhere with WiFi at any time any of the members would like. This community is a powerful way to gain customers and retain them as long as you are interactive enough.\n' +
                 '\n' +
-                'As this technology begins to grow, I am sure that those who are building the contracts will ' +
-                'slowly gain a higher standard of work, allowing for the contracts to be more secure by nature. ' +
-                'Smart contracts will only be getting smarter and used more frequently. Although these contracts ' +
-                'are growing with the use of the crypto blockchain, there is still no telling if they will ' +
-                'become the standard of contracts in the future or just a useful alternative.\n'
+                'NFTs can also be used in video games. [Crypto Gaming](video-games-with-the-blockchain) is a different part of the blockchain that can use NFTs as rewards to their players. These NFTs can be accessories or boosts to improve the appearance or performance of those playing the game. Using NFTs in gaming is a great way to support the decentralization movement while using a digital piece of art like NFTs. Adding NFTs to games can fund artists since there are unlimited possibilities for what you can add to a video game as cosmetics.\n' +
+                '\n' +
+                'The future of crypto and blockchain technology may use video games a lot. [VR is a growing field](https://medium.com/trivial-co/blockchain-and-ar-vr-a-match-made-in-virtual-heaven-26e54782be56) where we may have personal digital lives that are lived completely online. These digital lives can be used to make digital money that can be used in real life to pay rent or buy food. If you choose to use your digital money inside of the digital world, this can give you access to new NFTs that represent items you can put on your digital self to create a style. Bringing more people online with digital currencies shows how DeFi is changing the crypto landscape.\n'
         },
         {
             img: CryptoBlock4,
@@ -124,12 +71,14 @@ export default function WhatIsTheCryptoBlockchain() {
             id: 'Final',
             description: 'A golden bitcoin crypto coin sitting up on top of multiple hundred dollar bills with ' +
                 'two other coins nearby and a macbook.',
-            text: 'The crypto blockchain is a powerful moving force that is to be respected by anyone who wishes ' +
-                'to keep up with the times and newest innovations. Cryptocurrency trading and investing are great ' +
-                'ways to get your foot in the door of some profit with your money. Crypto staking is a secure way ' +
-                'to store your money while still gaining interest in it. Smart contracts have the potential to ' +
-                'make business deals more safe for both parties involved. Even though crypto and finance are not ' +
-                'the only use for the blockchain, it is a great movement to hop on board with.\n'
+            text: '### What are the benefits of DeFi?\n' +
+                'The benefits of DeFi are the extra protection that comes with having access to your own money. While banks use the money you give them, they might fail and your money will vanish completely. When you participate in DeFi, your money is safe in your crypto wallet and if you are worried about not making interest, you can put your money in stablecoins that provide interest, or stake your crypto.\n' +
+                '\n' +
+                '### How to get started with DeFi?\n' +
+                'If you are looking to get started in DeFi, the best way to hop on board is to understand the movement. Once you understand the movement you may start to see ways that you could benefit from privacy in your own life, then seek out DeFi products that solve those problems. Investing in cryptocurrency is another great way to support crypto and put your money in assets that can make you a profit.\n' +
+                '\n' +
+                '### What are the adoption of DeFi and the future of finance going to look like\n' +
+                'Cryptocurrency is not supposed to take over anything. The whole purpose of crypto is to offer a decentralized currency that provides security to those who desire it. The future of DeFi may look like cryptocurrency becoming a regular option to pay with at stores and something that comes up in regular conversation.\n'
         }
     ]
     const router = useRouter();
