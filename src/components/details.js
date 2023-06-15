@@ -222,11 +222,11 @@ const details = [
     },
     {
         id: 23,
-        title: 'What is The Crypto Blockchain - Finances of the Blockchain',
-        date: 'May 18th, 2023',
+        title: '3 Aspects of Crypto in the Rise of DeFi and the Blockchain',
+        date: 'June 15th, 2023',
         pub: 'May 18th, 2023',
-        text: 'The crypto blockchain has many functions like working with money, including the crypto blockchain ' +
-            'has investing and trading, staking, and smart contracts.',
+        text: 'Crypto has greatly impacted Blockchain technology and the rise of DeFi, being a decentralized ' +
+            'digital asset and currency with investing, transactions, and NFTs',
         url: '/articles/what-is-the-crypto-blockchain',
         img: 'CryptoBlockMain.webp',
         alt: 'A golden Bitcoin crypto coin sitting on top of the face of a one hundred dollar bill with two ' +
