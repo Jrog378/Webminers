@@ -183,11 +183,11 @@ const details = [
     },
     {
         id: 26,
-        title: 'Popular Cryptocurrency - Why More Investors Means Less Risk',
-        date: 'May 21st, 2023',
+        title: 'Why use Most Popular Cryptos? - Easiest Ways to Reduce Risk',
+        date: 'June 16st, 2023',
         pub: 'May 21st, 2023',
-        text: 'Popular cryptocurrencies make for great investments. They have more profit, lower downside ' +
-            'potential and a long price history that is trustworthy to investors.',
+        text: 'Popular cryptocurrencies make for great investments. They provide diversification opportunities ' +
+            'from more profit potential, less downside potential and a long price history.',
         url: '/articles/popular-cryptocurrency',
         img: 'PopularCryptoMain.webp',
         alt: 'A golden bitcoin crypto coin sitting on top of a silver ethereum crypto coin and three other coins ' +
