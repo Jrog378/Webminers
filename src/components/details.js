@@ -157,11 +157,11 @@ const details = [
     },
     {
         id: 28,
-        title: 'Blockchain Transaction - The Variations and How They Work',
-        date: 'May 23rd, 2023',
+        title: 'Blockchain Transactions: Improving the Future of Crypto',
+        date: 'June 16th, 2023',
         pub: 'May 23rd, 2023',
-        text: 'The blockchain has many different types of transactions. Exchanging, selling, and buying crypto ' +
-            'are open, we also have closed and hybrid for better security.',
+        text: 'Crypto blockchain transactions have three levels of security using decentralized technology for ' +
+            'cryptocurrencies, data transfer, and decentralized applications.',
         url: '/articles/blockchain-transaction',
         img: 'BlockchainTransMain.webp',
         alt: 'The world is seen from outer space with lines and dots all over it that are connected to each other ' +
