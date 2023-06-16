@@ -196,11 +196,11 @@ const details = [
     },
     {
         id: 25,
-        title: 'Seeing into the Crypto Future - Crypto\'s History and Direction',
-        date: 'May 20th, 2023',
+        title: 'Crypto\'s Past vs Future: How Will Crypto Change the World',
+        date: 'June 15th, 2023',
         pub: 'May 20th, 2023',
-        text: 'Crypto has a promising future ahead.Once we take a look into crypto\'s past we can decide what to ' +
-            'do now to get involved and for the innovative future ahead.',
+        text: 'When determining what is the future of cryptocurrency, we have to look into the past and present ' +
+            'first for its roots in decentralized finance and investing.',
         url: '/articles/into-the-crypto-future',
         img: 'CryptoFutureMain.webp',
         alt: 'A Golden Bitcoin crypto coin sitting on a top of a pile of multiple crypto coins of Ethereum ' +
