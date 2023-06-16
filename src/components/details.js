@@ -170,11 +170,11 @@ const details = [
     },
     {
         id: 27,
-        title: 'Why the Stablecoin Price Isn’t Always Stable',
-        date: 'May 22nd, 2023',
+        title: 'The Risks and Safety of Stablecoins: Are Stablecoins Stable?',
+        date: 'June 16th, 2023',
         pub: 'May 22nd, 2023',
-        text: 'Stablecoins, based on the name, are supposed to be stable. This is not always the case when they ' +
-            'are not fully decentralized or have unstable backings to them.',
+        text: 'Stablecoin market integrity is impacted by what type of stablecoin they are. Algorithmic, ' +
+            'centralized, and decentralized all have risks on stablecoin stability.',
         url: '/articles/are-stablecoins-stable',
         img: 'StablecoinMain.webp',
         alt: 'A golden Bitcoin crypto coin in the sand by the beach with an hourglass sitting next to it along ' +
