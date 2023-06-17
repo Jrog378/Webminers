@@ -54,7 +54,7 @@ const details = [
     {
         id: 36,
         title: 'The Crypto Crowd is Always Wrong - How to Avoid Their Losses',
-        date: 'May 28th, 2023',
+        date: 'June 17th, 2023',
         pub: 'May 28th, 2023',
         text: 'You never want to follow the crowd in crypto. Many times they have bad data, are easily manipulated, ' +
             'and will end up being the main ones funding other’s profit.',
@@ -67,7 +67,7 @@ const details = [
     {
         id: 35,
         title: 'Crypto Opportunities - How Crypto Could Change Your Life',
-        date: 'May 27th, 2023',
+        date: 'June 17th, 2023',
         pub: 'May 27th, 2023',
         text: 'Crypto has many opportunities for you to pursue like wealth, networking, and business that can ' +
             'fill your future, if you get the crucial head start needed.',
@@ -79,11 +79,11 @@ const details = [
     },
     {
         id: 34,
-        title: 'Crypto Bull Market - Profit for Some, Disaster for Many',
-        date: 'May 26th, 2023',
+        title: 'Crypto Bull Market: The Battle Between Risk and Profit',
+        date: 'June 17th, 2023',
         pub: 'May 26th, 2023',
-        text: 'Crypto bull markets are supposed to be only profit, somehow people still manage to lose money ' +
-            'from emotion, lost investing, and not knowing when it starts.',
+        text: 'Crypto bull markets seem to be full of profit, but they are full of risk too. To make money the ' +
+            'best time to invest in crypto, you have to protect yourself.',
         url: '/articles/crypto-bull-market',
         img: 'BullMarketMain.webp',
         alt: 'The large metal bull statue that sits in wall street in New York while it is snowing outside and ' +
