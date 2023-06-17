@@ -105,11 +105,11 @@ const details = [
     },
     {
         id: 32,
-        title: 'Investing vs Gambling - Valuing Profit Over Greed in Crypto',
-        date: 'May 25th, 2023',
+        title: 'Is Crypto Investing a Gamble? - Valuing Profit Over Emotions',
+        date: 'June 17th, 2023',
         pub: 'May 25th, 2023',
-        text: 'Crypto Investing and gambling are closer than you think, in fact there are investors in gambling ' +
-            'and gamblers in investing. Money can be made and lost in both.',
+        text: 'Crypto Investing and gambling can both occur in crypto markets. When the emotional side of ' +
+            'crypto investing comes out, fear and greed can make you lose profits.',
         url: '/articles/investing-vs-gambling',
         img: 'InvestGambleMain.webp',
         alt: 'A golden coin with a bitcoin logo on it is sitting up on its edge with an image of the market in ' +
