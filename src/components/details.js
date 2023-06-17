@@ -118,11 +118,11 @@ const details = [
     },
     {
         id: 31,
-        title: 'What Impacts Crypto Volatility - How Investors Identify Risk',
-        date: 'May 24th, 2023',
+        title: '3 Secrets to Profitable Crypto Investing in Volatile Markets',
+        date: 'June 17th, 2023',
         pub: 'May 24th, 2023',
-        text: 'Crypto Volatility is a driving force for profit that can be influenced and impacted by digital ' +
-            'crypto regulation, market sentiment, and market psychology.',
+        text: 'Crypto volatility increases risk, but is a great method for profits and can be done with an ' +
+            'understanding of market volatility, crypto emotions, and sentiment.',
         url: '/articles/what-impacts-crypto-volatility',
         img: 'VolatileCryptoMain.webp',
         alt: 'A golden Ethereum crypto coin sitting on its side on top of a stack of other golden coins in front ' +
