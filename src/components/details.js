@@ -144,11 +144,11 @@ const details = [
     },
     {
         id: 29,
-        title: 'Crypto Market Psychology - Into the Mind of a Crypto Investor',
-        date: 'May 23rd, 2023',
+        title: 'Crypto Investing Mindset: The Psychology of Volatile Markets',
+        date: 'June 16th, 2023',
         pub: 'May 23rd, 2023',
-        text: 'Looking into crypto market psychology can help us see the thinking behind movements fed by ' +
-            'emotion and how we can take advantage of profit from these moves.',
+        text: 'Crypto investing psychology holds the secrets of profit in volatile markets. Investing in ' +
+            'cryptocurrencies requires crypto market discipline to avoid losses.',
         url: '/articles/crypto-market-psychology',
         img: 'CryptoPsychologyMain.webp',
         alt: 'An unlit glass light bulb resting on its side in front of an unfocused set of lights that are in ' +
