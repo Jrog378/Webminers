@@ -131,11 +131,11 @@ const details = [
     },
     {
         id: 30,
-        title: 'How the News Influences the Crypto Market - For Investors',
-        date: 'May 24th, 2023',
+        title: '3 Ways the News Influences Cryptocurrency Market Emotions',
+        date: 'June 17th, 2023',
         pub: 'May 24th, 2023',
-        text: 'The news helps us stay updated with important event updates and interesting articles, but ' +
-            'regulation and sentiment in the news can influence crypto markets.',
+        text: 'Cryptocurrency news helps us stay updated, but regulation, emotional markets, and sentiment, by ' +
+            'staying calm we can see the emotional impact of crypto news.',
         url: '/articles/news-in-the-crypto-market',
         img: 'CryptoNewsMain.webp',
         alt: 'A coffee in a white mug and a croissant on a plate resting on a wooden diner table that has a rolled ' +
