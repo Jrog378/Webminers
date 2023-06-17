@@ -92,11 +92,11 @@ const details = [
     },
     {
         id: 33,
-        title: 'Web3 Crypto - The Currency Growing Faster Than You Think',
-        date: 'May 26th, 2023',
+        title: '3 Things Rapidly Growing the Future of Web3 Cryptocurrencies',
+        date: 'June 17th, 2023',
         pub: 'May 26th, 2023',
-        text: 'Web3 is growing fast and taking crypto with it. Crypto investing, blockchain technology, and ' +
-            'decentralization are driving factors for crypto in the rising web3.',
+        text: 'Web3 is changing the way we use cryptocurrencies through crypto investing, blockchain technology, ' +
+            'and decentralization, providing it an innovative future.',
         url: '/articles/web3-crypto-growth',
         img: 'WebCryptoMain.webp',
         alt: 'The world from space that is dimly lit with all it’s lights showing up from cities and the outline ' +
