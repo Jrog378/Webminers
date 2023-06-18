@@ -53,11 +53,11 @@ const details = [
     },
     {
         id: 36,
-        title: 'The Crypto Crowd is Always Wrong - How to Avoid Their Losses',
+        title: 'How to Shield Your Profit Instead of Joining the Crypto Crowd',
         date: 'June 17th, 2023',
         pub: 'May 28th, 2023',
-        text: 'You never want to follow the crowd in crypto. Many times they have bad data, are easily manipulated, ' +
-            'and will end up being the main ones funding other’s profit.',
+        text: 'You should always avoid crypto crowd mistakes such as arbitrage, manipulation, and being the ' +
+            'main ones funding other’s profit to limit your risks, not profits.',
         url: '/articles/crypto-crowd-is-wrong',
         img: 'CryptoCrowdMain.webp',
         alt: 'A white money bag filled with stacks of cash next to some gold and silver coin showing the Bitcoin ' +
