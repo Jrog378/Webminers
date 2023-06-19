@@ -31,6 +31,7 @@
     "micro": "^10.0.1",
     "next": "13.1.6",
     "next-auth": "^4.19.2",
+    "next-share": "^0.20.0",
     "nextjs-google-adsense": "^1.0.0",
     "nextjs-google-analytics": "^2.3.3",
     "node-mailjet": "^6.0.2",

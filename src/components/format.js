@@ -9,6 +9,14 @@ import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
 import EfficientSales from "@/components/efficient-sales";
+import {
+    TwitterShareButton,
+    TwitterIcon,
+    FacebookShareButton,
+    FacebookIcon,
+    RedditShareButton,
+    RedditIcon, LinkedinShareButton, LinkedinIcon,
+} from 'next-share'
 // import {GoogleAdSense} from "nextjs-google-adsense";
 // import {AdRecover} from "@/components/ad-recover";
 // import {DisplayAd} from "@/components/display-ad";
@@ -70,7 +78,8 @@ const ArticleFormat = ({Article, url}) => {
                             }}>
                                 <h1 style={{fontSize: 'xx-large'}}>{Detail.title}</h1>
                             </Card.Title>
-                            <Card.Text style={{color: 'rgb(200,200,200)', padding: '3% 10%', fontStyle: 'italic'}}>
+                            <Card.Text
+                                style={{color: 'rgb(200,200,200)', padding: '3% 10% 1% 10%', fontStyle: 'italic'}}>
                                 Last modified: {Detail.date}
                             </Card.Text>
                         </Card>
@@ -106,6 +115,35 @@ const ArticleFormat = ({Article, url}) => {
                                         </Card>
                                     )
                                 )}
+                                <Row style={{padding: '0 10%', display:'inline-flex', width:'100%'}}>
+                                    <h3 style={{verticalAlign: 'middle'}} className={styles.share}>
+                                        Share:
+                                    </h3>
+                                    <TwitterShareButton
+                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
+                                        url={'https://webminers.dev' + Detail.url}
+                                        blankTarget={true}>
+                                        <TwitterIcon size={32}/>
+                                    </TwitterShareButton>
+                                    <FacebookShareButton
+                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
+                                        url={'https://webminers.dev' + Detail.url}
+                                        blankTarget={true}>
+                                        <FacebookIcon size={32}/>
+                                    </FacebookShareButton>
+                                    <RedditShareButton
+                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
+                                        url={'https://webminers.dev' + Detail.url}
+                                        blankTarget={true}>
+                                        <RedditIcon size={32}/>
+                                    </RedditShareButton>
+                                    <LinkedinShareButton
+                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
+                                        url={'https://webminers.dev' + Detail.url}
+                                        blankTarget={true}>
+                                        <LinkedinIcon size={32}/>
+                                    </LinkedinShareButton>
+                                </Row>
                                 <Row>
                                     <Col>
                                         <Card style={{background: 'whitesmoke', color: 'rgb(75,75,75)'}}>
@@ -162,7 +200,7 @@ const ArticleFormat = ({Article, url}) => {
                                     top: 50,
                                     padding: '10px'
                                 }}>
-                                    <Outline article={Article}/>
+                                    <Outline article={Article} url={url}/>
                                 </div>
                             </Col>
                         </Row>
