@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 41,
+        title: '5 Fields of Business that Crypto Will Change Forever',
+        date: 'June 18th, 2023',
+        pub: 'June 10th, 2023',
+        text: 'Decentralized finance business implications have a very impactful future with cryptocurrency ' +
+            'fields of finance, gaming, freelancing, art, and brick-and-mortar.',
+        url: '/articles/business-crypto-changes',
+        img: 'BusinessCryptoMain.webp',
+        alt: 'A line of business buildings that are colored blue with orange highlights right next to the water ' +
+            'with light coming out the tops.',
+        header: 'BusinessCrypto.webp',
+    },
+    {
         id: 40,
         title: 'The Crypto Workplace: 6 High-Paying Decentralized Jobs',
         date: 'June 10th, 2023',
