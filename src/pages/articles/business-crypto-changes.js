@@ -9,7 +9,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
 
-export default function BlockchainTransaction() {
+export default function BusinessCryptoChanges() {
     const Article = [
         {
             img: BusinessCryptoMain,
