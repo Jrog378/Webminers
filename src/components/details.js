@@ -1,9 +1,22 @@
 const details = [
     {
+        id: 42,
+        title: 'Crypto Investing Lifestyle: The 4 Life Changes From DeFi?',
+        date: 'June 20th, 2023',
+        pub: 'June 20th, 2023',
+        text: 'Crypto investing and decentralized finance offer many wealth creation methods for financial ' +
+            'freedom from blockchain technology through businesses and profits.',
+        url: '/articles/crypto-investing-lifestyle-changes',
+        img: 'CryptoLifestyleMain.webp',
+        alt: 'An animated line chart with multiple square sections on it containing a large blue line going up ' +
+            'and down across the chart.',
+        header: 'CryptoLifestyle.webp',
+    },
+    {
         id: 41,
         title: '5 Fields of Business that Crypto Will Change Forever',
         date: 'June 18th, 2023',
-        pub: 'June 10th, 2023',
+        pub: 'June 18th, 2023',
         text: 'Decentralized finance business implications have a very impactful future with cryptocurrency ' +
             'fields of finance, gaming, freelancing, art, and brick-and-mortar.',
         url: '/articles/business-crypto-changes',
