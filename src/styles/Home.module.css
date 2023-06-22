@@ -443,7 +443,7 @@ main:has(> .full) {
     background-color: whitesmoke;
     width: 100%;
     border-radius: 25px;
-    padding: 25px;
+    padding: 2.5%;
 }
 
 .arthover {
@@ -519,7 +519,7 @@ main:has(> .full) {
     margin: 15px;
 }
 
-.sales > .cardhover {
+.sales > div > .cardhover {
     width: 100%;
     padding: 50px;
     border-radius: 20px;

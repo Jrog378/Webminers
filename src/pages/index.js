@@ -151,22 +151,22 @@ export default function Home() {
             </Head>
             <div style={{margin: '0', width: '100%'}}>
                 <div className={styles.sales}>
-                    <Card className={styles.cardhover}>
-                        <Row>
-                            <Col md={8} sm={12}>
-                                <h1 style={{fontSize: '50px'}}>
-                                    Better Knowledge, Better Data, Better Profits
-                                </h1>
-                                <br/>
-                                <br/>
-                                <Button variant="success" href='/pricing'>Get a hold of your successful crypto
-                                    decisions
-                                    →</Button>
-                            </Col>
-                        </Row>
-                    </Card>
-                    <Container style={{paddingTop: '10px'}}>
-                        <Row>
+                    <Container style={{padding: 0}}>
+                        <Card className={styles.cardhover}>
+                            <Row>
+                                <Col md={8} sm={12}>
+                                    <h1>
+                                        Better Knowledge, Better Data, Better Profits
+                                    </h1>
+                                    <br/>
+                                    <br/>
+                                    <Button variant="success" href='/pricing'>Get a hold of your successful crypto
+                                        decisions
+                                        →</Button>
+                                </Col>
+                            </Row>
+                        </Card>
+                        <Row style={{paddingTop: '10px'}}>
                             <Col lg={7} md={6} sm={12} className={styles.pad}>
                                 <Card className={styles.cardhover}>
                                     <Card.Body>
@@ -258,119 +258,121 @@ export default function Home() {
                                 </Card>
                             </Col>
                         </Row>
-                    </Container>
-                    <Container>
-                        <Card.Title>
-                            <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
-                                What Others Think
-                            </h2>
-                        </Card.Title>
-                        <CardGroup>
-                            <Row>
-                                <Col md={12} lg={4} className={styles.pad}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was a complete novice when it came to crypto, but
-                                                everything was
-                                                very easy to understand and read. I now feel confident making
-                                                informed
-                                                decisions about my money. I think the efficiency section is the
-                                                best
-                                                part where I can compare assets to pick and choose from for my
-                                                own
-                                                investments.
-                                            </p>
-                                            <p style={{margin: 0}}>
-                                                - John S.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col md={12} lg={4} className={styles.pad}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                I was skeptical about the whole Webminers Investing Education at
-                                                first,
-                                                but after going through everything I can truly state that it was
-                                                far
-                                                beyond my expectations. The Insights organized and simple to
-                                                understand.
-                                                Everything in my Subscription was easy to find and I have a much
-                                                deeper
-                                                understanding of my personal investing plans.
-                                            </p>
-                                            <p style={{margin: 0}}>
-                                                - Sarah L.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col md={12} lg={4} className={styles.pad}>
-                                    <Card className={styles.cardhover}>
-                                        <Card.Body>
-                                            <p style={{textAlign: 'center', padding: '5px'}}>
-                                                Whether you&apos;re a seasoned investor or a newcomer to the
-                                                world of
-                                                crypto, I highly recommend working with Webminers. Their A-Class
-                                                research resources have helped me make informed decisions about
-                                                my
-                                                investments and guide me through my previous crypto
-                                                difficulties.
-                                                I couldn&apos;t recommend them enough!
-                                            </p>
-                                            <p style={{margin: 0}}>
-                                                - Mark T.
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            </Row>
-                        </CardGroup>
-                    </Container>
-                    <Container className={styles.pad}>
-                        <Card className={styles.cardhover}>
-                            <Card.Body>
-                                <Card.Title style={{fontSize: '30px'}}>
-                                    Interested in More Webminers Content?
-                                </Card.Title>
-                            </Card.Body>
-                            <Container className={styles.pad}>
+                        <Container>
+                            <Card.Title>
+                                <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
+                                    What Others Think
+                                </h2>
+                            </Card.Title>
+                            <CardGroup>
                                 <Row>
-                                    <Col lg={6} md={6} sm={12} className={styles.pad}>
-                                        <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
+                                    <Col md={12} lg={4} className={styles.pad}>
+                                        <Card className={styles.cardhover}>
                                             <Card.Body>
-                                                <Card.Text>
-                                                    Join our email list for important updates about webminers services.
-                                                    There you will get updates about articles and any important changes
-                                                    to our Crypto Investing system
-                                                </Card.Text>
-                                                <Button href='/email-list'
-                                                        style={{float: 'left', margin: '5px'}}
-                                                        variant="outline-dark"
-                                                        size='md'>Email List</Button>
+                                                <p style={{textAlign: 'center', padding: '5px'}}>
+                                                    I was a complete novice when it came to crypto, but
+                                                    everything was
+                                                    very easy to understand and read. I now feel confident making
+                                                    informed
+                                                    decisions about my money. I think the efficiency section is the
+                                                    best
+                                                    part where I can compare assets to pick and choose from for my
+                                                    own
+                                                    investments.
+                                                </p>
+                                                <p style={{margin: 0}}>
+                                                    - John S.
+                                                </p>
                                             </Card.Body>
                                         </Card>
                                     </Col>
-                                    <Col lg={6} md={6} sm={12} className={styles.pad}>
-                                        <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
+                                    <Col md={12} lg={4} className={styles.pad}>
+                                        <Card className={styles.cardhover}>
                                             <Card.Body>
-                                                <Card.Text>
-                                                    Visit our twitter page where we strive to tweet
-                                                    quality financial information and findings daily
-                                                </Card.Text>
-                                                <Button href='https://twitter.com/JusWebminers'
-                                                        target={'_blank'}
-                                                        style={{float: 'left', margin: '5px'}}
-                                                        variant="outline-dark"
-                                                        size='md'>Twitter</Button>
+                                                <p style={{textAlign: 'center', padding: '5px'}}>
+                                                    I was skeptical about the whole Webminers Investing Education at
+                                                    first,
+                                                    but after going through everything I can truly state that it was
+                                                    far
+                                                    beyond my expectations. The Insights organized and simple to
+                                                    understand.
+                                                    Everything in my Subscription was easy to find and I have a much
+                                                    deeper
+                                                    understanding of my personal investing plans.
+                                                </p>
+                                                <p style={{margin: 0}}>
+                                                    - Sarah L.
+                                                </p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col md={12} lg={4} className={styles.pad}>
+                                        <Card className={styles.cardhover}>
+                                            <Card.Body>
+                                                <p style={{textAlign: 'center', padding: '5px'}}>
+                                                    Whether you&apos;re a seasoned investor or a newcomer to the
+                                                    world of
+                                                    crypto, I highly recommend working with Webminers. Their A-Class
+                                                    research resources have helped me make informed decisions about
+                                                    my
+                                                    investments and guide me through my previous crypto
+                                                    difficulties.
+                                                    I couldn&apos;t recommend them enough!
+                                                </p>
+                                                <p style={{margin: 0}}>
+                                                    - Mark T.
+                                                </p>
                                             </Card.Body>
                                         </Card>
                                     </Col>
                                 </Row>
-                            </Container>
-                        </Card>
+                            </CardGroup>
+                        </Container>
+                        <Container className={styles.pad}>
+                            <Card className={styles.cardhover}>
+                                <Card.Body>
+                                    <Card.Title style={{fontSize: '30px'}}>
+                                        Interested in More Webminers Content?
+                                    </Card.Title>
+                                </Card.Body>
+                                <Container className={styles.pad}>
+                                    <Row>
+                                        <Col lg={6} md={6} sm={12} className={styles.pad}>
+                                            <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
+                                                <Card.Body>
+                                                    <Card.Text>
+                                                        Join our email list for important updates about webminers
+                                                        services.
+                                                        There you will get updates about articles and any important
+                                                        changes
+                                                        to our Crypto Investing system
+                                                    </Card.Text>
+                                                    <Button href='/email-list'
+                                                            style={{float: 'left', margin: '5px'}}
+                                                            variant="outline-dark"
+                                                            size='md'>Email List</Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col lg={6} md={6} sm={12} className={styles.pad}>
+                                            <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
+                                                <Card.Body>
+                                                    <Card.Text>
+                                                        Visit our twitter page where we strive to tweet
+                                                        quality financial information and findings daily
+                                                    </Card.Text>
+                                                    <Button href='https://twitter.com/JusWebminers'
+                                                            target={'_blank'}
+                                                            style={{float: 'left', margin: '5px'}}
+                                                            variant="outline-dark"
+                                                            size='md'>Twitter</Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Card>
+                        </Container>
                     </Container>
                 </div>
                 <EmailALert/>
