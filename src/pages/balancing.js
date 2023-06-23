@@ -32,6 +32,12 @@ export default function Balancing() {
 
     const times = ['Months', 'Years']
 
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            calculate();
+        }
+    };
+
     function calculate() {
         const endingInvestment = document.getElementById("ending-investment").value;
         const time = document.getElementById("time").value;
@@ -297,12 +303,12 @@ export default function Balancing() {
                                 <Col>
                                     <Row style={{margin: '15px'}}>
                                         <label style={{padding: 0}} htmlFor="ending-investment">Goal Amount</label>
-                                        <input className={styles.inputs} type="number" id="ending-investment" min="0"
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="ending-investment" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <label style={{padding: 0}} htmlFor="time">{times[timeUnit]} till Goal</label>
-                                        <input className={styles.inputs} type="number" id="time" min="0" required/>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="time" min="0" required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <Button variant={'success'} onClick={changeTime}>Change

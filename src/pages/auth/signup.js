@@ -17,6 +17,12 @@ function Register() {
         registerWithEmailAndPassword(name, email, password)
     };
 
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            register();
+        }
+    };
+
     useEffect(() => {
         if (loading) return;
         if (user) Router.push("/");
@@ -42,6 +48,7 @@ function Register() {
                                 type="text"
                                 className="register__textBox"
                                 value={name}
+                                onKeyDown={handleKeypress}
                                 onChange={(e) => setName(e.target.value)}
                                 placeholder="Full Name"
                             />
@@ -51,6 +58,7 @@ function Register() {
                                 type="text"
                                 className="register__textBox"
                                 value={email}
+                                onKeyDown={handleKeypress}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Email Address"
                             />
@@ -60,6 +68,7 @@ function Register() {
                                 type="password"
                                 className="register__textBox"
                                 value={password}
+                                onKeyDown={handleKeypress}
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="Password"
                             />

@@ -19,6 +19,14 @@ function Login() {
         }
         if (user) Router.back();
     }, [user, loading]);
+
+
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            logInWithEmailAndPassword(email, password);
+        }
+    };
+
     return (
         <Container style={{padding: '25px', height: '100%'}} className="login">
             <Head>
@@ -39,6 +47,7 @@ function Login() {
                                 type="text"
                                 className="login__textBox"
                                 value={email}
+                                onKeyDown={handleKeypress}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Email Address"
                             />
@@ -48,6 +57,7 @@ function Login() {
                                 type="password"
                                 className="login__textBox"
                                 value={password}
+                                onKeyDown={handleKeypress}
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="Password"
                             />
