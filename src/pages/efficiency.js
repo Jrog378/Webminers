@@ -111,6 +111,12 @@ export default function Efficiency() {
         fetchData().then(r => console.log(r))
     }, [user, loading]);
 
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            calculate();
+        }
+    };
+
     function calculate() {
         const startingAmount = document.getElementById("starting-amount").value;
         const endingAmount = document.getElementById("ending-amount").value;
@@ -523,12 +529,12 @@ export default function Efficiency() {
                                 <Col>
                                     <Row style={{margin: '15px'}}>
                                         <label htmlFor="starting-amount">Starting Amount</label>
-                                        <input className={styles.inputs} type="number" id="starting-amount" min="0"
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="starting-amount" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <label htmlFor="ending-amount">Ending Amount</label>
-                                        <input className={styles.inputs} type="number" id="ending-amount" min="0"
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="ending-amount" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>

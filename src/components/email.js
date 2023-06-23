@@ -12,9 +12,15 @@ export default function Email() {
     let disp1 = ['none', 'initial']
     let disp2 = ['initial', 'none']
 
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            subscribe();
+        }
+    };
+
     const subscribe = () => {
         setLoading(true);
-        axios.put("api/mailingList", {mail,}).then((result) => {
+        axios.put("/api/mailingList", {mail,}).then((result) => {
             if (result.status === 200) {
                 toast.success(result.data.message);
                 setLoading(false);
@@ -43,6 +49,7 @@ export default function Email() {
                             onChange={(e) => {
                                 setMail(e.target.value);
                             }}
+                            onKeyDown={handleKeypress}
                             type='email'
                             placeholder='Email Address'
                             className={styles.inputs}></input>
@@ -57,8 +64,7 @@ export default function Email() {
             </Container>
             <Container style={{display: disp2[disp]}}>
                 <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
-                <h4 style={{padding: '5px', textAlign: 'center'}}>Check your inbox Tuesday for you introduction
-                    email.</h4>
+                <h4 style={{padding: '5px', textAlign: 'center'}}>We&apos;ll be in touch soon.</h4>
             </Container>
         </Card>
     );

@@ -28,6 +28,12 @@ export default function AuthSeasons(props) {
 
     }, [user, loading]);
 
+    const handleKeypress = e => {
+        if (e.keyCode === 13) {
+            calculate();
+        }
+    };
+
     function calculate() {
         const initialInvestment = document.getElementById("initial-investment").value;
         const monthlyReturn = document.getElementById("monthly-return").value;
@@ -210,17 +216,17 @@ export default function AuthSeasons(props) {
                                 <Col>
                                     <Row style={{margin: '15px'}}>
                                         <label style={{padding: 0}} htmlFor="initial-investment">Starting Amount</label>
-                                        <input className={styles.inputs} type="number" id="initial-investment" min="0"
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="initial-investment" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <label style={{padding: 0}} htmlFor="monthly-return">Monthly Profit %</label>
-                                        <input className={styles.inputs} type="number" id="monthly-return" min="0"
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="monthly-return" min="0"
                                                required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <label style={{padding: 0}} htmlFor="months">Month Count</label>
-                                        <input className={styles.inputs} type="number" id="months" min="0" required/>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress} type="number" id="months" min="0" required/>
                                     </Row>
                                     <Row style={{margin: '15px'}}>
                                         <Button variant={'success'} type="button" onClick={calculate}>Calculate</Button>
