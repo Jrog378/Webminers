@@ -1,6 +1,22 @@
 import axios from "axios";
 export default async function handler(req, res) {
     if (req.method === "PUT") {
+        const sgMail = require('@sendgrid/mail')
+        sgMail.setApiKey('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')
+        const msg = {
+            to: `${req.body.mail}`, // Change to your recipient
+            from: 'webminers.dev@gmail.com', // Change to your verified sender
+            template_id:"d-ce8123f7cbbe42f0986c13947b4cb0f2"
+        }
+        sgMail
+            .send(msg)
+            .then(() => {
+                console.log('Email sent')
+            })
+            .catch((error) => {
+                console.error(error)
+            })
+
         axios
             .put(
                 "https://api.sendgrid.com/v3/marketing/contacts",
@@ -11,7 +27,7 @@ export default async function handler(req, res) {
                 {
                     headers: {
                         "content-type": "application/json",
-                        Authorization: 'Bearer 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',
+                        Authorization: 'Bearer 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',
                     },
                 }
             )
@@ -24,7 +40,7 @@ export default async function handler(req, res) {
             .catch((err) => {
                 res.status(500).send({
                     message:
-                        "Oops, there was a problem with your subscription, please try again or contact us",
+                        err,
                 });
             });
     }
