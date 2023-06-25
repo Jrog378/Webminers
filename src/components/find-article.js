@@ -6,14 +6,10 @@ import ReactMarkdown from "react-markdown";
 import React, {useState} from "react";
 
 
-const Suggest = ({Detail}) => {
-    const [num, setNum] = useState(0)
-    if (Detail === Details[num].id) {
-        setNum(1)
-    }
-
+const Find = ({number}) => {
+    const num = Details.length - number
     return (
-        <Card.Link href={Details[num].url} style={{textDecoration: 'none', color: 'black'}}>
+        <Card.Link href={Details[num].url} style={{textDecoration:'none', color:'black'}}>
             <Card className={styles.arthover}>
                 <Container>
                     <Row>
@@ -46,4 +42,4 @@ const Suggest = ({Detail}) => {
         </Card.Link>
     )
 }
-export default Suggest
+export default Find

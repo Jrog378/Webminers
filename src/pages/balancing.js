@@ -97,12 +97,10 @@ export default function Balancing() {
                             <Container className={styles.pad}>
                                 <Card style={{backgroundColor: 'rgb(245,245,245)'}}>
                                     <Container>
-                                        <Card.Body style={{margin: 'auto'}}>
                                             <Card.Title
-                                                style={{fontSize: '30px', textAlign: 'center', paddingTop: '15px'}}>
+                                                style={{fontSize: '30px', textAlign: 'center', paddingTop: '25px'}}>
                                                 Cryptocurrency Balancing
                                             </Card.Title>
-                                        </Card.Body>
                                         <Card.Body style={{margin: 'auto'}}>
                                             <Card.Text style={{fontSize: '20px'}}>
                                                 Asset balancing diversifies your portfolio and reduces risk. In

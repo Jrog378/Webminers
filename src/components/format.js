@@ -78,10 +78,19 @@ const ArticleFormat = ({Article, url}) => {
                             }}>
                                 <h1 style={{fontSize: 'xx-large'}}>{Detail.title}</h1>
                             </Card.Title>
-                            <Card.Text
+                            <Row
                                 style={{color: 'rgb(200,200,200)', padding: '3% 10% 1% 10%', fontStyle: 'italic'}}>
-                                Last modified: {Detail.date}
-                            </Card.Text>
+                                <Col>
+                                    <Card.Text>
+                                        Last modified: {Detail.date}
+                                    </Card.Text>
+                                </Col>
+                                <Col>
+                                    <Card.Text style={{textAlign:'right'}}>
+                                        By Justin Rogers
+                                    </Card.Text>
+                                </Col>
+                            </Row>
                         </Card>
                     </header>
                 </Container>
@@ -115,7 +124,7 @@ const ArticleFormat = ({Article, url}) => {
                                         </Card>
                                     )
                                 )}
-                                <Row style={{padding: '0 10%', display:'inline-flex', width:'100%'}}>
+                                <Row style={{padding: '0 10%', display: 'inline-flex', width: '100%'}}>
                                     <h3 style={{verticalAlign: 'middle'}} className={styles.share}>
                                         Share:
                                     </h3>

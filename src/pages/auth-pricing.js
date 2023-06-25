@@ -35,7 +35,7 @@ export default function AuthPricing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
             </Head>
-            <Container className={styles.full}>
+            <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container>
                     <h1 style={{textAlign: 'center', padding: '50px'}}>
                         Setup the plan to fuel your data-driven investing
@@ -120,7 +120,7 @@ export default function AuthPricing() {
                             </Row>
                         </CardGroup>
                 </Container>
-            </Container>
+            </div>
         </>
     )
 }
