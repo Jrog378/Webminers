@@ -12,7 +12,6 @@ import BalancingPlot from "@/images/plots/BalancingPlot.webp"
 import InsightsPlot from "@/images/plots/InsightPlot.webp"
 import Find from "@/components/find-article";
 
-
 function EmailALert() {
     const [open, setOpen] = React.useState(false);
     const [timer, setTimer] = React.useState(0)
@@ -164,15 +163,12 @@ export default function Home() {
                         <Row>
                             <Col md={12} lg={4} className={styles.title}>
                                 <Row className={styles.pad}>
-                                    <h1 style={{paddingBottom: '15px'}}>
-                                        Knowledge generates profit
-                                    </h1>
-                                    <Col xs={6} lg={12}>
-                                        <h4 className={styles.pad}>
-                                            Want some?
-                                        </h4>
+                                    <Col xs={12} sm={8} lg={12}>
+                                        <h1 style={{paddingBottom: '15px'}}>
+                                            Want knowledge that generates profit?
+                                        </h1>
                                     </Col>
-                                    <Col xs={6} lg={12}>
+                                    <Col xs={12} sm={4} lg={12}>
                                         <Button variant={'outline-success'} className={styles.btn}
                                                 href='/auth/signup'>Start For Free</Button>
                                     </Col>
@@ -257,7 +253,8 @@ export default function Home() {
                                                                             from 1-100 based on downside risk and upside
                                                                             potential.
                                                                         </Card.Text>
-                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                        <Button variant="outline-success"
+                                                                                className={styles.btn}
                                                                                 href='/efficiency'>Asset
                                                                             Efficiency</Button>
                                                                     </Card.Body>
@@ -284,7 +281,8 @@ export default function Home() {
                                                                             suited for different levels of investing and
                                                                             equity amounts.
                                                                         </Card.Text>
-                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                        <Button variant="outline-success"
+                                                                                className={styles.btn}
                                                                                 href='/balnancing'>Asset
                                                                             Balancing</Button>
                                                                     </Card.Body>
@@ -315,7 +313,8 @@ export default function Home() {
                                                                             determine where the market is likely to go
                                                                             next.
                                                                         </Card.Text>
-                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                        <Button variant="outline-success"
+                                                                                className={styles.btn}
                                                                                 href='/insights'>Market
                                                                             Insights</Button>
                                                                     </Card.Body>
@@ -339,7 +338,8 @@ export default function Home() {
                                                                             just starting out
                                                                             with crypto to veteran investors.
                                                                         </Card.Text>
-                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                        <Button variant="outline-success"
+                                                                                className={styles.btn}
                                                                                 href='/pricing'>Webminers
                                                                             Pricing</Button>
                                                                     </Card.Body>
