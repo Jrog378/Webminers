@@ -1,11 +1,16 @@
 import Head from 'next/head'
 import React, {useState} from "react";
 import styles from '@/styles/Home.module.css'
-import {Button, Card, CardGroup, Col, Container, Row, Toast} from "react-bootstrap";
+import {Button, Card, CardGroup, Col, Container, Nav, Row, Tab, Toast} from "react-bootstrap";
 import axios from "axios";
 import {toast} from "react-toastify";
 import CloseButton from 'react-bootstrap/CloseButton';
 import Suggest from "@/components/suggest";
+import Image from "next/image";
+import EfficiencyPlot from "@/images/plots/EfficiencyChart.webp"
+import BalancingPlot from "@/images/plots/BalancingPlot.webp"
+import InsightsPlot from "@/images/plots/InsightPlot.webp"
+import Find from "@/components/find-article";
 
 
 function EmailALert() {
@@ -77,8 +82,7 @@ function EmailALert() {
                                 </h3>
                                 <Card.Text style={{fontSize: 'larger'}}>
                                     Join our Emailing List today and get updates on Webminers Insights, New Features,
-                                    and
-                                    More!
+                                    and More!
                                 </Card.Text>
                                 <Container>
                                     <Row style={{padding: '5px'}}>
@@ -157,110 +161,258 @@ export default function Home() {
             <div style={{margin: '0', width: '100%'}}>
                 <div className={styles.sales}>
                     <Container style={{padding: 0}}>
-                        <Card className={styles.cardhover}>
-                            <Row>
-                                <Col md={8} sm={12}>
-                                    <h1>
-                                        Better Knowledge, Better Data, Better Profits
+                        <Row>
+                            <Col md={12} lg={4} className={styles.title}>
+                                <Row className={styles.pad}>
+                                    <h1 style={{paddingBottom: '15px'}}>
+                                        Knowledge generates profit
                                     </h1>
-                                    <br/>
-                                    <br/>
-                                    <Button variant="success" href='/pricing'>Get a hold of your successful crypto
-                                        decisions
-                                        →</Button>
-                                </Col>
-                            </Row>
-                        </Card>
-                        <Row style={{paddingTop: '10px'}}>
-                            <Col lg={7} md={6} sm={12} className={styles.pad}>
-                                <Card className={styles.cardhover}>
-                                    <Card.Body>
-                                        <Card.Title style={{fontSize: 'x-large'}}>
-                                            Maximize feturns with historically tested findings
-                                        </Card.Title>
-                                        <Card.Text style={{fontSize: 'larger'}}>
-                                            Webminers Investing provides historically and research backed
-                                            education to help you make informed crypto investing decisions.
-                                            Our mission is to help anyone from those who are just starting out
-                                            with crypto to veteran investors.
-                                        </Card.Text>
-                                        <Card.Text style={{fontSize: 'larger'}}>
-                                            We believe that cryptocurrency is a great option as an investment
-                                            asset and are happy to direct your to our research resources.
-                                            <Card.Link className={styles.weblink} href={'/insights'}> Market
-                                                Insights</Card.Link>,
-                                            <Card.Link className={styles.weblink}
-                                                       href={'/balancing'}> Asset Balancing</Card.Link>,
-                                            <Card.Link className={styles.weblink} href={'/efficiency'}> Asset
-                                                Efficiency</Card.Link>, and <Card.Link className={styles.weblink}
-                                                                                       href={'/articles'}> Education </Card.Link>
-                                            can help provide you the knowledge and research to
-                                            build or improve a well rounded investing system with Risk Management,
-                                            Asset Allocation, and Asset Selection.
-                                        </Card.Text>
-                                        <Button variant="success" href='/pricing'>Webminers
-                                            Pricing</Button>
-                                    </Card.Body>
-                                </Card>
+                                    <Col xs={6} lg={12}>
+                                        <h4 className={styles.pad}>
+                                            Want some?
+                                        </h4>
+                                    </Col>
+                                    <Col xs={6} lg={12}>
+                                        <Button variant={'outline-success'} className={styles.btn}
+                                                href='/auth/signup'>Start For Free</Button>
+                                    </Col>
+                                </Row>
                             </Col>
-                            <Col lg={5} md={6} sm={12} className={styles.pad}>
-                                <Suggest Detail={'/'}/>
-                            </Col>
-                            <Col lg={12} className={styles.pad}>
+                            <Col md={12} lg={8}>
                                 <Container>
-                                    <Card.Title id={'why'} style={{
-                                        paddingBottom: '15px',
-                                        textAlign: 'center',
-                                        fontSize: 'x-large'
-                                    }}>
-                                        Missing out on opportunities to grow your wealth from not having
-                                        the right tools or knowledge?
-                                    </Card.Title>
-                                    <p style={{fontSize: 'large'}}>
-                                        If you want efficient profits and to beat the market, Webminers is where to be.
-                                        We
-                                        specialize in identifying the ups and downs of the crypto market and identifying
-                                        how
-                                        much
-                                        of what asset is best for and efficient portfolio, all fully tested with past
-                                        and current data.
-                                    </p>
+                                    <Tab.Container id="left-tabs-example"
+                                                   defaultActiveKey="Crypto">
+                                        <Col>
+                                            <Row>
+                                                <Nav variant="pills" className="flex-column">
+                                                    <Row>
+                                                        <Col className={styles.pad}>
+                                                            <Nav.Link className={styles.navgreen}
+                                                                      eventKey="Crypto">Crypto</Nav.Link>
+                                                        </Col>
+                                                        <Col className={styles.pad}>
+                                                            <Nav.Link className={styles.navgreen}
+                                                                      eventKey="Library">Library</Nav.Link>
+                                                        </Col>
+                                                        <Col className={styles.pad}>
+                                                            <Nav.Link className={styles.navgreen}
+                                                                      eventKey="Articles">Articles</Nav.Link>
+                                                        </Col>
+                                                    </Row>
+                                                </Nav>
+                                            </Row>
+                                            <Row style={{
+                                                border: '0.5px solid gray',
+                                                padding: '10px',
+                                                borderRadius: '10px'
+                                            }}>
+                                                <Tab.Content>
+                                                    <Tab.Pane eventKey="Crypto">
+                                                        <Container>
+                                                            <Card.Title id={'why'} style={{
+                                                                paddingBottom: '15px',
+                                                                textAlign: 'center',
+                                                                fontSize: 'x-large'
+                                                            }}>
+                                                                Missing out on opportunities to grow your wealth from
+                                                                not
+                                                                having
+                                                                the right tools or knowledge?
+                                                            </Card.Title>
+                                                            <p style={{fontSize: 'large'}}>
+                                                                If you want efficient profits and to beat the market,
+                                                                Webminers is where to be.
+                                                                We
+                                                                specialize in identifying the ups and downs of the
+                                                                crypto
+                                                                market and identifying
+                                                                how
+                                                                much
+                                                                of what asset is best for and efficient portfolio, all
+                                                                fully
+                                                                tested with past
+                                                                and current data.
+                                                            </p>
+                                                        </Container>
+                                                        <Row>
+                                                            <Col sm={12} md={6} className={styles.pad}>
+                                                                <Card className={styles.cardhover}>
+                                                                    <Card.Body>
+                                                                        <Card.Link href={'/efficiency'}>
+                                                                            <Image
+                                                                                src={EfficiencyPlot}
+                                                                                alt={'Efficiency Plot'}
+                                                                                className={styles.blogimgs}
+                                                                                placeholder={'blur'}
+                                                                            />
+                                                                        </Card.Link>
+                                                                    </Card.Body>
+
+                                                                    <Card.Body>
+                                                                        <Card.Title style={{fontSize: 'x-large'}}>
+                                                                            Asset Efficiency
+                                                                        </Card.Title>
+                                                                        <Card.Text style={{fontSize: 'larger'}}>
+                                                                            Our asset efficiency rates a set of assets
+                                                                            from 1-100 based on downside risk and upside
+                                                                            potential.
+                                                                        </Card.Text>
+                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                                href='/efficiency'>Asset
+                                                                            Efficiency</Button>
+                                                                    </Card.Body>
+                                                                </Card>
+                                                            </Col>
+                                                            <Col sm={12} md={6} className={styles.pad}>
+                                                                <Card className={styles.cardhover}>
+                                                                    <Card.Body>
+                                                                        <Card.Link href={'/balancing'}>
+                                                                            <Image
+                                                                                src={BalancingPlot}
+                                                                                alt={'Balancing Plot'}
+                                                                                className={styles.blogimgs}
+                                                                                placeholder={'blur'}
+                                                                            />
+                                                                        </Card.Link>
+                                                                    </Card.Body>
+                                                                    <Card.Body>
+                                                                        <Card.Title style={{fontSize: 'x-large'}}>
+                                                                            Asset Balancing
+                                                                        </Card.Title>
+                                                                        <Card.Text style={{fontSize: 'larger'}}>
+                                                                            Our set of balanced portfolios that are best
+                                                                            suited for different levels of investing and
+                                                                            equity amounts.
+                                                                        </Card.Text>
+                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                                href='/balnancing'>Asset
+                                                                            Balancing</Button>
+                                                                    </Card.Body>
+                                                                </Card>
+                                                            </Col>
+                                                        </Row>
+                                                        <Row>
+                                                            <Col xs={12} md={6} className={styles.pad}>
+                                                                <Card className={styles.cardhover}>
+                                                                    <Card.Body>
+                                                                        <Card.Link href={'/insights'}>
+                                                                            <Image
+                                                                                src={InsightsPlot}
+                                                                                alt={'Insights Plot'}
+                                                                                className={styles.blogimgs}
+                                                                                placeholder={'blur'}
+                                                                            />
+                                                                        </Card.Link>
+                                                                    </Card.Body>
+                                                                    <Card.Body>
+                                                                        <Card.Title style={{fontSize: 'x-large'}}>
+                                                                            Market Insights
+                                                                        </Card.Title>
+                                                                        <Card.Text style={{fontSize: 'larger'}}>
+                                                                            Our custom-calculated indicators determine
+                                                                            where we are in the market using
+                                                                            macroeconomic and microeconomic data to
+                                                                            determine where the market is likely to go
+                                                                            next.
+                                                                        </Card.Text>
+                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                                href='/insights'>Market
+                                                                            Insights</Button>
+                                                                    </Card.Body>
+                                                                </Card>
+                                                            </Col>
+                                                            <Col xs={12} md={6} className={styles.pad}>
+                                                                <Card className={styles.cardhover}>
+                                                                    <Card.Body>
+                                                                        <Card.Title style={{fontSize: 'x-large'}}>
+                                                                            Maximize returns with historically tested
+                                                                            findings
+                                                                        </Card.Title>
+                                                                        <Card.Text style={{fontSize: 'larger'}}>
+                                                                            Webminers Investing provides historically
+                                                                            and
+                                                                            research backed
+                                                                            education to help you make informed crypto
+                                                                            investing decisions.
+                                                                            Our mission is to help anyone from those who
+                                                                            are
+                                                                            just starting out
+                                                                            with crypto to veteran investors.
+                                                                        </Card.Text>
+                                                                        <Button variant="outline-success" className={styles.btn}
+                                                                                href='/pricing'>Webminers
+                                                                            Pricing</Button>
+                                                                    </Card.Body>
+                                                                </Card>
+                                                            </Col>
+                                                        </Row>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey="Library">
+                                                        <Container>
+                                                            <Card.Title id={'why'} style={{
+                                                                paddingBottom: '15px',
+                                                                textAlign: 'center',
+                                                                fontSize: 'x-large'
+                                                            }}>
+                                                                Looking for a way to increase your knowledge and value?
+                                                            </Card.Title>
+                                                            <p style={{fontSize: 'large'}}>
+                                                                Without knowledge, there is very little you can
+                                                                accomplish.
+                                                                The only issue, there is so much out there to learn. It
+                                                                can
+                                                                be overwhelming. Resources to grow your knowledge about
+                                                                investing, finance, and business is what we all need.
+                                                                Here
+                                                                is a small collection of resources to get you started.
+                                                            </p>
+                                                            <Card.Title id={'why'} style={{
+                                                                paddingBottom: '15px',
+                                                                textAlign: 'center',
+                                                                fontSize: 'x-large'
+                                                            }}>
+                                                                Coming Soon...
+                                                            </Card.Title>
+                                                        </Container>
+                                                        <Row>
+                                                            <Col>
+
+                                                            </Col>
+                                                            <Col>
+
+                                                            </Col>
+                                                        </Row>
+                                                        <Row>
+                                                            <Col>
+
+                                                            </Col>
+                                                            <Col>
+
+                                                            </Col>
+                                                        </Row>
+                                                    </Tab.Pane>
+                                                    <Tab.Pane eventKey="Articles">
+                                                        <Row>
+                                                            <Col xs={12} md={6}>
+                                                                <h2 style={{textAlign: 'center'}}>
+                                                                    Most Recent
+                                                                </h2>
+                                                                <Suggest Detail={'/'}/>
+                                                            </Col>
+                                                            <Col xs={12} md={6}>
+                                                                <h2 style={{textAlign: 'center'}}>
+                                                                    Webminers Pick
+                                                                </h2>
+                                                                <Find number={38}/>
+                                                            </Col>
+                                                        </Row>
+
+                                                    </Tab.Pane>
+                                                </Tab.Content>
+                                            </Row>
+                                        </Col>
+                                    </Tab.Container>
                                 </Container>
-                            </Col>
-                            <Col lg={12} className={styles.pad}>
-                                <Card className={styles.cardhover}>
-                                    <Card.Body>
-                                        <Card.Title style={{textAlign: 'center', fontSize: 'x-large'}}>
-                                            Giving you all the research and education you need to be successful in the
-                                            crypto market
-                                        </Card.Title>
-                                        <p style={{fontSize: 'large'}}>
-                                            <ul>
-                                                <li>
-                                                    Learn to build an Investing System that produces consistent
-                                                    returns making it,
-                                                    clear and concise to grow your wealth.
-                                                </li>
-                                                <li>
-                                                    Beat the market by outperforming top assets like BTC and the S&P
-                                                    500
-                                                    with efficient investing from an systems similar to our already
-                                                    achieven result.
-                                                </li>
-                                                <li>
-                                                    Reduce risk by investing in the right assets based on data
-                                                    mining
-                                                    findings with maintaining and rebalancing your portfolio
-                                                    accordingly.
-                                                </li>
-                                                <li>
-                                                    Follow along with easy-to-understand research that is
-                                                    simple to use to your advantage
-                                                </li>
-                                            </ul>
-                                        </p>
-                                    </Card.Body>
-                                </Card>
                             </Col>
                         </Row>
                         <Container>
@@ -332,51 +484,6 @@ export default function Home() {
                                     </Col>
                                 </Row>
                             </CardGroup>
-                        </Container>
-                        <Container className={styles.pad}>
-                            <Card className={styles.cardhover}>
-                                <Card.Body>
-                                    <Card.Title style={{fontSize: '30px'}}>
-                                        Interested in More Webminers Content?
-                                    </Card.Title>
-                                </Card.Body>
-                                <Container className={styles.pad}>
-                                    <Row>
-                                        <Col lg={6} md={6} sm={12} className={styles.pad}>
-                                            <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
-                                                <Card.Body>
-                                                    <Card.Text>
-                                                        Join our email list for important updates about webminers
-                                                        services.
-                                                        There you will get updates about articles and any important
-                                                        changes
-                                                        to our Crypto Investing system
-                                                    </Card.Text>
-                                                    <Button href='/email-list'
-                                                            style={{float: 'left', margin: '5px'}}
-                                                            variant="outline-dark"
-                                                            size='md'>Email List</Button>
-                                                </Card.Body>
-                                            </Card>
-                                        </Col>
-                                        <Col lg={6} md={6} sm={12} className={styles.pad}>
-                                            <Card style={{backgroundColor: 'rgba(0,0,0,0)'}}>
-                                                <Card.Body>
-                                                    <Card.Text>
-                                                        Visit our twitter page where we strive to tweet
-                                                        quality financial information and findings daily
-                                                    </Card.Text>
-                                                    <Button href='https://twitter.com/JusWebminers'
-                                                            target={'_blank'}
-                                                            style={{float: 'left', margin: '5px'}}
-                                                            variant="outline-dark"
-                                                            size='md'>Twitter</Button>
-                                                </Card.Body>
-                                            </Card>
-                                        </Col>
-                                    </Row>
-                                </Container>
-                            </Card>
                         </Container>
                     </Container>
                 </div>
