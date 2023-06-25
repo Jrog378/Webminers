@@ -6,23 +6,25 @@ import styles from "@/styles/Home.module.css";
 
 export default function EfficientSales() {
     return (
-        <Card.Link href={'/efficiency'} className={styles.weblink}>
-            <Card style={{background:'whitesmoke'}}>
+        <Card.Link href={'/efficiency'} style={{textDecoration:'none'}}>
+            <Card style={{background: 'whitesmoke'}}>
                 <Image
                     src={EfficiencyChart}
                     className={styles.saleimg}
-                    alt={'EfficiencyTable'}
+                    alt={'Efficiency Table'}
                     placeholder={'blur'}
                 />
                 <Row>
                     <Card.Body>
-                        <Card.Title style={{textAlign: "center"}}>
-                            <h4>Looking for Efficient Profit?</h4>
-                            <h4>Visit Our FREE Asset Research</h4>
-                        </Card.Title>
-                        <Card.Text style={{textAlign: "center"}} className={styles.pad}>
+                        <Card.Link href={'/efficiency'} className={styles.weblink}>
+                            <Card.Title style={{textAlign: "center"}}>
+                                <h4>Looking for Efficient Profit?</h4>
+                                <h4>Visit Our FREE Asset Research</h4>
+                            </Card.Title>
+                        </Card.Link>
+                        <p style={{textAlign: "center", color:'black'}} className={styles.pad}>
                             Find your efficient returns with the right data on the right assets
-                        </Card.Text>
+                        </p>
                     </Card.Body>
                 </Row>
             </Card>

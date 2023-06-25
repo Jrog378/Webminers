@@ -307,6 +307,16 @@
     }
 }
 
+@media only screen and (min-width: 992px) {
+    .title {
+        padding-top: 125px;
+        font-size: larger;
+    }
+    .btn {
+        font-size: larger;
+    }
+}
+
 @media only screen and (max-width: 300px) {
     .AlertSizer {
         font-size: smaller;
@@ -322,7 +332,6 @@
     background: rgb(33, 37, 41);
     background: linear-gradient(0deg, rgba(33, 37, 41, 0.9) 0%, rgba(0, 75, 25, 0.9) 100%);
     z-index: 3;
-    position: sticky;
     top: 0;
 }
 
@@ -387,6 +396,10 @@
     color: rgb(0, 125, 75) !important;
     font-size: larger;
     text-align: center;
+    border: 2px solid whitesmoke !important;
+}
+.navgreen:hover {
+    border: 2px solid rgb(0, 175, 75) !important;
 }
 
 .webmark > p > a:visited, .webmark > p > a:link, .webmark > p > a:active, .webmark > ol > li > a:visited, .webmark > ol > li > a:link, .webmark > ol > li > a:active, a:visited.weblink, a:active.weblink, a:link.weblink {
@@ -519,9 +532,9 @@ main:has(> .full) {
     margin: 15px;
 }
 
-.sales > div > .cardhover {
+.salesgreen {
     width: 100%;
-    padding: 50px;
+    padding: 25px;
     border-radius: 20px;
     background-color: rgb(213, 233, 223);
 }
@@ -562,3 +575,19 @@ main:has(> .full) {
     height: 36px;
     width: fit-content;
 }
+
+.btn {
+    border-color: rgb(0,175,75);
+    color: rgb(0,175,75);
+    font-size: larger;
+    border-radius: 5px;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn:hover, .btn:active {
+    border-color: rgb(0,175,75) !important;
+    background-color: rgb(200, 250, 200) !important;
+    color: rgb(0,175,75) !important;
+}
+

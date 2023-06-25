@@ -43,7 +43,7 @@ export default function Pricing() {
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <SchemaMarkup/>
             </Head>
-            <div className={styles.full}>
+            <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
                     <h1 style={{textAlign: 'center', padding: '50px'}}>
                         Setup the plan to fuel your data-driven investing
