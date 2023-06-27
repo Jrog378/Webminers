@@ -1,5 +1,17 @@
 const details = [
     {
+        id: 43,
+        title: 'Blockchain Basics: 5 Crypto Investing Essentials for Success',
+        date: 'June 26th, 2023',
+        pub: 'June 26th, 2023',
+        text: 'Your cryptocurrency investment strategies profit is determined by how you handle risk and ' +
+            'volatility based on your market and economic investing knowledge.',
+        url: '/articles/crypto-investing-essentials',
+        img: 'BlockchainBasicsMain.webp',
+        alt: 'The bitcoin logo in the center of a digitally made circle in blue surrounded by multicolored lights and a blue background.',
+        header: 'BlockchainBasics.webp',
+    },
+    {
         id: 42,
         title: 'Crypto Investing Lifestyle: The 4 Life Changes From DeFi?',
         date: 'June 20th, 2023',
