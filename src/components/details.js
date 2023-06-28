@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 44,
+        title: '5 Steps to Develop Your Short-Term Crypto Trading Strategies',
+        date: 'June 27th, 2023',
+        pub: 'June 27th, 2023',
+        text: 'Maintaining efficient and low-risk short-term crypto trading strategies is done by finding assets ' +
+            'and style as well as understanding the markets and your goals.',
+        url: '/articles/short-term-crypto-trading-strategies',
+        img: 'CryptoTradingMain.webp',
+        alt: 'A golden coin with the Bitcoin logo is sitting up on a blue reflective table with its reflection ' +
+            'below it with two other coins.',
+        header: 'CryptoTrading.webp',
+    },
+    {
         id: 43,
         title: 'Blockchain Basics: 5 Crypto Investing Essentials for Success',
         date: 'June 26th, 2023',

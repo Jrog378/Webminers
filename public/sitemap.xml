@@ -250,7 +250,12 @@
     </url>
     <url>
         <loc>https://webminers.dev/articles/crypto-investing-essentials</loc>
-        <lastmod>2023-06-20</lastmod>
+        <lastmod>2023-06-26</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/crypto-investing-essentials</loc>
+        <lastmod>2023-06-27</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
