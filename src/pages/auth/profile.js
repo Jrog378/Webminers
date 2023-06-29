@@ -1,12 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
-import {auth, db} from "@/config";
+import {auth, db, logout} from "@/config";
 import Router from "next/router";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {doc, getDoc} from "firebase/firestore";
 import Link from "next/link";
 import styles from '@/styles/Home.module.css'
-import logo from "@/images/WebminersLogo.webp";
 import Head from "next/head";
 
 export default function Profile() {
@@ -22,8 +21,7 @@ export default function Profile() {
                 console.log(promise)
                 if (promise['plan'] === 'none') {
                     setPlan(promise['plan'])
-                }
-                else {
+                } else {
                     setPlan(promise['plan'] + ' Investing Plan')
                 }
                 setName(promise['name'])
@@ -53,14 +51,18 @@ export default function Profile() {
                                 <Container style={{padding: '15px'}}>
                                     <h4>Email: {email}</h4>
                                     <h4>Account Plan: {plan}</h4>
+
                                 </Container>
+                                <Button size={'lg'} onClick={logout} variant={'success'} style={{backgroundColor: 'rgb(0,175,75)'}}>
+                                    Logout
+                                </Button>
                             </Container>
-                            <Container>
+                            <Container style={{maxWidth: '900px'}}>
                                 <Row>
                                     <Col md={12} lg={6} style={{padding: '10px'}}>
                                         <Card className={styles.cardhover} style={{padding: '10px'}}>
-                                            <h3 style={{textAlign: 'center'}}>Wondering What Webminers Has to
-                                                Offer?</h3>
+                                            <h4 style={{textAlign: 'center'}}>Wondering what Webminers has to
+                                                offer?</h4>
                                             <p style={{fontSize: 'larger'}}>Checkout our other plans for Investing
                                                 Seasons,
                                                 Balancing, and Analysis.</p>
@@ -70,7 +72,7 @@ export default function Profile() {
                                     </Col>
                                     <Col md={12} lg={6} style={{padding: '10px'}}>
                                         <Card className={styles.cardhover} style={{padding: '10px'}}>
-                                            <h3 style={{textAlign: 'center'}}>Ready For An Upgrade?</h3>
+                                            <h4 style={{textAlign: 'center'}}>Ready for an upgrade?</h4>
                                             <p style={{fontSize: 'larger'}}>Purchase one of our plans or modify and
                                                 existing plan below.</p>
                                             {plan === 'Loading...'

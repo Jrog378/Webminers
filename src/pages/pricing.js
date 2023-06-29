@@ -1,11 +1,32 @@
 import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table} from "react-bootstrap";
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styles from '@/styles/Home.module.css'
 import Head from "next/head";
+import Router from "next/router";
+import {doc, getDoc} from "firebase/firestore";
+import {auth, db} from "@/config";
+import {useAuthState} from "react-firebase-hooks/auth";
 
 
 export default function Pricing() {
-
+    let [url, setUrl] = useState('/auth/login')
+    let [user, loading] = useAuthState(auth)
+    useEffect(() => {
+        const fetchData = async () => {
+            if (user) {
+                const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
+                console.log(promise)
+                if (promise['plan'] !== 'none') {
+                    setUrl('https://checkout.webminers.dev/p/login/bIY5leaPGengaVG9AA')
+                }
+                else {
+                    setUrl('auth-pricing')
+                }
+            }
+            return ''
+        }
+        fetchData()
+    }, [user, loading]);
     const SchemaMarkup = () => (
         <script
             type="application/ld+json"
@@ -35,11 +56,13 @@ export default function Pricing() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta property='og:type' content='website'/>
-                <meta property='og:description' content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
+                <meta property='og:description'
+                      content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
                 <meta name='twitter:title' content='Plan Pricing for Webminers Investing'/>
-                <meta name='twitter:description' content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
+                <meta name='twitter:description'
+                      content='Plan pricing is where you will find all our plans and their benefits. We also have a free forever plan that you can sign up for no credit card required.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <SchemaMarkup/>
             </Head>
@@ -69,7 +92,7 @@ export default function Pricing() {
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} href={'/auth-pricing'}>
+                                        <Nav.Link className={styles.navgreen} href={url} eventKey="fifth">
                                             Get one of our plans with a 7 day trial now
                                         </Nav.Link>
                                     </Nav.Item>
@@ -240,6 +263,9 @@ export default function Pricing() {
                                         </Table>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="fifth">
+                                        <p>
+                                            Loading...
+                                        </p>
                                     </Tab.Pane>
                                 </Tab.Content>
                             </Col>
