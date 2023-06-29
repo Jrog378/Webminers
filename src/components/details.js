@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 45,
+        title: 'Crypto Adoption Begins: Decentralized Financial Institutions',
+        date: 'June 28th, 2023',
+        pub: 'June 28th, 2023',
+        text: 'To fully understand how the decentralization of finance helps crypto trading and investing we have ' +
+            'to look into blockchain technology adoption and growth.',
+        url: '/articles/crypto-adoption-begins',
+        img: 'CryptoAdoptionMain.webp',
+        alt: 'A dark blue chart on a blue screen of a silver Macbook on top of a tan couch next to a black ' +
+            'notebook and a white cup of coffee.',
+        header: 'CryptoAdoption.webp',
+    },
+    {
         id: 44,
         title: '5 Steps to Develop Your Short-Term Crypto Trading Strategies',
         date: 'June 27th, 2023',

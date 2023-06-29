@@ -9,7 +9,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import ArticleFormat from "@/components/format";
 
-export default function BiggestCryptoMistakes() {
+export default function ShortTermCryptoTradingStrategies() {
     const Article = [
         {
             img: CryptoTradingMain,
