@@ -1,8 +1,6 @@
 import Head from "next/head";
 import React from "react";
 import {Card, Container} from "react-bootstrap";
-import styles from "@/styles/Home.module.css";
-
 
 export default function TermsOfService() {
 
@@ -35,17 +33,19 @@ export default function TermsOfService() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta property='og:type' content='website'/>
-                <meta property='og:description' content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
+                <meta property='og:description'
+                      content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
                 <meta name='twitter:title' content='Terms of Service for Webminers Investing'/>
-                <meta name='twitter:description' content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
+                <meta name='twitter:description'
+                      content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <SchemaMarkup/>
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
+                    <Card style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title style={{fontSize: 'xx-large'}}>Terms of Service</Card.Title>
                             <Card.Text>
@@ -65,11 +65,14 @@ export default function TermsOfService() {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            <Card.Title>Not Financial Advice</Card.Title>
+                            <Card.Title>Not Professional Advice</Card.Title>
                             <Card.Text>
-                                The information and content provided on our service is for educational and entertainment
-                                purposes only. It is not intended to be financial advice. You should always consult with
-                                a qualified financial advisor before making any investment decisions.
+                                The information on this website is for educational purposes only and is not intended to
+                                be a substitute for professional advice. The website owner and its contributors are not licensed professionals and do not offer
+                                professional advice. The information on this website is based on the author&apos;s own experiences and research,
+                                and should not be construed as professional advice. Readers are encouraged to consult with a qualified professional before making any
+                                decisions based on the information on this website. The website owner and its contributors assume no liability for any losses or damages
+                                that may result from the use of the information on this website.
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>

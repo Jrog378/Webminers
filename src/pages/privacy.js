@@ -1,8 +1,6 @@
 import Head from "next/head";
 import React from "react";
 import {Card, Container} from "react-bootstrap";
-import styles from "@/styles/Home.module.css";
-
 
 export default function Privacy() {
 
@@ -47,7 +45,7 @@ export default function Privacy() {
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
-                    <Card className={styles.cardhover} style={{margin: '10px 0'}}>
+                    <Card style={{margin: '10px 0'}}>
                         <Card.Body>
                             <Card.Title style={{fontSize: 'xx-large'}}>Privacy Policy</Card.Title>
                             <Card.Text>
@@ -115,7 +113,7 @@ export default function Privacy() {
                                 You have the right to access, correct, or delete your personal information. You also
                                 have the right to object to the processing of your personal information and to the right
                                 to data portability.
-                                To exercise these rights, please contact us at [email protected]
+                                To exercise these rights, please contact us with the email provided below
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
