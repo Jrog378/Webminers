@@ -188,7 +188,7 @@ export default function Home() {
                                                         </Col>
                                                         <Col className={styles.pad}>
                                                             <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Library">Library</Nav.Link>
+                                                                      eventKey="Resources">Resources</Nav.Link>
                                                         </Col>
                                                         <Col className={styles.pad}>
                                                             <Nav.Link className={styles.navgreen}
@@ -347,7 +347,7 @@ export default function Home() {
                                                             </Col>
                                                         </Row>
                                                     </Tab.Pane>
-                                                    <Tab.Pane eventKey="Library">
+                                                    <Tab.Pane eventKey="Resources">
                                                         <Container>
                                                             <Card.Title id={'why'} style={{
                                                                 paddingBottom: '15px',

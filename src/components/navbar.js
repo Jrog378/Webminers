@@ -28,13 +28,11 @@ export default function Pagenav() {
                             ?
                             <Nav>
                                 <Nav.Link className={styles.webnav} href="/auth/profile">Profile</Nav.Link>
-                                <Nav.Link className={styles.webnav} href="/auth/logout">Logout</Nav.Link>
                             </Nav>
 
                             :
                             <Nav>
                                 <Nav.Link className={styles.webnav} href="/auth/login">Login</Nav.Link>
-                                <Nav.Link className={styles.webnav} href="/auth/signup">Signup</Nav.Link>
                             </Nav>
 
 
