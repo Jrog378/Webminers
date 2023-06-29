@@ -254,8 +254,13 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://webminers.dev/articles/crypto-investing-essentials</loc>
+        <loc>https://webminers.dev/articles/short-term-crypto-trading-strategies</loc>
         <lastmod>2023-06-27</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://webminers.dev/articles/crypto-adoption-begins</loc>
+        <lastmod>2023-06-28</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
