@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 46,
+        title: 'The Potential of NFTs: The Innovative Future of Digital Art',
+        date: 'June 30th, 2023',
+        pub: 'June 30th, 2023',
+        text: 'NFTs are changing the art world for artists. It is essential to understand their past, future, and ' +
+            'AI compatibility if you are going to make or invest in them.',
+        url: '/articles/potential-of-nfts',
+        img: 'NFTPotentialMain.webp',
+        alt: 'One hand with a golden coin in it reaches for another with a green image labeled as an NFT in front ' +
+            'of a blue background.',
+        header: 'NFTPotential.webp',
+    },
+    {
         id: 45,
         title: 'Crypto Adoption Begins: Decentralized Financial Institutions',
         date: 'June 28th, 2023',
