@@ -17,7 +17,7 @@ function Login() {
             // maybe trigger a loading screen
             return;
         }
-        if (user) Router.back();
+        if (user) Router.push("/auth/profile");
     }, [user, loading]);
 
 
