@@ -25,7 +25,7 @@ function Register() {
 
     useEffect(() => {
         if (loading) return;
-        if (user) Router.push("/");
+        if (user) Router.push("/auth/profile");
     }, [user, loading]);
     return (
         <Container style={{padding: '25px', height: '100%'}} className="login">
