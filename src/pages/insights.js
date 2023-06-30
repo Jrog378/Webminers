@@ -133,7 +133,7 @@ export default function AuthSeasons(props) {
                             <h3 style={{textAlign: 'center', padding: '25px'}}>Macroeconomic and Microeconomic
                                 Insights</h3>
                             <Container>
-                                <Card className={styles.card1}>
+                                <Card className={styles.card1} style={{margin: 'auto', maxWidth: '600px'}}>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="Macro">
                                         <Col>
                                             <Container className={styles.card1}>
