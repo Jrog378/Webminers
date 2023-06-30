@@ -37,7 +37,7 @@ export default function CryptoAdoptionBegins() {
                 '\n' +
                 'With the [growing interest in crypto and blockchain](what-is-the-crypto-blockchain), we will likely see more innovative applications of this technology. Many experts believe blockchain technology can revolutionize various industries like finance, healthcare, and supply chain management. The system is naturally decentralized since crypto has no central authority like a government or financial institution controlling it. The impact of decentralized finance on the global economy is its ability to be immune to inflation. \n' +
                 '\n' +
-                'The supply of Bitcoin is limited, providing a shield against losing its value as time goes on and storing it instead. Financial institutions recognize this potential and seek ways to incorporate cryptocurrencies [into their portfolios](/balancing). The future of decentralized finance and the traditional financial system will likely have more institutions participating in this blockchain technology adoption.\n'
+                'The supply of Bitcoin is limited, providing a shield against losing its value as time goes on and storing it instead. Financial institutions recognize this potential and seek ways to incorporate cryptocurrencies into their portfolios. The future of decentralized finance and the traditional financial system will likely have more institutions participating in this blockchain technology adoption.\n'
         },
         {
             img: CryptoAdoption2,
