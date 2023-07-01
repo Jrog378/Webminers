@@ -352,6 +352,10 @@ export default function Efficiency() {
                                                             <Nav.Link className={styles.navgreen}
                                                                       eventKey="Link">Link</Nav.Link>
                                                         </Row>
+                                                        <Row style={{padding: '3px'}}>
+                                                            <Nav.Link className={styles.navgreen}
+                                                                      eventKey="Ada">Ada</Nav.Link>
+                                                        </Row>
                                                     </Col>
                                                 </Nav>
                                             </Row>
