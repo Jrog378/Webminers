@@ -312,6 +312,7 @@
         padding-top: 125px;
         font-size: larger;
     }
+
     .btn {
         font-size: larger;
     }
@@ -322,6 +323,7 @@
         font-size: smaller;
     }
 }
+
 @media only screen and (max-width: 991px) {
     .EmailDis {
         display: none;
@@ -398,6 +400,7 @@
     text-align: center;
     border: 2px solid whitesmoke !important;
 }
+
 .navgreen:hover {
     border: 2px solid rgb(0, 175, 75) !important;
 }
@@ -547,6 +550,7 @@ main:has(> .full) {
     font-weight: bolder;
     border-width: 2px !important;
 }
+
 .buttons:hover {
     background-color: rgb(0, 125, 75) !important;
     border-color: rgb(0, 125, 75);
@@ -577,8 +581,8 @@ main:has(> .full) {
 }
 
 .btn {
-    border-color: rgb(0,175,75);
-    color: rgb(0,175,75);
+    border-color: rgb(0, 175, 75);
+    color: rgb(0, 175, 75);
     font-size: larger;
     border-radius: 5px;
     border-width: 2px;
@@ -586,8 +590,21 @@ main:has(> .full) {
 }
 
 .btn:hover, .btn:active {
-    border-color: rgb(0,175,75) !important;
-    background-color: rgb(200, 250, 200) !important;
-    color: rgb(0,175,75) !important;
+    border-color: rgb(0, 175, 75) !important;
+    background-color: rgb(210, 235, 210) !important;
+    color: rgb(0, 175, 75) !important;
 }
 
+.pricing {
+    background: whitesmoke;
+    background: linear-gradient(135deg, whitesmoke 0%, rgba(0, 175, 75, .125) 100%);
+}
+div:has(> .pricing) {
+    padding: 10px;
+}
+
+.plan {
+    font-size: larger;
+    font-weight: 550;
+    color: rgb(0, 175, 75);
+}

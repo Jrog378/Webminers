@@ -14,7 +14,8 @@ export default function AuthPricing() {
     const [user, loading] = useAuthState(auth)
     useEffect(() => {
         const fetchData = async () => {
-            if (!user) await Router.push('/auth/login');
+            if (!loading && !user) await Router.push('/auth/login');
+
             if (user) {
                 const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
                 console.log(promise)

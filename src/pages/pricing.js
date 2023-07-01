@@ -1,4 +1,4 @@
-import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table} from "react-bootstrap";
+import {Button, Card, CardGroup, Col, Container, Row, Tab, Nav, Table, Badge} from "react-bootstrap";
 import React, {useEffect, useState} from "react";
 import styles from '@/styles/Home.module.css'
 import Head from "next/head";
@@ -18,8 +18,7 @@ export default function Pricing() {
                 console.log(promise)
                 if (promise['plan'] !== 'none') {
                     setUrl('https://checkout.webminers.dev/p/login/bIY5leaPGengaVG9AA')
-                }
-                else {
+                } else {
                     setUrl('auth-pricing')
                 }
             }
@@ -68,209 +67,155 @@ export default function Pricing() {
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
-                    <h1 style={{textAlign: 'center', padding: '50px'}}>
-                        Setup the plan to fuel your data-driven investing
+                    <h1 style={{textAlign: 'center', padding: '40px 40px 10px 40px'}}>
+                        Setup the plan to fuel your knowledgeable investing
                     </h1>
-                    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                        <Row>
-                            <Col md={12} lg={4}>
-                                <Nav variant="pills" className="flex-column">
-                                    <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} eventKey="first">Free Plan</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} eventKey="second">Essential Investing Plan
-                                        </Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} eventKey="third">Balanced Investing Plan
-                                        </Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} eventKey="fourth">Strategist Investing
-                                            Plan
-                                        </Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className={styles.navgreen} href={url} eventKey="fifth">
-                                            Get one of our plans with a 7 day trial now
-                                        </Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
+                    <Container style={{padding: '15px'}}>
+                        <h2 style={{textAlign: 'center'}}><Card.Link className={styles.weblink}
+                                                                                       href={'/auth-pricing'}>Get
+                            one of our plans with a 7 day trial now</Card.Link></h2>
+                    </Container>
+                    <Container>
+                        <Row style={{fontSize: 'larger'}}>
+                            <Col sm={12}>
+                                <Card className={styles.pricing} style={{maxWidth: '500px', margin: 'auto'}}>
+                                    <Card.Body>
+                                        <Row>
+                                            <Col sm={12} md={6}>
+                                                <p className={styles.plan}>
+                                                    Free Plan
+                                                </p>
+                                                <h2 style={{margin: 0}}>
+                                                    $0
+                                                </h2>
+                                                <p>
+                                                    /month
+                                                </p>
+                                            </Col>
+                                            <Col sm={12} md={6} style={{textAlign: 'center'}}>
+                                                <p>
+                                                    Basic Asset Insights
+                                                </p>
+                                                <p>
+                                                    Basic Portfolio Research
+                                                </p>
+                                                <p>
+                                                    Basic Crypto Efficiency
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                        <Button variant={'outline-success'} className={styles.btn}
+                                                href='/auth-pricing'>Start For Free</Button>
+                                    </Card.Body>
+                                </Card>
                             </Col>
-                            <Col md={12} lg={8}>
-                                <Tab.Content>
-                                    <Tab.Pane eventKey="first">
-                                        <Table style={{padding: '25px'}} striped>
-                                            <thead>
-                                            <tr>
-                                                <th>Feature</th>
-                                                <th className={styles.tablecen}>Free Plan $0 / month</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Basic Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Experimental Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="second">
-                                        <Table style={{padding: '25px'}} striped>
-                                            <thead>
-                                            <tr>
-                                                <th>Feature</th>
-                                                <th className={styles.tablecen}>Essential Investing Plan $13 / month
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Basic Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Experimental Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="third">
-                                        <Table style={{padding: '25px'}} striped>
-                                            <thead>
-                                            <tr>
-                                                <th>Feature</th>
-                                                <th className={styles.tablecen}>Balanced Investing Plan $25 / month</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Basic Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Experimental Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u00d7'}</td>
-                                            </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="fourth">
-                                        <Table style={{padding: '25px'}} striped>
-                                            <thead>
-                                            <tr>
-                                                <th>Feature</th>
-                                                <th className={styles.tablecen}>Strategist Investing Plan $50 / month
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Basic Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Basic Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Market Insights</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Premium Asset Efficiency</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Experimental Asset Balancing</td>
-                                                <td className={styles.tablecen}>{'\u2713'}</td>
-                                            </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="fifth">
-                                        <p>
-                                            Loading...
-                                        </p>
-                                    </Tab.Pane>
-                                </Tab.Content>
+                            <Col md={12} lg={4}>
+                                <Card className={styles.pricing}>
+                                    <Card.Body>
+                                        <Row>
+                                            <Col sm={12} md={6} lg={12}>
+                                                <p className={styles.plan}>
+                                                    Essential Plan
+                                                </p>
+                                                <h2 style={{margin: 0}}>
+                                                    $14.99
+                                                </h2>
+                                                <p>
+                                                    /month
+                                                </p>
+                                            </Col>
+                                            <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
+                                                <p>
+                                                    All from Free Plan
+                                                </p>
+                                                <p>
+                                                    Premium Asset Insights
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                        <Button variant={'outline-success'} className={styles.btn}
+                                                href='/auth-pricing'>Start For Free</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md={12} lg={4}>
+                                <Card className={styles.pricing} style={{border: '2px solid rgb(0, 175, 75)'}}>
+                                    <Card.Body>
+                                        <Row>
+                                            <Col sm={12} md={6} lg={12}>
+                                                <p className={styles.plan}>
+                                                    Balanced Plan <Badge style={{background: 'rgb(0,175,75) !important'}} bg="success">Best Deal</Badge>
+                                                </p>
+                                                <h2 style={{margin: 0}}>
+                                                    $24.99
+                                                </h2>
+                                                <p>
+                                                    /month
+                                                </p>
+                                            </Col>
+                                            <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
+                                                <p>
+                                                    All from Essential Plan
+                                                </p>
+                                                <p>
+                                                    Premium Portfolio Research
+                                                </p>
+                                                <p>
+                                                    Premium Crypto Efficiency
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                        <Button variant={'outline-success'} className={styles.btn}
+                                                href='/auth-pricing'>Start For Free</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md={12} lg={4}>
+                                <Card className={styles.pricing}>
+                                    <Card.Body>
+                                        <Row>
+                                            <Col sm={12} md={6} lg={12}>
+                                                <p className={styles.plan}>
+                                                    Strategist Plan
+                                                </p>
+                                                <h2 style={{margin: 0}}>
+                                                    $49.99
+                                                </h2>
+                                                <p>
+                                                    /month
+                                                </p>
+                                            </Col>
+                                            <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
+                                                <p>
+                                                    All from Balanced Plan
+                                                </p>
+                                                <p>
+                                                    High-Equity Portfolio Research
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                        <Button variant={'outline-success'} className={styles.btn}
+                                                href='/auth-pricing'>Start For Free</Button>
+                                    </Card.Body>
+                                </Card>
                             </Col>
                         </Row>
-                    </Tab.Container>
+                    </Container>
+                    <Container style={{padding: '15px'}}>
+                        <Card className={styles.cardhover} style={{margin:'auto', maxWidth:'600px'}}>
+                            <Card.Body>
+                                <Card.Title style={{fontSize: 'xx-large', textAlign: 'center'}}>Not Ready For a
+                                    Paid
+                                    Plan?</Card.Title>
+                                <Card.Text style={{fontSize: 'x-large', textAlign: 'center'}}>
+                                    Start today
+                                    completely <strong>free</strong> with our basic features and email updates
+                                    - <Card.Link className={styles.weblink}
+                                                 href={'/auth/signup'}>Signup Now</Card.Link>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Container>
                     <Container>
                         <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
                             What Others Think
@@ -344,21 +289,6 @@ export default function Pricing() {
                             <h2 style={{textAlign: 'center', fontSize: '40px'}}><Card.Link className={styles.weblink}
                                                                                            href={'/auth-pricing'}>Get
                                 one of our plans with a 7 day trial now</Card.Link></h2>
-                        </Container>
-                        <Container style={{padding: '15px'}}>
-                            <Card className={styles.cardhover}>
-                                <Card.Body>
-                                    <Card.Title style={{fontSize: 'xxx-large', textAlign: 'center'}}>Not Ready For a
-                                        Paid
-                                        Plan?</Card.Title>
-                                    <Card.Text style={{fontSize: 'xx-large', textAlign: 'center'}}>
-                                        Start today
-                                        completely <strong>free</strong> with our basic features and email updates
-                                        - <Card.Link className={styles.weblink}
-                                                     href={'/auth/signup'}>Signup Now</Card.Link>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
                         </Container>
                     </Container>
                 </Container>
