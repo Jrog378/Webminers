@@ -108,18 +108,20 @@ export default function Efficiency() {
                     .catch((error) => {
                         console.log(error)
                     });
+                getDownloadURL(ref(storage, 'AdaEfficiency.webp'))
+                    .then((url) => {
+                        const img = document.getElementById('AdaImg');
+                        img.setAttribute('src', url);
+                    })
+                    .catch((error) => {
+                        console.log(error)
+                    });
             }
 
             return ''
         }
         fetchData().then(r => console.log(r))
     }, [user, loading]);
-
-    const handleKeypress = e => {
-        if (e.keyCode === 13) {
-            calculate();
-        }
-    };
 
 
     const SchemaMarkup = () => (
@@ -404,6 +406,10 @@ export default function Efficiency() {
                                                                 <Image className={styles.effImg} id="LinkImg"
                                                                        alt={'Loading...'} src={''} unoptimized={true}/>
                                                             </Tab.Pane>
+                                                            <Tab.Pane eventKey="Ada">
+                                                                <Image className={styles.effImg} id="AdaImg"
+                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
+                                                            </Tab.Pane>
                                                         </>
                                                         :
                                                         <>
@@ -461,6 +467,16 @@ export default function Efficiency() {
                                                                                unoptimized={true}/>
                                                                     </Tab.Pane>
                                                                     <Tab.Pane eventKey="Link">
+                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
+                                                                            className={styles.weblink}
+                                                                            href={'/auth/login'}>Login</Card.Link> to
+                                                                            see content</h4>
+                                                                        <Image className={styles.effImg}
+                                                                               src={EfficiencyImg}
+                                                                               alt={'Open Efficiency'}
+                                                                               unoptimized={true}/>
+                                                                    </Tab.Pane>
+                                                                    <Tab.Pane eventKey="Ada">
                                                                         <h4 style={{textAlign: "center"}}>Please <Card.Link
                                                                             className={styles.weblink}
                                                                             href={'/auth/login'}>Login</Card.Link> to
@@ -529,6 +545,17 @@ export default function Efficiency() {
                                                                                unoptimized={true}/>
                                                                     </Tab.Pane>
                                                                     <Tab.Pane eventKey="Link">
+                                                                        <h4 style={{textAlign: "center",}}>
+                                                                            <Card.Link className={styles.weblink}
+                                                                                       href={'/pricing'}>Balanced
+                                                                                Plan</Card.Link> Required
+                                                                        </h4>
+                                                                        <Image className={styles.effImg}
+                                                                               src={EfficiencyImg}
+                                                                               alt={'Open Efficiency'}
+                                                                               unoptimized={true}/>
+                                                                    </Tab.Pane>
+                                                                    <Tab.Pane eventKey="Ada">
                                                                         <h4 style={{textAlign: "center",}}>
                                                                             <Card.Link className={styles.weblink}
                                                                                        href={'/pricing'}>Balanced
