@@ -146,8 +146,8 @@ export default function Efficiency() {
     return (
         <>
             <Head>
-                <title>Webminers Investing - Asset Efficiency</title>
-                <meta name={'og:title'} content={'Webminers Investing - Asset Efficiency'}/>
+                <title>Webminers Investing - Crypto Efficiency</title>
+                <meta name={'og:title'} content={'Webminers Investing - Crypto Efficiency'}/>
                 <meta name="description"
                       content="Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +157,7 @@ export default function Efficiency() {
                       content='Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection.'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
-                <meta name='twitter:title' content='Webminers Investing - Asset Efficiency'/>
+                <meta name='twitter:title' content='Webminers Investing - Crypto Efficiency'/>
                 <meta name='twitter:description'
                       content='Efficient investing is of great importance because you can buy at the perfect time and make almost nothing if you don’t have efficiency based asset selection.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/images/Efficiency.webp'}/>
