@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 47,
+        title: '6 High-Return Digital Assets Innovating Our Investing Future',
+        date: 'July 2nd, 2023',
+        pub: 'July 2nd, 2023',
+        text: 'The future of investing depends on the online world. As digital assets become more popular and ' +
+            'profitable, investors see their potential value more than ever.',
+        url: '/articles/high-return-digital-assets',
+        img: 'DigitalAssetsMain.webp',
+        alt: 'Three red bars are next to each other that are below a line going up and down above them in blue with ' +
+            'a green coin over the top.',
+        header: 'DigitalAssets.webp',
+    },
+    {
         id: 46,
         title: 'The Potential of NFTs: The Innovative Future of Digital Art',
         date: 'June 30th, 2023',
