@@ -105,7 +105,7 @@ export default function Pricing() {
                                             </Col>
                                         </Row>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth-pricing'>Start For Free</Button>
+                                                href='/auth/signup'>Start For Free</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
