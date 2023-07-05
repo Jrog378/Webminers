@@ -37,6 +37,7 @@
     "nextjs-google-analytics": "^2.3.3",
     "node-mailjet": "^6.0.2",
     "nookies": "^2.5.2",
+    "npm": "^9.7.2",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
