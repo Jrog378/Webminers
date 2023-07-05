@@ -139,9 +139,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Webminers Research - Smarter Digital Investing, More Profit</title>
+                <title>Webminers Crypto Research - Smarter Investing, More Profit</title>
                 <meta name={'og:title'}
-                      content={'Webminers Research - Smarter Digital Investing, More Profit'}/>
+                      content={'Webminers Crypto Research - Smarter Investing, More Profit'}/>
                 <meta name="description"
                       content="Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -151,7 +151,7 @@ export default function Home() {
                       content='Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested.'/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name="twitter:card" content="summary"/>
-                <meta name='twitter:title' content='Webminers Research - Smarter Digital Investing, More Profit'/>
+                <meta name='twitter:title' content='Webminers Crypto Research - Smarter Investing, More Profit'/>
                 <meta name='twitter:description'
                       content='Providing better knowledge and research for your crypto investing decisions with market insights, asset balancing, and asset efficiency all historically tested.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>

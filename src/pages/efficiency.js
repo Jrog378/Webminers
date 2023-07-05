@@ -164,7 +164,7 @@ export default function Efficiency() {
                 <SchemaMarkup/>
             </Head>
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
-                <Container style={{padding: '10px'}}>
+                <Container>
                     <Row>
                         <Col lg={6} md={12} className={styles.pad}>
                             <h3 style={{textAlign: 'center', padding: '15px'}}>Efficiency Portfolios</h3>
@@ -172,6 +172,10 @@ export default function Efficiency() {
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
                                     <Col>
                                         <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
+                                            <h4 style={{textAlign: 'center'}}>Scroll Down For <Card.Link
+                                                className={styles.weblink} href={'#Description'}>
+                                                     Description
+                                                </Card.Link> ↓</h4>
                                             <Nav variant="pills" className="flex-column" style={{
                                                 border: '1px solid black', padding: '10px',
                                                 borderRadius: '10px'
@@ -306,7 +310,7 @@ export default function Efficiency() {
                                                    defaultActiveKey="Ethereum">
                                         <Col>
                                             <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
-                                                <h4 style={{textAlign: 'center'}}>Scroll Down For More ↓</h4>
+                                                <h4 style={{textAlign: 'center'}}>Scroll For More Options ↓</h4>
                                                 <Nav variant="pills" className="flex-column" style={{
                                                     border: '1px solid black', padding: '10px',
                                                     borderRadius: '10px', maxHeight: '250px', overflow: 'scroll'
@@ -579,6 +583,31 @@ export default function Efficiency() {
                                         </Col>
                                     </Tab.Container>
                                 </Container>
+                            </Container>
+                        </Col>
+                        <Col md={12}>
+                            <Container className={styles.pad}>
+                                <Card id={'Description'} style={{background: 'whitesmoke', maxWidth: '850px', margin: 'auto' }}>
+                                    <Card.Body>
+                                        <Card.Title>
+                                            <h3 style={{textAlign: 'center'}}>
+                                                Description
+                                            </h3>
+                                        </Card.Title>
+                                        <Card.Text>
+                                            <p style={{fontSize:'larger'}}>
+                                                Webminers efficiency provides research towards the most optimal way of
+                                                investing. Crypto has outperformed many stocks in efficiency, including
+                                                the
+                                                S&P500, due to having a high upside potential and low downside risk. Our
+                                                research gives us custom risk-to-reward ratios as well as portfolios
+                                                that
+                                                are balanced based on these ratios. Webminers efficiency is for research
+                                                purposes only and is not financial advice.
+                                            </p>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
                             </Container>
                         </Col>
                     </Row>
