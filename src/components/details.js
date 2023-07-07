@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 48,
+        title: '4 Digital Assets You Can Produce Solely With Your Free Time',
+        date: 'July 7th, 2023',
+        pub: 'July 7th, 2023',
+        text: 'There are endless amounts of ways to profit from assets, however, in this innovative digitalized ' +
+            'world, there are more ways than ever to create digital assets.',
+        url: '/articles/digital-asset-production',
+        img: 'AssetProductionMain.webp',
+        alt: 'A one dollar bill standing up on its edge with the face side forward in front of a brick wall that ' +
+            'has been painted white.',
+        header: 'AssetProduction.webp',
+    },
+    {
         id: 47,
         title: '6 High-Return Digital Assets Innovating Our Investing Future',
         date: 'July 2nd, 2023',
