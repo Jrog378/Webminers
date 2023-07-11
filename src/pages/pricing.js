@@ -70,18 +70,13 @@ export default function Pricing() {
                     <h1 style={{textAlign: 'center', padding: '40px 40px 10px 40px'}}>
                         Setup the plan to fuel your knowledgeable investing
                     </h1>
-                    <Container style={{padding: '15px'}}>
-                        <h2 style={{textAlign: 'center'}}><Card.Link className={styles.weblink}
-                                                                                       href={'/auth-pricing'}>Get
-                            one of our plans with a 7 day trial now</Card.Link></h2>
-                    </Container>
                     <Container>
                         <Row style={{fontSize: 'larger'}}>
-                            <Col sm={12}>
-                                <Card className={styles.pricing} style={{maxWidth: '500px', margin: 'auto'}}>
+                            <Col md={12} lg={4}>
+                                <Card className={styles.pricing}>
                                     <Card.Body>
                                         <Row>
-                                            <Col sm={12} md={6}>
+                                            <Col sm={12} md={6} lg={12}>
                                                 <p className={styles.plan}>
                                                     Free Plan
                                                 </p>
@@ -92,7 +87,7 @@ export default function Pricing() {
                                                     /month
                                                 </p>
                                             </Col>
-                                            <Col sm={12} md={6} style={{textAlign: 'center'}}>
+                                            <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
                                                 <p>
                                                     Basic Asset Insights
                                                 </p>
@@ -106,35 +101,6 @@ export default function Pricing() {
                                         </Row>
                                         <Button variant={'outline-success'} className={styles.btn}
                                                 href='/auth/signup'>Start For Free</Button>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col md={12} lg={4}>
-                                <Card className={styles.pricing}>
-                                    <Card.Body>
-                                        <Row>
-                                            <Col sm={12} md={6} lg={12}>
-                                                <p className={styles.plan}>
-                                                    Essential Plan
-                                                </p>
-                                                <h2 style={{margin: 0}}>
-                                                    $14.99
-                                                </h2>
-                                                <p>
-                                                    /month
-                                                </p>
-                                            </Col>
-                                            <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
-                                                <p>
-                                                    All from Free Plan
-                                                </p>
-                                                <p>
-                                                    Premium Asset Insights
-                                                </p>
-                                            </Col>
-                                        </Row>
-                                        <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth-pricing'>Start For Free</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -200,21 +166,6 @@ export default function Pricing() {
                                 </Card>
                             </Col>
                         </Row>
-                    </Container>
-                    <Container style={{padding: '15px'}}>
-                        <Card className={styles.cardhover} style={{margin:'auto', maxWidth:'600px'}}>
-                            <Card.Body>
-                                <Card.Title style={{fontSize: 'xx-large', textAlign: 'center'}}>Not Ready For a
-                                    Paid
-                                    Plan?</Card.Title>
-                                <Card.Text style={{fontSize: 'x-large', textAlign: 'center'}}>
-                                    Start today
-                                    completely <strong>free</strong> with our basic features and email updates
-                                    - <Card.Link className={styles.weblink}
-                                                 href={'/auth/signup'}>Signup Now</Card.Link>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
                     </Container>
                     <Container>
                         <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
@@ -285,11 +236,19 @@ export default function Pricing() {
                         </CardGroup>
                     </Container>
                     <Container style={{padding: '15px'}}>
-                        <Container style={{padding: '15px'}}>
-                            <h2 style={{textAlign: 'center', fontSize: '40px'}}><Card.Link className={styles.weblink}
-                                                                                           href={'/auth-pricing'}>Get
-                                one of our plans with a 7 day trial now</Card.Link></h2>
-                        </Container>
+                        <Card className={styles.cardhover} style={{margin:'auto', maxWidth:'800px'}}>
+                            <Card.Body>
+                                <Card.Title style={{fontSize: 'xx-large', textAlign: 'center'}}>Not Ready For a
+                                    Paid
+                                    Plan?</Card.Title>
+                                <Card.Text style={{fontSize: 'x-large', textAlign: 'center'}}>
+                                    Start today
+                                    completely <strong>free</strong> with our basic features and email updates
+                                    - <Card.Link className={styles.weblink}
+                                                 href={'/auth/signup'}>Signup Now</Card.Link>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Container>
                 </Container>
             </div>
