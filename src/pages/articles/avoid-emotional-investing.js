@@ -54,7 +54,7 @@ export default function AvoidEmotionalInvesting() {
                 '\n' +
                 'Data for an investing system comes from many sources. Data can be found directly from markets in rules, price levels, or volume levels. Indicators like Volume Distribution, Relative Strength Index, and [Moving Average Convergence Divergence are widely used in Investing Systems](https://www.investopedia.com/terms/m/macd.asp). Macroeconomic and Microeconomic Indicators are generally easier to follow as they take a slower amount of time to follow. These economic indicators are also the choice of many large investment firms with a lot of money. It is up to the investor to build their system to suit the investing style that compliments them.\n' +
                 '\n' +
-                '[Market Insights from many angles](/insights) should be used to create your robust crypto investment strategy and are important to be. Using many different types of data might be more difficult than doing everything the same, but it comes with its payoff. The more different the data that you get to work with each other, the more holes that they can cover up in your crypto investing.\n'
+                'Market insights and economic data from many angles should be used to create your robust crypto investment strategy and are important to be. Using many different types of data might be more difficult than doing everything the same, but it comes with its payoff. The more different the data that you get to work with each other, the more holes that they can cover up in your crypto investing.\n'
         },
         {
             img: EmotionInvesting3,
