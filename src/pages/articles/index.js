@@ -16,67 +16,6 @@ export default function Articles() {
 
     let number = Math.floor(Math.random() * quotes.length);
 
-    const Cards = () => {
-        return (
-            <Container style={{width: '100%'}}>
-                <Container style={{borderRadius: '15px', maxWidth: '1250px'}}>
-                    <div className={styles.pad}>
-                        <h3 style={{color:'rgb(0,100, 50'}}>
-                            <em>&quot;{quotes[number].quote}&quot;</em>
-                        </h3>
-                        <h3>
-                            - {quotes[number].author}
-                        </h3>
-                    </div>
-                    <Card.Title style={{textAlign: 'right'}}>
-                        Follow us on <Card.Link className={styles.weblink} target={'_blank'}
-                                                href={'https://twitter.com/JusWebminers'}>Twitter</Card.Link>
-                    </Card.Title>
-                    <Row style={{paddingBottom: '10px'}}>
-
-                        {Details.map(content =>
-                            <Col xl={4} md={6} sm={12} key={content.id} style={{padding: '2%'}}>
-                                <Card.Link href={content.url} style={{textDecoration: 'none', color: 'black'}}>
-                                    <Card className={styles.arthover} style={{maxWidth: '400px', margin: 'auto'}}>
-                                        <Container>
-                                            <Row>
-                                                <Card.Body className={styles.pad}>
-                                                    <Image
-                                                        src={require(`../../images/articleimages/${content.img}`)}
-                                                        alt={content.alt}
-                                                        className={styles.blogimgs}
-                                                        placeholder={'blur'}
-                                                    />
-                                                </Card.Body>
-                                            </Row>
-                                            <Row>
-                                                <Card.Body style={{paddingTop: 0}}>
-                                                    <Card.Link href={content.url} className={styles.weblink}>
-                                                        <h2 style={{
-                                                            fontSize: 'x-large',
-                                                            fontWeight: '600'
-                                                        }}>{content.title}</h2>
-                                                    </Card.Link>
-                                                    <Card.Text
-                                                        style={{
-                                                            fontStyle: 'italic',
-                                                            display: 'inline-block',
-                                                            width: '100%',
-                                                            textAlign: 'right'
-                                                        }}>{content.date}</Card.Text>
-                                                </Card.Body>
-                                            </Row>
-                                        </Container>
-                                    </Card>
-                                </Card.Link>
-                            </Col>
-                        )}
-                    </Row>
-                </Container>
-            </Container>
-        )
-    }
-
     const schemaMarkup = {
         "@context":
             "https://schema.org",
@@ -120,7 +59,68 @@ export default function Articles() {
                     <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                     <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
                 </Head>
-                <Cards/>
+                <Container style={{width: '100%'}}>
+                    <Container className={styles.pad}>
+                        <h1 style={{padding: '2.5%', fontWeight: '600'}}>
+                            Those with a powerful mindset will always be successful, as little can stand in their way.
+                        </h1>
+                    </Container>
+                    <Container style={{borderRadius: '15px', maxWidth: '1250px'}}>
+                        <div className={styles.pad}>
+                            <h3 style={{color: 'rgb(0,100, 50'}}>
+                                <em>&quot;{quotes[number].quote}&quot;</em>
+                            </h3>
+                            <h3>
+                                - {quotes[number].author}
+                            </h3>
+                        </div>
+                        <Card.Title style={{textAlign: 'right'}}>
+                            Follow us on <Card.Link className={styles.weblink} target={'_blank'}
+                                                    href={'https://twitter.com/JusWebminers'}>Twitter</Card.Link>
+                        </Card.Title>
+                        <Row style={{paddingBottom: '10px'}}>
+                            {Details.map(content =>
+                                <Col xl={6} md={12} sm={12} key={content.id} style={{padding: '2%'}}>
+                                    <Card.Link href={content.url} style={{textDecoration: 'none', color: 'black'}}>
+                                        <Card className={styles.arthover} style={{maxWidth: '800px', margin: 'auto'}}>
+                                            <Container>
+                                                <Row>
+                                                    <Col sm={6} xs={12}>
+                                                        <Card.Body className={styles.pad}>
+                                                            <Image
+                                                                src={require(`../../images/articleimages/${content.img}`)}
+                                                                alt={content.alt}
+                                                                className={styles.blogimgs}
+                                                                placeholder={'blur'}
+                                                            />
+                                                        </Card.Body>
+                                                    </Col>
+                                                    <Col sm={6} xs={12}>
+                                                        <Card.Body>
+                                                            <Card.Link href={content.url} className={styles.weblink}>
+                                                                <h2 style={{
+                                                                    fontSize: 'x-large',
+                                                                    fontWeight: '600'
+                                                                }}>{content.title}</h2>
+                                                            </Card.Link>
+                                                            <Card.Text
+                                                                style={{
+                                                                    fontStyle: 'italic',
+                                                                    display: 'inline-block',
+                                                                    width: '100%',
+                                                                    textAlign: 'right'
+                                                                }}>{content.date}</Card.Text>
+                                                        </Card.Body>
+                                                    </Col>
+                                                </Row>
+                                            </Container>
+                                        </Card>
+                                    </Card.Link>
+                                </Col>
+                            )}
+                        </Row>
+                    </Container>
+                </Container>
             </div>
         </>
     )
