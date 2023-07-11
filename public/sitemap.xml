@@ -19,16 +19,6 @@
         <changefreq>yearly</changefreq>
     </url>
     <url>
-        <loc>https://webminers.dev/insights</loc>
-        <lastmod>2023-06-06</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>https://webminers.dev/balancing</loc>
-        <lastmod>2023-06-06</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
         <loc>https://webminers.dev/efficiency</loc>
         <lastmod>2023-06-06</lastmod>
         <changefreq>weekly</changefreq>
