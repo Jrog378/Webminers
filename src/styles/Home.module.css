@@ -384,8 +384,7 @@
 }
 
 .blogimgs {
-    padding: 10px;
-    border-radius: 25px;
+    border-radius: 8px;
     max-width: 100%;
     height: auto;
 }
