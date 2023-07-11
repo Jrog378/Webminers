@@ -85,7 +85,7 @@ export default function Articles() {
                                         <Card className={styles.arthover} style={{maxWidth: '800px', margin: 'auto'}}>
                                             <Container>
                                                 <Row>
-                                                    <Col sm={6} xs={12}>
+                                                    <Col sm={6} xs={12} style={{padding:0}}>
                                                         <Card.Body className={styles.pad}>
                                                             <Image
                                                                 src={require(`../../images/articleimages/${content.img}`)}
@@ -95,7 +95,7 @@ export default function Articles() {
                                                             />
                                                         </Card.Body>
                                                     </Col>
-                                                    <Col sm={6} xs={12}>
+                                                    <Col sm={6} xs={12} style={{padding:0}}>
                                                         <Card.Body>
                                                             <Card.Link href={content.url} className={styles.weblink}>
                                                                 <h2 style={{
