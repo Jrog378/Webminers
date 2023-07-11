@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 49,
+        title: '5 Emotions Negatively Impacting Investors Every Day',
+        date: 'July 8th, 2023',
+        pub: 'July 8th, 2023',
+        text: 'Emotional investing with market volatility can cause significant losses for investors. Understanding ' +
+            'these emotions and behavioral finance can limit this loss.',
+        url: '/articles/negative-emotional-investing',
+        img: 'NegativeEmotionsMain.webp',
+        alt: 'An image of a white yacht in the blue water while the sun sets in the background shining the land ' +
+            'with orange and yellow.',
+        header: 'NegativeEmotions.webp',
+    },
+    {
         id: 48,
         title: '4 Digital Assets You Can Produce Solely With Your Free Time',
         date: 'July 7th, 2023',
