@@ -42,7 +42,7 @@ export default function CryptoMentalFocus() {
             img: MentalFocus1,
             description: 'A bunch of coffee beans on a table with someone pouring coffee into a cup from a glass ' +
                 'slow drip coffee maker with a black lid.',
-            text: 'Crypto investing is all about [patterns and trends](/insights). How do you plan to continue to follow those trends if you aren’t keeping yourself in your natural rhythm? Waking up early is great, but what is even more important is waking up at a time your body can handle every single day. If you want to keep yourself in order then you can’t be confusing your body by waking up at all different times.\n' +
+            text: 'Crypto investing is all about patterns and trends. How do you plan to continue to follow those trends if you aren’t keeping yourself in your natural rhythm? Waking up early is great, but what is even more important is waking up at a time your body can handle every single day. If you want to keep yourself in order then you can’t be confusing your body by waking up at all different times.\n' +
                 '\n' +
                 'Once you wake up, getting up immediately can get you into the groove of starting your day. [Getting sunlight is excellent for you](https://www.verywellhealth.com/morning-sunlight-exposure-3973908) when you wake up or shortly after, exposing yourself to sunlight early in the morning will give you the energy you need to get important tasks done. When it is late at night we do not want to do as much work. Waking up earlier can help you counter this because you will be spending more of your day awake while the sun is out than usual. \n' +
                 '\n' +

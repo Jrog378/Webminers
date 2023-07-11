@@ -12,6 +12,7 @@ import AssetBalancing from "@/images/plots/AssetBalancing.webp";
 import AssetBalancingPlot from "@/images/plots/AssetBalancingPlot.webp";
 import BalancingPlot from "@/images/plots/BalancingPlot.webp";
 import AssetBalancingExp from "@/images/plots/AssetBalancingExp.webp";
+import Link from "next/link";
 
 export default function Efficiency() {
     let [plan, setPlan] = useState('')
@@ -124,6 +125,66 @@ export default function Efficiency() {
     }, [user, loading]);
 
 
+    const handleKeypress1 = e => {
+        if (e.keyCode === 13) {
+            calculate1();
+        }
+    };
+    const handleKeypress2 = e => {
+        if (e.keyCode === 13) {
+            calculate2();
+        }
+    };
+    const handleKeypress3 = e => {
+        if (e.keyCode === 13) {
+            calculate3();
+        }
+    };
+
+    function calculate1() {
+        const initialInvestment = document.getElementById("initial-investment").value;
+        const monthlyReturn = document.getElementById("monthly-return").value;
+        const months = document.getElementById("months").value;
+        const totalProfit = initialInvestment * Math.pow(1 + monthlyReturn / 100, months) - initialInvestment;
+        const result = document.getElementById("result");
+        result.value = "$" + totalProfit.toFixed(2); // display result
+    }
+
+    function calculate2() {
+        const startingAmount = document.getElementById("starting-amount").value;
+        const endingAmount = document.getElementById("ending-amount").value;
+        const diff = endingAmount - startingAmount
+        const taxResult = document.getElementById("tax-result");
+        const profitResult = document.getElementById("profit-result");
+        if (diff < 0) {
+            taxResult.value = 0
+            profitResult.value = diff
+        } else {
+            taxResult.value = diff * 0.15
+            profitResult.value = diff * 0.85
+        }
+    }
+
+    const [timeUnit, setTimeUnit] = useState(0);
+    const [totalProfit, setProfit] = useState(0)
+
+    const times = ['Months', 'Years']
+
+    function calculate3() {
+        const endingInvestment = document.getElementById("ending-investment").value;
+        const time = document.getElementById("time").value;
+        if (times[timeUnit] === 'Months') {
+            setProfit(endingInvestment / time)
+        } else {
+            setProfit((endingInvestment / time) / 12)
+        }
+    }
+
+    function changeTime() {
+        setTimeUnit(Math.abs(timeUnit - 1))
+    }
+
+
     const SchemaMarkup = () => (
         <script
             type="application/ld+json"
@@ -166,16 +227,14 @@ export default function Efficiency() {
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>
                     <Row>
-                        <Col lg={6} md={12} className={styles.pad}>
-                            <h3 style={{textAlign: 'center', padding: '15px'}}>Efficiency Portfolios</h3>
-                            <Container className={styles.pad}>
+                        <h1 style={{textAlign:'center', paddingTop:'10px'}}>Crypto Efficiency</h1>
+                        <h2 style={{textAlign:'center'}}><Link className={styles.weblink} href={'#Description'}>Description Below</Link></h2>
+                        <Col lg={6} md={12}>
+                            <Container>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
                                     <Col>
                                         <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
-                                            <h4 style={{textAlign: 'center'}}>Scroll Down For <Card.Link
-                                                className={styles.weblink} href={'#Description'}>
-                                                     Description
-                                                </Card.Link> ↓</h4>
+                                            <h4 style={{textAlign: 'center'}}>Portfolios</h4>
                                             <Nav variant="pills" className="flex-column" style={{
                                                 border: '1px solid black', padding: '10px',
                                                 borderRadius: '10px'
@@ -303,17 +362,15 @@ export default function Efficiency() {
                             </Container>
                         </Col>
                         <Col lg={6} md={12}>
-                            <h3 style={{textAlign: 'center', padding: '15px'}}>Risk-to-Reward Ratios</h3>
                             <Container>
-                                <Container>
                                     <Tab.Container id="left-tabs-example"
                                                    defaultActiveKey="Ethereum">
                                         <Col>
                                             <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
-                                                <h4 style={{textAlign: 'center'}}>Scroll For More Options ↓</h4>
+                                                <h4 style={{textAlign: 'center'}}>Risk-to-Reward Ratios</h4>
                                                 <Nav variant="pills" className="flex-column" style={{
                                                     border: '1px solid black', padding: '10px',
-                                                    borderRadius: '10px', maxHeight: '250px', overflow: 'scroll'
+                                                    borderRadius: '10px', maxHeight: '205px', overflow: 'scroll'
                                                 }}>
                                                     <Col>
                                                         <Row style={{padding: '3px'}}>
@@ -582,12 +639,12 @@ export default function Efficiency() {
                                             </Row>
                                         </Col>
                                     </Tab.Container>
-                                </Container>
                             </Container>
                         </Col>
                         <Col md={12}>
                             <Container className={styles.pad}>
-                                <Card id={'Description'} style={{background: 'whitesmoke', maxWidth: '850px', margin: 'auto' }}>
+                                <Card id={'Description'}
+                                      style={{background: 'whitesmoke', maxWidth: '850px', margin: 'auto'}}>
                                     <Card.Body>
                                         <Card.Title>
                                             <h3 style={{textAlign: 'center'}}>
@@ -595,7 +652,7 @@ export default function Efficiency() {
                                             </h3>
                                         </Card.Title>
                                         <Card.Text>
-                                            <p style={{fontSize:'larger'}}>
+                                            <p style={{fontSize: 'larger'}}>
                                                 Webminers efficiency provides research towards the most optimal way of
                                                 investing. Crypto has outperformed many stocks in efficiency, including
                                                 the
@@ -609,6 +666,109 @@ export default function Efficiency() {
                                     </Card.Body>
                                 </Card>
                             </Container>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <h3 style={{textAlign:'center'}}>
+                            Investing Calculators
+                        </h3>
+                        <Col md={4} sm={12} className={styles.pad}>
+                            <div style={{maxWidth: '300px', margin: 'auto'}}>
+                                <h4 style={{textAlign: 'center'}}>Investing Returns</h4>
+                                <p>Profit based on monthly return.</p>
+                                <Col>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="initial-investment">Starting Amount</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress1} type="number"
+                                               id="initial-investment" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="monthly-return">Monthly Profit %</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress1} type="number"
+                                               id="monthly-return" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="months">Month Count</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress1} type="number"
+                                               id="months" min="0" required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} type="button"
+                                                onClick={calculate1}>Calculate</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="result">Total Profit</label>
+                                        <input className={styles.inputs} type="text" id="result" disabled/>
+                                    </Row>
+                                </Col>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} className={styles.pad}>
+                            <div style={{maxWidth: '300px', margin: 'auto'}}>
+                                <h4 style={{textAlign: 'center'}}>Capital Gains Tax</h4>
+                                <p><strong>Not Tax Advice. </strong>Predicted tax using 15%.</p>
+                                <Col>
+                                    <Row style={{margin: '15px'}}>
+                                        <label htmlFor="starting-amount">Starting Amount</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress2} type="number"
+                                               id="starting-amount" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label htmlFor="ending-amount">Ending Amount</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress2} type="number"
+                                               id="ending-amount" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} type="button"
+                                                onClick={calculate2}>Calculate</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label htmlFor="tax-result">Predicted Tax</label>
+                                        <input className={styles.inputs} type="text" id="tax-result" disabled/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label htmlFor="profit-result">Predicted Profit</label>
+                                        <input className={styles.inputs} type="text" id="profit-result" disabled/>
+                                    </Row>
+                                </Col>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} className={styles.pad}>
+                            <div style={{maxWidth: '300px', margin: 'auto'}}>
+                                <h4 style={{textAlign: 'center'}}>Savings Goal</h4>
+                                <p>Monthly savings until goal.</p>
+                                <Col>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="ending-investment">Goal Amount</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress3} type="number"
+                                               id="ending-investment" min="0"
+                                               required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="time">{times[timeUnit]} till Goal</label>
+                                        <input className={styles.inputs} onKeyDown={handleKeypress3} type="number"
+                                               id="time" min="0" required/>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} onClick={changeTime}>Change
+                                            to {times[Math.abs(timeUnit - 1)]}</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <Button variant={'success'} type="button"
+                                                onClick={calculate3}>Calculate</Button>
+                                    </Row>
+                                    <Row style={{margin: '15px'}}>
+                                        <label style={{padding: 0}} htmlFor="result">$ Savings Per Month</label>
+                                        <input className={styles.inputs} value={Math.round(totalProfit)}
+                                               type="text"
+                                               id="result" disabled/>
+                                    </Row>
+                                </Col>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

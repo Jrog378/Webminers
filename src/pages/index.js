@@ -177,15 +177,11 @@ export default function Home() {
                             <Col md={12} lg={8}>
                                 <Container>
                                     <Tab.Container id="left-tabs-example"
-                                                   defaultActiveKey="Insights">
+                                                   defaultActiveKey="Efficiency">
                                         <Col>
                                             <Row>
                                                 <Nav variant="pills" className="flex-column">
                                                     <Row>
-                                                        <Col className={styles.pad}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Insights">Asset Insights</Nav.Link>
-                                                        </Col>
                                                         <Col className={styles.pad}>
                                                             <Nav.Link className={styles.navgreen}
                                                                       eventKey="Efficiency">Crypto Efficiency</Nav.Link>
@@ -203,86 +199,12 @@ export default function Home() {
                                                 borderRadius: '10px'
                                             }}>
                                                 <Tab.Content>
-                                                    <Tab.Pane eventKey="Insights">
-                                                        <Container>
-                                                            <Card.Title id={'why'} style={{
-                                                                paddingBottom: '15px',
-                                                                textAlign: 'center',
-                                                                fontSize: 'x-large'
-                                                            }}>
-                                                                Are you trying to find opportunities to grow your
-                                                                wealth?
-                                                            </Card.Title>
-                                                            <p style={{fontSize: 'large'}}>
-                                                                Digital assets are a great way to do so. The economy is
-                                                                the backbone of all sales, more so those online. Those
-                                                                who want to make money with assets should be tracking
-                                                                the economy both short-term and long-term. Visit our
-                                                                Macroeconomic and Microeconomic insights below, along
-                                                                with some financial calculators.
-                                                            </p>
-                                                        </Container>
-                                                        <Card className={styles.cardhover}>
-                                                            <Row>
-                                                                <Col sm={12} md={7} className={styles.pad}>
-                                                                    <Card.Body>
-                                                                        <Card.Title
-                                                                            style={{fontSize: 'x-large'}}>
-                                                                            Asset Insights
-                                                                        </Card.Title>
-                                                                        <Card.Text style={{fontSize: 'larger'}}>
-                                                                            Our custom-calculated indicators determine
-                                                                            how the economy is doing to be able to track
-                                                                            the economy better. Along with predicting
-                                                                            how consumers are feeling, we also provide
-                                                                            financial calculators for your investing and
-                                                                            financial needs.
-                                                                        </Card.Text>
-                                                                        <Button variant="outline-success"
-                                                                                className={styles.btn}
-                                                                                href='/insights'>Asset
-                                                                            Insights</Button>
-                                                                    </Card.Body>
-                                                                </Col>
-                                                                <Col sm={12} md={5} className={styles.pad}>
-                                                                    <Card.Body>
-                                                                        <Card.Link href={'/insights'}>
-                                                                            <Image
-                                                                                src={InsightsPlot}
-                                                                                alt={'Insights Plot'}
-                                                                                className={styles.blogimgs}
-                                                                                placeholder={'blur'}
-                                                                            />
-                                                                        </Card.Link>
-                                                                    </Card.Body>
-                                                                </Col>
-                                                            </Row>
-                                                        </Card>
-                                                    </Tab.Pane>
                                                     <Tab.Pane eventKey="Efficiency">
-                                                        <Container>
-                                                            <Card.Title id={'why'} style={{
-                                                                paddingBottom: '15px',
-                                                                textAlign: 'center',
-                                                                fontSize: 'x-large'
-                                                            }}>
-                                                                Desire better knowledge for informed investing?
-                                                            </Card.Title>
-                                                            <p style={{fontSize: 'large'}}>
-                                                                Efficiency is critical in stable and profitable
-                                                                investing. Low risk and high returns will make your
-                                                                investing journey nice and smooth. Cryptocurrency is
-                                                                notorious for being highly volatile. Picking the right
-                                                                assets and amounts can make or break your portfolio.
-                                                                Check out our efficiency-backed research below.
-                                                            </p>
-                                                        </Container>
-                                                        <Card className={styles.cardhover}>
                                                             <Row>
                                                                 <Col sm={12} md={7} className={styles.pad}>
                                                                     <Card.Body>
                                                                         <Card.Title
-                                                                            style={{fontSize: 'x-large'}}>
+                                                                            style={{fontSize: 'x-large', padding:'0 10px 10px'}}>
                                                                             Crypto Efficiency
                                                                         </Card.Title>
                                                                         <Card.Text
@@ -316,7 +238,6 @@ export default function Home() {
                                                                     </Card.Body>
                                                                 </Col>
                                                             </Row>
-                                                        </Card>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey="Articles">
                                                         <Row>
