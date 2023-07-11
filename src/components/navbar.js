@@ -15,27 +15,14 @@ export default function Pagenav() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className='m-auto'>
+                    <Nav className='me-auto' style={{fontSize: 'large'}}>
                         <Nav.Link className={styles.webnav} href="/pricing">Pricing</Nav.Link>
-                        <Nav.Link className={styles.webnav} href="/insights">Asset Insights</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/efficiency">Crypto Efficiency</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/articles">Articles</Nav.Link>
                     </Nav>
-                    {loading
-                        ? <Nav><Nav.Link className={styles.webnav} href="">Loading...</Nav.Link></Nav>
-                        : user
-                            ?
-                            <Nav>
-                                <Nav.Link className={styles.webnav} href="/auth/profile">Profile</Nav.Link>
-                            </Nav>
-
-                            :
-                            <Nav>
-                                <Nav.Link className={styles.webnav} href="/auth/login">Login</Nav.Link>
-                            </Nav>
-
-
-                    }
+                    <Nav>
+                        <Nav.Link className={styles.webnav} href="/auth/profile">{user ? "Profile" : "Login"}</Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
