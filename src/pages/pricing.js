@@ -113,7 +113,7 @@ export default function Pricing() {
                                                     Balanced Plan <Badge style={{background: 'rgb(0,175,75) !important'}} bg="success">Best Deal</Badge>
                                                 </p>
                                                 <h2 style={{margin: 0}}>
-                                                    $24.99
+                                                    $99.99
                                                 </h2>
                                                 <p>
                                                     /month
@@ -145,7 +145,7 @@ export default function Pricing() {
                                                     Strategist Plan
                                                 </p>
                                                 <h2 style={{margin: 0}}>
-                                                    $49.99
+                                                    $249.99
                                                 </h2>
                                                 <p>
                                                     /month
