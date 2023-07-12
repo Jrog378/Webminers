@@ -121,7 +121,7 @@ export default function Pricing() {
                                             </Col>
                                             <Col sm={12} md={6} lg={12} style={{textAlign: 'center'}}>
                                                 <p>
-                                                    All from Essential Plan
+                                                    All from Free Plan
                                                 </p>
                                                 <p>
                                                     Premium Portfolio Research
