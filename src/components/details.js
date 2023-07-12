@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 50,
+        title: 'How Cryptocurrency Investing Can Make You a Millionaire',
+        date: 'July 11th, 2023',
+        pub: 'July 11th, 2023',
+        text: 'Cryptocurrency Investing is full of opportunities. Making money with cryptocurrency has become ' +
+            'easier than ever with efficient crypto investing strategies.',
+        url: '/articles/crypto-investing-millionaire',
+        img: 'CryptoMillionsMain.webp',
+        alt: 'A giant white yacht on the blue ocean next to a tan cement-colored dock with a white bridge in the ' +
+            'background of the ocean.',
+        header: 'CryptoMillions.webp',
+    },
+    {
         id: 49,
         title: '5 Emotions Negatively Impacting Investors Every Day',
         date: 'July 8th, 2023',
@@ -546,7 +559,7 @@ const details = [
     },
     {
         id: 7,
-        title: 'How to Start Investing in Crypto - Making a Crypto Investing System',
+        title: 'How to Start Investing in Crypto: Making an Investing System',
         date: 'June 2nd, 2023',
         pub: 'March 28th, 2023',
         text: 'Starting to invest in crypto is much easier than you think with this step-by-step guide to find ' +
