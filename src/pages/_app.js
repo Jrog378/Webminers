@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import {useEffect} from "react";
 import Router from "next/router";
+import {Analytics} from "@vercel/analytics/react";
 
 const Font = Figtree({subsets: ['latin']})
 
@@ -24,6 +25,7 @@ export default function App({Component, pageProps}) {
 
     return (
         <SSRProvider>
+            <Analytics/>
             <GoogleAnalytics gaMeasurementId={'G-38KM92RY3N'}/>
             <main className={Font.className}>
                 <Navbar/>
