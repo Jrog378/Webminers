@@ -1,4 +1,4 @@
-import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import {Button, Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import Image from "next/image";
 import logo from "@/images/WebLogo.webp";
 import styles from '@/styles/Home.module.css'
@@ -6,7 +6,7 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import {auth} from "@/config";
 
 export default function Pagenav() {
-    const [user, loading] = useAuthState(auth)
+    // const [user, loading] = useAuthState(auth)
     return (
         <Navbar className={styles.bignav} expand="lg" variant={"dark"}>
             <Container>
@@ -16,12 +16,13 @@ export default function Pagenav() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='me-auto' style={{fontSize: 'large'}}>
-                        <Nav.Link className={styles.webnav} href="/pricing">Pricing</Nav.Link>
+                        <Nav.Link className={styles.webnav} href="/strategy">Strategy</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/efficiency">Crypto Efficiency</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/articles">Articles</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link className={styles.webnav} href="/auth/profile">{user ? "Profile" : "Login"}</Nav.Link>
+                        <Button href={'https://twitter.com/JusWebminers'} variant={'success'} target={'_blank'} style={{padding: '6px 25px'}}>Twitter</Button>
+                        {/*<Nav.Link className={styles.webnav} href="/auth/profile">{user ? "Profile" : "Login"}</Nav.Link>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

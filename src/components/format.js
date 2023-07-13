@@ -60,7 +60,7 @@ const ArticleFormat = ({Article, url}) => {
                 <meta property='og:description' content={Detail.text}/>
                 <meta property='og:sitename' content='Webminers'/>
                 <meta name='description' content={Detail.text}/>
-                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:card" content="summary_large_image"/>
                 <meta name='twitter:title' content={Detail.title}/>
                 <meta name='twitter:image' content={'https://webminers.dev/images/' + Detail.header}/>
                 <meta name='twitter:description' content={Detail.text}/>

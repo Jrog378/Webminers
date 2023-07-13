@@ -8,8 +8,6 @@ import CloseButton from 'react-bootstrap/CloseButton';
 import Suggest from "@/components/suggest";
 import Image from "next/image";
 import EfficiencyPlot from "@/images/plots/EfficiencyChart.webp"
-import BalancingPlot from "@/images/plots/BalancingPlot.webp"
-import InsightsPlot from "@/images/plots/InsightPlot.webp"
 import Find from "@/components/find-article";
 
 function EmailALert() {

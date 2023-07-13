@@ -1,22 +1,17 @@
 import {Button, Card, Col, Container, Nav, Row, Tab} from "react-bootstrap";
-import {useAuthState} from "react-firebase-hooks/auth";
-import {auth, db} from "@/config";
-import {doc, getDoc} from "firebase/firestore";
 import styles from "@/styles/Home.module.css";
 import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import Image from "next/image";
 import {getStorage, ref, getDownloadURL} from "firebase/storage"
-import EfficiencyImg from '@/images/plots/Efficiency.webp'
 import AssetBalancing from "@/images/plots/AssetBalancing.webp";
 import AssetBalancingPlot from "@/images/plots/AssetBalancingPlot.webp";
-import BalancingPlot from "@/images/plots/BalancingPlot.webp";
 import AssetBalancingExp from "@/images/plots/AssetBalancingExp.webp";
 import Link from "next/link";
 
 export default function Efficiency() {
-    let [plan, setPlan] = useState('')
-    const [user, loading] = useAuthState(auth)
+    // let [plan, setPlan] = useState('')
+    // const [user, loading] = useAuthState(auth)
 
 
     useEffect(() => {
@@ -55,75 +50,74 @@ export default function Efficiency() {
                 .catch((error) => {
                     console.log(error)
                 });
+            getDownloadURL(ref(storage, 'MaticEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('MaticImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'VetEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('VetImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'AtomEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('AtomImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'DogeEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('DogeImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'TrxEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('TrxImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'LinkEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('LinkImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+            getDownloadURL(ref(storage, 'AdaEfficiency.webp'))
+                .then((url) => {
+                    const img = document.getElementById('AdaImg');
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
 
-            if (user) {
-                const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
-                console.log(promise)
-                setPlan(promise['plan'])
-
-                getDownloadURL(ref(storage, 'MaticEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('MaticImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'VetEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('VetImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'AtomEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('AtomImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'DogeEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('DogeImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'TrxEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('TrxImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'LinkEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('LinkImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-                getDownloadURL(ref(storage, 'AdaEfficiency.webp'))
-                    .then((url) => {
-                        const img = document.getElementById('AdaImg');
-                        img.setAttribute('src', url);
-                    })
-                    .catch((error) => {
-                        console.log(error)
-                    });
-            }
+            // if (user) {
+            //     const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
+            //     console.log(promise)
+            //     setPlan(promise['plan'])
+            // }
 
             return ''
         }
         fetchData().then(r => console.log(r))
-    }, [user, loading]);
-
+    }, []);
+    // [user, loading]
 
     const handleKeypress1 = e => {
         if (e.keyCode === 13) {
@@ -227,8 +221,9 @@ export default function Efficiency() {
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>
                     <Row>
-                        <h1 style={{textAlign:'center', paddingTop:'10px'}}>Crypto Efficiency</h1>
-                        <h2 style={{textAlign:'center'}}><Link className={styles.weblink} href={'#Description'}>Description Below</Link></h2>
+                        <h1 style={{textAlign: 'center', paddingTop: '10px'}}>Crypto Efficiency</h1>
+                        <h2 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'#Description'}>Description
+                            Below</Link></h2>
                         <Col lg={6} md={12}>
                             <Container>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="Basic">
@@ -271,90 +266,19 @@ export default function Efficiency() {
                                                            placeholder={'blur'}
                                                     />
                                                 </Tab.Pane>
-                                                {user
-                                                    ?
-                                                    <>
-                                                        <Tab.Pane eventKey='Alt'>
-                                                            {plan === 'Balanced' || plan === 'Strategist'
-                                                                ? <Image className={styles.effImg}
-                                                                         src={AssetBalancingPlot}
-                                                                         alt={'Asset Balancing Plot'}
-                                                                         placeholder={'blur'}/>
-                                                                :
-                                                                <>
-                                                                    <h2 style={{textAlign: "center"}}>
-                                                                        <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/pricing'}>
-                                                                            Balanced Investing
-                                                                            Plan </Card.Link>
-                                                                        Required
-                                                                    </h2>
-                                                                    <Image className={styles.effImg}
-                                                                           src={BalancingPlot}
-                                                                           alt={'Balancing Plot'}
-                                                                           placeholder={'blur'}
-                                                                    />
-                                                                </>
-                                                            }
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey='Exp'>
-                                                            {plan === 'Strategist'
-                                                                ?
-                                                                <Image className={styles.effImg}
-                                                                       src={AssetBalancingExp}
-                                                                       alt={'Mini Asset Weighting Experienced'}
-                                                                       placeholder={'blur'}
-                                                                />
-                                                                :
-                                                                <>
-                                                                    <h2 style={{
-                                                                        textAlign: "center",
-                                                                    }}><Card.Link
-                                                                        className={styles.weblink}
-                                                                        href={'/pricing'}>
-                                                                        Strategist Investing
-                                                                        Plan </Card.Link>
-                                                                        Required</h2>
-                                                                    <Image className={styles.effImg}
-                                                                           src={BalancingPlot}
-                                                                           alt={'Balancing Plot'}
-                                                                           placeholder={'blur'}
-                                                                    />
-                                                                </>
-                                                            }
-                                                        </Tab.Pane>
-                                                    </>
-                                                    :
-                                                    <>
-                                                        <Tab.Pane eventKey='Alt'>
-                                                            <h2
-                                                                style={{textAlign: "center"}}>Please <Card.Link
-                                                                className={styles.weblink}
-                                                                href={'/auth/login'}>Login</Card.Link> to
-                                                                see content</h2>
-                                                            <Image
-                                                                className={styles.effImg}
-                                                                src={BalancingPlot}
-                                                                alt={'Balancing Plot'}
-                                                                placeholder={'blur'}
-                                                            />
-                                                        </Tab.Pane>
-                                                        <Tab.Pane eventKey='Exp'>
-                                                            <h2
-                                                                style={{textAlign: "center"}}>Please <Card.Link
-                                                                className={styles.weblink}
-                                                                href={'/auth/login'}>Login</Card.Link> to
-                                                                see content</h2>
-                                                            <Image className={styles.effImg}
-                                                                   src={BalancingPlot}
-                                                                   alt={'Balancing Plot'}
-                                                                   placeholder={'blur'}
-                                                            />
-                                                        </Tab.Pane>
-                                                    </>
-
-                                                }
+                                                <Tab.Pane eventKey='Alt'>
+                                                    <Image className={styles.effImg}
+                                                           src={AssetBalancingPlot}
+                                                           alt={'Asset Balancing Plot'}
+                                                           placeholder={'blur'}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey='Exp'>
+                                                    <Image className={styles.effImg}
+                                                           src={AssetBalancingExp}
+                                                           alt={'Mini Asset Weighting Experienced'}
+                                                           placeholder={'blur'}
+                                                    />
+                                                </Tab.Pane>
                                             </Tab.Content>
                                         </Row>
                                     </Col>
@@ -363,282 +287,119 @@ export default function Efficiency() {
                         </Col>
                         <Col lg={6} md={12}>
                             <Container>
-                                    <Tab.Container id="left-tabs-example"
-                                                   defaultActiveKey="Ethereum">
-                                        <Col>
-                                            <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
-                                                <h4 style={{textAlign: 'center'}}>Risk-to-Reward Ratios</h4>
-                                                <Nav variant="pills" className="flex-column" style={{
-                                                    border: '1px solid black', padding: '10px',
-                                                    borderRadius: '10px', maxHeight: '205px', overflow: 'scroll'
-                                                }}>
-                                                    <Col>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Ethereum">Ethereum</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Bitcoin">Bitcoin</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Solana">Solana</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Litecoin">Litecoin</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Matic">Matic</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Vet">VeChain</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Cosmos">Atom(Cosmos)</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Doge">Doge</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Tron">Tron</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Link">Link</Nav.Link>
-                                                        </Row>
-                                                        <Row style={{padding: '3px'}}>
-                                                            <Nav.Link className={styles.navgreen}
-                                                                      eventKey="Ada">Ada</Nav.Link>
-                                                        </Row>
-                                                    </Col>
-                                                </Nav>
-                                            </Row>
-                                            <Row style={{
-                                                border: '1px solid black',
-                                                padding: '10px',
-                                                borderRadius: '10px',
-                                                maxWidth: '500px',
-                                                margin: 'auto'
+                                <Tab.Container id="left-tabs-example"
+                                               defaultActiveKey="Ethereum">
+                                    <Col>
+                                        <Row style={{maxWidth: '500px', margin: 'auto'}} className={styles.pad}>
+                                            <h4 style={{textAlign: 'center'}}>Risk-to-Reward Ratios</h4>
+                                            <Nav variant="pills" className="flex-column" style={{
+                                                border: '1px solid black', padding: '10px',
+                                                borderRadius: '10px', maxHeight: '205px', overflow: 'scroll'
                                             }}>
-                                                <Tab.Content>
-                                                    <Tab.Pane eventKey="Ethereum">
-                                                        <Image className={styles.effImg} id="EthImg"
-                                                               alt={'Loading...'} src={''} unoptimized={true}/>
-                                                    </Tab.Pane>
-                                                    <Tab.Pane eventKey="Bitcoin">
-                                                        <Image className={styles.effImg} id="BtcImg"
-                                                               alt={'Loading...'} src={''} unoptimized={true}/>
-                                                    </Tab.Pane>
-                                                    <Tab.Pane eventKey="Solana">
-                                                        <Image className={styles.effImg} id="SolImg"
-                                                               alt={'Loading...'} src={''} unoptimized={true}/>
-                                                    </Tab.Pane>
-                                                    <Tab.Pane eventKey="Litecoin">
-                                                        <Image className={styles.effImg} id="LtcImg"
-                                                               alt={'Loading...'} src={''} unoptimized={true}/>
-                                                    </Tab.Pane>
-                                                    {plan === 'Strategist' || plan === 'Balanced'
-                                                        ?
-                                                        <>
-                                                            <Tab.Pane eventKey="Matic">
-                                                                <Image className={styles.effImg} id="MaticImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Vet">
-                                                                <Image className={styles.effImg} id="VetImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Cosmos">
-                                                                <Image className={styles.effImg} id="AtomImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Doge">
-                                                                <Image className={styles.effImg} id="DogeImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Tron">
-                                                                <Image className={styles.effImg} id="TrxImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Link">
-                                                                <Image className={styles.effImg} id="LinkImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                            <Tab.Pane eventKey="Ada">
-                                                                <Image className={styles.effImg} id="AdaImg"
-                                                                       alt={'Loading...'} src={''} unoptimized={true}/>
-                                                            </Tab.Pane>
-                                                        </>
-                                                        :
-                                                        <>
-                                                            {plan === ''
-                                                                ?
-                                                                <>
-                                                                    <Tab.Pane eventKey="Matic">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Vet">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Cosmos">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Doge">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Tron">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Link">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Ada">
-                                                                        <h4 style={{textAlign: "center"}}>Please <Card.Link
-                                                                            className={styles.weblink}
-                                                                            href={'/auth/login'}>Login</Card.Link> to
-                                                                            see content</h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                </>
-                                                                :
-                                                                <>
-                                                                    <Tab.Pane eventKey="Matic">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Vet">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Cosmos">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Doge">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Tron">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Link">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                    <Tab.Pane eventKey="Ada">
-                                                                        <h4 style={{textAlign: "center",}}>
-                                                                            <Card.Link className={styles.weblink}
-                                                                                       href={'/pricing'}>Balanced
-                                                                                Plan</Card.Link> Required
-                                                                        </h4>
-                                                                        <Image className={styles.effImg}
-                                                                               src={EfficiencyImg}
-                                                                               alt={'Open Efficiency'}
-                                                                               unoptimized={true}/>
-                                                                    </Tab.Pane>
-                                                                </>
-                                                            }
-                                                        </>
-                                                    }
-                                                </Tab.Content>
-                                            </Row>
-                                        </Col>
-                                    </Tab.Container>
+                                                <Col>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Ethereum">Ethereum</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Bitcoin">Bitcoin</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Solana">Solana</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Litecoin">Litecoin</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Matic">Matic</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Vet">VeChain</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Cosmos">Atom(Cosmos)</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Doge">Doge</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Tron">Tron</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Link">Link</Nav.Link>
+                                                    </Row>
+                                                    <Row style={{padding: '3px'}}>
+                                                        <Nav.Link className={styles.navgreen}
+                                                                  eventKey="Ada">Ada</Nav.Link>
+                                                    </Row>
+                                                </Col>
+                                            </Nav>
+                                        </Row>
+                                        <Row style={{
+                                            border: '1px solid black',
+                                            padding: '10px',
+                                            borderRadius: '10px',
+                                            maxWidth: '500px',
+                                            margin: 'auto'
+                                        }}>
+                                            <Tab.Content>
+                                                <Tab.Pane eventKey="Ethereum">
+                                                    <Image className={styles.effImg} id="EthImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Bitcoin">
+                                                    <Image className={styles.effImg} id="BtcImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Solana">
+                                                    <Image className={styles.effImg} id="SolImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Litecoin">
+                                                    <Image className={styles.effImg} id="LtcImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Matic">
+                                                    <Image className={styles.effImg} id="MaticImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Vet">
+                                                    <Image className={styles.effImg} id="VetImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Cosmos">
+                                                    <Image className={styles.effImg} id="AtomImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Doge">
+                                                    <Image className={styles.effImg} id="DogeImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Tron">
+                                                    <Image className={styles.effImg} id="TrxImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Link">
+                                                    <Image className={styles.effImg} id="LinkImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="Ada">
+                                                    <Image className={styles.effImg} id="AdaImg"
+                                                           alt={'Loading...'} src={''} unoptimized={true}/>
+                                                </Tab.Pane>
+                                            </Tab.Content>
+                                        </Row>
+                                    </Col>
+                                </Tab.Container>
                             </Container>
                         </Col>
                         <Col md={12}>
@@ -669,7 +430,7 @@ export default function Efficiency() {
                         </Col>
                     </Row>
                     <Row>
-                        <h3 style={{textAlign:'center'}}>
+                        <h3 style={{textAlign: 'center'}}>
                             Investing Calculators
                         </h3>
                         <Col md={4} sm={12} className={styles.pad}>
