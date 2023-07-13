@@ -67,9 +67,12 @@ export default function Pricing() {
             </Head>
             <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
                 <Container style={{padding: '25px'}}>
-                    <h1 style={{textAlign: 'center', padding: '40px 40px 10px 40px'}}>
+                    <h1 style={{textAlign: 'center', padding: '25px 25px 10px 25px'}}>
                         Setup the plan to fuel your knowledgeable investing
                     </h1>
+                    <h3 style={{textAlign: 'center', padding: '10px 40px'}}>
+                        Enjoy 7-day money-back guarantees on us
+                    </h3>
                     <Container>
                         <Row style={{fontSize: 'larger'}}>
                             <Col md={12} lg={4}>
@@ -100,7 +103,7 @@ export default function Pricing() {
                                             </Col>
                                         </Row>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth/signup'>Start For Free</Button>
+                                                href='/auth/signup'>Get Started</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -132,7 +135,7 @@ export default function Pricing() {
                                             </Col>
                                         </Row>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth-pricing'>Start For Free</Button>
+                                                href='/auth-pricing'>Get Started</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -161,7 +164,7 @@ export default function Pricing() {
                                             </Col>
                                         </Row>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth-pricing'>Start For Free</Button>
+                                                href='/auth-pricing'>Get Started</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
