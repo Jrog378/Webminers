@@ -1,5 +1,18 @@
 const details = [
     {
+        id: 51,
+        title: 'Is Cryptocurrency Investing Worth Your Time and Effort?',
+        date: 'July 13th, 2023',
+        pub: 'July 13th, 2023',
+        text: 'Cryptocurrency investing can be tricky at first. However, the result is worth it from ' +
+            'decentralization, the future of crypto, Lessons, lifestyle, and community.',
+        url: '/articles/cryptocurrency-investing-worth',
+        img: 'CryptoWorthMain.webp',
+        alt: 'A black watch on a dark brown wooden table next to a black pen and a folded-up set of dark brown ' +
+            'glasses behind the watch.',
+        header: 'CryptoWorth.webp',
+    },
+    {
         id: 50,
         title: 'How Cryptocurrency Investing Can Make You a Millionaire',
         date: 'July 11th, 2023',
