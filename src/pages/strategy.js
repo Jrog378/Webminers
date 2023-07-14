@@ -150,7 +150,7 @@ export default function Pricing() {
                                         </li>
                                     </ol>
                                     <p>
-                                        With these 4 main focused, a lot can be done with your investing growth.
+                                        With these 4 main focuses, a lot can be done with your investing growth.
                                         Starting your investing strategy should be the easiest part of your journey so
                                         that you can focus on letting your creativity shine with your unique investing
                                         style.
