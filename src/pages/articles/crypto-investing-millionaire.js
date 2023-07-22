@@ -98,7 +98,7 @@ export default function BusinessCryptoChanges() {
                 '### Are crypto investments good or bad?\n' +
                 'Cryptocurrency is a high-volatility asset that can be dangerous if you don’t know how to control it. Creating an investing system and choosing suitable investments can make cryptocurrencies a fantastic option since you would have started with a plan.\n' +
                 '\n' +
-                '#### Is crypto investing worth it?\n' +
+                '### Is crypto investing worth it?\n' +
                 'Yes, cryptocurrency is definitely worth it. There are many lessons to be learned from investing that can apply in all areas of your life. The profits are also very generous once you get the hang of things.\n' +
                 '\n' +
                 '### Are decentralized exchanges safe?\n' +
