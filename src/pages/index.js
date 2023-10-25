@@ -168,7 +168,7 @@ export default function Home() {
                                     </Col>
                                     <Col xs={12} sm={4} lg={12}>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/auth/signup'>Start For Free</Button>
+                                                href='/strategy'>Start For Free</Button>
                                     </Col>
                                 </Row>
                             </Col>
@@ -330,6 +330,18 @@ export default function Home() {
                                     </Col>
                                 </Row>
                             </CardGroup>
+                        </Container>
+                        <Container>
+                            <Card.Title>
+                                <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
+                                    Begin The Next Steps in Your Investing Journey Today
+                                </h2>
+                            </Card.Title>
+                            <Container style={{maxWidth:'250px'}}>
+                                <Button href={'/strategy'} variant={'outline-success'} className={styles.btn} style={{width: "100%"}}>
+                                    Start Now!
+                                </Button>
+                            </Container>
                         </Container>
                     </Container>
                 </div>
