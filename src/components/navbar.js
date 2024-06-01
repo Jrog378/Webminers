@@ -16,12 +16,12 @@ export default function Pagenav() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='me-auto' style={{fontSize: 'large'}}>
-                        <Nav.Link className={styles.webnav} href="/strategy">Strategy</Nav.Link>
-                        <Nav.Link className={styles.webnav} href="/efficiency">Crypto Efficiency</Nav.Link>
+                        <Nav.Link className={styles.webnav} href="/strategy">Portfolio</Nav.Link>
+                        <Nav.Link className={styles.webnav} href="/efficiency">Crypto Research</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/articles">Articles</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Button href={'https://twitter.com/JusWebminers'} variant={'success'} target={'_blank'} style={{padding: '6px 25px'}}>Twitter</Button>
+                        <Button href={'https://www.linkedin.com/in/jusrogers'} variant={'success'} target={'_blank'} style={{padding: '6px 25px'}}>LinkedIn</Button>
                         {/*<Nav.Link className={styles.webnav} href="/auth/profile">{user ? "Profile" : "Login"}</Nav.Link>*/}
                     </Nav>
                 </Navbar.Collapse>
