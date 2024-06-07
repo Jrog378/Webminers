@@ -414,14 +414,14 @@ export default function Efficiency() {
                                         </Card.Title>
                                         <Card.Text>
                                             <p style={{fontSize: 'larger'}}>
-                                                Webminers efficiency provides research towards the most optimal way of
-                                                investing. Crypto has outperformed many stocks in efficiency, including
-                                                the
-                                                S&P500, due to having a high upside potential and low downside risk. Our
-                                                research gives us custom risk-to-reward ratios as well as portfolios
-                                                that
-                                                are balanced based on these ratios. Webminers efficiency is for research
-                                                purposes only and is not financial advice.
+                                                Adam Smith, the father of modern economics, taught us that wealth is not
+                                                money, and money is not wealth. We apply this topic to investing using
+                                                the Modern Portfolio Theory. Rather than looking at the dollars made,
+                                                the more critical numbers lay within the risk-to-reward ratios, limiting
+                                                downside risk and maximizing potential profit. Building portfolios and
+                                                evaluation assets this way is the path to consistency and success.
+                                                Webminers efficiency is for research purposes only and is not financial
+                                                advice.
                                             </p>
                                         </Card.Text>
                                     </Card.Body>
