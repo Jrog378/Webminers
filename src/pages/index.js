@@ -168,7 +168,7 @@ export default function Home() {
                                     </Col>
                                     <Col xs={12} sm={4} lg={12}>
                                         <Button variant={'outline-success'} className={styles.btn}
-                                                href='/strategy'>Start For Free</Button>
+                                                href='/efficiency'>Start For Free</Button>
                                     </Col>
                                 </Row>
                             </Col>
@@ -264,81 +264,11 @@ export default function Home() {
                         <Container>
                             <Card.Title>
                                 <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
-                                    What Others Think
-                                </h2>
-                            </Card.Title>
-                            <CardGroup>
-                                <Row>
-                                    <Col md={12} lg={4} className={styles.pad}>
-                                        <Card className={styles.cardhover}>
-                                            <Card.Body>
-                                                <p style={{textAlign: 'center', padding: '5px'}}>
-                                                    I was a complete novice when it came to crypto, but
-                                                    everything was
-                                                    very easy to understand and read. I now feel confident making
-                                                    informed
-                                                    decisions about my money. I think the efficiency section is the
-                                                    best
-                                                    part where I can compare assets to pick and choose from for my
-                                                    own
-                                                    investments.
-                                                </p>
-                                                <p style={{margin: 0}}>
-                                                    - John S.
-                                                </p>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                    <Col md={12} lg={4} className={styles.pad}>
-                                        <Card className={styles.cardhover}>
-                                            <Card.Body>
-                                                <p style={{textAlign: 'center', padding: '5px'}}>
-                                                    I was skeptical about the whole Webminers Investing Education at
-                                                    first,
-                                                    but after going through everything I can truly state that it was
-                                                    far
-                                                    beyond my expectations. The Insights organized and simple to
-                                                    understand.
-                                                    Everything in my Subscription was easy to find and I have a much
-                                                    deeper
-                                                    understanding of my personal investing plans.
-                                                </p>
-                                                <p style={{margin: 0}}>
-                                                    - Sarah L.
-                                                </p>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                    <Col md={12} lg={4} className={styles.pad}>
-                                        <Card className={styles.cardhover}>
-                                            <Card.Body>
-                                                <p style={{textAlign: 'center', padding: '5px'}}>
-                                                    Whether you&apos;re a seasoned investor or a newcomer to the
-                                                    world of
-                                                    crypto, I highly recommend working with Webminers. Their A-Class
-                                                    research resources have helped me make informed decisions about
-                                                    my
-                                                    investments and guide me through my previous crypto
-                                                    difficulties.
-                                                    I couldn&apos;t recommend them enough!
-                                                </p>
-                                                <p style={{margin: 0}}>
-                                                    - Mark T.
-                                                </p>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                </Row>
-                            </CardGroup>
-                        </Container>
-                        <Container>
-                            <Card.Title>
-                                <h2 style={{textAlign: 'center', padding: '25px', fontSize: '40px'}}>
                                     Begin The Next Steps in Your Investing Journey Today
                                 </h2>
                             </Card.Title>
                             <Container style={{maxWidth:'250px'}}>
-                                <Button href={'/strategy'} variant={'outline-success'} className={styles.btn} style={{width: "100%"}}>
+                                <Button href={'/efficiency'} variant={'outline-success'} className={styles.btn} style={{width: "100%"}}>
                                     Start Now!
                                 </Button>
                             </Container>
