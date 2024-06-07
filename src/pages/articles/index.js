@@ -13,8 +13,8 @@ export default function Articles() {
             quote: 'You will be much more in control, if you realize how much you are not in control'
         },
         {
-            author: 'The energy of the mind is the essence of life',
-            quote: 'Aristotle'
+            author: 'Aristotle',
+            quote: 'The energy of the mind is the essence of life'
         }
     ]
 
