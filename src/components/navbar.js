@@ -16,7 +16,7 @@ export default function Pagenav() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='me-auto' style={{fontSize: 'large'}}>
-                        <Nav.Link className={styles.webnav} href="/strategy">Portfolio</Nav.Link>
+                        {/*<Nav.Link className={styles.webnav} href="/strategy">Portfolio</Nav.Link>*/}
                         <Nav.Link className={styles.webnav} href="/efficiency">Crypto Research</Nav.Link>
                         <Nav.Link className={styles.webnav} href="/articles">Articles</Nav.Link>
                     </Nav>

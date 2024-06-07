@@ -11,6 +11,10 @@ export default function Articles() {
         {
             author: 'Benjamin Graham',
             quote: 'You will be much more in control, if you realize how much you are not in control'
+        },
+        {
+            author: 'The energy of the mind is the essence of life',
+            quote: 'Aristotle'
         }
     ]
 
@@ -60,12 +64,7 @@ export default function Articles() {
                     <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
                 </Head>
                 <Container style={{width: '100%'}}>
-                    <Container className={styles.pad}>
-                        <h1 style={{padding: '2.5%', fontWeight: '600'}}>
-                            Those with a powerful mindset will always be successful, as little can stand in their way.
-                        </h1>
-                    </Container>
-                    <Container style={{borderRadius: '15px', maxWidth: '1250px'}}>
+                    <Container style={{borderRadius: '15px', padding: '2.5%', maxWidth: '1250px'}}>
                         <div className={styles.pad}>
                             <h3 style={{color: 'rgb(0,100, 50'}}>
                                 <em>&quot;{quotes[number].quote}&quot;</em>
@@ -75,8 +74,8 @@ export default function Articles() {
                             </h3>
                         </div>
                         <Card.Title style={{textAlign: 'right'}}>
-                            Follow us on <Card.Link className={styles.weblink} target={'_blank'}
-                                                    href={'https://twitter.com/JusWebminers'}>Twitter</Card.Link>
+                            Follow me on <Card.Link className={styles.weblink} target={'_blank'}
+                                                    href={'https://www.linkedin.com/in/jusrogers'}>LinkedIn</Card.Link>
                         </Card.Title>
                         <Row style={{paddingBottom: '10px'}}>
                             {Details.map(content =>

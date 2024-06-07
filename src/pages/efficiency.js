@@ -221,7 +221,7 @@ export default function Efficiency() {
             <div style={{backgroundColor: 'whitesmoke', borderRadius: '25px', width: '100%'}}>
                 <Container>
                     <Row>
-                        <h1 style={{textAlign: 'center', paddingTop: '10px'}}>Crypto Efficiency</h1>
+                        <h1 style={{textAlign: 'center', paddingTop: '10px'}}>Efficiency Analysis</h1>
                         <h2 style={{textAlign: 'center'}}><Link className={styles.weblink} href={'#Description'}>Description
                             Below</Link></h2>
                         <Col lg={6} md={12}>
