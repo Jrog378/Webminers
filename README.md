@@ -1,3 +1,8 @@
+# Webminers Investment and Economic Analysis Website
+
+This website is made with NextJS for APIS and backend, and ReactJS for frontend. Visualizations and analysis are conducted with Python and Plotly or Seaborn. Images are stored on the cloud using CloudFlare
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
