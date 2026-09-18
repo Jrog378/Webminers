@@ -5,9 +5,10 @@ site about applying AI to real work ("Practical AI for Work Efficiency").
 The ~45 legacy crypto articles stay published as-is for now; they'll be
 repurposed later rather than deleted.
 
-**Status:** rebrand is committed and pushed to `main` on GitHub. **Not yet
-deployed to production** — `webminers.dev` is still the old crypto-branded
-build until someone runs a deploy (see Deployment below).
+**Status:** rebrand is live in production at
+[webminers.dev](https://webminers.dev) as of this session. Pushing to `main`
+auto-deploys via Vercel's Git integration (project `webminers2` in the
+`jrog378s-projects` team) — no manual deploy step needed.
 
 ## Stack
 
@@ -40,11 +41,21 @@ then `rm -rf .next` and restart `dev`.
 
 ## Deployment
 
-No deploy has been done from this rebrand yet. The repo's set up for Vercel
-(per the original template) but nothing is linked/authenticated in this
-environment - the Vercel CLI isn't installed here. To ship to production:
-`npm i -g vercel`, `vercel login`, then `vercel --prod` (or connect the
-GitHub repo in the Vercel dashboard for auto-deploys on push to `main`).
+Connected to Vercel (project `webminers2`) with Git integration — every push
+to `main` triggers a production build and, on success, promotes it to
+`webminers.dev` / `www.webminers.dev` automatically. No manual `vercel --prod`
+needed for normal changes.
+
+Useful commands (Vercel CLI, once logged in with `vercel login`):
+- `vercel ls webminers2` - list recent deployments and their status
+- `vercel inspect <deployment-url> --logs` - see build logs for one deployment
+- `vercel rollback` - revert production to the previous deployment if a push
+  breaks something
+
+**Node version gotcha:** an early deploy this session failed with
+`Found invalid or discontinued Node.js Version: "18.x"`. That's a project
+setting, but adding `"engines": {"node": "24.x"}` to `package.json` fixed it
+without needing to touch the Vercel dashboard - keep that field intact.
 
 ## Theming (dark/light)
 
@@ -142,9 +153,14 @@ committed). Files:
 
 - Dependency vulnerabilities: local `npm audit` reported 94 (7 low / 12
   moderate / 67 high / 8 critical); GitHub's Dependabot scan on push reported
-  233 (10 critical / 115 high / 89 moderate / 19 low) - it checks more
-  transitive deps. Not addressed yet - needs its own pass; don't blindly run
-  `--force`, some of these deps (Stripe, Firebase Admin) are load-bearing.
-- Not deployed yet - see Deployment above.
+  227 (10 critical / 111 high / 87 moderate / 19 low) as of the latest push -
+  it checks more transitive deps. Not addressed yet - needs its own pass;
+  don't blindly run `--force`, some of these deps (Stripe, Firebase Admin)
+  are load-bearing.
 - `.idea/` and Firebase service-account key filename patterns were added to
   `.gitignore` to stop future accidental commits of local/secret files.
+- Navbar polish: the LinkedIn icon anchors needed explicit `inline-flex
+  items-center justify-center` (plain inline elements around an SVG can sit
+  visually low from baseline spacing even inside a `items-center` flex row),
+  and the "Articles" link is sized to `text-[20px]` to visually match the
+  20px icons next to it rather than the default `text-sm`.
