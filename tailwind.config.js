@@ -13,7 +13,7 @@ module.exports = {
                 raised: 'rgb(var(--raised) / <alpha-value>)',
                 border: 'rgb(var(--border) / <alpha-value>)',
                 fg: 'rgb(var(--fg) / <alpha-value>)',
-                muted: 'rgb(var(--muted) / <alpha-value>)',
+                dim: 'rgb(var(--muted) / <alpha-value>)',
                 brand: {
                     DEFAULT: 'rgb(var(--brand) / <alpha-value>)',
                     light: 'rgb(var(--brand-light) / <alpha-value>)',
@@ -26,7 +26,43 @@ module.exports = {
             backgroundImage: {
                 'brand-glow': 'radial-gradient(60% 60% at 50% 0%, rgb(var(--brand) / 0.25) 0%, rgb(var(--accent) / 0.08) 45%, rgb(var(--accent) / 0) 80%)',
             },
+            typography: () => ({
+                DEFAULT: {
+                    css: {
+                        lineHeight: '1.8',
+                        p: {
+                            marginTop: '1.25em',
+                            marginBottom: '1.25em',
+                        },
+                        a: {
+                            color: 'rgb(var(--brand))',
+                            fontWeight: '600',
+                            textDecoration: 'none',
+                        },
+                        'a:hover': {
+                            color: 'rgb(var(--brand-light))',
+                        },
+                    },
+                },
+                invert: {
+                    css: {
+                        lineHeight: '1.8',
+                        p: {
+                            marginTop: '1.25em',
+                            marginBottom: '1.25em',
+                        },
+                        a: {
+                            color: 'rgb(var(--brand-light))',
+                            fontWeight: '600',
+                            textDecoration: 'none',
+                        },
+                        'a:hover': {
+                            color: '#fff',
+                        },
+                    },
+                },
+            }),
         },
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/typography')],
 }

@@ -33,7 +33,7 @@ export default function Email() {
         return (
             <div className="rounded-2xl border border-border bg-raised p-6 text-center">
                 <p className="font-semibold text-fg">Thanks for subscribing.</p>
-                <p className="text-sm text-muted">We&apos;ll be in touch soon.</p>
+                <p className="text-sm text-dim">We&apos;ll be in touch soon.</p>
             </div>
         )
     }
@@ -43,7 +43,7 @@ export default function Email() {
             <h3 className="text-center text-lg font-semibold text-fg">
                 New articles on applying AI, straight to your inbox
             </h3>
-            <p className="mt-2 text-center text-sm text-muted">
+            <p className="mt-2 text-center text-sm text-dim">
                 No noise, just practical write-ups on how to put AI to work.
             </p>
             <div className="mt-4 flex flex-col gap-3 sm:flex-row">
@@ -52,7 +52,7 @@ export default function Email() {
                     onKeyDown={handleKeypress}
                     type="email"
                     placeholder="Email"
-                    className="w-full rounded-full border border-border bg-page px-4 py-2 text-center text-sm text-fg placeholder:text-muted focus:border-brand focus:outline-none"
+                    className="w-full rounded-full border border-border bg-page px-4 py-2 text-center text-sm text-fg placeholder:text-dim focus:border-brand focus:outline-none"
                 />
                 <button
                     onClick={subscribe}

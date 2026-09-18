@@ -29,7 +29,7 @@ export default function Pagenav() {
                     <ThemeToggle/>
                     <button
                         onClick={() => setOpen(!open)}
-                        className="rounded-md p-2 text-muted hover:text-fg"
+                        className="rounded-md p-2 text-dim hover:text-fg"
                         aria-controls="primary-nav"
                         aria-expanded={open}
                     >
@@ -43,7 +43,7 @@ export default function Pagenav() {
                 </div>
 
                 <div id="primary-nav" className="hidden items-center gap-8 lg:flex">
-                    <Link href="/articles" className="inline-flex h-9 items-center text-[20px] font-medium text-muted transition hover:text-fg">
+                    <Link href="/articles" className="inline-flex h-9 items-center text-[20px] font-medium text-dim transition hover:text-fg">
                         Articles
                     </Link>
                     <a
@@ -51,7 +51,7 @@ export default function Pagenav() {
                         target="_blank"
                         rel="noreferrer"
                         aria-label="LinkedIn"
-                        className="inline-flex items-center justify-center text-muted transition hover:text-brand-light"
+                        className="inline-flex items-center justify-center text-dim transition hover:text-brand-light"
                     >
                         <LinkedInIcon/>
                     </a>
@@ -62,7 +62,7 @@ export default function Pagenav() {
             {open && (
                 <div className="border-t border-border bg-page px-4 py-4 lg:hidden">
                     <div className="flex flex-col gap-4">
-                        <Link href="/articles" className="text-sm font-medium text-muted hover:text-fg" onClick={() => setOpen(false)}>
+                        <Link href="/articles" className="text-sm font-medium text-dim hover:text-fg" onClick={() => setOpen(false)}>
                             Articles
                         </Link>
                         <a
@@ -70,7 +70,7 @@ export default function Pagenav() {
                             target="_blank"
                             rel="noreferrer"
                             aria-label="LinkedIn"
-                            className="inline-flex w-fit items-center justify-center text-muted hover:text-brand-light"
+                            className="inline-flex w-fit items-center justify-center text-dim hover:text-brand-light"
                         >
                             <LinkedInIcon/>
                         </a>

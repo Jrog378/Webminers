@@ -18,7 +18,7 @@ const Outline = ({article, url}) => {
                     <a
                         key={content.id}
                         href={`#${content.id}`}
-                        className="block text-muted transition hover:text-brand-light"
+                        className="block font-semibold text-brand transition hover:text-brand-light"
                     >
                         - {content.title !== '' ? content.title : 'Introduction'}
                     </a>

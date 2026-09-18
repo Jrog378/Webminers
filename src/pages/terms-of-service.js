@@ -82,15 +82,15 @@ export default function TermsOfService() {
             <div className="bg-page">
                 <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
                     <h1 className="text-3xl font-bold text-fg">Terms of Service</h1>
-                    <p className="mt-1 text-sm text-muted">Last updated September 17th, 2026</p>
+                    <p className="mt-1 text-sm text-dim">Last updated September 17th, 2026</p>
 
                     <div className="mt-8 space-y-8">
                         {sections.map((section) => (
                             <div key={section.title}>
                                 <h2 className="text-xl font-semibold text-fg">{section.title}</h2>
-                                <p className="mt-2 text-muted">{section.body}</p>
+                                <p className="mt-2 text-dim">{section.body}</p>
                                 {section.list && (
-                                    <ul className="mt-2 list-disc space-y-1 pl-6 text-muted">
+                                    <ul className="mt-2 list-disc space-y-1 pl-6 text-dim">
                                         {section.list.map((item) => (
                                             <li key={item}>{item}</li>
                                         ))}

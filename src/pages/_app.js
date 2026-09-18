@@ -14,14 +14,17 @@ const Font = Figtree({subsets: ['latin']})
 export default function App({Component, pageProps}) {
 
     useEffect(() => {
-    Router.events.on('routeChangeComplete', () => {
-      window.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
-    });
-  })
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    const scrollToTop = () => {
+      window.scrollTo({top: 0, left: 0, behavior: 'instant'});
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    };
+    Router.events.on('routeChangeStart', scrollToTop);
+    return () => Router.events.off('routeChangeStart', scrollToTop);
+  }, [])
 
     return (
         <SSRProvider>

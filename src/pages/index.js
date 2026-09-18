@@ -9,7 +9,7 @@ const Display = Space_Grotesk({subsets: ['latin'], weight: ['500', '600', '700']
 
 const isAiArticle = (d) => d.url.includes('/ai-') || d.url.includes('-ai-') || d.url.endsWith('-ai')
 
-function ArticleCard({article}) {
+function ArticleCard({article, priority = false}) {
     return (
         <Link
             href={article.url}
@@ -20,10 +20,12 @@ function ArticleCard({article}) {
                 alt={article.alt}
                 className="h-40 w-full object-cover"
                 placeholder={'blur'}
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                priority={priority}
             />
             <div className="p-4">
                 <p className="text-lg font-semibold text-fg group-hover:text-brand-light">{article.title}</p>
-                <p className="mt-1 text-right text-sm italic text-muted">{article.date}</p>
+                <p className="mt-1 text-right text-sm italic text-dim">{article.date}</p>
             </div>
         </Link>
     )
@@ -80,7 +82,7 @@ export default function Home() {
                         <h1 className={`${Display.className} text-4xl font-bold text-fg sm:text-5xl`}>
                             Practical AI for Work Efficiency
                         </h1>
-                        <p className="mx-auto mt-5 max-w-2xl text-lg text-muted">
+                        <p className="mx-auto mt-5 max-w-2xl text-lg text-dim">
                             Clear, grounded write-ups on applying AI to real tasks - research, analysis,
                             productivity, and building things - without the hype.
                         </p>
@@ -99,8 +101,8 @@ export default function Home() {
                     <section className="mx-auto max-w-6xl px-4 pb-20 sm:px-6">
                         <h2 className={`${Display.className} text-2xl font-semibold text-fg`}>Becoming Irreplaceable With AI</h2>
                         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                            {featured.map((article) => (
-                                <ArticleCard key={article.id} article={article}/>
+                            {featured.map((article, i) => (
+                                <ArticleCard key={article.id} article={article} priority={i === 0}/>
                             ))}
                         </div>
                     </section>

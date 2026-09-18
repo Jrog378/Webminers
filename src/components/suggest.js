@@ -24,7 +24,7 @@ const Suggest = ({Detail}) => {
             />
             <div className="p-4">
                 <p className="text-lg font-semibold text-fg group-hover:text-brand-light">{article.title}</p>
-                <p className="mt-1 text-right text-sm italic text-muted">{article.date}</p>
+                <p className="mt-1 text-right text-sm italic text-dim">{article.date}</p>
             </div>
         </Link>
     )

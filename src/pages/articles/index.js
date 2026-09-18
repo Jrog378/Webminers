@@ -54,9 +54,9 @@ export default function Articles() {
                 <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
                     <div className="mb-6">
                         <h1 className="text-2xl italic text-fg">&quot;{quotes[number].quote}&quot;</h1>
-                        <p className="mt-1 text-muted">- {quotes[number].author}</p>
+                        <p className="mt-1 text-dim">- {quotes[number].author}</p>
                     </div>
-                    <p className="mb-8 text-right text-muted">
+                    <p className="mb-8 text-right text-dim">
                         Follow me on{' '}
                         <a
                             className="font-semibold text-brand-light hover:text-brand"
@@ -85,7 +85,7 @@ export default function Articles() {
                                     <h2 className="text-lg font-semibold text-fg group-hover:text-brand-light">
                                         {content.title}
                                     </h2>
-                                    <p className="mt-2 text-right text-sm italic text-muted">{content.date}</p>
+                                    <p className="mt-2 text-right text-sm italic text-dim">{content.date}</p>
                                 </div>
                             </Link>
                         ))}

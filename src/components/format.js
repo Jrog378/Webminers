@@ -60,7 +60,7 @@ const ArticleFormat = ({Article, url}) => {
             <article className="bg-page">
                 <div className="mx-auto max-w-4xl px-4 pt-10 text-center sm:px-6">
                     <h1 className="text-3xl font-bold text-fg sm:text-4xl">{Detail.title}</h1>
-                    <div className="mt-4 flex justify-between text-sm italic text-muted">
+                    <div className="mt-4 flex justify-between text-sm italic text-dim">
                         <span>Last modified: {Detail.date}</span>
                         <span>By Justin Rogers</span>
                     </div>
@@ -79,8 +79,17 @@ const ArticleFormat = ({Article, url}) => {
                                         placeholder={'blur'}
                                     />
                                     <h2 className="text-xl font-semibold text-fg">{sections.title}</h2>
-                                    <div className="prose prose-invert max-w-none text-muted">
-                                        <ReactMarkdown>{sections.text}</ReactMarkdown>
+                                    <div className="prose prose-lg prose-invert max-w-none text-dim">
+                                        <ReactMarkdown
+                                            components={{
+                                                a: ({node, href, ...props}) => {
+                                                    const isExternal = /^https?:\/\//.test(href) && !href.includes('webminers.dev')
+                                                    return isExternal
+                                                        ? <a {...props} href={href} target="_blank" rel="noopener noreferrer"/>
+                                                        : <a {...props} href={href}/>
+                                                },
+                                            }}
+                                        >{sections.text}</ReactMarkdown>
                                     </div>
                                 </div>
                             ))}
@@ -104,7 +113,7 @@ const ArticleFormat = ({Article, url}) => {
                             <div className="grid gap-6 sm:grid-cols-2">
                                 <div className="rounded-2xl border border-border bg-raised p-5">
                                     <p className="font-semibold text-fg">Disclaimer</p>
-                                    <p className="mt-2 text-sm text-muted">
+                                    <p className="mt-2 text-sm text-dim">
                                         This article is provided for informational purposes only and does not
                                         constitute financial, investment, or professional advice. Do your own
                                         research before acting on anything you read here.
