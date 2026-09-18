@@ -1,5 +1,5 @@
-import '@/styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@/styles/globals.css';
 import {Figtree} from "@next/font/google";
 import {SSRProvider} from "react-bootstrap";
 import Navbar from '../components/navbar'

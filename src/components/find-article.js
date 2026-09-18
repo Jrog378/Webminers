@@ -1,45 +1,27 @@
 import Details from "@/components/details";
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
-import styles from "@/styles/Home.module.css";
 import Image from "next/image";
-import ReactMarkdown from "react-markdown";
-import React, {useState} from "react";
-
+import Link from "next/link";
 
 const Find = ({number}) => {
     const num = Details.length - number
+    const article = Details[num]
+
     return (
-        <Card.Link href={Details[num].url} style={{textDecoration:'none', color:'black'}}>
-            <Card className={styles.arthover}>
-                <Container>
-                    <Row>
-                        <Card.Body className={styles.pad}>
-                            <Image
-                                src={require(`@/images/articleimages/${Details[num].img}`)}
-                                alt={Details[num].alt}
-                                className={styles.blogimgs}
-                                placeholder={'blur'}
-                            />
-                        </Card.Body>
-                    </Row>
-                    <Row>
-                        <Card.Body style={{paddingTop: 0}}>
-                            <Card.Link
-                                style={{fontSize: 'x-large'}}
-                                className={styles.weblink}
-                                href={Details[num].url}>{Details[num].title}</Card.Link>
-                            <Card.Text
-                                style={{
-                                    fontStyle: 'italic',
-                                    display: 'inline-block',
-                                    width: '100%',
-                                    textAlign: 'right'
-                                }}>{Details[num].date}</Card.Text>
-                        </Card.Body>
-                    </Row>
-                </Container>
-            </Card>
-        </Card.Link>
+        <Link
+            href={article.url}
+            className="group block overflow-hidden rounded-2xl border border-border bg-raised transition hover:border-brand"
+        >
+            <Image
+                src={require(`@/images/articleimages/${article.img}`)}
+                alt={article.alt}
+                className="h-40 w-full object-cover"
+                placeholder={'blur'}
+            />
+            <div className="p-4">
+                <p className="text-lg font-semibold text-fg group-hover:text-brand-light">{article.title}</p>
+                <p className="mt-1 text-right text-sm italic text-muted">{article.date}</p>
+            </div>
+        </Link>
     )
 }
 export default Find

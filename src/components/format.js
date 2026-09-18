@@ -1,14 +1,10 @@
 import Image from "next/image";
-import {Card, Col, Container, Row} from "react-bootstrap";
-import styles from "@/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
-import React from "react";
 import Head from "next/head";
 import Email from "@/components/email";
 import Suggest from "@/components/suggest";
 import Details from "@/components/details";
 import Outline from "@/components/outline";
-import EfficientSales from "@/components/efficient-sales";
 import {
     TwitterShareButton,
     TwitterIcon,
@@ -17,10 +13,6 @@ import {
     RedditShareButton,
     RedditIcon, LinkedinShareButton, LinkedinIcon,
 } from 'next-share'
-// import {GoogleAdSense} from "nextjs-google-adsense";
-// import {AdRecover} from "@/components/ad-recover";
-// import {DisplayAd} from "@/components/display-ad";
-// import {ArticleAd} from "@/components/article-ad";
 
 const ArticleFormat = ({Article, url}) => {
     const Detail = Details.find((article) => article.url === url)
@@ -50,7 +42,6 @@ const ArticleFormat = ({Article, url}) => {
     )
     return (
         <>
-            {/*<GoogleAdSense publisherId="pub-7878345029704986" data-nscript={false}/>*/}
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>{Detail.title}</title>
@@ -58,7 +49,7 @@ const ArticleFormat = ({Article, url}) => {
                 <meta property='og:title' content={Detail.title}/>
                 <meta property='og:image' content={'https://webminers.dev/images/' + Detail.header}/>
                 <meta property='og:description' content={Detail.text}/>
-                <meta property='og:sitename' content='Webminers'/>
+                <meta property='og:sitename' content='Webminers AI'/>
                 <meta name='description' content={Detail.text}/>
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name='twitter:title' content={Detail.title}/>
@@ -66,155 +57,72 @@ const ArticleFormat = ({Article, url}) => {
                 <meta name='twitter:description' content={Detail.text}/>
                 <SchemaMarkup/>
             </Head>
-            <article style={{backgroundColor: '#212529'}}>
-                {/*<AdRecover/>*/}
-                <Container>
-                    <header>
-                        <Card style={{borderStyle: 'none', background: 'none'}}>
-                            <Card.Title style={{
-                                color: 'rgb(200,200,200)',
-                                textAlign: 'center',
-                                padding: '20px 3% 0 3%'
-                            }}>
-                                <h1 style={{fontSize: 'xx-large'}}>{Detail.title}</h1>
-                            </Card.Title>
-                            <Row
-                                style={{color: 'rgb(200,200,200)', padding: '3% 10% 1% 10%', fontStyle: 'italic'}}>
-                                <Col>
-                                    <Card.Text>
-                                        Last modified: {Detail.date}
-                                    </Card.Text>
-                                </Col>
-                                <Col>
-                                    <Card.Text style={{textAlign:'right'}}>
-                                        By Justin Rogers
-                                    </Card.Text>
-                                </Col>
-                            </Row>
-                        </Card>
-                    </header>
-                </Container>
-                <Card
-                    style={{
-                        display: 'flex',
-                        borderRadius: '35px',
-                        background: 'whitesmoke'
-                    }}>
-                    <Container>
-                        <Row style={{padding: '0 25px 15px 25px'}}>
-                            <Col lg={8} md={12} className={styles.pad}>
-                                {Article.map(sections => (
-                                        <Card key={sections.id}
-                                              style={{borderStyle: 'none', background: 'none', padding: '0 8%'}}>
-                                            <Image
-                                                style={{margin: 'auto', width: '70%', height: 'auto', borderRadius: '15px'}}
-                                                alt={sections.description}
-                                                src={sections.img}
-                                                id={sections.id}
-                                                placeholder={'blur'}
-                                                lazy
-                                            />
-                                            <Card.Body style={{paddingBottom: 0}}>
-                                                <Container className={styles.webmark} style={{padding: '0px'}}>
-                                                    <Card.Title style={{padding: '10px 0'}}><h2>{sections.title}</h2>
-                                                    </Card.Title>
-                                                    <ReactMarkdown>{sections.text}</ReactMarkdown>
-                                                </Container>
-                                            </Card.Body>
-                                        </Card>
-                                    )
-                                )}
-                                <Row style={{padding: '0 10%', display: 'inline-flex', width: '100%'}}>
-                                    <h3 style={{verticalAlign: 'middle'}} className={styles.share}>
-                                        Share:
-                                    </h3>
-                                    <TwitterShareButton
-                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
-                                        url={'https://webminers.dev' + Detail.url}
-                                        blankTarget={true}>
-                                        <TwitterIcon size={32}/>
-                                    </TwitterShareButton>
-                                    <FacebookShareButton
-                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
-                                        url={'https://webminers.dev' + Detail.url}
-                                        blankTarget={true}>
-                                        <FacebookIcon size={32}/>
-                                    </FacebookShareButton>
-                                    <RedditShareButton
-                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
-                                        url={'https://webminers.dev' + Detail.url}
-                                        blankTarget={true}>
-                                        <RedditIcon size={32}/>
-                                    </RedditShareButton>
-                                    <LinkedinShareButton
-                                        style={{padding: '3px', height: '36px', width: 'fit-content'}}
-                                        url={'https://webminers.dev' + Detail.url}
-                                        blankTarget={true}>
-                                        <LinkedinIcon size={32}/>
-                                    </LinkedinShareButton>
-                                </Row>
-                                <Row>
-                                    <Col>
-                                        <Card style={{background: 'whitesmoke', color: 'rgb(75,75,75)'}}>
-                                            <Card.Body>
-                                                <Card.Title>Disclaimer</Card.Title>
-                                                <Card.Text>
-                                                    The information provided in this article is not investment advice.
-                                                    We are
-                                                    not responsible for any losses incurred by readers who choose to
-                                                    invest in
-                                                    cryptocurrency. Readers should do their own research before
-                                                    investing in
-                                                    cryptocurrency. Cryptocurrency is a volatile asset and there is a
-                                                    high risk
-                                                    of loss. Readers should only invest money that they can afford to
-                                                    lose.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </Col>
-                                    <Col className={styles.EmailDis}>
-                                        <Email/>
-                                    </Col>
-                                </Row>
-                            </Col>
-                            <Col lg={4} md={12} className={styles.pad}>
-                                <Row>
-                                    <Col sm={12} md={6} lg={12}>
-                                        <Row>
-                                            <div className={styles.pad}>
-                                                <Email/>
-                                            </div>
-                                        </Row>
-                                        {/*<Row>*/}
-                                        {/*    <div className={styles.pad}>*/}
-                                        {/*        <DisplayAd slot={"4158745359"}/>*/}
-                                        {/*    </div>*/}
-                                        {/*</Row>*/}
-                                    </Col>
-                                    <Col sm={12} md={6} lg={12}>
-                                        <div className={styles.pad}>
-                                            <Suggest Detail={Detail.id}/>
-                                        </div>
-                                        {/*<div className={styles.pad}>*/}
-                                        {/*    <DisplayAd slot={1008265344}/>*/}
-                                        {/*</div>*/}
-                                    </Col>
-                                </Row>
-                                <div className={styles.pad}>
-                                    <EfficientSales/>
+            <article className="bg-page">
+                <div className="mx-auto max-w-4xl px-4 pt-10 text-center sm:px-6">
+                    <h1 className="text-3xl font-bold text-fg sm:text-4xl">{Detail.title}</h1>
+                    <div className="mt-4 flex justify-between text-sm italic text-muted">
+                        <span>Last modified: {Detail.date}</span>
+                        <span>By Justin Rogers</span>
+                    </div>
+                </div>
+
+                <div className="mx-auto mt-8 max-w-6xl rounded-3xl bg-surface px-4 pb-16 pt-8 sm:px-6">
+                    <div className="grid gap-10 lg:grid-cols-3">
+                        <div className="space-y-10 lg:col-span-2">
+                            {Article.map(sections => (
+                                <div key={sections.id} className="space-y-4">
+                                    <Image
+                                        className="mx-auto w-3/4 rounded-2xl"
+                                        alt={sections.description}
+                                        src={sections.img}
+                                        id={sections.id}
+                                        placeholder={'blur'}
+                                    />
+                                    <h2 className="text-xl font-semibold text-fg">{sections.title}</h2>
+                                    <div className="prose prose-invert max-w-none text-muted">
+                                        <ReactMarkdown>{sections.text}</ReactMarkdown>
+                                    </div>
                                 </div>
-                                <div style={{
-                                    position: 'sticky',
-                                    top: 50,
-                                    padding: '10px'
-                                }}>
-                                    <Outline article={Article} url={url}/>
+                            ))}
+
+                            <div className="flex items-center gap-2">
+                                <h3 className="text-sm font-semibold text-fg">Share:</h3>
+                                <TwitterShareButton url={'https://webminers.dev' + Detail.url} blankTarget={true}>
+                                    <TwitterIcon size={32} round/>
+                                </TwitterShareButton>
+                                <FacebookShareButton url={'https://webminers.dev' + Detail.url} blankTarget={true}>
+                                    <FacebookIcon size={32} round/>
+                                </FacebookShareButton>
+                                <RedditShareButton url={'https://webminers.dev' + Detail.url} blankTarget={true}>
+                                    <RedditIcon size={32} round/>
+                                </RedditShareButton>
+                                <LinkedinShareButton url={'https://webminers.dev' + Detail.url} blankTarget={true}>
+                                    <LinkedinIcon size={32} round/>
+                                </LinkedinShareButton>
+                            </div>
+
+                            <div className="grid gap-6 sm:grid-cols-2">
+                                <div className="rounded-2xl border border-border bg-raised p-5">
+                                    <p className="font-semibold text-fg">Disclaimer</p>
+                                    <p className="mt-2 text-sm text-muted">
+                                        This article is provided for informational purposes only and does not
+                                        constitute financial, investment, or professional advice. Do your own
+                                        research before acting on anything you read here.
+                                    </p>
                                 </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Card>
+                                <Email/>
+                            </div>
+                        </div>
+
+                        <div className="space-y-6">
+                            <Email/>
+                            <Suggest Detail={Detail.id}/>
+                            <div className="sticky top-20">
+                                <Outline article={Article} url={url}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </article>
         </>
     )

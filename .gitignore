@@ -30,3 +30,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# IDE
+.idea
+
+# secrets / service account keys
+*firebase-adminsdk*.json
+serviceAccount*.json
+*.pem

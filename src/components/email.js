@@ -1,16 +1,11 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import axios from "axios";
 import {toast} from "react-toastify";
-import {Button, Card, Container, Row} from "react-bootstrap";
-import styles from "@/styles/Home.module.css";
 
 export default function Email() {
     const [mail, setMail] = useState(null);
     const [loading, setLoading] = useState(false);
-    const [disp, setDisp] = useState(1)
-
-    let disp1 = ['none', 'initial']
-    let disp2 = ['initial', 'none']
+    const [subscribed, setSubscribed] = useState(false)
 
     const handleKeypress = e => {
         if (e.keyCode === 13) {
@@ -24,48 +19,49 @@ export default function Email() {
             if (result.status === 200) {
                 toast.success(result.data.message);
                 setLoading(false);
-                setDisp(0)
+                setSubscribed(true)
             }
         })
             .catch((err) => {
                 console.log(err);
                 setLoading(false);
-                setDisp(0)
+                setSubscribed(true)
             });
     };
 
+    if (subscribed) {
+        return (
+            <div className="rounded-2xl border border-border bg-raised p-6 text-center">
+                <p className="font-semibold text-fg">Thanks for subscribing.</p>
+                <p className="text-sm text-muted">We&apos;ll be in touch soon.</p>
+            </div>
+        )
+    }
+
     return (
-        <Card style={{borderRadius: '25px', background: 'none', padding: '1% 8%', marginBottom: '2%'}}>
-            <Container style={{display: disp1[disp]}}>
-                <h3 style={{padding: '5px', textAlign: 'center'}}>
-                    Desire to be a better Investor?
-                </h3>
-                <Card.Text style={{fontSize: 'larger'}}>
-                    Are you ready to start implementing scientifically proven methods into your crypto investing?
-                </Card.Text>
-                <Container>
-                    <Row style={{padding: '5px'}}>
-                        <input
-                            onChange={(e) => {
-                                setMail(e.target.value);
-                            }}
-                            onKeyDown={handleKeypress}
-                            type='email'
-                            placeholder='Email Address'
-                            className={styles.inputs}></input>
-                    </Row>
-                    <Row style={{padding: '5px'}}>
-                        <Button variant="success" onClick={subscribe}
-                                className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
-                            Join Email List!
-                        </Button>
-                    </Row>
-                </Container>
-            </Container>
-            <Container style={{display: disp2[disp]}}>
-                <h4 style={{padding: '5px', textAlign: 'center'}}>Thank you for subscribing!</h4>
-                <h4 style={{padding: '5px', textAlign: 'center'}}>We&apos;ll be in touch soon.</h4>
-            </Container>
-        </Card>
+        <div className="rounded-2xl border border-border bg-raised p-6">
+            <h3 className="text-center text-lg font-semibold text-fg">
+                New articles on applying AI, straight to your inbox
+            </h3>
+            <p className="mt-2 text-center text-sm text-muted">
+                No noise, just practical write-ups on how to put AI to work.
+            </p>
+            <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+                <input
+                    onChange={(e) => setMail(e.target.value)}
+                    onKeyDown={handleKeypress}
+                    type="email"
+                    placeholder="Email"
+                    className="w-full rounded-full border border-border bg-page px-4 py-2 text-center text-sm text-fg placeholder:text-muted focus:border-brand focus:outline-none"
+                />
+                <button
+                    onClick={subscribe}
+                    disabled={loading}
+                    className="shrink-0 rounded-full bg-brand px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-light disabled:opacity-60"
+                >
+                    {loading ? "Joining..." : "Subscribe"}
+                </button>
+            </div>
+        </div>
     );
 }

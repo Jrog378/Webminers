@@ -55,8 +55,11 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.6.1",
     "cross-env": "^7.0.3",
+    "postcss": "^8.5.28",
     "semver": ">=7.5.2",
+    "tailwindcss": "^3.4.19",
     "webpack-bundle-analyzer": "^4.8.0"
   }
 }

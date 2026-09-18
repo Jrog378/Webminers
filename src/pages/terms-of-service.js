@@ -1,9 +1,45 @@
 import Head from "next/head";
-import React from "react";
-import {Card, Container} from "react-bootstrap";
+
+const sections = [
+    {
+        title: "Agreement to Terms",
+        body: "By using this website or signing up for an account, you agree to the following terms and conditions:",
+        list: [
+            "You must be at least 18 years of age to create an account.",
+            "You must provide accurate and truthful information when signing up.",
+            "You are responsible for all activity that occurs under your account.",
+            "You may not use this site for any illegal or unauthorized purpose.",
+            "You may not violate the rights of others, including their intellectual property rights.",
+            "You may not use this site to send spam or unsolicited messages.",
+            "We reserve the right to terminate your account at any time for any reason.",
+        ],
+    },
+    {
+        title: "Not Professional Advice",
+        body: "Webminers AI publishes articles about applying AI to real tasks, along with earlier articles on cryptocurrency and investing that remain published for reference. All content on this site is for informational and educational purposes only and is not a substitute for professional advice - financial, legal, technical, or otherwise. The site's authors and contributors are not licensed professionals and do not offer professional advice. Content reflects the authors' own experience and research. Readers should consult a qualified professional before making decisions based on anything read here. The site owner and contributors assume no liability for losses or damages resulting from use of this site's content.",
+    },
+    {
+        title: "How we use your information",
+        body: "If you provide personal information (for example, by subscribing to our email list), we use it to:",
+        list: [
+            "Personalize your experience on this site.",
+            "Improve this site.",
+            "Send you updates about new articles, if you've opted in.",
+            "Respond to questions or issues you raise with us.",
+            "Protect this site and its users.",
+        ],
+    },
+    {
+        title: "Changes to these Terms",
+        body: "We may update these Terms of Service from time to time. If we make significant changes, we'll note it here or notify subscribers by email.",
+    },
+    {
+        title: "Contact us",
+        body: "Questions about these terms? Reach us at webminers.dev@gmail.com.",
+    },
+]
 
 export default function TermsOfService() {
-
     const SchemaMarkup = () => (
         <script
             type="application/ld+json"
@@ -14,10 +50,10 @@ export default function TermsOfService() {
                     "@id": "https://webminers.dev/terms-of-service/",
                     "url": "https://webminers.dev/terms-of-service/",
                     "image": "https://webminers.dev/webminers-logo.webp",
-                    "name": "Terms of Service for Webminers Investing",
+                    "name": "Terms of Service for Webminers AI",
                     "datePublished": "May 11th, 2023",
-                    "dateModified": "May 23rd, 2023",
-                    "description": "Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security."
+                    "dateModified": "September 17th, 2026",
+                    "description": "Terms of service for Webminers AI, covering site use, content disclaimers, and how we handle your information."
                 }),
             }}
         />
@@ -26,84 +62,44 @@ export default function TermsOfService() {
     return (
         <>
             <Head>
-                <title>Terms of Service for Webminers Investing</title>
-                <meta name={'og:title'} content={'Terms of Service for Webminers Investing'}/>
+                <title>Terms of Service for Webminers AI</title>
+                <meta name={'og:title'} content={'Terms of Service for Webminers AI'}/>
                 <meta name="description"
-                      content="Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security."/>
+                      content="Terms of service for Webminers AI, covering site use, content disclaimers, and how we handle your information."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property='og:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <meta property='og:type' content='website'/>
                 <meta property='og:description'
-                      content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
-                <meta property='og:sitename' content='Webminers'/>
+                      content='Terms of service for Webminers AI, covering site use, content disclaimers, and how we handle your information.'/>
+                <meta property='og:sitename' content='Webminers AI'/>
                 <meta name="twitter:card" content="summary"/>
-                <meta name='twitter:title' content='Terms of Service for Webminers Investing'/>
+                <meta name='twitter:title' content='Terms of Service for Webminers AI'/>
                 <meta name='twitter:description'
-                      content='Here are the terms of service that provide protection of both our business and you as a customer to ensure that both sides have agreed upon security.'/>
+                      content='Terms of service for Webminers AI, covering site use, content disclaimers, and how we handle your information.'/>
                 <meta name='twitter:image' content={'https://webminers.dev/webminers-logo.webp'}/>
                 <SchemaMarkup/>
             </Head>
-            <div style={{width: '100%', backgroundColor: 'whitesmoke', borderRadius: '25px'}}>
-                <Container style={{padding: '25px'}}>
-                    <Card style={{margin: '10px 0'}}>
-                        <Card.Body>
-                            <Card.Title style={{fontSize: 'xx-large'}}>Terms of Service</Card.Title>
-                            <Card.Text>
-                                By signing up for our service, you agree to the following terms and conditions:
-                                <ul>
-                                    <li>You must be at least 18 years of age to sign up.</li>
-                                    <li>You must provide accurate and truthful information when signing up.</li>
-                                    <li>You are responsible for all activity that occurs under your account.</li>
-                                    <li>You may not use our service for any illegal or unauthorized purpose.</li>
-                                    <li>You may not violate the rights of others, including their intellectual property
-                                        rights.
-                                    </li>
-                                    <li>You may not use our service to send spam or unsolicited messages.</li>
-                                    <li>We reserve the right to terminate your account at any time for any reason.</li>
+            <div className="bg-page">
+                <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+                    <h1 className="text-3xl font-bold text-fg">Terms of Service</h1>
+                    <p className="mt-1 text-sm text-muted">Last updated September 17th, 2026</p>
 
-                                </ul>
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                            <Card.Title>Not Professional Advice</Card.Title>
-                            <Card.Text>
-                                The information on this website is for educational purposes only and is not intended to
-                                be a substitute for professional advice. The website owner and its contributors are not licensed professionals and do not offer
-                                professional advice. The information on this website is based on the author&apos;s own experiences and research,
-                                and should not be construed as professional advice. Readers are encouraged to consult with a qualified professional before making any
-                                decisions based on the information on this website. The website owner and its contributors assume no liability for any losses or damages
-                                that may result from the use of the information on this website.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                            <Card.Title>How do we use your personal information?</Card.Title>
-                            <Card.Text>
-                                We use the information we collect about you to:
-                                <ul>
-                                    <li>Personalize your experience on our website.</li>
-                                    <li>Improve our website.</li>
-                                    <li>Send you marketing communications, if you have opted in to receive them.</li>
-                                    <li>Contact you if you have questions or problems.</li>
-                                    <li>Protect our website and our users.</li>
-                                </ul>
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                            <Card.Title>Changes to Terms of Service</Card.Title>
-                            <Card.Text>
-                                We may update these Terms of Service from time to time. If we make any significant
-                                changes, we will notify you by email or through a prominent notice on our website.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                            <Card.Title>Contact us</Card.Title>
-                            <Card.Text>
-                                If you have any questions about this Privacy Policy, please contact us at
-                                webminers.dev@gmail.com
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Container>
+                    <div className="mt-8 space-y-8">
+                        {sections.map((section) => (
+                            <div key={section.title}>
+                                <h2 className="text-xl font-semibold text-fg">{section.title}</h2>
+                                <p className="mt-2 text-muted">{section.body}</p>
+                                {section.list && (
+                                    <ul className="mt-2 list-disc space-y-1 pl-6 text-muted">
+                                        {section.list.map((item) => (
+                                            <li key={item}>{item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </>
     )

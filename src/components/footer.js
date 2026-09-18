@@ -1,13 +1,14 @@
-import styles from '@/styles/Home.module.css'
+import Link from "next/link";
+
 export default function Footer() {
     return (
-        <footer style={{
-            color: 'white',
-            textAlign: 'center',
-            padding: '10px',
-            backgroundColor: 'rgba(33, 37, 41, 1)',
-        }}>
-            <p style={{margin:0}}>&copy; 2023 Webminers. All rights reserved. | <a className={styles.weblink} href={'/terms-of-service'}>Terms of Service</a> and <a className={styles.weblink} href={'/privacy'}>Privacy Policy</a></p>
+        <footer className="border-t border-border bg-page py-6 text-center text-sm text-muted">
+            <p>
+                &copy; {new Date().getFullYear()} Webminers AI. All rights reserved. {' '}
+                <Link href="/terms-of-service" className="font-medium text-brand-light hover:text-brand">Terms of Service</Link>
+                {' '}and{' '}
+                <Link href="/privacy" className="font-medium text-brand-light hover:text-brand">Privacy Policy</Link>
+            </p>
         </footer>
     );
 }
