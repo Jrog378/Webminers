@@ -43,7 +43,7 @@ export default function Pagenav() {
                 </div>
 
                 <div id="primary-nav" className="hidden items-center gap-8 lg:flex">
-                    <Link href="/articles" className="text-sm font-medium text-muted transition hover:text-fg">
+                    <Link href="/articles" className="inline-flex h-9 items-center text-[20px] font-medium text-muted transition hover:text-fg">
                         Articles
                     </Link>
                     <a
@@ -51,7 +51,7 @@ export default function Pagenav() {
                         target="_blank"
                         rel="noreferrer"
                         aria-label="LinkedIn"
-                        className="text-muted transition hover:text-brand-light"
+                        className="inline-flex items-center justify-center text-muted transition hover:text-brand-light"
                     >
                         <LinkedInIcon/>
                     </a>
@@ -70,7 +70,7 @@ export default function Pagenav() {
                             target="_blank"
                             rel="noreferrer"
                             aria-label="LinkedIn"
-                            className="w-fit text-muted hover:text-brand-light"
+                            className="inline-flex w-fit items-center justify-center text-muted hover:text-brand-light"
                         >
                             <LinkedInIcon/>
                         </a>
