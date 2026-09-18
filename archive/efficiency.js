@@ -3,7 +3,8 @@ import styles from "@/styles/Home.module.css";
 import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import Image from "next/image";
-import {getStorage, ref, getDownloadURL} from "firebase/storage"
+// Firebase Storage no longer used here — see fetchData() below.
+// import {getStorage, ref, getDownloadURL} from "firebase/storage"
 import AssetBalancing from "@/images/plots/AssetBalancing.webp";
 import AssetBalancingPlot from "@/images/plots/AssetBalancingPlot.webp";
 import AssetBalancingExp from "@/images/plots/AssetBalancingExp.webp";
@@ -15,107 +16,103 @@ export default function Efficiency() {
 
 
     useEffect(() => {
-        const fetchData = async () => {
-            const storage = getStorage();
-
-            getDownloadURL(ref(storage, 'EthEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('EthImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'BtcEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('BtcImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'SolEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('SolImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'LtcEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('LtcImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'MaticEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('MaticImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'VetEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('VetImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'AtomEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('AtomImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'DogeEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('DogeImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'TrxEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('TrxImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'LinkEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('LinkImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-            getDownloadURL(ref(storage, 'AdaEfficiency.webp'))
-                .then((url) => {
-                    const img = document.getElementById('AdaImg');
-                    img.setAttribute('src', url);
-                })
-                .catch((error) => {
-                    console.log(error)
-                });
-
-            // if (user) {
-            //     const promise = await getDoc(doc(db, 'users', user.uid)).then(profile => profile.data())
-            //     console.log(promise)
-            //     setPlan(promise['plan'])
-            // }
-
-            return ''
-        }
-        fetchData().then(r => console.log(r))
+        // Page archived — no longer routed, and its Firebase Storage
+        // fetches (Eth/Btc/Sol/... efficiency charts) are disabled.
+        // const fetchData = async () => {
+        //     const storage = getStorage();
+        //
+        //     getDownloadURL(ref(storage, 'EthEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('EthImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'BtcEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('BtcImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'SolEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('SolImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'LtcEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('LtcImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'MaticEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('MaticImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'VetEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('VetImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'AtomEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('AtomImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'DogeEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('DogeImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'TrxEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('TrxImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'LinkEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('LinkImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //     getDownloadURL(ref(storage, 'AdaEfficiency.webp'))
+        //         .then((url) => {
+        //             const img = document.getElementById('AdaImg');
+        //             img.setAttribute('src', url);
+        //         })
+        //         .catch((error) => {
+        //             console.log(error)
+        //         });
+        //
+        //     return ''
+        // }
+        // fetchData().then(r => console.log(r))
     }, []);
     // [user, loading]
 

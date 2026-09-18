@@ -3,18 +3,22 @@ import Stripe from "stripe";
 
 const admin = require('firebase-admin');
 
-const serviceAccount = require("../../../webminers-7a36d-firebase-adminsdk-6f6gc-2f032a4e01.json");
-
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://webminers-7a36d-default-rtdb.firebaseio.com"
-});
+if (!admin.apps.length) {
+    admin.initializeApp({
+        credential: admin.credential.cert({
+            projectId: process.env.FIREBASE_PROJECT_ID,
+            clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+            privateKey: process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+        }),
+        databaseURL: "https://webminers-7a36d-default-rtdb.firebaseio.com"
+    });
+}
 
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const stripe = new Stripe('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', {
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2020-08-27",
 });
-const webhookSecret = 'whsec_Qidc89IoJrpnsu1Gp4whPbX5ZENVUhl6';
+const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 export const config = {
     api: {
         bodyParser: false,
