@@ -13,7 +13,8 @@ Check `<runDir>/draft.md` against `editorial/style-guide.md`:
 3. Section lengths within ±25% of `format.json` targets; formats match `format.json`; H2s specific.
 4. Frontmatter parses (run `node -e "require('gray-matter')(require('fs').readFileSync(process.argv[1],'utf8'))" <file>`), has `reviewStatus: pending`, `editorsNote: null`, ISO dates with offset, `sources` numbered to match every `[[n]](#source-n)` in the body (no gaps, no orphans).
 5. `factcheck.json` has no unresolved `fix`/`cut` items.
-6. No agent-written Editor's note anywhere.
+6. Non-political and no geography: FAIL on any politician or government-official quote, policy fight, election, legislation, protest, conflict or culture-war content, and on any country, region, city, place or national framing (organization/university names as credits are fine).
+7. No agent-written Editor's note anywhere.
 7. Reads like a reporter, not a bot: flag any paragraph that ends on a moral or restates the intro.
 
 Write `<runDir>/editor-report.md` with `PASS` or `FAIL` on the first line, then required fixes (quote the exact text). Do not edit the draft yourself.

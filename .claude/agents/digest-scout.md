@@ -26,7 +26,8 @@ If a source fails or rate-limits, skip it and log it. Never invent a result to f
 1. Pull items dated inside the window only. Remove duplicates (same story from several outlets = one candidate).
 2. For each candidate record: title, one-line summary, primary-source URL (paper, official announcement or original reporting; if none exists, say so), date, and signal (HN points and comment count with thread URL, HF upvotes, Reddit score, pageview change) where available.
 3. Score 1–5 on novelty, momentum, significance, and primary-source availability. Candidates with no primary source score 0 on that axis and should rarely make the top 10.
-4. Read `content/digest/_topics.json` (if present) and flag any candidate covered in the last 8 weeks.
+4. Exclude political stories, and stories whose core is a country or region, per the style guide's "Non-political and no geography" rules (elections, legislation/policy fights, government officials, sanctions, protests, conflicts, culture-war topics); list them under `excludedPolitical` rather than as candidates.
+5. Read `content/digest/_topics.json` (if present) and flag any candidate covered in the last 8 weeks.
 
 ## Output
 Write `<runDir>/candidates-<section>.json`: `{section, window, sourcesTried: [{name, status}], candidates: [top 10, highest total first]}`. Every URL must be one you actually fetched or that appeared in a fetched feed. Reply with a 5-line summary: top 3 candidates and any sources that failed.

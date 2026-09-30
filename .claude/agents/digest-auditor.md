@@ -21,6 +21,9 @@ You audit ONE published issue (given as a file path under `content/digest/` or `
    - Set `dateModified` to today ONLY if you changed content. Never touch it for no-op audits.
 5. Never change `editorsNote`, `reviewStatus`, `reviewedOn` or `reviewedBy`. Never alter Scripture text. Never fabricate; everything you add must come from a page you actually read.
 
+## Non-political
+If an issue contains political or geographic content (style guide "Non-political and no geography"), remove it, renumber citations if a source drops out, and log it as an `update` ("Removed political context to meet our editorial standards").
+
 ## SEO
 1. Search how people now phrase each topic (WebSearch; related searches, what ranks). If the title or description misses clearly better phrasing, update `title` (≤ 60 chars, keep the `| Eureka Reports {Mon D}` or `| Coding with Christ` suffix) and/or `description` (120–160 chars), keeping every hedge ("preprint", "says"). Do not change slugs or URLs. Do not churn for its own sake: change only with a stated reason.
 2. Note any internal-link opportunity to a newer related issue (list it; don't edit the body for this).

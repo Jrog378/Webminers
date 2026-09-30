@@ -4,6 +4,16 @@ The series is **Eureka Reports** (formerly the working name "AI Digest"), served
 
 Loaded by the writer, format editor, fact-checker, SEO and editor agents on every run. Source of truth for these rules is the plan at `~/Claude/Code/Planning/ai-digest-plan.md`.
 
+## Non-political and no geography (hard rules, owner's instruction 2026-09-30)
+
+Eureka Reports is not political and has no geographic content, in any edition.
+- **No geography:** no countries, regions, cities or places, no national or regional framing ("Chinese labs", "in Europe", "U.S. adults", "across Asia"), and no reach-by-country figures. Organizations, companies and universities are named as credits even if their names contain a place ("Georgia Tech", "Transform Iran"), but the story is never about where they are. If a story can't be told without its geography, skip it.
+- **Don't cover** stories that are political at their core: elections, candidates and parties, legislation and policy fights, government officials' statements or actions, sanctions and trade wars, protests and crackdowns, wars and geopolitical conflicts, or culture-war topics. Skip them at topic selection even if they're the biggest AI story of the week.
+- **Don't add** political framing to non-political stories: no quotes from politicians or government officials, no "policy fight" context, no partisan labels, no commentary on governments.
+- **Neutral facts only where unavoidable**: if a story can't be told without one (e.g. "a law requires this label on AI images"), state it in one plain, unattributed-to-party sentence and move on. If the story needs more than that, it's political and should be skipped.
+- **Faith edition**: stricter still; see "Faith content" below (technology only, no geography).
+- The editor fails any draft that breaks this rule.
+
 ## Write like a reporter
 
 - Lead with the news or the finding in the first sentence. No throat-clearing ("In the ever-evolving world of AI…").
@@ -69,6 +79,9 @@ Vary the shape so issues never read alike. Each is plain markdown.
 Rules: no two sections in one issue share a format; no identical combination of formats within the last 6 issues; `explainer` at most once per issue.
 
 ## Faith content (Coding with Christ, Sundays)
+
+- **Scope (owner's rule, 2026-09-30):** only technology, and how it helps Christians or non-believers draw closer to Christ: Bible and Scripture apps, AI tools for seekers and discipleship, translation and accessibility technology, church and ministry tools, and honest cautions about them. Nothing else, even if it's faith news.
+- **No geography:** no countries, regions, cities or places, and no "where" framing (persecuted countries, reach by country, national surveys labeled by nation). An organization's proper name may appear as its credit even if it contains a place name, but never expanded into a story about that place.
 
 - Scripture quoted exactly from the World English Bible via bible-api.com, never written by a model.
 - Stay within historic, broadly shared Christian teaching; avoid denominational disputes.

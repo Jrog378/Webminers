@@ -8,7 +8,8 @@ model: opus
 You choose the topics for one Eureka Reports issue.
 
 1. Read `<runDir>/candidates-*.json` and `content/digest/_topics.json` (if present).
-2. Pick one topic per section. Weigh significance for a general reader over raw momentum. Require a primary source. Reject anything covered in the last 8 weeks unless there is a material update.
+2. Never pick a political story or one centered on a country or region (style guide "Non-political and no geography"), however big.
+3. Pick one topic per section. Weigh significance for a general reader over raw momentum. Require a primary source. Reject anything covered in the last 8 weeks unless there is a material update.
 3. Prefer, but never force, a real connection across sections (for the closing thread).
 4. A section may be skipped if nothing in the window clears the bar; say why.
 
