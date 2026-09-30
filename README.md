@@ -149,6 +149,24 @@ committed). Files:
   above, kept in case the recolor needs to be redone differently. Committed
   to the repo, not gitignored.
 
+## Eureka Reports (AI-written section)
+
+`/eureka` is the site's automated, AI-researched section, kept separate from Justin's own `/articles`. Its editions:
+- **AI Overview:** Wednesday and Saturday.
+- **Coding with Christ:** Sunday.
+
+Every report:
+- is fact-checked by a separate agent
+- lists the AI models that made it
+- is non-political, with no geographic content
+- goes live marked "Needs review" (and `noindex`) until Justin writes an Editor's note and sets `reviewStatus: approved`.
+
+- **Content:** `content/digest/*.md` (AI Overview) and `content/faith/*.md` (Coding with Christ), both served at `/eureka/<slug>`. Templates are `_template.md` in each folder.
+- **Pipeline:** Claude Code cloud routines run the agent team in `.claude/agents/`. `.claude/agents/README.md` gives the order. Each routine's instructions are in `editorial/routine-prompt.md`, `editorial/sunday-routine-prompt.md` and `editorial/monthly-audit-prompt.md`, and every rule is in `editorial/style-guide.md`. Each run writes `digest-runs/<date>/` with a `REVIEW.md` checklist.
+- **Build checks:** `npm run build` first runs `scripts/validate-issues.js`, which fails if a report lacks `models`, sources, valid citations or similar. Then `scripts/generate-sitemap.js` regenerates `public/sitemap.xml`. **Don't hand-edit the sitemap.** Add new static pages to `STATIC_PAGES` in that script.
+- **Images:** openly licensed stock photos only, saved as WebP under `public/images/eureka/<slug>/`, credited on the page. The history of used images is in `content/_images.json`.
+- **Owner's guide:** schedules, the review routine and search-engine setup are in `~/Claude/Code/Planning/eureka-reports-guide.md`.
+
 ## Known issues / follow-ups
 
 - Dependency vulnerabilities: local `npm audit` reported 94 (7 low / 12
