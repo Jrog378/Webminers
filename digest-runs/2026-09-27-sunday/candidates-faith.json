@@ -1,0 +1,106 @@
+{
+  "weekStart": "2026-09-20",
+  "weekEnd": "2026-09-26",
+  "sourcesTried": [
+    {
+      "name": "Google News RSS (10 queries: Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, Wycliffe, YouVersion, SIL AI, illumiNations, Barna AI)",
+      "status": "ok"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Christianity Today RSS (/feed/)",
+      "status": "ok but near-empty (4KB)"
+    },
+    {
+      "name": "Mission Network News RSS",
+      "status": "stale feed; articles read directly"
+    },
+    {
+      "name": "Transform Iran newsroom",
+      "status": "ok"
+    },
+    {
+      "name": "Wycliffe USA blog",
+      "status": "ok, nothing in window"
+    },
+    {
+      "name": "SIL news (sil.org/news)",
+      "status": "404"
+    },
+    {
+      "name": "YouVersion news (youversion.com/news)",
+      "status": "404"
+    },
+    {
+      "name": "illumiNations news (illuminations.bible/news)",
+      "status": "404"
+    },
+    {
+      "name": "Barna research",
+      "status": "ok"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "error (non-JSON response)"
+    },
+    {
+      "name": "Reddit r/Christianity .rss",
+      "status": "ok, nothing substantive"
+    },
+    {
+      "name": "WebSearch",
+      "status": "ok"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-09-20 to 2026-09-26",
+      "candidates": [
+        {
+          "title": "AI is transforming ministry in Iran",
+          "summary": "MNN interview with Lana Silk: Transform Iran's Kairos chatbot (Bible-based answers from a vetted apologetics library, 24/7 human oversight, anonymous, free VPN) is now used in ~172 countries and 27 of the top 30 Open Doors World Watch List countries; it points users toward pastors, reconciliation and therapy.",
+          "primaryUrl": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+          "date": "2026-09-24",
+          "organization": "Transform Iran (reported by Mission Network News)",
+          "whyNotChosen": null
+        },
+        {
+          "title": "A surprising number of Americans use AI for spiritual reasons. Here's what they told us",
+          "summary": "NPR/Ipsos poll: among AI users, 11% sought spiritual guidance, 13% generated prayers, 15% used it to study Scripture; nearly 7 in 10 say they never would seek spiritual guidance from AI.",
+          "primaryUrl": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+          "date": "2026-09-25",
+          "organization": "NPR / Ipsos",
+          "whyNotChosen": "Survey data rather than a ministry story; used as supporting context and the wisdom concern."
+        },
+        {
+          "title": "Nashville team uses AI to convert whole Bible into musical form",
+          "summary": "Music Bible / TheSinging.Bible: ~70-person Nashville team set the full Bible text to AI-generated music in 11 genres, no words changed.",
+          "primaryUrl": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+          "date": "2026-09-21",
+          "organization": "TheSinging.Bible",
+          "whyNotChosen": "Launched late August (RNS 2026-09-09 already reported 1M plays); in-window coverage is largely a press-release rewrite (newswire.com)."
+        },
+        {
+          "title": "Vietnamese priest trains clergy and lay leaders to use AI in pastoral ministry",
+          "summary": "Camillian priest representing Vietnam's bishops at the First Asian Catholic Digital Missionary Assembly; stresses human encounter.",
+          "primaryUrl": null,
+          "date": "2026-09-23",
+          "organization": "Herald Malaysia / Catholic Bishops' Conference of Vietnam",
+          "whyNotChosen": "Article URL not resolved (only Google News redirect seen); profile rather than a development."
+        },
+        {
+          "title": "Pushpay Unveils Next Wave of ChurchStaq and ParishStaq Transformation",
+          "summary": "Church-software vendor product announcement.",
+          "primaryUrl": null,
+          "date": "2026-09-23",
+          "organization": "Pushpay",
+          "whyNotChosen": "Vendor press release; minor product news."
+        }
+      ]
+    }
+  ]
+}

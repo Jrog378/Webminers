@@ -40,6 +40,10 @@ You pick the hero image for one issue. Read `<runDir>/topics.json` and `<runDir>
 - **Safety and fairness**: no identifiable private individuals; for stories about persecution, conflict or vulnerable people, no faces at all; no logos or brand imagery that could imply the company endorsed the article; nothing graphic.
 - Don't use images that are themselves AI-generated unless clearly labeled as such by the source, and then say so in the credit.
 
+## Reject watermarks and previews
+- Download the full, clean file the license covers — never a watermarked preview or thumbnail. Rawpixel's Openverse URLs often point to watermarked previews; if the only accessible file is watermarked, reject it.
+- **Look at the final WebP yourself before accepting it** (open it with the Read tool, which displays images). Reject any image with a watermark, stock-site logo, "preview" text, heavy compression artifacts, or a person's face where faces aren't allowed. Record in `tried` that you inspected it.
+
 ## Download and convert
 Save to `public/images/eureka/<slug>/<descriptive-name>.webp`, where `<slug>` is the issue slug (from `seo.json` if it exists, else the run date) and `<descriptive-name>` is 3–6 lowercase hyphenated words describing the image and including the story's main keyword (e.g. `one-word-answers-model-distillation-diagram.webp`). Never `hero.webp`, `image1` or camera names. Convert with sharp (already a dependency): max 1600 px wide, WebP quality ~80. Then run `file` on the output and confirm it reports "Web/P image" — this site has had mislabeled images before. Record the final width and height.
 

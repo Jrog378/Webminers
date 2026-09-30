@@ -1,0 +1,394 @@
+[
+  {
+    "id": "K1",
+    "claim": "Per Lana Silk (Transform Iran), Kairos is now in around 172 countries and used in 27 of the top 30 Open Doors watch list countries.",
+    "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "quote": "Silk says that it is now in around 172 countries around the world. It is being used in 27 of the top 30 countries on the Open Doors watch list for global persecution.",
+    "sourceType": "Reporting",
+    "date": "2026-09-24"
+  },
+  {
+    "id": "K2",
+    "claim": "Silk says some users choose Kairos to avoid embarrassment or judgment from Christians, not only for safety reasons.",
+    "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "quote": "people were seeking and didn't want the sort of pressure or judgment they were expecting to come from Christians in their own personal pursuit of truth. Those kinds of people are choosing Kairos",
+    "sourceType": "Reporting",
+    "date": "2026-09-24"
+  },
+  {
+    "id": "K3",
+    "claim": "Testimony (per Silk): Kairos pushed a woman toward reconciliation, involving her pastor, and therapy.",
+    "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "quote": "it just keeps pushing for the next step. So it pushed her to then go and involve their pastor",
+    "sourceType": "Reporting",
+    "date": "2026-09-24"
+  },
+  {
+    "id": "K4",
+    "claim": "MNN reports Kairos is anonymous, has 24-7 human oversight, is free in poor/persecuted countries, and Transform Iran provides a free VPN.",
+    "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "quote": "Kairos is completely free for people in poor and persecuted countries. Transform Iran also provides a free VPN to keep their spiritual inquiries safe.",
+    "sourceType": "Reporting",
+    "date": "2026-09-24"
+  },
+  {
+    "id": "K4b",
+    "claim": "MNN states as fact that January crackdowns killed 30,000 (figure not independently established; see C1-C5).",
+    "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "quote": "Kairos became a haven for seekers after the brutal government crackdowns in January that killed 30,000.",
+    "sourceType": "Reporting",
+    "date": "2026-09-24"
+  },
+  {
+    "id": "K5",
+    "claim": "Kairos was described as newly launched in Aug 2025 and pulls only from a vetted library of Transform Iran's apologetics center.",
+    "url": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+    "quote": "It pulls only from a carefully vetted library of resources from Transform Iran's Christian apologetics center.",
+    "sourceType": "Reporting",
+    "date": "2025-08-19"
+  },
+  {
+    "id": "K6",
+    "claim": "Kairos suggests when human counseling is needed and can refer to Transform Iran's follow-up counseling team.",
+    "url": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+    "quote": "Kairos will suggest to them when human counseling is needed. It can point people to contact Transform Iran's follow-up counseling team.",
+    "sourceType": "Reporting",
+    "date": "2025-08-19"
+  },
+  {
+    "id": "K7",
+    "claim": "Silk criticized general AI answers on faith as humanist and sometimes favoring false doctrines.",
+    "url": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+    "quote": "you will get very humanist, sort of 'open to all possibilities' kinds of answers, and sometimes favoring false doctrines as well.",
+    "sourceType": "Reporting",
+    "date": "2025-08-19"
+  },
+  {
+    "id": "K8",
+    "claim": "Transform Iran says Silk welcomed scrutiny of Kairos from YouVersion founder Bobby Gruenewald.",
+    "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+    "quote": "Lana Silk explained why she welcomed scrutiny from YouVersion founder Bobby Gruenewald",
+    "sourceType": "Official",
+    "date": "2025-12-12"
+  },
+  {
+    "id": "K9",
+    "claim": "Kairos is designed to say it does not know rather than guess.",
+    "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+    "quote": "I do not know the answer to your question. Check back in a few days while our team works on it.",
+    "sourceType": "Official",
+    "date": "2025-12-12"
+  },
+  {
+    "id": "K10",
+    "claim": "Transform Iran adjusted Kairos after it began offering to pray for people, to avoid replacing the role of God or a pastor.",
+    "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+    "quote": "We adjusted the language to make sure users understood that it guides them in prayer, rather than replacing the role of God or a human pastor.",
+    "sourceType": "Official",
+    "date": "2025-12-12"
+  },
+  {
+    "id": "K11",
+    "claim": "Silk: measures ensure users do not think they're talking to a human or God.",
+    "url": "https://transformiran.com/newsroom/new-ai-tool-helps-minister-in-hard-to-reach-places/",
+    "quote": "We don't want people to be misled and to get into a place where they think they're interacting with a human, or worse, with God himself.",
+    "sourceType": "Reporting",
+    "date": "2025-12-29"
+  },
+  {
+    "id": "K12",
+    "claim": "Transform Iran offers a free VPN because people fear government tracking; Silk says Kairos is not a replacement for human discipling.",
+    "url": "https://transformiran.com/newsroom/new-ai-tool-helps-minister-in-hard-to-reach-places/",
+    "quote": "She says it's not a replacement for human discipling, but it is a tool they hope will bolster the Church.",
+    "sourceType": "Reporting",
+    "date": "2025-12-29"
+  },
+  {
+    "id": "K13",
+    "claim": "Transform Iran reports a seeker ('Keyvan', pseudonym) in Jan 2026 committed to Christ and contacted a church community recommended by Kairos.",
+    "url": "https://transformiran.com/impact/from-questions-to-faith-iran-kairos/",
+    "quote": "He prayed as guided and reached out to a church community recommended by Kairos to grow in his newfound faith.",
+    "sourceType": "Official",
+    "date": "2026-01-30"
+  },
+  {
+    "id": "K14",
+    "claim": "Transform Iran statement: Kairos built on Scripture and nearly 7,000 Porpasokh articles, 5,286 data points.",
+    "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+    "quote": "nearly 7,000 research articles published in the Porpasokh Apologetics Center, creating a critically curated list of 5,286 data points for Kairos' launch.",
+    "sourceType": "Reporting",
+    "date": "2026-08-07"
+  },
+  {
+    "id": "K15",
+    "claim": "Kairos is available in 256 languages (CP).",
+    "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+    "quote": "Kairos is available in 256 languages",
+    "sourceType": "Reporting",
+    "date": "2026-08-07"
+  },
+  {
+    "id": "K16",
+    "claim": "Silk told CP of a man in Iran during the protests who decided to follow Jesus after a Kairos conversation.",
+    "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+    "quote": "I've chosen to follow Jesus.' It's just remarkable.",
+    "sourceType": "Reporting",
+    "date": "2026-08-07"
+  },
+  {
+    "id": "K17",
+    "claim": "Transform Iran says every Kairos response is curated from Scripture and vetted resources.",
+    "url": "https://transformiran.com/our-work/kairos/",
+    "quote": "Every response is carefully curated from Scripture and strictly vetted resources",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "K18",
+    "claim": "Transform Iran says every response is monitored by theologians/apologists, unanswered questions get human answers within 48 hours, and interactions are secure and private.",
+    "url": "https://transformiran.com/our-work/kairos/",
+    "quote": "Questions beyond Kairos' current database are flagged for human review and answered within 48 hours",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "K18b",
+    "claim": "Transform Iran says every response is monitored by Christian theologians and apologists.",
+    "url": "https://transformiran.com/our-work/kairos/",
+    "quote": "Every response is monitored by Christian theologians and apologists to maintain credibility, safety, and pastoral sensitivity.",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "K19",
+    "claim": "Kairos links users to human-led ministries: Digital Church, church planting support, trauma counseling (Pearl), Porpasokh.",
+    "url": "https://transformiran.com/our-work/kairos/",
+    "quote": "By linking digital users to trusted, human-led ministries, Kairos ensures that online guidance translates into real-world spiritual growth and community.",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "K20",
+    "claim": "Transform Iran says Kairos is not a replacement for faith, discernment or pastoral care.",
+    "url": "https://transformiran.com/our-work/kairos/",
+    "quote": "It is not a replacement for faith, discernment, or pastoral care",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "C1",
+    "claim": "Iran's government put the protest death toll at 3,117 (Jan 21); HRANA then counted 4,519 with 9,049 under review.",
+    "url": "https://www.aljazeera.com/news/2026/1/21/at-least-3117-people-killed-during-iran-protests-state-media-reports",
+    "quote": "reporting that 3,117 people were killed during the crackdown",
+    "sourceType": "Reporting",
+    "date": "2026-01-21"
+  },
+  {
+    "id": "C2",
+    "claim": "AP: HRANA counted at least 7,002 killed; AP could not independently assess the toll.",
+    "url": "https://gulfnews.com/world/mena/death-toll-from-irans-crackdown-on-protests-rises-beyond-7000-activists-say-1.500440296",
+    "quote": "The Associated Press has been unable to independently assess the death toll",
+    "sourceType": "Reporting",
+    "date": "2026-02"
+  },
+  {
+    "id": "C2b",
+    "claim": "AP: HRANA toll at least 7,002.",
+    "url": "https://gulfnews.com/world/mena/death-toll-from-irans-crackdown-on-protests-rises-beyond-7000-activists-say-1.500440296",
+    "quote": "has reached at least 7,002 people killed with many more still feared dead",
+    "sourceType": "Reporting",
+    "date": "2026-02"
+  },
+  {
+    "id": "C3",
+    "claim": "Amnesty: UN Special Rapporteur said at least 5,000 killed, possibly up to 20,000; true number likely higher.",
+    "url": "https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/",
+    "quote": "said in a media interview that at least 5,000 people had been killed, noting that according to information she received from medical sources, the death toll might be as high as 20,000",
+    "sourceType": "Official",
+    "date": "2026-01-26"
+  },
+  {
+    "id": "C4",
+    "claim": "TIME: two senior Iranian Health Ministry officials said as many as 30,000 could have been killed on Jan 8-9.",
+    "url": "https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/",
+    "quote": "As many as 30,000 people could have been killed in the streets of Iran on Jan. 8 and 9 alone, two senior officials of the country's Ministry of Health told TIME",
+    "sourceType": "Reporting",
+    "date": "2026-01-25"
+  },
+  {
+    "id": "C5",
+    "claim": "The Guardian: a doctors' network estimates the toll could exceed 30,000.",
+    "url": "https://www.theguardian.com/global-development/2026/jan/27/iran-protests-death-toll-disappeared-bodies-mass-burials-30000-dead",
+    "quote": "they estimate it could exceed 30,000, far surpassing official figures",
+    "sourceType": "Reporting",
+    "date": "2026-01-27"
+  },
+  {
+    "id": "M1",
+    "claim": "A ~70-person Nashville team used AI to set the entire Bible to music in 11 genres (plus 3 Spanish), without changing scripture.",
+    "url": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+    "quote": "In total there are 11 different genres to pick from, each one covering the complete text of the Bible from beginning to end.",
+    "sourceType": "Reporting",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "M2",
+    "claim": "Christian Today reports not one word of scripture changed (company's claim).",
+    "url": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+    "quote": "the key point is that not one word of scripture has been changed",
+    "sourceType": "Reporting",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "M3",
+    "claim": "Music Bible app officially launched Sep 22 on iOS and Android; 72-person team in 11 countries; NASB under license (RNS story as republished by The Citizen).",
+    "url": "https://thecitizen.com/2026/09/29/ai-turns-the-bible-into-30000-songs-without-changing-a-word/",
+    "quote": "The Music Bible app officially launched September 22 on iOS and Android.",
+    "sourceType": "Reporting",
+    "date": "2026-09-22"
+  },
+  {
+    "id": "M4",
+    "claim": "Music Bible uses Suno and ChatGPT and commits never to use AI to interpret or paraphrase Scripture.",
+    "url": "https://www.themusicbible.org/ai-transparency",
+    "quote": "The Music Bible® utilizes AI platforms including Suno and ChatGPT to assist in creating musical arrangements, instrumentals, and vocals.",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "M5",
+    "claim": "Music Bible admits occasional repetition of words/phrases for musical expression.",
+    "url": "https://www.themusicbible.org/ai-transparency",
+    "quote": "occasionally, a word or phrase may be repeated for musical expression",
+    "sourceType": "Official",
+    "date": null
+  },
+  {
+    "id": "M6",
+    "claim": "Fiechter: flagged inaccurate songs are pulled within 24 hours.",
+    "url": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+    "quote": "If we ever deviate from that and it gets flagged, we pull it down within 24 hours and replace it.",
+    "sourceType": "Reporting",
+    "date": null
+  },
+  {
+    "id": "M7",
+    "claim": "Fiechter does not support using AI to interpret Scripture.",
+    "url": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+    "quote": "I personally, at this moment in time, do not support the use of AI for interpreting Scripture and I don't use it that way.",
+    "sourceType": "Reporting",
+    "date": null
+  },
+  {
+    "id": "B1",
+    "claim": "Barna/Gloo (published Sep 15, 2026): 34% of Gen Z and Millennials attend church more often than a year ago; 45% same; 21% less.",
+    "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+    "quote": "Among Gen Z and Millennials, about one in three (34%) say they're attending church more often. Roughly two in five (45%) say nothing has changed. About one in five (21%) say less.",
+    "sourceType": "Official",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "B2",
+    "claim": "Prayer is the top spiritual reason young adults attend (45%); worship with others 38%.",
+    "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+    "quote": "Nearly half of young adults (45%) say prayer is a reason they attend church, the single most-selected spiritual reason on the list.",
+    "sourceType": "Official",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "B3",
+    "claim": "Barna cautions the data is not a sweeping movement.",
+    "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+    "quote": "The data reported here isn't evidence of a sweeping spiritual movement as much as a traceable pattern",
+    "sourceType": "Official",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "B4",
+    "claim": "Barna survey fieldwork Oct 17-30, 2025, n=3,049 US adults 18-35.",
+    "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+    "quote": "Survey data was collected October 17-30, 2025, among n=3,049 U.S. adults ages 18 to 35.",
+    "sourceType": "Official",
+    "date": "2026-09-15"
+  },
+  {
+    "id": "N1",
+    "claim": "NPR/Ipsos poll: 1,011 US adults, Aug 7-9, 2026; 61% have used an AI tool.",
+    "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+    "quote": "Ipsos polled 1,011 U.S. adults from Aug. 7 through Aug. 9 of this year. Overall, 61% of respondents said they have used an artificial intelligence tool",
+    "sourceType": "Reporting",
+    "date": "2026-09-25"
+  },
+  {
+    "id": "N2",
+    "claim": "11% of AI users sought spiritual guidance from AI; 13% generated prayers; 15% studied Scripture.",
+    "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+    "quote": "The poll found that 11% of AI users have sought spiritual guidance from artificial intelligence, while 13% have used the technology to generate prayers, and 15% say they have used it to study Scripture.",
+    "sourceType": "Reporting",
+    "date": "2026-09-25"
+  },
+  {
+    "id": "N3",
+    "claim": "Nearly 7 in 10 AI users said they would never seek religious or spiritual guidance from AI.",
+    "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+    "quote": "Nearly 7 in 10 poll respondents who use AI said they would never seek religious or spiritual guidance from AI.",
+    "sourceType": "Reporting",
+    "date": "2026-09-25"
+  },
+  {
+    "id": "N4",
+    "claim": "6% of Americans overall currently use AI for spiritual guidance.",
+    "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+    "quote": "the number of Americans overall who are currently using AI for spiritual guidance is small — just 6%",
+    "sourceType": "Reporting",
+    "date": "2026-09-25"
+  },
+  {
+    "id": "N5",
+    "claim": "Ipsos: people are more likely to turn to family/friends than AI for counsel.",
+    "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+    "quote": "When it comes to counsel, people are still significantly more likely to turn to their family members or their friends than they are to AI",
+    "sourceType": "Reporting",
+    "date": "2026-09-25"
+  },
+  {
+    "id": "G1",
+    "claim": "YouVersion's Gruenewald: best AI models misquote Scripture at least 15% of the time, some up to 60%.",
+    "url": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+    "quote": "misquotes Scripture at least 15% of the time,\" Gruenewald said. \"Some of them as much as 60% of the time.",
+    "sourceType": "Reporting",
+    "date": "2026-03"
+  },
+  {
+    "id": "G2",
+    "claim": "YouVersion has chosen not to launch a public-facing theological Q&A chatbot, citing accuracy.",
+    "url": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+    "quote": "But the organization has chosen not to launch a public-facing chatbot that answers theological questions. The reason, he said, is accuracy.",
+    "sourceType": "Reporting",
+    "date": "2026-03"
+  },
+  {
+    "id": "G3",
+    "claim": "Gruenewald: AI must be better before relying on it for direction from God's Word.",
+    "url": "https://www.christiantoday.com/news/ai-still-too-inaccurate-when-it-comes-to-scripture-says-youversion-founder",
+    "quote": "When it comes to answering life's most important questions and trying to give direction from God's Word, we need it to be better in order to rely on it",
+    "sourceType": "Reporting",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "V1",
+    "claim": "Vatican Antiqua et Nova (Jan 28, 2025): no AI can genuinely experience empathy; genuine relationships irreplaceable.",
+    "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "quote": "no AI application can genuinely experience empathy",
+    "sourceType": "Official",
+    "date": "2025-01-28"
+  },
+  {
+    "id": "V2",
+    "claim": "Antiqua et Nova: misrepresenting AI as a person should always be avoided.",
+    "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "quote": "misrepresenting AI as a person should always be avoided",
+    "sourceType": "Official",
+    "date": "2025-01-28"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "published",
+  "issueDate": "2026-09-30",
+  "week": "Sun Sep 20 – Sat Sep 26, 2026",
+  "slug": "2026-09-30-kairos-ai-bible-chatbot",
+  "tier": "this-week (Tier 1)",
+  "verse": "Acts 8:30-31",
+  "factcheck": {
+    "round1": {
+      "checked": 64,
+      "pass": 39,
+      "fix": 24,
+      "cut": 1
+    },
+    "round2": {
+      "pass": 17
+    },
+    "round3": {
+      "pass": 10,
+      "fix": 2
+    }
+  },
+  "editor": "PASS",
+  "revisions": [
+    "Owner rules applied mid-run: non-political and no geography (crackdown/death-toll paragraph, country reach figures, Barna item and all place names removed)",
+    "Hero image replaced: Rawpixel preview was watermarked; replaced with Wikimedia Commons CC BY 2.0"
+  ],
+  "notes": [
+    "Sample run for last week, generated Wed Sep 30 from the main session"
+  ]
+}

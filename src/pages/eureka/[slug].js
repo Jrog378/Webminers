@@ -17,6 +17,8 @@ const CLAIM_STEPS = [
     {key: 'replicated', label: 'Replicated'},
 ]
 
+const weekday = (iso) => new Date(iso).toLocaleDateString('en-US', {weekday: 'long', timeZone: 'America/New_York'})
+
 const formatDate = (iso) => new Date(iso).toLocaleDateString('en-US', {
     month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York',
 })
@@ -88,7 +90,7 @@ function DigestIssue({issue}) {
         "url": url,
         "isAccessibleForFree": true,
         ...(issue.hero?.src ? {"image": heroSchema(issue.hero)} : {}),
-        "isPartOf": {"@type": "CreativeWorkSeries", "name": "Eureka Reports", "url": `${SITE}/eureka`},
+        "isPartOf": {"@type": "CreativeWorkSeries", "name": "Eureka Reports: AI Overview", "url": `${SITE}/eureka`},
         "author": {"@type": "Organization", "name": "Webminers AI Desk", "url": `${SITE}/about/ai-desk`},
         ...(pending ? {} : {"editor": {"@type": "Person", "name": issue.reviewedBy}}),
         "publisher": {"@type": "Organization", "name": "Webminers AI", "url": SITE},
@@ -135,9 +137,12 @@ function DigestIssue({issue}) {
 
                 <header className="bg-brand-glow">
                     <div className="mx-auto max-w-3xl px-4 pb-8 pt-10 sm:px-6">
-                        <Link href="/eureka" className="text-sm font-bold uppercase tracking-widest text-accent hover:text-fg">
-                            Eureka Reports
-                        </Link>
+                        <div className="flex flex-wrap items-center gap-3">
+                            <Link href="/eureka" className="text-sm font-bold uppercase tracking-widest text-accent hover:text-fg">
+                                Eureka Reports · {weekday(issue.datePublished)}
+                            </Link>
+                            <span className="text-sm font-bold uppercase tracking-widest text-fg">AI Overview</span>
+                        </div>
                         <h1 className="mt-3 text-3xl font-bold leading-tight text-fg sm:text-5xl">{issue.headline}</h1>
                         <p className="mt-4 text-lg text-dim sm:text-xl">{issue.dek}</p>
                         <div className="mt-6 flex flex-wrap gap-x-6 gap-y-1 text-sm text-dim">

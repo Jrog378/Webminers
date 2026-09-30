@@ -7,7 +7,7 @@ Loaded by the writer, format editor, fact-checker, SEO and editor agents on ever
 ## Non-political and no geography (hard rules, owner's instruction 2026-09-30)
 
 Eureka Reports is not political and has no geographic content, in any edition.
-- **No geography:** no countries, regions, cities or places, no national or regional framing ("Chinese labs", "in Europe", "U.S. adults", "across Asia"), and no reach-by-country figures. Organizations, companies and universities are named as credits even if their names contain a place ("Georgia Tech", "Transform Iran"), but the story is never about where they are. If a story can't be told without its geography, skip it.
+- **No geography:** no countries, regions, cities or places, no national or regional framing ("Chinese labs", "in Europe", "U.S. adults", "across Asia"), and no reach-by-country figures. Organizations, companies and universities are named as credits even if their names contain a place ("Georgia Tech", "Transform Iran"), but the story is never about where they are. If a story can't be told without its geography, skip it. Exact source titles in the `sources` list are exempt: citations reproduce the real title even if it names a place.
 - **Don't cover** stories that are political at their core: elections, candidates and parties, legislation and policy fights, government officials' statements or actions, sanctions and trade wars, protests and crackdowns, wars and geopolitical conflicts, or culture-war topics. Skip them at topic selection even if they're the biggest AI story of the week.
 - **Don't add** political framing to non-political stories: no quotes from politicians or government officials, no "policy fight" context, no partisan labels, no commentary on governments.
 - **Neutral facts only where unavoidable**: if a story can't be told without one (e.g. "a law requires this label on AI images"), state it in one plain, unattributed-to-party sentence and move on. If the story needs more than that, it's political and should be skipped.
@@ -46,7 +46,7 @@ Eureka Reports is not political and has no geographic content, in any edition.
 - Byline: "Webminers AI Desk". Justin Rogers is the reviewer, never the author.
 - No fake human personas.
 - Every issue gets one openly licensed hero image (see `digest-image-finder`): commercial use and modification allowed, credited under the image, rotated across sources. No faces in stories about persecution or vulnerable people; no logos implying endorsement.
-- Every issue lists the AI models that made it (`models` frontmatter), shown in the "How this was made" box. It records what actually ran, set by the publisher step.
+- Every issue lists the AI models that made it (`models` frontmatter), shown in the byline and the "How this was made" box. It is required: `scripts/validate-issues.js` fails the build without it. It records what actually ran, set by the publisher step.
 - **The Editor's note is Justin's alone.** No agent writes, drafts into the page, or signs an Editor's note. Drafts ship with `editorsNote: null` and `reviewStatus: pending`, and the page shows a placeholder until Justin reviews and writes it.
 
 ## Issue structure (Eureka Reports)

@@ -1,0 +1,326 @@
+{
+ "issue": "2026-09-27-sunday",
+ "sources": {
+  "1": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+  "2": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+  "3": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+  "4": "https://transformiran.com/our-work/kairos/",
+  "5": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+  "6": "https://transformiran.com/impact/from-questions-to-faith-iran-kairos/",
+  "7": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+  "8": "https://thecitizen.com/2026/09/29/ai-turns-the-bible-into-30000-songs-without-changing-a-word/",
+  "9": "https://www.themusicbible.org/ai-transparency",
+  "10": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+  "11": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+  "12": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo"
+ },
+ "citations": [
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "Kairos, a chatbot from the ministry Transform Iran, is an AI tool that answers questions about Christianity [[1]].",
+   "claimIds": [
+    "K4"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "Transform Iran's Lana Silk told Mission Network News (MNN) how people are using it, in comments MNN reported Sep 24 [[1]].",
+   "claimIds": [
+    "K1",
+    "K3"
+   ]
+  },
+  {
+   "citation": 2,
+   "source": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+   "section": "Feature",
+   "sentence": "Kairos is not new; MNN described it as \"newly launched\" in August 2025 [[2]].",
+   "claimIds": [
+    "K5"
+   ]
+  },
+  {
+   "citation": 2,
+   "source": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+   "section": "Feature",
+   "sentence": "**How it works, according to Transform Iran.** Kairos answers from a closed library rather than the open web [[2]] [[3]].",
+   "claimIds": [
+    "K5"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "**How it works, according to Transform Iran.** Kairos answers from a closed library rather than the open web [[2]] [[3]].",
+   "claimIds": [
+    "K8"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://transformiran.com/our-work/kairos/",
+   "section": "Feature",
+   "sentence": "The ministry says \"every response is carefully curated from Scripture and strictly vetted resources\" [[4]].",
+   "claimIds": [
+    "K17"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "A December 2025 Transform Iran newsroom post about a KMUZ Radio interview described its knowledge base as \"over 5,000 articles, apologetics, and Scripture\" [[3]].",
+   "claimIds": [
+    "K8"
+   ]
+  },
+  {
+   "citation": 5,
+   "source": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+   "section": "Feature",
+   "sentence": "A Transform Iran statement to The Christian Post in August cited \"nearly 7,000 research articles\" from its Porpasokh Apologetics Center [[5]].",
+   "claimIds": [
+    "K14"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "When Kairos is unsure, it is designed to say, \"I do not know the answer to your question\" [[3]].",
+   "claimIds": [
+    "K9"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://transformiran.com/our-work/kairos/",
+   "section": "Feature",
+   "sentence": "Transform Iran says questions beyond its database are \"flagged for human review and answered within 48 hours\" [[4]].",
+   "claimIds": [
+    "K18"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "It changed Kairos' wording after the tool began offering to pray for people, so users understood it \"guides them in prayer, rather than replacing the role of God or a human pastor\" [[3]].",
+   "claimIds": [
+    "K8"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "Transform Iran provides a free VPN, a service that hides a user's internet traffic, \"to keep their spiritual inquiries safe\" [[1]].",
+   "claimIds": [
+    "K4"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://transformiran.com/our-work/kairos/",
+   "section": "Feature",
+   "sentence": "Transform Iran says \"every response is monitored by Christian theologians and apologists\" [[4]].",
+   "claimIds": [
+    "K18b"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "MNN describes the service as strictly anonymous unless a user chooses to say who they are [[1]].",
+   "claimIds": [
+    "K4"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "None of the Transform Iran or MNN pages cited here explains how Kairos handles this [[1]] [[3]] [[4]].",
+   "claimIds": [
+    "K1"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://transformiran.com/our-work/kairos/",
+   "section": "Feature",
+   "sentence": "None of the Transform Iran or MNN pages cited here explains how Kairos handles this [[1]] [[3]] [[4]].",
+   "claimIds": [
+    "K17"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "None of the Transform Iran or MNN pages cited here explains how Kairos handles this [[1]] [[3]] [[4]].",
+   "claimIds": [
+    "K8"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "\"Those kinds of people are choosing Kairos,\" she said [[1]].",
+   "claimIds": [
+    "K2"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "Then \"it pushed her to then go and involve their pastor,\" and later to seek therapy [[1]].",
+   "claimIds": [
+    "K3"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "section": "Feature",
+   "sentence": "Silk said [[1]].",
+   "claimIds": [
+    "K1"
+   ]
+  },
+  {
+   "citation": 6,
+   "source": "https://transformiran.com/impact/from-questions-to-faith-iran-kairos/",
+   "section": "Feature",
+   "sentence": "Transform Iran reports that a man it calls \"Keyvan,\" a pseudonym, contacted Kairos in January, prayed as guided, and \"reached out to a church community recommended by Kairos\" [[6]].",
+   "claimIds": [
+    "K13"
+   ]
+  },
+  {
+   "citation": 5,
+   "source": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+   "section": "Feature",
+   "sentence": "Silk also told The Christian Post about a man who said, \"I've chosen to follow Jesus\" [[5]].",
+   "claimIds": [
+    "K16"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "section": "Feature",
+   "sentence": "Transform Iran says Silk has welcomed scrutiny from YouVersion founder Bobby Gruenewald [[3]].",
+   "claimIds": [
+    "K8"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://transformiran.com/our-work/kairos/",
+   "section": "Feature",
+   "sentence": "The ministry is also plain about the tool's limits: \"It is not a replacement for faith, discernment, or pastoral care\" [[4]].",
+   "claimIds": [
+    "K20"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+   "section": "Also Encouraging",
+   "sentence": "**Music Bible launches its app.** A team led by founder Micah Fiechter has used AI to set the entire Bible to music in 11 genres, plus three in Spanish [[7]].",
+   "claimIds": [
+    "M1"
+   ]
+  },
+  {
+   "citation": 8,
+   "source": "https://thecitizen.com/2026/09/29/ai-turns-the-bible-into-30000-songs-without-changing-a-word/",
+   "section": "Also Encouraging",
+   "sentence": "The Music Bible app (themusicbible.org) launched Sep 22 on iOS and Android [[8]].",
+   "claimIds": [
+    "M3"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://www.themusicbible.org/ai-transparency",
+   "section": "Also Encouraging",
+   "sentence": "The company says it uses AI tools including Suno and ChatGPT for the music, never to interpret Scripture, though its own page notes that \"occasionally, a word or phrase may be repeated for musical expression\" [[9]].",
+   "claimIds": [
+    "M4",
+    "M5"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+   "section": "Also Encouraging",
+   "sentence": "Human reviewers check the songs, and Fiechter says flagged ones are pulled \"within 24 hours\" [[10]].",
+   "claimIds": [
+    "M6"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+   "section": "Also Encouraging",
+   "sentence": "\"I personally, at this moment in time, do not support the use of AI for interpreting Scripture,\" he said [[10]].",
+   "claimIds": [
+    "M7"
+   ]
+  },
+  {
+   "citation": 11,
+   "source": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+   "section": "Wisdom Corner",
+   "sentence": "In an NPR/Ipsos poll of 1,011 adults, published by NPR on Sep 25 and updated Sep 28, 11% of AI users surveyed said they have sought spiritual guidance from AI, 13% have used it to generate prayers and 15% to study Scripture [[11]].",
+   "claimIds": [
+    "N1",
+    "N2"
+   ]
+  },
+  {
+   "citation": 11,
+   "source": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+   "section": "Wisdom Corner",
+   "sentence": "Nearly 7 in 10 AI users surveyed said they would never seek spiritual guidance from AI, and just 6% of all adults surveyed currently do [[11]].",
+   "claimIds": [
+    "N3",
+    "N4"
+   ]
+  },
+  {
+   "citation": 12,
+   "source": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+   "section": "Wisdom Corner",
+   "sentence": "YouVersion's Bobby Gruenewald says even the best AI models misquote Scripture at least 15% of the time, and YouVersion has chosen not to launch a public-facing chatbot that answers theological questions [[12]].",
+   "claimIds": [
+    "G1",
+    "G2"
+   ]
+  },
+  {
+   "citation": 12,
+   "source": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+   "section": "Wisdom Corner",
+   "sentence": "He was describing open-ended AI chat models, not Kairos, but the standard is a fair one to apply: \"we need it to be better in order to rely on it\" [[12]].",
+   "claimIds": [
+    "G3"
+   ]
+  }
+ ],
+ "notes": [
+  "Fact-check round 1 applied (see factcheck.json).",
+  "Non-political + no-geography revision 2026-09-30: removed crackdown/death-toll paragraph, reach figures (172 countries; 27 of top 30 Open Doors), persecuted-country framing, Barna item, and all place names except the proper name \"Transform Iran\". Sources renumbered in first-use order.",
+  "Opening sentence \"is an AI tool that answers questions about Christianity\" is the fact-checked phrase from K1 context (MNN Sep 24); K1 reach numbers no longer used."
+ ]
+}

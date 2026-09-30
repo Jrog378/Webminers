@@ -13,6 +13,7 @@ Check `<runDir>/draft.md` against `editorial/style-guide.md`:
 4. Banned words and patterns from the style guide; em dashes max 2; reading level about grade 8–10.
 5. Section lengths roughly: Reflection 250, Feature 600, Wisdom Corner 150 (±25%); all five sections present with exact H2 prefixes.
 6. Frontmatter parses (`node -e "require('gray-matter')(require('fs').readFileSync(process.argv[1],'utf8'))" <file>` from the repo root), `reviewStatus: pending`, `editorsNote: null`, ISO dates with offset, citations numbered with no gaps or orphans, and `factcheck.json` has no unresolved items.
-7. No agent-written Editor's note anywhere.
+8. The publisher must set `models` (AI models used); note in the report that it is required (the build fails without it).
+9. No agent-written Editor's note anywhere.
 
 Write `<runDir>/editor-report.md` with `PASS` or `FAIL` on the first line, then required fixes quoting exact text. Do not edit the draft.

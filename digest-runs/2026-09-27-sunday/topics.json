@@ -1,0 +1,29 @@
+{
+  "featureType": "this-week",
+  "coverage": "Sun Sep 20 - Sat Sep 26, 2026",
+  "feature": {
+    "title": "AI chatbot Kairos brings anonymous, Bible-based help to seekers in Iran and persecuted nations",
+    "primaryUrl": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+    "organization": "Transform Iran",
+    "why": "Original reporting dated Sep 24 on ministry in a hard place: a named organization's AI tool, built on a vetted Christian library with 24/7 human oversight, now reaching ~172 countries including 27 of the top 30 World Watch List nations, and designed to push users toward pastors, reconciliation and professional help rather than replace them. Claims (reach numbers, the reported testimony, the January crackdown death toll) are Transform Iran's/MNN's as reported and should be attributed, not restated as fact.",
+    "relatedUrls": [
+      "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+      "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+      "https://transformiran.com/newsroom/new-ai-model-kairos-poised-to-reach-iranians/"
+    ]
+  },
+  "alsoEncouraging": [
+    {
+      "title": "Nashville team uses AI to convert whole Bible into musical form (Christian Today)",
+      "url": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "What Young Adults Are Looking for Spiritually at Church (Barna/Gloo: 34% of Gen Z and Millennials attending more often; prayer the top reason)",
+      "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+      "date": "2026-09-15"
+    }
+  ],
+  "wisdomConcern": "A chatbot can answer questions and point to next steps, but it cannot be the Church: discipleship, confession and pastoral care belong to people. NPR/Ipsos (Sep 2026: https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us) found 11% of AI users have sought spiritual guidance from AI, so the question is whether tools like Kairos hand people to human believers, and how doctrinal accuracy and user safety under surveillance are safeguarded.",
+  "reasonsEarlierTiersFailed": "N/A - Tier 1 produced a qualifying story; Tiers 2-3 not needed."
+}

@@ -1,0 +1,31 @@
+{
+  "chosen": {
+    "reference": "Acts 8:30-31",
+    "text": "Philip ran to him, and heard him reading Isaiah the prophet, and said, “Do you understand what you are reading?” He said, “How can I, unless someone explains it to me?” He begged Philip to come up and sit with him.",
+    "translation": "World English Bible",
+    "url": "https://bible-api.com/Acts+8:30-31?translation=web"
+  },
+  "candidates": [
+    {
+      "reference": "Acts 8:30-31",
+      "text": "Philip ran to him, and heard him reading Isaiah the prophet, and said, “Do you understand what you are reading?” He said, “How can I, unless someone explains it to me?” He begged Philip to come up and sit with him.",
+      "url": "https://bible-api.com/Acts+8:30-31?translation=web",
+      "context": "Luke, Acts; to Theophilus and the early church. Philip meets an Ethiopian official reading Isaiah.",
+      "whyItFits": "A seeker with Scripture and questions is not left to a text alone; God sends a person to explain, and the man invites him up. Mirrors Kairos answering seekers while the goal is human guides."
+    },
+    {
+      "reference": "Romans 10:14-15",
+      "text": "How then will they call on him in whom they have not believed? How will they believe in him whom they have not heard? How will they hear without a preacher? And how will they preach unless they are sent? As it is written: “How beautiful are the feet of those who preach the Good News of peace, who bring glad tidings of good things!”",
+      "url": "https://bible-api.com/Romans+10:14-15?translation=web",
+      "context": "Paul, to the church in Rome, on the need for gospel messengers.",
+      "whyItFits": "Faith comes through hearing, and hearing through people who are sent; supports the point that tools serve the sending, not replace it. Risk: reads as preaching-focused and less direct."
+    },
+    {
+      "reference": "Hebrews 10:24-25",
+      "text": "Let us consider how to provoke one another to love and good works, not forsaking our own assembling together, as the custom of some is, but exhorting one another; and so much the more, as you see the Day approaching.",
+      "url": "https://bible-api.com/Hebrews+10:24-25?translation=web",
+      "context": "Anonymous author, to Jewish-background Christians tempted to drift under pressure.",
+      "whyItFits": "Gathering and mutual encouragement are core to discipleship; fits the wisdom concern that a chatbot cannot be the Church. Less tied to the seeker's first encounter; and in persecution, gathering is costly, so must be handled carefully."
+    }
+  ]
+}

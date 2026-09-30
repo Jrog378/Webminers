@@ -123,7 +123,7 @@ export default function FaithIssue({issue}) {
                     <div className="mx-auto max-w-3xl px-4 pb-8 pt-10 sm:px-6">
                         <div className="flex flex-wrap items-center gap-3">
                             <Link href="/eureka" className="text-sm font-bold uppercase tracking-widest text-brand hover:text-fg">
-                                Eureka Reports · Sunday
+                                Eureka Reports · {new Date(issue.datePublished).toLocaleDateString('en-US', {weekday: 'long', timeZone: 'America/New_York'})}
                             </Link>
                             <span className="text-sm font-bold uppercase tracking-widest text-fg">Coding with Christ</span>
                             <span className="rounded-full border !border-brand/40 px-2.5 py-0.5 text-xs font-semibold text-brand">{featureType.label}</span>

@@ -50,7 +50,7 @@ export default function EurekaReports({issues}) {
                             <p className="text-sm font-bold uppercase tracking-widest text-accent">Wednesdays, Saturdays and Sundays</p>
                             <h1 className="mt-2 text-4xl font-bold text-fg">Eureka Reports</h1>
                             <p className="mt-3 max-w-2xl text-dim">
-                                Wednesdays and Saturdays: one AI research deep dive, one news story and one cool invention.
+                                Wednesdays and Saturdays, AI Overview: one AI research deep dive, one news story and one cool invention.
                                 Sundays: Coding with Christ, a verse, a reflection and a sourced story on faith and technology.
                                 Every claim linked to its source. Researched by AI agents, reviewed by Justin Rogers.
                             </p>
@@ -83,14 +83,17 @@ export default function EurekaReports({issues}) {
                                     )}
                                     <div className="border-b-2 border-accent bg-brand-glow p-6">
                                         <div className="flex items-center justify-between gap-3 text-sm">
-                                            <time dateTime={issue.datePublished} className="font-semibold text-accent">{formatDate(issue.datePublished)}</time>
+                                            <time dateTime={issue.datePublished} className="font-semibold text-accent">
+                                                {new Date(issue.datePublished).toLocaleDateString('en-US', {weekday: 'long', timeZone: 'America/New_York'})} · {formatDate(issue.datePublished)}
+                                            </time>
                                             {pending && (
                                                 <span className="rounded-full bg-amber-500/15 px-2.5 py-0.5 text-xs font-semibold text-fg">
                                                     {issue.demo ? 'Demo' : 'Needs review'}
                                                 </span>
                                             )}
                                         </div>
-                                        <h2 className="mt-2 text-lg font-semibold text-fg group-hover:text-accent">{issue.headline}</h2>
+                                        <p className="mt-2 text-xs font-bold uppercase tracking-widest text-accent">AI Overview</p>
+                                        <h2 className="mt-1 text-lg font-semibold text-fg group-hover:text-accent">{issue.headline}</h2>
                                     </div>
                                     <ul className="flex-1 space-y-2 p-6 text-sm">
                                         {stories.map((story) => (
@@ -123,7 +126,7 @@ function SundayCard({issue}) {
             <div className="border-b-2 border-brand bg-brand-glow p-6">
                 <div className="flex items-center justify-between gap-3 text-sm">
                     <time dateTime={issue.datePublished} className="font-semibold text-brand-light">
-                        Sunday · {formatDate(issue.datePublished)}
+                        {new Date(issue.datePublished).toLocaleDateString('en-US', {weekday: 'long', timeZone: 'America/New_York'})} · {formatDate(issue.datePublished)}
                     </time>
                     <span className="flex gap-2">
                         <span className="rounded-full border !border-brand/40 px-2.5 py-0.5 text-xs font-semibold text-brand-light">

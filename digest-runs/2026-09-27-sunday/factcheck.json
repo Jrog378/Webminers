@@ -1,0 +1,698 @@
+{
+ "checked": 64,
+ "passed": 39,
+ "fixed": 24,
+ "cut": 1,
+ "results": [
+  {
+   "citation": 1,
+   "sentence": "Kairos ... is now used in around 172 countries, including 27 of the top 30 ... Open Doors watch list",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "fix",
+   "evidence": "MNN: 'Silk says that it is now in around 172 countries ... being used in 27 of the top 30 countries on the Open Doors watch list'. Numbers and attribution match. But 'a free AI tool' is overbroad: MNN says 'completely free for people in poor and persecuted countries'.",
+   "fix": "Change 'a free AI tool that answers questions about Christianity' to 'an AI tool that answers questions about Christianity and is free for people in poor and persecuted countries'."
+  },
+  {
+   "citation": 1,
+   "sentence": "Lana Silk, the ministry's CEO, gave those figures in a Sep 24 interview with MNN",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "fix",
+   "evidence": "MNN article is dated Sep 24, 2026 (Brennan Berryhill); it does not say when the interview occurred, and does not give Silk's title. The Christian Post [5] calls her 'president and CEO of Transform Iran'.",
+   "fix": "'Lana Silk, the ministry's CEO, gave those figures to Mission Network News, which reported them Sep 24 [[1]]' (cite [[5]] for CEO title or drop the title)."
+  },
+  {
+   "citation": 2,
+   "sentence": "MNN described it as 'newly launched' in August 2025",
+   "url": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+   "verdict": "pass",
+   "evidence": "MNN Aug 19, 2025: 'Kairos, a newly launched AI model from Transform Iran'.",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "Kairos answers from a closed library rather than the open web.",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "fix",
+   "evidence": "No citation. MNN [2] says it 'pulls only from a carefully vetted library of resources'; Transform Iran [4] calls it a 'Ring-Fenced Knowledge Base'.",
+   "fix": "Add [[2]] and [[4]] citations to this sentence."
+  },
+  {
+   "citation": 3,
+   "sentence": "every response is carefully curated from Scripture and strictly vetted resources",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "pass",
+   "evidence": "Transform Iran Kairos page: 'Every response is carefully curated from Scripture and strictly vetted resources'.",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "A December 2025 Transform Iran interview put it at over 5,000 articles",
+   "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "verdict": "fix",
+   "evidence": "CONFIRMED on the page: 'Kairos is fed only vetted, biblical content (over 5,000 articles, apologetics, and Scripture)', published 12 Dec 2025. But the page is a Transform Iran newsroom write-up of a KMUZ Radio interview with Silk, not itself an interview, and the parenthetical reads 'over 5,000 articles, apologetics, and Scripture'.",
+   "fix": "'A December 2025 Transform Iran newsroom post about a KMUZ Radio interview described its knowledge base as 'over 5,000 articles, apologetics, and Scripture' [[4]].'"
+  },
+  {
+   "citation": 5,
+   "sentence": "A Transform Iran statement to The Christian Post in August cited 'nearly 7,000 research articles' from its Porpasokh Apologetics Center",
+   "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+   "verdict": "pass",
+   "evidence": "CP Aug 7, 2026: statement 'nearly 7,000 research articles published in the Porpasokh Apologetics Center', plus '5,286 data points for Kairos' launch'.",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "designed to say, 'I do not know the answer to your question'",
+   "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "verdict": "pass",
+   "evidence": "Page: 'I do not know the answer to your question. Check back in a few days while our team works on it.' (partial quote OK).",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "questions beyond its database are 'flagged for human review and answered within 48 hours'",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "pass",
+   "evidence": "Kairos page: 'Questions beyond Kairos' current database are flagged for human review and answered within 48 hours'.",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "guides them in prayer, rather than replacing the role of God or a human pastor",
+   "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "verdict": "pass",
+   "evidence": "Page: 'We adjusted the language to make sure users understood that it guides them in prayer, rather than replacing the role of God or a human pastor.'",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Kairos is free for people in poor and persecuted countries, and Transform Iran provides a free VPN ... 'to keep their spiritual inquiries safe'",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "MNN: 'completely free for people in poor and persecuted countries. Transform Iran also provides a free VPN to keep their spiritual inquiries safe'. Only 'a free VPN' mentioned; no workaround detail.",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "every response is monitored by Christian theologians and apologists",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "pass",
+   "evidence": "Kairos page: 'Every response is monitored by Christian theologians and apologists'.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "MNN describes the service as strictly anonymous unless a user chooses to say who they are",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "MNN: 'strictly anonymous unless someone wants to say who they are to the Transform Iran team'.",
+   "fix": null
+  },
+  {
+   "citation": "[[1]][[3]][[4]]",
+   "sentence": "One point goes unexplained in every source we read ... no public source we found explains how Kairos handles this.",
+   "url": "[[1]][[3]][[4]]",
+   "verdict": "fix",
+   "evidence": "Sourced halves are accurate, but 'every source we read' / 'no public source we found' are unverifiable search claims. Across the six pages cited in this article I found no explanation of how monitoring and anonymity fit together.",
+   "fix": "'None of the Transform Iran or MNN pages cited here explains how Kairos handles this.' (cite [[1]][[3]][[4]])"
+  },
+  {
+   "citation": 1,
+   "sentence": "Some seekers 'didn't want the sort of pressure or judgment they were expecting to come from Christians' ... 'Those kinds of people are choosing Kairos'",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "MNN quote matches (draft truncates before 'in their own personal pursuit of truth'; acceptable). Attributed to Silk.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Silk described a woman ... over about a week ... 'it pushed her to then go and involve their pastor,' and later to seek therapy. 'It just keeps pushing for the next step'",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "MNN: 'Over the course of a week...'; 'it just keeps pushing for the next step. So it pushed her to then go and involve their pastor'; later 'encouraging her to seek therapy'. Attributed to Silk; no identifying detail (draft omits location/adultery). Safety OK.",
+   "fix": null
+  },
+  {
+   "citation": 6,
+   "sentence": "a seeker it calls 'Keyvan,' a pseudonym, prayed during January's protests and 'reached out to a church community recommended by Kairos'",
+   "url": "https://transformiran.com/impact/from-questions-to-faith-iran-kairos/",
+   "verdict": "fix",
+   "evidence": "Page: 'In January 2026, amid violent protests ... a man we'll call Keyvan ... reached out to Kairos'; later 'He prayed as guided and reached out to a church community recommended by Kairos'. The quote is exact, but the prayer came at the end of a series of conversations, not 'during January's protests' as such. Pseudonym use is allowed.",
+   "fix": "'Transform Iran reports that a man it calls 'Keyvan,' a pseudonym, contacted Kairos in January amid protests, prayed as guided, and 'reached out to a church community recommended by Kairos' [[6]].'"
+  },
+  {
+   "citation": 5,
+   "sentence": "Silk also told The Christian Post about a man in Iran who said, 'I've chosen to follow Jesus'",
+   "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+   "verdict": "pass",
+   "evidence": "CP: Silk said the man declared, ''I've chosen to follow Jesus.'' during nationwide protests earlier this year.",
+   "fix": null
+  },
+  {
+   "citation": "(none)",
+   "sentence": "These accounts come from the ministry and cannot be independently checked.",
+   "url": "(none)",
+   "verdict": "pass",
+   "evidence": "Accounts are sourced to Transform Iran/Silk only; editorial caveat is accurate.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "MNN says Kairos became a haven for seekers after January's government crackdown",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "MNN: 'Kairos became a haven for seekers after the brutal government crackdowns in January'.",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "Iran's government put the toll at 3,117",
+   "url": "https://www.aljazeera.com/news/2026/1/21/at-least-3117-people-killed-during-iran-protests-state-media-reports",
+   "verdict": "pass",
+   "evidence": "Al Jazeera Jan 21, 2026: Iranian state TV reported 3,117 killed; AP [8] also calls it Iran's only official toll. Number exact.",
+   "fix": null
+  },
+  {
+   "citation": 8,
+   "sentence": "HRANA counted at least 7,002, according to the AP, which said it could not independently assess the toll",
+   "url": "https://gulfnews.com/world/mena/death-toll-from-irans-crackdown-on-protests-rises-beyond-7000-activists-say-1.500440296",
+   "verdict": "pass",
+   "evidence": "Gulf News/AP Feb 12, 2026: 'at least 7,002 people killed ... HRANA'; 'AP has been unable to independently assess the death toll'. (Advisory: toll is as of Feb 12; consider adding 'as of Feb. 12'.)",
+   "fix": null
+  },
+  {
+   "citation": 9,
+   "sentence": "UN's special rapporteur ... at least 5,000 and possibly as many as 20,000, according to Amnesty",
+   "url": "https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/",
+   "verdict": "pass",
+   "evidence": "Amnesty: Mai Sato on 16 Jan 2026 said 'at least 5,000 people had been killed ... might be as high as 20,000' (from medical sources).",
+   "fix": null
+  },
+  {
+   "citation": 10,
+   "sentence": "TIME reported that two senior Iranian Health Ministry officials said 'as many as 30,000' could have been killed on Jan. 8 and 9 alone",
+   "url": "https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/",
+   "verdict": "pass",
+   "evidence": "TIME Jan 25, 2026: 'As many as 30,000 people could have been killed ... on Jan. 8 and 9 alone, two senior officials of the country's Ministry of Health told TIME'. Advisory: TIME adds it 'has been unable to independently verify these figures'; worth adding.",
+   "fix": null
+  },
+  {
+   "citation": "[[7]]-[[10]]",
+   "sentence": "That crackdown killed thousands, though estimates vary widely.",
+   "url": "[[7]]-[[10]]",
+   "verdict": "pass",
+   "evidence": "Supported by all four cited sources.",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "Transform Iran says Silk has welcomed scrutiny from YouVersion founder Bobby Gruenewald",
+   "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "verdict": "pass",
+   "evidence": "Page: 'Lana Silk explained why she welcomed scrutiny from YouVersion founder Bobby Gruenewald'.",
+   "fix": null
+  },
+  {
+   "citation": "(none)",
+   "sentence": "We found no independent review of Kairos' accuracy or privacy.",
+   "url": "(none)",
+   "verdict": "cut",
+   "evidence": "Unverifiable negative search claim; not supported by any cited source.",
+   "fix": "Delete the sentence."
+  },
+  {
+   "citation": 3,
+   "sentence": "'It is not a replacement for faith, discernment, or pastoral care'",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "pass",
+   "evidence": "Kairos page: 'It is not a replacement for faith, discernment, or pastoral care'.",
+   "fix": null
+  },
+  {
+   "citation": "(none)",
+   "sentence": "Every reach and impact figure here comes from Transform Iran.",
+   "url": "(none)",
+   "verdict": "pass",
+   "evidence": "True for 172 countries/27 of 30, testimonies: all trace to Silk/Transform Iran via MNN and CP.",
+   "fix": null
+  },
+  {
+   "citation": "(none)",
+   "sentence": "Neither Transform Iran nor MNN says how the country counts were measured.",
+   "url": "(none)",
+   "verdict": "pass",
+   "evidence": "MNN Sep 24 gives no method; Transform Iran pages cited give no country counts.",
+   "fix": null
+  },
+  {
+   "citation": 11,
+   "sentence": "A Nashville team led by founder Micah Fiechter has used AI to set the entire Bible to music in 11 genres, plus three in Spanish",
+   "url": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+   "verdict": "pass",
+   "evidence": "Christian Today Sep 21, 2026: Nashville team, 'entire Bible', '11 different genres', 'three genres available in Spanish'. 'Founder' per The Citizen/CT interview.",
+   "fix": null
+  },
+  {
+   "citation": 12,
+   "sentence": "The Music Bible app launched Sep 22 on iOS and Android",
+   "url": "https://thecitizen.com/2026/09/29/ai-turns-the-bible-into-30000-songs-without-changing-a-word/",
+   "verdict": "pass",
+   "evidence": "The Citizen: 'officially launched September 22 on iOS and Android'.",
+   "fix": null
+  },
+  {
+   "citation": 13,
+   "sentence": "The company says it uses AI tools including Suno and ChatGPT ... never to interpret Scripture ... 'occasionally, a word or phrase may be repeated for musical expression'",
+   "url": "https://www.themusicbible.org/ai-transparency",
+   "verdict": "pass",
+   "evidence": "musicbible.org/ai-transparency (fetched with a Googlebot UA; default UA gets 403): 'utilizes AI platforms including Suno and ChatGPT'; 'will never use artificial intelligence to create songs that interpret, paraphrase, or extrapolate'; quote exact.",
+   "fix": null
+  },
+  {
+   "citation": 14,
+   "sentence": "Human reviewers check the songs, and Fiechter says flagged ones are pulled 'within 24 hours'",
+   "url": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+   "verdict": "pass",
+   "evidence": "Christian Today Q&A Sep 22: 'Every single song is being reviewed ... by human verification'; 'we pull it down within 24 hours and replace it'.",
+   "fix": null
+  },
+  {
+   "citation": 14,
+   "sentence": "'I personally, at this moment in time, do not support the use of AI for interpreting Scripture'",
+   "url": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+   "verdict": "pass",
+   "evidence": "Exact quote in the Q&A.",
+   "fix": null
+  },
+  {
+   "citation": 15,
+   "sentence": "Barna and Gloo reported that 34% of U.S. Gen Z and Millennial adults say they are attending church more often than a year ago, and prayer is the top spiritual reason they give, at 45%",
+   "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+   "verdict": "fix",
+   "evidence": "Barna Sep 15, 2026: 34% of Gen Z/Millennials attend more often (n=3,049 US adults 18-35). But the 45% is 'Nearly half of young adults (45%) say prayer is a reason they attend church' across all young adults, not the 34% who are attending more; 'they give' misattributes it. (45% also appears separately as the 'no change' share.)",
+   "fix": "'... reported that 34% of U.S. Gen Z and Millennial adults say they are attending church more often than a year ago. Across all young adults surveyed, prayer is the top spiritual reason for attending, cited by 45%.'"
+  },
+  {
+   "citation": 15,
+   "sentence": "Barna cautions the data 'isn't evidence of a sweeping spiritual movement as much as a traceable pattern'",
+   "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+   "verdict": "pass",
+   "evidence": "Barna: 'The data reported here isn't evidence of a sweeping spiritual movement as much as a traceable pattern'.",
+   "fix": null
+  },
+  {
+   "citation": 16,
+   "sentence": "NPR/Ipsos poll of 1,011 U.S. adults, published Sep 25, updated Sep 28; 11% / 13% / 15%",
+   "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+   "verdict": "pass",
+   "evidence": "NPR: originally published Sep 25, 2026; updated Sep 28; 1,011 adults polled Aug 7-9; 11% sought guidance, 13% prayers, 15% Scripture (of AI users).",
+   "fix": null
+  },
+  {
+   "citation": 16,
+   "sentence": "Nearly 7 in 10 AI users said they would never seek spiritual guidance from AI, and just 6% of Americans overall currently do",
+   "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+   "verdict": "pass",
+   "evidence": "NPR: 'Nearly 7 in 10 poll respondents who use AI said they would never seek religious or spiritual guidance'; 'just 6%'.",
+   "fix": null
+  },
+  {
+   "citation": 17,
+   "sentence": "Gruenewald says even the best AI models misquote Scripture at least 15% of the time, and YouVersion has chosen not to launch a public-facing chatbot that answers theological questions",
+   "url": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+   "verdict": "pass",
+   "evidence": "Christian Daily Mar 16, 2026: 'misquotes Scripture at least 15% of the time'; 'chosen not to launch a public-facing chatbot that answers theological questions'.",
+   "fix": null
+  },
+  {
+   "citation": 18,
+   "sentence": "He was speaking about general-purpose AI, not closed-library tools like Kairos, but his standard fits both: 'we need it to be better in order to rely on it'",
+   "url": "https://www.christiantoday.com/news/ai-still-too-inaccurate-when-it-comes-to-scripture-says-youversion-founder",
+   "verdict": "fix",
+   "evidence": "Quote is accurate, but source [18] is a syndicated republication of the same Christian Daily International article (same text/author), not an independent source. 'not closed-library tools like Kairos' is the writer's inference; the article says 'open-ended chat systems' and never mentions Kairos.",
+   "fix": "Cite [[17]] for the quote and drop [[18]] (and its sources entry), or keep it labeled as a republication. Reword: 'He was describing open-ended AI chat models, not Kairos, but the standard is a fair one to apply: ...'"
+  },
+  {
+   "citation": "Acts 8:30-31 (frontmatter)",
+   "sentence": "verse.text",
+   "url": "Acts 8:30-31 (frontmatter)",
+   "verdict": "pass",
+   "evidence": "Matches bible-api.com Acts+8:30-31 WEB exactly (joined verses, same curly quotes).",
+   "fix": null
+  },
+  {
+   "citation": "Hebrews 10:25",
+   "sentence": "'not forsaking our own assembling together' (Hebrews 10:25)",
+   "url": "Hebrews 10:25",
+   "verdict": "pass",
+   "evidence": "bible-api.com WEB Hebrews 10:25: 'not forsaking our own assembling together, as the custom of some is, but exhorting one another...'. Exact, referenced.",
+   "fix": null
+  },
+  {
+   "citation": "Acts 8",
+   "sentence": "Reflection: 'a scroll of Isaiah'; 'The Spirit sends Philip to the road'",
+   "url": "Acts 8",
+   "verdict": "fix",
+   "evidence": "WEB Acts 8:26: an angel of the Lord sent Philip to the road; 8:29: the Spirit told him 'Go near, and join yourself to this chariot.' Text says he was 'reading the prophet Isaiah'; 'scroll' is not in the text. Other details (Ethiopian official, worship in Jerusalem, invited up, told good news about Jesus, asked to be baptized, vv.27-38) are accurate.",
+   "fix": "'An angel sends Philip to the desert road, and the Spirit tells him to go near the chariot' ; replace 'He has a scroll of Isaiah' with 'He is reading the prophet Isaiah'; add verse refs (Acts 8:26-39; quote is Acts 8:30-31)."
+  },
+  {
+   "citation": "(none)",
+   "sentence": "Reflection/prayer theological statements",
+   "url": "(none)",
+   "verdict": "pass",
+   "evidence": "Non-factual reflection.",
+   "fix": null
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "datePublished/dateModified 2026-09-27 and coverage Sep 20-26",
+   "url": "frontmatter",
+   "verdict": "fix",
+   "evidence": "Draft cites material dated after Sep 27: The Citizen (Sep 29), NPR update (Sep 28), and says 'updated Sep 28'. The publish timestamp predates its own sources.",
+   "fix": "Set datePublished/dateModified to the actual publish date (on/after 2026-09-29) or remove post-Sep-27 items. Also the article/Gulf News/Al Jazeera figures fall outside the stated coverage window; acceptable as background."
+  },
+  {
+   "citation": "sources[1]",
+   "sentence": "sources entry 1",
+   "url": "https://www.mnnonline.org/news/ai-is-transforming-ministry-in-iran/",
+   "verdict": "pass",
+   "evidence": "Title/outlet/date match (Sep 24, 2026).",
+   "fix": null
+  },
+  {
+   "citation": "sources[2]",
+   "sentence": "sources entry 2",
+   "url": "https://www.mnnonline.org/news/new-ai-model-kairos-poised-to-reach-iranians/",
+   "verdict": "fix",
+   "evidence": "Live headline is 'New AI model, Kairos, poised to reach Iranians' (with comma). Date 2025-08-19 correct.",
+   "fix": "title: \"New AI model, Kairos, poised to reach Iranians\""
+  },
+  {
+   "citation": "sources[3]",
+   "sentence": "sources entry 3",
+   "url": "https://transformiran.com/our-work/kairos/",
+   "verdict": "fix",
+   "evidence": "Title 'Kairos' OK. Page has no visible date (metadata only: published 2025-08-29, modified 2026-09-01).",
+   "fix": "date: \"undated (accessed 2026-09-30)\""
+  },
+  {
+   "citation": "sources[4]",
+   "sentence": "sources entry 4",
+   "url": "https://transformiran.com/newsroom/ministry-serving-irans-church-opens-its-ai-tool-to-scrutiny/",
+   "verdict": "fix",
+   "evidence": "Live headline: 'Why a Ministry Serving Iran’s Underground Church Opened Its AI Tool to Scrutiny: KMUZ Radio'; date 2025-12-12 correct.",
+   "fix": "title: \"Why a Ministry Serving Iran’s Underground Church Opened Its AI Tool to Scrutiny: KMUZ Radio\""
+  },
+  {
+   "citation": "sources[5]",
+   "sentence": "sources entry 5",
+   "url": "https://www.christianpost.com/news/iranian-christian-overseeing-ai-tool-shepherding-new-believers.html",
+   "verdict": "fix",
+   "evidence": "On-page headline: 'Iranian Christian overseeing new AI tool shepherding new believers in persecuted nations' (By Samantha Kamman, Aug 7, 2026). Date correct.",
+   "fix": "title: \"Iranian Christian overseeing new AI tool shepherding new believers in persecuted nations\""
+  },
+  {
+   "citation": "sources[6]",
+   "sentence": "sources entry 6",
+   "url": "https://transformiran.com/impact/from-questions-to-faith-iran-kairos/",
+   "verdict": "fix",
+   "evidence": "Live headline: 'From Questions to Faith: How a Seeker Found Christ Safely in Iran'; date 2026-01-30 correct.",
+   "fix": "title: \"From Questions to Faith: How a Seeker Found Christ Safely in Iran\""
+  },
+  {
+   "citation": "sources[7]",
+   "sentence": "sources entry 7",
+   "url": "https://www.aljazeera.com/news/2026/1/21/at-least-3117-people-killed-during-iran-protests-state-media-reports",
+   "verdict": "fix",
+   "evidence": "Live headline: 'At least 3,117 people killed during Iran protests, state media report' (not 'reports'). Date 2026-01-21 correct.",
+   "fix": "title: \"At least 3,117 people killed during Iran protests, state media report\""
+  },
+  {
+   "citation": "sources[8]",
+   "sentence": "sources entry 8",
+   "url": "https://gulfnews.com/world/mena/death-toll-from-irans-crackdown-on-protests-rises-beyond-7000-activists-say-1.500440296",
+   "verdict": "fix",
+   "evidence": "Title OK; dated Feb 12, 2026 (06:15), so '2026-02' is imprecise.",
+   "fix": "date: \"2026-02-12\""
+  },
+  {
+   "citation": "sources[9]",
+   "sentence": "sources entry 9",
+   "url": "https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/",
+   "verdict": "fix",
+   "evidence": "Live title: 'What happened at the protests in Iran?' (question mark). Date 2026-01-26 correct (modified 2026-02-27).",
+   "fix": "title: \"What happened at the protests in Iran?\""
+  },
+  {
+   "citation": "sources[10]",
+   "sentence": "sources entry 10",
+   "url": "https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/",
+   "verdict": "fix",
+   "evidence": "On-page headline: 'Iran Protest Death Toll Could Top 30,000, According to Local Health Officials' (the URL/HTML title is 'More Than 30,000 Killed in Iran, Say Senior Officials'; the body only supports 'could have been'). Date 2026-01-25 correct. Page returns 406 to curl UA; loaded with Googlebot UA.",
+   "fix": "title: \"Iran Protest Death Toll Could Top 30,000, According to Local Health Officials\""
+  },
+  {
+   "citation": "sources[11]",
+   "sentence": "sources entry 11",
+   "url": "https://www.christiantoday.com/news/nashville-team-uses-ai-to-convert-whole-bible-into-musical-form",
+   "verdict": "pass",
+   "evidence": "Title/outlet/date (21 Sep 2026) match.",
+   "fix": null
+  },
+  {
+   "citation": "sources[12]",
+   "sentence": "sources entry 12",
+   "url": "https://thecitizen.com/2026/09/29/ai-turns-the-bible-into-30000-songs-without-changing-a-word/",
+   "verdict": "fix",
+   "evidence": "Live headline: 'AI Turns the Bible into 30,000 Songs — Without Changing a Word'. Date 2026-09-29 correct.",
+   "fix": "title: \"AI Turns the Bible into 30,000 Songs — Without Changing a Word\""
+  },
+  {
+   "citation": "sources[13]",
+   "sentence": "sources entry 13",
+   "url": "https://www.themusicbible.org/ai-transparency",
+   "verdict": "fix",
+   "evidence": "Title 'AI Transparency' OK; no date on page.",
+   "fix": "date: \"undated (accessed 2026-09-30)\""
+  },
+  {
+   "citation": "sources[14]",
+   "sentence": "sources entry 14",
+   "url": "https://www.christiantoday.com/news/from-genesis-to-revelation-the-ambitious-ai-project-turning-the-bible-into-music",
+   "verdict": "fix",
+   "evidence": "Live headline: 'From Genesis to Revelation: The ambitious AI project turning the Bible into music'; dated 22 September 2026, not n.d.",
+   "fix": "title: \"From Genesis to Revelation: The ambitious AI project turning the Bible into music\"; date: \"2026-09-22\""
+  },
+  {
+   "citation": "sources[15]",
+   "sentence": "sources entry 15",
+   "url": "https://www.barna.com/research/young-adults-spiritual-reasons-church/",
+   "verdict": "pass",
+   "evidence": "Title/outlet/date (Sep 15, 2026) match.",
+   "fix": null
+  },
+  {
+   "citation": "sources[16]",
+   "sentence": "sources entry 16",
+   "url": "https://www.npr.org/2026/09/21/nx-s1-5944346/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us",
+   "verdict": "pass",
+   "evidence": "Title and date (2026-09-25 original) match.",
+   "fix": null
+  },
+  {
+   "citation": "sources[17]",
+   "sentence": "sources entry 17",
+   "url": "https://www.christiandaily.com/news/ais-scripture-problem-misquotes-range-from-15-to-60-says-youversion-ceo",
+   "verdict": "fix",
+   "evidence": "Live headline: 'AI’s Scripture problem: misquotes range from 15% to 60%, says YouVersion CEO' (draft dropped first '%'); dated Mar 16, 2026.",
+   "fix": "title: \"AI’s Scripture problem: misquotes range from 15% to 60%, says YouVersion CEO\"; date: \"2026-03-16\""
+  },
+  {
+   "citation": "sources[18]",
+   "sentence": "sources entry 18",
+   "url": "https://www.christiantoday.com/news/ai-still-too-inaccurate-when-it-comes-to-scripture-says-youversion-founder",
+   "verdict": "fix",
+   "evidence": "Title/date (17 Mar 2026) correct, but it republishes the Christian Daily International piece verbatim; not an independent source.",
+   "fix": "remove entry (or label as republication of [17])"
+  }
+ ],
+ "round2": [
+  {
+   "item": "Acts 8:26-39 court official from Ethiopia riding home from worship in Jerusalem",
+   "verdict": "pass",
+   "evidence": "WEB 8:27-28: man of Ethiopia, eunuch of great authority, 'had come to Jerusalem to worship. He was returning and sitting in his chariot'.",
+   "fix": null
+  },
+  {
+   "item": "He is reading the prophet Isaiah aloud",
+   "verdict": "pass",
+   "evidence": "WEB 8:28 'reading the prophet Isaiah'; 8:30 Philip 'heard him reading' (aloud is supported).",
+   "fix": null
+  },
+  {
+   "item": "An angel sends Philip to the desert road, and the Spirit tells him to go near the chariot",
+   "verdict": "pass",
+   "evidence": "WEB 8:26 angel: 'the way that goes down from Jerusalem to Gaza. This is a desert.'; 8:29 Spirit: 'Go near, and join yourself to this chariot.'",
+   "fix": null
+  },
+  {
+   "item": "Acts 8:30 question quote; Acts 8:31 answer quote",
+   "verdict": "pass",
+   "evidence": "Exact WEB text; verse numbers correct.",
+   "fix": null
+  },
+  {
+   "item": "Feature opener: free for people in poor and persecuted countries [1]; 172 countries; 27 of top 30",
+   "verdict": "pass",
+   "evidence": "MNN Sep 24: 'completely free for people in poor and persecuted countries'; 'around 172 countries'; '27 of the top 30'.",
+   "fix": null
+  },
+  {
+   "item": "Silk gave those figures to MNN, which reported them Sep 24 [1]",
+   "verdict": "pass",
+   "evidence": "MNN article dated Sep 24, 2026 quoting Silk; no interview date claimed.",
+   "fix": null
+  },
+  {
+   "item": "Closed library rather than open web [2][4]",
+   "verdict": "pass",
+   "evidence": "[2] 'pulls only from a carefully vetted library of resources'; [4] 'Ring-Fenced Knowledge Base ... fed only vetted, biblical content'. Both support.",
+   "fix": null
+  },
+  {
+   "item": "KMUZ newsroom post quote 'over 5,000 articles, apologetics, and Scripture' [4]",
+   "verdict": "pass",
+   "evidence": "Exact text on the Dec 12, 2025 page, which is a write-up of a KMUZ Radio interview.",
+   "fix": null
+  },
+  {
+   "item": "None of the Transform Iran or MNN pages cited here explains how Kairos handles this [1][3][4]",
+   "verdict": "pass",
+   "evidence": "Re-read all three: none explains how human monitoring coexists with anonymity.",
+   "fix": null
+  },
+  {
+   "item": "Keyvan: contacted Kairos in January amid protests, prayed as guided, 'reached out to a church community recommended by Kairos' [6]",
+   "verdict": "pass",
+   "evidence": "Page: 'In January 2026, amid violent protests ... reached out to Kairos'; 'He prayed as guided and reached out to a church community recommended by Kairos'. Pseudonym disclosed ('a man we'll call Keyvan').",
+   "fix": null
+  },
+  {
+   "item": "HRANA at least 7,002 as of Feb. 12, per AP, which could not independently assess [8]",
+   "verdict": "pass",
+   "evidence": "Gulf News/AP dated Feb 12, 2026 (activists said Thursday = Feb 12); 'The Associated Press has been unable to independently assess the death toll'.",
+   "fix": null
+  },
+  {
+   "item": "TIME 'has been unable to independently verify these figures' [10]",
+   "verdict": "pass",
+   "evidence": "Exact: 'TIME has been unable to independently verify these figures.'",
+   "fix": null
+  },
+  {
+   "item": "Cut sentence removed; 'What's still open' paragraph",
+   "verdict": "pass",
+   "evidence": "Sentence absent; paragraph reads correctly and remaining claims are sourced.",
+   "fix": null
+  },
+  {
+   "item": "Barna 34% sentence [15]",
+   "verdict": "pass",
+   "evidence": "34% of Gen Z/Millennials attend more often; matches.",
+   "fix": null
+  },
+  {
+   "item": "Across all young adults surveyed, prayer is the top spiritual reason for attending, cited by 45% [15]",
+   "verdict": "pass",
+   "evidence": "Barna: 'Nearly half of young adults (45%) say prayer is a reason they attend church, the single most-selected spiritual reason'.",
+   "fix": null
+  },
+  {
+   "item": "Gruenewald: 'we need it to be better in order to rely on it' [17]; 'open-ended AI chat models, not Kairos'",
+   "verdict": "pass",
+   "evidence": "Exact quote in Christian Daily article; article discusses open-ended chat systems and does not mention Kairos.",
+   "fix": null
+  },
+  {
+   "item": "All 17 sources entries",
+   "verdict": "pass",
+   "evidence": "Titles/dates match round-1 corrections (incl. undated entries 3 and 13, dates 2026-02-12, 2026-09-22, 2026-03-16); old [18] removed; no [[18]] citation remains; datePublished 2026-09-30 is now after the newest cited source (Sep 29).",
+   "fix": null
+  }
+ ],
+ "round3": [
+  {
+   "item": "Headline 'Keeps Pointing Seekers to Scripture and to People'; dek; description",
+   "verdict": "fix",
+   "evidence": "Substance supported only as ministry claims: Kairos page says responses are curated from Scripture and point users 'to Jesus, prayer, and the Christian community'; newsroom post says 'Scripture-Only Guidance'; MNN quotes Silk that it 'keeps pushing for the next step' and sent one woman to her pastor. 'Answers from a vetted library' (dek/description) is supported by [2][3]. But headline and description state the pointing as fact, unattributed, and the body itself says impact accounts 'cannot be independently checked'. The headline's 'Transform Iran's' possessive does not attribute the claim.",
+   "fix": "Headline: 'Transform Iran Says Its Bible-Based AI Chatbot, Kairos, Points Seekers to Scripture and to People'. Description: 'Transform Iran says its Bible-based Kairos AI chatbot answers from a vetted library and points seekers to pastors. How it works and what is unverified.' (Dek is framed as a question/test and can stay.)"
+  },
+  {
+   "item": "Opener: Kairos, a chatbot from the ministry Transform Iran, answers questions about Christianity [1]",
+   "verdict": "pass",
+   "evidence": "MNN: 'Transform Iran developed an AI chatbot named Kairos'; 'answering questions in a really thoughtful, Bible-based ... way'.",
+   "fix": null
+  },
+  {
+   "item": "Silk told MNN how people are using it, in comments MNN reported Sep 24 [1]",
+   "verdict": "pass",
+   "evidence": "MNN dated Sep 24, 2026; Silk's quotes describe seekers' and a woman's use.",
+   "fix": null
+  },
+  {
+   "item": "Wording changed after tool offered to pray; quote 'guides them in prayer, rather than replacing the role of God or a human pastor' [3]",
+   "verdict": "pass",
+   "evidence": "New [3] = Transform Iran newsroom/KMUZ post (old 4); exact text: 'We adjusted the language to make sure users understood that it guides them in prayer, rather than replacing the role of God or a human pastor.'",
+   "fix": null
+  },
+  {
+   "item": "Free VPN ... 'to keep their spiritual inquiries safe' [1]",
+   "verdict": "pass",
+   "evidence": "MNN: 'Transform Iran also provides a free VPN to keep their spiritual inquiries safe'. Quote exact; provider is Transform Iran. No workaround detail.",
+   "fix": null
+  },
+  {
+   "item": "Silk quotes: 'didn't want the sort of pressure or judgment they were expecting to come from Christians.' / 'Those kinds of people are choosing Kairos,' she said [1]",
+   "verdict": "fix",
+   "evidence": "Both are Silk's words in MNN and correctly attributed. Second quote exact. First quote is truncated mid-sentence but closed with a period inside the quotation marks; the original continues 'in their own personal pursuit of truth.'",
+   "fix": "Either end the quote without terminal punctuation inside ('...from Christians,' she said, and 'Those kinds...') or quote in full: 'didn't want the sort of pressure or judgment they were expecting to come from Christians in their own personal pursuit of truth.'"
+  },
+  {
+   "item": "Keyvan without 'amid protests': contacted Kairos in January, prayed as guided, 'reached out to a church community recommended by Kairos' [6]; 'a man who said...' [5]; 'Every account of impact here comes from Transform Iran'",
+   "verdict": "pass",
+   "evidence": "Keyvan page: January 2026, 'He prayed as guided and reached out to a church community recommended by Kairos' (exact); pseudonym disclosed. CP: Silk's account of a man saying 'I've chosen to follow Jesus'. All impact accounts (woman, Keyvan, man) trace to Silk/Transform Iran. Identifies no one beyond 'a woman', Keyvan, 'a man'.",
+   "fix": null
+  },
+  {
+   "item": "Music Bible: 'A team led by founder Micah Fiechter...' [7]",
+   "verdict": "pass",
+   "evidence": "[7] says Fiechter assembled the team (70 people); The Citizen [8] calls him 'founder and CEO'. 11 genres plus three Spanish exact.",
+   "fix": null
+  },
+  {
+   "item": "NPR: 1,011 adults; 11% of AI users surveyed / 13% / 15%; nearly 7 in 10 AI users surveyed; 6% of all adults surveyed [11]",
+   "verdict": "pass",
+   "evidence": "NPR: 'Ipsos polled 1,011 U.S. adults'; '11% of AI users have sought spiritual guidance ... 13% ... 15%'; 'Nearly 7 in 10 poll respondents who use AI said they would never seek ...'; 'Americans overall ... currently using AI for spiritual guidance ... just 6%'. Denominators correct; dropping 'U.S.' is accurate.",
+   "fix": null
+  },
+  {
+   "item": "Citation renumbering 1-12",
+   "verdict": "pass",
+   "evidence": "Verified by content: [3]=newsroom (closed library, 5,000 articles, 'I do not know', prayer wording, Gruenewald); [4]=Kairos page (curated, 48 hours, monitored, 'not a replacement'); [5]=CP; [6]=Keyvan; [7]-[8] Nashville/Citizen; [9] musicbible; [10] CT Q&A; [11] NPR; [12] Christian Daily. All 12 used, none skipped, no orphans, sources list order matches first-use order ([3]/[4] first used as 3 then 4).",
+   "fix": null
+  },
+  {
+   "item": "Hebrews 10:25; Acts 8 reflection edits",
+   "verdict": "pass",
+   "evidence": "Hebrews fragment exact; Acts text unchanged from round 2 apart from dropping 'from Ethiopia' (still accurate).",
+   "fix": null
+  },
+  {
+   "item": "No place names / government / protest / persecution / death-toll content in headline, title, dek, description, body, image alt/caption, seo.json title/description",
+   "verdict": "pass",
+   "evidence": "Regex scan of frontmatter (excl. sources list) and body found only the allowed org name 'Transform Iran' (and the word 'state' in a quote). image.json alt/caption and seo.json title/description are clean. Advisory: non-published/internal fields still contain the geography and persecution words: seo.json 'note' (mentions 'Christians in Iran'), verse.json candidates ('persecution'), image.json 'tried'. Fine if never rendered; scrub if any of them is published. Source titles in the sources list (Iran, persecuted) are allowed per owner rule.",
+   "fix": null
+  }
+ ]
+}

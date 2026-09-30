@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "src": "/images/eureka/2026-09-30-kairos-ai-bible-chatbot/open-bible-pages-ai-bible-chatbot-scripture.webp",
+    "width": 1600,
+    "height": 1255,
+    "alt": "Open Bible showing two pages of Scripture, the text an AI Bible chatbot like Kairos points seekers toward",
+    "caption": "An open Bible (stock photo). Kairos answers from a vetted Christian library and points users to Scripture, prayer and pastors.",
+    "credit": {
+      "title": "Open bible isaiah",
+      "author": "Ken Horn",
+      "authorUrl": "https://commons.wikimedia.org/wiki/File:Open_bible_isaiah.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Open_bible_isaiah.jpg",
+      "modified": "Resized and converted to WebP"
+    }
+  },
+  "replaces": "Earlier choice (Rawpixel 'open Bible next table lamp', open-bible-lamp-ai-chatbot-scripture.webp) removed: it was a watermarked Rawpixel preview.",
+  "tried": [
+    {"source": "StockSnap (Openverse)", "query": "bible / open book lamp / phone bible", "result": "rejected: many CC0 Bible photos, but only 960px thumbnails are obtainable (originals 404 to scripts), under the 1200px minimum"},
+    {"source": "WordPress Photo Directory (Openverse)", "query": "bible / open book lamp / phone bible", "result": "rejected: only a portrait Bible in a named-place church and a Gutenberg Bible in a museum (place names)"},
+    {"source": "Nappy (Openverse)", "query": "bible / open book lamp / phone bible", "result": "rejected: no results"},
+    {"source": "Rawpixel (Openverse)", "query": "open bible", "result": "rejected: previous pick was a watermarked preview"},
+    {"source": "Unsplash/Pexels/Pixabay", "query": "-", "result": "skipped: no API keys"},
+    {"source": "Openverse all sources / Wikimedia Commons (Tier 2)", "query": "open bible / bible smartphone / bible tablet / bible laptop", "result": "chosen: Open bible isaiah by Ken Horn, CC BY 2.0, 1773x1391 original. Final WebP opened and visually inspected: no watermark, logo, preview text, faces or place identifiers."}
+  ]
+}
