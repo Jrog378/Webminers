@@ -1,0 +1,47 @@
+{
+  "status": "published-local",
+  "issueDate": "2026-09-30",
+  "window": "Sat Sep 26 – Tue Sep 29, 2026",
+  "slug": "2026-09-30-one-word-answers-ai-coding-transfer",
+  "topics": [
+    {
+      "section": "research",
+      "title": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions"
+    },
+    {
+      "section": "news",
+      "title": "NVIDIA launches Open Agent Safety Platform (OpenShell + Sentry) with 100+ organizations"
+    },
+    {
+      "section": "invention",
+      "title": "Jeff: tiny fine-tuned classifiers that return calibrated probabilities in one forward pass"
+    }
+  ],
+  "formats": {
+    "research": "by-the-numbers",
+    "news": "claim-vs-evidence",
+    "invention": "comparison"
+  },
+  "factcheck": {
+    "round1": {
+      "checked": 90,
+      "passed": 66,
+      "fix": 23,
+      "cut": 1
+    },
+    "round2": {
+      "pass": 13,
+      "fix": 3
+    },
+    "allResolved": true
+  },
+  "editor": {
+    "round1": "FAIL (2 fixes: rhetorical-question label, unsourced closing verdict)",
+    "resolution": "fixes applied; plus Bessent attribution tightened to CNBC wording and verified"
+  },
+  "notes": [
+    "openai.com, theguardian.com, cnbc.com blocked WebFetch (cnbc reachable via curl with browser UA)",
+    "Reddit RSS skipped",
+    "first run: pipeline run manually from the main session"
+  ]
+}

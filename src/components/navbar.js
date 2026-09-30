@@ -46,6 +46,9 @@ export default function Pagenav() {
                     <Link href="/articles" className="inline-flex h-9 items-center text-[20px] font-medium text-dim transition hover:text-fg">
                         Articles
                     </Link>
+                    <Link href="/eureka" className="inline-flex h-9 items-center text-[20px] font-medium text-dim transition hover:text-fg">
+                        Eureka Reports
+                    </Link>
                     <a
                         href="https://www.linkedin.com/in/jusrogers"
                         target="_blank"
@@ -64,6 +67,9 @@ export default function Pagenav() {
                     <div className="flex flex-col gap-4">
                         <Link href="/articles" className="text-sm font-medium text-dim hover:text-fg" onClick={() => setOpen(false)}>
                             Articles
+                        </Link>
+                        <Link href="/eureka" className="text-sm font-medium text-dim hover:text-fg" onClick={() => setOpen(false)}>
+                            Eureka Reports
                         </Link>
                         <a
                             href="https://www.linkedin.com/in/jusrogers"

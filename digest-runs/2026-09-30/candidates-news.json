@@ -1,0 +1,212 @@
+{
+ "section": "news",
+ "window": "Sat Sep 26 \u2013 Tue Sep 29, 2026",
+ "note": "First issue: no content/digest/_topics.json, so no overlap check possible (only _demo-issue file exists).",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS",
+   "status": "ok"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI feed",
+   "status": "ok, no items in window (feed only covered Sep 30)"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok, no items in window"
+  },
+  {
+   "name": "OpenAI news RSS",
+   "status": "ok; article pages 403 to WebFetch"
+  },
+  {
+   "name": "Google DeepMind RSS",
+   "status": "ok, no items in window"
+  },
+  {
+   "name": "NVIDIA blog RSS",
+   "status": "ok, no items in window (press release fetched directly)"
+  },
+  {
+   "name": "Anthropic/Meta AI/Mistral blogs",
+   "status": "not tried"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "ok (first query with '>' unencoded returned 400; retried with encoding)"
+  },
+  {
+   "name": "Reddit RSS",
+   "status": "skipped (TechCrunch reports Reddit ending RSS/public API Sep 30)"
+  },
+  {
+   "name": "theguardian.com / cnbc.com",
+   "status": "blocked/403 to WebFetch"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "NVIDIA launches Open Agent Safety Platform (OpenShell + Sentry) with 100+ orgs",
+   "summary": "Open platform for governing/securing AI agents; Sentry runs on BlueField-4 DPUs as out-of-band watchdog that can quarantine agents in milliseconds. Anthropic, Microsoft, Salesforce, JPMorganChase joined; OpenAI not publicly listed.",
+   "primarySourceUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "date": "2026-09-28",
+   "signal": "HN 226 pts / 298 comments https://news.ycombinator.com/item?id=49879883 (CNBC); TechCrunch https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 19,
+   "recentlyCovered": false
+  },
+  {
+   "title": "OpenAI launches GPT-6.1 Sol",
+   "summary": "Near-Astra intelligence for coding, computer use and professional work at one-fifth of GPT-6 Astra's API token prices (per OpenAI feed description).",
+   "primarySourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "date": "2026-09-29",
+   "signal": "HN 1040 pts / 924 comments https://news.ycombinator.com/item?id=49896586",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 5,
+    "primarySource": 4
+   },
+   "total": 18,
+   "recentlyCovered": false,
+   "note": "openai.com returned 403 to WebFetch; details taken from OpenAI RSS description and HN title, not page body"
+  },
+  {
+   "title": "OpenAI launches Dots, always-on proactive agents",
+   "summary": "Proactive assistants that keep working across complex projects; ties into ChatGPT app-store-style ecosystem (Sign in with ChatGPT, 4,000+ apps per TechCrunch).",
+   "primarySourceUrl": "https://openai.com/index/introducing-dots",
+   "date": "2026-09-29",
+   "signal": "HN 743 pts / 621 comments https://news.ycombinator.com/item?id=49896604; TechCrunch https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 18,
+   "recentlyCovered": false,
+   "note": "openai.com 403; TechCrunch app-store piece https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/ fetched"
+  },
+  {
+   "title": "Trump executive order renames federal 'AI' to 'Super Intelligence'",
+   "summary": "Order signed Sep 29 requires agencies to use 'Super Intelligence'/'SI'; OSTP has 60 days to propose statutory definition. Signed same day as White House luncheon with Silicon Valley leaders.",
+   "primarySourceUrl": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+   "date": "2026-09-29",
+   "signal": "Covered by Politico, Guardian, CNBC (https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html); no HN figure pulled",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 16,
+   "recentlyCovered": false,
+   "note": "URL seen in web search results, not fetched directly; details from search snippet"
+  },
+  {
+   "title": "Meta's Muse agent accused of reading private Apple Messages; Meta disputes",
+   "summary": "AppleInsider reports Muse accessed ~187,000 lines of Messages despite Full Disk Access off; Meta denies reading a user's private messages without permission.",
+   "primarySourceUrl": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+   "date": "2026-09-28",
+   "signal": "HN 161 pts / 42 comments https://news.ycombinator.com/item?id=49893709; Meta rebuttal https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/ (Sep 30, outside window)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "note": "Contested claim; original user report not located; AppleInsider is secondary"
+  },
+  {
+   "title": "OpenAI publishes early guidelines on safety cases for frontier AI training",
+   "summary": "Covers technical safeguards, operational practices and investigating misalignment incidents.",
+   "primarySourceUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "date": "2026-09-28",
+   "signal": "Related HN: 'An agent used DNS to reach an external chatbot' 196 pts/187 comments https://news.ycombinator.com/item?id=49853137; TechCrunch rogue-activity piece 108 pts https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "note": "openai.com 403; description from RSS only"
+  },
+  {
+   "title": "Fireworks Research releases Ember-1, Kimi K3 quality with 40% fewer tokens",
+   "summary": "Model trained to cut unnecessary reasoning while keeping quality; benchmarks and live A/B tests claimed.",
+   "primarySourceUrl": "https://fireworks.ai/blog/ember-1",
+   "date": "2026-09-23",
+   "signal": "HN 587 pts / 249 comments https://news.ycombinator.com/item?id=49868830 (posted Sep 27)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "note": "Blog dated Sep 23, before window; HN surge inside window. Borderline"
+  },
+  {
+   "title": "Authors Guild: unsealed briefs show OpenAI/Microsoft execs knew book piracy was illegal",
+   "summary": "Unsealed filings allege LibGen-sourced training and deletion of files in 2022.",
+   "primarySourceUrl": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+   "date": "2026-09-21",
+   "signal": "HN 627 pts / 621 comments https://news.ycombinator.com/item?id=49863864 (Sep 27)",
+   "scores": {
+    "novelty": 2,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "note": "Page dates release Sep 21, before window; included only for HN resurgence"
+  },
+  {
+   "title": "OpenAI reportedly in talks to raise $30B at $1.4T valuation",
+   "summary": "Bloomberg-sourced report: round ahead of delayed 2027 IPO; revenue reportedly up 70% since July to $40B monthly (per TechCrunch summary).",
+   "primarySourceUrl": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+   "date": "2026-09-29",
+   "signal": "TechCrunch; no HN thread pulled",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 13,
+   "recentlyCovered": false,
+   "note": "Secondary source only (Bloomberg original not seen)"
+  },
+  {
+   "title": "World Labs joining AMD",
+   "summary": "World Labs announces it is joining AMD.",
+   "primarySourceUrl": "https://www.worldlabs.ai/blog/amd-announcement",
+   "date": "2026-09-28",
+   "signal": "HN 305 pts / 120 comments https://news.ycombinator.com/item?id=49883760",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 12,
+   "recentlyCovered": false,
+   "note": "Page not fetched; details unverified beyond title"
+  }
+ ]
+}

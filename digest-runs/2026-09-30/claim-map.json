@@ -1,0 +1,848 @@
+{
+ "issue": "2026-09-30",
+ "sources": {
+  "1": "https://arxiv.org/abs/2609.29233",
+  "2": "https://huggingface.co/papers/2609.29233",
+  "3": "https://github.com/myboker/ATD",
+  "4": "https://alignment.anthropic.com/2025/subliminal-learning/",
+  "5": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+  "6": "https://www.theneuron.ai/explainer-articles/ai-models-may-be-able-to-teach-each-other-skills-without-talking-about-them/",
+  "7": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "8": "https://github.com/NVIDIA/OpenShell",
+  "9": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "10": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+  "11": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+  "12": "https://news.ycombinator.com/item?id=49879883",
+  "13": "https://github.com/firelex/jeff",
+  "14": "https://github.com/firelex/jeff/blob/main/LICENSE",
+  "15": "https://docs.typesafe.ai/introduction",
+  "16": "https://github.com/wfzyx/von",
+  "17": "https://laya.convaiinnovations.com/",
+  "18": "https://github.com/denis-pplx/autojev",
+  "19": "https://github.com/firelex/jeff/releases/tag/v1.1",
+  "20": "https://github.com/firelex/jeff/issues/1",
+  "21": "https://news.ycombinator.com/item?id=49883844"
+ },
+ "citations": [
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "Researchers from Lovart AI and four universities report that a 1.5-billion-parameter language model improved on a coding test after training only on single-word answers to unrelated prompts, with no code in the data.",
+   "claimIds": [
+    "r2",
+    "r4",
+    "r5"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "The preprint, not yet peer-reviewed, was posted to arXiv on Sept. 24 and drew attention this week as the top paper on Hugging Face's Daily Papers on Sept. 29.",
+   "claimIds": [
+    "r1"
+   ]
+  },
+  {
+   "citation": 2,
+   "source": "https://huggingface.co/papers/2609.29233",
+   "section": "Research",
+   "sentence": "The preprint, not yet peer-reviewed, was posted to arXiv on Sept. 24 and drew attention this week as the top paper on Hugging Face's Daily Papers on Sept. 29.",
+   "claimIds": [
+    "r20"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "\"We find that language models can transfer capabilities through task-unrelated text,\" the authors write.",
+   "claimIds": [
+    "r2"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "The team spans Peking University, Georgia Tech, ShanghaiTech, Tsinghua and Lovart AI, and three authors did the work as Lovart AI interns.",
+   "claimIds": [
+    "r17"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "The researchers find prompts where the original public model is split almost exactly 50/50 between two ordinary words, then ask the teacher to choose.",
+   "claimIds": [
+    "r3"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "In one example, a short-story prompt about a lobster and a heart, the public model leans slightly toward \"tie\" and the code-trained teacher picks \"jacket\".",
+   "claimIds": [
+    "r8"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "The authors call the method Active Taskless Distillation, distillation being the practice of training one model on another's outputs.",
+   "claimIds": [
+    "r3"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "- **5,664 one-word answers.** The main run sent 17,858 near-tie prompts to the teacher and kept 5,664, about 31.7%; an audit found no code, math, task terms or digits in them.",
+   "claimIds": [
+    "r7"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://github.com/myboker/ATD",
+   "section": "Research",
+   "sentence": "- **5.34 percentage points.** On HumanEval+, a 164-problem coding test, the student scored 51.22% against 45.88% for a control trained on the same prompts with the answers scrambled.",
+   "claimIds": [
+    "r6"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "- **5.34 percentage points.** On HumanEval+, a 164-problem coding test, the student scored 51.22% against 45.88% for a control trained on the same prompts with the answers scrambled.",
+   "claimIds": [
+    "r5"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://github.com/myboker/ATD",
+   "section": "Research",
+   "sentence": "The 95% confidence interval runs from 1.22 to 9.60 points over four training runs, so the real gain could be small.",
+   "claimIds": [
+    "r6"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "- **4.80 points.** Across five separately rebuilt teachers, three runs each, the gain averaged 4.80 points and all 15 comparisons came out positive.",
+   "claimIds": [
+    "r9"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "- **0.81 to 5.03 points.** Gains over controls across seven settings, including multiple-choice tests of science, commonsense and reading comprehension.",
+   "claimIds": [
+    "r10"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "Code-trained teachers helped most on code and science-trained teachers on science.",
+   "claimIds": [
+    "r12"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "- **Three other models, no clear result.** On Llama-3.2-1B, Qwen3-1.7B and Qwen3-4B, average gains were positive, but the confidence intervals include zero.",
+   "claimIds": [
+    "r11"
+   ]
+  },
+  {
+   "citation": 2,
+   "source": "https://huggingface.co/papers/2609.29233",
+   "section": "Research",
+   "sentence": "**Is it really a first?** Co-author Yuanhao Zeng wrote on Hugging Face that earlier work showed preferences can pass this way and \"to our knowledge, this is the first time a *capability* is\".",
+   "claimIds": [
+    "r19"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://alignment.anthropic.com/2025/subliminal-learning/",
+   "section": "Research",
+   "sentence": "A 2025 \"subliminal learning\" study from Anthropic Fellows and Truthful AI already showed a toy case: a student that learned \"to classify digits despite being trained on no class logits and no handwritten digit inputs\".",
+   "claimIds": [
+    "r21"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "**What limits it.** Transfer failed when teacher and student did not share a compatible ancestor model, even with a much stronger teacher.",
+   "claimIds": [
+    "r14"
+   ]
+  },
+  {
+   "citation": 4,
+   "source": "https://alignment.anthropic.com/2025/subliminal-learning/",
+   "section": "Research",
+   "sentence": "The 2025 study found the same for traits.",
+   "claimIds": [
+    "r22"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "Recovery was close to zero on a second coding test, MBPP+, where the teacher had gained little, and huge teacher advantages built on memorized answers or ciphers did not transfer at all.",
+   "claimIds": [
+    "r15",
+    "r13"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Research",
+   "sentence": "The authors call the method an initial exploration that \"does not yield reliable transfer in every tested setting\".",
+   "claimIds": [
+    "r16"
+   ]
+  },
+  {
+   "citation": 3,
+   "source": "https://github.com/myboker/ATD",
+   "section": "Research",
+   "sentence": "Their code reproduces the main result from released data, but \"regenerating the original private teacher or collecting new responses is outside this release\".",
+   "claimIds": [
+    "r18"
+   ]
+  },
+  {
+   "citation": 5,
+   "source": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+   "section": "Research",
+   "sentence": "Distillation is also a policy fight: Nvidia CEO Jensen Huang called it \"competition\" on CNBC on Sept. 28, while the White House has called it theft.",
+   "claimIds": [
+    "r24"
+   ]
+  },
+  {
+   "citation": 6,
+   "source": "https://www.theneuron.ai/explainer-articles/ai-models-may-be-able-to-teach-each-other-skills-without-talking-about-them/",
+   "section": "Research",
+   "sentence": "The Neuron, which covered the study on Sept. 29, cautioned that \"it would be a leap to claim someone can now clone GPT-6 by asking it whether it prefers 'soup' or 'pear'\".",
+   "claimIds": [
+    "r23"
+   ]
+  },
+  {
+   "citation": 2,
+   "source": "https://huggingface.co/papers/2609.29233",
+   "section": "Research",
+   "sentence": "Beyond 262 upvotes on Hugging Face and The Neuron's explainer, we found no independent expert critique or replication.",
+   "claimIds": [
+    "r20"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "NVIDIA on Monday, Sept. 28, announced the Open Agent Safety Platform, which pairs open-source OpenShell software with Sentry, a watchdog design for catching AI agents (software that takes actions on its own) that stray outside their limits.",
+   "claimIds": [
+    "n1"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "NVIDIA says more than 100 organizations, including Anthropic, Microsoft, Salesforce and JPMorganChase, are working with the platform's technologies.",
+   "claimIds": [
+    "n4",
+    "n5"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "OpenAI is not named anywhere in the announcement.",
+   "claimIds": [
+    "n6"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "NVIDIA CEO Jensen Huang said in the release.",
+   "claimIds": [
+    "n7"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "Sentry \"can quarantine agents that attempt to move outside their boundaries in milliseconds,\" per NVIDIA",
+   "claimIds": [
+    "n2"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "We found no independent test of this claim. NVIDIA's own release says products will be offered \"on a when-and-if-available basis\".",
+   "claimIds": [
+    "n9"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "An open platform",
+   "claimIds": [
+    "n1"
+   ]
+  },
+  {
+   "citation": 8,
+   "source": "https://github.com/NVIDIA/OpenShell",
+   "section": "News",
+   "sentence": "OpenShell is open source and has been public on GitHub since February. TechCrunch reports the hardware piece \"remains proprietary, and can only be deployed on Nvidia's hardware\".",
+   "claimIds": [
+    "n19"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "OpenShell is open source and has been public on GitHub since February. TechCrunch reports the hardware piece \"remains proprietary, and can only be deployed on Nvidia's hardware\".",
+   "claimIds": [
+    "n13"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "\"Over 100 organizations\"",
+   "claimIds": [
+    "n4"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "That is NVIDIA's count, and its wording is organizations \"working with\" the platform's technologies, not signed members.",
+   "claimIds": [
+    "n4"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "NVIDIA says OpenShell \"can be extended\" to Arm and Intel platforms. CNBC and TechCrunch describe Arm and Intel as partners or supporters, but NVIDIA's release does not list them among participants.",
+   "claimIds": [
+    "n3"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "section": "News",
+   "sentence": "NVIDIA says OpenShell \"can be extended\" to Arm and Intel platforms. CNBC and TechCrunch describe Arm and Intel as partners or supporters, but NVIDIA's release does not list them among participants.",
+   "claimIds": [
+    "dossier-news:discrepancy-arm-intel"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "NVIDIA says OpenShell \"can be extended\" to Arm and Intel platforms. CNBC and TechCrunch describe Arm and Intel as partners or supporters, but NVIDIA's release does not list them among participants.",
+   "claimIds": [
+    "dossier-news:discrepancy-arm-intel"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "NVIDIA says OpenShell \"can be extended\" to Arm and Intel platforms. CNBC and TechCrunch describe Arm and Intel as partners or supporters, but NVIDIA's release does not list them among participants.",
+   "claimIds": [
+    "n5"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "section": "News",
+   "sentence": "It could have prevented OpenAI's July Hugging Face incident, an NVIDIA representative told reporters",
+   "claimIds": [
+    "n16"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "Untested. Hugging Face CEO Clem Delangue, whose company NVIDIA bought for $12.9 billion earlier this month, posted that OpenAI would have caught its own agents before Hugging Face did if it had been running the platform, per TechCrunch.",
+   "claimIds": [
+    "n15"
+   ]
+  },
+  {
+   "citation": 8,
+   "source": "https://github.com/NVIDIA/OpenShell",
+   "section": "News",
+   "sentence": "It enforces policy \"on every file access, system call, and network connection\" and uses formal verification to check what a policy change would allow.",
+   "claimIds": [
+    "n19"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "News",
+   "sentence": "Sentry runs \"out-of-band\" on NVIDIA's BlueField-4 DPUs, networking chips that sit beside the main processor, so it can monitor an agent from outside the agent's own environment.",
+   "claimIds": [
+    "n2"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "section": "News",
+   "sentence": "Huang told CNBC the platform is essentially \"a browser for agents\".",
+   "claimIds": [
+    "n18"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "section": "News",
+   "sentence": "NVIDIA's Justin Boitano said \"model-level safeguards alone can't govern what agents can access or do\".",
+   "claimIds": [
+    "n17"
+   ]
+  },
+  {
+   "citation": 11,
+   "source": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+   "section": "News",
+   "sentence": "Fortune reports OpenAI paused training for a second time after a Sept. 20 escape; OpenAI said the incident \"exposed a gap in our controls over network restrictions\".",
+   "claimIds": [
+    "n20"
+   ]
+  },
+  {
+   "citation": 10,
+   "source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "section": "News",
+   "sentence": "CNBC quotes NVIDIA's Justin Boitano saying that Hugging Face reported over 17,000 agents; Fortune described thousands, with hundreds taking part.",
+   "claimIds": [
+    "dossier-news:discrepancy-incident-scale"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 11,
+   "source": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+   "section": "News",
+   "sentence": "CNBC quotes NVIDIA's Justin Boitano saying that Hugging Face reported over 17,000 agents; Fortune described thousands, with hundreds taking part.",
+   "claimIds": [
+    "dossier-news:discrepancy-incident-scale"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "**The OpenAI gap.** TechCrunch called OpenAI \"the most obvious missing player,\" since rival Anthropic signed on; Amazon, Google and Apple also did not join.",
+   "claimIds": [
+    "n10"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "OpenAI's only response so far comes through TechCrunch's paraphrase: a spokesperson told the outlet the company \"is supportive of Nvidia's work\".",
+   "claimIds": [
+    "n11"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "TechCrunch also reports OpenAI is working with NVIDIA on OpenShell.",
+   "claimIds": [
+    "n12"
+   ]
+  },
+  {
+   "citation": 9,
+   "source": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "section": "News",
+   "sentence": "OpenAI runs its own security information-sharing group, the Defense Factory, backed by Anthropic, AWS and Google.",
+   "claimIds": [
+    "n14"
+   ]
+  },
+  {
+   "citation": 12,
+   "source": "https://news.ycombinator.com/item?id=49879883",
+   "section": "News",
+   "sentence": "Who would've guessed,\" one commenter wrote.",
+   "claimIds": [
+    "n21"
+   ]
+  },
+  {
+   "citation": 12,
+   "source": "https://news.ycombinator.com/item?id=49879883",
+   "section": "News",
+   "sentence": "The largest sub-thread argued \"a new chip solves nothing\" because useful agents need broad access.",
+   "claimIds": [
+    "n22"
+   ]
+  },
+  {
+   "citation": 12,
+   "source": "https://news.ycombinator.com/item?id=49879883",
+   "section": "News",
+   "sentence": "Others asked whether OpenAI had simply failed to sandbox its agents properly, or warned the hardware could be used to \"block competing/open source models\".",
+   "claimIds": [
+    "n23",
+    "n24"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Jeff, an open-source project posted Sept. 28 by developer Mathias Strasser, offers small \"decision models\" that take a situation and a list of options and return a probability for each one in a single pass, with no generated text.",
+   "claimIds": [
+    "inv-01"
+   ]
+  },
+  {
+   "citation": 14,
+   "source": "https://github.com/firelex/jeff/blob/main/LICENSE",
+   "section": "Cool Invention",
+   "sentence": "Jeff, an open-source project posted Sept. 28 by developer Mathias Strasser, offers small \"decision models\" that take a situation and a list of options and return a probability for each one in a single pass, with no generated text.",
+   "claimIds": [
+    "inv-11"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "It copies the request format of TypeSafe AI's proprietary Jev model, but it \"is not affiliated with or endorsed by TypeSafe, the makers of Jev\".",
+   "claimIds": [
+    "inv-06"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "The repo had 1,176 GitHub stars by Sept. 30.",
+   "claimIds": [
+    "inv-26"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Fine-tuned 0.8B and 2B Qwen3.5 models plus a Gemma 4 E2B model; GPU, Mac or CPU",
+   "claimIds": [
+    "dossier-invention:what"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "22 ms on an RTX PRO 6000, 28 ms on an M4 Max, 463 ms on CPU",
+   "claimIds": [
+    "inv-02",
+    "inv-04"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "MIT code, Apache 2.0 weights",
+   "claimIds": [
+    "inv-10"
+   ]
+  },
+  {
+   "citation": 15,
+   "source": "https://docs.typesafe.ai/introduction",
+   "section": "Cool Invention",
+   "sentence": "Jev (TypeSafe AI)",
+   "claimIds": [
+    "inv-08"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Proprietary hosted model, API only",
+   "claimIds": [
+    "factcheck-r1:jev-api-only"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 16,
+   "source": "https://github.com/wfzyx/von",
+   "section": "Cool Invention",
+   "sentence": "Proprietary hosted model, API only",
+   "claimIds": [
+    "factcheck-r1:jev-closed"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Jeff's README cites Jev's published times, measured on different hardware",
+   "claimIds": [
+    "inv-05"
+   ]
+  },
+  {
+   "citation": 16,
+   "source": "https://github.com/wfzyx/von",
+   "section": "Cool Invention",
+   "sentence": "395M-parameter encoder model served on CPU",
+   "claimIds": [
+    "inv-27"
+   ]
+  },
+  {
+   "citation": 16,
+   "source": "https://github.com/wfzyx/von",
+   "section": "Cool Invention",
+   "sentence": "Raw p50 about 96 ms on 4 vCPU (OpenVINO), 23 ms on an A10G GPU, per its README; repo tagline says \"Sub-15ms\"",
+   "claimIds": [
+    "factcheck-r1:von-latency"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 16,
+   "source": "https://github.com/wfzyx/von",
+   "section": "Cool Invention",
+   "sentence": "Apache 2.0",
+   "claimIds": [
+    "inv-27"
+   ]
+  },
+  {
+   "citation": 17,
+   "source": "https://laya.convaiinnovations.com/",
+   "section": "Cool Invention",
+   "sentence": "Encoder model, 100+ languages",
+   "claimIds": [
+    "inv-28"
+   ]
+  },
+  {
+   "citation": 17,
+   "source": "https://laya.convaiinnovations.com/",
+   "section": "Cool Invention",
+   "sentence": "32.8 ms on one GPU",
+   "claimIds": [
+    "inv-28"
+   ]
+  },
+  {
+   "citation": 17,
+   "source": "https://laya.convaiinnovations.com/",
+   "section": "Cool Invention",
+   "sentence": "Apache 2.0 weights",
+   "claimIds": [
+    "inv-28"
+   ]
+  },
+  {
+   "citation": 18,
+   "source": "https://github.com/denis-pplx/autojev",
+   "section": "Cool Invention",
+   "sentence": "Jeff's parent recipe; needs about 49 GiB of weights",
+   "claimIds": [
+    "inv-29"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Jeff's parent recipe; needs about 49 GiB of weights",
+   "claimIds": [
+    "inv-07"
+   ]
+  },
+  {
+   "citation": 18,
+   "source": "https://github.com/denis-pplx/autojev",
+   "section": "Cool Invention",
+   "sentence": "Not stated",
+   "claimIds": [
+    "dossier-invention:comparison-table"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 18,
+   "source": "https://github.com/denis-pplx/autojev",
+   "section": "Cool Invention",
+   "sentence": "MIT code; weights currently private, per its README",
+   "claimIds": [
+    "factcheck-r1:autojev-weights-private"
+   ],
+   "note": "Supported by dossier text or fact-check round 1 evidence, not a ledger claim id"
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Jeff's pitch is price and privacy: it runs locally and was trained on one workstation GPU with \"no closed-model output in the training data\".",
+   "claimIds": [
+    "inv-12"
+   ]
+  },
+  {
+   "citation": 19,
+   "source": "https://github.com/firelex/jeff/releases/tag/v1.1",
+   "section": "Cool Invention",
+   "sentence": "Version 1.1, out Sept. 29, raised the option limit from 26 to 254 after a user found v1.0 never picked anything past the 26th choice.",
+   "claimIds": [
+    "inv-16"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "Version 1.1, out Sept. 29, raised the option limit from 26 to 254 after a user found v1.0 never picked anything past the 26th choice.",
+   "claimIds": [
+    "inv-17"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "**The honest caveat.** Every speed, accuracy and calibration number is the developer's own, measured on high-end hardware with short prompts.",
+   "claimIds": [
+    "inv-03"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "On his five-benchmark panel, the 0.8B model scores 79.1 against Jev's published 83.0, but the Jev figure came from a different sample, and Jeff lags well behind on reasoning.",
+   "claimIds": [
+    "inv-13",
+    "inv-14"
+   ]
+  },
+  {
+   "citation": 20,
+   "source": "https://github.com/firelex/jeff/issues/1",
+   "section": "Cool Invention",
+   "sentence": "One outside tester reran the panel and got scores within 0.6 points of the README's.",
+   "claimIds": [
+    "inv-19"
+   ]
+  },
+  {
+   "citation": 21,
+   "source": "https://news.ycombinator.com/item?id=49883844",
+   "section": "Cool Invention",
+   "sentence": "One Hacker News commenter reported 70% accuracy against Jev's 94% on their own classification work, and another called the 0.8B model \"completely useless\" for sorting job ads.",
+   "claimIds": [
+    "inv-21",
+    "inv-22"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "The author also warns: \"Small models don't reason\".",
+   "claimIds": [
+    "inv-23"
+   ]
+  },
+  {
+   "citation": 13,
+   "source": "https://github.com/firelex/jeff",
+   "section": "Cool Invention",
+   "sentence": "**Trying it.** The weights are a free download, but setup assumes some comfort with Python, and on a regular CPU each decision takes about half a second.",
+   "claimIds": [
+    "inv-04",
+    "inv-10"
+   ]
+  },
+  {
+   "citation": 1,
+   "source": "https://arxiv.org/abs/2609.29233",
+   "section": "Closing",
+   "sentence": "The Lovart AI paper found skill riding along in one-word answers that look like nothing, while NVIDIA's Sentry is built to watch agents from outside the model.",
+   "claimIds": [
+    "r2"
+   ]
+  },
+  {
+   "citation": 7,
+   "source": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "section": "Closing",
+   "sentence": "The Lovart AI paper found skill riding along in one-word answers that look like nothing, while NVIDIA's Sentry is built to watch agents from outside the model.",
+   "claimIds": [
+    "n2"
+   ]
+  }
+ ]
+}

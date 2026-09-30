@@ -1,0 +1,55 @@
+{
+  "research": {
+    "title": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+    "primaryUrl": "https://arxiv.org/abs/2609.29233",
+    "why": "Most significant and most discussed paper of the window (top of HF Daily Papers on Sep 29, 262 upvotes): it shows a student model can pick up a teacher's capabilities from a single teacher-chosen word per prompt of unrelated text, extending 'subliminal learning'. For a general reader that is a clear, surprising finding with safety and policy stakes (hidden trait transfer; distillation as a competition issue, per the related HN thread). DATE CAVEAT: arXiv submission is Sep 24, before the window; it is included because its main momentum (HF feature, discussion) came on Sep 29 inside the window, and the piece should say 'posted last week, drew attention this week'. Label as a preprint, not yet peer-reviewed. Primary source is arXiv, fully readable.",
+    "runnersUp": [
+      {
+        "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+        "primaryUrl": "https://arxiv.org/abs/2609.33757",
+        "note": "Dated Sep 27, squarely in window; 219 HF upvotes; very accessible to general readers (AI writes a readable score, then renders audio). Best fallback if the deep-diver finds the top pick too technical or the date issue is judged disqualifying."
+      },
+      {
+        "title": "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
+        "primaryUrl": "https://arxiv.org/abs/2609.35347",
+        "note": "Dated Sep 28 (in window), 142 upvotes, same distillation theme, but scout summarized from abstract snippet only and it is less relevant to a general reader."
+      }
+    ]
+  },
+  "news": {
+    "title": "NVIDIA launches Open Agent Safety Platform (OpenShell + Sentry) with 100+ organizations",
+    "primaryUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "why": "Dated Sep 28 inside the window, with a readable primary source (NVIDIA press release fetched directly). It is an industry-wide effort to police AI agents: Sentry runs on BlueField-4 DPUs as an out-of-band watchdog that NVIDIA says can quarantine agents in milliseconds, with Anthropic, Microsoft, Salesforce and JPMorganChase joining. Strong discussion (HN 226 pts / 298 comments) plus a clear news hook in OpenAI's absence (TechCrunch, Sep 29: https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/). Attribute performance claims to NVIDIA. Chosen over GPT-6.1 Sol because OpenAI's pages return 403 and that story currently rests on an RSS description and HN title.",
+    "runnersUp": [
+      {
+        "title": "OpenAI launches GPT-6.1 Sol",
+        "primaryUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "note": "Biggest momentum of the window (HN 1040 pts / 924 comments, Sep 29) but AT RISK: openai.com returned 403 to WebFetch, so details come only from the RSS description and HN title. Only usable if the deep-diver finds a readable primary source (RSS full text, API docs/pricing page, model/system card, or reporting that quotes OpenAI directly)."
+      },
+      {
+        "title": "Trump executive order renames federal 'AI' to 'Super Intelligence'",
+        "primaryUrl": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+        "note": "Sep 29, in window, high general-reader significance; the White House fact sheet was not fetched (seen only in search results), so it must be read and verified first."
+      }
+    ]
+  },
+  "invention": {
+    "title": "Jeff: tiny fine-tuned classifiers that return calibrated probabilities in one forward pass",
+    "primaryUrl": "https://github.com/firelex/jeff",
+    "why": "In window (repo Sep 28, v1.1 on Sep 29), fast-growing (1,176 stars by Sep 30), and something readers can safely try: 0.8B/2B open 'decision models' built on Qwen3.5/Gemma 4 that pick among up to 254 options zero-shot in about 22 ms on a GPU or about 28 ms on an Apple M4 Max, with probabilities attached rather than free text. Honest caveat angle: small models, speed and calibration numbers are the authors' own claims; the deep-diver should verify the benchmarks and the stated link to 'Jev' (TypeSafe AI) from the README before using them. Excluded the higher-scoring 'dots' web agent because its main selling point is an anti-detection browser built to evade bot blocking, which does not fit a general-audience spotlight. Excluded HN.watch because its AI angle was unverified.",
+    "runnersUp": [
+      {
+        "title": "TinyAIArena: four AI models fight on an 8x8 grid (Show HN)",
+        "primaryUrl": "https://tinyaiarena.com/",
+        "note": "Sep 27, HN 120 pts / 45 comments; the easiest thing for a general reader to try (watch in a browser, code at github.com/hp6/ai-arena). Lower significance."
+      },
+      {
+        "title": "pokemon-claude-red: Pokemon Red rebuilt from raw pixels by Claude Opus 5.5",
+        "primaryUrl": "https://github.com/levy-street/pokemon-claude-red",
+        "note": "Sep 26, playable in browser (https://claudered.dev), fun showcase of long-horizon code generation, but low momentum (54 stars) and possible IP questions to handle carefully."
+      }
+    ]
+  },
+  "thread": "Both the research and news picks are about what AI does out of sight: a paper finding that models can pass on behaviors through text that looks unrelated, and an industry platform built to watch and quarantine agents from outside the model.",
+  "skipped": []
+}

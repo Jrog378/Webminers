@@ -1,0 +1,26 @@
+{
+  "keywords": [
+    "AI coding skill transfer",
+    "one-word answers",
+    "Active Taskless Distillation",
+    "NVIDIA Open Agent Safety Platform",
+    "AI agent safety",
+    "Jeff decision model"
+  ],
+  "title": "One-Word Answers Lifted AI Coding | Eureka Reports Sep 30",
+  "description": "A preprint says a 1.5B model gained 5.34 points on a coding test from one-word answers. Plus NVIDIA's agent safety platform and the free Jeff model.",
+  "slug": "2026-09-30-one-word-answers-ai-coding-transfer",
+  "keywordResearch": "WebSearch not run; keywords taken from draft topics",
+  "changes": [
+    {
+      "field": "title",
+      "old": "One-Word Answers Lifted an AI's Coding | AI Digest Sep 30",
+      "new": "One-Word Answers Lifted AI Coding | Eureka Reports Sep 30"
+    },
+    {
+      "field": "description",
+      "old": "A 1.5B model gained 5.34 points on a coding test from one-word answers to unrelated prompts, a preprint says. Plus NVIDIA's agent watchdog and Jeff.",
+      "new": "A preprint says a 1.5B model gained 5.34 points on a coding test from one-word answers. Plus NVIDIA's agent safety platform and the free Jeff model."
+    }
+  ]
+}

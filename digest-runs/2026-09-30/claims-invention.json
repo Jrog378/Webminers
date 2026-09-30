@@ -1,0 +1,234 @@
+[
+  {
+    "id": "inv-01",
+    "claim": "Jeff returns a probability for each listed option from a single forward pass, with no generated text.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "You describe a situation and list the options in plain words; Jeff returns a calibrated probability for each option from a single forward pass. No generated text, no parsing",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-02",
+    "claim": "Author-reported speed is about 22 ms per decision on an RTX PRO 6000 and 28 ms on an Apple M4 Max.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "about **22 ms** per\ndecision on an RTX PRO 6000 and **28 ms** on an Apple M4 Max (MLX)",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-03",
+    "claim": "Speed was measured as the median over 200 benchmark questions of about 200 input tokens, one at a time.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "Median time per decision over the same 200 benchmark questions (about 200 input tokens each), one question at a time,\nfrom raw text to probabilities",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-04",
+    "claim": "On CPU (32 threads) the 0.8B model takes 463 ms per decision.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "| **Jeff-Qwen3.5-0.8B** | 0.8B | 1.7 GB | **22 ms** | **28 ms** | 463 ms |",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-05",
+    "claim": "The Jev latency comparison was not measured on the same hardware.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "The\ntwo times were not measured on the same hardware.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-06",
+    "claim": "Jeff is not affiliated with or endorsed by TypeSafe; it only shares Jev's request format.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "Jeff uses the same request format as Jev, but it is not affiliated with or endorsed by TypeSafe, the\nmakers of Jev.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-07",
+    "claim": "Jeff's training code starts from the open-source AutoJev recipe by Denis Yarats.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "Jeff began as a fork of [AutoJev](https://github.com/denis-pplx/autojev) by Denis Yarats (MIT licence)",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-08",
+    "claim": "Jev is TypeSafe AI's flagship model and uses choice/score/noul question types at a /v1/systemone endpoint.",
+    "url": "https://docs.typesafe.ai/introduction",
+    "quote": "Jev is TypeSafe’s flagship model and the first System One model.",
+    "sourceType": "Official",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-09",
+    "claim": "TypeSafe's API endpoint is POST https://api.typesafe.ai/v1/systemone.",
+    "url": "https://docs.typesafe.ai/introduction/quickstart.md",
+    "quote": "POST https://api.typesafe.ai/v1/systemone",
+    "sourceType": "Official",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-10",
+    "claim": "Code is MIT licensed and model weights are Apache 2.0; training data is not released.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "Code: MIT (including AutoJev's). Model weights: Apache 2.0.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-11",
+    "claim": "The LICENSE names Mathias Strasser as Jeff's copyright holder.",
+    "url": "https://github.com/firelex/jeff/blob/main/LICENSE",
+    "quote": "Copyright (c) 2026 Mathias Strasser (Jeff)",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-12",
+    "claim": "Training used one RTX PRO 6000 GPU and synthetic data from an open model, with no cloud GPUs.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "No cloud GPUs, and no closed-model output in the training data",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-13",
+    "claim": "On the author's 5-benchmark panel the 0.8B scores 79.1 and the 2B 82.0, vs Jev's published 83.0, measured on a different sample.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "The published Jev and AutoJev figures were measured on a different sample of the same benchmarks.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-14",
+    "claim": "Jeff trails well behind on reasoning benchmarks such as BBH and JevBench.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "on the\nreasoning-heavy benchmarks (BBH, JudgeBench, JevBench) it stays well below them, as you would expect at this size.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-15",
+    "claim": "v1.1 calibration error (ECE) is 0.021 for the 0.8B and 0.026 for the 2B.",
+    "url": "https://github.com/firelex/jeff/releases/tag/v1.1",
+    "quote": "**Calibration:** error 0.049 → 0.021 (0.8B), 0.028 → 0.026 (2B).",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-16",
+    "claim": "v1.1 raised the option limit from 26 to 254.",
+    "url": "https://github.com/firelex/jeff/releases/tag/v1.1",
+    "quote": "accept up to 254 options per question (v1.0: 26).",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-17",
+    "claim": "v1.0 never picked options past the 26th, a bug reported by a user and fixed in v1.1.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "v1.0 never picked an option past the 26th, because no training question had more than 19 options",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-18",
+    "claim": "MASSIVE and CLINC150 results are no longer zero-shot after v1.1.",
+    "url": "https://github.com/firelex/jeff/releases/tag/v1.1",
+    "quote": "MASSIVE and CLINC150 results are no longer zero-shot.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-19",
+    "claim": "An outside user reproduced the benchmark-panel scores on v1.1.",
+    "url": "https://github.com/firelex/jeff/issues/1",
+    "quote": "On the panel I get 79.1 and 81.9, matching your README.",
+    "sourceType": "Social",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-20",
+    "claim": "That user measured BANKING77 (not in training) rising to 66.2% (0.8B) and 64.9% (2B) in v1.1.",
+    "url": "https://github.com/firelex/jeff/issues/1",
+    "quote": "BANKING77, which isn't in your training data, went from 23.4% to 66.2% (0.8B) and from 16.2% to 64.9% (2B)",
+    "sourceType": "Social",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-21",
+    "claim": "An HN user reported Jeff scoring 70% vs Jev's 94% on their own use cases.",
+    "url": "https://news.ycombinator.com/item?id=49883844",
+    "quote": "I compared it to Jev in my current use cases and it's very inaccurate. 70% vs 94% . for classification, it's unacceptable.",
+    "sourceType": "Social",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "inv-22",
+    "claim": "Another HN user found the 0.8B useless for job-ad classification; the 2B was better but still missed job type.",
+    "url": "https://news.ycombinator.com/item?id=49883844",
+    "quote": "I tried the 0.8B model, completely useless in classification.",
+    "sourceType": "Social",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "inv-23",
+    "claim": "The authors caution that small models do not reason and Jeff is English and text only.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "**Small models don't reason.**",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-24",
+    "claim": "A voice-navigation fine-tune took held-out accuracy from 31.7% to 95.8% in under half an hour.",
+    "url": "https://github.com/firelex/jeff",
+    "quote": "our\nvoice-navigation fine-tune moved held-out accuracy from 31.7% to 95.8% in under half an hour on one GPU",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "inv-25",
+    "claim": "The Jeff HN post drew 570 points and 222 comments (as of 2026-09-30).",
+    "url": "https://hn.algolia.com/api/v1/search?query=firelex%2Fjeff&restrictSearchableAttributes=url",
+    "quote": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms 570 222",
+    "sourceType": "Social",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "inv-26",
+    "claim": "The repo had 1,176 GitHub stars as of 2026-09-30.",
+    "url": "https://api.github.com/repos/firelex/jeff",
+    "quote": "'stargazers_count': 1176",
+    "sourceType": "Official",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-27",
+    "claim": "Von is an Apache-2.0, 395M ModernBERT-based open decision model compatible with the TypeSafe protocol.",
+    "url": "https://github.com/wfzyx/von",
+    "quote": "Calibrated Choice / Noul / Score inference from a 395M ModernBERT encoder, one forward pass, CPU-served.",
+    "sourceType": "Official",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-28",
+    "claim": "Laya claims 32.8 ms on a single GPU, 100+ languages and Apache 2.0 weights.",
+    "url": "https://laya.convaiinnovations.com/",
+    "quote": "our models run in 32.8 milliseconds on a single GPU (7.2 ms/question batched)",
+    "sourceType": "Official",
+    "date": "2026-09-30"
+  },
+  {
+    "id": "inv-29",
+    "claim": "AutoJev-27B is a Qwen3.8-27B decision model with a TypeSafe-compatible API needing about 49 GiB of weights.",
+    "url": "https://github.com/denis-pplx/autojev",
+    "quote": "a GPU with space for approximately 49 GiB of BF16 weights plus runtime overhead",
+    "sourceType": "Official",
+    "date": "2026-09-19"
+  }
+]

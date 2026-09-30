@@ -1,0 +1,178 @@
+{
+  "section": "invention",
+  "window": "Sat Sep 26 - Tue Sep 29, 2026",
+  "sourcesTried": [
+    {
+      "name": "GitHub search API (new repos by stars, several queries)",
+      "status": "ok"
+    },
+    {
+      "name": "Hacker News Algolia Show HN (queries AI, agent, LLM)",
+      "status": "ok (first attempt with unencoded '>' failed 400, retried encoded)"
+    },
+    {
+      "name": "Product Hunt feed",
+      "status": "ok, fetched; only titles seen, no candidate met threshold or was verified, none used"
+    },
+    {
+      "name": "Lobsters ai.rss",
+      "status": "ok, fetched; items mostly low signal, none used"
+    },
+    {
+      "name": "content/digest/_topics.json",
+      "status": "absent (first issue); no repeat flags"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "dots: open-source web agent with its own anti-detection Firefox browser",
+      "summary": "MIT-licensed Python agent pairing swappable models (via OpenRouter) with a patched-in-C++ Firefox engine with seeded fingerprints and no automation flags, so sites don't block it.",
+      "primarySourceUrl": "https://github.com/feder-cr/dots",
+      "date": "2026-09-29",
+      "signal": "GitHub stars as of fetch on 2026-09-30: 1,930",
+      "scores": {
+        "novelty": 4,
+        "momentum": 5,
+        "significance": 4,
+        "primarySource": 5
+      },
+      "total": 18,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "Jeff: tiny fine-tuned Qwen3.5/Gemma 4 classifiers that return calibrated probabilities in one forward pass",
+      "summary": "Zero-shot 'decision models' (0.8B/2B) choosing among up to 254 options in ~22 ms on GPU, ~28 ms on Apple M4 Max; v1.1 released 29 Sep. Same request format as 'Jev' (TypeSafe AI). Part of a wider cluster of Jev-related repos this week (jevgrep 1,896 stars, laya-php, OneJev).",
+      "primarySourceUrl": "https://github.com/firelex/jeff",
+      "date": "2026-09-28",
+      "signal": "GitHub stars as of fetch on 2026-09-30: 1,176; related jevgrep https://github.com/dzhng/jevgrep 1,896 stars",
+      "scores": {
+        "novelty": 4,
+        "momentum": 5,
+        "significance": 4,
+        "primarySource": 5
+      },
+      "total": 18,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "TinyAIArena: four AI models fight on an 8x8 grid (Show HN)",
+      "summary": "Spectatable life-or-death matches between LLMs instead of a static benchmark; code at github.com/hp6/ai-arena (linked from HN post text).",
+      "primarySourceUrl": "https://tinyaiarena.com/",
+      "date": "2026-09-27",
+      "signal": "HN 120 points, 45 comments: https://news.ycombinator.com/item?id=49867775",
+      "scores": {
+        "novelty": 4,
+        "momentum": 4,
+        "significance": 2,
+        "primarySource": 4
+      },
+      "total": 14,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "pokemon-claude-red: Pokemon Red rebuilt from raw pixels by Claude Opus 5.5, all sprites/tiles/music as code",
+      "summary": "Playable in browser, zero image files; shows a long-horizon code-generation showcase.",
+      "primarySourceUrl": "https://github.com/levy-street/pokemon-claude-red",
+      "date": "2026-09-26",
+      "signal": "GitHub stars as of fetch on 2026-09-30: 54; demo https://claudered.dev",
+      "scores": {
+        "novelty": 4,
+        "momentum": 2,
+        "significance": 3,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "AIHOT: framework for a self-curating hot-topics daily site",
+      "summary": "Chinese-language repo; you swap in your sources and curation criteria and it finds and writes its own daily report. Most-starred new repo of the window but mostly a template.",
+      "primarySourceUrl": "https://github.com/KKKKhazix/AIHOT",
+      "date": "2026-09-28",
+      "signal": "GitHub stars as of fetch on 2026-09-30: 4,041",
+      "scores": {
+        "novelty": 2,
+        "momentum": 5,
+        "significance": 2,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "coucou / agent-office: companion tooling for Claude Code sessions",
+      "summary": "coucou (911 stars): notch/top-of-screen macOS and Windows companion watching Claude Code sessions. agent-office (437 stars): cartoon 3D office where Claude Code workers sit at desks with shared terminals and voice. Trend: playful UIs around coding agents.",
+      "primarySourceUrl": "https://github.com/Louis-CFM/coucou",
+      "date": "2026-09-27",
+      "signal": "GitHub stars as of fetch on 2026-09-30: coucou 911; agent-office https://github.com/AgentSystemLabs/agent-office 437",
+      "scores": {
+        "novelty": 3,
+        "momentum": 4,
+        "significance": 2,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "HN.watch: videos of all Hacker News posts (Show HN)",
+      "summary": "Show HN project that generates a video for every HN post; top Show HN of the window. AI involvement not verified by me, so check before featuring.",
+      "primarySourceUrl": "https://hn.watch/",
+      "date": "2026-09-28",
+      "signal": "HN 213 points, 97 comments: https://news.ycombinator.com/item?id=49879401",
+      "scores": {
+        "novelty": 3,
+        "momentum": 5,
+        "significance": 2,
+        "primarySource": 3
+      },
+      "total": 13,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "aa-agentperf-local: benchmark local LLM serving by replaying real agent trajectories",
+      "summary": "Artificial Analysis tool (Apache-2.0) measuring serving performance on realistic agent workloads.",
+      "primarySourceUrl": "https://github.com/ArtificialAnalysis/aa-agentperf-local",
+      "date": "2026-09-26",
+      "signal": "GitHub stars as of fetch on 2026-09-30: 54",
+      "scores": {
+        "novelty": 3,
+        "momentum": 2,
+        "significance": 3,
+        "primarySource": 5
+      },
+      "total": 13,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "OpenAPPA: open-source deterministic guardrails for agents that don't break them (Show HN)",
+      "summary": "Guardrail layer for agent actions, positioned as deterministic rather than LLM-judged.",
+      "primarySourceUrl": "https://www.openappa.com/",
+      "date": "2026-09-28",
+      "signal": "HN 24 points, 12 comments: https://news.ycombinator.com/item?id=49877515",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 3
+      },
+      "total": 12,
+      "coveredLast8Weeks": false
+    },
+    {
+      "title": "Corral: kill every command your agent starts (Show HN)",
+      "summary": "Small CLI to clean up process trees spawned by coding agents.",
+      "primarySourceUrl": "https://github.com/Cardinal44/corral",
+      "date": "2026-09-29",
+      "signal": "HN 19 points, 4 comments: https://news.ycombinator.com/item?id=49886422",
+      "scores": {
+        "novelty": 2,
+        "momentum": 2,
+        "significance": 2,
+        "primarySource": 5
+      },
+      "total": 11,
+      "coveredLast8Weeks": false
+    }
+  ]
+}

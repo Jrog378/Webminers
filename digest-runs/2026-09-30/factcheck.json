@@ -1,0 +1,843 @@
+{
+ "runDir": "digest-runs/2026-09-30",
+ "checked": 90,
+ "passed": 66,
+ "fixed": 23,
+ "cut": 1,
+ "results": [
+  {
+   "citation": 1,
+   "sentence": "Lovart AI + four universities; 1.5B model improved on coding test from single-word answers, no code in data; preprint",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Authors at Peking, Georgia Tech, ShanghaiTech, Tsinghua, Lovart AI; abstract and audit confirm; arXiv v1 only.",
+   "fix": ""
+  },
+  {
+   "citation": "1,2",
+   "sentence": "Posted to arXiv Sept. 24; top paper on HF Daily Papers Sept. 29",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "arXiv submitted 24 Sep 2026; HF page shows \"#1 Paper of the day\", Sep 29.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "\"We find that language models can transfer capabilities through task-unrelated text\"",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Exact first sentence of abstract.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Team spans PKU, Georgia Tech, ShanghaiTech, Tsinghua, Lovart AI; three authors were Lovart interns",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Affiliations list; asterisk footnote \"Work done during an internship at Lovart AI\" on 3 authors (Zhang, Jing, Li).",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Qwen2.5-1.5B public model, privately fine-tuned teacher, near 50/50 prompts, teacher picks a word",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Paper method section / Appendix A.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Lobster-and-heart prompt: public model leans toward \"tie\", teacher picks \"jacket\"",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Appendix A: P(tie)=0.5044; teacher returns jacket.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Student trains only on prompt-word pairs; method called Active Taskless Distillation",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Abstract.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "17,858 near-tie prompts, kept 5,664 (~31.7%); audit found no code, math, task terms or digits",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Appendix: \"17,858 near-tie queries ... retains 5,664 carriers (~31.7%)\"; frozen audit finds no code, math, benchmark, task terms, digits.",
+   "fix": ""
+  },
+  {
+   "citation": "3,1",
+   "sentence": "HumanEval+ 164 problems; 51.22% vs 45.88%; +5.34; 95% CI 1.22 to 9.60 over four runs",
+   "url": "https://github.com/myboker/ATD",
+   "verdict": "pass",
+   "evidence": "Repo README and paper Table 1 agree: 164 tasks, four paired seeds, [1.22, 9.60].",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Five rebuilt teachers x three runs, mean +4.80, all 15 comparisons positive",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Section 5.2: five independently constructed acquisitions with own teacher x 3 seeds; +4.80; 15/15 positive.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "0.81 to 5.03 points across seven settings; code-trained helped most on code, science-trained on science",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Table 2 range 0.81 to 5.03; intro says largest benefits on corresponding tasks (Fig 4).",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Llama-3.2-1B, Qwen3-1.7B, Qwen3-4B: positive average gains, CIs include zero",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Figure 3 caption says exactly this.",
+   "fix": ""
+  },
+  {
+   "citation": 2,
+   "sentence": "Zeng wrote on HF that earlier work showed preferences, \"to our knowledge, this is the first time a capability is\"",
+   "url": "https://huggingface.co/papers/2609.29233",
+   "verdict": "pass",
+   "evidence": "Author post by Zeng Yuanhao, Sep 29, contains the quote; emphasis on \"capability\" is in source.",
+   "fix": ""
+  },
+  {
+   "citation": 4,
+   "sentence": "2025 Anthropic Fellows/Truthful AI study: student learned \"to classify digits despite being trained on no class logits and no handwritten digit inputs\"",
+   "url": "https://alignment.anthropic.com/2025/subliminal-learning/",
+   "verdict": "pass",
+   "evidence": "Quote present; lead authors are Anthropic Fellows and Truthful AI (other coauthors at Anthropic, Warsaw Univ. of Tech., ARC, Berkeley).",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Transfer failed without compatible ancestor even with much stronger teacher",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Appendix H, Table 12 (gaps +17.68, +40.25, no transfer).",
+   "fix": ""
+  },
+  {
+   "citation": 4,
+   "sentence": "2025 study found the same for traits",
+   "url": "https://alignment.anthropic.com/2025/subliminal-learning/",
+   "verdict": "pass",
+   "evidence": "tl;dr: effect only occurs when teacher and student share the same base model.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "MBPP+ recovery close to zero; memorized-answer and cipher teachers did not transfer; \"does not yield reliable transfer in every tested setting\"",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Table 13 \"near zero\"; Table 3b; conclusion text matches.",
+   "fix": ""
+  },
+  {
+   "citation": 3,
+   "sentence": "\"regenerating the original private teacher or collecting new responses is outside this release\"",
+   "url": "https://github.com/myboker/ATD",
+   "verdict": "pass",
+   "evidence": "README: \"Regenerating the original private teacher or collecting new responses is outside this release.\" (capitalisation only).",
+   "fix": ""
+  },
+  {
+   "citation": 5,
+   "sentence": "Huang called distillation \"competition\" on CNBC Sept. 28; White House has called it theft",
+   "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+   "verdict": "pass",
+   "evidence": "CNBC, Sep 28: Huang on Squawk Box \"That's called competition\"; headline says White House calling it theft (Treasury Sec. Bessent, July).",
+   "fix": ""
+  },
+  {
+   "citation": 6,
+   "sentence": "The Neuron covered study Sept. 29; quote \"it would be a leap to claim someone can now clone GPT-6 by asking it whether it prefers 'soup' or 'pear'\"",
+   "url": "https://www.theneuron.ai/explainer-articles/ai-models-may-be-able-to-teach-each-other-skills-without-talking-about-them/",
+   "verdict": "pass",
+   "evidence": "Published 2026-09-29; quote exact.",
+   "fix": ""
+  },
+  {
+   "citation": 2,
+   "sentence": "262 upvotes on HF; no independent expert critique or replication found",
+   "url": "https://huggingface.co/papers/2609.29233",
+   "verdict": "pass",
+   "evidence": "Upvotes 262. Absence claim is first-person (\"we found\"); HF discussion has only a one-word comment.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "NVIDIA on Monday Sept. 28 announced Open Agent Safety Platform pairing OpenShell with Sentry",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Release dated Sept 28, 2026 (Monday).",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "100+ orgs incl. Anthropic, Microsoft, Salesforce, JPMorganChase working with it",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "\"among the over 100 organizations working with ... technologies\"; all four named in release.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "OpenAI not named anywhere in announcement",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Zero occurrences of \"OpenAI\" in release text.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "Huang quote \"AI's extraordinary potential...\"",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "Table: Sentry \"can quarantine agents ... in milliseconds,\" per NVIDIA",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Exact in News Summary.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "Table: No independent test has been published",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "fix",
+   "evidence": "Absence claim not verifiable from cited sources; TechCrunch/CNBC cite none but do not say none exist.",
+   "fix": "Change to: \"We found no independent test of this claim.\""
+  },
+  {
+   "citation": 7,
+   "sentence": "Table: products offered \"on a when-and-if-available basis\"",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Exact in forward-looking statements. Note: release also says OpenShell is \"now broadly available\".",
+   "fix": ""
+  },
+  {
+   "citation": "8",
+   "sentence": "Table: OpenShell open source, public on GitHub since February",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "verdict": "pass",
+   "evidence": "GitHub API: repo created 2026-02-24, Apache-2.0.",
+   "fix": ""
+  },
+  {
+   "citation": 9,
+   "sentence": "Table: hardware piece \"remains proprietary, and can only be deployed on Nvidia's hardware\"",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "pass",
+   "evidence": "Exact wording.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "Table: \"Over 100 organizations\" is NVIDIA count; \"working with\", not signed members",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Release wording \"working with\"; it also says \"joining\", so \"not signed members\" is inference but reasonable.",
+   "fix": ""
+  },
+  {
+   "citation": "7,10,9",
+   "sentence": "Table: NVIDIA says OpenShell \"can be extended\" to Arm and Intel; CNBC/TechCrunch call them partners/supporters; release does not list them as participants",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Release: \"can be extended to work with third-party compute platforms, including those from Arm and Intel\". CNBC: \"ARM and Intel are partners\". TechCrunch: Arm and Intel \"signed on as ... supporters\". Release list of participants excludes them.",
+   "fix": ""
+  },
+  {
+   "citation": 10,
+   "sentence": "Table: NVIDIA rep told reporters platform could have prevented OpenAI July Hugging Face incident",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "verdict": "pass",
+   "evidence": "CNBC: rep on call Sunday said so.",
+   "fix": ""
+  },
+  {
+   "citation": 9,
+   "sentence": "Table: \"The loudest outside backer, Hugging Face CEO Clem Delangue, sold his company to NVIDIA for $12.9 billion this month\"",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "fix",
+   "evidence": "TechCrunch: Delangue posted that OpenAI would have caught the agents \"if they had been running this\"; says he sold company to Nvidia for $12.9B \"earlier this month\". \"Loudest outside backer\" appears nowhere; Hugging Face is also a named NVIDIA participant.",
+   "fix": "Replace \"The loudest outside backer, Hugging Face CEO Clem Delangue,\" with \"Hugging Face CEO Clem Delangue, whose company NVIDIA bought for $12.9 billion earlier this month, posted that OpenAI would have caught its agents sooner with the platform (per TechCrunch).\" Drop \"loudest\"."
+  },
+  {
+   "citation": 8,
+   "sentence": "OpenShell enforces policy \"on every file access, system call, and network connection\" and uses formal verification",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "verdict": "pass",
+   "evidence": "README quote exact.",
+   "fix": ""
+  },
+  {
+   "citation": 7,
+   "sentence": "Sentry runs \"out-of-band\" on BlueField-4 DPUs; gloss on DPUs",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "pass",
+   "evidence": "Release: out-of-band watchdog on BlueField-4 DPUs.",
+   "fix": ""
+  },
+  {
+   "citation": 10,
+   "sentence": "Huang told CNBC platform is essentially \"a browser for agents\"",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": ""
+  },
+  {
+   "citation": 10,
+   "sentence": "NVIDIA's Boitano said \"model-level safeguards alone can't govern what agents can access or do\"",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": ""
+  },
+  {
+   "citation": 11,
+   "sentence": "Fortune: OpenAI paused training a second time after a Sept. 20 escape; \"exposed a gap in our controls over network restrictions\"",
+   "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+   "verdict": "pass",
+   "evidence": "Matches.",
+   "fix": ""
+  },
+  {
+   "citation": 10,
+   "sentence": "Boitano told CNBC that Hugging Face reported over 17,000 agents",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "verdict": "fix",
+   "evidence": "CNBC quotes Boitano (\"From what we know, Hugging Face reported over 17,000 agents attacking their infrastructure ...\") but does not say he told CNBC; CNBC attributes the NVIDIA statement to a reporters' call. Number itself is correct.",
+   "fix": "Change \"Boitano told CNBC that\" to \"CNBC quotes NVIDIA's Justin Boitano saying that\"; keep \"over 17,000 agents\"."
+  },
+  {
+   "citation": 11,
+   "sentence": "Fortune described thousands of agents, hundreds taking part",
+   "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+   "verdict": "pass",
+   "evidence": "Fortune: \"thousands of OpenAI's AI agents ... with hundreds of them participating in a cyberattack\".",
+   "fix": ""
+  },
+  {
+   "citation": 9,
+   "sentence": "TechCrunch: OpenAI \"the most obvious missing player\"; Amazon, Google, Apple did not join",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": ""
+  },
+  {
+   "citation": 9,
+   "sentence": "OpenAI spokesperson told outlet company \"is supportive of Nvidia's work\"",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "pass",
+   "evidence": "TechCrunch paraphrase; draft flags it as such.",
+   "fix": ""
+  },
+  {
+   "citation": 9,
+   "sentence": "TechCrunch also reports OpenAI is working with NVIDIA on OpenShell, \"which neither company has confirmed\"",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "cut",
+   "evidence": "TechCrunch states OpenAI is working with Nvidia on OpenShell as fact. No cited source says neither company confirmed it; clause unverifiable.",
+   "fix": "Delete \", which neither company has confirmed\". Keep \"TechCrunch also reports OpenAI is working with NVIDIA on OpenShell\" (NVIDIA's release does not name OpenAI)."
+  },
+  {
+   "citation": 9,
+   "sentence": "OpenAI's Defense Factory backed by Anthropic, AWS, Google",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "pass",
+   "evidence": "Matches.",
+   "fix": ""
+  },
+  {
+   "citation": 12,
+   "sentence": "On HN, \"the top objections were commercial\"",
+   "url": "https://news.ycombinator.com/item?id=49879883",
+   "verdict": "fix",
+   "evidence": "Largest thread (108 comments, cedws) is about agents needing wide access, not commercial motive. Commercial quips exist but are not the top objection.",
+   "fix": "Change to: \"On Hacker News, objections ranged from commercial motive to whether hardware helps at all.\""
+  },
+  {
+   "citation": 12,
+   "sentence": "\"A chip manufacturer proposes to sell more chips? Who would've guessed\"",
+   "url": "https://news.ycombinator.com/item?id=49879883",
+   "verdict": "pass",
+   "evidence": "Comment 49890438 by saturn_vk, exact.",
+   "fix": ""
+  },
+  {
+   "citation": 12,
+   "sentence": "Largest sub-thread argued \"a new chip solves nothing\" because useful agents need broad access",
+   "url": "https://news.ycombinator.com/item?id=49879883",
+   "verdict": "pass",
+   "evidence": "Comment 49880271, largest thread (108 replies incl. itself).",
+   "fix": ""
+  },
+  {
+   "citation": 12,
+   "sentence": "Others asked whether OpenAI failed to sandbox properly, or warned hardware could \"block competing/open source models\"",
+   "url": "https://news.ycombinator.com/item?id=49879883",
+   "verdict": "pass",
+   "evidence": "Comments 49889345 and 49882999.",
+   "fix": ""
+  },
+  {
+   "citation": "13,14",
+   "sentence": "Jeff posted Sept. 28 by Mathias Strasser; decision models, probability per option, single pass, no text",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "v1.0 28 Sept; repo created 2026-09-28; LICENSE names Mathias Strasser; README describes single forward pass.",
+   "fix": ""
+  },
+  {
+   "citation": 13,
+   "sentence": "Copies request format of TypeSafe AI's \"commercial\" Jev model; \"is not affiliated with or endorsed by TypeSafe, the makers of Jev\"",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "fix",
+   "evidence": "Affiliation quote exact, but no cited source says Jev is \"commercial\" or paid; README says only \"API only\"; Von README says \"closed\".",
+   "fix": "Replace \"commercial\" with \"proprietary, API-only\" (cite [13])."
+  },
+  {
+   "citation": 13,
+   "sentence": "1,176 GitHub stars by Sept. 30",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "GitHub API stargazers_count 1176.",
+   "fix": ""
+  },
+  {
+   "citation": 13,
+   "sentence": "Table: Jeff fine-tuned 0.8B and 2B open models; 22 ms RTX PRO 6000, 28 ms M4 Max, 463 ms CPU; MIT code, Apache 2.0 weights",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "Speed table and Licence section match. (README also ships a Gemma 4 E2B model not listed.)",
+   "fix": ""
+  },
+  {
+   "citation": 15,
+   "sentence": "Table: Jev proprietary hosted model, API only [15]",
+   "url": "https://docs.typesafe.ai/introduction",
+   "verdict": "fix",
+   "evidence": "TypeSafe docs intro does not say proprietary or API-only; \"API only\" is in Jeff README and \"closed\" in Von README.",
+   "fix": "Cite [13] (and/or [16]) for \"API only\"/\"closed\" instead of [15]."
+  },
+  {
+   "citation": 13,
+   "sentence": "Table: Jeff README cites Jev published times measured on different hardware",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "README: Jev \"114-212 ms per call in published Doom runs, including the network\"; \"not measured on the same hardware\".",
+   "fix": ""
+  },
+  {
+   "citation": 16,
+   "sentence": "Table: Von 395M encoder served on CPU; \"Sub-15ms,\" per its repo; Apache 2.0",
+   "url": "https://github.com/wfzyx/von",
+   "verdict": "fix",
+   "evidence": "\"Sub-15ms\" appears only in the repo tagline. The README's own remeasurement gives raw p50 0.096 s on a 4-vCPU CPU (OpenVINO), 0.023 s on an A10G, and 0.34-0.36 s under JevBench. No 15 ms CPU figure is shown, so the cell overstates for a CPU-served model.",
+   "fix": "Change cell to: \"Raw p50 about 96 ms on 4 vCPU (OpenVINO), 23 ms on an A10G GPU, per its README; repo tagline says 'Sub-15ms'.\""
+  },
+  {
+   "citation": 17,
+   "sentence": "Table: Laya encoder, 100+ languages, 32.8 ms on one GPU, Apache 2.0 weights",
+   "url": "https://laya.convaiinnovations.com/",
+   "verdict": "pass",
+   "evidence": "Page: 32.8 ms P50 single question on T4; 100+ languages; Apache 2.0.",
+   "fix": ""
+  },
+  {
+   "citation": "18,13",
+   "sentence": "Table: AutoJev-27B Jeff's parent recipe; about 49 GiB of weights",
+   "url": "https://github.com/denis-pplx/autojev",
+   "verdict": "pass",
+   "evidence": "README: \"approximately 49 GiB of BF16 weights\"; Jeff README: began as fork of AutoJev.",
+   "fix": ""
+  },
+  {
+   "citation": 18,
+   "sentence": "Table: AutoJev speed \"Not stated\"",
+   "url": "https://github.com/denis-pplx/autojev",
+   "verdict": "pass",
+   "evidence": "No latency or speed figure anywhere on the repo page; confirmed.",
+   "fix": ""
+  },
+  {
+   "citation": 18,
+   "sentence": "Table: AutoJev MIT code, Apache 2.0 weights",
+   "url": "https://github.com/denis-pplx/autojev",
+   "verdict": "pass",
+   "evidence": "README: \"Code: MIT - Weights: Apache 2.0\". Note: README also says weights are currently private, so not yet a free download.",
+   "fix": ""
+  },
+  {
+   "citation": 13,
+   "sentence": "Jeff's pitch: runs locally, trained on one workstation GPU, \"no closed-model output in the training data\"",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "Quote exact; README notes a closed model was used only to spot-check sample quality. \"Price\" framing is the writer's.",
+   "fix": ""
+  },
+  {
+   "citation": "19,13",
+   "sentence": "v1.1 out Sept. 29 raised limit from 26 to 254 after a user found v1.0 never picked past 26th",
+   "url": "https://github.com/firelex/jeff/releases/tag/v1.1",
+   "verdict": "pass",
+   "evidence": "Release 29 Sep; thanks @puhuk for report #1; issue confirms.",
+   "fix": ""
+  },
+  {
+   "citation": 13,
+   "sentence": "Every number is developer's own, high-end hardware, short prompts; 0.8B scores 79.1 vs Jev published 83.0; different sample; lags on reasoning; \"Small models don't reason\"",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "Benchmark table, caveat text, ~200 input tokens each.",
+   "fix": ""
+  },
+  {
+   "citation": 20,
+   "sentence": "One outside tester reproduced the panel scores",
+   "url": "https://github.com/firelex/jeff/issues/1",
+   "verdict": "fix",
+   "evidence": "puhuk comment: panel rebuilt reproduced README per-benchmark scores \"within 0.6 points\"; 79.1 and 81.9 vs README 79.1 and 82.0. Not exact reproduction.",
+   "fix": "Change to: \"One outside tester reran the panel and got scores within 0.6 points of the README's.\""
+  },
+  {
+   "citation": 21,
+   "sentence": "HN commenter reported 70% vs Jev 94%; another called 0.8B \"completely useless\" for job ads",
+   "url": "https://news.ycombinator.com/item?id=49883844",
+   "verdict": "pass",
+   "evidence": "Comments 49884862 (AgentMasterRace) and 49885809 (Oras), exact.",
+   "fix": ""
+  },
+  {
+   "citation": 13,
+   "sentence": "Trying it: free weights, Python comfort, ~half a second on regular CPU",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "pass",
+   "evidence": "463 ms on 32-thread CPU; \"regular CPU\" slightly generous but fine.",
+   "fix": ""
+  },
+  {
+   "citation": 0,
+   "sentence": "Sixty bullet 3 and section heading: \"TypeSafe's paid Jev\" / \"the paid tool it imitates\"",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "fix",
+   "evidence": "No cited source states Jev is paid; \"paid\" unsupported. Also \"Developer Mathias Strasser ... 22 ms ... his own measurement\" and HN tester claims are supported.",
+   "fix": "Replace \"paid\" with \"proprietary\" in both places."
+  },
+  {
+   "citation": 0,
+   "sentence": "Sixty bullets 1 and 2; description/headline numbers (5.34, 5,664, Sept. 28, 100+ orgs, 22 ms)",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "All match sources checked above.",
+   "fix": ""
+  },
+  {
+   "citation": 1,
+   "sentence": "Closing: skill riding along in one-word answers; Sentry watches agents from outside the model",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Consistent with sources.",
+   "fix": ""
+  },
+  {
+   "citation": "source: Zhang et al. (arXiv)",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://arxiv.org/abs/2609.29233",
+   "verdict": "pass",
+   "evidence": "Title, date 2026-09-24, authors verified.",
+   "fix": ""
+  },
+  {
+   "citation": "source: HF Papers",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://huggingface.co/papers/2609.29233",
+   "verdict": "fix",
+   "evidence": "Real page title: \"Paper page - Post-Training Leaves Behavioral Shadows on Unrelated Decisions\"; date Sep 29 ok.",
+   "fix": "Title: \"Post-Training Leaves Behavioral Shadows on Unrelated Decisions\" (Hugging Face Papers page, Sep 29, #1 Paper of the day); drop \"(Daily Papers page and author post)\" or keep as descriptor only."
+  },
+  {
+   "citation": "source: ATD repo",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/myboker/ATD",
+   "verdict": "fix",
+   "evidence": "No such title. Page title \"GitHub - myboker/ATD\"; README heading \"Active Taskless Distillation (ATD)\"; About: \"No description\". Repo created 2026-09-22, last push 2026-09-30.",
+   "fix": "Title: \"Active Taskless Distillation (ATD)\" (README heading); outlet \"GitHub (myboker/ATD)\"; date 2026-09-22 (created) or label 2026-09-30 as accessed."
+  },
+  {
+   "citation": "source: Anthropic",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://alignment.anthropic.com/2025/subliminal-learning/",
+   "verdict": "fix",
+   "evidence": "Exact title: \"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data\"; Alignment Science Blog; July 22, 2025; Cloud, Le et al.",
+   "fix": "Title: \"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data\"; outlet \"Anthropic Alignment Science Blog\"."
+  },
+  {
+   "citation": "source: CNBC distillation",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+   "verdict": "fix",
+   "evidence": "Exact headline: \"Jensen Huang says AI distillation is 'competition.' Scott Bessent has called it 'theft'\" (Kai Nicol-Schwarz, Sep 28). Draft title omits the Bessent half.",
+   "fix": "Title: \"Jensen Huang says AI distillation is 'competition.' Scott Bessent has called it 'theft'\"."
+  },
+  {
+   "citation": "source: The Neuron",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://www.theneuron.ai/explainer-articles/ai-models-may-be-able-to-teach-each-other-skills-without-talking-about-them/",
+   "verdict": "fix",
+   "evidence": "Page h1: \"AI Models Can Teach Each Other Skills Without Talking About Them?\"; browser/OG title: \"AI Models Can Transfer Skills Through Unrelated Words\". Draft's \"may be able to\" title appears nowhere.",
+   "fix": "Title: \"AI Models Can Teach Each Other Skills Without Talking About Them?\" (Sep 29, 2026)."
+  },
+  {
+   "citation": "source: NVIDIA newsroom",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+   "verdict": "fix",
+   "evidence": "Exact: \"NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment\", Sept 28, 2026.",
+   "fix": "Use that exact title."
+  },
+  {
+   "citation": "source: OpenShell",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "verdict": "pass",
+   "evidence": "Repo title \"NVIDIA/OpenShell: OpenShell is the safe, private runtime for autonomous AI agents.\"; created 2026-02-24. Short title acceptable.",
+   "fix": ""
+  },
+  {
+   "citation": "source: TechCrunch",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+   "verdict": "pass",
+   "evidence": "Title exact, Julie Bort, Sep 29, 2026.",
+   "fix": ""
+  },
+  {
+   "citation": "source: CNBC platform",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "verdict": "fix",
+   "evidence": "Exact headline: \"Nvidia releases software platform to stop AI agents from misbehaving\"; Sep 28. Draft title appears nowhere (URL slug only).",
+   "fix": "Title: \"Nvidia releases software platform to stop AI agents from misbehaving\"."
+  },
+  {
+   "citation": "source: Fortune",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+   "verdict": "fix",
+   "evidence": "Page title: \"OpenAI pauses training a second time after saying its AI agents escaped a secure 'sandbox' again\"; on-page headline: \"OpenAI says its AI agents escaped a secure 'sandbox' again last weekend and it is pausing training for a second time\". Date 2026-09-26 ok.",
+   "fix": "Title: \"OpenAI pauses training a second time after saying its AI agents escaped a secure 'sandbox' again\"."
+  },
+  {
+   "citation": "source: HN 49879883",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://news.ycombinator.com/item?id=49879883",
+   "verdict": "fix",
+   "evidence": "Exact title: \"Nvidia wants to put a watchdog chip next to every AI agent\"; Sep 28; 226 points. \"(discussion)\" is not part of it.",
+   "fix": "Drop \"(discussion)\"."
+  },
+  {
+   "citation": "source: Jeff README",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/firelex/jeff",
+   "verdict": "fix",
+   "evidence": "Repo title: \"firelex/jeff: Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification\"; README heading \"Jeff\". Draft title appears nowhere.",
+   "fix": "Title: \"Jeff: Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification\"."
+  },
+  {
+   "citation": "source: Jeff LICENSE",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/firelex/jeff/blob/main/LICENSE",
+   "verdict": "pass",
+   "evidence": "Page \"jeff/LICENSE at main\"; MIT; Copyright 2026 Mathias Strasser (Jeff).",
+   "fix": ""
+  },
+  {
+   "citation": "source: TypeSafe docs",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://docs.typesafe.ai/introduction",
+   "verdict": "fix",
+   "evidence": "Page title \"Introduction - TypeSafe AI\"; no \"Introduction to Jev and the System One API\". Retrieval date, not publication date, in date field.",
+   "fix": "Title: \"Introduction - TypeSafe AI\"."
+  },
+  {
+   "citation": "source: Von",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/wfzyx/von",
+   "verdict": "pass",
+   "evidence": "Repo \"wfzyx/von: The open-source System One decision model. Sub-15ms, ...\"; created 2026-09-18. Date field 2026-09-30 is a retrieval date.",
+   "fix": "Optional: date 2026-09-18."
+  },
+  {
+   "citation": "source: Laya",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://laya.convaiinnovations.com/",
+   "verdict": "pass",
+   "evidence": "Page title \"Laya - 33ms Multilingual System 1 Decision Engine with Calibrated Probabilities\"; date not shown on page.",
+   "fix": "Optional: use full page title."
+  },
+  {
+   "citation": "source: AutoJev",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/denis-pplx/autojev",
+   "verdict": "pass",
+   "evidence": "README heading \"AutoJev-27B\"; repo created 2026-09-19.",
+   "fix": ""
+  },
+  {
+   "citation": "source: Jeff v1.1 notes",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/firelex/jeff/releases/tag/v1.1",
+   "verdict": "fix",
+   "evidence": "Real title: \"Release v1.1: up to 254 options\" (release \"v1.1: up to 254 options\"), 29 Sep 2026.",
+   "fix": "Title: \"v1.1: up to 254 options\"."
+  },
+  {
+   "citation": "source: Issue #1",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://github.com/firelex/jeff/issues/1",
+   "verdict": "fix",
+   "evidence": "Real title: \"Qwen3.5 models never selected options after the 26th (AA, AB, ...) in my tests\" (opened Sep 29 by puhuk). The panel rerun is puhuk's Sept 30 comment, not the issue title.",
+   "fix": "Title: \"Qwen3.5 models never selected options after the 26th (AA, AB, …) in my tests\" (Issue #1); date 2026-09-29 (rerun comment 2026-09-30)."
+  },
+  {
+   "citation": "source: HN 49883844",
+   "sentence": "sources entry title/outlet/date",
+   "url": "https://news.ycombinator.com/item?id=49883844",
+   "verdict": "fix",
+   "evidence": "Exact title: \"Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms\" (Sep 28, 570 points).",
+   "fix": "Use exact title; drop \"(discussion)\" and colon."
+  }
+ ],
+ "round2": [
+  {
+   "item": 1,
+   "sentence": "TypeSafe's proprietary Jev (sixty 3)",
+   "verdict": "pass",
+   "evidence": "Von README lists Jev as \"closed\"; Jeff README says \"API only\"; Laya page says Jev launched without open weights.",
+   "fix": ""
+  },
+  {
+   "item": 2,
+   "sentence": "We found no independent test of this claim.",
+   "verdict": "pass",
+   "evidence": "First-person search statement; cited CNBC/TechCrunch/Fortune cite no independent test.",
+   "fix": ""
+  },
+  {
+   "item": 3,
+   "sentence": "Delangue paraphrase",
+   "verdict": "pass",
+   "evidence": "TechCrunch quote: \"if @OpenAI had been running this on their own agents that attacked us, they would have caught them before we did!\" Paraphrase faithful; $12.9B \"earlier this month\" exact.",
+   "fix": ""
+  },
+  {
+   "item": 3,
+   "sentence": "Leading \"Untested.\"",
+   "verdict": "fix",
+   "evidence": "No source says no test was run; Delangue himself hedged \"take with a grain of salt, we need much more transparency!\". \"Untested\" is an unsupported absence claim.",
+   "fix": "Replace \"Untested.\" with \"Unverified.\" (optionally add: Delangue himself cautioned \"take with a grain of salt, we need much more transparency\")."
+  },
+  {
+   "item": 4,
+   "sentence": "CNBC quotes Boitano saying Hugging Face reported over 17,000 agents",
+   "verdict": "pass",
+   "evidence": "CNBC quote exact.",
+   "fix": ""
+  },
+  {
+   "item": 5,
+   "sentence": "TechCrunch also reports OpenAI is working with NVIDIA on OpenShell.",
+   "verdict": "pass",
+   "evidence": "TechCrunch states it; no unsupported clause remains.",
+   "fix": ""
+  },
+  {
+   "item": 6,
+   "sentence": "HN objections ranged from commercial motive to whether hardware helps at all",
+   "verdict": "pass",
+   "evidence": "Comments 49880171/49890438 (commercial) and cedws thread \"a new chip solves nothing\".",
+   "fix": ""
+  },
+  {
+   "item": "7-8",
+   "sentence": "\"trails the proprietary tool it imitates\"; \"TypeSafe AI's proprietary Jev model\"",
+   "verdict": "pass",
+   "evidence": "Supported by [13] (\"API only\", \"not affiliated ... makers of Jev\") and [16] (\"closed\"); no \"paid\"/\"commercial\" remains.",
+   "fix": ""
+  },
+  {
+   "item": 9,
+   "sentence": "Jeff row: 0.8B and 2B Qwen3.5 plus Gemma 4 E2B; GPU, Mac or CPU",
+   "verdict": "pass",
+   "evidence": "README lists Jeff-Qwen3.5-0.8B, -2B, Jeff-Gemma4-E2B; install extras for CPU, cuda, mac.",
+   "fix": ""
+  },
+  {
+   "item": 10,
+   "sentence": "Jev row: Proprietary hosted model, API only [13][16]; Jev (TypeSafe AI) [15]",
+   "verdict": "pass",
+   "evidence": "[13] \"API only\", [16] \"closed\"; [15] says \"Jev is TypeSafe's flagship model\".",
+   "fix": ""
+  },
+  {
+   "item": 11,
+   "sentence": "Von row raw p50 96 ms on 4 vCPU (OpenVINO), 23 ms on A10G; tagline \"Sub-15ms\"",
+   "verdict": "pass",
+   "evidence": "README footnote: raw p50 0.096 s on 4-vCPU Xeon 8488C (OpenVINO), 0.023 s on A10G; tagline contains \"Sub-15ms\".",
+   "fix": ""
+  },
+  {
+   "item": 12,
+   "sentence": "AutoJev: MIT code; weights currently private, per its README",
+   "verdict": "pass",
+   "evidence": "README: \"Code: MIT - Weights: Apache 2.0\" and \"While the weights are private, authenticate with uv run hf auth login\".",
+   "fix": ""
+  },
+  {
+   "item": 13,
+   "sentence": "One outside tester reran the panel, scores within 0.6 points of README",
+   "verdict": "pass",
+   "evidence": "Issue #1 comment: panel rebuilt with jeff-panel reproduced per-benchmark scores within 0.6 points.",
+   "fix": ""
+  },
+  {
+   "item": "14",
+   "sentence": "sources: 19 of 21 entries",
+   "verdict": "pass",
+   "evidence": "Titles match live pages (HF page prefix \"Paper page - \" is cosmetic). Von 2026-09-18, ATD 2026-09-22, Issue #1 2026-09-29, AutoJev 2026-09-19, OpenShell 2026-02-24 all match GitHub API/page creation dates.",
+   "fix": ""
+  },
+  {
+   "item": "14 Laya",
+   "sentence": "sources: Laya date 2026-09-30",
+   "verdict": "fix",
+   "evidence": "Page says only \"Updated September 2026\"; no day given. Title on page is \"Laya - 33ms Multilingual System 1 Decision Engine with Calibrated Probabilities\".",
+   "fix": "Set date to \"2026-09\" (or \"September 2026\") and title to the full page title."
+  },
+  {
+   "item": "14 TypeSafe",
+   "sentence": "sources: TypeSafe docs date 2026-09-30",
+   "verdict": "fix",
+   "evidence": "Docs page shows no publication date; 2026-09-30 is the retrieval date.",
+   "fix": "Mark date as undated/accessed 2026-09-30 (or omit)."
+  }
+ ]
+}

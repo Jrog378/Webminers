@@ -52,8 +52,15 @@ export default function Articles() {
 
             <div className="bg-page">
                 <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-                    <div className="mb-6">
-                        <h1 className="text-2xl italic text-fg">&quot;{quotes[number].quote}&quot;</h1>
+                    <p className="text-sm font-bold uppercase tracking-widest text-brand-light">Written by Justin Rogers</p>
+                    <h1 className="mt-2 text-4xl font-bold text-fg">Articles</h1>
+                    <p className="mt-3 max-w-2xl text-dim">
+                        My own write-ups on putting AI to work, plus earlier research on crypto and investing.
+                        For twice-weekly AI news researched by AI agents, see{' '}
+                        <Link href="/eureka" className="font-semibold text-accent hover:underline">Eureka Reports</Link>.
+                    </p>
+                    <div className="mb-6 mt-8">
+                        <p className="text-2xl italic text-fg">&quot;{quotes[number].quote}&quot;</p>
                         <p className="mt-1 text-dim">- {quotes[number].author}</p>
                     </div>
                     <p className="mb-8 text-right text-dim">

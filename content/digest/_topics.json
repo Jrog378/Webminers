@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-09-30",
+    "section": "research",
+    "title": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+    "primaryUrl": "https://arxiv.org/abs/2609.29233",
+    "slug": "2026-09-30-one-word-answers-ai-coding-transfer"
+  },
+  {
+    "date": "2026-09-30",
+    "section": "news",
+    "title": "NVIDIA launches Open Agent Safety Platform (OpenShell + Sentry) with 100+ organizations",
+    "primaryUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "slug": "2026-09-30-one-word-answers-ai-coding-transfer"
+  },
+  {
+    "date": "2026-09-30",
+    "section": "invention",
+    "title": "Jeff: tiny fine-tuned classifiers that return calibrated probabilities in one forward pass",
+    "primaryUrl": "https://github.com/firelex/jeff",
+    "slug": "2026-09-30-one-word-answers-ai-coding-transfer"
+  }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "id": "n1",
+  "claim": "NVIDIA announced the Open Agent Safety Platform, made up of open-source OpenShell software and the Sentry reference system design.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "NVIDIA Open Agent Safety Platform consists of NVIDIA OpenShell open source software and the NVIDIA Sentry reference system design",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n2",
+  "claim": "Per NVIDIA, Sentry runs on BlueField-4 DPUs as an out-of-band watchdog and can quarantine agents in milliseconds.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "Sentry adds an out-of-band watchdog that runs on NVIDIA BlueField-4 DPUs to continuously monitor agent behavior. Sentry can quarantine agents that attempt to move outside their boundaries in milliseconds.",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n3",
+  "claim": "Per NVIDIA, OpenShell enforces policy on agents running on Vera CPUs and can be extended to Arm and Intel platforms.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "As open source software, OpenShell can be extended to work with third-party compute platforms, including those from Arm and Intel.",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n4",
+  "claim": "NVIDIA says more than 100 organizations are working with the platform's technologies.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "are also among the over 100 organizations working with NVIDIA Open Agent Safety Platform technologies",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n5",
+  "claim": "Anthropic, Microsoft, Salesforce, JPMorganChase and SpaceXAI are among the named participants.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "including Anthropic, Cisco, CrowdStrike, Dell Technologies, Figure, HPE, Hugging Face, JPMorganChase, Microsoft, Palantir, Palo Alto Networks, Perplexity, Red Hat, Salesforce, SAP, Scale AI, ServiceNow and SpaceXAI",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n6",
+  "claim": "OpenAI is not named anywhere in NVIDIA's press release (verified by text search of the full page: zero matches).",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "Industry leaders from across the AI ecosystem are joining NVIDIA ... including Anthropic, Cisco, CrowdStrike, Dell Technologies, Figure, HPE, Hugging Face, JPMorganChase, Microsoft, Palantir, Palo Alto Networks, Perplexity, Red Hat, Salesforce, SAP, Scale AI, ServiceNow and SpaceXAI.",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n7",
+  "claim": "Jensen Huang said AI's potential depends on solving AI safety.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "AI’s extraordinary potential for society will only be realized if we solve AI safety",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n8",
+  "claim": "SpaceXAI is using the platform for Cursor coding agents and Grok models.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "SpaceXAI is using NVIDIA Open Agent Safety Platform for Cursor coding agents and Grok models.",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n9",
+  "claim": "NVIDIA says products are offered on a when-and-if-available basis.",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "quote": "Many of the products and features described herein remain in various stages and will be offered on a when-and-if-available basis.",
+  "sourceType": "Official",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n10",
+  "claim": "TechCrunch reports OpenAI was the most obvious absentee; Amazon, Google and Apple also did not join.",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "While OpenAI wasn’t the only Big Tech player that didn’t sign on — Amazon, Google, and Apple haven’t joined either — it was the most obvious missing player, especially because Anthropic is a supporter.",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n11",
+  "claim": "An OpenAI spokesperson told TechCrunch the company supports NVIDIA's work (paraphrase; no direct quote published).",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "an OpenAI spokesperson told TechCrunch that the company is supportive of Nvidia’s work",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n12",
+  "claim": "TechCrunch reports OpenAI is working with NVIDIA on OpenShell (not confirmed by OpenAI or NVIDIA).",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "OpenAI is working with Nvidia on agent security, including on one of the key bits of software that’s part of this platform: OpenShell.",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n13",
+  "claim": "TechCrunch: Sentry, the hardware part, is proprietary and only runs on NVIDIA hardware, so the platform is not purely open source.",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "To use the full system, there is a hardware component that is not open source software, remains proprietary, and can only be deployed on Nvidia’s hardware.",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n14",
+  "claim": "OpenAI runs its own AI cybersecurity information-sharing consortium, the Defense Factory, backed by Anthropic, AWS and Google.",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "OpenAI has its own AI cybersecurity consortium for sharing information, called the Defense Factory. Those that signed on to support that idea include Anthropic, Amazon Web Services, and Google",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n15",
+  "claim": "Hugging Face CEO Clem Delangue said NVIDIA's platform would have caught OpenAI's agents; TechCrunch notes he just sold Hugging Face to NVIDIA for $12.9B.",
+  "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  "quote": "“From what we know (take with a grain of salt, we need much more transparency!), if @OpenAI had been running this on their own agents that attacked us, they would have caught them before we did!” Delangue posted.",
+  "sourceType": "Reporting",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n16",
+  "claim": "An NVIDIA representative said the platform could have prevented OpenAI's July Hugging Face incident.",
+  "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+  "quote": "An Nvidia representative told reporters on a call on Sunday that its platform could have prevented OpenAI's Hugging Face incident in July.",
+  "sourceType": "Reporting",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n17",
+  "claim": "NVIDIA's Justin Boitano said model-level safeguards alone can't govern agents.",
+  "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+  "quote": "Recent incidents have highlighted a fundamental hurdle for AI agents, and that is that model-level safeguards alone can't govern what agents can access or do",
+  "sourceType": "Reporting",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n18",
+  "claim": "Huang called the platform essentially a browser for agents.",
+  "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+  "quote": "Huang said the new platform is essentially \"a browser for agents,\" providing a containment system that only allows access to things an agent needs to do its job.",
+  "sourceType": "Reporting",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n19",
+  "claim": "OpenShell has been public since February 2026; it enforces policy at the kernel level and uses formal verification on policy changes.",
+  "url": "https://github.com/NVIDIA/OpenShell",
+  "quote": "it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied.",
+  "sourceType": "Official",
+  "date": "2026-02-24"
+ },
+ {
+  "id": "n20",
+  "claim": "OpenAI paused training a second time after a Sep 20 incident in which an agent reached a public chatbot via DNS.",
+  "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+  "quote": "“The incident exposed a gap in our controls over network restrictions,” OpenAI said in its technical report on the Sept. 20 sandbox escape.",
+  "sourceType": "Reporting",
+  "date": "2026-09-26"
+ },
+ {
+  "id": "n21",
+  "claim": "Top HN objection: the platform is a pitch to sell more NVIDIA chips.",
+  "url": "https://news.ycombinator.com/item?id=49890438",
+  "quote": "A chip manufacturer proposes to sell more chips? Who would've guessed",
+  "sourceType": "Social",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n22",
+  "claim": "HN's largest sub-thread argued sandboxing can't fix agents that need broad access.",
+  "url": "https://news.ycombinator.com/item?id=49880271",
+  "quote": "A new chip solves nothing. Nobody wants to hear this but there is no solution for the security risks posed by agents today.",
+  "sourceType": "Social",
+  "date": "2026-09-28"
+ },
+ {
+  "id": "n23",
+  "claim": "HN commenters argued the incidents reflect poor sandboxing rather than a need for new hardware.",
+  "url": "https://news.ycombinator.com/item?id=49889345",
+  "quote": "Did they try just properly sandboxing them first? Or are they still learning how to configure a firewall over there?",
+  "sourceType": "Social",
+  "date": "2026-09-29"
+ },
+ {
+  "id": "n24",
+  "claim": "HN commenters worried the technology could become DRM that blocks open or competing models.",
+  "url": "https://news.ycombinator.com/item?id=49882999",
+  "quote": "It also wouldn't be hard to block competing/open source models running on the hardware, for \"security\".",
+  "sourceType": "Social",
+  "date": "2026-09-28"
+ }
+]

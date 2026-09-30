@@ -1,0 +1,9 @@
+{
+  "order": ["research", "news", "invention"],
+  "headlineStyle": "claim",
+  "sections": {
+    "research": {"format": "by-the-numbers", "words": 650, "why": "Numbers-heavy preprint; 4-6 bolded figures with citations let the writer hedge each one (authors' 'first' claim, small models only, confidence intervals) and label it a preprint posted Sep 24."},
+    "news": {"format": "claim-vs-evidence", "words": 580, "why": "NVIDIA's millisecond-quarantine and 100+ org claims outrun independent evidence; the two-column table separates vendor claims from what is verified, with room for OpenAI's absence and the HN objections in the analysis."},
+    "invention": {"format": "comparison", "words": 380, "why": "Dossier already has a table of Jeff vs Jev, Von and Laya with URLs; also lets the writer state clearly that Jeff is not affiliated with TypeSafe."}
+  }
+}
