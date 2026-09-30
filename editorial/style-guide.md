@@ -25,6 +25,7 @@ Loaded by the writer, format editor, fact-checker, SEO and editor agents on ever
 
 - Every factual claim gets an inline numbered citation to a primary source: the paper (arXiv or DOI), the company's own announcement, or the original reporting outlet. Never an aggregator.
 - Citation syntax in markdown: `[[n]](#source-n)`, numbered in order of first use, matching the `sources` list in frontmatter.
+- Published issues are audited monthly. Corrections and material updates are added as dated entries in `updates` frontmatter (rendered as "Updates and corrections"); `dateModified` changes only with a real content change.
 - Claims that fail fact-check get fixed or cut. They are never softened and kept.
 - Preprints are labeled "not yet peer-reviewed". Company claims are attributed ("OpenAI says…"), not stated as fact.
 - Sentiment is reported with evidence and a link ("top-voted comments on Hacker News questioned…"), never invented.
@@ -34,6 +35,8 @@ Loaded by the writer, format editor, fact-checker, SEO and editor agents on ever
 
 - Byline: "Webminers AI Desk". Justin Rogers is the reviewer, never the author.
 - No fake human personas.
+- Every issue gets one openly licensed hero image (see `digest-image-finder`): commercial use and modification allowed, credited under the image, rotated across sources. No faces in stories about persecution or vulnerable people; no logos implying endorsement.
+- Every issue lists the AI models that made it (`models` frontmatter), shown in the "How this was made" box. It records what actually ran, set by the publisher step.
 - **The Editor's note is Justin's alone.** No agent writes, drafts into the page, or signs an Editor's note. Drafts ship with `editorsNote: null` and `reviewStatus: pending`, and the page shows a placeholder until Justin reviews and writes it.
 
 ## Issue structure (Eureka Reports)
@@ -65,7 +68,7 @@ Vary the shape so issues never read alike. Each is plain markdown.
 
 Rules: no two sections in one issue share a format; no identical combination of formats within the last 6 issues; `explainer` at most once per issue.
 
-## Faith content (Kingdom & Code, Sundays)
+## Faith content (Coding with Christ, Sundays)
 
 - Scripture quoted exactly from the World English Bible via bible-api.com, never written by a model.
 - Stay within historic, broadly shared Christian teaching; avoid denominational disputes.

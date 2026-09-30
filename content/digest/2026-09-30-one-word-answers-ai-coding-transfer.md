@@ -11,6 +11,26 @@ reviewStatus: pending
 reviewedBy: "Justin Rogers"
 reviewedOn: null
 editorsNote: null
+hero:
+  src: "/images/eureka/2026-09-30-one-word-answers-ai-coding-transfer/ai-coding-skill-transfer-code-screen-puzzle-cube.webp"
+  width: 1600
+  height: 1200
+  alt: "Puzzle cube in front of a screen of code, illustrating AI models passing coding skill through one-word answers"
+  caption: "A puzzle cube in front of source code: a stand-in for how a small model picked up coding skill from a teacher model’s unrelated one-word answers."
+  credit:
+    title: "Rubik’s Cube with code background"
+    author: "Tahmid ul Karim"
+    authorUrl: "https://wordpress.org/photos/author/tahmidulkarim/"
+    license: "CC0 1.0"
+    licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/"
+    sourceName: "WordPress Photo Directory"
+    sourceUrl: "https://wordpress.org/photos/photo/97462b043a/"
+    modified: "Resized and converted to WebP"
+models:
+  - model: "Claude Opus 5.5"
+    roles: [coordination, topic selection, research, writing, final edit]
+  - model: "Claude Sonnet 5.5"
+    roles: [scouting, format planning, fact-checking, SEO]
 formats:
   research: by-the-numbers
   news: claim-vs-evidence

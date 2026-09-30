@@ -11,6 +11,12 @@ reviewStatus: pending          # pending until Justin reviews; then approved
 reviewedBy: "Justin Rogers"
 reviewedOn: null               # ISO date, set on approval
 editorsNote: null              # Justin writes this on review. Agents never fill it.
+hero: null                   # set from image.json by the publisher: {src, width, height, alt, credit: {...}}
+models:                      # AI models that actually ran, with their jobs. Set by the publisher step from the run, never guessed.
+  - model: "Claude Opus 5.5"
+    roles: [research, writing, editing]
+  - model: "Claude Sonnet 5.5"
+    roles: [scouting, fact-checking, SEO]
 formats:                       # from format.json
   research: explainer
   news: qa

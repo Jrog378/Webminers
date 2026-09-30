@@ -7,10 +7,12 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-sitemap.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "analyze": "NODE_ENV=production next build && webpack-bundle-analyzer .next/stats.json"
+    "analyze": "NODE_ENV=production next build && webpack-bundle-analyzer .next/stats.json",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "@grpc/grpc-js": ">=1.8.8",

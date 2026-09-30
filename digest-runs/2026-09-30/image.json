@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "src": "/images/eureka/2026-09-30-one-word-answers-ai-coding-transfer/ai-coding-skill-transfer-code-screen-puzzle-cube.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Puzzle cube in front of a screen of code, illustrating AI models passing coding skill through one-word answers",
+    "caption": "A puzzle cube in front of source code: a stand-in for how a small model picked up coding skill from a teacher model’s unrelated one-word answers.",
+    "credit": {
+      "title": "Rubik’s Cube with code background",
+      "author": "Tahmid ul Karim",
+      "authorUrl": "https://wordpress.org/photos/author/tahmidulkarim/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceName": "WordPress Photo Directory",
+      "sourceUrl": "https://wordpress.org/photos/photo/97462b043a/",
+      "modified": "Resized and converted to WebP"
+    }
+  },
+  "replaces": "Previous hero: arXiv 2609.29233 Figure 1 diagram (CC BY 4.0), file one-word-answers-ai-model-distillation-diagram.webp; owner requested a stock photo instead.",
+  "tried": [
+    {
+      "source": "StockSnap (Openverse)",
+      "query": "code screen / laptop code",
+      "result": "rejected: CC0 and relevant, but the CDN only serves 960w (<1200 px) to scripts"
+    },
+    {
+      "source": "WordPress Photo Directory (Openverse)",
+      "query": "code screen",
+      "result": "chosen: Rubik’s Cube with code background, CC0, 2048x1536"
+    },
+    {
+      "source": "WordPress Photo Directory (Openverse)",
+      "query": "laptop code / server hardware",
+      "result": "rejected: portrait crops, MacBook logo, or messy server room"
+    },
+    {
+      "source": "Nappy (Openverse)",
+      "query": "code screen, laptop code, programmer keyboard, server hardware, teacher chalkboard",
+      "result": "rejected: no results"
+    },
+    {
+      "source": "StockSnap / WordPress",
+      "query": "programmer keyboard, server hardware, teacher chalkboard",
+      "result": "rejected: no results"
+    }
+  ]
+}
