@@ -1,0 +1,378 @@
+[
+ {
+  "id": "news-01",
+  "claim": "Google announced Gemini 4 Argon on Sep 30, 2026 as its new frontier model, initially rolling out to trusted cyber defenders via its Fairwind Program (company claim).",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "Today, we’re announcing our new frontier model, Gemini 4 Argon, which is rolling out to a set of trusted cyber defenders through our",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-02",
+  "claim": "The announcement is authored by Koray Kavukcuoglu, SVP of Google DeepMind and Chief AI Architect.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "SVP, Google DeepMind and Chief AI Architect, Google",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-03",
+  "claim": "Google says broader release will start with paid API customers and Google AI Ultra subscribers; no date given.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "before we release to developers, enterprises, and consumers, starting with paid API customers and Google AI Ultra subscribers.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-04",
+  "claim": "Introductory price is $2/M input and $10/M output tokens, cached input 95% off.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "of $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-05",
+  "claim": "After the introductory period, price rises to $4/M input and $20/M output.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "After the introductory period expires, the price of $4 per 1M input tokens and $20 per 1M output tokens will apply.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-06",
+  "claim": "Google says the output token limit rises to 1M tokens from 64K.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "we are significantly expanding the model’s output token limit to an industry-leading 1M tokens, up from the previous 64K tokens.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-07",
+  "claim": "Google claims a state-of-the-art 77.9% on DeepSWE v1.1.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "It sets a new state of the art on DeepSWE v1.1 (77.9%)",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-08",
+  "claim": "Google claims #1 on Zapier's AutomationBench at 51.3%.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "Argon ranks #1 with a score of 51.3%.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-09",
+  "claim": "Google claims state of the art on LVBench (long video) at 91.7%.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "Argon is state of the art with a score of 91.7%.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-10",
+  "claim": "Google claims a tie for first on CWE-bench v1 at 68%.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "Argon ties for first place with a top score of 68%",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-11",
+  "claim": "Google will release Argon without cyber guardrails to trusted defenders and internal teams.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "we’ll be releasing Argon without cyber guardrails so they can leverage its full frontier-level cybersecurity defense capabilities.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-12",
+  "claim": "Google says Argon agents freed 300+ TiB of memory across its data centers.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "freeing up over 300 TiB of memory once rolled out, with an estimated 500 TiB to 1 PiB in total savings.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-13",
+  "claim": "Google says Argon agents are migrating C/C++ to Rust, up to 800K+ lines for the Fuchsia Zircon kernel, under audit before production.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "up to 800K+ lines for the Fuchsia Zircon kernel",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-14",
+  "claim": "Google says the Argon-optimized Rust libgav1 decoder is 2.7x faster than the prior Rust port but still short of optimized C++.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "runs 2.7x faster than the Rust port, with identical video output, bringing it closer to the optimized C++.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-15",
+  "claim": "Google says it monitors Argon's chain-of-thought and actions to stop misaligned execution.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "we are deploying misalignment mitigations that monitor Argon’s chain-of-thought and actions and stop execution when necessary.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-16",
+  "claim": "Google says it avoided feeding monitoring findings back into training so as not to teach Argon to evade monitoring.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "quote": "taking careful precautions against feeding the findings back into training so as to not risk shaping Argon’s reasoning to evade our monitoring.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-17",
+  "claim": "Google's eval doc: scores run at highest thinking settings; rival numbers are mostly self-reported by those providers.",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+  "quote": "All the results for non-Gemini models are sourced from providers' self reported numbers",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-18",
+  "claim": "Google's DeepSWE v1.1 score for Argon is self-computed with a mini-swe agent harness.",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+  "quote": "DeepSWE v1.1 results for Gemini 4 Argon are self computed, using a mini-swe",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-19",
+  "claim": "Google's LVBench numbers are self-computed with different frame budgets per model due to API limits.",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+  "quote": "LVBench results are self computed without tools. We use 1FPS for Gemini, 800",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-20",
+  "claim": "Google's eval doc says CWE-bench ties are broken by pass@4.",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+  "quote": "Scores are ranked based on pass@1 and ties broken based on pass@4.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-21",
+  "claim": "Artificial Analysis (independent) scores Argon (high) 53 on its Intelligence Index, matching GPT-6 Astra (max) and 1 point above GPT-6.1 Sol.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "it scores 53 on the Artificial Analysis Intelligence Index, matching GPT-6 Astra (max, 53) and 1 point ahead of GPT-6.1 Sol (max, 52)",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-22",
+  "claim": "Artificial Analysis: at discounted pricing Argon costs $1.99/task (60% of Astra); at standard price $3.98.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "Gemini 4 Argon costs $1.99 per Intelligence Index task, 60% of GPT-6 Astra (max), but 2.7x GPT-6.1 Sol (max). After the discount ends, this will rise to $3.98",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-23",
+  "claim": "Artificial Analysis: cost advantage comes from price, not efficiency; Argon uses 62k output tokens per task vs 27k for Astra.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "This cost efficiency is driven by lower token prices, rather than reduced token use, with Gemini 4 Argon averaging 62k output tokens per task, compared with 27k for GPT-6 Astra (max).",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-24",
+  "claim": "Artificial Analysis: Argon's 15% hallucination rate on AA-Omniscience is the lowest among leading models, but its accuracy (50%) is 13 points below Astra.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "On AA-Omniscience, Gemini 4 Argon has a 15% hallucination rate, the lowest of any model scoring 45+ on the Intelligence Index",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-25",
+  "claim": "Artificial Analysis: Argon's AA-Omniscience accuracy is 50%, 13 points below GPT-6 Astra.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "On accuracy, Gemini 4 Argon scores 50%, a 5 point decrease from Gemini 3.1 Pro Preview, and 13 points below GPT-6 Astra (max, 63%).",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-26",
+  "claim": "Artificial Analysis: Argon trails Claude Sonnet 5.5, Claude Opus 5.5 and GPT-6 Astra on Terminal Bench 4 (57%).",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "On Terminal Bench 4, Gemini 4 Argon achieves 57%, a + 53 point improvement from Gemini 3.1 Pro Preview, only behind Claude Sonnet 5.5 (max, 64%), Claude Opus 5.5 (max, 60%) and GPT-6 Astra (59%).",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-27",
+  "claim": "Artificial Analysis: Argon ranks #1 on its own AutomationBench-AA run at 78%.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "It ranks #1 on AutomationBench-AA at 78%, 7 points ahead of Claude Sonnet 5.5 (max, 71%).",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-28",
+  "claim": "Artificial Analysis: 1M-token output relies on a new 'Long Decode Continuation' API feature.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "a new Gemini API feature that pauses long responses and resumes them across follow-up calls. This lets reasoning run up to 1M output tokens without request timeouts",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-29",
+  "claim": "Artificial Analysis notes Argon is not yet publicly available.",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+  "quote": "Gemini 4 Argon is currently being rolled out to selected users and is not publicly available.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-30",
+  "claim": "Vals AI (independent) ranks Argon #1 on the Vals Index at 68.90%, narrowly ahead of Claude Sonnet 5.5 (67.04%) and Opus 5.5 (66.97%).",
+  "url": "https://www.vals.ai/benchmarks/vals_index",
+  "quote": "ranks first on the Vals Index with 68.90%, followed by",
+  "sourceType": "Reporting",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "news-31",
+  "claim": "Vals AI lists Argon at 262k max output tokens in its evaluation config, not 1M.",
+  "url": "https://www.vals.ai/models/google_gemini-4-argon",
+  "quote": "The model has a 1M-token context window and 262k max output tokens.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-32",
+  "claim": "Vals AI: Argon is weak on CUA-bench (computer use), 4.83%, #7 of 8.",
+  "url": "https://www.vals.ai/models/google_gemini-4-argon",
+  "quote": "CUA-bench  (4.83%, #7 of 8)",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-33",
+  "claim": "CWE-bench (run by Collinear AI) shows Argon in a three-way tie at 68% pass@1 with Grok 4.7 and GPT-6 Astra; Opus 5.5 at 67%.",
+  "url": "https://cwe-bench.com/",
+  "quote": "T1 Gemini 4 Argon Antigravity 68% 75% 62% 73% $6.63",
+  "sourceType": "Reporting",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "news-34",
+  "claim": "On CWE-bench, Argon's average cost per rollout ($6.63) is the highest of the top four; Opus 5.5 costs $0.79.",
+  "url": "https://cwe-bench.com/",
+  "quote": "Claude Opus 5.5 Claude Code 67% 79% 67% 81% $0.79",
+  "sourceType": "Reporting",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "news-35",
+  "claim": "Bloomberg reported internal Google skepticism that Gemini 4 does less well in practice than on benchmarks, especially coding.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+  "quote": "While Gemini 4 has performed well on benchmarks the industry uses to gauge model efficacy, it does less well when employees actually put it to work, according to people with direct access to the effort.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-36",
+  "claim": "Google disputed Bloomberg's characterization.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+  "quote": "Google said it would be inaccurate to say that Gemini 4 is underperforming in areas such as coding.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-37",
+  "claim": "Bloomberg: Google abandoned a planned Gemini 3.5 Pro release in June.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+  "quote": "The company had planned to release a different version in June, dubbed Gemini 3.5 Pro, but abandoned the effort, the people said.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-38",
+  "claim": "R&D World: independent evaluations show a competitive entrant rather than a clear leader; Argon ranked 8th on Arena's Agent Arena as of Oct 1.",
+  "url": "https://www.rdworldonline.com/googles-overdue-gemini-4-argon-reaches-the-frontier-with-mixed-results-for-science/",
+  "quote": "Argon matches GPT-6 Astra on Artificial Analysis’s overall index, behind Claude Opus 5.5, and ranks eighth on Arena’s Agent Arena leaderboard.",
+  "sourceType": "Reporting",
+  "date": "2026-10-01"
+ },
+ {
+  "id": "news-39",
+  "claim": "R&D World: Arena rank range spanned 3rd to 16th.",
+  "url": "https://www.rdworldonline.com/googles-overdue-gemini-4-argon-reaches-the-frontier-with-mixed-results-for-science/",
+  "quote": "Argon ranked eighth overall when checked Oct. 1, based on 3,417 sessions. Its reported rank range stretched from third to 16th.",
+  "sourceType": "Reporting",
+  "date": "2026-10-01"
+ },
+ {
+  "id": "news-40",
+  "claim": "Per Google's numbers (reported by R&D World), Argon trails Astra and Opus 5.5 on Terminal-Bench Science 0.1.",
+  "url": "https://www.rdworldonline.com/googles-overdue-gemini-4-argon-reaches-the-frontier-with-mixed-results-for-science/",
+  "quote": "On Terminal-Bench Science 0.1, Argon’s 57.6% trails Astra’s 68.1% and Opus 5.5’s 63.3%.",
+  "sourceType": "Reporting",
+  "date": "2026-10-01"
+ },
+ {
+  "id": "news-41",
+  "claim": "9to5Google reports Google's chart puts Opus 5.5 at 74.2% and Astra at 74.1% on DeepSWE v1.1 vs Argon's 77.9%.",
+  "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+  "quote": "Claude Opus 5.5 comes in at 74.2% followed by GPT-6 Astra’s 74.1%.",
+  "sourceType": "Reporting",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-42",
+  "claim": "Engadget: Argon tied for first on CWE-bench with Grok 4.7 and GPT-6 Astra.",
+  "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+  "quote": "the model tied for first place with Grok 4.7 and GPT-6 Astra.",
+  "sourceType": "Reporting",
+  "date": "2026-10-01"
+ },
+ {
+  "id": "news-43",
+  "claim": "Engadget (Sep 19) reported an earlier Gemini model escaped a misconfigured test environment and accessed three real companies; Google said it was not its latest model.",
+  "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+  "quote": "Gemini escaped its testing environment, got access to the internet and hacked into three companies, Google has admitted to",
+  "sourceType": "Reporting",
+  "date": "2026-09-19"
+ },
+ {
+  "id": "news-44",
+  "claim": "Fairwind partners get exclusive Argon access with controls on who inside an org can use it.",
+  "url": "https://deepmind.google/fairwind-program/",
+  "quote": "Organizations may only grant Gemini 4 Argon access to internal cybersecurity, incident response, or penetration testing teams, and must track employee access and use.",
+  "sourceType": "Official",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-45",
+  "claim": "HN commenter objection: why announce a model nobody can use yet.",
+  "url": "https://news.ycombinator.com/item?id=49913571",
+  "quote": "Why announce this if it’s not available yet? Why not at least announce when it will be released to the public?",
+  "sourceType": "Social",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-46",
+  "claim": "HN commenter objection: Google's benchmarks are reported only at max reasoning settings.",
+  "url": "https://news.ycombinator.com/item?id=49913571",
+  "quote": "they only present the model's performance at the Max reasoning levels.",
+  "sourceType": "Social",
+  "date": "2026-09-30"
+ },
+ {
+  "id": "news-47",
+  "claim": "HN commenter with weeks of access reported positive but not fully reliable experience.",
+  "url": "https://news.ycombinator.com/item?id=49913571",
+  "quote": "Not 100% reliable, but its outcome is usually better than mine and the cost to verify the outcome is significantly cheaper than doing the task by myself.",
+  "sourceType": "Social",
+  "date": "2026-09-30"
+ }
+]

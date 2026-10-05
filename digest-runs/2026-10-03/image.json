@@ -1,0 +1,12 @@
+{"hero":{"src":"/images/eureka/2026-10-03-gemini-4-argon-benchmarks/balance-scale-gemini-4-argon-benchmarks.webp","width":1600,"height":1200,
+"alt":"Brass balance scale with two empty pans on a marble base, for weighing Gemini 4 Argon benchmarks against independent tests",
+"caption":"Two empty pans stand for the question at the heart of the story: do Google's own Gemini 4 Argon benchmark scores match what independent testers measure?",
+"credit":{"title":"Balance scale (ca. 1845-55)","author":"Henry N. Hooper and Company (The Metropolitan Museum of Art, Gift of Mr. and Mrs. Stuart P. Feld, 2013)","authorUrl":"https://www.metmuseum.org/art/collection/search/629597","license":"CC0 1.0 (Met Open Access, public domain)","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"The Metropolitan Museum of Art Open Access","sourceUrl":"https://www.metmuseum.org/art/collection/search/629597","modified":"Resized and converted to WebP"}},
+"tried":[
+{"source":"StockSnap.io (Openverse)","query":"scoreboard / measuring tape / scales / ruler","result":"rejected: good CC0 candidates (Ruler Closeup, Tape Measure) but the full-size file is blocked by Cloudflare (403); only 960 px thumbnails visible, under 1200 px"},
+{"source":"Nappy (Openverse)","query":"scoreboard / measuring tape / scales / ruler","result":"rejected: no results"},
+{"source":"Rawpixel (Openverse)","query":"scoreboard","result":"rejected: downloaded 'Community scoreboard on the wall' (chalkboard); inspected it and it carries a faint rawpixel watermark bottom right"},
+{"source":"Openverse all sources (Flickr)","query":"scoreboard / balance scale / measuring tape","result":"rejected: Flickr results are 1024 px wide, below 1200 px; mostly CC BY baseball scoreboards with stadium branding"},
+{"source":"The Met Open Access","query":"Wooden Box with Bronze Balance Scale (473394)","result":"rejected: inspected; image shows only the box lid, scale not visible"},
+{"source":"The Met Open Access","query":"balance scale, isPublicDomain (object 629597)","result":"chosen: 4000x3000 original, clean, no watermark, no people or logos; inspected final WebP with Read"}
+]}

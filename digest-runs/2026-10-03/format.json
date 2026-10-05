@@ -1,0 +1,25 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "question",
+  "sections": {
+    "news": {
+      "format": "claim-vs-evidence",
+      "words": 580,
+      "why": "Gemini 4 Argon is hype-heavy and the topic brief asks to keep Google's benchmark claims apart from same-day independent results; a two-column table does that directly. It leads because it is the biggest story of the window."
+    },
+    "research": {
+      "format": "explainer",
+      "words": 650,
+      "why": "Single paper with a clear mechanism (co-cheating between a problem-writer and a solver) and a proposed fix; the explainer labels map to found / how it works / why it matters / uncertain. Used only here, so the once-per-issue rule holds."
+    },
+    "invention": {
+      "format": "three-things",
+      "words": 340,
+      "why": "Stillwet is a visual, easy-to-skim novelty (code-driven paint simulator, brushstrokes as code, blind AI judging). Three short mini-paragraphs fit 350 words and leave room for the honest caveat. Avoids comparison, used for invention last issue."
+    }
+  },
+  "recentCheck": {
+    "lastIssue": "2026-09-30: research by-the-numbers, news claim-vs-evidence, invention comparison; headline style claim",
+    "note": "Only one non-demo issue exists, so this combination (news claim-vs-evidence / research explainer / invention three-things) differs from it. Headline style changed from claim to question."
+  }
+}

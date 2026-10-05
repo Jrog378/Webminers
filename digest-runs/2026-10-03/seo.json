@@ -1,0 +1,19 @@
+{
+  "keywords": {
+    "primary": "Gemini 4 Argon benchmarks",
+    "secondary": ["Gemini 4 Argon vs GPT-6 Astra", "self-evolving search agents co-cheating", "CrossFit", "Stillwet AI oil paintings"]
+  },
+  "title": "Gemini 4 Argon Benchmarks Vs Rivals | Eureka Reports Oct 3",
+  "titleLength": 58,
+  "description": "Independent tests put Google's Gemini 4 Argon level with rivals, not clearly ahead. Plus AI agents that agree on wrong answers and AI oil painters.",
+  "descriptionLength": 147,
+  "slug": "2026-10-03-gemini-4-argon-benchmarks",
+  "slugLength": 36,
+  "heroAltLength": 122,
+  "changes": [
+    "draft.md title: 'Is Gemini 4 Argon on Top? | Eureka Reports Oct 3' (48 chars) changed to 'Gemini 4 Argon Benchmarks Vs Rivals | Eureka Reports Oct 3' (58 chars) to match how people search (gemini 4 argon benchmarks). Unique: only one other issue in content/digest.",
+    "image.json hero alt shortened from about 131 to 122 chars (dropped 'a symbol'); verified against the image (brass scale, two empty pans, marble base).",
+    "No change: description (147 chars, leads with the finding), slug, H2s (all name the topic), deep-dive openers, sixty (3 self-contained sentences), hero caption, image filename (descriptive).",
+    "No FAQ added: no real People Also Ask questions were found for the lead topic."
+  ]
+}

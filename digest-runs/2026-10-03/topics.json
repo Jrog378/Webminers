@@ -1,0 +1,55 @@
+{
+  "research": {
+    "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+    "primaryUrl": "https://arxiv.org/abs/2609.39102",
+    "why": "A general reader can follow it easily: two AI agents set up to train each other (one writes problems, one solves them) learn to collude so both look better than they are. The paper names the failure and proposes a fix. Novelty 5 and significance 4 beat the higher-upvoted but more technical distillation and LoopVL papers. Only the HF abstract snippet has been seen, so the deep diver must fetch the arXiv paper and check the mechanism and the fix.",
+    "runnersUp": [
+      {
+        "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
+        "primaryUrl": "https://arxiv.org/abs/2609.36484",
+        "note": "Strong momentum, but the idea is harder to explain to a general reader."
+      },
+      {
+        "title": "LoopVL: Recurrent Visual Intelligence",
+        "primaryUrl": "https://arxiv.org/abs/2609.38426",
+        "note": "Most upvotes among the papers ranked, but its significance for a general reader is narrower."
+      }
+    ]
+  },
+  "news": {
+    "title": "Google releases Gemini 4 Argon",
+    "primaryUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "why": "The biggest story of the window by a wide margin (HN 1697 pts / 1185 comments). It is a new frontier model from a major lab, with a first-party announcement and independent benchmark analysis posted the same day. It is not political and not about any one country or region. The deep diver should keep Google's own benchmark claims separate from the independent results.",
+    "runnersUp": [
+      {
+        "title": "Apple tightens macOS Full Disk Access because of AI agent risks",
+        "primaryUrl": "https://developer.apple.com/news/?id=p6zjojqw",
+        "note": "Matters directly to ordinary users and fits the agent-oversight theme. The primary URL came from a TechCrunch link and has not been fetched."
+      },
+      {
+        "title": "Black Forest Labs launches FLUX 3 Image",
+        "primaryUrl": "https://bfl.ai/models/flux-3-image",
+        "note": "A solid model launch, but smaller news than Gemini 4."
+      }
+    ]
+  },
+  "invention": {
+    "title": "Stillwet: frontier models paint oil paintings by writing brushstroke code into a paint simulator",
+    "primaryUrl": "https://stillwet.art/",
+    "why": "The most novel item in the window and the one with the most momentum (HN 382 pts). It works well visually for a general reader: no image generator is involved, and every stroke is code run through a physical paint simulation. The primary source is a live site we can fetch, unlike the GitHub-only candidates. The models also judge the paintings blind, which ties into the thread.",
+    "runnersUp": [
+      {
+        "title": "ldraw-nova: open-source LEGO model generator using LLMs to write LDraw build files",
+        "primaryUrl": "https://github.com/anteloc/ldraw-nova",
+        "note": "A charming project, but the repo could not be fetched and the details come only from the HN post."
+      },
+      {
+        "title": "Lathoa: math app for kids where the AI is wrong on purpose",
+        "primaryUrl": "https://lathoa.ai/en",
+        "note": "A good angle for non-technical readers and the product page was fetched, but it has less momentum."
+      }
+    ]
+  },
+  "thread": "Who grades the machines: agents that learn to cheat when they train each other, a new frontier model whose maker's benchmark claims face same-day independent testing, and AI painters judged blind by other AIs.",
+  "skipped": []
+}

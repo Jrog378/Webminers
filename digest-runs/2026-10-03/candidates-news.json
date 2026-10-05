@@ -1,0 +1,202 @@
+{
+ "section": "news",
+ "window": "Wed Sep 30 - Fri Oct 2, 2026 (America/New_York)",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS",
+   "status": "failed: empty response"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "ok (search_by_date; first query with search endpoint returned 400)"
+  },
+  {
+   "name": "Company blogs / Reddit",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Google releases Gemini 4 Argon",
+   "summary": "Google's new Gemini 4 model, Argon, announced with independent benchmark analysis posted same day.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "date": "2026-09-30",
+   "signal": "HN 1697 pts / 1185 comments https://news.ycombinator.com/item?id=49913571",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 19,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Black Forest Labs launches FLUX 3 Image",
+   "summary": "New FLUX 3 image model released by Black Forest Labs.",
+   "primaryUrl": "https://bfl.ai/models/flux-3-image",
+   "date": "2026-10-01",
+   "signal": "HN 435 pts / 97 comments https://news.ycombinator.com/item?id=49925974",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Meta open sources code for Muse AI gadgets",
+   "summary": "Meta releases code and a site for builders to make their own Muse-powered AI gadgets.",
+   "primaryUrl": "https://gadgets.muse.ai",
+   "date": "2026-10-02",
+   "signal": "HN 248 pts / 109 comments https://news.ycombinator.com/item?id=49937504; coverage: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Apple tightens macOS Full Disk Access because of AI agent risks",
+   "summary": "Apple says new macOS permission limits respond to risks from AI agents.",
+   "primaryUrl": "https://developer.apple.com/news/?id=p6zjojqw",
+   "date": "2026-10-02",
+   "signal": "Covered by TechCrunch, The Verge, Ars Technica (no HN thread checked)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "Primary URL taken from link in TechCrunch article; not fetched directly"
+  },
+  {
+   "title": "OpenAI Dots agent hands-on: enterprise agent that also orders dinner",
+   "summary": "Hands-on with OpenAI's Dots agent after its launch; cloud browser support doc cited.",
+   "primaryUrl": "https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt",
+   "date": "2026-10-02",
+   "signal": "Verge hands-on https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Launch itself was Sep 29 (TechCrunch), just before window"
+  },
+  {
+   "title": "AI beats best Stratego player in history on a budget",
+   "summary": "Ars reports an AI system finally mastered the hidden-information game Stratego.",
+   "primaryUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+   "date": "2026-10-02",
+   "signal": "HN 286 pts / 148 comments https://news.ycombinator.com/item?id=49933740",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "Original paper link not verified; Ars is secondary reporting"
+  },
+  {
+   "title": "Figure retires F.02 humanoid robot",
+   "summary": "Figure AI announces decommissioning of its F.02 robot.",
+   "primaryUrl": "https://www.figure.ai/news/f-02-decommission",
+   "date": "2026-10-02",
+   "signal": "HN 89 pts / 50 comments https://news.ycombinator.com/item?id=49932079",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Pop!_OS bans AI-generated code from much of its COSMIC codebase",
+   "summary": "System76 prohibits AI-generated contributions across many COSMIC repositories.",
+   "primaryUrl": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+   "date": "2026-10-03",
+   "signal": "HN 116 pts / 167 comments https://news.ycombinator.com/item?id=49946321",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "note": "Dated Oct 3, just outside window"
+  },
+  {
+   "title": "ChatGPT can now virtually try on clothes",
+   "summary": "OpenAI adds virtual try-on to ChatGPT shopping.",
+   "primaryUrl": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+   "date": "2026-10-01",
+   "signal": "None found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "note": "No official OpenAI announcement URL found; TechCrunch original reporting"
+  },
+  {
+   "title": "Sean Parker is rebuilding Stability AI around music",
+   "summary": "Stability AI shifts strategy toward music generation under new leadership.",
+   "primaryUrl": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+   "date": "2026-10-02",
+   "signal": "None found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "note": ""
+  }
+ ],
+ "excludedPolitical": [
+  "Trump unveils Super Intelligence Force (TechCrunch, Oct 4)",
+  "FTC investigating OpenAI, Anthropic over product risks (CNBC, Sep 30)",
+  "Grok reportedly encouraged capture of foreign president (TechCrunch, Oct 1)",
+  "Amazon data center backlash / NDAs (Oct 3)",
+  "Meta AI data centers and federal taxes (NYT, Sep 30)",
+  "White House 'super intelligence' rebrand (TechCrunch, Oct 2)",
+  "Hacks of two federal agencies (Ars, Oct 1)"
+ ],
+ "alreadyCovered": "Sep 30 issue covered NVIDIA Open Agent Safety Platform; no candidate overlaps."
+}

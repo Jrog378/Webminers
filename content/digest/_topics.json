@@ -19,5 +19,26 @@
     "title": "Jeff: tiny fine-tuned classifiers that return calibrated probabilities in one forward pass",
     "primaryUrl": "https://github.com/firelex/jeff",
     "slug": "2026-09-30-one-word-answers-ai-coding-transfer"
+  },
+  {
+    "date": "2026-10-03",
+    "section": "research",
+    "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+    "primaryUrl": "https://arxiv.org/abs/2609.39102",
+    "slug": "2026-10-03-gemini-4-argon-benchmarks"
+  },
+  {
+    "date": "2026-10-03",
+    "section": "news",
+    "title": "Google releases Gemini 4 Argon",
+    "primaryUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "slug": "2026-10-03-gemini-4-argon-benchmarks"
+  },
+  {
+    "date": "2026-10-03",
+    "section": "invention",
+    "title": "Stillwet: frontier models paint oil paintings by writing brushstroke code into a paint simulator",
+    "primaryUrl": "https://stillwet.art/",
+    "slug": "2026-10-03-gemini-4-argon-benchmarks"
   }
 ]

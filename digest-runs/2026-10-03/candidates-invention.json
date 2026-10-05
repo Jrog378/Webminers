@@ -1,0 +1,230 @@
+{
+ "section": "invention",
+ "window": "Wed Sep 30 - Fri Oct 2, 2026 (America/New_York)",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai tag RSS",
+   "status": "ok, no items in window"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok, low-signal, none selected"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by environment (repo-scoped only)"
+  },
+  {
+   "name": "GitHub repo pages",
+   "status": "failed: not accessible"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Stillwet: Claude Opus 5.5 paints oil paintings by writing brushstroke code into a paint simulator",
+   "summary": "A studio where frontier models write every brushstroke as code, executed by an oil-paint simulation (no image generator); 75 paintings across rounds, models judge blind.",
+   "primaryUrl": "https://stillwet.art/",
+   "date": "2026-10-02",
+   "signal": {
+    "hnPoints": 382,
+    "hnComments": 113,
+    "hnThread": "https://news.ycombinator.com/item?id=49928566"
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "notes": "Live site is the primary source; no repo or paper found."
+  },
+  {
+   "title": "ldraw-nova: open-source LEGO model generator using LLMs to write LDraw build files",
+   "summary": "LLMs generate LDraw (assembly-like LEGO CAD language) so outputs are editable LEGO models; author iterated for months.",
+   "primaryUrl": "https://github.com/anteloc/ldraw-nova",
+   "date": "2026-10-02",
+   "signal": {
+    "hnPoints": 154,
+    "hnComments": 50,
+    "hnThread": "https://news.ycombinator.com/item?id=49937916"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false,
+   "notes": "Repo page not fetchable here; description from HN author post."
+  },
+  {
+   "title": "Weave Router 2.0: open-source model router for coding agents",
+   "summary": "Router plugs into Claude Code/Codex and switches between models; claims equal pass rates to a single top model at 52% of cost and 2.2x speed on Terminal Bench (vendor-reported).",
+   "primaryUrl": "https://github.com/weave-os/router",
+   "date": "2026-09-30",
+   "signal": {
+    "hnPoints": 119,
+    "hnComments": 41,
+    "hnThread": "https://news.ycombinator.com/item?id=49911500"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": "Benchmarks are self-reported; repo URL taken from HN post text, not fetched. HN submission has no URL."
+  },
+  {
+   "title": "Pi pod: run the pi coding agent in sandboxes on your own server",
+   "summary": "Self-hosted isolated sandboxes for a provider-agnostic coding agent, aimed at teams wanting customizable harnesses.",
+   "primaryUrl": "https://pipod.dev/",
+   "date": "2026-10-02",
+   "signal": {
+    "hnPoints": 114,
+    "hnComments": 46,
+    "hnThread": "https://news.ycombinator.com/item?id=49937304"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": "Work in progress per author."
+  },
+  {
+   "title": "Janus: Go binary running GGUF models over Vulkan on AMD, Intel and Nvidia GPUs",
+   "summary": "Single Go binary for local LLM inference across GPU vendors via Vulkan.",
+   "primaryUrl": "https://github.com/Vibra-Ingenn/Janus",
+   "date": "2026-10-01",
+   "signal": {
+    "hnPoints": 104,
+    "hnComments": 19,
+    "hnThread": "https://news.ycombinator.com/item?id=49926773"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": "Repo page not fetchable here; details unverified beyond title."
+  },
+  {
+   "title": "Lathoa: math app for kids where the AI is wrong on purpose",
+   "summary": "Ages 10-14 find the faulty step in a robot's worked solution; cases are verified before display and no free chat with an LLM.",
+   "primaryUrl": "https://lathoa.ai/en",
+   "date": "2026-09-30",
+   "signal": {
+    "hnPoints": 53,
+    "hnComments": 51,
+    "hnThread": "https://news.ycombinator.com/item?id=49909648"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": "Good non-tech-audience angle; product page fetched."
+  },
+  {
+   "title": "Strata: semantic layer that can say no to your LLM",
+   "summary": "Semantic layer that constrains LLM-generated queries and refuses invalid ones.",
+   "primaryUrl": "https://strata.do/",
+   "date": "2026-09-30",
+   "signal": {
+    "hnPoints": 24,
+    "hnComments": 16,
+    "hnThread": "https://news.ycombinator.com/item?id=49909913"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 10,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Parrot: open-source smart meeting recorder with co-pilot for Mac",
+   "summary": "Open-source local meeting recorder with AI assistant.",
+   "primaryUrl": "https://openparrot.app",
+   "date": "2026-09-30",
+   "signal": {
+    "hnPoints": 39,
+    "hnComments": 35,
+    "hnThread": "https://news.ycombinator.com/item?id=49910328"
+   },
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 10,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Breadcrumb: record activity on your Mac as a context manager for AI",
+   "summary": "Local recording of work context to feed AI assistants.",
+   "primaryUrl": "https://innerloop.works/breadcrumb",
+   "date": "2026-10-01",
+   "signal": {
+    "hnPoints": 49,
+    "hnComments": 9,
+    "hnThread": "https://news.ycombinator.com/item?id=49924943"
+   },
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 9,
+   "recentlyCovered": false,
+   "notes": "Privacy angle; not deeply verified."
+  },
+  {
+   "title": "Graphene: data analysis toolkit for coding agents",
+   "summary": "Open-source toolkit letting coding agents do data analysis.",
+   "primaryUrl": "https://github.com/graphene-data/graphene",
+   "date": "2026-10-01",
+   "signal": {
+    "hnPoints": 32,
+    "hnComments": 9,
+    "hnThread": "https://news.ycombinator.com/item?id=49927295"
+   },
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 9,
+   "recentlyCovered": false,
+   "notes": ""
+  }
+ ],
+ "excludedPolitical": [],
+ "topicsCheck": "_topics.json lists Jeff (firelex/jeff) from Sep 30 invention; no candidate overlaps."
+}

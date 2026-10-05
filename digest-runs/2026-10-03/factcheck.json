@@ -1,0 +1,853 @@
+{
+ "checked": 84,
+ "passed": 71,
+ "results": [
+  {
+   "citation": "1",
+   "sentence": "Google announced Gemini 4 Argon on Sept. 30 as its new frontier model, rolling it out first to \"a set of trusted cyber defenders\".",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Blog dated Sep 30, 2026; 'rolling out to a set of trusted cyber defenders through our Fairwind Program'.",
+   "fix": null
+  },
+  {
+   "citation": "2,3",
+   "sentence": "Independent testers published results within a day and put it roughly level with the top models from other labs, not clearly ahead.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Paid API customers and Google AI Ultra subscribers come next, Google says, but it gave no date.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Artificial Analysis, an independent benchmarking firm, notes the model \"is not publicly available\".",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Table: A new state of the art on DeepSWE v1.1 at 77.9%, per Google.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Table: Google ran that test itself, with its own agent harness. Its evaluation notes say rival scores come from \"providers' self reported numbers\".",
+   "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+   "verdict": "fix",
+   "evidence": "Eval PDF: 'DeepSWE v1.1 results for Gemini 4 Argon are self computed, using a mini-swe agent harness. GPT-6 Astra results are reported from the official public leaderboard, Fable 5.1 and Opus 5.5 results are taken from their respective system cards.' 'Its own agent harness' is not supported; mini-swe agent is a named harness.",
+   "fix": "Google computed Argon's DeepSWE v1.1 score itself, using a mini-swe agent harness [4]. Also: the quote 'providers' self reported numbers' is the general rule 'unless otherwise mentioned'; for DeepSWE, GPT-6 Astra comes from the official public leaderboard and Fable/Opus from system cards, so write: 'Rival scores are mostly from the providers' self reported numbers, though for DeepSWE GPT-6 Astra's comes from the official public leaderboard and Claude's from system cards [4].'"
+  },
+  {
+   "citation": "5",
+   "sentence": "Table: Google's chart puts Claude Opus 5.5 at 74.2% and GPT-6 Astra at 74.1%, 9to5Google reports.",
+   "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Table: A tie for first on CWE-bench v1 at 68%, per Google.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "Table: Collinear AI's leaderboard confirms a three-way tie at 68% with Grok 4.7 and GPT-6 Astra, with Claude Opus 5.5 at 67%.",
+   "url": "https://cwe-bench.com/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "Table: Argon's average cost per attempt, $6.63, is the highest of the top four; Opus 5.5 costs $0.79.",
+   "url": "https://cwe-bench.com/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Table: State of the art on LVBench, a long-video test, at 91.7%, per Google.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Table: Also computed by Google, with a different number of video frames for each model because of API limits.",
+   "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+   "verdict": "pass",
+   "evidence": "Eval PDF: 'LVBench results are self computed without tools. We use 1FPS for Gemini, 800 frames for GPT-6 Astra and 300 frames for fable 5.1 and 600 for opus 5.5 due to API limitations.'",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Table: An output limit of 1M tokens, up from 64K, per Google.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Table: Artificial Analysis says a new API feature gets there by pausing long responses and resuming them across follow-up calls.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "7",
+   "sentence": "Table: Vals AI lists 262k max output tokens in the setup it tested.",
+   "url": "https://www.vals.ai/models/google_gemini-4-argon",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Table: An introductory price of $2 per million input tokens and $10 per million output, later rising to $4 and $20.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Table: Artificial Analysis measured $1.99 per task, 60% of GPT-6 Astra's cost, rising to $3.98 after the discount.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Table: The savings come from \"lower token prices, rather than reduced token use,\" with Argon averaging 62k output tokens per task to Astra's 27k.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Artificial Analysis scores Argon 53 on its Intelligence Index, matching GPT-6 Astra and one point ahead of GPT-6.1 Sol.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "R&D World notes that leaves it behind Claude Opus 5.5 on that index. It also ranked eighth on Arena's Agent Arena on Oct. 1, with a possible range of third to 16th over 3,417 sessions.",
+   "url": "https://www.rdworldonline.com/googles-overdue-gemini-4-argon-reaches-the-frontier-with-mixed-results-for-science/",
+   "verdict": "fix",
+   "evidence": "R&D World confirms: Argon 53 'behind Claude Opus 5.5' (58) and 8th on Agent Arena, rank range 3rd-16th, 3,417 sessions, as of Oct 1. But the first sentence of this pair has no inline citation.",
+   "fix": "Add [[3]] after 'behind Claude Opus 5.5 on that index'."
+  },
+  {
+   "citation": "8",
+   "sentence": "Vals AI ranks Argon first on the Vals Index at 68.90%, narrowly ahead of Claude Sonnet 5.5 at 67.04% and Opus 5.5 at 66.97%.",
+   "url": "https://www.vals.ai/benchmarks/vals_index",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "7",
+   "sentence": "But it scored 4.83% on CUA-bench, a computer-use test, seventh of eight.",
+   "url": "https://www.vals.ai/models/google_gemini-4-argon",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Artificial Analysis found a 15% hallucination rate, the lowest of any model scoring 45 or more on its index.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Its accuracy on that test, 50%, was 13 points below GPT-6 Astra's.",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "Bloomberg reported that Gemini 4 \"does less well when employees actually put it to work,\" citing people with direct access.",
+   "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "Google said it would be \"inaccurate to say that Gemini 4 is underperforming in areas such as coding\".",
+   "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+   "verdict": "fix",
+   "evidence": "Bloomberg (Yahoo copy): 'Google said it would be inaccurate to say that Gemini 4 is underperforming in areas such as coding.' This is Bloomberg's indirect paraphrase, not a direct Google quotation. 'does less well when employees actually put it to work' is a Bloomberg phrase (source: 'it does less well when employees actually put it to work') and passes.",
+   "fix": "Bloomberg wrote that Google said it would be inaccurate to say Gemini 4 is underperforming in areas such as coding [9]. (Drop the quotation marks or attribute the words to Bloomberg.)"
+  },
+  {
+   "citation": "1",
+   "sentence": "Google will release Argon \"without cyber guardrails\" to vetted defenders and its own teams.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "fix",
+   "evidence": "Blog: 'For trusted defenders and our own internal teams at Google, we'll be releasing Argon without cyber guardrails'. Source says 'trusted', not 'vetted' (Fairwind does run background checks, but that is a different sentence).",
+   "fix": "Google will release Argon \"without cyber guardrails\" to trusted defenders and its own internal teams [1]."
+  },
+  {
+   "citation": "10",
+   "sentence": "Partners in its Fairwind Program may grant access only to internal security, incident response or penetration testing teams.",
+   "url": "https://deepmind.google/fairwind-program/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Google also says it monitors Argon's chain of thought and stops execution when necessary.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "It is careful not to feed those findings back into training, \"so as to not risk shaping Argon's reasoning to evade our monitoring\".",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "11",
+   "sentence": "\"Why announce this if it's not available yet?\" one commenter asked.",
+   "url": "https://news.ycombinator.com/item?id=49913571",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "11",
+   "sentence": "Another, with weeks of access, called it \"Not 100% reliable\" but said checking its work was much cheaper than doing the task by hand.",
+   "url": "https://news.ycombinator.com/item?id=49913571",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "AI search agents that train each other without human answers drift into agreeing on the same wrong answers while their internal reward keeps rising, according to a preprint posted to arXiv on Sept. 30.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "The 15-author paper, with researchers from Rutgers, UC San Diego, the University of Michigan, McGill and KFUPM, is not yet peer-reviewed.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "fix",
+   "evidence": "arXiv abs: 'Meijia Chen and 14 other authors' = 15, confirmed. Affiliations are on the HTML full text only (cite 13, not 12): Rutgers (1 author), UCSD (2), Michigan (1), McGill (1), King Fahd University of Petroleum and Minerals (1), and 'Independent Researcher' (10 of 15). Corresponding authors: Tianyu Shi (McGill), Alaa Khamis (KFUPM). The listed institutions are accurate but the sentence omits that most authors are independent. 'KFUPM' is not used in the paper. 'Not yet peer-reviewed': arXiv v1 only; editorial preprint label is appropriate.",
+   "fix": "The 15-author paper lists affiliations at Rutgers, UC San Diego, the University of Michigan, McGill and King Fahd University of Petroleum and Minerals; 10 of the 15 authors list themselves as independent researchers [13]. It is a preprint and has not been peer-reviewed."
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Setup description (proposer, solver, reward at the frontier, no ground-truth check).",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "Uncited. Paper (full text, cites 13): 'a proposer turns source documents into questions and pseudo-labels, admitted pairs train a solver, and the solver's performance on new proposals determines the proposer reward ... shifts proposals toward the solver's current capability frontier, producing an automated curriculum without a fixed human-authored training set.' 'All treatments use the same backbone' (Qwen3.5-4B / 9B). Unsupported in the draft: 'two copies of one model teach each other', 'using web search' (paper says search agents with a tool budget), 'nobody checks answers against the truth' (the pseudo-labels are checked only by the post-hoc audit, which never feeds training).",
+   "fix": "Add [[13]]. Suggested wording: 'In a self-evolving setup, a proposer turns source documents into questions with pseudo-labels, and a solver, built on the same Qwen3.5 backbone, is trained on them using search tools. The proposer is rewarded when the solver's answers agree with its pseudo-label on new questions, which pushes it toward the edge of the solver's ability. No human-written labels are used, so agreement stands in for being right [13].'"
+  },
+  {
+   "citation": "12",
+   "sentence": "The authors call the failure co-cheating: \"the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness\".",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "They stress that it \"does not imply intentional coordination\".",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "In the standard Dr. Zero training loop, false agreement rose from 0.4% in round one to 6.1% by round three on Qwen3.5-4B, and from 0.3% to 8.8% on Qwen3.5-9B.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "A separate AI model, gpt-6-astra/high, then built a reference answer from each source document and judged the saved answers.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Multi-sample verification has the model answer each question three times with the source and three times without it.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "It helped only a little, cutting false agreement from 6.1% to 5.7% and from 8.8% to 7.2%.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "It also raised the compute budget by about 90%.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Questions \"generated from A are scored by an auxiliary solver trained only on B, and vice versa\".",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "CrossFit cut false agreement to 3.0% and 3.7%.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Average scores across seven search benchmarks rose 8.8 and 8.4 points over the standard loop, and 8.7 and 7.8 points over Search-R1.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "That put CrossFit at 48.8% and 51.2% on a 1,325-question test set.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "Gains were biggest on multi-hop questions: 10.0 and 10.9 points, versus 7.3 and 5.2 on single-hop sets.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "In a controlled replay, splitting individual questions at random only brought false agreement to 5.0% and 6.2%, while splitting by document brought it to 0.4% and 0.1%.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "\"Reliable self-evolution therefore requires auditing both feedback correctness and the training history of its evaluator.\"",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "AI Weekly said teams \"should stop treating a climbing internal reward curve as evidence of real improvement\".",
+   "url": "https://aiweekly.co/alerts/papers-crossfit-cuts-search-agent-co-cheating-to-37",
+   "verdict": "pass",
+   "evidence": "Quote verbatim from AI Weekly 'Editor's note': 'Teams training agents on self-generated data should stop treating a climbing internal reward curve as evidence of real improvement'. Note: AI Weekly is an automated aggregator ('Originally reported by arxiv.org'); the quote is its own editorial opinion and is correctly attributed to the newsletter. Do not use it for any factual claim.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "The authors call exhaustive human checking at every step \"impractical\".",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "Lower false agreement \"can also result from rejecting difficult tasks rather than improving learning\".",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "CrossFit adds 72% and 79% to the compute budget.",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "Results \"do not yet establish lower end-to-end cost or robustness to connected sources\".",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "They do not claim to have introduced \"self-play, answer verification, or cross-fitting itself\".",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Stillwet, a gallery by its creator Alice, shows 75 oil paintings by AI models: \"No image model is involved\".",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Each model \"paints by writing a program against a simulation of oil paint on linen\".",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "16",
+   "sentence": "The engine is \"a physical oil-paint simulator in Rust,\" where paint \"dries on a clock\" and comes \"only from piles knifed together from named tubes\".",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "17",
+   "sentence": "Color mixing reuses an existing open-source library, Mixbox.",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/THIRD_PARTY_NOTICES.md",
+   "verdict": "fix",
+   "evidence": "THIRD_PARTY_NOTICES: Mixbox 2.0.0 'is provided under the CC BY-NC 4.0 license for non-commercial use only'. That is not an open-source license in the usual (OSI) sense. The file also lists spectral.js (MIT) as ported code.",
+   "fix": "Color mixing uses an existing library, Mixbox, which is licensed for non-commercial use only (CC BY-NC 4.0) [17]."
+  },
+  {
+   "citation": "15",
+   "sentence": "Most paintings follow Caspar David Friedrich \"from written research alone; they never see a picture of his work\".",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Of the 75, 46 were made at a virtual easel, \"a passage at a time, stepping back to look\".",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "18",
+   "sentence": "The models see their own canvas but get no reference images, Alice said on Hacker News.",
+   "url": "https://news.ycombinator.com/item?id=49928566",
+   "verdict": "pass",
+   "evidence": "Alice on HN: 'they don't (currently) have reference images but but they very much use their vision capabilities'. Consider keeping 'currently'.",
+   "fix": null
+  },
+  {
+   "citation": "19",
+   "sentence": "In round 11, three models took the same winter brief, then judged six winters blind.",
+   "url": "https://stillwet.art/rounds.html",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "20",
+   "sentence": "Each saw its own painting unmarked, plus an earlier winter as an anchor.",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/README.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "21",
+   "sentence": "\"No self-preference: each model ranked its own painting 5th or 6th.\"",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "21",
+   "sentence": "All three judges, GPT-6 Astra, Gemini 3.8 Flash and Claude Fable 5.1, ranked that anchor, a winter by Claude Opus 5.5, first.",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Of 65 titled paintings, 31 include Evening, Dusk, Twilight or Sunset.",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "In round 19, all six painters included a bare tree.",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Two painters six hours apart, the second never seeing the first, both chose a shore scene with a woman at the water, fishing poles, a boulder and a ship.",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Gemini 3.8 Flash reported \"closely observing the machine’s activity, specifically focusing on an automated evaluation runner in the background\".",
+   "url": "https://stillwet.art/",
+   "verdict": "fix",
+   "evidence": "stillwet.art: 'Gemini 3.8 Flash used it to look at the other programs running on the machine. In its reasoning it wrote: \"I am now closely observing the machine's activity, specifically focusing on an automated evaluation runner in the background.\"' The words came from its reasoning trace, not a report to the user; the draft quote also drops the leading 'I am now'.",
+   "fix": "One painter, Gemini 3.8 Flash, used a command line in round 18 to look at the machine and wrote in its reasoning: \"I am now closely observing the machine's activity, specifically focusing on an automated evaluation runner in the background\" [15]."
+  },
+  {
+   "citation": "15",
+   "sentence": "Later rounds limited painters to the easel's own tools.",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "20",
+   "sentence": "The project's own notes warn that \"a model may favor its own style\".",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/README.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Judges agreeing with each other says nothing about whether people would, and the project reports no human panel.",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "Uncited negative. Round 11 notes/key show human comments by Alice (e.g. 'F paradoxically ... the best one', 'E so digital', 'D missing things'), so human input exists, but I found no human judging panel on stillwet.art, rounds page, the notes or HN. Absence claim cannot be sourced.",
+   "fix": "Cut 'and the project reports no human panel', or rewrite: 'Alice's own comments appear in the notes, but the blind ranking was done only by the three AI models [21].'"
+  },
+  {
+   "citation": "18",
+   "sentence": "\"i need to write a blogpost until then point your favorite agent at the git history\"",
+   "url": "https://news.ycombinator.com/item?id=49928566",
+   "verdict": "pass",
+   "evidence": "Verbatim on HN (aliceisjustplay, 'project creator here'). Context: she was answering a request for her technique/process, not for a paper. Note the draft's preceding sentence 'There is no paper yet' is not in the source: see next item.",
+   "fix": null
+  },
+  {
+   "citation": "18",
+   "sentence": "A critic said most scenes are \"ruined\" by a nonsensical cluster of churches, which Alice said the models \"just keep painting\" for reasons she doesn't yet know.",
+   "url": "https://news.ycombinator.com/item?id=49928566",
+   "verdict": "pass",
+   "evidence": "HN cronin101: 'most of the landscapes are \"ruined\" by a cluster of churches right next to each other that is completely nonsensical'; Alice: 'the threee churches next to each other is one of those things they just keep painting and i'm not sure yet why'. Attributed correctly.",
+   "fix": null
+  },
+  {
+   "citation": "16",
+   "sentence": "The code is MIT-licensed, and the paintings and logs are CC BY 4.0.",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md",
+   "verdict": "pass",
+   "evidence": "README: 'The code is under the MIT License. The paintings, painting logs, session logs and texts are under CC BY 4.0.' Caveat: the Mixbox dependency is non-commercial (see source 17 item).",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "The co-cheating agents drifted because their grader had trained on the same documents it scored.",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "verdict": "fix",
+   "evidence": "Paper: auxiliary solver trained 'only on B' scores questions from A; 'excluding the evaluated source from the feedback solver prevents same-source errors from being systematically returned to the proposer' (cite 13). The abstract (12) does not state the cause; 'their grader had trained on the same documents it scored' is a compressed paraphrase. Paper also says false agreement 'is a diagnostic ... not by itself a causal proof'.",
+   "fix": "The co-cheating agents drifted when the solver giving feedback had been trained on pseudo-labels from the same source documents it was scoring [13]."
+  },
+  {
+   "citation": "4",
+   "sentence": "Several of Google's headline numbers were computed by Google.",
+   "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "21",
+   "sentence": "In Stillwet's small blind test, the AI judges ranked their own paintings near the bottom.",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md",
+   "verdict": "pass",
+   "evidence": "Opened the source; text and numbers match.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Sixty bullet 2: 'from researchers at Rutgers, McGill and other universities'",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "fix",
+   "evidence": "Full text affiliations: 10 of 15 authors list 'Independent Researcher'; only one author each at Rutgers, McGill, KFUPM, Michigan, and two at UCSD.",
+   "fix": "A preprint not yet peer-reviewed, by 15 authors (including researchers at Rutgers and McGill; most list themselves as independent researchers), found..."
+  },
+  {
+   "citation": "15",
+   "sentence": "Invention para 2/3: 'There is no paper yet.'",
+   "url": "https://news.ycombinator.com/item?id=49928566",
+   "verdict": "fix",
+   "evidence": "Not in any source. Alice says she needs to 'write a blogpost'; HN commenter mentions a separate 'Surya' post. 'Paper' is the writer's gloss.",
+   "fix": "Say 'There is no write-up yet' (Alice: 'i need to write a blogpost') [18]."
+  },
+  {
+   "citation": "uncited",
+   "sentence": "'Loops that write their own questions avoid costly human labels, but they need some stand-in for truth.'",
+   "url": "https://arxiv.org/html/2609.39102v1",
+   "verdict": "fix",
+   "evidence": "Uncited. Paper supports: 'automated curriculum without a fixed human-authored training set' and pseudo-labels as stand-in.",
+   "fix": "Add [[13]]."
+  },
+  {
+   "citation": "10",
+   "sentence": "Fairwind: 'Partners ... may grant access only to internal security, incident response or penetration testing teams'",
+   "url": "https://deepmind.google/fairwind-program/",
+   "verdict": "pass",
+   "evidence": "Page: 'Organizations may only grant Gemini 4 Argon access to internal cybersecurity, incident response, or penetration testing teams'. Paraphrase fine.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Sixty bullet 3 / invention opener: '75 oil paintings'",
+   "url": "https://stillwet.art/",
+   "verdict": "pass",
+   "evidence": "Site: 'All 75 paintings'; footer: 'all but one (a comparison, marked) run through a simulation of oil paint'. Minor nuance, optional.",
+   "fix": null
+  }
+ ],
+ "sourceTitleFixes": [
+  {
+   "source": 1,
+   "correctTitle": "Introducing Gemini 4 Argon (HTML <title>; on-page H1 'Gemini 4 Argon: our next era of frontier intelligence')",
+   "outlet": "Google Blog",
+   "dateCheck": "2026-09-30 ok",
+   "note": "ok",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+  },
+  {
+   "source": 2,
+   "correctTitle": "Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved",
+   "outlet": "Artificial Analysis",
+   "dateCheck": "2026-09-30 ok",
+   "note": "ok; draft title wrong",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs"
+  },
+  {
+   "source": 3,
+   "correctTitle": "Google's overdue Gemini 4 Argon reaches the frontier with mixed results for science (Brian Buntz)",
+   "outlet": "R&D World",
+   "dateCheck": "2026-10-01 ok",
+   "note": "draft title was right",
+   "url": "https://www.rdworldonline.com/googles-overdue-gemini-4-argon-reaches-the-frontier-with-mixed-results-for-science/"
+  },
+  {
+   "source": 4,
+   "correctTitle": "Gemini 4 Argon Model evaluation (PDF metadata title)",
+   "outlet": "Google DeepMind",
+   "dateCheck": "no date in PDF; Sep 30 plausible",
+   "note": "loads",
+   "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_argon_model_evaluation.pdf"
+  },
+  {
+   "source": 5,
+   "correctTitle": "Google announces Gemini 4 Argon as its new frontier model (Abner Li)",
+   "outlet": "9to5Google",
+   "dateCheck": "2026-09-30 ok",
+   "note": "draft title wrong",
+   "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/"
+  },
+  {
+   "source": 6,
+   "correctTitle": "CWE-bench: a cybersecurity benchmark by Collinear AI",
+   "outlet": "CWE-bench (Collinear AI)",
+   "dateCheck": "page shows 'v1 Sept 25' tab, ok",
+   "note": "draft title wrong; live JS leaderboard, v1 tab has the 68% rows",
+   "url": "https://cwe-bench.com/"
+  },
+  {
+   "source": 7,
+   "correctTitle": "Gemini 4 Argon Benchmarks, Cost and Capabilities | Vals AI",
+   "outlet": "Vals AI",
+   "dateCheck": "2026-09-30 ok",
+   "note": "draft title wrong",
+   "url": "https://www.vals.ai/models/google_gemini-4-argon"
+  },
+  {
+   "source": 8,
+   "correctTitle": "Vals Index Leaderboard and Methodology | Vals AI",
+   "outlet": "Vals AI",
+   "dateCheck": "'Updated 10/2/2026' ok",
+   "note": "draft 'Vals Index' not exact (not on to-verify list)",
+   "url": "https://www.vals.ai/benchmarks/vals_index"
+  },
+  {
+   "source": 9,
+   "correctTitle": "Google Grapples With Employee Skepticism About New Gemini Model (Julia Love and Davey Alba)",
+   "outlet": "Bloomberg (via Yahoo Finance)",
+   "dateCheck": "2026-09-30 ok (12:52 PM PDT)",
+   "note": "opened on retry with a browser User-Agent after an initial 429; draft title wrong",
+   "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html"
+  },
+  {
+   "source": 10,
+   "correctTitle": "Fairwind Program — Google DeepMind",
+   "outlet": "Google DeepMind",
+   "dateCheck": "page shows no date; R&D World says Fairwind opened Sept. 2, so '2026-09-30' looks wrong - unverifiable, use 2026-09-02 or drop",
+   "note": "loads",
+   "url": "https://deepmind.google/fairwind-program/"
+  },
+  {
+   "source": 11,
+   "correctTitle": "Gemini 4 Argon",
+   "outlet": "Hacker News",
+   "dateCheck": "2026-09-30 ok",
+   "note": "title ok",
+   "url": "https://news.ycombinator.com/item?id=49913571"
+  },
+  {
+   "source": 12,
+   "correctTitle": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "outlet": "arXiv",
+   "dateCheck": "submitted 2026-09-30 ok",
+   "note": "title ok; abs lists 15 authors, no affiliations",
+   "url": "https://arxiv.org/abs/2609.39102"
+  },
+  {
+   "source": 13,
+   "correctTitle": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "outlet": "arXiv HTML v1",
+   "dateCheck": "2026-09-30 ok",
+   "note": "title ok",
+   "url": "https://arxiv.org/html/2609.39102v1"
+  },
+  {
+   "source": 14,
+   "correctTitle": "Paper's CrossFit Cuts Search-Agent 'Co-Cheating' to 3.7% (page title; URL slug differs)",
+   "outlet": "AI Weekly",
+   "dateCheck": "2026-10-01 ok (by Alexis Dufresne)",
+   "note": "draft title wrong; AI Weekly is an automated aggregator",
+   "url": "https://aiweekly.co/alerts/papers-crossfit-cuts-search-agent-co-cheating-to-37"
+  },
+  {
+   "source": 15,
+   "correctTitle": "stillwet",
+   "outlet": "Stillwet",
+   "dateCheck": "no date on page",
+   "note": "title ok",
+   "url": "https://stillwet.art/"
+  },
+  {
+   "source": 16,
+   "correctTitle": "claude-paint (README H1)",
+   "outlet": "GitHub (aliceisjustplaying/claude-paint)",
+   "dateCheck": "no date in file",
+   "note": "draft 'README' is generic; loads via raw.githubusercontent",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md"
+  },
+  {
+   "source": 17,
+   "correctTitle": "Third-party notices",
+   "outlet": "GitHub (aliceisjustplaying/claude-paint)",
+   "dateCheck": "no date in file",
+   "note": "draft title case differs",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/THIRD_PARTY_NOTICES.md"
+  },
+  {
+   "source": 18,
+   "correctTitle": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+   "outlet": "Hacker News",
+   "dateCheck": "2026-10-02 ok",
+   "note": "title ok",
+   "url": "https://news.ycombinator.com/item?id=49928566"
+  },
+  {
+   "source": 19,
+   "correctTitle": "By round · stillwet",
+   "outlet": "Stillwet",
+   "dateCheck": "no page date; round 11 dated 'September 25'",
+   "note": "draft 'Rounds' wrong",
+   "url": "https://stillwet.art/rounds.html"
+  },
+  {
+   "source": 20,
+   "correctTitle": "Round 11: a trunk study, and two other models paint",
+   "outlet": "GitHub (claude-paint notes/round11/README.md)",
+   "dateCheck": "2026-09-25 consistent with rounds page (not in file)",
+   "note": "draft title wrong",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/README.md"
+  },
+  {
+   "source": 21,
+   "correctTitle": "Key: Round 11 cross-critique (open after judging)",
+   "outlet": "GitHub (claude-paint notes/round11/blind/key.md)",
+   "dateCheck": "2026-09-25 consistent",
+   "note": "draft title wrong",
+   "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md"
+  }
+ ],
+ "unverifiable": [],
+ "notes": [
+  "All 21 URLs opened (HTTP 200). Yahoo returned 429 once, then loaded. No Reuters/CNBC/VentureBeat/Reddit sources are in this draft.",
+  "Dates of sources 4, 10, 15, 16, 17 cannot be confirmed from the pages themselves."
+ ]
+}

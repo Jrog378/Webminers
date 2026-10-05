@@ -1,0 +1,37 @@
+{
+  "status": "draft-published",
+  "issueDate": "2026-10-03",
+  "window": "Wed Sep 30 - Fri Oct 2, 2026",
+  "sourcesFailed": [
+    "GitHub search/pages (blocked)",
+    "Google News RSS (empty)",
+    "Reddit (blocked)",
+    "Reuters/CNBC/VentureBeat (401/403/429)",
+    "Semantic Scholar/OpenAlex (rate-limited)"
+  ],
+  "topics": {
+    "research": "False Frontiers (arXiv 2609.39102)",
+    "news": "Gemini 4 Argon",
+    "invention": "Stillwet"
+  },
+  "formats": {
+    "research": "explainer",
+    "news": "claim-vs-evidence",
+    "invention": "three-things"
+  },
+  "factcheck": {
+    "round1": {
+      "checked": 84,
+      "pass": 71,
+      "fix": 13,
+      "cut": 0
+    },
+    "round2": {
+      "checked": 44,
+      "pass": 37,
+      "fix": 7,
+      "cut": 0
+    }
+  },
+  "editor": "PASS"
+}

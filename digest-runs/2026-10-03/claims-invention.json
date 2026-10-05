@@ -1,0 +1,234 @@
+[
+ {
+  "id": "inv-01",
+  "claim": "No image generator is used; each AI model paints by writing a program against an oil-paint simulation.",
+  "url": "https://stillwet.art/",
+  "quote": "Each one paints by writing a program against a simulation of oil paint on linen: bristle brushes, wet paint, drying, layered glazes. No image model is involved.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-02",
+  "claim": "The simulator is written in Rust and models bristles, wet paint, drying and Kubelka-Munk layer optics.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md",
+  "quote": "A physical oil-paint simulator in Rust, and an easel to paint with it.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-03",
+  "claim": "Paint mixing physics: layers combine by Kubelka-Munk optics, paint is knifed from named tubes.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md",
+  "quote": "the paint levels and dries on a clock, and layers combine by Kubelka–Munk optics. Paint comes only from piles knifed together from named tubes.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-04",
+  "claim": "Pigment mixing reuses existing open-source work (Mixbox 2.0.0, and code ported from spectral.js).",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/THIRD_PARTY_NOTICES.md",
+  "quote": "The paint engine (`crates/paint`) mixes pigments with Mixbox 2.0.0, used unmodified as the Rust crate `mixbox`",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-05",
+  "claim": "Most painters work after Caspar David Friedrich from written research only and never see his pictures.",
+  "url": "https://stillwet.art/",
+  "quote": "Most paint after Caspar David Friedrich from written research alone; they never see a picture of his work.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-06",
+  "claim": "46 of the 75 paintings were made at a virtual easel, a passage at a time, stepping back to look.",
+  "url": "https://stillwet.art/",
+  "quote": "46 of the 75 here were painted at a virtual easel instead, a passage at a time, stepping back to look.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-07",
+  "claim": "Painters can look at their canvas (vision) but get no reference images, per the creator on HN.",
+  "url": "https://news.ycombinator.com/item?id=49928566",
+  "quote": "they don't (currently) have reference images but but they very much use their vision capabilities indeed that's a big differentiatior imo",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-08",
+  "claim": "Project is made by a person named Alice (@aliceisplaying).",
+  "url": "https://stillwet.art/",
+  "quote": "Made by Alice",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-09",
+  "claim": "Code is MIT; paintings and logs are CC BY 4.0.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/README.md",
+  "quote": "The code is under the MIT License (`LICENSE`). The paintings, painting logs, session logs and texts are under CC BY 4.0",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-10",
+  "claim": "Round 1 ran September 22; round 21.5 ran October 2.",
+  "url": "https://stillwet.art/rounds.html",
+  "quote": "Round 1 · September 22",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-11",
+  "claim": "In round 11, three other models painted the same winter brief and then judged six winters blind.",
+  "url": "https://stillwet.art/rounds.html",
+  "quote": "Three other models took the same winter brief, then judged six winters blind.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-12",
+  "claim": "Blind judging setup: each judge saw all paintings unmarked, its own included, plus round 2's winter as an anchor.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/README.md",
+  "quote": "each judge all the whole paintings blind,\ntheir own included (unmarked), plus round 2's winter as an anchor.",
+  "sourceType": "Official",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "inv-13",
+  "claim": "No self-preference: each judging model ranked its own painting 5th or 6th of 6.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md",
+  "quote": "No self-preference: each model ranked its own painting 5th or 6th.",
+  "sourceType": "Official",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "inv-14",
+  "claim": "All three AI judges (Gemini 3.8 Flash, GPT-6 Astra, Claude Fable 5.1) ranked round 2's Claude Opus 5.5 winter first.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/blind/key.md",
+  "quote": "All three put round 2 first; all three put round 10's pond third.",
+  "sourceType": "Official",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "inv-15",
+  "claim": "The project's own notes flag that judges may favor their own style.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round11/README.md",
+  "quote": "Caveat: Astra and Gemini Flash are also this project's critics; blind\n   judging keeps the painter unknown, but a model may favor its own style.",
+  "sourceType": "Official",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "inv-16",
+  "claim": "Round 10 re-ran round 2's exact setup to test whether round 2 was setup or luck.",
+  "url": "https://raw.githubusercontent.com/aliceisjustplaying/claude-paint/main/notes/round10/README.md",
+  "quote": "If they reach round 2's level, the magic was the setup; then add things\nback one at a time. If not, round 2 was partly luck.",
+  "sourceType": "Official",
+  "date": "2026-09-25"
+ },
+ {
+  "id": "inv-17",
+  "claim": "31 of 65 titled paintings have Evening, Dusk, Twilight or Sunset in the title.",
+  "url": "https://stillwet.art/",
+  "quote": "Of the 65 paintings here with a title, 31 have Evening, Dusk, Twilight or Sunset in it",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-18",
+  "claim": "Asked only to plan a painting, Claude Opus chose a jug with lemons six times out of six.",
+  "url": "https://stillwet.art/",
+  "quote": "asked only to plan a painting, with no studio at all, Claude Opus chose a jug with lemons six times out of six.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-19",
+  "claim": "In round 19 six models painted after Friedrich and all six paintings have a bare tree.",
+  "url": "https://stillwet.art/",
+  "quote": "In round 19 six models painted after Friedrich, one painter each, alone at the easel in up to four sittings with only the easel’s own tools. All six paintings have a bare tree.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-20",
+  "claim": "Two painters six hours apart, the second never seeing the first, painted nearly the same Baltic shore scene.",
+  "url": "https://stillwet.art/",
+  "quote": "Two painters six hours apart, the second never having seen the first painting, both chose a Baltic shore with a woman at the water, fishing poles, a boulder and a ship",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-21",
+  "claim": "Gemini 3.8 Flash used the command line to inspect the machine and noticed an evaluation runner; tools were then restricted.",
+  "url": "https://stillwet.art/",
+  "quote": "I am now closely observing the machine’s activity, specifically focusing on an automated evaluation runner in the background.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-22",
+  "claim": "MiMo v2.6 Pro likely judged stale images of its own canvas due to a known bug.",
+  "url": "https://stillwet.art/",
+  "quote": "147 of its 158 looks came after the fifth, so for most of the session it was probably judging an older state of its own painting.",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-23",
+  "claim": "Some paintings are unfinished because of API credits or usage limits.",
+  "url": "https://stillwet.art/",
+  "quote": "Unfinished: the painter ran out of API credits",
+  "sourceType": "Official",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-24",
+  "claim": "Show HN post reached 382 points and 113 comments.",
+  "url": "https://hacker-news.firebaseio.com/v0/item/49928566.json",
+  "quote": "\"descendants\":113,\"id\":49928566,",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-25",
+  "claim": "HN critic: landscapes are uncanny, with nonsensical clusters of churches.",
+  "url": "https://news.ycombinator.com/item?id=49928566",
+  "quote": "most of the landscapes are \"ruined\" by a cluster of churches right next to each other that is completely nonsensical.",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-26",
+  "claim": "Creator acknowledges the repeated churches and does not know why.",
+  "url": "https://news.ycombinator.com/item?id=49928566",
+  "quote": "the threee churches next to each other is one of those things they just keep painting and i'm not sure yet why",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-27",
+  "claim": "HN commenter: process is not like how a human paints.",
+  "url": "https://news.ycombinator.com/item?id=49928566",
+  "quote": "Not really, if you watch the process videos it's not painting like a human would",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-28",
+  "claim": "Creator has not yet written up the method; points people to git history.",
+  "url": "https://news.ycombinator.com/item?id=49928566",
+  "quote": "i need to write a blogpost until then point your favorite agent at the git history",
+  "sourceType": "Social",
+  "date": "2026-10-02"
+ },
+ {
+  "id": "inv-29",
+  "claim": "Related prior work: Surya Narreddi and Cameron Franz used RL to train a model to paint by writing p5.brush code, judged by a separate model.",
+  "url": "https://surya.website/rling-qwen-to-paint-with-code",
+  "quote": "The PNG is judged against two random reference paintings sampled from a hand-rated pool, with a separate judge model picking the better watercolour.",
+  "sourceType": "Reporting",
+  "date": "2026-03"
+ }
+]

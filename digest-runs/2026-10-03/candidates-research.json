@@ -1,0 +1,215 @@
+{
+ "section": "research",
+ "window": "Wed Sep 30 - Fri Oct 2, 2026",
+ "sourcesTried": [
+  {
+   "name": "HF Daily Papers",
+   "status": "ok (3 dates)"
+  },
+  {
+   "name": "arXiv API",
+   "status": "not tried"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/RSS",
+   "status": "not tried"
+  },
+  {
+   "name": "HN Algolia/Reddit",
+   "status": "not tried, no signal data"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "summary": "Proposer and solver agents that train each other can collude, a failure mode the paper names co-cheating, and it proposes a fix.",
+   "primaryUrl": "https://arxiv.org/abs/2609.39102",
+   "hfUrl": "https://huggingface.co/papers/2609.39102",
+   "date": "2026-10-01",
+   "signal": {
+    "hfUpvotes": 393
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
+   "summary": "Treats the RL-induced shift as a direction that a student can extrapolate past the teacher in on-policy distillation.",
+   "primaryUrl": "https://arxiv.org/abs/2609.36484",
+   "hfUrl": "https://huggingface.co/papers/2609.36484",
+   "date": "2026-10-01",
+   "signal": {
+    "hfUpvotes": 420
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "LoopVL: Recurrent Visual Intelligence",
+   "summary": "Extends looped transformers to vision-language models with module-loop and model-loop computation.",
+   "primaryUrl": "https://arxiv.org/abs/2609.38426",
+   "hfUrl": "https://huggingface.co/papers/2609.38426",
+   "date": "2026-10-01",
+   "signal": {
+    "hfUpvotes": 454
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+   "summary": "A framework that composes agent harnesses for long-horizon, cross-domain workflows.",
+   "primaryUrl": "https://arxiv.org/abs/2609.33439",
+   "hfUrl": "https://huggingface.co/papers/2609.33439",
+   "date": "2026-09-30",
+   "signal": {
+    "hfUpvotes": 561
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "Scaling Properties of Same-Family On-Policy Distillation",
+   "summary": "Studies how RL-induced reasoning transfers across model scales via on-policy distillation.",
+   "primaryUrl": "https://arxiv.org/abs/2609.32722",
+   "hfUrl": "https://huggingface.co/papers/2609.32722",
+   "date": "2026-09-30",
+   "signal": {
+    "hfUpvotes": 320
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+   "summary": "Shows fixed-stride chunked KV-cache compression creates periodic accuracy weak spots depending on token phase.",
+   "primaryUrl": "https://arxiv.org/abs/2609.36322",
+   "hfUrl": "https://huggingface.co/papers/2609.36322",
+   "date": "2026-09-30",
+   "signal": {
+    "hfUpvotes": 99
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+   "summary": "Tests claims that on-policy learning reduces forgetting and gives sparser updates versus SFT.",
+   "primaryUrl": "https://arxiv.org/abs/2609.35259",
+   "hfUrl": "https://huggingface.co/papers/2609.35259",
+   "date": "2026-10-02",
+   "signal": {
+    "hfUpvotes": 175
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "In-Context Learning for Robots: Methods and Applications",
+   "summary": "Survey of how robots infer new tasks from demonstrations in context.",
+   "primaryUrl": "https://arxiv.org/abs/2609.36012",
+   "hfUrl": "https://huggingface.co/papers/2609.36012",
+   "date": "2026-09-30",
+   "signal": {
+    "hfUpvotes": 387
+   },
+   "scores": {
+    "novelty": 2,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+   "summary": "Asks whether world action models must still generate the future at inference.",
+   "primaryUrl": "https://arxiv.org/abs/2609.34981",
+   "hfUrl": "https://huggingface.co/papers/2609.34981",
+   "date": "2026-09-30",
+   "signal": {
+    "hfUpvotes": 134
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  },
+  {
+   "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+   "summary": "Adds a layer between model and harness so terminal agents execute commands more reliably.",
+   "primaryUrl": "https://arxiv.org/abs/2609.39982",
+   "hfUrl": "https://huggingface.co/papers/2609.39982",
+   "date": "2026-10-01",
+   "signal": {
+    "hfUpvotes": 112
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "Summary from HF abstract snippet only; not read in full"
+  }
+ ],
+ "excludedPolitical": []
+}
