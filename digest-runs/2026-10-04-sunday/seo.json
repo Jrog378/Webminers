@@ -1,0 +1,20 @@
+{
+  "series": "coding-with-christ",
+  "keywords": {
+    "primary": "AI worship song theology",
+    "secondary": ["SongTheology", "Asaph worship setlist", "worship song theology checker", "AI worship planning"]
+  },
+  "title": "Can AI Check a Worship Song's Theology? | Coding with Christ",
+  "titleLength": 60,
+  "description": "SongTheology scores worship lyrics out of 35 and Asaph tracks a church's setlists, both on Claude. What they measure and what no one has checked.",
+  "descriptionLength": 145,
+  "slug": "2026-10-04-ai-worship-song-theology-songtheology-asaph",
+  "slugLength": 54,
+  "faq": null,
+  "changes": [
+    "Title, description and feature H2 already met the rules; kept unchanged (title is exactly 60 chars, unique among existing issues).",
+    "Renamed the 'Also Encouraging' H2 from 'A Lutheran paper and a parish website' to 'An ELCA AI paper and Evangelization Lab's parish outreach' so it names the specific topics.",
+    "Chose final slug 2026-10-04-ai-worship-song-theology-songtheology-asaph (no slug field exists in draft frontmatter, so none was added).",
+    "No FAQ added (no verified People Also Ask questions). No verse text, sources, citations, models placeholder, editorsNote or hero touched. No image.json exists."
+  ]
+}

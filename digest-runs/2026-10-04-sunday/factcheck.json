@@ -1,0 +1,310 @@
+{
+ "checked": 38,
+ "passed": 32,
+ "results": [
+  {
+   "citation": "verse",
+   "sentence": "Colossians 3:16 text (frontmatter)",
+   "url": "https://bible-api.com/Colossians+3:16?translation=web",
+   "verdict": "pass",
+   "evidence": "Matches bible-api WEB text exactly (trailing newline only); verse.json matches.",
+   "fix": null
+  },
+  {
+   "citation": "verse",
+   "sentence": "Test all things, and hold firmly that which is good (1 Thess 5:21)",
+   "url": "https://bible-api.com/1+Thessalonians+5:21?translation=web",
+   "verdict": "pass",
+   "evidence": "Exact WEB text. Translation (WEB) is not labeled in the body at that point; optional.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Worship leaders have built AI tools that help plan setlists and score songs... CT reported Oct 2",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT subhead and date October 2, 2026 match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "One, SongTheology, grades a single song's lyrics. The other, Asaph, tracks the balance of a church's song choices over time",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT: Asaph 'designed to track and evaluate the emotional and theological balance of a church's worship sets over time.'",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Both tools run on Anthropic's Claude, an AI model [1]",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "fix",
+   "evidence": "CT says 'the AI tool Claude' and 'Like SongTheology, Asaph relies on Claude'. It never names Anthropic.",
+   "fix": "Both tools run on Claude, an AI model [1]. (If Anthropic is named, drop the [1] from that clause or cite Anthropic.)"
+  },
+  {
+   "citation": "none",
+   "sentence": "The Webminers AI Desk, which wrote this issue, is also built on Claude.",
+   "url": "",
+   "verdict": "cut",
+   "evidence": "Uncited self-claim; models: null in frontmatter and 'never guessed'. Not verifiable from sources.",
+   "fix": "Cut, or restore only when the publisher step fills models from the run."
+  },
+  {
+   "citation": "1",
+   "sentence": "Tyler Anson Newberry wrote the scoring grid; uses Claude to analyze lyrics 'pulled from Google'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT: 'He wrote the language for the grid... Claude to perform the analysis of lyrics (pulled from Google)'.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "up to 35 points across seven categories, including 'scriptural grounding,' 'gospel presence' and 'pastoral durability'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "All three category names appear in CT's list of seven.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Each category is scored 1 to 5. 30 to 35 reads 'Use freely'; below 18 reads 'Probably avoid'",
+   "url": "https://asaphstable.com/songtheology/",
+   "verdict": "pass",
+   "evidence": "Page: 5=Strong ... 1=Poor fit; '30 \u2013 35 Strong \u00b7 Use freely'; 'Below 18 Probably avoid'.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "God-centeredness asks 'Where is the center of gravity: God's character and works, or mainly my experience of God?'",
+   "url": "https://asaphstable.com/songtheology/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Pastoral durability asks 'Can someone suffering sing it honestly?'",
+   "url": "https://asaphstable.com/songtheology/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "'evaluates lyrics only, irrespective of artist or church affiliation'",
+   "url": "https://asaphstable.com/songtheology/",
+   "verdict": "pass",
+   "evidence": "Page: 'This tool evaluates lyrics only, irrespective of artist or church affiliation.'",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "own original lyrics... 'used only to generate this score, then discarded'",
+   "url": "https://asaphstable.com/songtheology/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Newberry and Leslianne Newberry left full-time ministry just over a year ago to start Asaph's Table, a nonprofit...",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT matches (it adds 'in the Houston area', correctly omitted).",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "'A lot of younger worship leaders don't have a mental theology grid for the worship songs they encounter'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "most-searched song is 'Come, Thou Fount of Every Blessing'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT: 'is the most-searched song'.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "'Gratitude' by Brandon Lake scores 20 out of 35, flags for 'gospel clarity' and 'emotion without theological grounding'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT matches.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Asaph, founded by worship leader Alex Moyse",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT: 'Asaph's founder, Alex Moyse, is a worship leader'.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "'the emotional and theological balance of a church's worship sets over time'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Verbatim substring of CT sentence (CT's words, not Moyse's; draft attributes to design, fine).",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "import its song library and see 'underused themes, gaps in theology or overused emotions'; sync with Planning Center via browser extension or uploaded spreadsheet",
+   "url": "https://asaph.io/",
+   "verdict": "pass",
+   "evidence": "Page: 'Import your library and get instant analysis of underused themes, gaps in theology or overused emotions'; 'Planning Center Chrome extension'; 'Upload your songs via CSV'.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "'It's doing a lot of the grunt work, and there is still a human in the loop' / 'AI is not trained to think about this stuff'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Exact Moyse quotes.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "'you always have final say'",
+   "url": "https://asaph.io/",
+   "verdict": "pass",
+   "evidence": "FAQ: 'you always have final say'.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "'Technology can't replace your pastoral heart'",
+   "url": "https://asaph.io/about",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "neither tool is endorsed by a particular denomination or tradition; both wrote own criteria",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "CT: 'Neither tool is endorsed by a particular denomination or tradition.'",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "We found no independent check of either tool's scores.",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Absence claim, not source-supported. It is an editorial statement; keep only if the desk's search is logged.",
+   "fix": "Attribute: 'Christianity Today's report describes no independent evaluation of either tool's scores.' (CT is silent, which is checkable; 'we found none' is not.)"
+  },
+  {
+   "citation": "5",
+   "sentence": "Mark Porter... worship leader, director of music, organist and choir leader",
+   "url": "https://markporter.co.uk/",
+   "verdict": "pass",
+   "evidence": "Bio: 'served as worship leader, director of music, organist and choir leader for a variety of churches'. Researcher of congregational music confirmed. Draft says Porter 'tested' Asaph; CT says 'experimented with'.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Porter quote 'It can put together a coherent musical set... Does this tool do that?'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Newberry: 'a tool to help you begin to not need this tool'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "ELCA released a six-page theological foundation paper... which it describes as not new social teaching but 'the beginning of a conversation'",
+   "url": "https://www.livinglutheran.org/theology-beliefs/elca-releases-paper-on-artificial-intelligence-considerations/",
+   "verdict": "fix",
+   "evidence": "'the beginning of a conversation' is Living Lutheran/Covalence's wording ('not the ELCA's final teaching but rather the beginning of a conversation'), not the paper's. The paper itself says it 'does not introduce new social teaching'. Also page is a repost of Covalence (Lutheran Alliance for Faith, Science and Technology).",
+   "fix": "The ELCA has released a six-page theological foundation paper on artificial intelligence that, Living Lutheran reports, is not new social teaching but 'the beginning of a conversation' [6]."
+  },
+  {
+   "citation": "7",
+   "sentence": "'every application of AI includes human beings in the loop who remain accountable for its use'; 'the potential reduction in human capacity for critical thinking'",
+   "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+   "verdict": "pass",
+   "evidence": "Both exact in the PDF (Participation and Humility principles). 6 pages. Note it is named 'a danger' under humility, ok.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "Evangelization Lab trains dioceses and parishes... 'a much more active source of interpersonal communication,' OSV News reported Sept 28",
+   "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+   "verdict": "pass",
+   "evidence": "OSV (published 2026-09-28): 'reaching out to dioceses to train their staff and parishes on how to turn digital presence into a much more active source of interpersonal communication.' That wording is OSV's narration, matches.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "'into a space where you are in a sacramental loving relationship with Christ and his Church'",
+   "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+   "verdict": "pass",
+   "evidence": "Quote from Digital Missionary Katie Ruvalcaba: '...get off this internet space and into a space where you are in a sacramental...'. Draft does not name the speaker; optional to attribute. Headline 'From a digital bulletin to a mission field' matches her quote.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Porter notes that the builders 'also have a point of view that informs the instructions they are giving the technology'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "fix",
+   "evidence": "This is CT's narration after 'Porter pointed out that the AI models behind Asaph matter.' It is not a direct Porter quote and CT says 'the people using AI to build these tools', not 'builders'.",
+   "fix": "CT notes that the people building these tools 'also have a point of view that informs the instructions they are giving the technology' [1]."
+  },
+  {
+   "citation": "1",
+   "sentence": "'Over time, they acquire meanings and uses that aren't captured in the text'; 'You can't use it to shortcut your own reflection and engagement'",
+   "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+   "verdict": "pass",
+   "evidence": "Exact Porter quotes.",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "Benjamin P. Snoek in Reformed Worship in July: 'There is a problem, though, when we leverage technology to shortcut, not support, the priestly work incumbent on worship leaders'",
+   "url": "https://reformedworship.org/resource/how-should-we-think-about-ai-worship-theological-considerations-worship-leaders",
+   "verdict": "pass",
+   "evidence": "Published July 13, 2026; quote exact. Frontmatter lists type Reporting; it is a commentary/resource article, so label Analysis or Opinion.",
+   "fix": null
+  },
+  {
+   "citation": "verse",
+   "sentence": "Test all things... (1 Thessalonians 5:21)",
+   "url": "https://bible-api.com/1+Thessalonians+5:21?translation=web",
+   "verdict": "pass",
+   "evidence": "Exact WEB text.",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "Paul wrote Colossians to believers he longed to see grow up in Christ. By chapter 3... Put on compassion and kindness. Bear with one another and forgive. Let the peace of Christ rule in your hearts.",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Uncited. Col 3:12-15 supports the three exhortations. 'Longed to see grow up' is interpretive; Col 1:28 and 2:1-2 support concern for their maturity, but he had not met them (2:1).",
+   "fix": "Add (Colossians 3:12-15) and soften nothing else; consider 'Paul wrote Colossians to believers he wanted to see mature in Christ (Colossians 1:28)'."
+  },
+  {
+   "citation": "verse",
+   "sentence": "Quoted fragments 'dwell in you richly', 'in all wisdom', 'teaching and admonishing one another', 'psalms, hymns, and spiritual songs', 'with grace in your heart to the Lord'",
+   "url": "https://bible-api.com/Colossians+3:16?translation=web",
+   "verdict": "pass",
+   "evidence": "All fragments exact WEB. Reflection claims about 'you' being plural/church are exegetically sound.",
+   "fix": null
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "published-pending-review",
+  "issueDate": "2026-10-04",
+  "week": "2026-09-27 to 2026-10-03",
+  "note": "Catch-up run; scheduled Oct 3 run was blocked by network restrictions",
+  "tier": "this-week (Tier 1); Tiers 2-3 not searched because Tier 1 produced a qualifying story",
+  "sourcesFailed": [
+    "Mission Network News feed (403)",
+    "Wycliffe USA feed (403)",
+    "WORLD (403)",
+    "Hacker News Algolia (non-JSON)"
+  ],
+  "sourcesSkipped": [
+    "NYT (paywalled)"
+  ],
+  "verse": "Colossians 3:16 (WEB)",
+  "factCheck": {
+    "checked": 38,
+    "pass": 32,
+    "fix": 5,
+    "cut": 1,
+    "resolved": true
+  },
+  "editor": "initial FAIL (one pronoun attribution fix), fixed by publisher; no re-run needed",
+  "slug": "2026-10-04-ai-worship-song-theology-songtheology-asaph",
+  "wycliffeItemDropped": "figures in scout topics.json were wrong and item not technology-centered"
+}

@@ -1,0 +1,150 @@
+{
+  "weekStart": "2026-09-27",
+  "weekEnd": "2026-10-03",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok - yielded feature"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok - only political/geographic/persecution items in window, nothing tech-centered"
+    },
+    {
+      "name": "Google News RSS (Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, YouVersion, Bible app, Wycliffe AI, Bible translation, SIL, illumiNations, Christian AI app, AI chatbot Jesus, Bible AI, sign language Bible, audio Bible, Barna AI, church AI tool, Gloo AI, Faithlife Logos AI, SongTheology, Asaph)",
+      "status": "ok"
+    },
+    {
+      "name": "YouVersion blog RSS",
+      "status": "ok - Sept 2026 feature update (Saved Videos, Recents), minor"
+    },
+    {
+      "name": "Wycliffe UK RSS + statistics page",
+      "status": "ok"
+    },
+    {
+      "name": "Wycliffe USA feed",
+      "status": "403"
+    },
+    {
+      "name": "Mission Network News feed",
+      "status": "403"
+    },
+    {
+      "name": "illumiNations feed",
+      "status": "ok - no items in window"
+    },
+    {
+      "name": "Barna feed",
+      "status": "ok - no items in window"
+    },
+    {
+      "name": "SIL RSS",
+      "status": "ok - no items in window"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "failed - non-JSON response"
+    },
+    {
+      "name": "Reddit r/ChurchTech .rss",
+      "status": "ok - user questions only, no news"
+    },
+    {
+      "name": "WORLD (wng.org)",
+      "status": "403 - skipped"
+    },
+    {
+      "name": "New York Times",
+      "status": "paywalled - skipped"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-09-27 to 2026-10-03",
+      "candidates": [
+        {
+          "title": "How Great Is Our Claude: AI tools that evaluate the theology of worship songs",
+          "summary": "Original reporting on SongTheology (Asaph's Table nonprofit) and Asaph, two Claude-powered tools that score worship lyrics on a seven-part theology grid (scriptural grounding, doctrinal clarity, God-centeredness, gospel presence, clarity, congregational usefulness, pastoral durability) and track theological balance across a church's setlists, with a researcher's caution that the tools must not shortcut reflection.",
+          "primaryUrl": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+          "date": "2026-10-02",
+          "organization": "Asaph's Table (SongTheology); Asaph",
+          "whyNotChosen": "CHOSEN"
+        },
+        {
+          "title": "Wycliffe report: 807 languages now have a complete Bible",
+          "summary": "Annual progress figures: 28 complete Bibles and 70 New Testaments launched in a year, about one every four days; Wycliffe credits local translators, advances in technology and church support.",
+          "primaryUrl": "https://wycliffe.org.uk/statistics/",
+          "date": "2026-09-30",
+          "organization": "Wycliffe Bible Translators",
+          "whyNotChosen": "Technology is one of three named causes but no specific technology is described; not tech-centered. Coverage also leans on country figures."
+        },
+        {
+          "title": "ELCA releases paper on AI and social teaching",
+          "summary": "Six-page theological foundation paper: humans in the loop for every AI use, accountability, care for the vulnerable.",
+          "primaryUrl": "https://www.livinglutheran.org/theology-beliefs/elca-releases-paper-on-artificial-intelligence-considerations/",
+          "date": "2026-10-01",
+          "organization": "Evangelical Lutheran Church in America",
+          "whyNotChosen": "A denominational discussion document, not a technology; good as a caution/also-encouraging item."
+        },
+        {
+          "title": "Evangelization Lab helps churches reach 'digital travelers'",
+          "summary": "Ministry consultancy helping churches use social media, messaging tools and AI to move online seekers toward in-person community.",
+          "primaryUrl": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+          "date": "2026-09-28",
+          "organization": "Evangelization Lab",
+          "whyNotChosen": "Thinner on concrete technology and leans on local diocese framing; used as also-encouraging."
+        },
+        {
+          "title": "A surprising number of Americans use AI for spiritual reasons",
+          "summary": "Survey feature on people using AI chatbots for Bible study and prayer questions.",
+          "primaryUrl": "https://religionnews.com/2026/09/28/a-surprising-number-of-americans-use-ai-for-spiritual-reasons-heres-what-they-told-us/",
+          "date": "2026-09-28",
+          "organization": "Religion News Service",
+          "whyNotChosen": "National survey framed by nation (style guide no-geography rule); survey source not clearly identified."
+        },
+        {
+          "title": "How We Got to AI 'Pastors' and Self-Help Preaching Void of the Gospel",
+          "summary": "Book review/essay on AI pastors.",
+          "primaryUrl": "https://www.christianitytoday.com/2026/10/ai-pastors-self-help-preaching-carl-trueman-modern-mind-review/",
+          "date": "2026-10-01",
+          "organization": "Christianity Today",
+          "whyNotChosen": "Opinion/review, not a news development."
+        },
+        {
+          "title": "YouVersion Bible App September 2026 updates",
+          "summary": "Saved Videos and Recents reading history.",
+          "primaryUrl": "https://blog.youversion.com/2026/10/whats-new-in-the-bible-app-september-2026-v2/",
+          "date": "2026-10-01",
+          "organization": "YouVersion",
+          "whyNotChosen": "Minor feature update."
+        },
+        {
+          "title": "Bible access restricted for 500 million Christians",
+          "summary": "Report on restrictions across 106 nations.",
+          "primaryUrl": "https://www.christianpost.com/news/bible-access-is-restricted-for-over-500m-christians-report.html",
+          "date": "2026-10-04",
+          "organization": "various",
+          "whyNotChosen": "Persecution/geography story, no technology; out of scope."
+        },
+        {
+          "title": "Grok 'affirms Jesus' viral posts",
+          "summary": "Social media posts about chatbot outputs.",
+          "primaryUrl": "https://www.charismamag.com/",
+          "date": "2026-10-02",
+          "organization": "xAI",
+          "whyNotChosen": "Viral chatbot output, not a substantive development; no primary source."
+        },
+        {
+          "title": "Pope Leo XIV remarks on AI",
+          "summary": "Statements on AI risk and artists.",
+          "primaryUrl": "https://www.axios.com/",
+          "date": "2026-10-02",
+          "organization": "Catholic Church",
+          "whyNotChosen": "Statements by a head of state/church leader, not a technology; edges toward policy commentary."
+        }
+      ]
+    }
+  ]
+}

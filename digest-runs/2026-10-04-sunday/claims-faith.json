@@ -1,0 +1,398 @@
+[
+  {
+    "id": "f1",
+    "claim": "Christianity Today published 'How Great Is Our Claude' by Kelsey Kramer McGinnis on October 2, 2026, about AI tools worship leaders built to build setlists and score songs.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Worship leaders have built new AI tools to help create setlists and score songs on qualities like scriptural grounding and clarity.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f2",
+    "claim": "SongTheology was designed by worship leader Tyler Anson Newberry; he wrote the grid language and the tool uses Claude to analyze lyrics pulled from Google.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "He wrote the language for the grid, and the tool relies on the AI tool Claude to perform the analysis of lyrics (pulled from Google) and provide theological feedback.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f3",
+    "claim": "SongTheology scores songs out of 35 across seven categories.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "see its score out of 35 possible points, given according to the strength of the lyrics in each of Newberry’s seven categories: “scriptural grounding,” “doctrinal clarity,” “God-centeredness,” “gospel presence,” “clarity vs. ambiguity,” “congregational usefulness,” and “pastoral durability.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f4",
+    "claim": "Each category is scored 1-5; totals of 30-35 mean 'use freely' and below 18 'probably avoid'.",
+    "url": "https://asaphstable.com/songtheology/",
+    "quote": "30 – 35 Strong · Use freely 24 – 29 Good · Use thoughtfully 18 – 23 Use with caution Below 18 Probably avoid",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f5",
+    "claim": "SongTheology evaluates lyrics only, irrespective of artist or church affiliation.",
+    "url": "https://asaphstable.com/songtheology/",
+    "quote": "This tool evaluates lyrics only, irrespective of artist or church affiliation.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f6",
+    "claim": "The God-Centeredness category asks whether the song's center of gravity is God or the singer's own experience.",
+    "url": "https://asaphstable.com/songtheology/",
+    "quote": "Where is the center of gravity: God’s character and works, or mainly my experience of God?",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f7",
+    "claim": "The Pastoral Durability category asks whether a suffering person can sing the song honestly.",
+    "url": "https://asaphstable.com/songtheology/",
+    "quote": "Can someone suffering sing it honestly? Does it make room for waiting, weakness, repentance, or unanswered prayer?",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f8",
+    "claim": "SongTheology also lets worship leaders score original lyrics and says it does not store them.",
+    "url": "https://asaphstable.com/songtheology/",
+    "quote": "We do not save or store your lyrics in any way. They’re used only to generate this score, then discarded.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f9",
+    "claim": "Example: 'Gratitude' by Brandon Lake scored 20 of 35 with flags for gospel clarity and emotion without theological grounding.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "the popular song “Gratitude” by Brandon Lake scores 20 out of 35, with two criticisms (“flags”) for its lack of “gospel clarity” and “emotion without theological grounding.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f10",
+    "claim": "'Come, Thou Fount of Every Blessing' is the most-searched song on SongTheology.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "“Come, Thou Fount of Every Blessing” is the most-searched song.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f11",
+    "claim": "Newberry says many young worship leaders lack a theological grid for evaluating songs.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "“A lot of younger worship leaders don’t have a mental theology grid for the worship songs they encounter.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f12",
+    "claim": "Newberry and his wife Leslianne left full-time church ministry just over a year ago to start the nonprofit Asaph's Table.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Just over a year ago, Newberry and his wife, Leslianne Newberry, left full-time church ministry to start Asaph’s Table, a nonprofit that offers support and training to worship leaders",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f13",
+    "claim": "Asaph's Table describes itself as a registered 501(c)(3) nonprofit caring for worship leaders.",
+    "url": "https://asaphstable.com/about-us/",
+    "quote": "Asaph’s Table is a registered 501(c)(3) nonprofit.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f14",
+    "claim": "Newberry frames SongTheology as a training aid meant to make itself unnecessary.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "It’s a tool to help you begin to not need this tool.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f15",
+    "claim": "Asaph, founded by worship leader Alex Moyse, tracks the emotional and theological balance of a church's worship sets over time.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Rather than individually evaluating songs, Asaph is designed to track and evaluate the emotional and theological balance of a church’s worship sets over time.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f16",
+    "claim": "Asaph also relies on Claude.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Like SongTheology, Asaph relies on Claude.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f17",
+    "claim": "Asaph markets gap analysis of underused themes, theological gaps and overused emotions.",
+    "url": "https://asaph.io/",
+    "quote": "Import your library and get instant analysis of underused themes, gaps in theology or overused emotions.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f18",
+    "claim": "Asaph syncs with Planning Center via a Chrome extension; Planning Center is optional.",
+    "url": "https://asaph.io/",
+    "quote": "Nope! Upload your songs via CSV and start planning. PCO integration is optional.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f19",
+    "claim": "Asaph's homepage claims 900+ worship leaders and a 10,000+ song database.",
+    "url": "https://asaph.io/",
+    "quote": "Join 900+ worship leaders planning with Asaph",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f20",
+    "claim": "Asaph's About page gives a lower user figure of 300+ worship leaders (inconsistent with homepage).",
+    "url": "https://asaph.io/about",
+    "quote": "We're actively serving 300+ worship leaders",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f21",
+    "claim": "Asaph says it does not dictate songs and that the leader always has final say.",
+    "url": "https://asaph.io/",
+    "quote": "AI gives you a starting point—you always have final say. Edit, replace, or reorder anything.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f22",
+    "claim": "Asaph says technology cannot replace a pastoral heart but can give back time.",
+    "url": "https://asaph.io/about",
+    "quote": "Technology can't replace your pastoral heart. But it can give you back time. For prayer. For your family. For your team.",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f23",
+    "claim": "Moyse says his team uses Claude in a limited way with a human in the loop.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "It’s doing a lot of the grunt work, and there is still a human in the loop.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f24",
+    "claim": "Moyse says AI is not trained to think about worship theology on its own.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "“AI is not trained to think about this stuff,” Moyse said.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f25",
+    "claim": "Neither tool is endorsed by a denomination or tradition; both founders wrote their own criteria and use Claude to apply them.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Both Newberry and Moyse say they have created their own evaluation criteria and are using Claude to apply them. Neither tool is endorsed by a particular denomination or tradition.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f26",
+    "claim": "Researcher Mark Porter tested Asaph and found it can build a coherent set, while questioning whether it prompts reflection.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "“It can put together a coherent musical set,” said Porter. “I think anything that pushes people to be more reflective about the selection of music can be a good thing. But there’s the question ‘Does this tool do that?’”",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f27",
+    "claim": "Porter warns the tools must not shortcut a leader's own reflection.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "“You can’t use it to shortcut your own reflection and engagement,” said Porter.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f28",
+    "claim": "Porter says lyric-only analysis misses meanings songs acquire over time.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "Over time, they acquire meanings and uses that aren’t captured in the text.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f29",
+    "claim": "Porter notes the instructions builders give the AI reflect their own point of view.",
+    "url": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "quote": "The people using AI to build these tools also have a point of view that informs the instructions they are giving the technology.",
+    "sourceType": "Reporting",
+    "date": "2026-10-02"
+  },
+  {
+    "id": "f30",
+    "claim": "Mark Porter holds a doctorate in ethnomusicology and has served as a church worship leader and organist.",
+    "url": "https://markporter.co.uk/",
+    "quote": "Mark is a musician who has served as worship leader, director of music, organist and choir leader for a variety of churches",
+    "sourceType": "Official",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "f31",
+    "claim": "A Reformed Worship essay (Benjamin P. Snoek, July 2026) cites Asaph's repertoire reports as a possible insightful starting point.",
+    "url": "https://reformedworship.org/resource/how-should-we-think-about-ai-worship-theological-considerations-worship-leaders",
+    "quote": "which uses AI to suggest emotional contours through a congregation’s song repertoire, can be an insightful starting point for considering how sung prayers balance",
+    "sourceType": "Reporting",
+    "date": "2026-07-13"
+  },
+  {
+    "id": "f32",
+    "claim": "The same essay warns against using AI to shortcut the priestly work of worship leaders.",
+    "url": "https://reformedworship.org/resource/how-should-we-think-about-ai-worship-theological-considerations-worship-leaders",
+    "quote": "There is a problem, though, when we leverage technology to shortcut, not support, the priestly work incumbent on worship leaders.",
+    "sourceType": "Reporting",
+    "date": "2026-07-13"
+  },
+  {
+    "id": "a1",
+    "claim": "The ELCA released a theological foundation paper, 'Artificial Intelligence (AI) and ELCA Social Teaching'; it is not new social teaching.",
+    "url": "https://www.livinglutheran.org/theology-beliefs/elca-releases-paper-on-artificial-intelligence-considerations/",
+    "quote": "does not represent new social teaching, it does outline ethical concerns surrounding the transformational technology",
+    "sourceType": "Official",
+    "date": "2026-10-01"
+  },
+  {
+    "id": "a2",
+    "claim": "The ELCA paper is six pages and called the beginning of a conversation; ethicists plan to explore AI further in January 2027.",
+    "url": "https://www.livinglutheran.org/theology-beliefs/elca-releases-paper-on-artificial-intelligence-considerations/",
+    "quote": "The paper is not the ELCA’s final teaching but rather the beginning of a conversation, as Lutheran ethicists plan to explore AI further at the group’s meeting in January 2027.",
+    "sourceType": "Official",
+    "date": "2026-10-01"
+  },
+  {
+    "id": "a3",
+    "claim": "The ELCA paper calls AI 'a breathtaking means' of human innovation that may promote well-being.",
+    "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+    "quote": "AI is one means, a breathtaking means, of humanity’s power to innovate in ways that may promote the well-being of creation and human society.",
+    "sourceType": "Official",
+    "date": "2026"
+  },
+  {
+    "id": "a4",
+    "claim": "The ELCA paper says every AI application should include accountable humans in the loop.",
+    "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+    "quote": "every application of AI includes human beings in the loop who remain accountable for its use",
+    "sourceType": "Official",
+    "date": "2026"
+  },
+  {
+    "id": "a5",
+    "claim": "The ELCA paper names reduced human capacity for critical thinking as a danger of AI.",
+    "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+    "quote": "Such dangers inherent to the use of AI include displacement of workers and the potential reduction in human capacity for critical thinking.",
+    "sourceType": "Official",
+    "date": "2026"
+  },
+  {
+    "id": "a6",
+    "claim": "The ELCA paper respects the consciences of members on both sides of AI use.",
+    "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+    "quote": "this church recognizes the need to respect the consciences of Lutherans faithfully wrestling with the ethics of AI",
+    "sourceType": "Official",
+    "date": "2026"
+  },
+  {
+    "id": "a7",
+    "claim": "The ELCA paper opens with the Golden Rule (Matthew 7:12) as its frame.",
+    "url": "https://cdn.elca.org/cdn/wp-content/uploads/ELCA_AI_Foundational_Paper_2026.pdf",
+    "quote": "“In everything do to others as you would have them do to you; for this is the Law and the Prophets.” -- Matthew 7:12",
+    "sourceType": "Official",
+    "date": "2026"
+  },
+  {
+    "id": "a8",
+    "claim": "Evangelization Lab trains dioceses and parishes to turn digital presence into interpersonal outreach.",
+    "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+    "quote": "One of Evangelization Lab's initiatives involves reaching out to dioceses to train their staff and parishes on how to turn digital presence into a much more active source of interpersonal communication.",
+    "sourceType": "Reporting",
+    "date": "2026-09-28",
+    "note": "OSV page blocked curl (Cloudflare 403); text read via WebFetch verbatim extraction, re-verify if possible"
+  },
+  {
+    "id": "a9",
+    "claim": "An Evangelization Lab digital missionary urges parishes to see their online presence as a mission field.",
+    "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+    "quote": "We need to get parishes away from the idea that they just need to maintain things, that their online presence is meant to be a digital bulletin, and rather view it as a mission field",
+    "sourceType": "Reporting",
+    "date": "2026-09-28",
+    "note": "OSV page blocked curl (Cloudflare 403); text read via WebFetch verbatim extraction, re-verify if possible"
+  },
+  {
+    "id": "a10",
+    "claim": "The lab's aim is moving people from online spaces into sacramental relationship with Christ and his Church.",
+    "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+    "quote": "you can get off this internet space and into a space where you are in a sacramental loving relationship with Christ and his Church",
+    "sourceType": "Reporting",
+    "date": "2026-09-28",
+    "note": "OSV page blocked curl (Cloudflare 403); text read via WebFetch verbatim extraction, re-verify if possible"
+  },
+  {
+    "id": "a11",
+    "claim": "A diocesan official credits pairing digital outreach with human formation for about 55 couples a month in marriage preparation.",
+    "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+    "quote": "We average about 55 couples a month that go through our marriage preparation, all because of the relationship between our digital platform and our human formation",
+    "sourceType": "Reporting",
+    "date": "2026-09-28",
+    "note": "OSV page blocked curl (Cloudflare 403); text read via WebFetch verbatim extraction, re-verify if possible"
+  },
+  {
+    "id": "a12",
+    "claim": "Wycliffe UK statistics: 807 complete Bibles (up 2 from last month), per ProgressBible September 2026 snapshot; page updated 1 September 2026.",
+    "url": "https://wycliffe.org.uk/statistics/",
+    "quote": "807 Bibles (up 2 from last month)",
+    "sourceType": "Official",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "a13",
+    "claim": "Wycliffe: Bibles and New Testaments are launching at almost one every three days (NOT every four days as in topics.json).",
+    "url": "https://wycliffe.org.uk/statistics/",
+    "quote": "Bibles and New Testaments are being launched at a rate of almost 1 every 3 days!",
+    "sourceType": "Official",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "a14",
+    "claim": "Wycliffe: 1 in 5 people still wait for a Bible in their language; 3,224 languages have no Scripture yet.",
+    "url": "https://wycliffe.org.uk/statistics/",
+    "quote": "3,224 languages have no Scripture – yet (down 5 from last month)",
+    "sourceType": "Official",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "a15",
+    "claim": "Wycliffe: on average one new language project begins every day.",
+    "url": "https://wycliffe.org.uk/statistics/",
+    "quote": "An average of one new language project is beginning every day",
+    "sourceType": "Official",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "a16",
+    "claim": "Wycliffe UK (2023) says AI teams are building tools to help translators produce quality drafts faster.",
+    "url": "https://wycliffe.org.uk/blog/story/three-ways-technology-is-speeding-up-bible-translation/",
+    "quote": "technology development teams serving through Wycliffe and partner organisations are at the forefront in using cutting-edge AI to help local Bible translators produce high-quality translations quicker than ever before",
+    "sourceType": "Official",
+    "date": "2023-05-18"
+  },
+  {
+    "id": "a17",
+    "claim": "Wycliffe UK (2023) credits technology, along with trained local people, for acceleration.",
+    "url": "https://wycliffe.org.uk/story/why-is-the-pace-of-bible-translation-increasing",
+    "quote": "‘We think AI can be a tool that can make things better and more efficient for Bible translators,’ Mark explains.",
+    "sourceType": "Official",
+    "date": "2023-01-13"
+  }
+]

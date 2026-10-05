@@ -1,0 +1,33 @@
+{
+  "featureType": "this-week",
+  "coverage": "September 27 to October 3, 2026",
+  "feature": {
+    "title": "AI tools that check the theology of worship songs: SongTheology and Asaph",
+    "primaryUrl": "https://www.christianitytoday.com/2026/10/ai-claude-worship-leader-setlist-lyric-evaluation/",
+    "organization": "Asaph's Table (SongTheology) and Asaph",
+    "why": "Original reporting dated inside the window about two working ministry tools: SongTheology scores worship lyrics against a seven-part theology grid (scriptural grounding, doctrinal clarity, God-centeredness, gospel presence, clarity versus ambiguity, congregational usefulness, pastoral durability; out of 35), and Asaph tracks theological and emotional balance across a church's setlists and syncs with Planning Center. Both run on Claude. It helps worship leaders, many without Bible training, put Christ-centered songs in front of congregations, and it carries its own built-in caution from a worship researcher. Not in topic memory (only Kairos/Transform Iran covered). Writer note: drop all place names from the source; the AI model is Anthropic's Claude, so disclose plainly if the publication has any relationship to Anthropic.",
+    "relatedUrls": [
+      "https://asaphstable.com/songtheology/",
+      "https://asaph.io/"
+    ]
+  },
+  "alsoEncouraging": [
+    {
+      "title": "ELCA releases a theological foundation paper on artificial intelligence, urging humans in the loop and accountability",
+      "url": "https://www.livinglutheran.org/theology-beliefs/elca-releases-paper-on-artificial-intelligence-considerations/",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Evangelization Lab helps churches use digital tools to welcome online seekers into in-person community",
+      "url": "https://www.osvnews.com/evangelization-lab-helps-churches-bring-digital-travelers-to-the-catholic-faith/",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "Wycliffe: 807 languages now have a complete Bible, with launches about every four days, helped in part by advances in technology",
+      "url": "https://wycliffe.org.uk/statistics/",
+      "date": "2026-09-30"
+    }
+  ],
+  "wisdomConcern": "Outsourcing discernment: an AI score can tempt worship leaders to skip their own prayerful study of Scripture and pastoral judgment. The tool only reads lyrics, not the music or how a song is heard, and is not endorsed by any church body, so it should prompt deeper reflection, not replace it (as researcher Mark Porter warns).",
+  "reasonsEarlierTiersFailed": "Not applicable: Tier 1 (this week) produced a qualifying story, so Tiers 2 and 3 were not searched."
+}

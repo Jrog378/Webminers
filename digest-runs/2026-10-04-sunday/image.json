@@ -1,0 +1,12 @@
+{"hero": {"src": "/images/eureka/2026-10-04-ai-worship-song-theology-songtheology-asaph/open-hymn-music-book-worship-songs-1905.webp", "width": 1600, "height": 1219,
+  "alt": "Large open choir book of hymn notation on a stand, a historic look at the worship song lyrics AI tools now evaluate",
+  "caption": "A ca. 1905 photograph of a large hymn book open on its stand, the kind of sung theology AI worship-song checkers are now asked to judge.",
+  "credit": {"title": "Large music book open to \"A Vesper (hymn) for the Feast of Santa Clara\" (CHS-4470)", "author": "C.C. (Charles C.) Pierce", "authorUrl": "https://commons.wikimedia.org/wiki/File:Large_music_book_open_to_%22A_Vesper_(hymn)_for_the_Feast_of_Santa_Clara%22,_located_in_the_library_at_Mission_Santa_Barbara_and_Santa_Clara_Mission,_ca.1905._(CHS-4470).jpg",
+             "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "sourceName": "Wikimedia Commons (USC Digital Library, California Historical Society Collection)",
+             "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large_music_book_open_to_%22A_Vesper_(hymn)_for_the_Feast_of_Santa_Clara%22,_located_in_the_library_at_Mission_Santa_Barbara_and_Santa_Clara_Mission,_ca.1905._(CHS-4470).jpg", "modified": "Resized and converted to WebP"}},
+ "tried": [
+  {"source": "StockSnap.io (Openverse)", "query": "hymnal; sheet music; church worship band; piano hymn book", "result": "rejected: only 'Music Notes' (CC0) found, but the full-size file is blocked (403) and only a 960px thumbnail was reachable, under 1200px"},
+  {"source": "Rawpixel (Openverse)", "query": "hymnal; sheet music; church worship band", "result": "rejected: only 1024px preview files accessible, portrait pages or recognizable portraits, Getty-origin singers photo"},
+  {"source": "Nappy (Openverse)", "query": "hymnal; sheet music; church worship band; piano hymn book", "result": "rejected: no results"},
+  {"source": "Wikimedia Commons", "query": "hymn book open; church organ hymnal; sheet music hymn", "result": "chosen: public-domain 1905 photo of an open choir book, 5100px original, downloaded 1920px, converted to 1600x1219 WebP, inspected visually: no watermark, logo or faces"}
+ ]}

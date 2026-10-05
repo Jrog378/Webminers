@@ -1,0 +1,31 @@
+{
+  "chosen": {
+    "reference": "Colossians 3:16",
+    "text": "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord.",
+    "translation": "World English Bible",
+    "url": "https://bible-api.com/Colossians+3:16?translation=web"
+  },
+  "candidates": [
+    {
+      "reference": "Colossians 3:16",
+      "text": "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord.",
+      "url": "https://bible-api.com/Colossians+3:16?translation=web",
+      "context": "Paul writing to the church at Colossae, describing the shared life of believers in Christ.",
+      "whyItFits": "Songs are meant to carry the word of Christ and teach the congregation, which is exactly what lyric-checking tools aim to protect; it also stresses wisdom and mutual teaching, not outsourced judgment."
+    },
+    {
+      "reference": "1 Thessalonians 5:21-22",
+      "text": "Test all things, and hold firmly that which is good. Abstain from every form of evil.",
+      "url": "https://bible-api.com/1+Thessalonians+5:21-22?translation=web",
+      "context": "Paul to the young church in Thessalonica, closing exhortations about weighing prophetic and spiritual teaching.",
+      "whyItFits": "Fits the discernment and testing theme, and the call to hold fast to what is good, though it is less about song."
+    },
+    {
+      "reference": "Psalm 33:3",
+      "text": "Sing to him a new song. Play skillfully with a shout of joy!",
+      "url": "https://bible-api.com/Psalm+33:3?translation=web",
+      "context": "A psalm of praise calling Israel's worshippers to sing to the LORD.",
+      "whyItFits": "Celebrates crafted, skillful worship music, but says little about theological content."
+    }
+  ]
+}
