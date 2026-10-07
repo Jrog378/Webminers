@@ -1,0 +1,274 @@
+[
+ {
+  "id": "N1",
+  "claim": "Mistral launched a public preview of Mistral Large 4 on 2026-10-06 (company announcement).",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "Today, we’re launching a public preview of Mistral Large 4.",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N2",
+  "claim": "Preview is available via API now; Mistral says weights will be released at the end of the month.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "You can try the preview API today on Mistral Studio. Weights drop end of this month.",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N3",
+  "claim": "Mistral says ML4 has 1 trillion total parameters and 49 billion active parameters and is natively multimodal.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "ML4 is a 1 trillion-parameter natively multimodal model with 49 billion active parameters.",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N4",
+  "claim": "Before weight release, Mistral is red-teaming the model with outside partners.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "Until then, we are red-teaming the model in real-world settings with cybersecurity leaders, vetted partners, and state authorities",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N5",
+  "claim": "Mistral says ML4 was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in its own datacenters.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "ML4 was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s own datacenters",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N6",
+  "claim": "Mistral says training data covered more than 160 languages.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "a significant share of ML4’s training data was multilingual, spanning more than 160 languages",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N7",
+  "claim": "Mistral says its RL training run produces about 33 billion tokens per day at ~3k GPUs.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "a single training run produces roughly 33 billion tokens per day",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N8",
+  "claim": "Mistral says RL training is still ongoing, expects rapid improvements, and will publish architecture/benchmarks/post-training details with the weights.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "We will release the weights by the end of the month, along with more details on the architecture, additional benchmarks, and our post-training methodology.",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N9",
+  "claim": "Mistral argues open weights matter for cybersecurity because provider refusals can block legitimate work.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "provider-level refusals can block legitimate vulnerability research and incident response",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N10",
+  "claim": "Mistral reports 61.7% on DeepSWE v1.1, 59.4% on SWE-Atlas-QnA, 28.3% on Terminal-Bench 4.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "scoring 61.7% on DeepSWE v1.1, 59.4% on SWE-Atlas-QnA, and 28.3% on Terminal-Bench 4",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N11",
+  "claim": "In a blind human coding evaluation run with Surge AI, Mistral says ML4 ranked second of five, behind Claude Opus 5.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "ML4 Preview ranked second of five models (3.74), ahead of Kimi K3 (3.59), GLM-5.3 (3.60) and GLM-5.2 (3.40), and behind only Claude Opus 5 (4.22).",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N12",
+  "claim": "Mistral claims 82% on a vulnerability reproduce-and-patch test (highest of any model) and 93% on Cybench.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "ML4 scores 82%, the highest of any model. It also solves 93% of the challenges in Cybench",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N13",
+  "claim": "Mistral says several leading closed models (it names Claude Opus 5.5 and GPT-6 Astra) score near zero on that test because they refuse. Conflict of interest: this digest is written by Opus 5.5.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "Several leading closed models, including Claude Opus 5.5 and GPT-6 Astra, score near zero on the same test because they refuse to perform the task.",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N14",
+  "claim": "Mistral says third-party evaluator Vals AI found ML4 exceeds GPT-6-Astra on finance and legal tasks.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "we evaluated ML4 through third party evaluators (vals.ai) on representative tasks for both legal and financial tasks, finding the model exceeds GPT-6-Astra in both cases",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N15",
+  "claim": "Mistral claims ML4's refusal rate on malicious cyber prompts is higher than all open models.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "the average refusal rate of the model on cyber prompts from JailbreakBench, StrongREJECT, and AgentHarm is higher than all OSS models",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N16",
+  "claim": "TechCrunch (Anna Heim) covered the launch on 2026-10-06 under the headline that the 1T model aims to leapfrog closed and open rivals.",
+  "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+  "quote": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N17",
+  "claim": "TechCrunch reports weights are planned in about three weeks after safety testing, and quotes VP Science Pierre Stock on defensive use.",
+  "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+  "quote": "Mistral plans to make its weights available in just three weeks, after safety testing is complete.",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N18",
+  "claim": "Pierre Stock told TechCrunch ML4 was trained on only about 4,000 Nvidia GPUs (vs 3,800 in Mistral's post).",
+  "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+  "quote": "ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N19",
+  "claim": "TechCrunch reports Mistral hopes (benchmarks pending at time of interview) ML4 will be best in class among open-weight models and could beat closed models in specific areas.",
+  "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+  "quote": "Thanks to focused training, it could also outperform closed models in specific areas that are key to its customers",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N20",
+  "claim": "Artificial Analysis independently scores the ML4 preview at 38 on its Intelligence Index, above the price-tier median of 26.",
+  "url": "https://artificialanalysis.ai/models/mistral-large-4",
+  "quote": "Mistral Large 4 Preview scores 38 on the Artificial Analysis Intelligence Index, placing it above average among other reasoning models in a similar price tier (median: 26).",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N21",
+  "claim": "Artificial Analysis lists pricing of $1.36/M input and $4.18/M output tokens and a 524k context window.",
+  "url": "https://artificialanalysis.ai/models/mistral-large-4",
+  "quote": "$1.36 per 1M input tokens",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N22",
+  "claim": "Artificial Analysis found ML4 very verbose: 200M tokens to run its index vs median 81M.",
+  "url": "https://artificialanalysis.ai/models/mistral-large-4",
+  "quote": "it generated 200M tokens, which is very verbose in comparison to the median of 81M.",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N23",
+  "claim": "Vals AI ranks ML4 #32 of 44 on the Vals Index (48.05%); its best result is #6 of 75 on Harvey's Legal Agent Benchmark.",
+  "url": "https://www.vals.ai/models/mistralai_mistral-large-4",
+  "quote": "It ranks #32 of 44 models on the Vals Index with 48.05%. Its best result is #6 of 75 on Harvey's Legal Agent Benchmark",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N23b",
+  "claim": "Vals AI lists ML4 at 54.68% (22/75) on Finance Agent v2 and 22.73% on Terminal-Bench 4.0 (vs Mistral's self-reported 28.3%).",
+  "url": "https://www.vals.ai/models/mistralai_mistral-large-4",
+  "quote": "Finance Agent (v2) 54.68 % ± 0.58 22 / 75 ... Terminal-Bench 4.0 22.73",
+  "sourceType": "Reporting",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N24",
+  "claim": "Mistral's product card describes ML4 as an open-weight hybrid instruct-and-reasoning MoE with multimodal input.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "Open-weight hybrid instruct-and-reasoning MoE with multimodal input",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N25",
+  "claim": "Mistral's listed price is $1.36 per million input tokens and $4.18 per million output tokens.",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "quote": "Input (/M tokens) $1.36 Output (/M tokens) $4.18",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N26",
+  "claim": "Simon Willison summarizes the release: 1T params, 49B active, 3,800 GPUs, preview via API, open weights promised end of month.",
+  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "quote": "Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N27",
+  "claim": "Simon Willison assesses ML4 as about six months behind the frontier and notes only two reasoning levels.",
+  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "quote": "It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N28",
+  "claim": "Per Simon Willison, ML4's AA score of 38 is a big jump from Mistral Large 3's score of 9.",
+  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "quote": "It's a huge improvement on last December's Mistral Large 3, which drew this terrible pelican and scored 9 on AA.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N29",
+  "claim": "The HN thread 'Mistral Large 4' reached 1,552 points; simonw noted only 'none' and 'high' reasoning settings.",
+  "url": "https://news.ycombinator.com/item?id=49978763",
+  "quote": "Surprisingly it only supports reasoning \"none\" or reasoning \"high\".",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N29b",
+  "claim": "A top HN comment praised vision and cyber benchmarks.",
+  "url": "https://news.ycombinator.com/item?id=49978149",
+  "quote": "Impressive vision benchmarking.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N30",
+  "claim": "A highly-replied HN comment called the model mediocre and late.",
+  "url": "https://news.ycombinator.com/item?id=49979576",
+  "quote": "This model doesn’t knock anybody’s socks off. The model is (and I hate to be this harsh) mediocre, and this mediocrity has also arrived months late.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N30b",
+  "claim": "An HN commenter questioned pricing vs cheaper open models with similar capability.",
+  "url": "https://news.ycombinator.com/item?id=49978666",
+  "quote": "Seems hard to get customers at that price range when you're competing with open source models that are 1/2 - 1/3 the price but with similar capabilities.",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "N30c",
+  "claim": "An HN commenter noted the 'Frontier performance' framing lacks an Opus 5.5 comparison.",
+  "url": "https://news.ycombinator.com/item?id=49980781",
+  "quote": ">Frontier performance * proceeds to not compare to Opus 5.5",
+  "sourceType": "Social",
+  "date": "2026-10-06"
+ }
+]

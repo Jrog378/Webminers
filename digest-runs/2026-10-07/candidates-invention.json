@@ -1,0 +1,186 @@
+{
+ "section": "invention",
+ "window": "2026-10-03 to 2026-10-06",
+ "sourcesTried": [
+  {
+   "name": "GitHub search API",
+   "status": "blocked (403, sandbox restricts to repo-scoped endpoints)"
+  },
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai tag RSS",
+   "status": "ok (only one in-window item)"
+  },
+  {
+   "name": "Product Hunt AI feed",
+   "status": "ok (no vote counts)"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "SCM: local AI search for every photo and every frame of video on a Mac",
+   "summary": "Open-source app that indexes a personal photo library and video frames for natural-language search; HN commenters discuss frame-sampling cost.",
+   "primaryUrl": "https://github.com/allenv0/SCM",
+   "date": "2026-10-04",
+   "signal": "HN 175 pts / 73 comments https://news.ycombinator.com/item?id=49952111",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "OpenChart: open-source charting workspace where your own AI agent annotates charts, writes indicators and sets alerts",
+   "summary": "Local-first, open-source TradingView alternative that plugs in existing Claude/Codex plans.",
+   "primaryUrl": "https://github.com/longsurf-ai/openchart",
+   "date": "2026-10-06",
+   "signal": "HN 35 pts / 13 comments https://news.ycombinator.com/item?id=49979793",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Finance-adjacent; keep framing to the tool, no investment advice."
+  },
+  {
+   "title": "Offrun: one workspace to manage Claude Code, Codex and other coding agents side by side",
+   "summary": "Dashboard showing which agents are working or waiting and each account's remaining usage limits.",
+   "primaryUrl": "https://offrun.dev/",
+   "date": "2026-10-03",
+   "signal": "HN 78 pts / 66 comments https://news.ycombinator.com/item?id=49942434",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Product page is primary; crowded category (devpit, Rill, OrgComputers on Product Hunt)."
+  },
+  {
+   "title": "Burn 0.22.0: faster builds, easier extensions, smarter autotuning for the Rust deep learning framework",
+   "summary": "Release of an open-source Rust ML framework; posted to Lobsters ai tag.",
+   "primaryUrl": "https://tracel.ai/blog/release-0.22.0/",
+   "date": "2026-10-06",
+   "signal": "Lobsters ai tag https://lobste.rs/s/cme2vx/burn_0_22_0_faster_builds_easier (score not captured)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "iphone-use: let AI agents drive a real iPhone, even apps with no API",
+   "summary": "Agent tooling that controls a physical iPhone UI.",
+   "primaryUrl": "https://www.producthunt.com/products/iphone-use",
+   "date": "2026-10-05",
+   "signal": "Product Hunt feed listing",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "Find the underlying repo before drafting."
+  },
+  {
+   "title": "Minigraf: embedded bi-temporal graph database in Rust",
+   "summary": "Small embedded database that tracks both valid time and transaction time; not AI-centric.",
+   "primaryUrl": "https://github.com/project-minigraf/minigraf",
+   "date": "2026-10-05",
+   "signal": "HN 38 pts / 30 comments https://news.ycombinator.com/item?id=49963394",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "Weak AI tie."
+  },
+  {
+   "title": "Scumble: open-source editor for AI inpainting",
+   "summary": "Product Hunt launch of an open-source image editor built around AI inpainting.",
+   "primaryUrl": "https://www.producthunt.com/products/scumble",
+   "date": "2026-10-05",
+   "signal": "Product Hunt feed listing (votes not in feed)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "note": "Verify repo/license link before drafting."
+  },
+  {
+   "title": "CodeCrab: 100% local-first AI pull request reviewer",
+   "summary": "Reviews pull requests on the developer's machine with local or own-subscription models; similar launch 'Review' same day.",
+   "primaryUrl": "https://www.producthunt.com/products/codecrab",
+   "date": "2026-10-05",
+   "signal": "Product Hunt feed listing",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "AUDR by Chargebee: open standard for tracking agent run costs",
+   "summary": "Proposed open spec for recording what each AI agent run costs.",
+   "primaryUrl": "https://www.producthunt.com/products/chargebee",
+   "date": "2026-09-27",
+   "signal": "Product Hunt feed listing",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "note": "Feed date 2026-09-27 is before window; likely exclude."
+  },
+  {
+   "title": "Jotbus: a shared encrypted scratchpad for coding agents",
+   "summary": "Lets multiple coding agents share notes through an end-to-end encrypted pad.",
+   "primaryUrl": "https://jotbus.com/",
+   "date": "2026-10-06",
+   "signal": "HN 21 pts / 13 comments https://news.ycombinator.com/item?id=49978401",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "note": ""
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "Prior invention picks (Jeff 09-30, Stillwet 10-03) not repeated. _topics.json checked; no overlap. Lobsters in-window items beyond Burn: none; items like 'US government backs OpenAI...' are older and political."
+}

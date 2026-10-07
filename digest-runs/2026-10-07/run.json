@@ -1,0 +1,43 @@
+{
+  "status": "draft-pending-review",
+  "issueDate": "2026-10-07",
+  "window": "2026-10-03..2026-10-06",
+  "slug": "2026-10-07-mistral-large-4-claims-vs-tests",
+  "sourcesFailed": [
+    "Reddit (403)",
+    "GitHub REST API/gh (403)",
+    "openai.com (403 to curl)",
+    "Verge/Google blog RSS (no items)",
+    "Semantic Scholar (429)",
+    "Product Hunt vote counts n/a",
+    "Unsplash/Pexels/Pixabay (no keys)",
+    "StockSnap full-size (403)"
+  ],
+  "topics": {
+    "news": "Mistral Large 4",
+    "research": "RealCompanion (arXiv 2610.01780)",
+    "invention": "SCM local photo/video search"
+  },
+  "formats": {
+    "news": "claim-vs-evidence",
+    "research": "qa",
+    "invention": "comparison"
+  },
+  "factcheck": {
+    "round1": {
+      "checked": 78,
+      "pass": 70,
+      "fix": 8,
+      "cut": 0
+    },
+    "round2": {
+      "checked": 8,
+      "pass": 6,
+      "fix": 2,
+      "cut": 0,
+      "note": "both fixed by orchestrator"
+    }
+  },
+  "editor": "pass",
+  "notes": "npm ci failed (package-lock out of sync, missing yaml@2.9.1); npm install + npm run build succeeded; package-lock.json not committed."
+}

@@ -1,0 +1,81 @@
+{
+  "issueDate": "2026-10-07",
+  "window": "2026-10-03..2026-10-06",
+  "research": {
+    "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+    "primaryUrl": "https://arxiv.org/abs/2610.01780",
+    "why": "Tests whether an AI companion that talks with someone for months actually remembers and understands them. Millions of people use chat assistants this way, so the question matters to general readers. It was the top HF Daily Papers item in the window (267 upvotes, featured 2026-10-05; arXiv submitted 2026-10-01, just before the window). Label it a preprint that is not yet peer-reviewed.",
+    "runnersUp": [
+      {
+        "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+        "primaryUrl": "https://arxiv.org/abs/2609.38879",
+        "note": "Most novel idea in the set (score tied at 18), but its payoff for a general reader is harder to explain."
+      },
+      {
+        "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+        "primaryUrl": "https://arxiv.org/abs/2610.00531",
+        "note": "High general-reader relevance, lower momentum."
+      },
+      {
+        "title": "Kandinsky 6.0 Video",
+        "primaryUrl": "https://arxiv.org/abs/2610.05608",
+        "note": "The only paper submitted inside the window, but an incremental model release."
+      }
+    ]
+  },
+  "news": {
+    "title": "Mistral Large 4 released (reported as a 1T-parameter model)",
+    "primaryUrl": "https://mistral.ai/news/mistral-large-4/",
+    "why": "The biggest AI story in the window by a wide margin: HN 1552 pts / 951 comments, TechCrunch coverage, and the company's own announcement as the primary source (fetched 200). The 1T-parameter figure and the claims of beating rivals must be attributed to Mistral or TechCrunch, not stated as fact. No framing around the company's home region (style guide no-geography rule).",
+    "runnersUp": [
+      {
+        "title": "Reflection debuts Beam, a 501B open-weight model",
+        "primaryUrl": "https://reflection.ai/blog/introducing-beam",
+        "note": "Strong, but a second model launch. If used, drop the TechCrunch 'Chinese models' framing entirely; the headline may appear only verbatim in sources."
+      },
+      {
+        "title": "Opus 5.5 agents find two room-temperature magnetic semiconductor candidates",
+        "primaryUrl": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+        "note": "Novel, but the materials are unverified candidates and the pipeline runs on the model writing this digest, a disclosure and conflict-of-interest risk."
+      },
+      {
+        "title": "OpenAI shares AI progress in mathematics",
+        "primaryUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "note": "openai.com returns 403 to curl, so content could not be verified for this run."
+      }
+    ]
+  },
+  "invention": {
+    "title": "SCM: local AI search for every photo and every frame of video on a Mac",
+    "primaryUrl": "https://github.com/allenv0/SCM",
+    "why": "Open-source app that lets anyone search their own photo and video library in plain language, running locally. That makes it useful to ordinary readers and good for privacy. It had the strongest Show HN signal in the window (175 pts / 73 comments, 2026-10-04), and the primary source is the GitHub repo itself. Honest caveat: HN commenters raised frame-sampling and indexing cost, and it is Mac-only.",
+    "runnersUp": [
+      {
+        "title": "OpenChart",
+        "primaryUrl": "https://github.com/longsurf-ai/openchart",
+        "note": "If used, describe only the tool, with no investment advice or market claims."
+      },
+      {
+        "title": "Offrun",
+        "primaryUrl": "https://offrun.dev/",
+        "note": "Crowded category, developer-only audience."
+      }
+    ]
+  },
+  "thread": "Both the research and invention picks are about AI holding on to a person's own life (months of conversation in RealCompanion, years of photos in SCM), so the closing could ask what it takes for that memory to be accurate and stay under the user's control. This link does not extend to the news section.",
+  "skipped": [],
+  "rejected": {
+    "political": [
+      "OpenAI EU text watermarking / EU provenance rules (regulatory and regional)",
+      "FTC investigation of OpenAI, Anthropic and others (government action)",
+      "Meta AI data centers and federal taxes (policy)"
+    ],
+    "recentlyCovered": [
+      "On-Policy Parameter Update Direction (2609.36659) overlaps the 2026-09-30 post-training research topic; no material update"
+    ],
+    "unverifiable": [
+      "Product Hunt-only invention items (iphone-use, Scumble, CodeCrab): no repo link verified",
+      "Anthropic startup program: no primary source"
+    ]
+  }
+}

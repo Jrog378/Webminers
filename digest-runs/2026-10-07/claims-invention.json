@@ -1,0 +1,274 @@
+[
+ {
+  "id": "c1",
+  "claim": "SCM is an app for AI search of photos and video frames in any folder on macOS.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Deep AI search for every photo and every frame of video in any folder on macOS.",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c2",
+  "claim": "The developer says SCM is local-first with no accounts, cloud or uploads, and media never leaves the machine.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Local-first — no accounts, no cloud, no uploads. Inference runs on your Mac.",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c3",
+  "claim": "SCM offers five search modes: Files, Scenes, OCR, Dialogue and opt-in LLMs; Scenes jumps to a timecode inside a video.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Moments inside video — search a shot, jump to its timecode",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c4",
+  "claim": "SCM is MIT-licensed, copyright Allen Lee.",
+  "url": "https://github.com/allenv0/SCM/blob/main/LICENSE",
+  "quote": "Copyright (c) 2026 Allen Lee",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c5",
+  "claim": "Homebrew install requires Apple Silicon and macOS 12 or later.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "The easiest install is via Homebrew (Apple Silicon, macOS 12+).",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c6",
+  "claim": "Image results are ranked by cosine similarity against image embeddings.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "takes over: results are scored by cosine similarity against image",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c7",
+  "claim": "Default vision model CLIP ViT-L/14@336 takes about 480-570 ms per image on CPU; SigLIP-2-B/16 is fastest at about 50-100 ms per image (developer figures).",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "~480–570ms/img",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c8",
+  "claim": "Video is split at shot boundaries by ffmpeg and each segment embeds its midpoint frame (sampling, not literally every frame).",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Each segment embeds its midpoint frame and keeps a poster",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c9",
+  "claim": "Users choose video sampling density (Eco 60 s per point to Ultra Pro 2.5 s); each preset shows measured time and disk cost.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "shows its measured time and disk cost before you commit:",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c10",
+  "claim": "Dialogue search uses Whisper tiny.en (~150MB) by default with exact literal retrieval.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Whisper `tiny.en` (~150MB, default)",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c11",
+  "claim": "OCR uses Tesseract with English plus 35 toggleable languages.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "English is\nalways on; 35 more languages are toggleable",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c12",
+  "claim": "Opt-in local chat uses llama.cpp with Qwen3 1.7B (~1.1GB) by default, which fits 8GB Macs.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Fast everyday chat; fits 8GB Macs",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c13",
+  "claim": "The default CLIP model download is about 435MB; after that the app works offline.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "First use of a model downloads its weights (~435MB for the default CLIP);\n  after that, fully offline.",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c14",
+  "claim": "The author says SCM is ARM Mac for now, uses an all-JS inference stack for portability, and a native Swift + MLX v2 is being explored for speed.",
+  "url": "https://news.ycombinator.com/item?id=49954873",
+  "quote": "Exploring a native Swift + MLX v2 track separately for speed.",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c15",
+  "claim": "The author says SCM is free and open source.",
+  "url": "https://news.ycombinator.com/item?id=49956510",
+  "quote": "It's 100% free and open source!",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c16",
+  "claim": "The Homebrew cask clears the macOS quarantine flag because builds use a local development certificate, not a Developer ID; this is to be removed once releases are notarized.",
+  "url": "https://github.com/allenv0/homebrew-scm/blob/main/Casks/scm.rb",
+  "quote": "development certificate (not a Developer ID), so Gatekeeper would",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c17",
+  "claim": "Show HN post 'AI search for every photo and every frame of video on macOS' by allenleee reached 175 points.",
+  "url": "https://news.ycombinator.com/item?id=49952111",
+  "quote": "175 points",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c18",
+  "claim": "The project site says it was built for filmmakers.",
+  "url": "https://scm.allenlee.site/",
+  "quote": "Built with 💛 for filmmakers",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c19",
+  "claim": "An HN user with about 12,000 videos said not knowing processing time was what stopped them trying it.",
+  "url": "https://news.ycombinator.com/item?id=49953208",
+  "quote": "the one thing stopping me from trying this is not knowing the time scales",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c20",
+  "claim": "An HN commenter who built a similar CLIP tool on an M1 said frame sampling rate dominates cost: one frame a second on 12k videos takes days.",
+  "url": "https://news.ycombinator.com/item?id=49953375",
+  "quote": "frame sampling rate is the whole ballgame. One frame a second on 12k videos is days, keyframes only got me to an overnight run.",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c21",
+  "claim": "An HN commenter warned sampling can miss events shorter than the sampling interval.",
+  "url": "https://news.ycombinator.com/item?id=49953700",
+  "quote": "sampling rate can be tricky if what you are looking for lasted less than interval period",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c22",
+  "claim": "An HN commenter could not use Apple Photos search because their photos sit on an external network drive.",
+  "url": "https://news.ycombinator.com/item?id=49956036",
+  "quote": "the photos are on an external SMB network drive",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c23",
+  "claim": "Apple says Photos on Mac with Apple Intelligence can find a key moment in a video using natural-language search.",
+  "url": "https://support.apple.com/guide/photos/search-for-photos-and-videos-pht64de33e5a/mac",
+  "quote": "Apple Intelligence makes it even easier to find a specific photo, or a key moment in a video.",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c24",
+  "claim": "Immich, a self-hosted photo app, offers CLIP-based contextual search.",
+  "url": "https://docs.immich.app/features/searching/",
+  "quote": "Contextual CLIP search is powered by the VectorChord extension",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c25",
+  "claim": "An HN commenter pointed to Immich as a cross-platform alternative for approximate AI photo and video search.",
+  "url": "https://news.ycombinator.com/item?id=49953541",
+  "quote": "Immich does this",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c26",
+  "claim": "HN commenters asked about disk and indexing cost per hour of footage; no author reply seen.",
+  "url": "https://news.ycombinator.com/item?id=49967952",
+  "quote": "Curious what an hour of footage costs in disk and indexing time.",
+  "sourceType": "Social",
+  "date": "2026-10-05"
+ },
+ {
+  "id": "c27",
+  "claim": "SCM copies media into an app-managed library.",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "Media is copied into the app-managed library and streamed from disk.",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c28",
+  "claim": "An HN commenter dislikes software that builds its own library on top of a user's files.",
+  "url": "https://news.ycombinator.com/item?id=49959197",
+  "quote": "I hate it when software is opinionated about my directory structure",
+  "sourceType": "Social",
+  "date": "2026-10-05"
+ },
+ {
+  "id": "c29",
+  "claim": "An HN commenter said Apple's Vision framework beats Tesseract for OCR on Mac; the author agreed.",
+  "url": "https://news.ycombinator.com/item?id=49953995",
+  "quote": "It smokes tesseract in both speed and accuracy.",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c30",
+  "claim": "An HN commenter criticized the app for being built on JavaScript/Electron rather than native code.",
+  "url": "https://news.ycombinator.com/item?id=49953989",
+  "quote": "Why is this a JS bloatware instead of native or Rust",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c31",
+  "claim": "An HN commenter asked whether SCM can search people, faces or pets.",
+  "url": "https://news.ycombinator.com/item?id=49953551",
+  "quote": "Any way to search for People / faces / pets?",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ },
+ {
+  "id": "c32",
+  "claim": "The author said he would research reusing Apple Photos' cached analysis.",
+  "url": "https://news.ycombinator.com/item?id=49961105",
+  "quote": "will do some research on it",
+  "sourceType": "Social",
+  "date": "2026-10-05"
+ },
+ {
+  "id": "c33",
+  "claim": "The GitHub repo showed about 409 stars and 29 forks on 2026-10-07 (via WebFetch summary; volatile).",
+  "url": "https://github.com/allenv0/SCM",
+  "quote": "409 stars",
+  "sourceType": "Official",
+  "date": "2026-10-07"
+ },
+ {
+  "id": "c34",
+  "claim": "The author claims SCM works on M1/M2/M3 Macs with 16GB to 64GB.",
+  "url": "https://news.ycombinator.com/item?id=49957065",
+  "quote": "I can confirm it works perfectly on M1/M2/M3 machines (16g/64g).",
+  "sourceType": "Social",
+  "date": "2026-10-04"
+ }
+]

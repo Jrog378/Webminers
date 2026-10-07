@@ -1,0 +1,13 @@
+{"hero":{"src":"/images/eureka/2026-10-07-mistral-large-4-claims-vs-tests/mistral-large-4-open-computer-hardware.webp","width":1600,"height":1066,
+"alt":"Open computer case lit purple, showing the motherboard, memory and cooler of the kind of hardware that runs Mistral Large 4",
+"caption":"Models like Mistral Large 4 run on hardware like this, and outside tests, not parameter counts, show how they perform.",
+"credit":{"title":"Open computes case with all components visible and purplish blue light glowing from the front panel","author":"Nilo Velez","authorUrl":"https://www.nilovelez.com","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"WordPress Photo Directory","sourceUrl":"https://wordpress.org/photos/photo/606663b5a7/","modified":"Resized and converted to WebP"}},
+"tried":[
+{"source":"StockSnap (via Openverse)","query":"server rack, data center, circuit board, computer chip","result":"rejected: results found but cdn.stocksnap.io returns a Cloudflare 403 (only 960px thumbnails listed), full file not downloadable"},
+{"source":"Rawpixel (via Openverse)","query":"circuit board, computer chip, server, processor","result":"not used: candidates found, previews likely watermarked/low-res, WordPress had a clean option"},
+{"source":"Nappy (via Openverse)","query":"circuit board, computer chip, server, processor","result":"rejected: no results"},
+{"source":"WordPress Photo Directory","query":"circuit board","result":"rejected: inspected; visible Keurig branding and a hand"},
+{"source":"WordPress Photo Directory","query":"computer components (Raspberry Pi Zero)","result":"rejected: inspected; SanDisk branding on card"},
+{"source":"WordPress Photo Directory","query":"network cables","result":"rejected: inspected; D-Link and Cooler Master branding, cluttered"},
+{"source":"WordPress Photo Directory","query":"computer components","result":"chosen: inspected the final WebP; no watermark, faces, logos or places"},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"}]}

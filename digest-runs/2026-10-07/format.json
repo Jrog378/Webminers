@@ -1,0 +1,31 @@
+{
+  "issueDate": "2026-10-07",
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "claim",
+  "headlineNote": "Previous issue (2026-10-03) used a question. Attribute any claim to its source (e.g. Mistral says / preprint says); do not state company figures as fact.",
+  "closing": "Optional thread links research and invention only (AI holding a person's own life: accuracy and user control). Keep research and invention adjacent. Do not extend to news.",
+  "sections": {
+    "news": {
+      "format": "claim-vs-evidence",
+      "words": 550,
+      "why": "Hype-heavy launch (reported 1T parameters, beats-rivals claims) where company claims need separating from independent evidence. Recent 09-30 and 10-03 issues both used this for news, but the combination with the other two formats is new."
+    },
+    "research": {
+      "format": "qa",
+      "words": 650,
+      "why": "Contested, easy-to-misread preprint with candid limitations (10 users, ethics oversight, re-identification). Reader questions fit better than an explainer, which was used last issue; by-the-numbers was used 09-30."
+    },
+    "invention": {
+      "format": "comparison",
+      "words": 350,
+      "why": "Local photo/video search app vs cloud photo search and built-in OS search lets the honest caveats (Mac-only, indexing cost) sit in a table. Combination qa + claim-vs-evidence + comparison does not match 09-30 (by-the-numbers/claim-vs-evidence/comparison) or 10-03 (explainer/claim-vs-evidence/three-things)."
+    }
+  },
+  "writerNotes": [
+    "Disclosure required: Claude Opus 5.5 is named in the research (evaluated in RealCompanion; most token-hungry system, 546M vs 18M tokens at about the same F1) and the model writing this digest. State it neutrally; say tokens, not dollars.",
+    "No geography or political framing anywhere, including the company's home region and paper affiliations.",
+    "SCM: the 'every frame' tagline contradicts the README (frame sampling); attribute the tagline to the project and report what the README says.",
+    "RealCompanion is a preprint, not yet peer-reviewed; say 'about 0.7' F1, not 0.71.",
+    "Only 2 non-demo prior issues exist, so the 6-issue combination check covered both."
+  ]
+}

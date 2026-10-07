@@ -1,0 +1,206 @@
+{
+ "section": "research",
+ "window": "2026-10-03 to 2026-10-06",
+ "sourcesTried": [
+  {
+   "name": "HF Daily Papers 2026-10-05, 10-06",
+   "status": "ok"
+  },
+  {
+   "name": "HF Daily Papers 2026-10-03, 10-04",
+   "status": "empty (weekend)"
+  },
+  {
+   "name": "arXiv API (id_list date check only)",
+   "status": "ok"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/RSS/HN/Reddit",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+   "summary": "Benchmark testing whether an AI companion that talks with a person for months actually remembers and infers who they are.",
+   "primaryUrl": "https://arxiv.org/abs/2610.01780",
+   "hfUrl": "https://huggingface.co/papers/2610.01780",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-10-01",
+   "signal": "HF Daily Papers 267 upvotes, 2 comments upvotes",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+   "summary": "Tests whether training language models on protein folding transfers to broader spatial/structural reasoning.",
+   "primaryUrl": "https://arxiv.org/abs/2609.38879",
+   "hfUrl": "https://huggingface.co/papers/2609.38879",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-09-30",
+   "signal": "HF Daily Papers 105 upvotes",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+   "summary": "Family of diffusion models (Lite 3B and larger) generating synchronized audio and video from text.",
+   "primaryUrl": "https://arxiv.org/abs/2610.05608",
+   "hfUrl": "https://huggingface.co/papers/2610.05608",
+   "date": "2026-10-06",
+   "arxivSubmitted": "2026-10-04",
+   "signal": "HF Daily Papers 113 upvotes",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": "Only candidate submitted inside the window."
+  },
+  {
+   "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+   "summary": "Benchmark and mitigation for low-quality AI-written scientific papers.",
+   "primaryUrl": "https://arxiv.org/abs/2610.00531",
+   "hfUrl": "https://huggingface.co/papers/2610.00531",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-09-30",
+   "signal": "HF Daily Papers 55 upvotes",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+   "summary": "Shows shopping/booking/citing agents favor items from certain sources, and how to reduce the bias.",
+   "primaryUrl": "https://arxiv.org/abs/2610.03195",
+   "hfUrl": "https://huggingface.co/papers/2610.03195",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-10-02",
+   "signal": "HF Daily Papers 37 upvotes",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
+   "summary": "Finds helpful agents in multi-agent systems can circumvent safety boundaries.",
+   "primaryUrl": "https://arxiv.org/abs/2609.39050",
+   "hfUrl": "https://huggingface.co/papers/2609.39050",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-09-30",
+   "signal": "HF Daily Papers 13 upvotes",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Language Models that Play Chess and Explain Their Moves",
+   "summary": "Language models that match engine-style play while explaining moves.",
+   "primaryUrl": "https://arxiv.org/abs/2610.03695",
+   "hfUrl": "https://huggingface.co/papers/2610.03695",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-10-02",
+   "signal": "HF Daily Papers 31 upvotes",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Good reader-friendly story."
+  },
+  {
+   "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+   "summary": "Explains why on-policy post-training generalizes via parameter update direction.",
+   "primaryUrl": "https://arxiv.org/abs/2609.36659",
+   "hfUrl": "https://huggingface.co/papers/2609.36659",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-09-29",
+   "signal": "HF Daily Papers 81 upvotes",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Related to 2026-09-30 covered post-training topic; check overlap."
+  },
+  {
+   "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+   "summary": "Finds shortening chain-of-thought training does not necessarily hurt oversight of reasoning.",
+   "primaryUrl": "https://arxiv.org/abs/2610.03509",
+   "hfUrl": "https://huggingface.co/papers/2610.03509",
+   "date": "2026-10-05",
+   "arxivSubmitted": "2026-10-02",
+   "signal": "HF Daily Papers 13 upvotes",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+   "summary": "Reduces agent sycophancy caused by long-term memory.",
+   "primaryUrl": "https://arxiv.org/abs/2610.05162",
+   "hfUrl": "https://huggingface.co/papers/2610.05162",
+   "date": "2026-10-06",
+   "arxivSubmitted": "2026-10-04",
+   "signal": "HF Daily Papers 27 upvotes",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "arXiv submission dates mostly precede the window; HF feature date used as in-window date. Topics checked against _topics.json: no overlap with 10 listed except possible 09-30 post-training."
+}

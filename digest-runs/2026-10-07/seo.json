@@ -1,0 +1,17 @@
+{
+  "keywords": {
+    "primary": "Mistral Large 4 benchmarks",
+    "secondary": ["Mistral Large 4 parameters", "AI companion memory benchmark", "search photos and videos on Mac offline"]
+  },
+  "title": "Mistral Large 4 Claims Vs Tests | Eureka Reports Oct 7",
+  "titleLength": 54,
+  "description": "Mistral says Large 4 has 1 trillion parameters; Vals AI ranks it 32nd of 44. Plus AI that reads too much into users, and private photo search on a Mac.",
+  "descriptionLength": 151,
+  "slug": "2026-10-07-mistral-large-4-claims-vs-tests",
+  "faq": "none: no verified People Also Ask questions found for the lead topic",
+  "image": "hero alt is 123 chars, describes the image, keyword once, no 'image of'; caption and filename fine; image.json unchanged",
+  "changes": [
+    "Renamed closing H2 from 'What your AI keeps about you' to 'What AI companions and local photo search keep about you' so it names the specific topics",
+    "Checked and left unchanged: title (54 chars, unique vs Oct 3 and Sep 30 issues), description (151 chars, leads with the concrete finding), H2s, deep-dive openers, sixty (3 self-contained sentences)"
+  ]
+}

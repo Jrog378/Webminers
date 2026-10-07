@@ -1,0 +1,700 @@
+{
+ "checked": 78,
+ "passed": 70,
+ "results": [
+  {
+   "citation": "1",
+   "sentence": "Mistral released a public preview of Mistral Large 4 on Oct. 6, available now through its API",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Page dated Oct 6 2026: \"public preview\"; \"try the preview API today\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "calls it \"a 1 trillion-parameter natively multimodal model with 49 billion active parameters\"",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "2,3",
+   "sentence": "Early independent tests give it solid but not leading scores",
+   "url": "https://artificialanalysis.ai/models/mistral-large-4",
+   "verdict": "fix",
+   "evidence": "AA: 38, \"above average\" in price tier; Vals: 32/44 (below midpoint). \"Solid\" overstates the Vals result.",
+   "fix": "Early independent tests give mixed results: Artificial Analysis scores it above average for its price tier, while Vals AI ranks it 32nd of 44."
+  },
+  {
+   "citation": "1",
+   "sentence": "Mistral's product card describes a mixture-of-experts model",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "\"Open-weight hybrid instruct-and-reasoning MoE with multimodal input\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Mistral says the weights... \"drop end of this month\"",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Exact: \"Weights drop end of this month.\"",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "TechCrunch reports they arrive in three weeks, \"after safety testing is complete\"",
+   "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+   "verdict": "pass",
+   "evidence": "\"in just three weeks, after safety testing is complete\".",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "Simon Willison's write-up repeats Mistral's figures",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+   "verdict": "pass",
+   "evidence": "1T / 49B active / 3,800 GPUs repeated.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Mistral hopes it will be best in class among open-weight models and could beat closed models in specific areas",
+   "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+   "verdict": "pass",
+   "evidence": "Stock: \"best in class among open-weight models, especially outside of China\"; \"could also outperform closed models in specific areas\".",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Artificial Analysis scores it 38 ... above the median of 26 for reasoning models at a similar price",
+   "url": "https://artificialanalysis.ai/models/mistral-large-4",
+   "verdict": "pass",
+   "evidence": "38; \"above average among other reasoning models in a similar price tier\"; median 26.",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "Mistral Large 3 scored 9, Willison notes",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+   "verdict": "pass",
+   "evidence": "\"scored 9 on AA\".",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Vals AI ranks it 32nd of 44 on the Vals Index, at 48.05%",
+   "url": "https://www.vals.ai/models/mistralai_mistral-large-4",
+   "verdict": "pass",
+   "evidence": "\"32/44\", \"48.05% \u00b1 1.11\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "28.3% on Terminal-Bench 4",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "\"28.3% on Terminal-Bench 4\".",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Vals measured 22.73% on Terminal-Bench 4.0",
+   "url": "https://www.vals.ai/models/mistralai_mistral-large-4",
+   "verdict": "pass",
+   "evidence": "\"22.73% \u00b1 0.88\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "In Mistral's own blind human coding evaluation, it ranked second of five, behind Claude Opus 5",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Second of five (3.74), behind Claude Opus 5 (4.22). Page says evaluation was run \"with Surge AI\"; \"own\" is acceptable but could say \"Mistral-commissioned\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Vals AI tests found it \"exceeds GPT-6-Astra\" on legal and financial tasks, Mistral says",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Page: \"evaluated ML4 through third party evaluators (vals.ai) ... finding the model exceeds GPT-6-Astra in both cases\". Attributed to Mistral.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Mistral chose Vals for these comparisons",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "fix",
+   "evidence": "Page says only that it evaluated \"through third party evaluators (vals.ai)\"; \"chose\" is inference.",
+   "fix": "Mistral says it ran these comparisons through Vals, a third-party evaluator."
+  },
+  {
+   "citation": "3",
+   "sentence": "Vals' public page ranks it 6th of 75 on Harvey's Legal Agent Benchmark and 22nd of 75 on Finance Agent v2",
+   "url": "https://www.vals.ai/models/mistralai_mistral-large-4",
+   "verdict": "pass",
+   "evidence": "\"6/75\" and \"22/75\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "82% on a test of reproducing and patching software flaws, \"the highest of any model,\" ... per Mistral",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "\"ML4 scores 82%, the highest of any model\"; 93% of Cybench challenges.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "These are Mistral's own numbers.",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "fix",
+   "evidence": "Mistral says the 82% comes from a test in the Artificial Analysis Cyber Index (\"an independent evaluation\"); the claim is Mistral-reported, not Mistral-run. Cybench 93% is Mistral-reported.",
+   "fix": "These are Mistral-reported numbers; it attributes the 82% to a test in the Artificial Analysis Cyber Index, which this digest has not checked."
+  },
+  {
+   "citation": "1",
+   "sentence": "Mistral says several leading closed models score near zero on the same test because they refuse the task",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "\"Several leading closed models, including Claude Opus 5.5 and GPT-6 Astra, score near zero on the same test because they refuse\".",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "$1.36 per million input tokens and $4.18 per million output tokens",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Artificial Analysis lists the same prices but calls the model \"very verbose.\" It used 200M tokens to run the index, against a median of 81M",
+   "url": "https://artificialanalysis.ai/models/mistral-large-4",
+   "verdict": "pass",
+   "evidence": "\"very verbose\"; 200M output tokens vs 81M median. Note: output tokens; draft says \"tokens\". Acceptable.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "trained the model from scratch on 3,800 NVIDIA Grace Blackwell GPUs in its own datacenters",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Pierre Stock, Mistral's VP of Science, gave TechCrunch a rounder figure of 4,000",
+   "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+   "verdict": "pass",
+   "evidence": "\"Mistral VP Science Pierre Stock\"; \"only 4,000 Nvidia GPUs\". Draft title \"VP of Science\" vs source \"VP Science\": trivial.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "reinforcement learning ... is still running, and it expects \"large and rapid improvements in the weeks and months to come\"",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "\"The reinforcement learning run behind this preview is still in flight\"; exact quote.",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "Willison called it \"maybe about 6 months behind the frontier\" and noted two reasoning settings, \"none\" and \"high\"",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "The Hacker News thread drew 1,552 points",
+   "url": "https://news.ycombinator.com/item?id=49977979",
+   "verdict": "fix",
+   "evidence": "Thread root is item 49977979 (title \"Mistral Large 4\", url mistral.ai/news/mistral-large-4/, by Philpax). Draft URL 49978763 is a COMMENT by simonw (\"Surprisingly it only supports reasoning none or high\"). Live score 1555 (Firebase API and page).",
+   "fix": "Change source 6 URL to https://news.ycombinator.com/item?id=49977979 and say \"about 1,550 points\" (live score 1,555) or \"more than 1,500 points\"."
+  },
+  {
+   "citation": "7",
+   "sentence": "\"This model doesn't knock anybody's socks off\"",
+   "url": "https://news.ycombinator.com/item?id=49979576",
+   "verdict": "pass",
+   "evidence": "Comment by manlymuppet, parent is thread root 49977979. Exact (curly apostrophes). \"Most pointed critic\" is editorial; consider \"One critic\".",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "\"1/2 - 1/3 the price but with similar capabilities\"",
+   "url": "https://news.ycombinator.com/item?id=49978666",
+   "verdict": "pass",
+   "evidence": "Comment by lifeisloving, exact.",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "\"Impressive vision benchmarking\"",
+   "url": "https://news.ycombinator.com/item?id=49978149",
+   "verdict": "pass",
+   "evidence": "Comment by prodigycorp, exact.",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Mistral says it will release the weights by the end of the month, \"along with more details on the architecture, additional benchmarks, and our post-training methodology\"",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "fix",
+   "evidence": "Page: \"As we work toward releasing the weights, we will share further details on the model architecture, additional benchmarks, and our post-training methodology.\" The quoted string \"along with more details on...\" does not appear (checked full page text).",
+   "fix": "Mistral says it will release the weights by the end of the month and \"share further details on the model architecture, additional benchmarks, and our post-training methodology.\""
+  },
+  {
+   "citation": "1",
+   "sentence": "Only then can outsiders check the size claim for themselves.",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Inference, consistent with weights not yet released (TechCrunch: not open-weight yet).",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "RealCompanion, a preprint posted to arXiv on Oct. 1; not yet peer-reviewed; authors Arman Behnam, Sunglyoung Kim and Liangwei Yang",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "verdict": "pass",
+   "evidence": "v1 submitted 1 Oct 2026; authors match. \"Not yet peer-reviewed\" is a reasonable label for an arXiv preprint (no journal ref).",
+   "fix": null
+  },
+  {
+   "citation": "11",
+   "sentence": "Hugging Face featured it on Daily Papers on Oct. 5, 268 upvotes by Oct. 7",
+   "url": "https://huggingface.co/api/papers/2610.01780",
+   "verdict": "pass",
+   "evidence": "submittedOnDailyAt 2026-10-05; upvotes 268 (fetched Oct 7).",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "27,218 messages over up to 120 days; \"invented people and invented questions\"",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "verdict": "pass",
+   "evidence": "Abstract exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Internal friendship-style companion app with streaks, a habit tracker and mini-games; all consented; a model rewrote every message",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "App. C.1 and Ethics statement; \"anonymization rewrote every message with a model\".",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "Only 3.4% ... median of 2,157 messages back; 95.9% overall, 2.2% when far back",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "verdict": "pass",
+   "evidence": "Abstract exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "1.3% under a stricter reading",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"1.3% [0.8, 2.1] under the strict one\".",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Keyword search did better at 24.8% but \"still misses three in four\"",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"Lexical matching ... at 0.248, and still misses three in four\".",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "detector scored 0.530 on AUROC",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "0.530 [0.488, 0.572] on proportional stratum.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "brought up the past when not needed 60.8% of the time; none with no earlier messages",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"60.8% when ten were supplied without regard to it\"; misfire rate without context zero. Table labels that condition C3 \"ten turns from BM25\"; text wording supports draft.",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "\"memories\" labeling made models bring up the past 10 to 14 percentage points more often",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "verdict": "pass",
+   "evidence": "Abstract.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Three agent systems ... F1 of about 0.7; recovered 86% to 89%; 56% to 59% matched; \"add about seventy to eighty further fields for every hundred they recover\"",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "Table 6: F1 0.686-0.701, recall 0.861-0.893, precision 0.557-0.591; quote exact in Conclusion.",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "\"They see the person, and then imagine more\"",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "verdict": "pass",
+   "evidence": "Abstract exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Claude processed 546 million tokens, Codex 18 million, Antigravity 36 million",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "Table 6.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Ten self-selected people ... \"are not a sample of companion users and still less of people\"",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "I.5 Limitations; exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Two people account for 73% of all messages; memory results rest on just five people under strict reading",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"two heaviest relationships hold 73%\"; five participants contribute memory-bearing items under the strict reading.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "ethics committee \"is not independent of the operator\", no institutional review board",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "about a fifth of one stage's written reasoning wrong",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"close to a fifth of stage A's written reasons are wrong\".",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "The persona files are \"not a validated psychological instrument,\" and participants never reviewed them",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "fix",
+   "evidence": "Source text reads: \"Neither is a validated psychological instrument. Neither was administered to the subject or reviewed by them\" (checked in raw HTML; exact wording lacks \"not\"). The quoted phrase is not verbatim. The source sentence is likely a typo for \"not\", so quoting it either way is risky.",
+   "fix": "Drop the quotation marks: The persona and trait files were produced by a language model; the authors say they are not validated psychological instruments and were not reviewed by the participants."
+  },
+  {
+   "citation": "12",
+   "sentence": "a language model matched a writing sample to the right person 98% of the time, against 10% by chance",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "\"a language model at 98.0%, against a chance rate of 10%\".",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "dataset gated; a person reviews every request; users must accept data use agreement",
+   "url": "https://huggingface.co/datasets/Quislab/RealCompanion",
+   "verdict": "pass",
+   "evidence": "\"A person reviews every request\"; DUA acceptance on request.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "terms forbid profiling/identifying, commercial use, and claims about benefit/harm; \"the corpus records that a relationship continued, not what it did for the person in it\"",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "H.5 exact.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "SCM is an open-source Mac app ... search photos and videos in any folder",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "Repo description.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Developer Allen Lee released it under the MIT license",
+   "url": "https://github.com/allenv0/SCM/blob/main/LICENSE",
+   "verdict": "pass",
+   "evidence": "LICENSE: MIT, Copyright (c) 2026 Allen Lee.",
+   "fix": null
+  },
+  {
+   "citation": "16",
+   "sentence": "calls it \"100% free and open source\"",
+   "url": "https://news.ycombinator.com/item?id=49956510",
+   "verdict": "pass",
+   "evidence": "Comment by allenleee: \"It's 100% free and open source!\"",
+   "fix": null
+  },
+  {
+   "citation": "17",
+   "sentence": "Show HN post reached 175 points",
+   "url": "https://news.ycombinator.com/item?id=49952111",
+   "verdict": "pass",
+   "evidence": "score 175 (live).",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "README promises \"no accounts, no cloud, no uploads. Inference runs on your Mac\"",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "Five modes ... local chatbot opt-in; embedding model",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "README mode table; CLIP default.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "offline after a one-time 435MB model download",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "\"~435MB for the default CLIP; after that, fully offline.\"",
+   "fix": null
+  },
+  {
+   "citation": "18",
+   "sentence": "Photos on Mac with Apple Intelligence; \"a key moment in a video,\" natural language",
+   "url": "https://support.apple.com/guide/photos/search-for-photos-and-videos-pht64de33e5a/mac",
+   "verdict": "pass",
+   "evidence": "\"Apple Intelligence makes it even easier to find a specific photo, or a key moment in a video. Type a description ... using natural language\".",
+   "fix": null
+  },
+  {
+   "citation": "19",
+   "sentence": "Immich: A self-hosted photo app",
+   "url": "https://docs.immich.app/features/searching/",
+   "verdict": "fix",
+   "evidence": "Cited Searching page does not say \"self-hosted\" (no occurrence). It does support CLIP-based \"contextual\" search.",
+   "fix": "Cut \"self-hosted\" or cite an Immich page that says it (e.g. docs.immich.app home / immich.app)."
+  },
+  {
+   "citation": "19",
+   "sentence": "Immich: Photos via CLIP-based \"contextual\" search",
+   "url": "https://docs.immich.app/features/searching/",
+   "verdict": "pass",
+   "evidence": "\"metadata and contextual CLIP search\".",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "Homebrew install needs Apple Silicon and macOS 12 or later; media copied into app library",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "\"Apple Silicon, macOS 12+\"; cask arch arm64, monterey; \"Media is copied into the app-managed library\".",
+   "fix": null
+  },
+  {
+   "citation": "20",
+   "sentence": "One commenter couldn't use it because their photos sit \"on an external SMB network drive\"",
+   "url": "https://news.ycombinator.com/item?id=49956036",
+   "verdict": "pass",
+   "evidence": "Reply to tredre3's Apple Photos natural-language search suggestion; \"I have not tried it because the photos are on an external SMB network drive.\" Quote fragment exact.",
+   "fix": null
+  },
+  {
+   "citation": "21",
+   "sentence": "Immich suggested on Hacker News as the cross-platform option",
+   "url": "https://news.ycombinator.com/item?id=49953541",
+   "verdict": "pass",
+   "evidence": "lucideer: \"more cross-platform / holistic basis, Immich does this\".",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "README: splits each video at camera cuts, \"each segment embeds its midpoint frame\"; density 60s to 2.5s",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "\"ffmpeg scans each video for shot boundaries\"; quote exact; presets 60 to 2.5.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "The app's pitch is search for \"every frame of video\"",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "Repo tagline.",
+   "fix": null
+  },
+  {
+   "citation": "22",
+   "sentence": "anything shorter than the interval can be missed",
+   "url": "https://news.ycombinator.com/item?id=49953700",
+   "verdict": "pass",
+   "evidence": "\"sampling rate can be tricky if what you are looking for lasted less than interval period\".",
+   "fix": null
+  },
+  {
+   "citation": "23",
+   "sentence": "user with about 12,000 videos ... not knowing the time it would take stopped them",
+   "url": "https://news.ycombinator.com/item?id=49953208",
+   "verdict": "pass",
+   "evidence": "Exact paraphrase.",
+   "fix": null
+  },
+  {
+   "citation": "24",
+   "sentence": "\"frame sampling rate is the whole ballgame. One frame a second on 12k videos is days\"",
+   "url": "https://news.ycombinator.com/item?id=49953375",
+   "verdict": "pass",
+   "evidence": "Exact; builder of similar CLIP tool.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "default model about 480 to 570 milliseconds per image on a CPU",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "CLIP ViT-L/14@336 ~480-570ms/img.  README table does not say CPU in the row; WebFetch summary says CPU. Minor.",
+   "fix": null
+  },
+  {
+   "citation": "25",
+   "sentence": "Homebrew build uses local development certificate, not Developer ID; installer clears quarantine; removed once notarized",
+   "url": "https://github.com/allenv0/homebrew-scm/blob/main/Casks/scm.rb",
+   "verdict": "pass",
+   "evidence": "Cask comments confirm.",
+   "fix": null
+  },
+  {
+   "citation": "26",
+   "sentence": "Lee says he is exploring a native version \"for speed\"",
+   "url": "https://news.ycombinator.com/item?id=49954873",
+   "verdict": "pass",
+   "evidence": "\"Exploring a native Swift + MLX v2 track separately for speed.\"",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Closing section: anonymized chats traced to writer 98%; AI filled in traits",
+   "url": "https://arxiv.org/html/2610.01780v2",
+   "verdict": "pass",
+   "evidence": "Supported as above.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "\"free, open-source Mac app by developer Allen Lee\" (sixty bullet 3) and 27,218/ten people/3.4% (bullet 2)",
+   "url": "https://github.com/allenv0/SCM",
+   "verdict": "pass",
+   "evidence": "All supported by sources above.",
+   "fix": null
+  },
+  {
+   "citation": "1,2,3",
+   "sentence": "Sixty bullet 1: public preview Oct 6, 1T/49B, AA 38, Vals 32nd of 44",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "verdict": "pass",
+   "evidence": "Supported.",
+   "fix": null
+  },
+  {
+   "citation": "-",
+   "sentence": "Frontmatter source titles (inferred) vs live page titles",
+   "url": "multiple",
+   "verdict": "fix",
+   "evidence": "Page titles: Mistral = \"Introducing Mistral Large 4 | Mistral\" (draft \"Mistral Large 4\"); AA = \"Mistral Large 4 Preview Intelligence, Performance & Price Analysis | Artificial Analysis\" (draft \"Mistral Large 4 Preview\"); Vals = \"Mistral Large 4 Benchmarks, Cost and Capabilities | Vals AI\" (matches); Simon Willison = \"Introducing Mistral Large 4: Le chonk\" (draft \"Le Chonk\"); Apple = \"Search for photos and videos on Mac - Apple Support\" (draft \"...in Photos on Mac\"); Immich = \"Searching | Immich\" (matches); GitHub SCM = \"GitHub - allenv0/SCM: Deep AI search for every photo and every frame of video in any folder on macOS\"; LICENSE = \"SCM/LICENSE at main \u00b7 allenv0/SCM \u00b7 GitHub\"; Casks = \"homebrew-scm/Casks/scm.rb at main \u00b7 allenv0/homebrew-scm \u00b7 GitHub\"; HN thread = \"Mistral Large 4\" (matches, but URL wrong, see item 6); HN story SCM = \"Show HN: AI search for every photo and every frame of video on macOS\" (matches). HN comment titles \"Comment on ...\" are synthetic labels, not page titles. Source 1 type \"Official\" fine; TechCrunch title matches.",
+   "fix": "Update titles as listed; fix source 6 URL to item=49977979."
+  }
+ ],
+ "round2": {
+  "checked": 8,
+  "passed": 6,
+  "results": [
+   {
+    "citation": "6",
+    "sentence": "The Hacker News thread drew about 1,550 points; source 6 URL item=49977979",
+    "url": "https://news.ycombinator.com/item?id=49977979",
+    "verdict": "pass",
+    "evidence": "Root story 'Mistral Large 4' by Philpax, url mistral.ai/news/mistral-large-4/; Firebase score 1557 on Oct 7. 'About 1,550' is fair.",
+    "fix": null
+   },
+   {
+    "citation": "2,3",
+    "sentence": "Early independent tests give mixed results: Artificial Analysis scores it above average for its price tier, while Vals AI ranks it 32nd of 44",
+    "url": "https://artificialanalysis.ai/models/mistral-large-4",
+    "verdict": "pass",
+    "evidence": "Matches round-1 verified AA 'above average' in price tier and Vals 32/44.",
+    "fix": null
+   },
+   {
+    "citation": "1",
+    "sentence": "Mistral says it ran these comparisons through Vals, a third-party evaluator",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "verdict": "pass",
+    "evidence": "Page: 'we evaluated ML4 through third party evaluators (vals.ai) on representative tasks for both legal and financial tasks'.",
+    "fix": null
+   },
+   {
+    "citation": "1",
+    "sentence": "These are Mistral-reported numbers; it attributes the 82% to a test in the Artificial Analysis Cyber Index, which this digest has not checked",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "verdict": "pass",
+    "evidence": "Page: 'On the Artificial Analysis Cyber Index ... On one of the index's tests ... ML4 scores 82%, the highest of any model'; Cybench 93%; closed models near zero because they refuse.",
+    "fix": null
+   },
+   {
+    "citation": "1",
+    "sentence": "As we work toward releasing the weights, we will share further details on the model architecture, additional benchmarks, and our post-training methodology,\" the company says",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "verdict": "pass",
+    "evidence": "Verbatim match on live page. Weights: 'Weights drop end of this month.'",
+    "fix": null
+   },
+   {
+    "citation": "12",
+    "sentence": "The persona and trait files were produced by a language model; the authors say they are not validated psychological instruments and were not reviewed by the participants",
+    "url": "https://arxiv.org/html/2610.01780v2",
+    "verdict": "pass",
+    "evidence": "Source: 'Neither is a validated psychological instrument. Neither was administered to the subject or reviewed by them.' 'Neither is' = both are not, so the round-1 'typo' concern was mistaken; paraphrase is accurate and unquoted.",
+    "fix": null
+   },
+   {
+    "citation": "19",
+    "sentence": "Immich cell 'A photo app'",
+    "url": "https://docs.immich.app/features/searching/",
+    "verdict": "fix",
+    "evidence": "Cited Searching page never calls Immich a 'photo app' (no occurrence); immich.app and the overview page also do not yield a supporting phrase. The cell is an unsupported descriptor.",
+    "fix": "Replace with what the page supports: 'Search runs on Immich's Postgres database with CLIP-style models [[19]]', or cut the descriptor."
+   },
+   {
+    "citation": "-",
+    "sentence": "Frontmatter titles vs live page titles",
+    "url": "multiple",
+    "verdict": "fix",
+    "evidence": "Match: Mistral ('Introducing Mistral Large 4 | Mistral', site suffix dropped), Vals, TechCrunch, Willison ('Le chonk'), HN 49977979, arXiv, HF Daily Papers API, Quislab, Show HN, Apple ('Search for photos and videos on Mac'), Immich. MISMATCH: Artificial Analysis live title is 'Mistral Large 4 Preview - Intelligence, Performance & Price Analysis' (hyphen after Preview; draft omits it). GitHub pages (SCM, LICENSE, Casks) returned 403 in this session, so not re-verified live; round-1 titles recorded as matching. HN 'Comment on...' titles are synthetic labels.",
+    "fix": "Source 2 title: 'Mistral Large 4 Preview - Intelligence, Performance & Price Analysis'."
+   }
+  ]
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "section": "news",
+ "window": "2026-10-03 to 2026-10-06",
+ "sourcesTried": [
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok"
+  },
+  {
+   "name": "OpenAI news RSS",
+   "status": "ok"
+  },
+  {
+   "name": "HN Algolia (>100 pts)",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "fetched 200 but parsed no items in window (likely Atom format); skipped"
+  },
+  {
+   "name": "Google News RSS",
+   "status": "302 then fetched; not mined for items (HN/publisher feeds sufficed)"
+  },
+  {
+   "name": "Google blog RSS",
+   "status": "301 redirect, empty/no items"
+  },
+  {
+   "name": "Anthropic, DeepMind, Meta AI, NVIDIA, Mistral blogs",
+   "status": "not fetched as feeds; Mistral and Reflection pages fetched ok (200)"
+  },
+  {
+   "name": "openai.com article pages",
+   "status": "403 to curl"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Mistral Large 4 released (reported as a 1T-parameter model)",
+   "summary": "Mistral announces Large 4, pitched to leapfrog closed and open rivals.",
+   "primaryUrl": "https://mistral.ai/news/mistral-large-4/",
+   "date": "2026-10-06",
+   "signal": "HN 1552 pts / 951 comments https://news.ycombinator.com/item?id=49977979; TechCrunch https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 19,
+   "coveredLast8Weeks": false,
+   "notes": "Avoid framing around company's home region."
+  },
+  {
+   "title": "Reflection debuts Beam, a 501B open-weight model",
+   "summary": "Open-weight model from Reflection AI aimed at matching top open models at lower compute cost.",
+   "primaryUrl": "https://reflection.ai/blog/introducing-beam",
+   "date": "2026-10-05",
+   "signal": "HN 541 pts / 167 comments https://news.ycombinator.com/item?id=49969183; TechCrunch https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "TechCrunch headline names a nationality; drop that framing."
+  },
+  {
+   "title": "Opus 5.5 agents find two room-temperature magnetic semiconductor candidates",
+   "summary": "Vals AI reports AI agents proposing two candidate materials.",
+   "primaryUrl": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "date": "2026-10-05",
+   "signal": "HN 482 pts / 325 comments https://news.ycombinator.com/item?id=49970667",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "Candidates are unverified claims; check wording."
+  },
+  {
+   "title": "OpenAI shares AI progress in mathematics",
+   "summary": "OpenAI post on AI results in mathematics, with discussion of releasing AI-generated math.",
+   "primaryUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "date": "2026-10-06",
+   "signal": "HN 264 pts / 227 comments https://news.ycombinator.com/item?id=49984923",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Page returned 403 to curl but URL is in OpenAI RSS feed; verify content before drafting."
+  },
+  {
+   "title": "OpenTPU: open-source AI accelerator developed by AI",
+   "summary": "Open-source TPU-style chip design reportedly produced by AI agents.",
+   "primaryUrl": "https://github.com/FeSens/openTPU",
+   "date": "2026-10-06",
+   "signal": "HN 211 pts / 275 comments https://news.ycombinator.com/item?id=49980715",
+   "scores": {
+    "novelty": 5,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "May fit invention section better."
+  },
+  {
+   "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+   "summary": "Ars Technica reports agent behavior that overloaded Wikipedia infrastructure.",
+   "primaryUrl": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+   "date": "2026-10-06",
+   "signal": "In Ars feed; no HN thread checked",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Original reporting by Ars; look for Wikimedia/OpenAI statement as primary."
+  },
+  {
+   "title": "MCP agent-to-agent communication flaw exposes structural weakness",
+   "summary": "Ars reports vulnerability in agents from Google and others tied to MCP design.",
+   "primaryUrl": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+   "date": "2026-10-05",
+   "signal": "In Ars feed",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Find original researcher disclosure."
+  },
+  {
+   "title": "EmbeddingGemma 2: open lightweight multimodal embedding model",
+   "summary": "Google releases second-generation open embedding model.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+   "date": "2026-10-06",
+   "signal": "HN 195 pts / 28 comments https://news.ycombinator.com/item?id=49980487",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "OpenAI launches visual ads alongside image generation results",
+   "summary": "OpenAI adds a new ads format and measurement in ChatGPT.",
+   "primaryUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "date": "2026-10-05",
+   "signal": "TechCrunch https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Anthropic gives startups a free year of Claude Team and $1,000 credits",
+   "summary": "Startup program announced.",
+   "primaryUrl": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+   "date": "2026-10-06",
+   "signal": "TechCrunch feed",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 9,
+   "coveredLast8Weeks": false,
+   "notes": "No Anthropic primary URL found in fetched feeds."
+  }
+ ],
+ "excludedPolitical": [
+  "OpenAI will start watermarking ChatGPT text in the EU / Our approach to EU text provenance rules (regulatory and region-based)",
+  "FTC investigating OpenAI, Anthropic and others (government action)",
+  "Meta AI data centers and federal taxes (policy)",
+  "Religious scholars met with Anthropic (NYT; faith-adjacent, not political but paywalled; consider for kingdom section)",
+  "Reflection Beam 'rival Chinese models' framing (geographic angle; story itself kept as candidate)"
+ ]
+}
