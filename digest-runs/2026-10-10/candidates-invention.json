@@ -1,0 +1,189 @@
+{
+ "section": "invention",
+ "window": "Wed Oct 7 - Fri Oct 9, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok, fetched but no candidates selected (little detail in feed)"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by sandbox (repo-scoped only)"
+  },
+  {
+   "name": "_topics.json",
+   "status": "ok, no overlap found"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
+   "summary": "Open-source overlay tool that lets agents point at and annotate things on the user's screen.",
+   "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "date": "2026-10-09",
+   "signal": "HN 366 pts / 161 comments https://news.ycombinator.com/item?id=50018817",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Bigwords.page: turn any screen into a sign, the URL is the app",
+   "summary": "Web app where the URL encodes the content; not AI-specific but very high HN traction.",
+   "primaryUrl": "https://bigwords.page/",
+   "date": "2026-10-07",
+   "signal": "HN 706 pts / 163 comments https://news.ycombinator.com/item?id=49994443",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false,
+   "notes": "Not AI; check fit."
+  },
+  {
+   "title": "Whistle: speech-to-text in 16.9 MB",
+   "summary": "Cactus Compute's tiny on-device speech recognition model.",
+   "primaryUrl": "https://cactuscompute.com/blog/whistle",
+   "date": "2026-10-09",
+   "signal": "Lobsters ai tag, Oct 9 (no HN data pulled)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false,
+   "notes": "Details taken from title only; verify before writing."
+  },
+  {
+   "title": "Jevman: AI decision models play Pac-Man",
+   "summary": "Open benchmark from Opper comparing AI decision models playing Pac-Man.",
+   "primaryUrl": "https://opper.ai/jevman-benchmark/",
+   "date": "2026-10-08",
+   "signal": "HN 71 pts / 23 comments https://news.ycombinator.com/item?id=50007993",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Rgpu: a PyTorch device whose tensors live on a remote GPU",
+   "summary": "Lets PyTorch code transparently use a remote GPU as a device.",
+   "primaryUrl": "https://github.com/ymcrcat/rgpu",
+   "date": "2026-10-07",
+   "signal": "HN 55 pts / 4 comments https://news.ycombinator.com/item?id=49988516",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Rembrandt: free open-source local AI Lightroom alternative",
+   "summary": "Local, AI-assisted photo editing/management app.",
+   "primaryUrl": "https://github.com/thesnarkitecht/rembrandt",
+   "date": "2026-10-08",
+   "signal": "HN 47 pts / 61 comments https://news.ycombinator.com/item?id=50012199",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "NanoMuse: open-source AI agent for phone and computer",
+   "summary": "Open-source cross-device agent.",
+   "primaryUrl": "https://github.com/nano-muse/nanoMuse",
+   "date": "2026-10-07",
+   "signal": "HN 65 pts / 22 comments https://news.ycombinator.com/item?id=49987765",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "AI Agent on a Nokia 110",
+   "summary": "Running an AI agent on a basic feature phone.",
+   "primaryUrl": "https://github.com/anupray95/AI-Agent-on-a-NOKIA",
+   "date": "2026-10-08",
+   "signal": "HN 31 pts / 14 comments https://news.ycombinator.com/item?id=50006114",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 13,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "AI SRE Arena: open benchmark for AI SRE agents on Kubernetes",
+   "summary": "Benchmark by Edge Delta for incident-response agents.",
+   "primaryUrl": "https://github.com/edgedelta/project-arena",
+   "date": "2026-10-08",
+   "signal": "HN 24 pts / 9 comments https://news.ycombinator.com/item?id=50008642",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "recentlyCovered": false,
+   "notes": ""
+  },
+  {
+   "title": "Terse: Claude Code plugin that halves reply length by cutting filler",
+   "summary": "Plugin trimming verbosity in coding-agent replies.",
+   "primaryUrl": "https://github.com/lowenbjer/claude-terse",
+   "date": "2026-10-07",
+   "signal": "HN 24 pts / 16 comments https://news.ycombinator.com/item?id=49995809",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 11,
+   "recentlyCovered": false,
+   "notes": ""
+  }
+ ],
+ "excludedPolitical": []
+}

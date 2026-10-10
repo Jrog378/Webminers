@@ -1,0 +1,32 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "number-led",
+  "sections": {
+    "news": {
+      "format": "three-things",
+      "words": 550,
+      "why": "Fast-moving product launch. Claim-vs-evidence was used for news in each of the last 3 issues, so three-things (what it does, how it is governed, what analysts doubt) keeps the shape fresh while still letting us attribute every point to Google or to named analysts."
+    },
+    "research": {
+      "format": "by-the-numbers",
+      "words": 600,
+      "why": "SafeActBench is numbers-heavy (656 cases, 5 protocols, 10 configurations, 2.0%/1.3% evaluator error rates, static-vs-interactive gap). Label as a preprint, not yet peer-reviewed, with the validators-were-team-members caveat."
+    },
+    "invention": {
+      "format": "explainer",
+      "words": 350,
+      "why": "Single small macOS tool with self-reported results. Run-in labels (What it does / How it works / Why it matters / What's still uncertain) suit an honest-caveat piece. Comparison was used in 2 of the last 3 issues. Explainer used once, in the invention slot only."
+    }
+  },
+  "combination": "news=three-things, research=by-the-numbers, invention=explainer",
+  "checks": {
+    "distinctFormats": true,
+    "explainerCount": 1,
+    "recentCombinations": [
+      "2026-09-30: research=by-the-numbers, news=claim-vs-evidence, invention=comparison",
+      "2026-10-03: research=explainer, news=claim-vs-evidence, invention=three-things",
+      "2026-10-07: research=qa, news=claim-vs-evidence, invention=comparison"
+    ],
+    "headlineHistory": "09-30 claim, 10-03 question, 10-07 claim; this issue number-led"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "drafted",
+  "issueDate": "2026-10-10",
+  "window": "Wed Oct 7 - Fri Oct 9, 2026",
+  "slug": "2026-10-10-google-gemini-agent-for-work",
+  "sourcesFailed": [
+    "HN Algolia (research scout, 400)",
+    "GitHub search API (blocked)",
+    "Google News RSS (empty)",
+    "DeepMind RSS (gzip)",
+    "Reddit (blocked)",
+    "cdn.stocksnap.io (403)"
+  ],
+  "topics": {
+    "news": "Google Cloud Gemini agent",
+    "research": "From Evidence to Action: How Tool-Using Agents Fail (SafeActBench)",
+    "invention": "Big Arrow on the Screen"
+  },
+  "formats": {
+    "news": "three-things",
+    "research": "by-the-numbers",
+    "invention": "explainer"
+  },
+  "factcheck": {
+    "round1": {
+      "checked": 68,
+      "pass": 51,
+      "fix": 17,
+      "cut": 0
+    },
+    "round2": {
+      "checked": 69,
+      "pass": 67,
+      "fix": 2,
+      "cut": 0
+    }
+  },
+  "editor": "PASS (round 2; round 1 FAIL on citation order and a duplicate sentence)"
+}

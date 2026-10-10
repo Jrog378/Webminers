@@ -1,0 +1,234 @@
+{
+ "section": "news",
+ "window": "Wed Oct 7 - Fri Oct 9, 2026",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS",
+   "status": "failed (empty response)"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok (few AI items in window)"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "ok (after URL-encoding retry)"
+  },
+  {
+   "name": "OpenAI news RSS",
+   "status": "ok (customer stories mostly)"
+  },
+  {
+   "name": "Google blog RSS",
+   "status": "ok"
+  },
+  {
+   "name": "NVIDIA blog RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Anthropic news page",
+   "status": "partial (HTML only, not parsed)"
+  },
+  {
+   "name": "DeepMind RSS",
+   "status": "failed (binary/gzip response)"
+  },
+  {
+   "name": "Reddit, Meta AI, Mistral",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Typesafe AI raises $870M at $7.5B valuation for non-text AI model Jev",
+   "summary": "Startup behind a non-text model raises a huge round weeks after launch.",
+   "primaryUrl": "https://typesafe.ai/blog/series-ai",
+   "date": "2026-10-09",
+   "signal": "HN 238 pts / 200 comments https://news.ycombinator.com/item?id=50023450; TechCrunch coverage",
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 19,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "OpenAI drops large batch of math solutions; mathematicians say it will take years to digest",
+   "summary": "OpenAI release of mathematics results described as 'pure insanity' by mathematicians.",
+   "primaryUrl": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+   "date": "2026-10-09",
+   "signal": "Verge; related HN: AI-assisted 11-squares packing proof 118 pts https://news.ycombinator.com/item?id=49993121",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 3
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": "Original OpenAI announcement URL not found in fetched feeds; Verge is secondary."
+  },
+  {
+   "title": "Google Cloud introduces the Gemini agent (agentic AI for businesses)",
+   "summary": "Google brings agentic Gemini to enterprises.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+   "date": "2026-10-08",
+   "signal": "TechCrunch coverage; official blog",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "NVIDIA and Microsoft launch RTX Spark and local AI agents for Windows PCs",
+   "summary": "Local AI agent platform for Windows announced at joint event.",
+   "primaryUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "date": "2026-10-07",
+   "signal": "NVIDIA blog",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Biohub $1.8B commitment for AI-ready biological data (Virtual Biology Initiative expansion)",
+   "summary": "Large funding to build biology datasets for AI.",
+   "primaryUrl": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+   "date": "2026-10-08",
+   "signal": "HN 142 pts / 21 comments https://news.ycombinator.com/item?id=50011999",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "'Global' in source title; avoid geographic framing."
+  },
+  {
+   "title": "Anthropic launches free OSS Scanner security scans for open-source projects",
+   "summary": "Free vulnerability reports from Anthropic's strongest models for open-source maintainers.",
+   "primaryUrl": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+   "date": "2026-10-08",
+   "signal": "Verge",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Official Anthropic post not located; Verge is secondary."
+  },
+  {
+   "title": "OpenAI annualised revenue reportedly $20B below earlier signals",
+   "summary": "Report on revenue shortfall with implications for Nvidia, Oracle, CoreWeave.",
+   "primaryUrl": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+   "date": "2026-10-08",
+   "signal": "HN 421 pts / 298 comments https://news.ycombinator.com/item?id=50008187",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": "Original reporting, no company statement."
+  },
+  {
+   "title": "Google expands SynthID to identify AI-generated content globally; SynthID Detector",
+   "summary": "Wider tool for detecting AI-generated content.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+   "date": "2026-10-07",
+   "signal": "HN SynthID Detector 128 pts / 98 comments https://news.ycombinator.com/item?id=49993188",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Anthropic model sent a false homicide tip to Philadelphia police",
+   "summary": "An AI agent produced fabricated tip to police; AI reliability incident.",
+   "primaryUrl": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+   "date": "2026-10-09",
+   "signal": "TechCrunch and Verge both covered",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": "Story names a city; keep framing on agent failure, not place. No primary statement fetched."
+  },
+  {
+   "title": "Google AMIE clinical study in The Lancet suggests AI can improve patient-physician relationships",
+   "summary": "Peer-reviewed study of Google's medical AI.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+   "date": "2026-10-08",
+   "signal": "Google blog",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "Trump's attempt to rename AI",
+   "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+   "reason": "political"
+  },
+  {
+   "title": "Iranian campaign planted ChatGPT articles in US publications",
+   "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+   "reason": "geopolitical/country-centered"
+  },
+  {
+   "title": "California trying to shut down robot vs human cage matches",
+   "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+   "reason": "regulatory/place-centered"
+  },
+  {
+   "title": "USA Today sues OpenAI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+   "reason": "legal/policy fight"
+  }
+ ]
+}

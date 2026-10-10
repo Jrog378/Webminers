@@ -1,0 +1,259 @@
+[
+ {
+  "id": "r01",
+  "claim": "Paper is an arXiv preprint submitted 6 Oct 2026 by Hongzhan Lin and five co-authors.",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "Submitted on 6 Oct 2026",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r02",
+  "claim": "Core thesis: a correct outcome does not show the action was backed by evidence gathered beforehand.",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "correct outcomes do not guarantee that their actions were supported by evidence established beforehand",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r03",
+  "claim": "Across ten model-harness configurations, strong static judgment coexists with much weaker interactive execution.",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "strong static action assessment can coexist with much weaker interactive execution",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r04",
+  "claim": "Failures often begin before execution: incomplete investigation or acting before evidence is established.",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "agents stop with incomplete investigation or act before required evidence is established",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r05",
+  "claim": "SafeActBench has 656 cases, six domains, five protocols.",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "comprising 656 cases across six operational domains and five protocols",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r06",
+  "claim": "The six domains are customer/policy, engineering/infrastructure, legal/financial, research assistance, smart-home, and healthcare operations.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "customer and policy operations, engineering and infrastructure operations, legal and financial operations, research assistance, smart-home control, and healthcare operations",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r07",
+  "claim": "The evaluator is deterministic and uses no LLM judge.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "It neither inspects hidden reasoning nor relies on an LLM judge",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r08",
+  "claim": "Evidence is entity-bound: matching values from a different record do not count.",
+  "url": "https://safeact.github.io",
+  "quote": "Reading $49.99 from charge C1 does not establish the amount of C2, even when the values match",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r09",
+  "claim": "Five model families were tested, each in its own harness and in a shared Inspect ReAct harness.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "Each model is paired with two harnesses: its family-associated harness, namely Claude Code, Codex, DeepSeek Harness (DSH), Qwen Code, or ZCode, and a shared ReAct harness implemented in Inspect AI",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r10",
+  "claim": "The models were Claude Opus 5, GPT-5.6 Sol, DeepSeek-V4-Flash, Qwen3.8-Flash, and GLM-5.2.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "Claude Opus 5, GPT-5.6 Sol, DeepSeek-V4-Flash, Qwen3.8-Flash, and GLM-5.2",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r11",
+  "claim": "GLM-ZCode and DeepSeek-DSH exceed 96% on static Legacy, but GLM-ZCode falls to 12.1-34.1% on V1-V3.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "GLM–ZCode and DeepSeek–DSH both exceed 96% on Legacy, yet they differ sharply on V1–V3: DeepSeek–DSH remains around 60%, whereas GLM–ZCode falls to between 12.1% and 34.1%",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r12",
+  "claim": "On the same V1 cases, static accuracy is at least 95% while interactive success is at most 52%.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "static accuracy is at least 95% while interactive ECS is at most 52%",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r13",
+  "claim": "Agents stop before completing investigation in 21.7-62.9% of V0 cases and act prematurely in 37.0-66.9% of V1 episodes with an action attempt.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "BSR ranges from 21.7% to 62.9% on V0, and PAR ranges from 37.0% to 66.9% among V1 episodes with an action attempt",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r14",
+  "claim": "Once evidence is complete, single actions succeed 93.2-100% for nine of ten configurations.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "CAS ranges from 93.2% to 100% for nine of the ten configurations, with DeepSeek–Inspect lower at 83.3%",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r15",
+  "claim": "When a decisive record is withheld, agents still act in roughly half of episodes.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "withholding reduces action probability by 37.2–45.2 percentage points, yet agents still act in 46.5–53.5% of completed Withheld episodes",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r16",
+  "claim": "Agents responded more to a requester claim than to absent evidence alone.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "Agents thus respond more to a requester’s conflicting claim than to absent evidence alone",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r17",
+  "claim": "Harness effects are model-dependent: DeepSeek +4.4 points with its own harness, GLM 6.8 points worse with ZCode.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "DeepSeek gains 4.4 percentage points with DSH relative to Inspect, whereas GLM shifts in the opposite direction, with ZCode 6.8 points below Inspect",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r18",
+  "claim": "The Qwen harnesses disagree on 134 of 570 cases.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "the two Qwen harnesses, for example, disagree on 134 of the 570 cases (23.5%)",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r19",
+  "claim": "Evaluator audit on 300 trajectories: 2.0% false acceptance, 1.3% false rejection.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "False acceptance occurred in 3/150 (2.0%, Wilson 95% CI: 0.7–5.7%) evaluator-positive judgments, while false rejection occurred in 2/150 (1.3%, Wilson 95% CI: 0.4–4.7%) evaluator-negative judgments",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r20",
+  "claim": "Human validation and audits were done by members of the research team.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "were performed by members of the research team, and no external human subjects were involved",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r21",
+  "claim": "Limitation: synthetic domains, not safety certification for deployed systems.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "results on them should not be interpreted as certifications of safety for deployed systems in the corresponding real-world domains",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r22",
+  "claim": "Limitation: measures observable support, not internal reliance.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "Our analysis captures observable support rather than internal reliance",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r23",
+  "claim": "Limitation: matched static/interactive comparison confounds evidence availability and action construction.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "it does not isolate the contribution of each component",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r24",
+  "claim": "In a class-balanced control the static advantage is smaller (about 5-13 points) and not universal.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "The direction is not universal. GLM–Inspect achieves 73.7% static versus 83.8% interactive accuracy",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r25",
+  "claim": "A structured-evidence runtime (SCGR-Select) did not reliably improve success.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "structured evidence selection alone does not ensure higher task success",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r26",
+  "claim": "Stated future work: extend interventions to multi-action protocols.",
+  "url": "https://arxiv.org/html/2610.07753",
+  "quote": "Extending the interventions to multi-action protocols, where evidence can be varied at each action checkpoint, is a natural next step",
+  "sourceType": "Paper",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r27",
+  "claim": "Code is MIT-licensed and data CC BY 4.0, per the repo README.",
+  "url": "https://github.com/caoshidong66/safeact",
+  "quote": "Code-MIT",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r28",
+  "claim": "Affiliations per README: NUS, Hong Kong Baptist University, Amazon Web Services, Princeton.",
+  "url": "https://github.com/caoshidong66/safeact",
+  "quote": "<sup>1</sup>National University of Singapore&nbsp;&nbsp; <sup>2</sup>Hong Kong Baptist University&nbsp;&nbsp; <sup>3</sup>Amazon Web Services&nbsp;&nbsp; <sup>4</sup>Princeton University",
+  "sourceType": "Official",
+  "date": "2026-10-06"
+ },
+ {
+  "id": "r29",
+  "claim": "Independent prior work (IBM, Near-Miss) found latent policy failures in 8-17% of mutating trajectories despite correct final state.",
+  "url": "https://arxiv.org/abs/2603.29665",
+  "quote": "latent failures occur in 8-17% of trajectories involving mutating tool calls, even when the final outcome matches the expected ground-truth state",
+  "sourceType": "Paper",
+  "date": "2026-03-31"
+ },
+ {
+  "id": "r30",
+  "claim": "Independent related work (AgentAbstain): best of 17 models reaches 59.5% paired accuracy on knowing when not to act.",
+  "url": "https://arxiv.org/abs/2607.10059",
+  "quote": "the best agent (Gemini 3.1 Pro) achieves only 59.5% paired accuracy",
+  "sourceType": "Paper",
+  "date": "2026-07-11"
+ },
+ {
+  "id": "r31",
+  "claim": "AgentAbstain: abstention ability is largely independent of task-solving ability.",
+  "url": "https://arxiv.org/abs/2607.10059",
+  "quote": "abstention capability is largely independent of general task-solving capability",
+  "sourceType": "Paper",
+  "date": "2026-07-11"
+ },
+ {
+  "id": "r32",
+  "claim": "An aggregator write-up (aiweekly.co, Alexis Dufresne, 7 Oct 2026) summarized the paper with no outside expert comment, and misattributed the 12.1% figure to DAG workflows (it is the V2 linear result).",
+  "url": "https://aiweekly.co/alerts/safeactbench-paper-shows-tool-using-agents-pass-97-static-but-act-before",
+  "quote": "Multi-step DAG workflows perform poorly, with GLM at 12.1%",
+  "sourceType": "Reporting",
+  "date": "2026-10-07",
+  "note": "Quote as returned by WebFetch summarizer; not byte-verified against raw HTML."
+ }
+]

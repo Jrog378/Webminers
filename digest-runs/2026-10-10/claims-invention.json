@@ -1,0 +1,282 @@
+[
+  {
+    "id": "inv-01",
+    "claim": "What it is: a macOS CLI plus agent skill that draws an arrow and sign above every window.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "is a macOS command-line tool, plus a skill for Claude Code and Codex, that draws an arrow and a sign on top of every window. Clicks go through, your keyboard focus stays put, and the arrow removes itself. MIT licensed.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-02",
+    "claim": "The tool only points; it never clicks, types or captures.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "Not a screen annotator, not a click bot, not a screenshot tool. It never clicks, types or captures. It only points. Deliberately.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-03",
+    "claim": "Motivation: agents hit steps only a human may or should do.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "agents now do real work on your Mac, and sooner or later hit a step **only a human may do**, or one the human wants to learn.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-04",
+    "claim": "Drawing needs no macOS permission; single Swift binary, no daemon, no telemetry, no AI inside.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "Drawing needs **no macOS permission at all**. One Swift binary: no daemon, no menu-bar icon, no account, no telemetry, and, we checked twice, no AI inside. It is an arrow.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-05",
+    "claim": "Targeting by on-screen label (--element) needs the Accessibility permission, granted to the launching app (Terminal, IDE), not to bigarrow.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "macOS grants these to the app that started `bigarrow` (Terminal, iTerm2, Ghostty, VS Code, Claude), never to `bigarrow` itself, so switch on that app.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-06",
+    "claim": "Every arrow ends by itself: default time limits of 8 s (point) and 300 s (start), and it ends when the agent process exits.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "`--duration 10` (`point` 8 s, `start` 300 s, `0` = no limit)",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-07",
+    "claim": "Copy buttons: {{value}} in the sign text becomes a one-click copy button.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "`{{value}}` in the sign becomes a copy button. Click, paste.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-08",
+    "claim": "Chrome web page elements need Chrome started with an accessibility flag.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "Chrome needs `--force-renderer-accessibility` (or VoiceOver on); it ignores the usual request (verified October 2026).",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-09",
+    "claim": "Author claims 104 automated tests, CI on macOS 15, also passed on macOS 26 and 27.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "104 automated tests: geometry, placement, joints, a golden image, copy buttons, recorded window-server, Accessibility and Peekaboo fixtures, and the real window server (click-through, focus never moves, stop timing). CI runs macOS 15; also passed on macOS 26 and 27.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-10",
+    "claim": "Author-measured CPU cost of a pulsing arrow.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "**1.4 % on a CI runner.** Core Animation does the work in the render server.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-11",
+    "claim": "Skill token cost as measured by the author.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "**182 tokens, most of the time.** That is the skill's description, the only part the agent always sees. The instructions, 1,398 tokens",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-12",
+    "claim": "Author's answer on whether an agent could use it to trick the user.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "Say, by covering the Decline button? **Not beyond what it can already do.** An agent that runs shell commands as you can do far worse, so `bigarrow` gives it nothing new.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-13",
+    "claim": "Requirements: Xcode 16+, macOS 14+; Homebrew install.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "From source: `swift build -c release` (Xcode 16+, macOS 14+)",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-14",
+    "claim": "Code: overlay is a borderless non-activating NSPanel at screenSaver level that ignores mouse events and cannot become key.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/Sources/BigArrowOverlay/OverlayPanel.swift",
+    "quote": "styleMask: [.borderless, .nonactivatingPanel],",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-15",
+    "claim": "Code: overlay window level and click-through settings.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/Sources/BigArrowOverlay/OverlayPanel.swift",
+    "quote": "ignoresMouseEvents = true\n        level = .screenSaver",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-16",
+    "claim": "Independent: Apple DTS recommends .screenSaver level for overlays above full-screen content (the recipe bigarrow cites).",
+    "url": "https://developer.apple.com/forums/thread/826308",
+    "quote": "You need `.screenSaver` (level 1000) — `.floating` (3) and `.statusBar` (25) both sit below full-screen content.",
+    "sourceType": "Official",
+    "date": "2026-05"
+  },
+  {
+    "id": "inv-17",
+    "claim": "Project rule: the drawing path must never need a permission; every arrow must end by itself.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/CLAUDE.md",
+    "quote": "Every arrow must end by itself (time limit, owner exit, `stop`); never add a lifetime that can outlive the agent session by default.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-18",
+    "claim": "Skill instructs the agent to name the consequence on the sign for approvals/payments.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/skill/big-arrow/SKILL.md",
+    "quote": "When the\n  click approves, grants, pays, signs, sends or deletes, add what happens",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-19",
+    "claim": "Changelog: v0.4.3 changes made in response to the HN thread, including a pulsing-box drift bug found by a contributor.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/CHANGELOG.md",
+    "quote": "The box or ring around the target no longer drifts while it pulses: its layer scaled around the display's centre, so a box near a corner swam up to 55 pt off its target and back. Found by @jarombouts in #37 (#38).",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-20",
+    "claim": "Author's own triage of HN feedback sorts criticism into acted-on tickets.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/docs/feedback/2026-10-09-hacker-news.md",
+    "quote": "Each point was sorted into one of four groups: real criticism (we act on it), real use cases (they shape the README and the skill), jokes and scope requests (we do not build them), and general debate (nothing to build).",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-21",
+    "claim": "iPad version not possible per author.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/docs/feedback/2026-10-09-hacker-news.md",
+    "quote": "iPadOS does not let an app draw over other apps",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-22",
+    "claim": "Prior art credited: Peekaboo and Nameplate by Peter Steinberger.",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "quote": "Peekaboo (https://github.com/openclaw/Peekaboo) and Nameplate (https://github.com/steipete/Nameplate) by Peter Steinberger showed the overlay recipe and the skill packaging. Neither points with a labelled arrow.",
+    "sourceType": "Official",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-23",
+    "claim": "Show HN post \"Let your AI agents paint big arrows, boxes and text on your screen\" by franze, 2026-10-09 11:03 UTC, had 366 points when read on 2026-10-10.",
+    "url": "https://hn.algolia.com/api/v1/items/50018817",
+    "quote": "\"points\":366",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-24",
+    "claim": "HN criticism: an arrow answers where to click, not whether to.",
+    "url": "https://news.ycombinator.com/item?id=50020731",
+    "quote": "An arrow on the screen solves “where do I click”; it doesn’t solve “should this happen”",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-25",
+    "claim": "HN criticism: could the overlay hide a Decline button?",
+    "url": "https://news.ycombinator.com/item?id=50019459",
+    "quote": "if it can draw on top of permission prompts, what's stopping it from drawing box that hides the \"decline\" button and changing the \"approve\" button copy?",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-26",
+    "claim": "HN counter: a malicious agent with shell access already has worse options.",
+    "url": "https://news.ycombinator.com/item?id=50020728",
+    "quote": "Nothing stops it, except the fact that the agent is already executing arditrary code in your shell.",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-27",
+    "claim": "HN criticism: scam risk for older users.",
+    "url": "https://news.ycombinator.com/item?id=50023572",
+    "quote": "Seems great for scammers targeting old people tbh",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-28",
+    "claim": "HN use case: guiding agent rather than doing agent.",
+    "url": "https://news.ycombinator.com/item?id=50019008",
+    "quote": "\"Teach me to do this\" kinda stuff. \"Guiding agent\" rather than \"doing agent\".",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-29",
+    "claim": "HN use case: learning Blender with LLM help.",
+    "url": "https://news.ycombinator.com/item?id=50020002",
+    "quote": "I spent a lot of time trying to figure out which button the model was talking about.",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-30",
+    "claim": "HN use case: helping a parent over the phone.",
+    "url": "https://news.ycombinator.com/item?id=50019233",
+    "quote": "how helpful this would be for my mom when I'm trying to tell her how to download and print a document over the phone",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-31",
+    "claim": "HN user reports a hands-on test with Claude and Apple Compressor.",
+    "url": "https://news.ycombinator.com/item?id=50021236",
+    "quote": "Claude walked me through how to use Apple's Compressor.app to speed up a video.",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-32",
+    "claim": "HN criticism: README/project reads as LLM-generated.",
+    "url": "https://news.ycombinator.com/item?id=50019005",
+    "quote": "More LLM-authored items about LLM slop.",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-33",
+    "claim": "HN criticism: original hero screenshot arrows misaligned, later replaced.",
+    "url": "https://news.ycombinator.com/item?id=50021946",
+    "quote": "In the first screenshot, three of the five arrows are obviously and badly misaligned",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-34",
+    "claim": "Prior art from HN: a 1989 pointing-hand overlay for NeWS.",
+    "url": "https://news.ycombinator.com/item?id=50019247",
+    "quote": "I wrote a pointing hand annotation overlay in PostScript in 1989 for NeWS",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "inv-35",
+    "claim": "Author says Claude refuses some actions (passwords, security settings) even with permissions skipped, motivating the hand-off.",
+    "url": "https://news.ycombinator.com/item?id=50018990",
+    "quote": "Claude refuses to do certain actions (enter passwords, change security settings, create new accounts on external services) even in Yolo mode running as sudo.",
+    "sourceType": "Social",
+    "date": "2026-10-09"
+  }
+]

@@ -61,5 +61,26 @@
     "title": "SCM: local AI search for every photo and every frame of video on a Mac",
     "primaryUrl": "https://github.com/allenv0/SCM",
     "slug": "2026-10-07-mistral-large-4-claims-vs-tests"
+  },
+  {
+    "date": "2026-10-10",
+    "section": "news",
+    "title": "Google Cloud introduces the Gemini agent (agentic AI for businesses)",
+    "primaryUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+    "slug": "2026-10-10-google-gemini-agent-for-work"
+  },
+  {
+    "date": "2026-10-10",
+    "section": "research",
+    "title": "From Evidence to Action: How Tool-Using Agents Fail",
+    "primaryUrl": "https://arxiv.org/abs/2610.07753",
+    "slug": "2026-10-10-google-gemini-agent-for-work"
+  },
+  {
+    "date": "2026-10-10",
+    "section": "invention",
+    "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
+    "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "slug": "2026-10-10-google-gemini-agent-for-work"
   }
 ]

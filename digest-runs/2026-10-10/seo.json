@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "keywords": {
+    "primary": "Gemini agent for work",
+    "secondary": ["Google Cloud Gemini agent", "SafeActBench", "AI agents act before checking evidence", "Big Arrow on the Screen"]
+  },
+  "title": "Google Gemini Agent for Work | Eureka Reports Oct 10",
+  "titleLength": 52,
+  "description": "Google Cloud says its new Gemini agent runs business tasks for hours or days. A 656-case study finds AI agents often act before checking the facts.",
+  "descriptionLength": 148,
+  "slug": "2026-10-10-google-gemini-agent-for-work",
+  "headline": "unchanged (number-led, per format.json)",
+  "image": "No image.json present; hero alt/caption not checked.",
+  "faq": "Not added. Keyword searches did not surface verifiable People Also Ask questions.",
+  "changes": [
+    "title: \"Google's Gemini agent goes to work | Eureka Reports Oct 10\" -> \"Google Gemini Agent for Work | Eureka Reports Oct 10\" (matches how people search; 52 chars; unique vs. last 3 issues)",
+    "description: \"Google Cloud's new Gemini agent runs...\" -> \"Google Cloud says its new Gemini agent runs...\" (attributes the company claim; 140 -> 148 chars)",
+    "closing H2: \"Pointing versus acting\" -> \"Pointing versus acting: from the Gemini agent to Big Arrow\" (H2 now names the specific topics)"
+  ],
+  "checked_no_change": [
+    "Other three H2s already name the specific topic.",
+    "All three deep dives open with a 1-2 sentence direct answer.",
+    "sixty has 3 self-contained sentences.",
+    "Sources list and citation numbering untouched; no facts changed."
+  ],
+  "notes": [
+    "Draft frontmatter has no slug field; the slug is for the publisher to use as the filename.",
+    "Keyword search found no web results for Big Arrow on the Screen (issue is days old), so its H2 keeps the existing wording."
+  ]
+}

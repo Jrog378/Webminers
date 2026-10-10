@@ -1,0 +1,49 @@
+{
+  "research": {
+    "title": "From Evidence to Action: How Tool-Using Agents Fail",
+    "primaryUrl": "https://arxiv.org/abs/2610.07753",
+    "why": "The most useful paper here for a general reader: it looks at how AI agents go wrong when they take real actions that change things, even when the end result looks right. That matters now that agents are being given real permissions. The top scorer (cross-tokenizer distillation, 17) is a narrow training technique with little meaning outside the field. Caveat: the summary is from the abstract only; read the full paper before writing.",
+    "runnersUp": [
+      {
+        "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+        "primaryUrl": "https://arxiv.org/abs/2610.08215"
+      },
+      {
+        "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision",
+        "primaryUrl": "https://arxiv.org/abs/2610.08448"
+      }
+    ]
+  },
+  "news": {
+    "title": "Google Cloud introduces the Gemini agent (agentic AI for businesses)",
+    "primaryUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+    "why": "A major company is putting agents that take actions into everyday business work. The source is an official company post, and the story is non-political and not tied to any place. It is a different story from the Gemini 4 Argon model release covered on Oct 3. Its significance ties with Typesafe's (4 each), and it connects directly to the research pick. Typesafe has more momentum, but it is a funding story and matters less to a general reader.",
+    "runnersUp": [
+      {
+        "title": "Typesafe AI raises $870M at $7.5B valuation for non-text AI model Jev",
+        "primaryUrl": "https://typesafe.ai/blog/series-ai"
+      },
+      {
+        "title": "Biohub $1.8B commitment for AI-ready biological data",
+        "primaryUrl": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+      }
+    ]
+  },
+  "invention": {
+    "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
+    "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "why": "Highest-scoring AI build (HN 366 pts / 161 comments) with an open-source repo as the primary source. Instead of clicking for you, the agent points at things on your screen and leaves the action to you, which is easy for a general reader to follow. Caveat: the repo has not been opened yet; check it before writing.",
+    "runnersUp": [
+      {
+        "title": "Whistle: speech-to-text in 16.9 MB",
+        "primaryUrl": "https://cactuscompute.com/blog/whistle"
+      },
+      {
+        "title": "Rgpu: a PyTorch device whose tensors live on a remote GPU",
+        "primaryUrl": "https://github.com/ymcrcat/rgpu"
+      }
+    ]
+  },
+  "thread": "As agents move from talking to acting, this week shows three stances: Google hands them business tasks, researchers catalogue how they fail when their actions change things, and a small open-source tool keeps the human's hand on the mouse by letting the agent only point.",
+  "skipped": []
+}

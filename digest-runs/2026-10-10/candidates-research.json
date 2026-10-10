@@ -1,0 +1,181 @@
+{
+ "section": "research",
+ "window": "Wed Oct 7 - Fri Oct 9, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers (10-07,10-08,10-09)",
+   "status": "ok"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "failed: 400 Bad Request on numericFilters query"
+  },
+  {
+   "name": "arXiv API, bioRxiv, OpenAlex, Nature/Science/MIT TR RSS, Reddit",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision",
+   "summary": "On-policy distillation where teacher and student use different tokenizers; reframes the problem around alignment coverage.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.08448",
+   "date": "2026-10-07",
+   "signal": "HF Daily Papers 2026-10-07: 184 upvotes (https://huggingface.co/papers/2610.08448)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+   "summary": "Open-source personal agent framework running across devices.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.08699",
+   "date": "2026-10-08",
+   "signal": "HF Daily Papers 2026-10-08: 98 upvotes (https://huggingface.co/papers/2610.08699)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "From Evidence to Action: How Tool-Using Agents Fail",
+   "summary": "Analyzes how tool-using agents fail when making consequential state changes even when outcomes look correct.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.07753",
+   "date": "2026-10-07",
+   "signal": "HF Daily Papers 2026-10-07: 41 upvotes (https://huggingface.co/papers/2610.07753)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+   "summary": "Benchmark of whether LLM agents learn from experience in unfamiliar environments.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.08215",
+   "date": "2026-10-09",
+   "signal": "HF Daily Papers 2026-10-09: 76 upvotes (https://huggingface.co/papers/2610.08215)",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "AgentGarten: Code Worlds for Evolving Agents",
+   "summary": "Code-defined interactive worlds in which agents evolve by exploration.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.12374",
+   "date": "2026-10-09",
+   "signal": "HF Daily Papers 2026-10-09: 131 upvotes (https://huggingface.co/papers/2610.12374)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+   "summary": "RLVR variant converting post-hoc experience into prior foresight via distillation.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.08077",
+   "date": "2026-10-08",
+   "signal": "HF Daily Papers 2026-10-08: 133 upvotes (https://huggingface.co/papers/2610.08077)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+   "summary": "Technical report on scaling RL toward self-improvement in a foundation model.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.11959",
+   "date": "2026-10-09",
+   "signal": "HF Daily Papers 2026-10-09: 55 upvotes (https://huggingface.co/papers/2610.11959)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "Long-WAM: Scaling the Context of World-Action Models",
+   "summary": "Longer visual history for real-time robot control world-action models.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.10528",
+   "date": "2026-10-08",
+   "signal": "HF Daily Papers 2026-10-08: 100 upvotes (https://huggingface.co/papers/2610.10528)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning",
+   "summary": "Stabilizes native FP4 RL training for LLMs.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.07043",
+   "date": "2026-10-07",
+   "signal": "HF Daily Papers 2026-10-07: 39 upvotes (https://huggingface.co/papers/2610.07043)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  },
+  {
+   "title": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+   "summary": "Addresses collapse in self-generated-question training of reasoning models.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.04299",
+   "date": "2026-10-08",
+   "signal": "HF Daily Papers 2026-10-08: 68 upvotes (https://huggingface.co/papers/2610.04299)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Summary from HF abstract snippet only; abstract not fully read. Date is HF daily-papers listing date."
+  }
+ ],
+ "excludedPolitical": []
+}

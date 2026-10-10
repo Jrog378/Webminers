@@ -1,0 +1,550 @@
+{
+ "checked": 68,
+ "passed": 51,
+ "results": [
+  {
+   "citation": "1",
+   "sentence": "Google Cloud announced the Gemini agent on Oct 8 at Gemini at Work 2026, calling it 'a universal agent for work'",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+   "verdict": "pass",
+   "evidence": "Post dated Oct 8, 2026: 'Today at Gemini at Work 2026, Google Cloud announced the Gemini agent, a universal agent for work.'",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "Google says the agent plans a job, uses tools, connects to a company's systems and brings back finished work inside documents, inbox and developer tools",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+   "verdict": "pass",
+   "evidence": "'It plans the work, uses skills and tools, connects to Cloud customers' business systems' ... 'inside the documents, the inbox, and the developer environments they already work in.'",
+   "fix": null
+  },
+  {
+   "citation": "2,3",
+   "sentence": "Kurian: 'You give it objectives, not instructions. You delegate an outcome and come back to finished work' [cites 2 and 3]",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "fix",
+   "evidence": "Exact two-sentence text is in Google's blog [2] (post authored by Kurian, 'adapted from his keynote'). TechCrunch [3] only paraphrases ('objectives, not just instructions') and lacks the quote. Computerworld [4] quotes only the first sentence as 'in his keynote'.",
+   "fix": "Cite [2] for the full quote and [4] for the keynote attribution; drop [3] from this sentence. Or write 'in a post adapted from his keynote'."
+  },
+  {
+   "citation": "2",
+   "sentence": "nearly 80% of Google Cloud customers use its AI products and nearly 90% of the Fortune 100 use Gemini Enterprise",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'nearly 80% of all Google Cloud customers are using our AI products, and nearly 90% of the Fortune 100 use Gemini Enterprise.'",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "No outside group has tested the agent yet, so what follows is Google's own description.",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "No source says this (dossier-only). Absence claim, partly contradicted: TechCrunch [3] says early testers included On, Shopify and PayPal. 9to5Google [5] says private preview; Constellation [6] says private beta. Verifiable only: no independent evaluation found in the cited coverage.",
+   "fix": "'We found no independent test of the agent in the coverage reviewed; early testers named by TechCrunch were On, Shopify and PayPal, so what follows is mostly Google's own description.'"
+  },
+  {
+   "citation": "2",
+   "sentence": "Google says Gemini can create 'a roster of sub-agents,' short-lived helpers each with their own identity, for work that 'can run for hours or days'",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'dynamically create a roster of sub-agents \u2014 temporary, job-specific agents, each with their own identity'; 'can run for hours or days.'",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "four kinds of memory: session, semantic, procedural and episodic",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "Listed exactly.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "any Model Context Protocol (MCP) server, a shared format for connecting AI agents to other software",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'any Model Context Protocol (MCP) server inside or outside your company network.' Writer's definition checked against modelcontextprotocol.io: 'an open-source standard for connecting AI applications to external systems.' Accurate; optionally cite it.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "routes jobs across its Gemini models and 'Claude models from Anthropic today,' with other models to come",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'across our Gemini family of models and Claude models from Anthropic today, and other leading private and open models in the future.'",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "TechCrunch reports a 'tasks inbox' where users can watch the agent's thinking, hand-offs to sub-agents and progress",
+   "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+   "verdict": "pass",
+   "evidence": "'tasks inbox' interface: 'Gemini's thinking process, delegation of tasks to subagents, loading of special skills, code, and progress.'",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "coworker agent gets its own Workspace account with email address, calendar, Drive, directory listing",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'its own Workspace account, including an email address, calendar, Drive, and presence in your company directory.'",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Every action is 'written to an audit trail and attributed to the agent rather than to a person'",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "cryptographically attested identity, a digital ID that can be verified, and only the permissions its job needs",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'cryptographically attested and governed like an employee, with least-privilege permissions.' Gloss is fair.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "sandbox; Agent Gateway, an AI network firewall enforcing company policy in real time; spend cap pauses agent",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'Agent Sandbox'; 'Agent Gateway, an AI network firewall enforcing your organization's policies in real time'; 'if a spend cap is triggered, that project's agent pauses.'",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Ramin of Info-Tech told Computerworld the launch 'does not create a whole new category,' since OpenAI, Anthropic, Microsoft and Meta already offer multi-agent features",
+   "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+   "verdict": "fix",
+   "evidence": "Article text is the reporter's paraphrase: Ramin 'noted that Google's announcement does not create a whole new category, since OpenAI, Anthropic, Microsoft, and Meta have already positioned multiagent capabilities in their platforms.' Not a direct quote, and no 'told Computerworld' wording. Ramin's title: research director, Info-Tech Research Group.",
+   "fix": "Drop quote marks or write 'Ramin ... noted, per Computerworld, that the launch does not create a whole new category'."
+  },
+  {
+   "citation": "4",
+   "sentence": "He added that an autonomous agent with reach into many business systems carries more risk, so guardrails must be enforced",
+   "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+   "verdict": "pass",
+   "evidence": "Ramin: 'it raises the pivotal and non-negotiable requirement of enforcing governance'; risk with basic AI is 'much more contained' versus an autonomous agent with access to multiple systems.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Levy said Google is positioning itself as the gatekeeper for business AI agents",
+   "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+   "verdict": "fix",
+   "evidence": "Article: 'trying to establish itself as the gatekeeper of the new enterprise operating system, powered by whatever underlying model makes the most sense.' 'For business AI agents' is the headline's wording.",
+   "fix": "'Levy said Google is trying to establish itself as the gatekeeper of the new enterprise operating system.'"
+  },
+  {
+   "citation": "4",
+   "sentence": "Whether tech and security chiefs 'can trust it to run mission critical business processes indefinitely without doing something stupid enough to generate damaging headlines is another story altogether,' he said",
+   "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+   "verdict": "pass",
+   "evidence": "Verbatim in page HTML (Levy: 'whether CIOs and CISOs can trust it ...').",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "On, Shopify and PayPal were early testers; Google will bring the agent to businesses before consumers",
+   "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+   "verdict": "pass",
+   "evidence": "'The agent's early testers included sportswear brand On, Shopify, and PayPal'; 'Google will initially focus on bringing the agent to businesses before later rolling it out to consumers.'",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "9to5Google: private preview, wide availability 'soon' for select Workspace Business and Enterprise plans",
+   "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+   "verdict": "pass",
+   "evidence": "'It's currently in private preview.' 'will see wide availability soon for Workspace customers with select Business and Enterprise plans.'",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "Constellation: GA expected around end of October or early November, consumption pricing to follow later",
+   "url": "https://www.constellationr.com/insights/news/google-cloud-launches-gemini-agent-work-across-enterprise-systems",
+   "verdict": "pass",
+   "evidence": "GA 'expected around the end of October or early November'; exact consumption model 'will come at a later day.'",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "Google's own posts give no date or price.",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "Dossier-only claim, verified: neither Google post gives an availability date or price for the Gemini agent (only 'preview' for Financial Services/Legal; the 98% per-token price drop is unrelated). Suggest 'no availability date or price for the agent' to avoid confusion with the Oct 8 post date.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Versions tuned for financial services and legal work are in preview, Google says",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "'Gemini for Financial Services and Legal: now in preview.'",
+   "fix": null
+  },
+  {
+   "citation": "7",
+   "sentence": "Early reaction was quiet. On Hacker News, the top post about the launch drew 18 points and 2 comments",
+   "url": "https://news.ycombinator.com/item?id=50012543",
+   "verdict": "fix",
+   "evidence": "Item 50012543 'The Gemini Agent' shows 18 points, 2 comments and links the Google Cloud blog post. 'Top post' and 'early reaction was quiet' are not established by one thread; numbers will drift.",
+   "fix": "'A Hacker News post linking Google's announcement had 18 points and 2 comments when checked.' Cut 'Early reaction was quiet' and 'top'."
+  },
+  {
+   "citation": "8",
+   "sentence": "Preprint finds agents that judge a proposed action almost perfectly do far worse when they must investigate and carry it out themselves",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Abstract: 'strong static action assessment can coexist with much weaker interactive execution.' 'Almost perfectly' overstates: the static (Legacy) column ranges 77.9 to 97.7 across the ten configurations (Qwen Code 91.9, DeepSeek-Inspect 83.7, GLM-Inspect 77.9).",
+   "fix": "'...judge a proposed action well but do far worse when they must investigate and carry it out themselves...'"
+  },
+  {
+   "citation": "8",
+   "sentence": "Hongzhan Lin, Shidong Cao and four co-authors posted the paper, not yet peer-reviewed, on Oct 6",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "arXiv 2610.07753, 'Submitted on 6 Oct 2026', six authors (Lin, Cao, Luo, Chai, Lee, Hsu), v1. arXiv does not state review status; the preprint label is fair.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "'correct outcomes do not guarantee that their actions were supported by evidence established beforehand'",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Abstract, verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "An agent that issues the right refund on a lucky guess still fails their test.",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Writer's illustration (dossier-only); no refund-on-a-guess example appears in the paper. The principle holds (evaluator requires evidence established before the action; IBM Near-Miss describes the same luck case) but the refund scenario is invented.",
+   "fix": "'An agent that reaches the right outcome without first establishing the evidence still fails their test.'"
+  },
+  {
+   "citation": "8",
+   "sentence": "656 synthetic cases in six areas: customer and policy operations, legal and financial work, smart-home control, healthcare operations",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "656 cases across six domains: customer and policy ops, engineering and infrastructure ops, legal and financial ops, research assistance, smart-home control, healthcare ops; fictional entities (Ethics Statement).",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "five models: Claude Opus 5, GPT-5.6 Sol, DeepSeek-V4-Flash, Qwen3.8-Flash, GLM-5.2; each in its maker's own agent app and a shared test setup, ten configurations",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Sec 5.1: exact names; harnesses Claude Code, Codex, DeepSeek Harness, Qwen Code, ZCode plus a shared ReAct harness in Inspect AI.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "deterministic evaluator, a fixed rule-checker rather than another AI acting as judge",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "'neither inspects hidden reasoning nor relies on an LLM judge'; 'Scoring is deterministic.'",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "'Reading $49.99 from charge C1 does not establish the amount of C2, even when the values match,' the project page explains",
+   "url": "https://safeact.github.io",
+   "verdict": "pass",
+   "evidence": "Verbatim on project page.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "95% vs 52%: every configuration judged actions with at least 95% accuracy, but none topped 52% success when it had to do the work",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Paper Sec 5.2: 'for three configurations re-evaluated on the same V1 cases, static accuracy is at least 95% while interactive ECS is at most 52%.' Table 9: DeepSeek-Inspect 95.0 vs 52.0; GLM-Inspect 97.0 vs 28.0; GLM-ZCode 99.0 vs 33.0 (100 cases each). Not every configuration: static scores for all ten range 77.9 to 97.7; overall success 37.7 to 67.2.",
+   "fix": "'In three configurations re-tested on the same 100 single-action cases, accuracy at judging actions was 95% to 99% but success at doing the work was 28% to 52%.'"
+  },
+  {
+   "citation": "8 (sixty)",
+   "sentence": "A preprint ... tested five AI models on 656 cases and found they judged actions with at least 95% accuracy but succeeded no more than 52% of the time",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Same error: the 95%/52% pair holds for three of ten configurations on a 100-case subset, not five models on 656 cases. Overall exact-case success was 37.7% to 67.2%.",
+   "fix": "'...tested ten model-and-app setups on 656 cases; in three setups re-checked on the same 100 cases, judging accuracy was 95% to 99% but success at doing the work was at most 52%.'"
+  },
+  {
+   "citation": "8",
+   "sentence": "GLM-5.2 in ZCode scored above 96% on the judging test, then fell to between 12.1% and 34.1% on the action tests",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Legacy 97.7; V1-V3 = 32.1, 12.1, 34.1; paper text: 'falls to between 12.1% and 34.1%'. (V0 is 34.3.) The bullet headline '12.1%' is the V2 value, the low end.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "21.7% to 62.9%: how often agents stopped investigating too early in decline cases",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Table 3 BSR (V0): min 21.7 (Qwen Code), max 62.9 (GLM ZCode).",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "37.0% to 66.9%: share of acting runs where the agent acted before evidence in place",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Table 3 PAR: min 37.0 (Qwen Inspect), max 66.9 (GLM ZCode); denominator is V1 episodes with an action attempt.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "93.2% to 100%: nine of ten configurations carried out the action correctly once evidence complete",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "CAS: nine at 93.2 to 100; DeepSeek-Inspect 83.3 is the exception.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "withheld one decisive record, agents still acted in 46.5% to 53.5% of those runs",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "'agents still act in 46.5-53.5% of completed Withheld episodes.' Matched subset analysis, not all ten configurations.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "When the requester said a missing record had already been checked and was fine, agents acted less often; agents 'respond more to a requester's conflicting claim than to absent evidence alone'",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Sec 5.3.3: requester-claim condition = requester states the missing record was already checked and satisfactory; action submission falls from 23/43, 20/43, 23/43 (Withheld) to 6/43, 10/43, 6/43. Quote verbatim. Three configurations only; say 'in three setups'.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "DeepSeek gained 4.4 points in its own app, while GLM did 6.8 points worse in ZCode",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Paired success table: DeepSeek +4.4 [1.1, 7.9]; GLM -6.8 [-11.2, -2.5].",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "authors say results 'should not be interpreted as certifications of safety for deployed systems'; checkers were 'members of the research team'",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Ethics Statement, verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "audit of 300 runs found it wrongly accepted 2.0% and wrongly rejected 1.3% of judgments",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "App B.3: 300 trajectories reviewed; false acceptance 3/150 (2.0%) of evaluator-positive judgments, false rejection 2/150 (1.3%) of evaluator-negative judgments. Rates are within each class.",
+   "fix": "'...wrongly accepted 2.0% of its positive judgments (3 of 150) and wrongly rejected 1.3% of its negative ones (2 of 150).'"
+  },
+  {
+   "citation": "8",
+   "sentence": "In a class-balanced control, the judging-versus-doing gap shrank to about 5 to 13 points, and one configuration did better at doing",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "App C.2.1 Table 10: gaps 5.1 (Claude Code, Codex), 6.1 (GPT-Inspect), 13.1 (GLM-ZCode), DeepSeek 8.0 and 11.1, but Claude-Inspect 22.2 (with output-format imbalance); GLM-Inspect did better interactively (83.8 vs 73.7). Authors note gaps are smaller partly because candidates are supplied.",
+   "fix": "'...the gap shrank to about 5 to 13 points in most setups (22 in one), and one setup did better at doing than judging.'"
+  },
+  {
+   "citation": "8",
+   "sentence": "A fix the authors tried, called SCGR-Select, did not reliably help: 'structured evidence selection alone does not ensure higher task success'",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Quote verbatim (Appendix E.5). But the paper calls SCGR a 'lightweight, training-free analysis instrument', not a fix.",
+   "fix": "'A method the authors tried for structuring evidence, SCGR-Select, ...'"
+  },
+  {
+   "citation": "10",
+   "sentence": "IBM Research's Near-Miss study found hidden policy failures in 8% to 17% of runs where agents used tools that change data, 'even when the final outcome matches the expected ground-truth state'",
+   "url": "https://arxiv.org/abs/2603.29665",
+   "verdict": "pass",
+   "evidence": "IBM Research affiliation confirmed in PDF header (Rabinovich, Boaz, Zwerdling, Anaby-Tavor). '8-17% of trajectories involving mutating tool calls ... even when the final outcome matches the expected ground-truth state.' Tested only on the tau2-verified Airlines benchmark; consider saying so.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "Next, the authors plan to extend their evidence tests to tasks with several actions",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "fix",
+   "evidence": "Conclusion: 'Extending the interventions to multi-action protocols ... is a natural next step.' The benchmark already has multi-action workflows (V2/V3); what is to be extended is the withholding/contradiction interventions. 'Plan' overstates 'natural next step'.",
+   "fix": "'The authors name extending their evidence-withholding tests to multi-action tasks as a natural next step.'"
+  },
+  {
+   "citation": "11",
+   "sentence": "Their code (MIT license) and data (CC BY 4.0) are public",
+   "url": "https://github.com/caoshidong66/safeact",
+   "verdict": "pass",
+   "evidence": "Repo: code MIT; data/ and env/ records CC BY 4.0.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Big Arrow on the Screen, an open-source Mac tool from developer Franz Enzenhofer",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "Dossier-only name verified: LICENSE 'Copyright (c) 2026 Franz Enzenhofer'; repo owner franzenzenhofer; MIT licensed. Add LICENSE as support.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "README: 'It never clicks, types or captures. It only points. Deliberately.'",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "Verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "Its Show HN post from Oct 9 reached 366 points on Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50018817",
+   "verdict": "fix",
+   "evidence": "Live count when checked: 368 points, 161 comments (Algolia item 50018817, created 2026-10-09T11:03:48Z). Count keeps moving.",
+   "fix": "'...about 370 points' or '368 points as of Oct 10'; update the sixty bullet too."
+  },
+  {
+   "citation": "12",
+   "sentence": "command-line tool plus a skill for Claude Code and Codex; clicks pass through, focus stays, arrow removes itself; steps 'only a human may do'",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README intro and 'What is this actually for?'.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "The author noted on HN that Claude refuses some actions such as entering passwords or changing security settings, even when given broad permissions",
+   "url": "https://news.ycombinator.com/item?id=50018990",
+   "verdict": "pass",
+   "evidence": "franze: 'Claude refuses to do certain actions (enter passwords, change security settings, create new accounts on external services) even in Yolo mode running as sudo. (I tested it all on its own mac machine)'",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "one Swift program, 'no telemetry', 'no AI inside'; drawing needs no Mac permission",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README: 'One Swift binary: no daemon ... no telemetry, and, we checked twice, no AI inside.' 'Drawing: no' permission.",
+   "fix": null
+  },
+  {
+   "citation": "15,16",
+   "sentence": "overlay is a window set to ignore the mouse at screen-saver level, which an Apple developer-support answer says is needed to stay above full-screen apps",
+   "url": "https://developer.apple.com/forums/thread/826308",
+   "verdict": "pass",
+   "evidence": "OverlayPanel.swift: ignoresMouseEvents = true; level = .screenSaver, comment cites the Apple DTS thread. Thread (May 2026, DTS Engineer): 'You need .screenSaver (level 1000) \u2014 .floating (3) and .statusBar (25) both sit below full-screen content.' Page blocks plain curl with a bot check; read via fetch tool.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Arrows disappear after 8 seconds (point) or 300 seconds (start), or when the agent that drew them exits; label targeting needs Accessibility permission for the terminal",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README table: point 8 s, start 300 s; arrow ends with owner process; --element needs Accessibility, granted to the app that started bigarrow.",
+   "fix": null
+  },
+  {
+   "citation": "17",
+   "sentence": "One commenter called it a 'Guiding agent' rather than 'doing agent'",
+   "url": "https://news.ycombinator.com/item?id=50019008",
+   "verdict": "pass",
+   "evidence": "inanutshellus: '\"Guiding agent\" rather than \"doing agent\".'",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "It flips the usual goal of agents that operate a computer: the agent shows, and the person acts.",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Uncited generalization about what agents 'usually' aim to do; editorial, no source.",
+   "fix": "Cut, or mark as opinion: 'In this one step it reverses the usual division of labor.'"
+  },
+  {
+   "citation": "12",
+   "sentence": "It runs only on macOS 14 or later",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README (Xcode 16+, macOS 14+); Package.swift platforms [.macOS(.v14)].",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "author's figures, including 104 automated tests and 1.4% CPU use, are self-reported; days old",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README: '104 automated tests'; '1.4 % on a CI runner'; 'Nearly 400 stars in the first two days'. CPU figure is on a CI runner.",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "It contains no AI, so it only helps people already running an agent with shell access to their Mac.",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "fix",
+   "evidence": "Dossier-only inference. README lists uses beyond that (render to PNG for demos/docs, `--dry-run --json`, helping others over screen share) and humans can run the CLI themselves; 'only helps' is unsupported. Fair point: it is a CLI an agent must call.",
+   "fix": "'It contains no AI of its own, so an agent has to call it from the command line.'"
+  },
+  {
+   "citation": "18",
+   "sentence": "tilemarch: 'An arrow on the screen solves \"where do I click\"; it doesn't solve \"should this happen\"'",
+   "url": "https://news.ycombinator.com/item?id=50020731",
+   "verdict": "pass",
+   "evidence": "Verbatim (curly quotes in original).",
+   "fix": null
+  },
+  {
+   "citation": "19",
+   "sentence": "The tool's skill tells the agent to write on the sign what a click will do when it approves, pays or deletes",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/skill/big-arrow/SKILL.md",
+   "verdict": "pass",
+   "evidence": "SKILL.md: 'When the click approves, grants, pays, signs, sends or deletes, add what happens.'",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "...but that depends on the agent following the instruction.",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen/blob/main/skill/big-arrow/SKILL.md",
+   "verdict": "fix",
+   "evidence": "Dossier-only inference. Logically sound (it is prompt text; README's listed tests cover geometry, placement and timing, not sign content) but no source states it.",
+   "fix": "'The README's listed tests cover placement and timing, not what the sign says, so that rests on the agent following the instruction.' Or mark it as the writer's observation."
+  },
+  {
+   "citation": "20",
+   "sentence": "Another commenter said it 'seems great for scammers targeting old people'",
+   "url": "https://news.ycombinator.com/item?id=50023572",
+   "verdict": "pass",
+   "evidence": "user-: 'Seems great for scammers targeting old people tbh'",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "author's answer: an agent running shell commands 'can do far worse'",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "verdict": "pass",
+   "evidence": "README FAQ: 'An agent that runs shell commands as you can do far worse, so bigarrow gives it nothing new.'",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "SafeActBench team found the weak spot is the checking before an action, though their paper did not test Google's agent",
+   "url": "https://arxiv.org/abs/2610.07753",
+   "verdict": "pass",
+   "evidence": "Tested models are Claude, GPT, DeepSeek, Qwen, GLM, no Gemini; abstract: 'Failures often begin before execution.'",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Google is selling agents that run multi-step business jobs for hours or days",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "Google's claim; attributed in text.",
+   "fix": null
+  }
+ ]
+}

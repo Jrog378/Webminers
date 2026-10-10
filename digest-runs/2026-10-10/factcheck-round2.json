@@ -1,0 +1,561 @@
+{
+ "round": 2,
+ "checked": 69,
+ "passed": 67,
+ "results": [
+  {
+   "citation": "sixty-1",
+   "sentence": "Google Cloud announced the Gemini agent on Oct 8, 2026 ... sub-agents that run for hours or days ... coworker agent gets its own email account and audit trail",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Cloud blog [2]: roster of sub-agents, 'hours or days'; coworker agents have own @agents.company.com emails; every action written to an audit trail attributed to the agent.",
+   "fix": null
+  },
+  {
+   "citation": "sixty-2",
+   "sentence": "Preprint by Hongzhan Lin and five co-authors ... ten setups on 656 cases; three setups re-checked on same 100 cases, accuracy 95% to 99%, success at most 52%",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "arXiv 2610.07753: six authors; ten configurations; 656 cases; Table 9 static 95.0/97.0/99.0, ECS 52.0/28.0/33.0 on same 100 V1 cases.",
+   "fix": null
+  },
+  {
+   "citation": "sixty-3",
+   "sentence": "Big Arrow ... Show HN 368 points and 161 comments as of Oct 10 ... never click",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "HN item 50018817 shows 368 points, 161 comments; README: 'It never clicks, types or captures.'",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "announced the Gemini agent on Oct 8 at Gemini at Work 2026, 'a universal agent for work'",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+   "verdict": "pass",
+   "evidence": "Blog dated Oct 08, 2026: 'announced the Gemini agent, a universal agent for work.'",
+   "fix": null
+  },
+  {
+   "citation": "1",
+   "sentence": "plans a job, uses tools, connects to systems, brings back finished work inside documents, inbox and developer tools",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Blog [1]: 'plans the work, uses skills and tools, connects to Cloud customers' business systems, and brings back something finished'.",
+   "fix": null
+  },
+  {
+   "citation": "2,3",
+   "sentence": "Kurian keynote quote: 'You give it objectives, not instructions. You delegate an outcome and come back to finished work'",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "verdict": "pass",
+   "evidence": "Full two sentences in Cloud blog [2] (adapted from keynote). Computerworld [3] quotes first sentence as said 'in his keynote'. Round-1 fix applied correctly.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "nearly 80% of Google Cloud customers use AI products; nearly 90% of Fortune 100 use Gemini Enterprise",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Exact in [2].",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "We found no independent test ...; early testers named by TechCrunch were On, Shopify and PayPal",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "TechCrunch [4]: 'early testers included sportswear brand On, Shopify, and PayPal'. Absence claim is properly scoped to coverage reviewed.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "'a roster of sub-agents,' short-lived helpers each with own identity; 'can run for hours or days'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2]: 'dynamically create a roster of sub-agents - temporary, job-specific agents, each with their own identity'; 'steps that can run for hours or days'.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "four kinds of memory: session, semantic, procedural, episodic",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2] Context and memory paragraph.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "reach business tools and databases plus any MCP server",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2] Tools and tools registry.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "routes across Gemini models and 'Claude models from Anthropic today', other models to come",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2]: 'Gemini family of models and Claude models from Anthropic today, and other leading private and open models in the future'.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "TechCrunch reports a 'tasks inbox' where users watch thinking, hand-offs to sub-agents, progress",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[4]: 'tasks inbox' interface ... thinking process, delegation of tasks to subagents ... progress.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "coworker agent gets own Workspace account, email, calendar, Drive, directory listing",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2] A member of your team.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "'written to an audit trail and attributed to the agent rather than to a person'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Exact in [2] Auditing.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "cryptographically attested identity, least-privilege permissions",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2] Identity: 'cryptographically attested ... least-privilege permissions'.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Agent sandbox; traffic through Agent Gateway, 'AI network firewall' enforcing policy in real time; spend cap pauses agent",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2] Policy management and Real-time spend caps paragraphs.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Ramin (Info-Tech): launch does not create a whole new category; OpenAI, Anthropic, Microsoft, Meta already offer multi-agent features",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[3] paraphrase now used; matches. Round-1 fix applied.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "autonomous agent with reach into many systems carries more risk, guardrails must be enforced",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[3] Ramin on governance/guardrails.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Levy: Google trying to establish itself as the gatekeeper of the new enterprise operating system",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[3] exact: 'trying to establish itself as the gatekeeper of the new enterprise operating system'.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Levy quote 'can trust it to run mission critical business processes indefinitely without doing something stupid enough to generate damaging headlines is another story altogether'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Exact in [3].",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Google will bring the agent to businesses before consumers",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[4]: 'initially focus on bringing the agent to businesses before later rolling it out to consumers'.",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "9to5Google: private preview, wide availability 'soon' for select Workspace Business and Enterprise plans",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[5] exact.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "Constellation: GA expected around end of Oct/early Nov, consumption pricing later",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[6]: 'General availability ... currently in private beta, is expected around the end of October or early November'; exact consumption model 'at a later day'.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Google's own posts give no date or price",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Neither Google post [1][2] gives GA date or price (uncited absence claim, true on both posts).",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Versions for financial services and legal are in preview",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "[2]: 'now in preview for Financial Services and Legal'.",
+   "fix": null
+  },
+  {
+   "citation": "7",
+   "sentence": "HN post linking Google's announcement had 18 points and 2 comments when checked",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Item 50012543: 18 points, 2 comments. Round-1 fix applied.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "AI agents can judge a proposed action well but do far worse when they must investigate and carry it out; preprint; Lin, Cao and four co-authors; Oct 6",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "arXiv abstract: submitted 6 Oct 2026; six authors incl. Hongzhan Lin, Shidong Cao.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "'correct outcomes do not guarantee that their actions were supported by evidence established beforehand'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Exact in abstract.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "SafeActBench: 656 synthetic cases, six areas incl. customer/policy, legal/financial, smart-home, healthcare",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF section 4 and ethics statement (synthetic).",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "five models: Claude Opus 5, GPT-5.6 Sol, DeepSeek-V4-Flash, Qwen3.8-Flash, GLM-5.2; own agent app and shared setup; ten configurations",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: ten configurations across five model families listed; family-associated harness plus Inspect.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "deterministic evaluator, not another AI as judge",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: 'neither inspects hidden reasoning nor relies on an LLM judge'.",
+   "fix": null
+  },
+  {
+   "citation": "9",
+   "sentence": "'Reading $49.99 from charge C1 does not establish the amount of C2, even when the values match'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Exact on project page.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "95% vs 52%: three setups, same 100 cases, accuracy 95-99%, success 28-52%",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Table 9: 95.0/97.0/99.0 vs 52.0/28.0/33.0.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "GLM-5.2 in ZCode above 96% on judging, then 12.1% to 34.1% on action tests",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF/project page: both exceed 96% on Legacy; GLM-ZCode 12.1-34.1% on V1-V3.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "21.7% to 62.9% stopped investigating too early",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: BSR 21.7% to 62.9% on V0.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "37.0% to 66.9% acted before required evidence among single-action runs where agent acted",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: PAR 37.0-66.9% among V1 episodes with an action attempt.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "93.2% to 100% for nine of ten configurations once evidence complete",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: CAS 93.2-100% for nine of ten (DeepSeek-Inspect 83.3%).",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "withheld one decisive record, agents still acted 46.5% to 53.5%",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: 'agents still act in 46.5-53.5% of completed Withheld episodes'.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "requester said missing record already checked and fine -> agents acted less; quote 'respond more to a requester's conflicting claim than to absent evidence alone'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF 5.3.4 and quote exact (line 639: 'Agents thus respond more to ...').",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "DeepSeek +4.4 points in own app; GLM 6.8 worse in ZCode",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF Table: +4.4 and -6.8.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "'should not be interpreted as certifications of safety for deployed systems'; checkers were 'members of the research team'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Ethics statement exact.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "audit of 300 runs: wrongly accepted 2.0% (3 of 150), wrongly rejected 1.3% (2 of 150)",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF appendix B.3.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "method sees visible behavior not internal reliance",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: 'captures observable support rather than internal reliance'.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "class-balanced control gap about 5 to 13 points in most setups (22 in one), one setup better at doing",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Table 10: 5.1, 5.1, 6.1, 8.0, 11.1, 13.1, 22.2; GLM-Inspect -10.1.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "SCGR-Select, training-free analysis instrument, 'structured evidence selection alone does not ensure higher task success'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF appendix lines 2351 and 2517; quote exact.",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "IBM Near-Miss: hidden policy failures in 8% to 17% of runs with data-changing tool calls, 'even when the final outcome matches the expected ground-truth state'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "arXiv 2603.29665 abstract exact; authors list IBM Research affiliation.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "Authors name extending evidence-withholding tests to multi-action tasks as natural next step",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "PDF: 'Extending the interventions to multi-action protocols ... is a natural next step'.",
+   "fix": null
+  },
+  {
+   "citation": "11",
+   "sentence": "Code (MIT) and data (CC BY 4.0) are public",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "safeact repo README badges: Code MIT, Data CC BY 4.0; LICENSE is MIT (raw file). Repo HTML page returned 403 to curl; verified via raw.githubusercontent.com.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "Big Arrow, open-source Mac tool from developer Franz Enzenhofer",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "LICENSE: 'MIT License Copyright (c) 2026 Franz Enzenhofer'; README: MIT licensed macOS tool.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "draws a big arrow, box or text sign on top of every window; README: 'It never clicks, types or captures. It only points. Deliberately.'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README exact.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "Show HN post from Oct 9 had 368 points and 161 comments as of Oct 10",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Item 50018817 shows 368 points, 161 comments (page said '13 hours ago').",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "command-line tool plus a skill for Claude Code and Codex",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README first paragraph.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "Clicks pass through the arrow, keyboard focus stays put, arrow removes itself",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README intro says exactly this. Caveat: FAQ says clicks on the sign and shaft remove the arrow; optional tightening only.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "meant for steps 'only a human may do,' or ones the person wants to learn",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README 'only a human may do, or one the human wants to learn'.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "author noted on HN that Claude refuses some actions (passwords, security settings) even when given broad permissions",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Comment 50018990 by franze: refuses enter passwords, change security settings, create accounts 'even in Yolo mode running as sudo'.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "one Swift program, 'no telemetry', 'no AI inside'; drawing needs no Mac permission",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README exact.",
+   "fix": null
+  },
+  {
+   "citation": "16,17",
+   "sentence": "overlay ignores mouse, screen-saver level; Apple developer-support answer says needed to stay above full-screen apps",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "OverlayPanel.swift: ignoresMouseEvents=true, level=.screenSaver, cites Apple DTS thread. Apple thread (via WebFetch): '.screenSaver ... .floating and .statusBar both sit below full-screen content'. Thread date May 2026.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "arrows disappear after 8 s (point) or 300 s (start), or when the agent exits",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README table.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "label pointing needs Accessibility permission for the launching terminal",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README permissions table and note.",
+   "fix": null
+  },
+  {
+   "citation": "18",
+   "sentence": "'\"Guiding agent\" rather than \"doing agent\"'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Comment 50019008 by inanutshellus exact.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "runs only on macOS 14 or later; 104 automated tests; 1.4% CPU; self-reported; days old; contains no AI",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README: macOS 14+, 104 tests, 1.4% on a CI runner; 'no AI inside'. Age supported by 'first two days' of stars.",
+   "fix": null
+  },
+  {
+   "citation": "19",
+   "sentence": "'An arrow on the screen solves \"where do I click\"; it doesn't solve \"should this happen\"'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Comment 50020731 by tilemarch exact.",
+   "fix": null
+  },
+  {
+   "citation": "20",
+   "sentence": "skill tells agent to write on sign what a click will do when it approves, pays or deletes",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "SKILL.md: 'When the click approves, grants, pays, signs, sends or deletes, add what happens'.",
+   "fix": null
+  },
+  {
+   "citation": "21",
+   "sentence": "commenter said it 'seems great for scammers targeting old people'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Comment 50023572 by user-: 'Seems great for scammers targeting old people tbh'.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "author's answer: an agent running shell commands 'can do far worse'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "README FAQ 'An agent that runs shell commands as you can do far worse'.",
+   "fix": null
+  },
+  {
+   "citation": "2,8,12",
+   "sentence": "Closing section: Google sells hours-or-days agents; SafeAct team found weak spot is checking before action though paper did not test Google's agent; Big Arrow lets agent point and person click",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Consistent with [2], [8], [12]; the paper does not test Google's agent.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "The README's listed tests cover geometry, placement and timing, not what the sign says, so that rests on the agent following the instruction",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "README list is: geometry, placement, joints, a golden image, copy buttons, recorded window-server/Accessibility/Peekaboo fixtures, and the real window server (click-through, focus, stop timing). Draft's three-item summary drops items; the FAQ also says the skill, not a test, makes the sign state the click's effect. No listed test checks sign wording.",
+   "fix": "The README's test list (geometry, placement, joints, a golden image, copy buttons, window-server behavior) does not include a check on what the sign says; that rests on the agent following the skill's instruction."
+  },
+  {
+   "citation": "sources",
+   "sentence": "Source [12] date 2026-10-09, [16] OverlayPanel.swift 2026-10-09, [20] SKILL.md 2026-10-09 (GitHub pages)",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "GitHub page, API and WebFetch showed no creation or commit dates. README references a skill test dated 2026-10-08, so 10-09 for the repo cannot be confirmed. Other source dates/titles/outlets verified: [1][2][3][4][5][6] (Oct 8), [7], [8] (Oct 6), [10] (Mar 31 v1), [14], [17] (May 2026), [9] (2026-10 news entries).",
+   "fix": "Use '2026-10' for [12], [16], [20] (as already done for [11] and [13]) or drop the day."
+  }
+ ],
+ "round1_fixes_status": "All 17 round-1 fixes confirmed applied and supported by sources, except none regressed; citation numbering [1]-[21] maps to the right sources throughout.",
+ "country_city_political_flags": []
+}

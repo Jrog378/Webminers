@@ -1,0 +1,210 @@
+[
+ {
+  "id": "C1",
+  "claim": "Google Cloud announced the Gemini agent, which it calls a universal agent for work, at Gemini at Work 2026.",
+  "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+  "quote": "Today at Gemini at Work 2026, Google Cloud announced the Gemini agent, a universal agent for work.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C2",
+  "claim": "Google says the agent plans work, uses skills and tools, connects to business systems, and returns finished work inside existing documents, inbox and developer environments.",
+  "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+  "quote": "It plans the work, uses skills and tools, connects to Cloud customers’ business systems, and brings back something finished — inside the documents, the inbox, and the developer environments they already work in.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C3",
+  "claim": "Google claims nearly 80% of Google Cloud customers use its AI products, nearly 90% of the Fortune 100 use Gemini Enterprise, and nearly 500 customers each processed over 1 trillion tokens in the last year.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "In the last year, nearly 500 Google Cloud customers each processed more than one trillion tokens. Today, nearly 80% of all Google Cloud customers are using our AI products, and nearly 90% of the Fortune 100 use Gemini Enterprise.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C4",
+  "claim": "Google pitches the agent as taking objectives rather than instructions, across a single agent and a single API.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "all in a single agent and a single API. You give it objectives, not instructions. You delegate an outcome and come back to finished work.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C5",
+  "claim": "Google says Gemini can create temporary sub-agents for multi-step tasks running for hours or days.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "It can dynamically create a roster of sub-agents — temporary, job-specific agents, each with their own identity — to tackle multi-step tasks. Gemini can communicate with these sub-agents to coordinate workflows, including parallel and sequential steps that can run for hours or days.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C6",
+  "claim": "Coworker agents get their own Workspace account and act under their own identity, seeing only what is shared with them (Google).",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "The agent receives its own Workspace account, including an email address, calendar, Drive, and presence in your company directory.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C7",
+  "claim": "Google separates the agent from the model; it routes across Gemini and Anthropic's Claude models today, with other private and open models planned.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "orchestrating across our Gemini family of models and Claude models from Anthropic today, and other leading private and open models in the future",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C8",
+  "claim": "Google says Gemini connects to enterprise tools and databases and to any MCP server.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "It can also connect and work securely with any Model Context Protocol (MCP) server inside or outside your company network.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C9",
+  "claim": "Google says Gemini keeps four kinds of memory: session, semantic, procedural, and episodic.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "It keeps four kinds of memory: session memory for the task in front of it, even when it runs for days; semantic memory,",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C10",
+  "claim": "Google says every agent action is written to an audit trail attributed to the agent, and each agent has a cryptographically attested identity with least-privilege permissions.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "every action Gemini takes is written to an audit trail and attributed to the agent rather than to a person.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C11",
+  "claim": "Google says agents run in an Agent Sandbox and all traffic passes through Agent Gateway, an AI network firewall enforcing policy in real time.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "All traffic — in, out, and between agents — passes through Agent Gateway, an AI network firewall enforcing your organization’s policies in real time.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C12",
+  "claim": "Google offers real-time spend caps that pause a project's agent when triggered, and claims per-token prices dropped 98% since 2024.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "if a spend cap is triggered, that project's agent pauses, and you can choose to resume work with a single click in the console.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C13",
+  "claim": "Google says sportswear brand On tested the dynamic model selection capability.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "Premium sportswear brand On tested this new dynamic selection capability to accelerate its speed-to-market.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C14",
+  "claim": "TechCrunch reports Kurian said the agent can be given objectives, not just instructions.",
+  "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+  "quote": "Thomas Kurian, CEO of Google Cloud, explained that the new agent can be given “objectives, not just instructions.”",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C15",
+  "claim": "TechCrunch reports Google will bring the agent to businesses first, consumers later; Pichai said Gemini has over 1 billion monthly active users.",
+  "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+  "quote": "Given Gemini’s adoption in the corporate world, Google will initially focus on bringing the agent to businesses before later rolling it out to consumers.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C16",
+  "claim": "TechCrunch reports a 'tasks inbox' where users can see Gemini's thinking, sub-agent delegation and progress.",
+  "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+  "quote": "Users can keep track of what Gemini is doing from a “tasks inbox” interface, where they can see Gemini’s thinking process, delegation of tasks to subagents, loading of special skills, code, and progress.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C17",
+  "claim": "TechCrunch reports early testers included On, Shopify and PayPal.",
+  "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+  "quote": "The agent’s early testers included sportswear brand On, Shopify, and PayPal",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C18",
+  "claim": "Independent analyst Carmi Levy says Google is positioning itself as gatekeeper of the enterprise agent layer, but questions whether CIOs/CISOs can trust it with mission-critical processes.",
+  "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+  "quote": "whether CIOs and CISOs can trust it to run mission critical business processes indefinitely without doing something stupid enough to generate damaging headlines is another story altogether.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C19",
+  "claim": "Info-Tech's Mahmoud Ramin says the announcement does not create a new category and that autonomous agents carry greater risk requiring enforced guardrails.",
+  "url": "https://www.computerworld.com/article/4232827/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents.html",
+  "quote": "noted that Google’s announcement does not create a whole new category, since OpenAI, Anthropic, Microsoft, and Meta have already positioned multiagent capabilities in their platforms.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C20",
+  "claim": "9to5Google reports the agent is in private preview, with wide availability soon for select Workspace Business and Enterprise plans.",
+  "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+  "quote": "The Gemini agent will see wide availability soon for Workspace customers with select Business and Enterprise plans. It’s currently in private preview.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C21",
+  "claim": "Constellation Research reports GA is expected around end of October or early November, with the consumption pricing model to come later.",
+  "url": "https://www.constellationr.com/insights/news/google-cloud-launches-gemini-agent-work-across-enterprise-systems",
+  "quote": "General availability for Gemini agent, currently in private beta, is expected around the end of October or early November.",
+  "sourceType": "Reporting",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C22",
+  "claim": "Google says industry-specialized Gemini is in preview for Financial Services and Legal, coming soon to Government, Healthcare and Retail.",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "It is now in preview for Financial Services and Legal, and coming soon to Government, Healthcare, and Retail.",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C23",
+  "claim": "Google cites customer-reported results such as Bradesco cutting document review time from 1 hour to 5 minutes (vendor-selected case study).",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "quote": "cutting document review time from 1 hour to 5 minutes while reducing risk inconsistencies by 60%",
+  "sourceType": "Official",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C24",
+  "claim": "Hacker News traction was low: top submission of the Cloud blog post had 18 points and 2 comments.",
+  "url": "https://news.ycombinator.com/item?id=50012543",
+  "quote": "The Gemini Agent",
+  "sourceType": "Social",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C25",
+  "claim": "An HN commenter was skeptical of yet another Google AI product.",
+  "url": "https://news.ycombinator.com/item?id=50012543",
+  "quote": "Good, just what people were asking for, yet another AI product from Google",
+  "sourceType": "Social",
+  "date": "2026-10-08"
+ },
+ {
+  "id": "C26",
+  "claim": "A concurrent preprint finds tool-using agents often act before required evidence is established, and multi-action workflows expose unresolved prerequisites (not a test of Google's agent).",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "quote": "Failures often begin before execution: agents stop with incomplete investigation or act before required evidence is established.",
+  "sourceType": "Paper",
+  "date": "2026-10"
+ }
+]

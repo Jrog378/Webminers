@@ -1,0 +1,12 @@
+{"hero": {"src": "/images/eureka/2026-10-10-google-gemini-agent-for-work/gemini-agent-for-work-office-keyboard-desk.webp", "width": 1600, "height": 1068,
+  "alt": "Black computer keyboard with red keys on a dark office desk, a scene of the daily work the Gemini agent for work targets",
+  "caption": "Google Cloud's Gemini agent is pitched at everyday desk work like email, documents and multi-step business tasks.",
+  "credit": {"title": "Computer keyboard placed on a black desk in a modern workspace", "author": "Shixart1985", "authorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0/", "sourceName": "Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer_keyboard_placed_on_a_black_desk_in_a_modern_workspace.jpg", "modified": "Resized and converted to WebP"}},
+ "tried": [
+  {"source": "StockSnap (Openverse)", "query": "office desk laptop / data center servers / email inbox", "result": "rejected: only 960px thumbnails listed and cdn.stocksnap.io returned 403 (blocked), full files not retrievable"},
+  {"source": "Rawpixel (Openverse)", "query": "office desk laptop / data center servers", "result": "rejected: only 1024px editor previews downloadable (larger sizes 404), below 1200 px; inspected, no watermark but too small and generic MacBook"},
+  {"source": "Nappy (Openverse)", "query": "office desk laptop / data center servers / email inbox", "result": "rejected: no results"},
+  {"source": "Flickr via Openverse (Tier 2)", "query": "telephone switchboard / filing cabinet office", "result": "rejected: files max 1024 px, mostly people"},
+  {"source": "Wikimedia Commons (Tier 2)", "query": "office desk computer monitor", "result": "chosen: 1920 px original, CC BY 2.0; inspected final WebP, no watermark, no faces, no readable logo. Wikimedia used two issues ago (10-04), but no Tier 1 image was at least 1200 px"},
+  {"source": "WordPress Photo Directory", "query": "not searched", "result": "skipped: used by previous issue (10-07)"}
+ ]}
