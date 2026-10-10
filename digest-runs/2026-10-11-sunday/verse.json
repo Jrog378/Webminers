@@ -1,0 +1,31 @@
+{
+  "chosen": {
+    "reference": "Philippians 4:6-7",
+    "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+    "translation": "World English Bible",
+    "url": "https://bible-api.com/Philippians+4:6-7?translation=web"
+  },
+  "candidates": [
+    {
+      "reference": "Philippians 4:6-7",
+      "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+      "url": "https://bible-api.com/Philippians+4:6-7?translation=web",
+      "context": "Paul writing to the church at Philippi from prison, urging them toward joy and steadiness in Christ.",
+      "whyItFits": "Anxiety was a top search; this passage gives the answer Scripture itself offers: bring it to God in prayer, and receive His peace. Points past the search to Christ."
+    },
+    {
+      "reference": "Romans 15:13",
+      "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope, in the power of the Holy Spirit.",
+      "url": "https://bible-api.com/Romans+15:13?translation=web",
+      "context": "Paul to the Roman church, closing his appeal for unity between Jews and Gentiles with a blessing.",
+      "whyItFits": "Speaks to hope, another top search, as a gift from God by the Spirit, not self-generated."
+    },
+    {
+      "reference": "Psalms 147:3-4",
+      "text": "He heals the broken in heart, and binds up their wounds. He counts the number of the stars. He calls them all by their names.",
+      "url": "https://bible-api.com/Psalm+147:3-4?translation=web",
+      "context": "A psalm of praise, likely post-exile, to Israel returning to rebuild Jerusalem.",
+      "whyItFits": "Speaks to healing: the God who rules the stars tenderly tends the brokenhearted. Slightly less direct as a lead since the verse is a praise hymn."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "weekStart": "2026-10-04",
+  "weekEnd": "2026-10-10",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok; no in-window technology story apart from an opinion piece ('The Confessions, the Comforter, and ChatGPT'; 'AI Is Weakening Pastors' Authority')"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok; Pray.com AI studio, an AI-danger book interview, a megachurch cyberattack (rejected)"
+    },
+    {
+      "name": "Google News RSS (Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, Bible app, YouVersion, Wycliffe, Gloo AI, AI chatbot Bible, sign language Bible, illumiNations; when:7d)",
+      "status": "ok; main discovery source"
+    },
+    {
+      "name": "PR Newswire (YouVersion newsroom)",
+      "status": "ok; primary release found"
+    },
+    {
+      "name": "Religion News Service RSS",
+      "status": "ok via feed (article page 403); Ascension release text read from feed content"
+    },
+    {
+      "name": "Gloo press releases",
+      "status": "ok"
+    },
+    {
+      "name": "Barna Group site and RSS",
+      "status": "ok; AI-guidelines research dated 2026-03-26 (stale)"
+    },
+    {
+      "name": "Calvin University news",
+      "status": "page loaded; item seen only via Google News"
+    },
+    {
+      "name": "Wycliffe / SIL / illumiNations (via Google News queries)",
+      "status": "no in-window technology news (Wycliffe query returned unrelated people with that name)"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "HTTP 400 on the numericFilters query; skipped"
+    },
+    {
+      "name": "Reddit r/Christianity .rss",
+      "status": "HTTP 403; skipped"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-10-04 to 2026-10-10",
+      "candidates": [
+        {
+          "title": "YouVersion reveals what people searched for in the Bible this year",
+          "summary": "The Bible App's yearly search data shows 'anxiety', 'hope' and 'healing' among the top searches, with 'Psalm 91' the single most-searched term. Daily use rose more than 13% to 18.5 million people, with 160M+ new installs in 2026. A November 30-Day Bible Challenge adds friend progress tracking.",
+          "primaryUrl": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+          "date": "2026-10-06",
+          "organization": "YouVersion (Life.Church)",
+          "whyNotChosen": "CHOSEN"
+        },
+        {
+          "title": "Ascension introduces Catholic Reading Bible: Dyslexia-Friendly Edition",
+          "summary": "The first complete Catholic Bible set in the Grace typeface by 2K/DENMARK, developed with input from dyslexic readers and researchers. It uses bottom-weighted letters, lines of no more than 35 characters, ragged-right text and colored reading overlays.",
+          "primaryUrl": "https://religionnews.com/2026/10/09/ascension-introduces-catholic-bible-for-readers-with-dyslexia/",
+          "date": "2026-10-08",
+          "organization": "Ascension",
+          "whyNotChosen": "An accessibility design story that is narrower and print-based. Used as also-encouraging."
+        },
+        {
+          "title": "Pray.com opens its AI video studio to churches",
+          "summary": "Pray Production Studio turns sermons into AI-generated cinematic videos using third-party video models, priced from $19 to $4,995 per month. Critics argue AI Bible videos turn Scripture into an action movie.",
+          "primaryUrl": "https://www.financialcontent.com/article/newsfile-2026-10-6-churches-can-now-turn-a-sunday-sermon-into-a-cinematic-film-by-monday-praycom-opens-the-ai-studio-behind-ai-bible-to-every-ministry",
+          "date": "2026-10-06",
+          "organization": "Pray.com",
+          "whyNotChosen": "A commercial product launch built on a press release. Its best use is the honest-caution angle, so it is used for wisdomConcern."
+        },
+        {
+          "title": "Gloo AI Hackathon 2026 winners",
+          "summary": "More than 1,000 builders on 115+ teams. The grand prize went to an agent for youth leaving foster care. The Best of Bible award (YouVersion) went to Envoy Mission, an offline, private Bible app shared through AI conversations with seekers.",
+          "primaryUrl": "https://gloo.com/press/releases/gloo-ai-hackathon-winners-announced-showing-what-applied-ai-can-do-for-human-flourishing",
+          "date": "2026-10-09",
+          "organization": "Gloo",
+          "whyNotChosen": "The headline winner is a social-services tool, not a Christ-centered one. Only the Bible-category winner is in scope. Used as also-encouraging."
+        },
+        {
+          "title": "Music Bible app sets the entire Bible to AI-generated music in 11 styles",
+          "summary": "The app has 30,000+ songs, and its creator says the Scripture text is unaltered.",
+          "primaryUrl": "https://www.crosswalk.com/headlines/contributors/guest-commentary/new-music-bible-app-uses-ai-to-turn-scripture-into-country-hip-hop-jazz-and-more.html",
+          "date": "2026-10-08",
+          "organization": "Music Bible",
+          "whyNotChosen": "The only source is a single guest commentary with self-reported figures."
+        },
+        {
+          "title": "Calvin University launches a center for Christian wisdom in the age of AI",
+          "summary": "A university center and conference on AI and faith.",
+          "primaryUrl": "https://calvin.edu",
+          "date": "2026-10-08",
+          "organization": "Calvin University",
+          "whyNotChosen": "An academic center launch with no tool at its center. Primary page not confirmed."
+        },
+        {
+          "title": "Pastors say churches need AI guidelines; few have them",
+          "summary": "Barna/Pushpay State of Church Tech: only 5% of churches have AI guidelines and 83% of leaders worry about data privacy.",
+          "primaryUrl": "https://www.barna.com/research/church-leaders-ai-usage-concerns/",
+          "date": "2026-03-26",
+          "organization": "Barna Group / Pushpay",
+          "whyNotChosen": "The data was published in March, so it is not this week's news despite a recent republication."
+        },
+        {
+          "title": "Grok chatbot affirms the divinity of Christ",
+          "summary": "Viral chatbot output.",
+          "primaryUrl": "https://www.christianpost.com/",
+          "date": "2026-10-06",
+          "organization": "xAI",
+          "whyNotChosen": "Not substantive; this is one chatbot reply, not a ministry technology."
+        },
+        {
+          "title": "Church Times: 'App makes translation a breeze'",
+          "summary": "A church live-translation app.",
+          "primaryUrl": "https://www.churchtimes.co.uk",
+          "date": "2026-10-08",
+          "organization": "unknown",
+          "whyNotChosen": "The article was unreadable or unconfirmed and the organization unclear."
+        },
+        {
+          "title": "Cyberattack on megachurches exposes member data",
+          "summary": "Suspected AI-linked attack on church databases.",
+          "primaryUrl": "https://www.christianpost.com/news/cyberattack-on-korean-megachurches-may-have-exposed-850k-members.html",
+          "date": "2026-10-10",
+          "organization": "n/a",
+          "whyNotChosen": "Framed around a place and a security incident; it cannot be told without geography."
+        }
+      ]
+    }
+  ]
+}

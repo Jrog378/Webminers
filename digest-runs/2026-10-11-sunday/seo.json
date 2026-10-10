@@ -1,0 +1,23 @@
+{
+  "keywords": {
+    "primary": "Bible app searches",
+    "secondary": ["anxiety", "Psalm 91", "YouVersion", "Bible App"]
+  },
+  "title": "Anxiety Among Top Bible App Searches | Coding with Christ",
+  "titleLength": 57,
+  "description": "YouVersion says anxiety, hope and healing were among 2026's top Bible App searches, and Psalm 91 ranked first. What its data shows and what it can't.",
+  "descriptionLength": 149,
+  "slug": "2026-10-11-bible-app-searches-anxiety-psalm-91",
+  "faq": "none (no People Also Ask questions confirmed for the topic)",
+  "changes": [
+    "title: 'Anxiety Tops Bible App Searches' changed to 'Anxiety Among Top Bible App Searches' because the release says anxiety was among the most-searched terms and Psalm 91 was the single top term; 57 chars, unique among recent issues",
+    "description: 'led' changed to 'were among 2026's top' for the same accuracy reason; now 149 chars and leads with the finding",
+    "H2 'Wisdom Corner: When the Word becomes content' changed to 'Wisdom Corner: When AI video turns the Word into content' to name the specific topic",
+    "slug chosen: 2026-10-11-bible-app-searches-anxiety-psalm-91 (46 chars)"
+  ],
+  "notes": [
+    "No image.json exists, so no hero alt/caption check; hero stays null.",
+    "Draft has no sixty field, so nothing to check.",
+    "Not changed (outside SEO scope): headline and dek still say 'led' searches; the editor may want to align them with the release wording."
+  ]
+}

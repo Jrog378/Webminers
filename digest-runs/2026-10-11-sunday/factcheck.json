@@ -1,0 +1,230 @@
+{
+ "checked": 28,
+ "passed": 25,
+ "results": [
+  {
+   "citation": "v",
+   "sentence": "Verse text, Philippians 4:6-7 (WEB)",
+   "url": "https://bible-api.com/Philippians+4:6-7?translation=web",
+   "verdict": "pass",
+   "evidence": "Matches bible-api.com WEB text exactly.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Anxiety, hope, healing among most-searched; Psalm 91 single most-searched term",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Release: 'Terms like \"anxiety,\" \"hope\" and \"healing\" were among the year's most searched, with \"Psalm 91\" ranking as the year's single most-searched term.'",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Released Oct 6",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "PR Newswire dateline Oct. 6, 2026.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Daily use 18.5 million, up more than 13% from 2025",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Release: 'daily use grew by over 13%, reaching 18.5 million people'.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Release does not define daily use or search counting (absence claim)",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "No definition found in release text.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Gruenewald quote",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Exact match; Founder and CEO of YouVersion.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Digital ministry of Life.Church; free apps",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Release About section matches.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "3,800 versions, 2,400 languages, 45,000 churches and partners",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "One billion installs last November; 160 million new installs in 2026",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Release: 'After celebrating one billion installs last November, YouVersion added more than 160 million new installs ... in 2026.'",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Global Bible Month, 30-Day Challenge, 'whether through a favorite print Bible or digitally through an app'",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "Exact quote.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Nearly 3 million signed up in 2025; new feature quote",
+   "url": "https://www.prnewswire.com/news-releases/anxiety-hope-and-healing-youversion-reveals-what-the-world-is-searching-for-in-the-bible-this-year-302899328.html",
+   "verdict": "pass",
+   "evidence": "'nearly 3 million people worldwide signed up'; feature quote exact.",
+   "fix": null
+  },
+  {
+   "citation": 2,
+   "sentence": "2025 data listed love, anxiety and peace among most-searched; Isaiah 41:10 most engaged-with",
+   "url": "https://www.prnewswire.com/news-releases/youversion-announces-2025-verse-of-the-year-as-bible-engagement-reaches-new-heights-globally-302632694.html",
+   "verdict": "pass",
+   "evidence": "Original PR Newswire (Dec. 4, 2025): 'most searched terms included love, anxiety, and peace'; 'Isaiah 41:10 as the most engaged-with verse'. Source was a Webull mirror; replaced with original PR Newswire URL (frontmatter updated).",
+   "fix": null
+  },
+  {
+   "citation": 2,
+   "sentence": "'more than 2.6 million people took' the Challenge",
+   "url": "https://www.prnewswire.com/news-releases/youversion-announces-2025-verse-of-the-year-as-bible-engagement-reaches-new-heights-globally-302632694.html",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": 2,
+   "sentence": "'more than 19 million people opening the app in a single day'; record day",
+   "url": "https://www.prnewswire.com/news-releases/youversion-announces-2025-verse-of-the-year-as-bible-engagement-reaches-new-heights-globally-302632694.html",
+   "verdict": "pass",
+   "evidence": "Exact; first Sunday of Nov 2025 all-time record.",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "Privacy policy lists 'search history'",
+   "url": "https://www.bible.com/privacy",
+   "verdict": "pass",
+   "evidence": "Listed under internet/network activity.",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "Does not sell/share personal data with third-party advertisers; 'in an aggregated form'",
+   "url": "https://www.bible.com/privacy",
+   "verdict": "pass",
+   "evidence": "Exact match.",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "2013 Sightings essay; 'the same methods advertisers use to compel us to buy and consume their products'",
+   "url": "https://divinity.uchicago.edu/sightings/youversion-digitizing-mobilizing-and-consuming-word-god-sara-jo-swiatek",
+   "verdict": "pass",
+   "evidence": "Quote exact, dated Nov 21, 2013. Note: source says religious content is 'being transformed with' these methods; draft paraphrase 'shaped by' is acceptable.",
+   "fix": null
+  },
+  {
+   "citation": 5,
+   "sentence": "Ascension: 'first complete Catholic Bible to feature the Grace typeface'; 2K/DENMARK; Cambridge quote; 35 characters, ragged-right, 11-point",
+   "url": "https://religionnews.com/2026/10/09/ascension-introduces-catholic-bible-for-readers-with-dyslexia/",
+   "verdict": "pass",
+   "evidence": "Verified in RNS RSS feed copy (article page returns 403 to bots; URL is the correct permalink, pubDate 9 Oct 2026). Quotes exact.",
+   "fix": null
+  },
+  {
+   "citation": 6,
+   "sentence": "CT 2024: Grace in Lifeway and Crossway Bibles; designer made font nonproprietary",
+   "url": "https://www.christianitytoday.com/2024/11/dyslexia-bible-accessibility-lifeway-crossway-grace-typeface/",
+   "verdict": "pass",
+   "evidence": "Article (2024-11-13): Lifeway and Crossway releases; Krogh 'intentionally opted to make the Grace font nonproprietary'.",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "Research on earlier dyslexia fonts finds little evidence they help read faster/more accurately",
+   "url": "https://www.edutopia.org/article/do-dyslexia-fonts-actually-work/",
+   "verdict": "pass",
+   "evidence": "Edutopia: 'research doesn't really have a lot of evidence showing that these special fonts help ... read faster or make fewer mistakes.'",
+   "fix": null
+  },
+  {
+   "citation": 8,
+   "sentence": "Best of Bible Track powered by YouVersion to Envoy Mission, offline private Bible via multilingual AI conversations with seekers",
+   "url": "https://gloo.com/press/releases/gloo-ai-hackathon-winners-announced-showing-what-applied-ai-can-do-for-human-flourishing",
+   "verdict": "pass",
+   "evidence": "Gloo release matches (it adds 'disguised as an ordinary app for people who could be imprisoned').",
+   "fix": null
+  },
+  {
+   "citation": 8,
+   "sentence": "$20,000 per track winner; 1,000+ builders on 115+ teams",
+   "url": "https://gloo.com/press/releases/gloo-ai-hackathon-winners-announced-showing-what-applied-ai-can-do-for-human-flourishing",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": 9,
+   "sentence": "Oct 6 Pray Production Studio launch, sermon to cinematic video, from $19/month",
+   "url": "https://www.newsfilecorp.com/release/317784/Churches-Can-Now-Turn-a-Sunday-Sermon-into-a-Cinematic-Film-by-Monday-PRAY.COM-Opens-the-AI-Studio-Behind-AI-Bible-to-Every-Ministry",
+   "verdict": "pass",
+   "evidence": "Original Newsfile release, Oct 6, 2026: 'subscription plans starting at $19 per month'. Cantech Letter link 403s; replaced with Newsfile original.",
+   "fix": null
+  },
+  {
+   "citation": "v",
+   "sentence": "Philippians 1:12-14, 4:4-5, James 1:22 references",
+   "url": "https://bible-api.com/Philippians+4:6-7?translation=web",
+   "verdict": "pass",
+   "evidence": "Scripture references consistent with text.",
+   "fix": null
+  },
+  {
+   "citation": 10,
+   "sentence": "theologian Jeffrey Bilbro told NPR that the company's AI Bible videos situate the Bible 'as entertainment...'",
+   "url": "https://www.nhpr.org/2025-09-07/fantasy-or-faith-one-companys-ai-generated-bible-content-stirs-controversy",
+   "verdict": "fix",
+   "evidence": "Quote accurate, but NPR identifies Bilbro as 'a professor of English at Grove City College in Pennsylvania', not a theologian.",
+   "fix": "Jeffrey Bilbro, an English professor at Grove City College, told NPR that the form 'situates the Bible as entertainment, as content to be titillated or amused by...'"
+  },
+  {
+   "citation": 10,
+   "sentence": "Another scholar, Brad East, said turning the Bible into short-form viral content robs it of its power",
+   "url": "https://www.nhpr.org/2025-09-07/fantasy-or-faith-one-companys-ai-generated-bible-content-stirs-controversy",
+   "verdict": "fix",
+   "evidence": "NPR: 'The videos rob the Bible of its power by reducing it to an action movie, said Brad East, a professor of theology at Abilene Christian University.' No 'short-form' or 'viral' language.",
+   "fix": "Another scholar, Brad East of Abilene Christian University, said the videos rob the Bible of its power by reducing it to an action movie."
+  },
+  {
+   "citation": null,
+   "sentence": "Frontmatter source titles/outlets",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "Guessed titles corrected in draft.md frontmatter: #2 (now original PR Newswire URL and real title), #3 'YouVersion Privacy Policy - Bible App', #4 appended '-- Sara-Jo Swiatek', #6 'And the Word Became Accessible: Publishers Release Dyslexia-Friendly Bibles' dated 2024-11-13, #9 swapped 403 Cantech URL for Newsfile original with real title. #1, 7, 8, 10 titles already exact. claim-map.json source 2 and 9 URLs still point to old links and body source-2 label.",
+   "fix": "Update claim-map.json sources 2 and 9 to the new URLs."
+  },
+  {
+   "citation": null,
+   "sentence": "Two years running, the company's own numbers show people opening the Bible when they are afraid.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Interpretive summary of two sourced anxiety/fear findings (2025 searches, Isaiah 41:10; 2026 searches); attributed to company data.",
+   "fix": null
+  }
+ ]
+}

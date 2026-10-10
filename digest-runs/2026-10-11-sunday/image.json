@@ -1,0 +1,13 @@
+{"hero":{"src":"/images/eureka/2026-10-11-bible-app-searches-anxiety-psalm-91/bible-app-searches-phone-and-open-bible.webp","width":1600,"height":1138,
+"alt":"Hands resting beside an open Bible and a phone on a wooden table, a quiet Bible app searches moment of study",
+"caption":"Whether in print or on a phone, people bring their worries to Scripture, as the Bible App's top searches show.",
+"credit":{"title":"Bible Study (Unsplash)","author":"Ben White","authorUrl":"https://unsplash.com/@benwhite","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"Wikimedia Commons","sourceUrl":"https://commons.wikimedia.org/wiki/File:Bible_Study_(Unsplash).jpg","modified":"Resized and converted to WebP"}},
+"tried":[
+{"source":"StockSnap (via Openverse)","query":"reading phone / smartphone hands reading / phone bible","result":"rejected: matches found but full-size CDN downloads blocked (403 HTML), only 600px previews reachable"},
+{"source":"WordPress Photo Directory","query":"reading phone, hands holding phone, bible","result":"rejected: no calm Bible/phone reading image"},
+{"source":"Nappy","query":"reading phone, smartphone hands reading, phone bible","result":"rejected: no results"},
+{"source":"Rawpixel","query":"reading phone, open bible table","result":"rejected: nice Bible photos but only 1024px previews accessible, under 1200px; stock thumbnail inspected"},
+{"source":"Openverse all sources (Flickr)","query":"bible smartphone, reading phone","result":"rejected: all 1024px or smaller or irrelevant"},
+{"source":"Wikimedia Commons","query":"Mobile optimization (Unsplash); blank white screen; person in dark","result":"rejected: unrelated page text/brand domain; stark; identifiable face"},
+{"source":"Wikimedia Commons (via Openverse)","query":"Bible (Unsplash); Bible Study (Unsplash)","result":"chosen: Bible Study (Unsplash) by Ben White, CC0; final WebP inspected visually, no watermark, no face, no logos; file reports Web/P image"}],
+"note":"Pexels/Unsplash/Pixabay API keys not set. Last two issues also used Wikimedia Commons; no suitable alternative found at 1200px+."}
