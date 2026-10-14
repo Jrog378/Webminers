@@ -1,0 +1,12 @@
+{"hero": {"src": "/images/eureka/2026-10-14-anthropic-ai-self-replication-test/raspberry-pi-zero-ai-self-replication-device.webp", "width": 1600, "height": 1079,
+  "alt": "Close-up of a Raspberry Pi Zero single-board computer, the kind of cheap device in Anthropic's AI self-replication test",
+  "caption": "Tiny, low-cost boards like this one are the kind of everyday hardware Anthropic's replication tests targeted.",
+  "credit": {"title": "Raspberry PI Zero single board computer with connectors and integrated circuits visible", "author": "yoshikawakazuhiro0405", "authorUrl": "https://yoshisyou.com", "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "sourceName": "WordPress Photo Directory",
+   "sourceUrl": "https://wordpress.org/photos/photo/59766469f8/", "modified": "Cropped, resized and converted to WebP"}},
+ "tried": [
+  {"source": "WordPress Photo Directory (Openverse)", "query": "raspberry pi / single board computer / circuit board", "result": "chosen: Pi Zero photo, CC0, 2048x1152 original; inspected final WebP, no watermark; cropped left edge to remove partial SanDisk label on the SD card"},
+  {"source": "StockSnap (Openverse)", "query": "raspberry pi / circuit board / microcontroller / single board computer", "result": "not chosen: only generic motherboard/circuit shots, less specific than the Pi Zero"},
+  {"source": "Rawpixel (Openverse)", "query": "raspberry pi / circuit board / microcontroller", "result": "not chosen: generic circuit board images, Openverse URLs are preview-size and likely watermarked"},
+  {"source": "Nappy (Openverse)", "query": "raspberry pi / circuit board / microcontroller / single board computer", "result": "rejected: no results"},
+  {"source": "Unsplash / Pexels / Pixabay", "query": "-", "result": "skipped: no API keys set"}]}

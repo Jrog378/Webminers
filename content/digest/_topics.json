@@ -82,5 +82,26 @@
     "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
     "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
     "slug": "2026-10-10-google-gemini-agent-for-work"
+  },
+  {
+    "date": "2026-10-14",
+    "section": "news",
+    "title": "Anthropic: small AI models may be months from self-replicating on everyday devices",
+    "primaryUrl": "https://www.anthropic.com/research/self-replicating-ai",
+    "slug": "2026-10-14-anthropic-ai-self-replication-test"
+  },
+  {
+    "date": "2026-10-14",
+    "section": "research",
+    "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+    "primaryUrl": "https://arxiv.org/abs/2610.11765",
+    "slug": "2026-10-14-anthropic-ai-self-replication-test"
+  },
+  {
+    "date": "2026-10-14",
+    "section": "invention",
+    "title": "Plimsoll: a sandbox that stamps every agent-code run with its isolation strength",
+    "primaryUrl": "https://github.com/plimsollmark/plimsoll",
+    "slug": "2026-10-14-anthropic-ai-self-replication-test"
   }
 ]

@@ -1,0 +1,216 @@
+{
+ "section": "invention",
+ "window": "Sat Oct 10 - Tue Oct 13, 2026",
+ "sourcesTried": [
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by sandbox (repo-scoped only); used HN-linked repos and raw README fetches instead"
+  },
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai tag RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok but titles only, no descriptions/links parsed; not used for candidates"
+  },
+  {
+   "name": "Reddit rss / Wikipedia pageviews",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "SolidCraft: open-source parametric 3D CAD in Rust with a built-in MCP server so AI agents can model",
+   "summary": "Sketch-constrain-extrude CAD with a feature timeline that rebuilds when a parameter changes; runs on desktop or in the browser, and agents can drive it through MCP.",
+   "primarySourceUrl": "https://github.com/bherbruck/solidcraft",
+   "date": "2026-10-13",
+   "signal": {
+    "hn": "133 points, 44 comments, https://news.ycombinator.com/item?id=50064840"
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "notes": "README fetched; Pi 4 case demo. Caveat: young project; agent-modeling quality unverified."
+  },
+  {
+   "title": "Plimsoll: sandbox that stamps every agent-code run with its isolation strength and refuses weaker sandboxes",
+   "summary": "Self-hosted Go sandbox; each result carries a tier (process, container, kernel, vm) and a request can set a minimum tier, otherwise nothing runs.",
+   "primarySourceUrl": "https://github.com/plimsollmark/plimsoll",
+   "date": "2026-10-11",
+   "signal": {
+    "hn": "16 points, 4 comments, https://news.ycombinator.com/item?id=50049388"
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Low HN signal but strong fit; fits recent agent-safety news theme."
+  },
+  {
+   "title": "Atticus: hold-to-talk voice assistant for macOS running on an existing Claude plan via Claude Code",
+   "summary": "Open-source Swift app; simple asks skip the AI (app opens in 0.08 s), learned actions replay free, README claims ~0.18 cent per ask.",
+   "primarySourceUrl": "https://github.com/SaarthurR/atticus-mac",
+   "date": "2026-10-12",
+   "signal": {
+    "hn": "114 points, 27 comments, https://news.ycombinator.com/item?id=50049588"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Costs are the author's claim. Similar-category Mac tool (SCM) covered 10-07 but different function."
+  },
+  {
+   "title": "BetterWispr: free open-source dictation for Mac with local speech models",
+   "summary": "Transcribes on-device (nine models incl. Apple speech, Parakeet, Whisper), strips ums and false starts, per-app writing style; no account.",
+   "primarySourceUrl": "https://betterwispr.com/",
+   "date": "2026-10-11",
+   "signal": {
+    "hn": "213 points, 126 comments, https://news.ycombinator.com/item?id=50042333"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Homepage fetched; GitHub link on site, repo URL not independently fetched. Crowded category."
+  },
+  {
+   "title": "Parsimony: open benchmark of how much code each AI coding agent adds",
+   "summary": "Public leaderboard ranking coding agents by how little code they change to solve tasks.",
+   "primarySourceUrl": "https://parsimony.lasu.dev/",
+   "date": "2026-10-13",
+   "signal": {
+    "hn": "33 points, 2 comments, https://news.ycombinator.com/item?id=50077619"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Page fetched but methodology not read; verify before writing."
+  },
+  {
+   "title": "PDF TO MP3: turn PDFs into audiobooks using your existing Codex or Claude subscription via MCP",
+   "summary": "Connects an AI chat to a converter over MCP; subscription handles document processing, user supplies a speech key billed by Google or OpenAI.",
+   "primarySourceUrl": "https://pdftomp3.com/connect-ai/",
+   "date": "2026-10-13",
+   "signal": {
+    "hn": "159 points, 80 comments, https://news.ycombinator.com/item?id=50069337"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Commercial service with pricing page; borderline paid placement risk."
+  },
+  {
+   "title": "Running RAG with a small language model entirely in the browser",
+   "summary": "Blog walkthrough of retrieval-augmented generation with a small model running client-side.",
+   "primarySourceUrl": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+   "date": "2026-10-13",
+   "signal": {},
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "From Lobsters ai tag; page fetched, content not read in depth."
+  },
+  {
+   "title": "Blokkily: experimental pattern-first music workstation with MCP support",
+   "summary": "DAW built around patterns that AI agents can drive via MCP.",
+   "primarySourceUrl": "https://github.com/andrewfader/blokkily",
+   "date": "2026-10-12",
+   "signal": {
+    "hn": "83 points, 35 comments, https://news.ycombinator.com/item?id=50064438"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "notes": "Repo not fetched; details from HN title only."
+  },
+  {
+   "title": "Deslop: Oxlint rules that catch AI-generated TypeScript patterns",
+   "summary": "Lint rules aimed at flagging typical AI-written code habits.",
+   "primarySourceUrl": "https://github.com/maharshi365/deslop",
+   "date": "2026-10-13",
+   "signal": {
+    "hn": "25 points, 5 comments, https://news.ycombinator.com/item?id=50075809"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 3
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "notes": "README raw URL returned 404; repo URL taken from HN post only."
+  },
+  {
+   "title": "Opensidian",
+   "summary": "Show HN note-taking project (details not verified).",
+   "primarySourceUrl": "https://opensidian.org/",
+   "date": "2026-10-13",
+   "signal": {
+    "hn": "37 points, 36 comments, https://news.ycombinator.com/item?id=50070286"
+   },
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 9,
+   "coveredLast8Weeks": false,
+   "notes": "Not fetched; thin."
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "Mira, AI Walking Tours",
+   "reason": "story is built around places/geography",
+   "url": "https://www.mira.tours/wander"
+  }
+ ],
+ "excludedOther": [
+  "PS2 games recompiled to WebAssembly (305 pts), WallHop, Guitoro: high HN signal but not AI inventions"
+ ]
+}

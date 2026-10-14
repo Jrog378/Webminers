@@ -1,0 +1,245 @@
+{
+ "section": "news",
+ "window": "Sat Oct 10 - Tue Oct 13, 2026",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS search",
+   "status": "failed: HTTP 400 then 302 redirect with no feed body"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok (no in-window AI items)"
+  },
+  {
+   "name": "OpenAI news RSS",
+   "status": "ok (in-window: only customer story Higgsfield, no major news)"
+  },
+  {
+   "name": "Anthropic news",
+   "status": "ok via HTML (no RSS); research post fetched"
+  },
+  {
+   "name": "Google DeepMind RSS",
+   "status": "ok"
+  },
+  {
+   "name": "NVIDIA blog RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Google blog AI RSS",
+   "status": "failed: 301 redirect, not followed"
+  },
+  {
+   "name": "Meta AI blog",
+   "status": "ok (page fetched)"
+  },
+  {
+   "name": "Mistral blog",
+   "status": "not tried"
+  },
+  {
+   "name": "Hacker News Algolia",
+   "status": "ok"
+  },
+  {
+   "name": "Reddit rss / Wikipedia pageviews",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Meta releases Muse Wonder, its first frontier model, for personal and professional agents",
+   "summary": "Muse Wonder and Muse Wonder Full add 'Active Memory' and 'Active Focus'; Wonder is available via Meta Model API and Muse Code, Full for Muse Code subscribers.",
+   "primaryUrl": "https://research.meta.ai/blog/muse-wonder",
+   "date": "2026-10-12",
+   "signal": "HN 658 pts / 372 comments https://news.ycombinator.com/item?id=50059115",
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 20,
+   "coveredRecently": null,
+   "notes": "Also TechCrunch: https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+  },
+  {
+   "title": "Anthropic: small AI models may be months from self-replicating on IoT devices",
+   "summary": "Anthropic evals: a 9B model got inference running on 8 of 9 hardware types; GLM-5.2 and stronger complete simplified end-to-end replication; small models projected to match by end of year.",
+   "primaryUrl": "https://www.anthropic.com/research/self-replicating-ai",
+   "date": "2026-10-12",
+   "signal": "HN 106 pts / 108 comments https://news.ycombinator.com/item?id=50061603",
+   "scores": {
+    "novelty": 5,
+    "momentum": 3,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredRecently": null,
+   "notes": null
+  },
+  {
+   "title": "Character.ai files for Chapter 11 to pursue a court-supervised sale",
+   "summary": "Company says the platform will continue if a bid emerges, otherwise be wound down.",
+   "primaryUrl": "https://blog.character.ai/an-update-on-character-ai/",
+   "date": "2026-10-12",
+   "signal": "HN 275 pts / 262 comments https://news.ycombinator.com/item?id=50068036; Verge: https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredRecently": null,
+   "notes": "Keep strictly business/product; avoid litigation and regulatory framing."
+  },
+  {
+   "title": "Gemini 4 Argon reaches wide release, with robotics variant and safety write-up",
+   "summary": "Google/DeepMind publish 'Built to solve your hardest problems', a robotics version and a responsible-development post on Oct 13.",
+   "primaryUrl": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "date": "2026-10-13",
+   "signal": "Verge coverage: https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredRecently": "2026-10-03 news: Google releases Gemini 4 Argon (issue 2026-10-03-gemini-4-argon-benchmarks)",
+   "notes": "Only viable as a follow-up angle (robotics variant: https://deepmind.google/blog/gemini-4-argon-for-robotics/); announced 2026-09-30 already."
+  },
+  {
+   "title": "GLM-Legal model announced by Z.ai",
+   "summary": "Domain-specialized legal model from Z.ai; blog page returned no readable text to our fetch, so details unverified.",
+   "primaryUrl": "https://z.ai/blog/glm-legal",
+   "date": "2026-10-13",
+   "signal": "HN 664 pts / 358 comments https://news.ycombinator.com/item?id=50058507",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 15,
+   "coveredRecently": null,
+   "notes": "Verify content before use; page not readable by fetch."
+  },
+  {
+   "title": "Intel D270 inference GPU with up to 480 GB LPDDR5X",
+   "summary": "Intel product page for an inference-optimized data center GPU.",
+   "primaryUrl": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "date": "2026-10-13",
+   "signal": "HN 301 pts / 175 comments https://news.ycombinator.com/item?id=50063365",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 14,
+   "coveredRecently": null,
+   "notes": "Product page only; specs/date of launch not confirmed from fetch."
+  },
+  {
+   "title": "NVIDIA opens Vera Rubin architecture at OCP Global Summit",
+   "summary": "NVIDIA says it is opening the Vera Rubin architecture to the ecosystem to scale AI factories.",
+   "primaryUrl": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "date": "2026-10-12",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredRecently": null,
+   "notes": "Title contains 'Worldwide'; avoid geographic framing. NVIDIA already covered 2026-09-30 (different story)."
+  },
+  {
+   "title": "Sakana AI MASS: recursive self-improvement via multi-agent self-supervision",
+   "summary": "Optimizes multi-agent workflows and distills collective intelligence as a self-supervision signal; improves score per output token on research benchmarks.",
+   "primaryUrl": "https://pub.sakana.ai/mass/",
+   "date": "2026-10-12",
+   "signal": "HN 137 pts / 79 comments https://news.ycombinator.com/item?id=50048522",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredRecently": null,
+   "notes": "Closer to research section; company claim, not peer-reviewed."
+  },
+  {
+   "title": "Google Play and AI Studio: install vibe-coded apps without a computer",
+   "summary": "Google makes it easier to launch apps built in AI Studio directly to Android.",
+   "primaryUrl": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+   "date": "2026-10-13",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 11,
+   "coveredRecently": null,
+   "notes": "Verge links to Google blog (blog.google, Google Play) as primary; locate it before use."
+  },
+  {
+   "title": "Shopify opens its catalog to more AI shopping agents",
+   "summary": "More AI agents will be able to browse and buy from Shopify listings.",
+   "primaryUrl": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "date": "2026-10-13",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredRecently": null,
+   "notes": "Primary Shopify announcement not located."
+  },
+  {
+   "title": "Facebook 'Your Algorithm' lets users tune feeds and Reels with AI",
+   "summary": "Users add and manage topics for their feed; Meta says recommendations respond right away.",
+   "primaryUrl": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+   "date": "2026-10-13",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 9,
+   "coveredRecently": null,
+   "notes": "Primary Meta post not located; watch for culture-war framing."
+  }
+ ],
+ "excludedPolitical": [
+  "Microsoft president says UK best placed to drive AI regulation (TechCrunch 2026-10-12; policy + geography)",
+  "AI less regulated than milk, Microsoft president (Guardian 2026-10-12; policy)",
+  "IMF warning on AI share crash (Guardian 2026-10-13; government/geography framing)",
+  "WindBorne US Air Force contract (TechCrunch 2026-10-12; government)",
+  "QGIS moratorium on AI contributions (community policy dispute; not scouted further)",
+  "Tom Brown / SpaceX compute deal political ties (WSJ via HN; political)",
+  "OpenAI employee arrested over conference-room bug (Verge 2026-10-13; criminal story, not product news)"
+ ]
+}

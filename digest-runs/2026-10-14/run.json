@@ -1,0 +1,7 @@
+{"status":"published-to-branch","issueDate":"2026-10-14","window":"Sat Oct 10 - Tue Oct 13, 2026","slug":"2026-10-14-anthropic-ai-self-replication-test",
+"sourcesFailed":["Google News RSS","arXiv API (timeout)","Hacker News (research scout)","GitHub search API","GitHub web (403, raw.githubusercontent used)","CNBC","Quartz"],
+"topics":{"news":"Anthropic self-replication evaluation","research":"Thinking Inertia (arXiv 2610.11765)","invention":"Plimsoll sandbox"},
+"formats":{"news":"qa","research":"explainer","invention":"comparison"},
+"factcheck":{"round1":{"checked":64,"pass":54,"fix":10,"cut":0},"round2":{"checked":20,"pass":20,"fix":0,"cut":0}},
+"editor":"PASS after 1 round (closing section removed)",
+"notes":"npm ci failed: package-lock.json out of sync (yaml@2.9.1 missing). npm install + npm run build succeeded with the new issue. Pushed to branch digest/2026-10-14."}

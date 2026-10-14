@@ -1,0 +1,583 @@
+{
+ "checked": 64,
+ "passed": 54,
+ "results": [
+  {
+   "citation": "[1]",
+   "sentence": "Frontier Red Team said Oct 12 small models 'may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact match in lead paragraph; dated Oct 12, 2026; authors William Zhou, Daniel Freeman.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Post reports company's own evaluations; key replication test 'simplified'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "'In our simplified evaluations' in lead; 'Autonomous inference setup and replication (with simplified cyber)'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Four stages: finding targets, gaining access to run code, getting a model running, spreading further; tests focused on model running, hacking stages largely set aside",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Page: 'finding targets, gaining execution, establishing inference, and continuing propagation from the new host'; 'We largely ignore the cyber exploit element (the first two stages)'. Paraphrase is faithful.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Models of 30B and under can do many single steps but 'make mistakes when composing them end to end'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact in lead.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "9B model 'got inference running on 8 of the 9 hardware types we tested'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact quote in lead; body identifies Qwen3.5-9B.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Tom's Hardware names Qwen3.5-9B; hardware from Jetson Nano to Apple Silicon Macs and at least one PC with RTX 4090",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+   "verdict": "pass",
+   "evidence": "Tom's: 'NVIDIA Jetson Nano devices, Apple Silicon Macs, Xeon servers, a Google TPU, AMD's MI300X, and at least one PC with an RTX 4090, among others'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Walled-off network of 8 cloud computers running an Android 15 emulator; worm hops via ADB port requiring no login and sets up Llama 3.1 8B",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "'firewalled VPC of 8 GCP nodes running redroid, an Android 15 emulator'; 'unauthenticated ADB port'; serves Llama3.1-8B.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Only GLM-5.2 did it reliably; 8 nodes in 4 of 5 trials and 7 of 8 in the other; others 'fail reliably'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact: 'it spread to 8/8 nodes in 4 out of 5 trials and 7/8 in 1'; 'the other models fail reliably'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Sixty bullet: 'only GLM-5.2 completed its simplified end-to-end replication test'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "fix",
+   "evidence": "Anthropic's wording is 'Only GLM-5.2 out of our set of tested open-weight models'; lead also says 'GLM-5.2 and stronger models are capable'. Unqualified 'only' overstates.",
+   "fix": "Say 'only GLM-5.2 among the open-weight models Anthropic tested' (or 'GLM-5.2 was the only tested open-weight model to complete...')."
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Anthropic kept hacking step trivial; calls result 'an upper bound on real-world success'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact phrase.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "GLM-5.2 wasn't copying itself; ran on separate server; set up 'the much smaller Llama 3.1 8B'",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+   "verdict": "pass",
+   "evidence": "Tom's: 'GLM-5.2 wasn't actually replicating itself...; it established an inference server for the much smaller Llama 3.1 8B on each target. GLM-5.2 ran on a separate inference server'. Matches Anthropic too.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Successive Qwen3.5-9B copies passed notes forward, setup success 45% to between 61% and 84%",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "'rises from 45% in the first generation to between 61% and 84% in later ones'.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "eWeek: those copies 'were restarted by the researchers rather than reproducing autonomously'",
+   "url": "https://www.eweek.com/news/anthropic-self-replicating-ai-iot-devices/",
+   "verdict": "pass",
+   "evidence": "Exact in eWeek: 'These instances were restarted by the researchers rather than reproducing autonomously.'",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "'Advice from a far larger model, Opus 4.8, did not measurably help'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "fix",
+   "evidence": "Anthropic says 'a frontier advisor, a stronger model' and 'Opus 4.8'; the post never says larger or gives its size. 'Doesn't measurably help' is supported.",
+   "fix": "'Advice from a stronger frontier model, Opus 4.8, did not measurably help.'"
+  },
+  {
+   "citation": "[1]",
+   "sentence": "One model, Gemma4-26B-A4B, across 15 off-brand Android TV boxes ~$55 each at 0.39 tokens per second",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact. (Body text separately gives ~0.3 tok/s per agent; 0.39 is the demo figure.)",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Anthropic projects small models 'they'll match this capability level by the end of this year'; 13.7 index points a year; 'only a rough estimate'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Lead: 'they\u2019ll match this capability level by the end of this year'; 'gain of 13.7 ECI per year'; 'this is only a rough estimate'. Index is Epoch Capabilities Index.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Each 9B copy takes over 1 to 2 days; Kimwolf-size swarm 'at most about 40 H100s-worth of inference'; 'a tiny amount of compute in absolute terms'",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact ('over 1-2 days per 9B replication'). Kimwolf described as 'over two million devices'.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Tom's estimates infecting 2 million devices would take about 6,300 agent-years; notes real-world security controls not tested",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+   "verdict": "pass",
+   "evidence": "'infecting 2 million devices would take around 6,300 agent-years even with the fastest 28-hour stand-up speed'; 'the ability to overcome real-world security controls, which the firm didn't test'.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "'The threat is real, but still in the future, at least for now,' it concluded",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+   "verdict": "fix",
+   "evidence": "Quote is exact, but it is Tom's Hardware's standfirst/subheading under the byline, not a conclusion of the article. Page 'Published 13 October 2026'.",
+   "fix": "Replace 'it concluded' with 'its subheading says' (or 'Tom's Hardware's standfirst reads')."
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Top comment on HN thread with 106 points and 108 comments called the post 'fearmarketing', 'there does seem to be a cool technical demo here'",
+   "url": "https://news.ycombinator.com/item?id=50061603",
+   "verdict": "fix",
+   "evidence": "Thread shows 106 points and 109 comments at check time (counts drift). Comment by pythonaut_16 is the 4th top-level comment, not the top one. Wording: 'Guess it's time for Anthropic's next round of fearmarketing. Beneath the fear there does seem to be a cool technical demo here though.'",
+   "fix": "'An early comment on a Hacker News thread (106 points, 109 comments when checked) called the post 'fearmarketing,' while granting...'"
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Others doubted abilities of a model of almost 744 billion parameters would soon fit in 8 billion",
+   "url": "https://news.ycombinator.com/item?id=50061603",
+   "verdict": "fix",
+   "evidence": "The 744B figure appears only in an HN commenter's remark ('The almost 744B parameter count model capabilities will \"in the future\" fit in 8B parameters'); no Anthropic/Tom's/eWeek page gives GLM-5.2's size. Draft states it in the writer's voice.",
+   "fix": "'One commenter doubted that a model they put at almost 744 billion parameters could be matched by 8 billion, citing...' or drop the number."
+  },
+  {
+   "citation": "[1]",
+   "sentence": "'We don't yet have a full rogue replicator'; network signature traffic monitoring could flag; closing advice quote",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Exact quotes in Conclusion/Blue-team sections ('visible as an anomaly in ISP flow-based monitoring systems').",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Preprint posted to arXiv Oct 8 by Lei, Lin, Lu, Torr, Zou",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "pass",
+   "evidence": "arXiv 2610.11765 submitted 8 Oct 2026, authors match.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "DeepSeek-V4-Flash wrote visible reasoning in 99.9% of open-ended answers with thinking off",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'DeepSeek-V4-Flash (284B) retains visible explicit inference in 99.9% of open-ended responses under its disabled-thinking setting'.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Authors from Tsinghua, Oxford, Stanford; say accepted to NeurIPS 2026; 'The paper is not yet peer-reviewed'",
+   "url": "https://raw.githubusercontent.com/thinking-inertia/code/main/README.md",
+   "verdict": "fix",
+   "evidence": "README affiliations match; README ('accepted as a Poster at NeurIPS 2026') and arXiv Comments ('Accepted by NeurIPS 2026') both say accepted. 'Not yet peer-reviewed' contradicts that; the arXiv page itself carries the acceptance, so 'we have not independently confirmed' is also weak.",
+   "fix": "'The authors say the paper has been accepted to NeurIPS 2026 (arXiv comments field and GitHub README); the arXiv version is the submitted preprint and we have not checked the NeurIPS program.' Keep claimStatus: preprint."
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Authors found 'explicit no-think controls cannot reliably eliminate visible inference'; 'Thinking Inertia' grows 'as the answer space opens'",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "pass",
+   "evidence": "Abstract: 'explicit no-think controls cannot reliably eliminate visible inference'; 'becomes more prevalent as the answer space opens'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "With thinking off, most models gave answer-only replies 80% to 100% on yes/no, almost never on open-ended",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'most models reach roughly 80-100% ETR on Bool'; 'On Open-ended tasks, ETR collapses to nearly zero everywhere'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "GPT-5.4 the main exception, staying mostly answer-only on yes/no and multiple-choice questions",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "fix",
+   "evidence": "Paper's 'main exception' is specific to M3 (step-by-step prompt re-eliciting reasoning): 'GPT-5.4 is the main exception to this recovery pattern, maintaining high answer-only compliance ... on both Bool and MCQ'. It is not an exception to the think-off result, and the draft places it right after the think-off sentence.",
+   "fix": "'GPT-5.4 was the main exception when a step-by-step prompt was added: it stayed answer-only on yes/no and multiple-choice questions where other models resumed reasoning.'"
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Team tested six ways of asking for a direct answer on six models",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "pass",
+   "evidence": "Abstract: 'six prompting interventions on six LLMs'. (Note M1 is think-on reference and M3 asks for step-by-step, so 'six ways of asking for a direct answer' is loose; 'six prompting setups' is safer.)",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Three sizes of Qwen3, DeepSeek-V4-Flash, GPT-5.4, Gemini-3-Flash",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "Qwen3-4B, 32B, 235B-A22B; DeepSeek-V4-Flash; GPT-5.4; Gemini-3-Flash(-Preview).",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Six benchmarks from BoolQ to GSM8K and MATH; 572,688 outputs",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "BoolQ, StrategyQA, MMLU, MMLU-Pro, GSM8K, MATH; '572,688 outputs'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "600 human-checked outputs agreed with GPT-5.5 judge 98.8% and Claude Opus 4.8 judge 96.7%",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'98.8% mean binary agreement with the primary GPT-5.5 judge'; '96.7% with the independent Claude Opus 4.8 judge across all 600 outputs'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Strict 'answer directly' prompt raised answer-only rate from near zero to about 40%, cut accuracy about 15 points; 'The answer is' prefill did not reliably work",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'raises mean ETR from near zero to roughly 40% while reducing mean accuracy by about 15 percentage points' (mean over five models with disabled thinking, open-ended); M6 prefix 'neither reliably produces answer-only responses'. Could add 'on average'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Qwen3-32B MCQ rewritten as yes/no: answer-only 10.5% to 62.5%, accuracy 77.8% vs 78.9%",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'accuracy nearly unchanged, from 77.8% to 78.9%, but raises ETR from 10.5% to 62.5%' (matched numeric-answer MMLU/MMLU-Pro subset, M2).",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Paper warns that 'stopping explicit reasoning cannot be assumed from model settings or instructions alone'",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "fix",
+   "evidence": "Quote is exact but is NOT on the arXiv abstract page (source 5); it appears in the full-text HTML (source 6) in the introduction. Not in abstract.",
+   "fix": "Cite [6] instead of [5]."
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Authors suggest 'task-aware routing'",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'This suggests task-aware routing: answer directly when the interface provides sufficient support, and preserve explicit computation when suppression would sacrifice accuracy.'",
+   "fix": null
+  },
+  {
+   "citation": "[8]",
+   "sentence": "First author wrote on HF: 'Knowing when NOT to think may be just as important as knowing how to think.'",
+   "url": "https://huggingface.co/papers/2610.11765",
+   "verdict": "pass",
+   "evidence": "Exact, posted by Dianqiao Lei (first author) on HF paper page.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "2025 survey noted 'Zhu et al. (2025a) find that LRMs do not always follow the instruction to skip thinking'",
+   "url": "https://arxiv.org/html/2507.09662",
+   "verdict": "pass",
+   "evidence": "Survey text matches. Survey is 'Towards Concise and Adaptive Thinking in Large Reasoning Models: A Survey', authors Jason Zhu, Hongyu Li, arXiv 2507.09662, 13 Jul 2025. Note the 'Zhu et al.' being cited is a different paper from the survey itself; wording is accurate as written.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Study looks only at visible text, not hidden computation, cost or speed; quote 'Visible compliance should not, however, be equated with lower inference cost when hidden reasoning may remain active'",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "Quote exact. 'Claims concern visible output, not the absence of task-relevant computation'; cost/latency listed as future work.",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Other work shows visible reasoning does not always reflect a model's actual process",
+   "url": "https://arxiv.org/abs/2505.05410",
+   "verdict": "pass",
+   "evidence": "'Reasoning Models Don't Always Say What They Think' (Chen, Benton, Radhakrishnan, Uesato, Denison, Schulman et al.), 8 May 2025.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "Skipping thinking by prompt 'can be surprisingly effective'",
+   "url": "https://arxiv.org/abs/2504.09858",
+   "verdict": "pass",
+   "evidence": "Abstract: 'NoThinking, can be surprisingly effective' (Ma, He, Snell, Griggs, Min, Zaharia), 14 Apr 2025.",
+   "fix": null
+  },
+  {
+   "citation": "[8]",
+   "sentence": "HF commenter: 'if you train a model to think, it'll think'",
+   "url": "https://huggingface.co/papers/2610.11765",
+   "verdict": "pass",
+   "evidence": "Exact in a comment on the HF page.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Authors list code, tool use, other languages, multi-turn as untested; want 'calibrated stopping rather than uniform suppression'",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'Generalization to multilingual, code, tool-use, multi-turn, and stochastic settings ... remains open'; calibrated stopping quote exact.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Plimsoll runs untrusted code in a sandbox and 'every result says how strong that sandbox was'; 'if the sandbox is weaker, nothing runs'",
+   "url": "https://github.com/plimsollmark/plimsoll",
+   "verdict": "pass",
+   "evidence": "README opening paragraph; wording matches (README is bold-formatted).",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Author shared project on HN on Oct 11",
+   "url": "https://news.ycombinator.com/item?id=50049388",
+   "verdict": "pass",
+   "evidence": "Show HN submitted 2026-10-11T23:47:59 (HN timestamps are UTC), user cagster, 'I wrote plimsoll'.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Four tiers weakest first: process, container, kernel, vm; name from Plimsoll line",
+   "url": "https://github.com/plimsollmark/plimsoll",
+   "verdict": "pass",
+   "evidence": "README verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "[14]",
+   "sentence": "Plimsoll hands isolation to gVisor and Firecracker and acts as gatekeeper in front",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/SECURITY.md",
+   "verdict": "pass",
+   "evidence": "SECURITY.md: 'Isolation itself is delegated to gVisor and Firecracker. This project is the layer in front of them that decides which requests may run'.",
+   "fix": null
+  },
+  {
+   "citation": "[15]",
+   "sentence": "gVisor 'intercepts application system calls and acts as the guest kernel'",
+   "url": "https://gvisor.dev/docs/",
+   "verdict": "pass",
+   "evidence": "gvisor.dev/docs: 'gVisor intercepts application system calls and acts as the guest kernel'. 'Basis of kernel tier' is supported by SECURITY.md/README.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "Kernel tier: TypeScript compile-and-run took 4.1 s vs 1.95 s in plain container, in the author's test",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/compare/index.html",
+   "verdict": "pass",
+   "evidence": "docs/compare: 'one-file TypeScript compile-and-run took 4.1 s under gVisor against 1.95 s as a plain container (median of 20, 2026-09-29)'. Page title is 'Self-hosted E2B alternatives for AI-agent code, compared (2026-10-11)'. Author-run, author-published page; self-comparison to competitors.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "VM tier, billed by the second",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/compare/index.html",
+   "verdict": "pass",
+   "evidence": "'The VM tier comes only from E2B or Docker Cloud Sandboxes, which bill by the second.'",
+   "fix": null
+  },
+  {
+   "citation": "[14]",
+   "sentence": "E2B/Docker Cloud: tier inferred from which provider is configured",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/SECURITY.md",
+   "verdict": "pass",
+   "evidence": "'reports VM tier from provider identity'.",
+   "fix": null
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Six hosted services: author says none reports the wall or refuses below a minimum",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/isolation-tiers.md",
+   "verdict": "pass",
+   "evidence": "isolation-tiers.md: September 2026 check of E2B, Modal, Daytona, Vercel Sandbox, Cloudflare, Northflank; 'None of them returns the wall a run actually got, and none refuses...'. Author's own competitive claim, correctly attributed.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Northflank uses gVisor 'where nested virtualisation is unavailable'",
+   "url": "https://northflank.com/blog/kata-containers-vs-gvisor",
+   "verdict": "pass",
+   "evidence": "Northflank: 'gVisor applied where syscall-interception isolation is sufficient or where nested virtualisation is unavailable'. Vendor blog by Deborah Emeni, 29 Apr 2026; source type should be 'Company blog', not 'Official'.",
+   "fix": null
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Idea came from a JS sandbox that 'advertised a MemoryLimit that did nothing'",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/isolation-tiers.md",
+   "verdict": "pass",
+   "evidence": "'a popular embeddable JavaScript sandbox advertised a `MemoryLimit` that did **nothing**'.",
+   "fix": null
+  },
+  {
+   "citation": "[20]",
+   "sentence": "Docker accepted 64-process limit under Kata, yet 200 of 200 processes started, one laptop",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/notes/pids-limit/index.html",
+   "verdict": "pass",
+   "evidence": "pids-limit note: Docker 29.1.3, gVisor release-20260907.0, Kata 4.2.0, one laptop; Kata '200 of 200'.",
+   "fix": null
+  },
+  {
+   "citation": "[21]",
+   "sentence": "A Kata issue about the limit not reaching the guest was closed as not planned",
+   "url": "https://github.com/kata-containers/kata-containers/issues/4887",
+   "verdict": "fix",
+   "evidence": "Source URL could not be confirmed for state: GitHub returned 403 to this session; a mirror shows issue #4887 'Can't set the number of processes limit in the container' (created 2022-08-11, PIDs limit not applied in guest) but not its status. The 'closed as not planned' claim and the ledger date 2026-07-31 are only secondhand from the author's note [20]. UNVERIFIED against primary.",
+   "fix": "Either verify issue state on GitHub and fix the source date (issue opened 2022), or attribute: 'the author says a Kata issue ... was closed as not planned'."
+  },
+  {
+   "citation": "[12]",
+   "sentence": "README says tier 'is not attestation, cryptographic proof from the hardware of what software is running'",
+   "url": "https://github.com/plimsollmark/plimsoll",
+   "verdict": "pass",
+   "evidence": "README: 'It is not attestation, cryptographic proof from the hardware of what software is running' (markup stripped; lead-in 'It' = the tier).",
+   "fix": null
+  },
+  {
+   "citation": "[14]",
+   "sentence": "Compromised Docker daemon or E2B control plane 'defeats the evidence'",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/SECURITY.md",
+   "verdict": "pass",
+   "evidence": "SECURITY.md: '...that did not do what it says, defeats the evidence.'",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "Per-request floor is opt-in; a request that sets none skips the check",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/sandbox/validation.go",
+   "verdict": "pass",
+   "evidence": "validateMinimumIsolation returns nil when minimum == IsolationUnknown (unset). Caveat: SECURITY/isolation-tiers also describe an operator-level SANDBOX_MIN_ISOLATION checked at startup, so 'skips the check' is true only for the per-request floor.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "'pre-1.0, single author, no external users yet', no third-party security audit",
+   "url": "https://github.com/plimsollmark/plimsoll",
+   "verdict": "pass",
+   "evidence": "README: '**Pre-1.0**, single author, no external users yet'; 'No third-party security audit has ever been performed' (case differs from draft quote).",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "'The bus factor is one,' the author wrote",
+   "url": "https://news.ycombinator.com/item?id=50049388",
+   "verdict": "pass",
+   "evidence": "HN: 'it's just me: the bus factor is one, and I'm careful around buses.' Capital T is the draft's; use 'the bus factor is one'.",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Closing: 'small models are learning to set themselves up on new hardware, and Plimsoll won't run agent code unless its walls are strong enough'",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "First clause states Anthropic's result as fact without attribution; second clause overstates: Plimsoll refuses only when the request sets a floor (draft's own caveat says so).",
+   "fix": "'Anthropic says small models can already set themselves up on new hardware, and Plimsoll refuses to run agent code when the request demands a stronger wall than it can provide.'"
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Reasoning models write out step-by-step working before they answer, and many now come with a switch to turn that off",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "General background, supported by the paper's abstract ('increasingly ship with explicit thinking modes'); acceptable uncited.",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Sixty bullet 3 and caveat paragraph: Plimsoll 'refuses requests whose minimum it can't meet'; no external users, no audit",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Supported by sources 12 and 17 as above.",
+   "fix": null
+  }
+ ],
+ "source_metadata_corrections": [
+  {
+   "n": 2,
+   "outlet": "Tom's Hardware",
+   "author": "Zak Killian",
+   "date": "2026-10-13",
+   "title": "Anthropic warns of self-replicating AI worm threat that doesn't need data centers to self-improve and spread \u2014 current deployment is impractical but could become a worry as tech improves",
+   "note": "Draft replaced the em dash with a comma; real title uses ' \u2014 '. Standfirst: 'The threat is real, but still in the future, at least for now.'"
+  },
+  {
+   "n": 3,
+   "outlet": "eWeek",
+   "author": "Kezia Grace Jungco",
+   "date": "2026-10-13",
+   "title": "Anthropic Warns of AI Self-Replication on Smart Devices",
+   "note": "HTML/meta title; on-page H1 is 'Anthropic Warns AI Could Soon Self-Replicate Across Smart Devices'. Use one consistently; byline 'Kezia Grace Jungco'."
+  },
+  {
+   "n": 4,
+   "outlet": "Hacker News (submitted by artninja1988)",
+   "date": "2026-10-12",
+   "title": "AI models may be capable of self-replicating without access to a datacenter",
+   "note": "Draft title already correct; 106 points, 109 comments at check time."
+  },
+  {
+   "n": 9,
+   "outlet": "arXiv (Jason Zhu, Hongyu Li)",
+   "date": "2025-07-13",
+   "title": "Towards Concise and Adaptive Thinking in Large Reasoning Models: A Survey",
+   "note": "arXiv 2507.09662."
+  },
+  {
+   "n": 10,
+   "outlet": "arXiv (Yanda Chen, Joe Benton, Ansh Radhakrishnan, Jonathan Uesato, Carson Denison, John Schulman, et al.)",
+   "date": "2025-05-08",
+   "title": "Reasoning Models Don't Always Say What They Think"
+  },
+  {
+   "n": 11,
+   "outlet": "arXiv (Wenjie Ma, Jingxuan He, Charlie Snell, Tyler Griggs, Sewon Min, Matei Zaharia)",
+   "date": "2025-04-14",
+   "title": "Reasoning Models Can Be Effective Without Thinking"
+  },
+  {
+   "n": 18,
+   "outlet": "Northflank Blog (Deborah Emeni; vendor blog)",
+   "date": "2026-04-29",
+   "title": "Kata Containers vs gVisor",
+   "note": "Vendor/company blog; change type from Official to Company blog."
+  },
+  {
+   "n": 21,
+   "note": "Issue #4887 title: 'Can't set the number of processes limit in the container', opened 2022-08-11; ledger date 2026-07-31 not verifiable; 403 from GitHub."
+  },
+  {
+   "n": 16,
+   "title_actual": "Self-hosted E2B alternatives for AI-agent code, compared (2026-10-11)",
+   "note": "Draft title 'docs/compare' is a path, not a title."
+  },
+  {
+   "n": "12,14,16,17,19,20,21",
+   "note": "github.com returned 403 to this session; contents verified via raw.githubusercontent.com (all but 21), which serves the same files from main."
+  }
+ ],
+ "political_geographic_flags": "None substantive. Only geographic/institutional mentions: Tsinghua, Oxford, Stanford affiliations (factual, from README). Kimwolf botnet and GLM-5.2/DeepSeek named without national framing. Anthropic post mentions UK IoT password regulation, but the draft omits it."
+}

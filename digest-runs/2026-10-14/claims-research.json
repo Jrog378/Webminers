@@ -1,0 +1,226 @@
+[
+  {
+    "id": "research-01",
+    "claim": "Paper is an arXiv preprint submitted 8 Oct 2026 by Lei, Lin, Lu, Torr and Zou.",
+    "url": "https://arxiv.org/abs/2610.11765",
+    "quote": "Submitted on 8 Oct 2026",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-02",
+    "claim": "Explicit no-think controls do not reliably remove visible reasoning; the authors name this 'Thinking Inertia'.",
+    "url": "https://arxiv.org/abs/2610.11765",
+    "quote": "We find that explicit no-think controls cannot reliably eliminate visible inference. Models instead exhibit \"Thinking Inertia\": explicit inference persists even under strict controls and becomes more prevalent as the answer space opens.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-03",
+    "claim": "Six prompting interventions were tested on six LLMs across Boolean, multiple-choice and open-ended questions.",
+    "url": "https://arxiv.org/abs/2610.11765",
+    "quote": "We evaluate six prompting interventions on six LLMs across Boolean, multiple-choice, and open-ended questions.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-04",
+    "claim": "DeepSeek-V4-Flash shows visible explicit inference in 99.9% of open-ended responses with thinking disabled.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "even a frontier LLM such as DeepSeek-V4-Flash (284B) retains visible explicit inference in 99.9% of open-ended responses under its disabled-thinking setting.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-05",
+    "claim": "Strict answer-only prompting raises answer-only rate from near zero to ~40% but cuts accuracy ~15 points on open-ended tasks.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "strict answer-only prompting raises mean ETR from near zero to roughly 40% while reducing mean accuracy by about 15 percentage points.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-06",
+    "claim": "On open-ended tasks, Think-Off to Strict lowers explicit inference rate from 99.69% to 62.00%.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "the corresponding EIR likewise decreases from 99.69% to 62.00%",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-07",
+    "claim": "Under Think-Off most models are 80-100% answer-only on yes/no tasks, but near zero on open-ended tasks.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "Under M2 ( Think-off ), most models reach roughly 80–100% ETR on Bool, with sharply reduced QRel. and EIR.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-08",
+    "claim": "Models tested: Qwen3-4B/32B/235B-A22B, DeepSeek-V4-Flash, GPT-5.4, Gemini-3-Flash; benchmarks BoolQ, StrategyQA, MMLU, MMLU-Pro, GSM8K, MATH.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "We use BoolQ [ 6 ] and StrategyQA [ 10 ] .",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-09",
+    "claim": "Rewriting the same questions from multiple choice to yes/no raised answer-only rate from 10.5% to 62.5% with similar accuracy (Qwen3-32B).",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "The Boolean rewrite leaves accuracy nearly unchanged, from 77.8% to 78.9%, but raises ETR from 10.5% to 62.5%",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-10",
+    "claim": "Prefix forcing does not reliably produce answer-only responses.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "Prefix forcing does not reliably produce answer-only responses.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-11",
+    "claim": "GPT-5.4 is the main exception, maintaining high answer-only compliance on yes/no and multiple choice.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "GPT-5.4 is the main exception to this recovery pattern, maintaining high answer-only compliance and correspondingly low EIR on both Bool and MCQ.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-12",
+    "claim": "Human labels agreed 98.8% with the GPT-5.5 judge and 96.7% with a Claude Opus 4.8 judge on 600 outputs.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "the human explicit-inference labels achieve 98.8% mean binary agreement with the primary GPT-5.5 judge and 96.7% with the independent Claude Opus 4.8 judge across all 600 outputs.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-13",
+    "claim": "The full corpus contains 572,688 outputs.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "our full-corpus audit flags only 301 of 572,688 outputs (0.053%) as near-verbatim repetitions",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-14",
+    "claim": "The study measures visible output only, not hidden computation.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "Our claims therefore concern visible output, not the absence of task-relevant computation from hidden states",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-15",
+    "claim": "Authors caution that visible compliance does not imply lower inference cost.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "Visible compliance should not, however, be equated with lower inference cost when hidden reasoning may remain active.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-16",
+    "claim": "Authors list multilingual, code, tool-use, multi-turn and stochastic settings as untested.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "Generalization to multilingual, code, tool-use, multi-turn, and stochastic settings, as well as robustness to evolving proprietary endpoints, remains open.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-17",
+    "claim": "Proposed future work: train models for calibrated stopping and examine whether computation moves to a hidden channel.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "One direction is to train models for calibrated stopping rather than uniform suppression",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-18",
+    "claim": "Authors suggest task-aware routing.",
+    "url": "https://arxiv.org/html/2610.11765",
+    "quote": "This suggests task-aware routing: answer directly when the interface provides sufficient support, and preserve explicit computation when suppression would sacrifice accuracy.",
+    "sourceType": "Paper",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "research-19",
+    "claim": "Author affiliations: Tsinghua, Oxford, Stanford; Kevin Qinghong Lin is project lead.",
+    "url": "https://raw.githubusercontent.com/thinking-inertia/code/main/README.md",
+    "quote": "<sup>1</sup> Tsinghua University · <sup>2</sup> University of Oxford · <sup>3</sup> Stanford University",
+    "sourceType": "Official",
+    "date": "2026-10"
+  },
+  {
+    "id": "research-20",
+    "claim": "Authors claim NeurIPS 2026 poster acceptance (UNVERIFIED: not found in NeurIPS 2026 orals/posters data as of 2026-10-14).",
+    "url": "https://raw.githubusercontent.com/thinking-inertia/code/main/README.md",
+    "quote": "2026.09 — Our paper is accepted as a Poster at NeurIPS 2026!",
+    "sourceType": "Official",
+    "date": "2026-10"
+  },
+  {
+    "id": "research-21",
+    "claim": "First author describes it as NeurIPS 2026 work on HF Daily Papers.",
+    "url": "https://huggingface.co/papers/2610.11765",
+    "quote": "Knowing when NOT to think may be just as important as knowing how to think.",
+    "sourceType": "Social",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "research-22",
+    "claim": "Paper has 215 upvotes on HF Daily Papers, listed 13 Oct 2026.",
+    "url": "https://huggingface.co/api/papers/2610.11765",
+    "quote": "\"upvotes\":215",
+    "sourceType": "Social",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "research-23",
+    "claim": "HF commenter questions the premise: models trained to think will think.",
+    "url": "https://huggingface.co/papers/2610.11765",
+    "quote": "I don't understand what this paper is getting at. Like, yeah, if you train a model to think, it'll think.",
+    "sourceType": "Social",
+    "date": "2026-10-13"
+  },
+  {
+    "id": "research-24",
+    "claim": "Social discussion is thin; digg aggregation of X posts shows little discussion.",
+    "url": "https://digg.com/ai/y0f16d3v",
+    "quote": "Not enough discussion yet",
+    "sourceType": "Social",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "research-25",
+    "claim": "Prior work already found reasoning models don't always follow skip-thinking instructions.",
+    "url": "https://arxiv.org/html/2507.09662",
+    "quote": "Zhu et al. (2025a) find that LRMs do not always follow the instruction to skip thinking under NoThinking setting.",
+    "sourceType": "Paper",
+    "date": "2025-07"
+  },
+  {
+    "id": "research-26",
+    "claim": "Counter-evidence: bypassing thinking via prompting can be effective at matched token budgets.",
+    "url": "https://arxiv.org/abs/2504.09858",
+    "quote": "bypassing the thinking process via simple prompting, denoted as NoThinking, can be surprisingly effective.",
+    "sourceType": "Paper",
+    "date": "2025-04-14"
+  },
+  {
+    "id": "research-27",
+    "claim": "Visible chain-of-thought is not always faithful to the model's actual reasoning.",
+    "url": "https://arxiv.org/abs/2505.05410",
+    "quote": "the effectiveness of such monitoring hinges on CoTs faithfully representing models' actual reasoning processes.",
+    "sourceType": "Paper",
+    "date": "2025-05-08"
+  },
+  {
+    "id": "research-28",
+    "claim": "Related: Thinkless trains models to choose when to think, cutting long-chain thinking 50-90%.",
+    "url": "https://arxiv.org/abs/2505.13379",
+    "quote": "Thinkless is able to reduce the usage of long-chain thinking by 50% - 90%",
+    "sourceType": "Paper",
+    "date": "2025-05-19"
+  }
+]

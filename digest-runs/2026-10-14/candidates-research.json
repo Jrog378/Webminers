@@ -1,0 +1,226 @@
+{
+ "section": "research",
+ "window": "Sat Oct 10 - Tue Oct 13, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers",
+   "status": "ok (Oct 10, 11 empty weekend; Oct 12: 50, Oct 13: 26 papers)"
+  },
+  {
+   "name": "arXiv API",
+   "status": "failed (timeout 30s)"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "failed (non-JSON response)"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/Nature/Science/MIT TR RSS",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+   "summary": "Finds a linear representation subspace (S-Space) that supports spatial reasoning inside multimodal LLMs.",
+   "primaryUrl": "https://arxiv.org/abs/2610.13527",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 272,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.13527"
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 19,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+   "summary": "Studies 'no-thinking' modes in reasoning LLMs and finds models keep reasoning even when instructed not to.",
+   "primaryUrl": "https://arxiv.org/abs/2610.11765",
+   "date": "2026-10-13 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 215,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.11765"
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "recentlyCovered": false
+  },
+  {
+   "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+   "summary": "Benchmark testing whether coding agents can build user-specific agents that fit a user's real workflow.",
+   "primaryUrl": "https://arxiv.org/abs/2610.13361",
+   "date": "2026-10-13 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 201,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.13361"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false
+  },
+  {
+   "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+   "summary": "Online RL fine-tuning for diffusion models with better credit assignment than Flow-GRPO-style methods.",
+   "primaryUrl": "https://arxiv.org/abs/2610.12572",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 242,
+    "hfComments": 4,
+    "hfUrl": "https://huggingface.co/papers/2610.12572"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false
+  },
+  {
+   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+   "summary": "Fast, precise visual grounding model aimed at closed-loop robot control.",
+   "primaryUrl": "https://arxiv.org/abs/2609.39601",
+   "date": "2026-10-13 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 246,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2609.39601"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+   "summary": "Humanoid controller that reacts to visual input (catching, dodging, returning shots).",
+   "primaryUrl": "https://arxiv.org/abs/2610.12772",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 138,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.12772"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+   "summary": "Scales long-horizon training data for terminal agents doing professional tasks.",
+   "primaryUrl": "https://arxiv.org/abs/2610.13166",
+   "date": "2026-10-13 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 133,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.13166"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false
+  },
+  {
+   "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+   "summary": "Synthesizes diverse software environments to train computer-use agents at scale.",
+   "primaryUrl": "https://arxiv.org/abs/2610.12611",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 92,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.12611"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "recentlyCovered": false
+  },
+  {
+   "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+   "summary": "Benchmark for continual learning in embodied agents.",
+   "primaryUrl": "https://arxiv.org/abs/2610.13021",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 66,
+    "hfComments": 3,
+    "hfUrl": "https://huggingface.co/papers/2610.13021"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+   "summary": "Evaluates whether AI agents can learn heuristics to climb a long-running adversarial game competition.",
+   "primaryUrl": "https://arxiv.org/abs/2610.12341",
+   "date": "2026-10-12 (HF Daily Papers listing date; arXiv posting ~Oct 8-9)",
+   "peerReviewed": false,
+   "signal": {
+    "hfUpvotes": 34,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.12341"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "recentlyCovered": false
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "No candidate overlaps _topics.json (last research: 2610.07753 agent failures on Oct 10). Possible near-topic overlap: AgentSWE/terminal agent papers with that agent-failure story."
+}

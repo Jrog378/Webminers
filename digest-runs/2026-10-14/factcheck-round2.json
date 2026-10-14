@@ -1,0 +1,169 @@
+{
+ "round": 2,
+ "checked": 20,
+ "passed": 20,
+ "fix": 0,
+ "cut": 0,
+ "results": [
+  {
+   "citation": "sixty-1",
+   "sentence": "GLM-5.2 was the only one of the open-weight models it tested ... all 8 nodes in 4 of 5 trials",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "'Only GLM-5.2 out of our set of tested open-weight models'; '8/8 nodes in 4 out of 5 trials and 7/8 in 1'; '8 of the 9 hardware types'; Oct 12, 2026.",
+   "fix": null
+  },
+  {
+   "citation": "sixty-2",
+   "sentence": "preprint ... authors say accepted to NeurIPS 2026 ... 99.9% of open-ended answers",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "pass",
+   "evidence": "arXiv comments 'Accepted by NeurIPS 2026'; full text: 'DeepSeek-V4-Flash (284B) retains visible explicit inference in 99.9% of open-ended responses under its disabled-thinking setting'. Author list matches.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Advice from a stronger frontier model, Opus 4.8, did not measurably help",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "'a frontier advisor, a stronger model'; 'advice doesn't measurably...'",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "'The threat is real, but still in the future, at least for now,' its subheading says",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+   "verdict": "pass",
+   "evidence": "Exact text directly under byline (Zak Killian, 13 Oct 2026); Qwen3.5-9B, 6,300 agent-years, 'much smaller Llama 3.1 8B' confirmed.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "eWeek: copies 'were restarted by the researchers rather than reproducing autonomously'",
+   "url": "https://www.eweek.com/news/anthropic-self-replicating-ai-iot-devices/",
+   "verdict": "pass",
+   "evidence": "Exact; title 'Anthropic Warns of AI Self-Replication on Smart Devices', author Kezia Grace Jungco, Oct 13, 2026 match source 3 metadata.",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Early comment on HN thread (106 points, 109 comments when checked) called post 'fearmarketing' ... 'there does seem to be a cool technical demo here'; others doubted year-end projection",
+   "url": "https://news.ycombinator.com/item?id=50061603",
+   "verdict": "pass",
+   "evidence": "Header shows 106 points, 109 comments; pythonaut_16 comment text matches; other commenters mock 'by the end of the year' claim (e.g. 'It's laughable').",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "NeurIPS 2026 acceptance in arXiv comments field",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "verdict": "pass",
+   "evidence": "Comments: 'Accepted by NeurIPS 2026.'",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Authors from Tsinghua, Oxford, Stanford; accepted to NeurIPS 2026 in README",
+   "url": "https://raw.githubusercontent.com/thinking-inertia/code/main/README.md",
+   "verdict": "pass",
+   "evidence": "README: affiliations 1 Tsinghua, 2 Oxford, 3 Stanford; 'accepted as a Poster at NeurIPS 2026'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "GPT-5.4 main exception when step-by-step prompt added ...",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "'GPT-5.4 is the main exception to this recovery pattern, maintaining high answer-only compliance ... on both Bool and MCQ' under M3 (step-by-step).",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "'stopping explicit reasoning cannot be assumed from model settings or instructions alone'",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "Present in full text intro; also on abstract page but cited to [6], which is fine.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "98.8% / 96.7% human agreement with GPT-5.5 / Claude Opus 4.8 on 600 outputs; 572,688 outputs; Qwen3-32B 10.5% to 62.5%, 77.8% vs 78.9%; task-aware routing; Visible compliance quote; calibrated stopping quote",
+   "url": "https://arxiv.org/html/2610.11765",
+   "verdict": "pass",
+   "evidence": "All exact in full text.",
+   "fix": null
+  },
+  {
+   "citation": "[8]",
+   "sentence": "'Knowing when NOT to think ...' by first author on HF; commenter 'if you train a model to think, it'll think'",
+   "url": "https://huggingface.co/papers/2610.11765",
+   "verdict": "pass",
+   "evidence": "Post by user DianQiao (Dianqiao Lei) contains the line; commenter urroxyz wrote the quoted sentence.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "2025 survey: 'Zhu et al. (2025a) find that LRMs do not always follow the instruction to skip thinking'; source 9 title/authors/date",
+   "url": "https://arxiv.org/html/2507.09662",
+   "verdict": "pass",
+   "evidence": "Quote exact (sentence continues 'under NoThinking setting'); title 'Towards Concise and Adaptive Thinking in Large Reasoning Models: A Survey', authors Jason Zhu, Hongyu Li, 13 Jul 2025 match. Preprint; labelled Paper.",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Reasoning Models Don't Always Say What They Think; visible reasoning doesn't always reflect process",
+   "url": "https://arxiv.org/abs/2505.05410",
+   "verdict": "pass",
+   "evidence": "Title and first author Yanda Chen, 8 May 2025 match source 10.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "skipping thinking by prompt 'can be surprisingly effective'",
+   "url": "https://arxiv.org/abs/2504.09858",
+   "verdict": "pass",
+   "evidence": "Abstract: 'can be surprisingly effective'; title Reasoning Models Can Be Effective Without Thinking, Wenjie Ma et al., 14 Apr 2025.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "TypeScript compile-and-run 4.1 s vs 1.95 s, author's test",
+   "url": "https://github.com/plimsollmark/plimsoll/blob/main/docs/compare/index.html",
+   "verdict": "pass",
+   "evidence": "Fetched via raw.githubusercontent: 'took 4.1 s under gVisor against 1.95 s as a plain container (median of 20...)'. Source 16 title/outlet matches.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Northflank uses gVisor 'where nested virtualisation is unavailable'; Northflank Blog, Deborah Emeni, 2026-04-29",
+   "url": "https://northflank.com/blog/kata-containers-vs-gvisor",
+   "verdict": "pass",
+   "evidence": "Exact phrase; byline Deborah Emeni, 'Published 29th April 2026'. Note: Northflank is a vendor blog, and the draft attributes it correctly.",
+   "fix": null
+  },
+  {
+   "citation": "[20]",
+   "sentence": "Author found 200 of 200 processes under Kata; says Kata issue closed as not planned",
+   "url": "https://raw.githubusercontent.com/plimsollmark/plimsoll/main/docs/notes/pids-limit/index.html",
+   "verdict": "pass",
+   "evidence": "'kata-containers#4887 was closed as not planned'; Kata row 'max 200 of 200'. Attributed to author in draft.",
+   "fix": null
+  },
+  {
+   "citation": "[21]",
+   "sentence": "A Kata issue ... opened in 2022 (source 21 date 2022-08-11, title)",
+   "url": "https://github.com/kata-containers/kata-containers/issues/4887",
+   "verdict": "pass",
+   "evidence": "CAVEAT: github.com 403 in this session, so issue page not directly loaded; 'closed as not planned' is correctly attributed to the author, verified in [20]. 'Opened in 2022' and title rest on the round-1 mirror check; recommend a human glance.",
+   "fix": null
+  },
+  {
+   "citation": "closing",
+   "sentence": "Anthropic says small models can already set themselves up on new hardware, and Plimsoll refuses to run agent code when the request demands a stronger wall than it can provide",
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "verdict": "pass",
+   "evidence": "Now attributed; matches Anthropic '9B model got inference running on 8 of 9' and Plimsoll floor-per-request caveat in [12]/[17].",
+   "fix": null
+  }
+ ]
+}

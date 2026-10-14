@@ -1,0 +1,28 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "claim",
+  "sections": {
+    "news": {
+      "format": "qa",
+      "words": 600,
+      "why": "Contested, alarm-prone self-reported company evaluation. Reader questions (what counts as self-replication, why 'simplified', what 8 of 9 hardware types means, what is projection vs measured) let the writer attribute claims and keep a calm tone. Leads the issue as the strongest story."
+    },
+    "research": {
+      "format": "explainer",
+      "words": 600,
+      "why": "Single preprint with one clear finding; the run-in labels (found / how it works / why it matters / uncertain, including 'not yet peer-reviewed') fit. Explainer used once only, in this slot."
+    },
+    "invention": {
+      "format": "comparison",
+      "words": 350,
+      "why": "Plimsoll's value is clearest against alternatives (process, container, kernel, VM isolation, and ordinary sandboxes that run weaker if needed). Table keeps it concrete and leaves room for the young-project caveat."
+    }
+  },
+  "recentCombos": {
+    "2026-09-30": {"research": "by-the-numbers", "news": "claim-vs-evidence", "invention": "comparison"},
+    "2026-10-03": {"research": "explainer", "news": "claim-vs-evidence", "invention": "three-things"},
+    "2026-10-07": {"research": "qa", "news": "claim-vs-evidence", "invention": "comparison"},
+    "2026-10-10": {"research": "by-the-numbers", "news": "three-things", "invention": "explainer"}
+  },
+  "previousHeadlineStyle": "number-led (Oct 10); Oct 7 claim; Oct 3 question"
+}

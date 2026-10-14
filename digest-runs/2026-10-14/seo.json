@@ -1,0 +1,22 @@
+{
+  "keywords": {
+    "primary": "AI self-replication",
+    "secondary": ["Anthropic self-replicating AI", "reasoning model thinking mode off", "AI agent sandbox"]
+  },
+  "title": "Anthropic AI Self-Replication Test | Eureka Reports Oct 14",
+  "titleLength": 58,
+  "description": "Anthropic says small AI models may be months from copying themselves onto cheap devices. Plus: reasoning models that keep thinking when told to stop.",
+  "descriptionLength": 150,
+  "slug": "2026-10-14-anthropic-ai-self-replication-test",
+  "image": {
+    "altLength": 118,
+    "changed": false
+  },
+  "faq": false,
+  "changes": [
+    "Renamed closing H2 from 'Holding AI to its limits' to 'Self-replication, no-think switches and sandboxes: holding AI to its limits' so it names the specific topics.",
+    "Title, description, sixty, deep-dive openings and H2s checked and left unchanged (title 58 chars, unique against the last four issues; description 150 chars).",
+    "image.json alt/caption checked and left unchanged (alt 118 chars, one keyword use, no 'image of').",
+    "No FAQ added: keyword searches surfaced no People Also Ask questions."
+  ]
+}

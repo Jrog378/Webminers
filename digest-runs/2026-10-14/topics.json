@@ -1,0 +1,63 @@
+{
+  "research": {
+    "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+    "primaryUrl": "https://arxiv.org/abs/2610.11765",
+    "why": "A plain-language finding about AI that a general reader can follow: reasoning models told to skip thinking keep thinking anyway. That affects cost, speed and how well users can control the model. It isn't an agent paper, so it doesn't repeat the Oct 10 tool-using-agents topic. Preprint, not peer-reviewed. HF listed it Oct 13 (arXiv ~Oct 8-9). 215 HF upvotes.",
+    "runnersUp": [
+      {
+        "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+        "primaryUrl": "https://arxiv.org/abs/2610.13527",
+        "note": "Highest momentum (272 upvotes), but it's interpretability work that is harder to make matter to a general reader."
+      },
+      {
+        "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+        "primaryUrl": "https://arxiv.org/abs/2610.12772",
+        "note": "Easy to picture (a robot catching and dodging), but less momentum."
+      },
+      {
+        "title": "DiffusionART",
+        "primaryUrl": "https://arxiv.org/abs/2610.12572",
+        "note": "Strong signal, but a narrow method improvement."
+      }
+    ],
+    "rejected": "AgentSWE and Scaling Agentic Data for Long-Horizon Terminal Intelligence: too close to the Oct 10 tool-using-agents topic."
+  },
+  "news": {
+    "title": "Anthropic: small AI models may be months from self-replicating on everyday devices",
+    "primaryUrl": "https://www.anthropic.com/research/self-replicating-ai",
+    "why": "Highest significance for a general reader. Evaluations show a 9B model getting inference running on 8 of 9 hardware types, and stronger models (e.g. GLM-5.2) completing simplified end-to-end replication. Small models are projected to match by year end. It also breaks a run of model-launch news topics (Gemini 4 Argon, Mistral Large 4, Gemini agent). Writer notes: this is a self-reported company evaluation, so present it as Anthropic's claims and projections, not settled fact. Say 'simplified' replication. Avoid alarmist framing and any policy or regulation angle. Published Oct 12. HN 106 pts / 108 comments.",
+    "runnersUp": [
+      {
+        "title": "Meta releases Muse Wonder, its first frontier model",
+        "primaryUrl": "https://research.meta.ai/blog/muse-wonder",
+        "note": "Highest momentum (HN 658 pts) and a strong pick in its own right. Ranked second on significance for readers and because model launches have been the news topic in 3 of the last 4 issues. Use it if the editor prefers momentum."
+      },
+      {
+        "title": "Character.ai files for Chapter 11 to pursue a court-supervised sale",
+        "primaryUrl": "https://blog.character.ai/an-update-on-character-ai/",
+        "note": "Only usable with strictly business framing. Hard to separate from the litigation context, so ranked lower."
+      }
+    ],
+    "rejected": "Gemini 4 Argon wide release: covered Oct 3, and the robotics variant is not a big enough update. GLM-Legal and Intel D270: primary source not readable or not confirmed."
+  },
+  "invention": {
+    "title": "Plimsoll: a sandbox that stamps every agent-code run with its isolation strength and refuses weaker sandboxes",
+    "primaryUrl": "https://github.com/plimsollmark/plimsoll",
+    "why": "Most novel idea in the pool and of real practical importance. Each result records how strongly it was isolated (process, container, kernel, VM). A request can demand a minimum level, and if it can't be met, nothing runs. It also ties in naturally with the containment theme of the news pick. Caveat: low HN signal (16 pts / 4 comments) and a young self-hosted Go project. Describe what the README says it does, not proven adoption. Posted Oct 11.",
+    "runnersUp": [
+      {
+        "title": "SolidCraft: open-source parametric 3D CAD in Rust with a built-in MCP server",
+        "primaryUrl": "https://github.com/bherbruck/solidcraft",
+        "note": "Higher momentum (133 pts) and more visual for a general reader. Take this if the editor drops the thread or wants a less technical invention."
+      },
+      {
+        "title": "Atticus: hold-to-talk voice assistant for macOS via Claude Code",
+        "primaryUrl": "https://github.com/SaarthurR/atticus-mac",
+        "note": "Solid, but a Mac tool was the Oct 7 invention and the cost figures are the author's claims."
+      }
+    ],
+    "rejected": "PDF TO MP3: commercial service with pricing, so it risks looking like paid placement. Mira walking tours: geographic. BetterWispr: crowded category."
+  },
+  "thread": "All three stories are about whether AI stays inside the limits people set: reasoning models that keep thinking after being told to stop, small models learning to copy themselves onto new hardware, and a sandbox that won't run agent code unless its walls are strong enough.",
+  "skipped": []
+}
