@@ -1,0 +1,222 @@
+{
+ "section": "research",
+ "window": "Wed Oct 14 - Fri Oct 16, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers (Oct 14, 15, 16)",
+   "status": "ok"
+  },
+  {
+   "name": "arXiv API",
+   "status": "not queried; HF-linked arXiv IDs used"
+  },
+  {
+   "name": "HN Algolia / Reddit / bioRxiv / OpenAlex / RSS",
+   "status": "skipped, no signal data"
+  }
+ ],
+ "note": "Abstract pages were not individually fetched; URLs come from the HF feed IDs. Dates are arXiv publish dates (some papers appear on HF a day or more later).",
+ "excludedPolitical": [],
+ "candidates": [
+  {
+   "title": "FDE-Gym: The Last Mile of AI Delivery",
+   "summary": "Benchmark of 95 end-to-end tasks testing agents on ambiguous requirements, live systems and unstated constraints, like forward-deployed engineers.",
+   "primaryUrl": "https://arxiv.org/abs/2610.22350",
+   "hfUrl": "https://huggingface.co/papers/2610.22350",
+   "date": "2026-10-15",
+   "signal": {
+    "hfUpvotes": 229,
+    "hfComments": 1
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Player-1: Learning to Play from Synthetic Experience",
+   "summary": "Computer-use agents learn to play games from synthetic experience instead of large human demonstration sets.",
+   "primaryUrl": "https://arxiv.org/abs/2610.20584",
+   "hfUrl": "https://huggingface.co/papers/2610.20584",
+   "date": "2026-10-14",
+   "signal": {
+    "hfUpvotes": 332,
+    "hfComments": 3
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+   "summary": "Fully open stack for agents that choose between visual and programmatic interfaces to finish computer tasks.",
+   "primaryUrl": "https://arxiv.org/abs/2610.22200",
+   "hfUrl": "https://huggingface.co/papers/2610.22200",
+   "date": "2026-10-15",
+   "signal": {
+    "hfUpvotes": 272,
+    "hfComments": 3
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Self-Evolving Agent Harness",
+   "summary": "Formalizes agents revising their own scaffolding (prompts, memory, workflows) with fixed weights.",
+   "primaryUrl": "https://arxiv.org/abs/2610.18813",
+   "hfUrl": "https://huggingface.co/papers/2610.18813",
+   "date": "2026-10-13",
+   "signal": {
+    "hfUpvotes": 188,
+    "hfComments": 5
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Cortex: Consolidating Context into Parametric Memory",
+   "summary": "Treats memory consolidation as internalizing context gains into weights while preserving other capabilities.",
+   "primaryUrl": "https://arxiv.org/abs/2610.20399",
+   "hfUrl": "https://huggingface.co/papers/2610.20399",
+   "date": "2026-10-14",
+   "signal": {
+    "hfUpvotes": 66,
+    "hfComments": 2
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+   "summary": "Distills the RL policy shift of a teacher along training waypoints, not just the endpoint.",
+   "primaryUrl": "https://arxiv.org/abs/2610.21601",
+   "hfUrl": "https://huggingface.co/papers/2610.21601",
+   "date": "2026-10-15",
+   "signal": {
+    "hfUpvotes": 451,
+    "hfComments": 3
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 17,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic RL",
+   "summary": "Controlled comparison of contemporaneous self-distillation methods for agentic RL, covering stability and cost.",
+   "primaryUrl": "https://arxiv.org/abs/2610.19789",
+   "hfUrl": "https://huggingface.co/papers/2610.19789",
+   "date": "2026-10-14",
+   "signal": {
+    "hfUpvotes": 82,
+    "hfComments": 2
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+   "summary": "Trains agents to recover from noisy tool feedback and user corrections.",
+   "primaryUrl": "https://arxiv.org/abs/2610.17953",
+   "hfUrl": "https://huggingface.co/papers/2610.17953",
+   "date": "2026-10-13",
+   "signal": {
+    "hfUpvotes": 197,
+    "hfComments": 3
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Jeva: System One Models from First Principles",
+   "summary": "Argues decision-style models need null-aware, structured outputs; direct low-latency decisions.",
+   "primaryUrl": "https://arxiv.org/abs/2610.18773",
+   "hfUrl": "https://huggingface.co/papers/2610.18773",
+   "date": "2026-10-13",
+   "signal": {
+    "hfUpvotes": 291,
+    "hfComments": 4
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false,
+   "note": ""
+  },
+  {
+   "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+   "summary": "Recursive self-improvement of agent harnesses for unseen open-world tasks.",
+   "primaryUrl": "https://arxiv.org/abs/2610.14224",
+   "hfUrl": "https://huggingface.co/papers/2610.14224",
+   "date": "2026-10-09",
+   "signal": {
+    "hfUpvotes": 101,
+    "hfComments": 1
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "recentlyCovered": false,
+   "note": ""
+  }
+ ]
+}

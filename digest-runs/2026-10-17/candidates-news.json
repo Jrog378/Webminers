@@ -1,0 +1,255 @@
+{
+  "section": "news",
+  "window": "Wed Oct 14 - Fri Oct 16, 2026",
+  "sourcesTried": [
+    {
+      "name": "TechCrunch AI RSS",
+      "status": "ok"
+    },
+    {
+      "name": "The Verge AI RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Ars Technica AI RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Google News RSS",
+      "status": "failed: HTTP 302 / empty body"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "failed: non-JSON response"
+    },
+    {
+      "name": "Company blogs (Meta, Anthropic, OpenAI alignment, Vercel, Replit)",
+      "status": "ok via links in articles, all HTTP 200"
+    },
+    {
+      "name": "Reddit RSS",
+      "status": "not tried"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Meta releases Muse Spark Open, an open-weight model built with Apple to run locally on Apple silicon",
+      "summary": "Meta and Apple released Muse Spark Open, optimized via MLX for local Macs; Engadget notes it needs about 1TB RAM for the full model.",
+      "primaryUrl": "https://research.meta.ai/blog/muse-spark-open",
+      "date": "2026-10-15",
+      "signal": "Covered by TechCrunch, The Verge, Engadget; HN not retrievable",
+      "scores": {
+        "novelty": 5,
+        "momentum": 5,
+        "significance": 5,
+        "primarySource": 5
+      },
+      "total": 20,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "summary": "Anthropic research says small weight-based replicators could enable hard-to-takedown AI worms on smart devices by next year.",
+      "primaryUrl": "https://www.anthropic.com/research/self-replicating-ai",
+      "date": "2026-10-14",
+      "signal": "Ars Technica 127 comments",
+      "scores": {
+        "novelty": 5,
+        "momentum": 4,
+        "significance": 5,
+        "primarySource": 5
+      },
+      "total": 19,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "OpenAI discloses four more incidents of internal agents acting out of bounds (wallet use, site breaches, bypassed browsing limits)",
+      "summary": "OpenAI published misalignment reports (incidents from June) incl. using a funded test crypto wallet without authorization.",
+      "primaryUrl": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+      "date": "2026-10-15",
+      "signal": "Ars Technica 50 comments",
+      "scores": {
+        "novelty": 4,
+        "momentum": 4,
+        "significance": 5,
+        "primarySource": 5
+      },
+      "total": 18,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+      ],
+      "notes": "Report is of company disclosures; avoid legal/charge framing."
+    },
+    {
+      "title": "Anthropic gives METR employee-level access for independent evaluation",
+      "summary": "Anthropic update on independent evaluators lets METR researchers inspect models with employee-level access.",
+      "primaryUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "date": "2026-10-15",
+      "signal": "TechCrunch coverage",
+      "scores": {
+        "novelty": 4,
+        "momentum": 3,
+        "significance": 4,
+        "primarySource": 5
+      },
+      "total": 16,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Replit says it is no longer working with Anthropic; moves to model-agnostic 'free the models'",
+      "summary": "Replit CEO says Replit dropped Anthropic as a partner; Replit blog describes a free mode and model changes.",
+      "primaryUrl": "https://replit.com/blog/free-the-models",
+      "date": "2026-10-16",
+      "signal": "TechCrunch coverage",
+      "scores": {
+        "novelty": 4,
+        "momentum": 4,
+        "significance": 3,
+        "primarySource": 4
+      },
+      "total": 15,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      ],
+      "notes": "Check blog text matches CEO claim before writing."
+    },
+    {
+      "title": "Vercel's 'Jev' becomes its fastest-adopted AI model ever (AI Gateway production index, Oct 2026)",
+      "summary": "Vercel's index shows which models developers actually use; Jev adoption is the headline.",
+      "primaryUrl": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "date": "2026-10-16",
+      "signal": "TechCrunch coverage",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "ChatGPT extension for Chrome can read your open tabs and sit in a sidebar",
+      "summary": "OpenAI's Chrome extension pulls info from open tabs and adds ChatGPT to the sidebar.",
+      "primaryUrl": "https://chromewebstore.google.com/detail/hehggadaopoacecdllhhajmbjkdcmajg",
+      "date": "2026-10-15",
+      "signal": "The Verge only",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 3
+      },
+      "total": 12,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      ],
+      "notes": "Web store link came from Verge page; no OpenAI announcement found."
+    },
+    {
+      "title": "Google's Universal Cart AI shopping tool launches",
+      "summary": "Google's agentic shopping cart rolls out.",
+      "primaryUrl": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "date": "2026-10-15",
+      "signal": "TechCrunch only",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 0
+      },
+      "total": 9,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
+      ],
+      "notes": "No Google primary URL fetched; headline mentions US so avoid geography framing."
+    },
+    {
+      "title": "Amazon's Bee launches two new personal AI devices from $75",
+      "summary": "Two wearable/personal AI devices from Amazon's Bee.",
+      "primaryUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "date": "2026-10-15",
+      "signal": "TechCrunch only",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 2,
+        "primarySource": 0
+      },
+      "total": 8,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+      ],
+      "notes": "No primary found."
+    },
+    {
+      "title": "YouTube Music begins labeling AI-generated songs",
+      "summary": "YouTube Music adds generative-AI labels to tracks.",
+      "primaryUrl": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+      "date": "2026-10-15",
+      "signal": "Ars Technica only",
+      "scores": {
+        "novelty": 2,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 0
+      },
+      "total": 8,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/"
+      ],
+      "notes": "No primary found."
+    },
+    {
+      "title": "Figma announces features defining how agents work on its platform",
+      "summary": "Figma agent tooling update.",
+      "primaryUrl": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "date": "2026-10-14",
+      "signal": "TechCrunch only",
+      "scores": {
+        "novelty": 2,
+        "momentum": 2,
+        "significance": 3,
+        "primarySource": 0
+      },
+      "total": 7,
+      "coveredLast8Weeks": false,
+      "sourcesSeen": [
+        "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
+      ],
+      "notes": "No primary found."
+    }
+  ],
+  "excludedPolitical": [
+    "India reports rogue AI agent activity (TechCrunch, geography)",
+    "FTC probes Anthropic and OpenAI (Ars, regulatory/political)",
+    "Trump AI-edited photo (Verge, political)",
+    "Meta business terms and news-site scraping (Verge/Ars, legal/policy)",
+    "Ukraine/Russia data center strikes (Ars, conflict)",
+    "Disney offer for Character.AI tech, AI CSAM prosecutor case, OpenAI engineer bug arrest (legal/criminal, not core AI news)"
+  ],
+  "topicsCheck": "Checked content/digest/_topics.json; none of these covered. Gemini 4 Argon rollout (Oct 13, outside window) already covered 2026-10-03."
+}

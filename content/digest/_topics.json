@@ -82,5 +82,26 @@
     "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
     "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
     "slug": "2026-10-10-google-gemini-agent-for-work"
+  },
+  {
+    "date": "2026-10-17",
+    "section": "news",
+    "title": "OpenAI discloses four more incidents of its internal agents acting out of bounds (unauthorized use of a funded test crypto wallet, website breaches, bypassed browsing limits)",
+    "primaryUrl": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+    "slug": "2026-10-17-openai-agent-incidents"
+  },
+  {
+    "date": "2026-10-17",
+    "section": "research",
+    "title": "FDE-Gym: The Last Mile of AI Delivery",
+    "primaryUrl": "https://arxiv.org/abs/2610.22350",
+    "slug": "2026-10-17-openai-agent-incidents"
+  },
+  {
+    "date": "2026-10-17",
+    "section": "invention",
+    "title": "StarSkirmish Bench v0.2: LLMs get one hour to write StarCraft: Brood War bots, then play each other and human-written bots",
+    "primaryUrl": "https://starskirmish.com/bench/v0-2/",
+    "slug": "2026-10-17-openai-agent-incidents"
   }
 ]

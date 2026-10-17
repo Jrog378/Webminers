@@ -1,0 +1,37 @@
+{
+  "status": "draft",
+  "issueDate": "2026-10-17",
+  "window": "Wed Oct 14 - Fri Oct 16, 2026",
+  "sourcesFailed": [
+    "Google News RSS",
+    "HN Algolia (intermittent)",
+    "GitHub (blocked)",
+    "StockSnap full-size CDN (403)",
+    "openai.com framework pages (403)",
+    "npm ci (lockfile out of sync)"
+  ],
+  "topics": {
+    "news": "OpenAI misalignment reports (four June incidents)",
+    "research": "FDE-Gym",
+    "invention": "StarSkirmish Bench v0.2"
+  },
+  "formats": {
+    "news": "timeline",
+    "research": "explainer",
+    "invention": "by-the-numbers"
+  },
+  "factcheck": {
+    "round1": {
+      "pass": 17,
+      "fix": 8,
+      "cut": 0
+    },
+    "round2": {
+      "pass": 7,
+      "fix": 0,
+      "cut": 0
+    }
+  },
+  "editor": "FAIL round 1, 2 fixes applied, verified by grep",
+  "pushed": "digest/2026-10-17 (npm ci failed on lockfile)"
+}

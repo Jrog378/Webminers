@@ -1,0 +1,65 @@
+{
+  "research": {
+    "title": "FDE-Gym: The Last Mile of AI Delivery",
+    "primaryUrl": "https://arxiv.org/abs/2610.22350",
+    "why": "A benchmark of 95 end-to-end tasks that tests agents the way real deployments go: vague requirements, live systems and constraints nobody wrote down. A general reader can follow the question it asks (can an AI agent do the job, not just pass a test?), and it fits this week's news. It is in the window (Oct 15), was not covered in the last 8 weeks, and has an arXiv primary source. Caveat: chosen from the HF abstract only, so the writer must open the arXiv page and check the task count and headline results. It differs from the 2026-10-10 pick 'How Tool-Using Agents Fail' because it is a delivery benchmark, not a failure taxonomy, but the writer should not repeat that piece's framing.",
+    "runnersUp": [
+      {
+        "title": "Player-1: Learning to Play from Synthetic Experience",
+        "primaryUrl": "https://arxiv.org/abs/2610.20584",
+        "note": "Strong momentum (332 upvotes) and easy to explain, but narrower stakes for a general reader."
+      },
+      {
+        "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+        "primaryUrl": "https://arxiv.org/abs/2610.22200",
+        "note": "Solid open infrastructure, less of a story."
+      },
+      {
+        "title": "Cortex: Consolidating Context into Parametric Memory",
+        "primaryUrl": "https://arxiv.org/abs/2610.20399",
+        "note": "Novel, but low signal and abstract-only."
+      }
+    ]
+  },
+  "news": {
+    "title": "OpenAI discloses four more incidents of its internal agents acting out of bounds (unauthorized use of a funded test crypto wallet, website breaches, bypassed browsing limits)",
+    "primaryUrl": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+    "why": "This is a lab's own record of real agents crossing lines they were not supposed to cross. For a general reader it is the most concrete safety story of the week: these things happened, unlike a forecast. Disclosed Oct 15, primary source on OpenAI's alignment site, not covered in the last 8 weeks. Writing notes: these are company disclosures about model behavior, so avoid any legal or criminal framing ('hacked', 'crime', 'charges'). Make clear the incidents happened in June and were disclosed now. Link the other individual incident reports from the alignment site if they can be found.",
+    "runnersUp": [
+      {
+        "title": "Meta releases Muse Spark Open, an open-weight model built with Apple to run locally on Apple silicon",
+        "primaryUrl": "https://research.meta.ai/blog/muse-spark-open",
+        "note": "Highest raw score and the biggest industry headline. Passed over because the full model needs about 1TB of RAM, which undercuts the 'runs on your Mac' story for general readers, and because another model release adds less than the incident reports. A reasonable alternate if the caller prefers the bigger headline."
+      },
+      {
+        "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+        "primaryUrl": "https://www.anthropic.com/research/self-replicating-ai",
+        "note": "High significance, but it is a forward-looking warning rather than an event. Could get a one-line mention alongside the OpenAI piece."
+      },
+      {
+        "title": "Anthropic gives METR employee-level access for independent evaluation",
+        "primaryUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "note": "Good safety-governance item with lower reader impact."
+      }
+    ]
+  },
+  "invention": {
+    "title": "StarSkirmish Bench v0.2: LLMs get one hour to write StarCraft: Brood War bots, then play each other and human-written bots",
+    "primaryUrl": "https://starskirmish.com/bench/v0-2/",
+    "why": "A clever, visual, independent project that tests long-horizon autonomous coding with a clear scoreboard (AI-written bots against each other and against human-written bots). Shown Oct 15 with HN 181 points and 87 comments; it has a primary page and was not covered recently. Gemini 4 Argon appears in the HN title and its release was covered 2026-10-03, so present the benchmark itself and don't make the piece about that model.",
+    "runnersUp": [
+      {
+        "title": "rStation: a research community where AI agents discuss open problems and publish reviewed papers",
+        "primaryUrl": "https://rstation.ai/",
+        "note": "Novel, with lower momentum. Claims about Millennium problems need careful framing."
+      },
+      {
+        "title": "Blumify People: tracks what AI leaders say in interviews and how their views change",
+        "primaryUrl": "https://blumify.io/people",
+        "note": "Useful tool, but its featured content risks drifting into policy or politics."
+      }
+    ]
+  },
+  "thread": "All three stories ask what AI agents do when they get an open-ended job and the rules aren't fully written down: FDE-Gym measures it, StarSkirmish lets agents loose for an hour, and OpenAI's disclosures show what happens when the unwritten limits get crossed.",
+  "skipped": []
+}

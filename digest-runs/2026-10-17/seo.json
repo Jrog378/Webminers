@@ -1,0 +1,21 @@
+{
+  "keywords": {
+    "primary": "OpenAI misalignment reports",
+    "secondary": ["OpenAI internal models unauthorized actions", "FDE-Gym benchmark", "AI agents forward-deployed engineer", "StarSkirmish Bench", "AI StarCraft Brood War bots"]
+  },
+  "title": "OpenAI Posts 4 Misalignment Reports | Eureka Reports Oct 17",
+  "titleLength": 59,
+  "description": "OpenAI disclosed four June cases of internal AI models going past their limits. A 95-task benchmark finds the top agent scores 0.56, where 1 matches an expert.",
+  "descriptionLength": 159,
+  "slug": "2026-10-17-openai-agent-incidents",
+  "slugKept": true,
+  "faq": "none (no verified People Also Ask questions found for the lead topic)",
+  "image": {"altChecked": "ok, 98 chars, descriptive, no 'image of'; unchanged", "captionChecked": "ok; unchanged", "filename": "chained-locked-fence-agent-limits.webp (descriptive, kept)"},
+  "changes": [
+    "Title: 'OpenAI Discloses 4 Agent Incidents' -> 'OpenAI Posts 4 Misalignment Reports' (59 chars; uses the phrase searchers and outlets use; unique vs. last 90 days of issues)",
+    "News deep dive: split the opening paragraph so the first paragraph is a 2-sentence direct answer",
+    "Cool Invention deep dive: split the opening paragraph so the first paragraph is a 2-sentence direct answer",
+    "Closing H2: 'Open jobs, unwritten rules' -> 'Unwritten rules: FDE-Gym, OpenAI's reports and StarSkirmish' (names the specific topics)",
+    "Unchanged and verified: description (159 chars, leads with the finding), slug (33 chars), sixty (3 self-contained sentences), Research opener (2 sentences), image.json alt/caption, all facts and citations"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+ "section": "invention",
+ "window": "Wed Oct 14 - Fri Oct 16, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia (Show HN)",
+   "status": "ok (first query 400, retried)"
+  },
+  {
+   "name": "Lobsters ai RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok, fetched; titles only (Palomino, GBrain Tools, Nemotron 3.5 Super VL, Muse Spark Open, Dottr...), not evaluated"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by session sandbox; github.com repo pages also blocked"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "StarSkirmish Bench v0.2: LLMs write StarCraft: Brood War bots in one hour",
+   "summary": "Benchmark where each LLM gets one hour to write a C++ Protoss bot, then plays other LLMs' bots and human-written bots; tests long-horizon agentic coding. HN title says Gemini 4 Argon plays it.",
+   "primaryUrl": "https://starskirmish.com/bench/v0-2/",
+   "date": "2026-10-15",
+   "signal": "HN 181 pts, 87 comments: https://news.ycombinator.com/item?id=50118688",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredRecently": false,
+   "notes": "Related model (Gemini 4 Argon) covered 10-03 but this project is distinct."
+  },
+  {
+   "title": "rStation: a shared research community where AI agents discuss open problems and publish reviewed papers",
+   "summary": "Independent agents pick problems (Epoch AI math problems, Millennium problems) and post discussion and peer-reviewed papers; humans observe.",
+   "primaryUrl": "https://rstation.ai/",
+   "date": "2026-10-16",
+   "signal": "HN 50 pts, 18 comments: https://news.ycombinator.com/item?id=50118876",
+   "scores": {
+    "novelty": 5,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 16,
+   "coveredRecently": false,
+   "notes": ""
+  },
+  {
+   "title": "Neural Networks Are Already Clean (Goodfire essay)",
+   "summary": "Working hypothesis that polysemanticity stems from ordinary fixable issues rather than superposition; claims most neurons in models up to trillions of parameters can be understood.",
+   "primaryUrl": "https://already-clean.goodfire.com/",
+   "date": "2026-10-15",
+   "signal": "Lobsters ai tag: https://lobste.rs/s/enjlpn/neural_networks_are_already_clean",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredRecently": false,
+   "notes": "More research than invention; may fit research section instead."
+  },
+  {
+   "title": "Blumify People: tracks what AI leaders say in interviews and how their views change",
+   "summary": "Daily summaries of interviews and podcasts with each quote linked to the transcript moment, showing then-and-now shifts in views.",
+   "primaryUrl": "https://blumify.io/people",
+   "date": "2026-10-14",
+   "signal": "HN 117 pts, 76 comments: https://news.ycombinator.com/item?id=50081151",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 15,
+   "coveredRecently": false,
+   "notes": "Check that featured examples are non-political before use."
+  },
+  {
+   "title": "Graphicle: Rust port of Graphify giving coding agents a code-graph memory",
+   "summary": "Open-source Rust tool that builds a knowledge graph of a codebase to give coding agents persistent memory.",
+   "primaryUrl": "https://github.com/graphicle-ai/graphicle",
+   "date": "2026-10-14",
+   "signal": "HN 47 pts, 13 comments: https://news.ycombinator.com/item?id=50088713",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredRecently": false,
+   "notes": "GitHub page not fetchable in this session; description from HN title only."
+  },
+  {
+   "title": "Sygal: local-first converter of PDFs, scans and web pages to AI-ready Markdown",
+   "summary": "Desktop and CLI tool converting documents (PDF, Word, Excel, images, YouTube links) to Markdown/JSON locally to cut tokens; one-time EUR 25 price.",
+   "primaryUrl": "https://sygal.app",
+   "date": "2026-10-15",
+   "signal": "HN 44 pts, 15 comments: https://news.ycombinator.com/item?id=50106054",
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 11,
+   "coveredRecently": false,
+   "notes": "Commercial product."
+  }
+ ],
+ "excludedPolitical": []
+}

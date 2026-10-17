@@ -1,0 +1,13 @@
+{"hero": {"src": "/images/eureka/2026-10-17-openai-agent-incidents/chained-locked-fence-agent-limits.webp", "width": 1600, "height": 1066,
+  "alt": "Rusty iron garden gate wrapped in a chain and padlock, a metaphor for limits on OpenAI internal agents",
+  "caption": "A chained, padlocked gate stands in for the limits that OpenAI's internal agents pushed past.",
+  "credit": {"title": "Rusty fence tied with chains and locked with a padlock.", "author": "Nora Ferreirós", "authorUrl": "https://noraferreiros.com", "license": "CC0 1.0",
+             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "sourceName": "WordPress Photo Directory",
+             "sourceUrl": "https://wordpress.org/photos/photo/780636784b/", "modified": "Resized and converted to WebP"}},
+ "tried": [
+  {"source": "StockSnap (Openverse)", "query": "padlock chain / open gate fence / barrier tape / server room cables", "result": "rejected: relevant hits (Padlock Gate, Chain Links) but only 960px previews reachable; full-size cdn.stocksnap.io and download endpoints returned 403 via proxy; other queries returned nothing"},
+  {"source": "Nappy (Openverse)", "query": "padlock, gate, fence, chain, barrier", "result": "rejected: no results"},
+  {"source": "Rawpixel (Openverse)", "query": "padlock, gate", "result": "rejected: only 1024px editor previews or PNG stickers, likely watermarked/low-res; gate returned nothing"},
+  {"source": "WordPress Photo Directory (Openverse)", "query": "padlock, gate, fence, chain, barrier", "result": "chosen: Rusty fence tied with chains and locked with a padlock, CC0, full 2048x1365 file from pd.w.org; final WebP inspected with Read, no watermark, logo or faces (faint maker text on padlock is illegible at normal size)"}
+ ],
+ "notes": "Previous two issues (2026-10-10, 2026-10-11) both used Wikimedia Commons, so it was avoided. WordPress was last used 2026-10-07. URL not previously in _images.json. Not added to content/_images.json by this step."}

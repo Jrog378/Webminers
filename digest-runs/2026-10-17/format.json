@@ -1,0 +1,23 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "claim",
+  "sections": {
+    "news": {
+      "format": "timeline",
+      "words": 580,
+      "why": "The incidents happened in June and were disclosed Oct 15, so dated events (incident, disclosure, individual reports) are the natural shape. It also breaks the claim-vs-evidence news slot used in 3 of the last 4 issues. Keep the wording non-legal (no 'hacked', 'crime', 'charges')."
+    },
+    "research": {
+      "format": "explainer",
+      "words": 640,
+      "why": "A single new benchmark paper is the explainer's default case (what they found, how it works, why it matters, what is uncertain). Explainer is used only here this issue. Writer must verify the 95-task count and headline results on the arXiv page."
+    },
+    "invention": {
+      "format": "by-the-numbers",
+      "words": 340,
+      "why": "StarSkirmish is a scoreboard story (9 models, 10,530 games, 7% vs the top human bots, $2.02 vs $18.07 per run). The figure list leaves room for the honest caveat: cite only Astra's measured 7% and 'about 3% or less' for the rest, never the per-model bars from the 'vs top human bots' chart, which are estimates."
+    }
+  },
+  "combination": "news=timeline, research=explainer, invention=by-the-numbers (not used in the last 4 issues; only 4 non-demo issues exist)",
+  "headlineNote": "The previous issue (Oct 10) was number-led and Oct 3 was a question, so use a claim headline this time."
+}

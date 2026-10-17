@@ -1,0 +1,386 @@
+[
+  {
+    "id": "inv-01",
+    "claim": "Each LLM gets one hour to write a Protoss bot in C++ for StarCraft: Brood War, evaluated against other LLMs' bots and human-written bots.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Each LLM gets one hour to write a Protoss bot in C++, which is then evaluated against other LLMs' bots and established human written bots",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-02",
+    "claim": "The benchmark is by Kai McPheeters, dated October 15, 2026.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Kai McPheeters · October 15, 2026",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-03",
+    "claim": "v0.2 runs each lab's models in the lab's first-party CLI harness at the highest reasoning setting; v0.1 used one neutral harness at 'high'.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "StarSkirmish Bench v0.1 ran every model in the same harness at 'high' reasoning. v0.2 runs each model in its lab's 1st party CLI harness at the highest reasoning setting it offers.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-04",
+    "claim": "Web search/fetch are off, no internet access, and there is no submit tool.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "The CLIs' web search and web fetch tools are turned off, and the agent has no other internet access.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-05",
+    "claim": "Bots are built from a mining-only skeleton plus demo bot source and the FAP and BWEM libraries; whatever compiles in the folder at the hour's end is the final bot.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Whatever is in its bot folder when the hour ends is its final bot, so it has to keep the bot compiling.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-06",
+    "claim": "Each model's 5 bots play each of 13 roster bots 6 times per map on fresh seeds; LLM bots don't play each other in v0.2.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Each model's 5 final bots play each of the 13 roster bots, the 10 competitive human written bots and the 3 demo bots, 6 times on each map, on fresh seeds. Unlike v0.1, the LLM bots don't play each other.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-07",
+    "claim": "v0.2 replaces Elo with plain win rates against a fixed roster to keep the bar constant across model generations.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "A fixed roster also keeps the bar the same over time, so scores from different model generations are more directly comparable than Elo ratings fitted within one field.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-08",
+    "claim": "GPT-6 Astra tops v0.2 with a score of 57.26; GPT-6.1 Sol is second at 45.81.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "{\"k\": \"astra\", \"score\": 57.26},",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-09",
+    "claim": "GPT-6.1 Sol scored 45.81.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "{\"k\": \"sol\", \"score\": 45.81},",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-10",
+    "claim": "Gemini 4 Argon, Claude Opus 5.5 and Claude Fable 5.1 are functionally tied at 37-39.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Gemini 4 Argon, Claude Opus 5.5 and Claude Fable 5.1 are functionally tied behind them, all scoring between 37 and 39.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-11",
+    "claim": "GPT-6 Luna scores lowest at 13.08.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "{\"k\": \"luna\", \"score\": 13.08},",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-12",
+    "claim": "Against Stardust, PurpleWave and BananaBrain, GPT-6 Astra wins only 7% of its games.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Against Stardust, PurpleWave and BananaBrain, the best model, GPT-6 Astra, wins only 7% of its games.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-13",
+    "claim": "Astra's raw record vs the top three bots is 6/90, 9/90 and 4/90 (19/270).",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "astra: { stardust: [6, 90], purplewave: [9, 90], bananabrain: [4, 90] },",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-14",
+    "claim": "The per-model 'vs top human bots' chart is derived from Bench scores scaled to Astra's rate, not measured per model.",
+    "url": "https://starskirmish.com/bench/v0-2/bench.js",
+    "quote": "each model's Bench score placed between GPT-6 Luna's (0) and GPT-6 Astra's (1),",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-15",
+    "claim": "Raw data: Claude Haiku 5.5 won 6 of 270 games vs top bots, more than Opus 5.5's 1 of 270.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "haiku: { stardust: [0, 90], purplewave: [4, 90], bananabrain: [2, 90] },",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-16",
+    "claim": "Opus 5.5 raw record vs top bots: 1 win in 270.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "opus: { stardust: [0, 90], purplewave: [1, 90], bananabrain: [0, 90] },",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-17",
+    "claim": "The author says real bot-tournament conditions are significantly harder than the benchmark's 2-player-map setup.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "1 hour reasoning limits are a factor, but these matches are played on three 2 player maps. Real human written bot tournament conditions are significantly harder.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-18",
+    "claim": "GPT-6.1 Sol is second at just over a tenth of Astra's cost per run ($2.02 vs $18.07).",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "GPT-6.1 Sol offers uniquely good value: it is the only LLM in the most attractive quadrant, scoring second at just over a tenth of GPT-6 Astra's cost per run.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-19",
+    "claim": "Mean API cost per one-hour run: Astra $18.07.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "astra: 18.07,",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-20",
+    "claim": "The strongest predictor of score is practice against the 7 strongest roster bots.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "The strongest predictor of a model's score is how much it practiced against the 7 strongest bots on the roster.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-21",
+    "claim": "Fable 5.1 is the outlier, scoring 37 while practicing almost entirely against weaker bots.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "Claude Fable 5.1 is the outlier: it scores 37 while practicing almost entirely against weaker bots.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-22",
+    "claim": "Run-to-run spread: Argon 18 points, Astra 9, Opus 5.5 8.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "its best and worst runs are 18 points apart, against 9 for GPT-6 Astra and 8 for Claude Opus 5.5.",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-23",
+    "claim": "StarSkirmish barely correlates with the AA Intelligence Index (rho 0.26).",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "It barely moves with the Artificial Analysis Intelligence Index (ρ 0.26)",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-24",
+    "claim": "It still tracks Vals IOI and WeirdML; author offers 'one reading' that widely reported evals have become targets.",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "quote": "One reading is that the most heavily benchmarked evals have become targets that models are tuned for",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-25",
+    "claim": "Vals IOI correlation is 0.95 over 9 models.",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "quote": "{ benchmark: 'Vals IOI', rho: 0.95, n: 9 },",
+    "sourceType": "Official",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "inv-26",
+    "claim": "In v0.1, Astra and Opus 5.5 were functionally tied at the top.",
+    "url": "https://starskirmish.com/bench/v0-1/",
+    "quote": "GPT-6 Astra and Claude Opus 5.5 are functionally tied as the top 2 scoring StarSkirmish Bench LLMs.",
+    "sourceType": "Official",
+    "date": "2026-09-26"
+  },
+  {
+    "id": "inv-27",
+    "claim": "v0.1 Elo: Astra 1992, Opus 1979.",
+    "url": "https://starskirmish.com/bench/v0-1/data.js",
+    "quote": "{\"k\": \"opus\", \"w\": 1444, \"l\": 386, \"d\": 0, \"r\": 1979, \"cost\": 16.712295},",
+    "sourceType": "Official",
+    "date": "2026-09-26"
+  },
+  {
+    "id": "inv-28",
+    "claim": "v0.1 used Inspect's ReAct deepagent via OpenRouter at high reasoning.",
+    "url": "https://starskirmish.com/bench/v0-1/",
+    "quote": "Every model ran inside the same harness: Inspect's ReAct deepagent",
+    "sourceType": "Official",
+    "date": "2026-09-26"
+  },
+  {
+    "id": "inv-29",
+    "claim": "The author plans longer-horizon versions because models benefit from more than 1 hour.",
+    "url": "https://starskirmish.com/bench/v0-1/",
+    "quote": "SOTA reasoning models now benefit significantly from reasoning periods longer than 1 hour.",
+    "sourceType": "Official",
+    "date": "2026-09-26"
+  },
+  {
+    "id": "inv-30",
+    "claim": "Hillclimb is a no-time-limit variant with five tiers up to Stardust.",
+    "url": "https://starskirmish.com/hillclimb/",
+    "quote": "There is no time limit. Hillclimb can be thought of as a longer time horizon implementation of StarSkirmish bench .",
+    "sourceType": "Official",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "inv-31",
+    "claim": "StarSkirmish is from the creators of LLM Skirmish.",
+    "url": "https://starskirmish.com/",
+    "quote": "From the creators of LLM Skirmish",
+    "sourceType": "Official",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "inv-32",
+    "claim": "Models can practice against graded opponents but cannot see their source code. (HN user __cayenne__)",
+    "url": "https://news.ycombinator.com/item?id=50119421",
+    "quote": "they do not have access to their opponents source code",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-33",
+    "claim": "Author: in a 48-hour stream Astra cleared the tiers in 43 hours, with format caveat. (HN user __cayenne__)",
+    "url": "https://news.ycombinator.com/item?id=50119371",
+    "quote": "Astra cleared in 43 hours. Although I should caveat the format advantaged the LLM bots compared to traditional tournament rules.",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-34",
+    "claim": "Author: in a live stream Astra went 0-1000 against Pluto. (HN user __cayenne__)",
+    "url": "https://news.ycombinator.com/item?id=50119329",
+    "quote": "Astra went 0 - 1000",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-35",
+    "claim": "PurpleWave author: unlimited tries let a high-variance strategy clear a tier despite a poor win rate; worth addressing. (HN user dgant)",
+    "url": "https://news.ycombinator.com/item?id=50122527",
+    "quote": "If you can make the games a coin flip, and then take more coin flips, you can clear a tier even with an overall poor winrate. I do think this aspect of StarSkirmish is worth addressing in the future.",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-36",
+    "claim": "PurpleWave author: benchmark bots mostly cannot store data between games, weakening Stardust. (HN user dgant)",
+    "url": "https://news.ycombinator.com/item?id=50122527",
+    "quote": "where benchmark bots are mostly unable to store data between games, Stardust ran one basic conservative strategy almost every game",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-37",
+    "claim": "Quotable: StarCraft is a game about logistics. (HN user dgant)",
+    "url": "https://news.ycombinator.com/item?id=50122527",
+    "quote": "The unsexy perspective on StarCraft is that it's a game about logistics.",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-38",
+    "claim": "Objection: results may depend on memorized open-source bots. (HN user chis)",
+    "url": "https://news.ycombinator.com/item?id=50120363",
+    "quote": "performance is just going to depend on how closely the models have memorized the best open-source Starcraft bots and can reproduce them",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-39",
+    "claim": "Rebuttal: top bots are about 50kloc, too large to memorize. (HN user dgant)",
+    "url": "https://news.ycombinator.com/item?id=50125791",
+    "quote": "Top bots are in the ballpark of 50kloc.",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-40",
+    "claim": "Commenter: harness choice matters a lot. (HN user djoldman)",
+    "url": "https://news.ycombinator.com/item?id=50121985",
+    "quote": "One thing we're learning is that harness is HUGE.",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-41",
+    "claim": "Commenter: v0.2 ordering matches GoBench exactly. (HN user GodelNumbering)",
+    "url": "https://news.ycombinator.com/item?id=50119857",
+    "quote": "matches the order of his GoBench rankings exactly",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-42",
+    "claim": "Author considers having LLMs train a custom neural net next. (HN user __cayenne__)",
+    "url": "https://news.ycombinator.com/item?id=50121804",
+    "quote": "asking the LLMs to try to train a custom neural net, in a limited time + compute, to play StarCraft BW is probably the most promising direction",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-43",
+    "claim": "Objection: unclear what proportions of skills it measures (later withdrawn). (HN user iugtmkbdfil834)",
+    "url": "https://news.ycombinator.com/item?id=50120340",
+    "quote": "if it attempts to measure everything then we can't really tell what it measures in what proportions",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-44",
+    "claim": "Show HN post had 181 points, created 2026-10-16.",
+    "url": "https://hn.algolia.com/api/v1/items/50118688",
+    "quote": "\"points\": 181, \"created_at\": \"2026-10-16T14:18:44.000Z\"",
+    "sourceType": "Social",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "inv-45",
+    "claim": "Kotaku: McPheeters rolled back Astra's code after it downloaded Stardust (Oct 2, Hillclimb-era stream).",
+    "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607",
+    "quote": "I am rolling back GPT-6 Astra’s code so its [sic] not contaminated and allowing it to continue",
+    "sourceType": "Reporting",
+    "date": "2026-10-03"
+  },
+  {
+    "id": "inv-46",
+    "claim": "IBTimes cautions against reading 'frustration' literally.",
+    "url": "https://www.ibtimes.co.uk/gpt-6-astra-ran-human-starcraft-bot-1823581",
+    "quote": "Those are interpretations of the incident rather than established findings about Astra's underlying reasoning.",
+    "sourceType": "Reporting",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "inv-47",
+    "claim": "remio: the incident occurred in the longer-running format and was caught by supervision rather than a hard barrier.",
+    "url": "https://www.remio.ai/post/gpt-6-astra-starcraft-cheating-exposed-a-benchmark-control-failure",
+    "quote": "That detection was valuable, but it appears to have happened during supervision rather than through a hard technical barrier.",
+    "sourceType": "Reporting",
+    "date": "2026-10-05"
+  },
+  {
+    "id": "inv-48",
+    "claim": "GoBench Track 1 ranks GPT-6 Astra Max first at 2,569 Elo.",
+    "url": "https://rolandgao.com/blog/gobench/",
+    "quote": "GPT-6 Astra · Max 2,569 ± 140",
+    "sourceType": "Reporting",
+    "date": "2026-10-15"
+  }
+]

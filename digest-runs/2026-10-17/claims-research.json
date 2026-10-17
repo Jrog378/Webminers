@@ -1,0 +1,418 @@
+[
+ {
+  "id": "r01",
+  "claim": "FDE-Gym is an arXiv preprint (v1) submitted 15 Oct 2026; 26 authors led by Dongxu Yang; cs.AI.",
+  "url": "https://arxiv.org/abs/2610.22350",
+  "quote": "[v1] Thu, 15 Oct 2026 17:57:23 UTC",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r02",
+  "claim": "Benchmark size: 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, adapted by industry experts from real projects.",
+  "url": "https://arxiv.org/abs/2610.22350",
+  "quote": "a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r03",
+  "claim": "Motivation: existing agent benchmarks hand agents well-specified tasks; real delivery requires clarifying ambiguous requirements, working in live systems and uncovering unstated constraints.",
+  "url": "https://arxiv.org/abs/2610.22350",
+  "quote": "forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r04",
+  "claim": "A forward-deployed engineer is defined as an engineer a vendor assigns to work inside a customer organization.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "an engineer assigned by a vendor to work within a customer organization",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r05",
+  "claim": "Scoring: improvement in the customer's own success metric, normalized 0 (unchanged system) to 1 (reference solution), minus penalties for stakeholder interactions.",
+  "url": "https://arxiv.org/abs/2610.22350",
+  "quote": "normalized between 0 (unchanged system) and 1 (reference solution), with penalties for stakeholder interactions (messages, trial runs, and waiting time)",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r06",
+  "claim": "A task counts as resolved only if score is at least 0.8 and no incident occurs.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "A task is considered resolved if its score is at least 0.8 and no incident occurs.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r07",
+  "claim": "If a predefined operational incident (e.g., an unauthorized action) occurs, positive uplift is zeroed and negative uplift is kept.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "If a predefined operational incident occurs, such as an unauthorized action, positive uplift is set to zero while negative uplift is retained",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r08",
+  "claim": "Agents are not told that contacting stakeholders costs anything or that the sponsor's request may be misdirected.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "The agent is not explicitly informed that stakeholder contact incurs costs, that some people should not be contacted or are irrelevant to the problem, or that the sponsor’s request may be misdirected.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r09",
+  "claim": "Four instruction levels: L0 gives the problem, rules and scoring; L3 gives only the sponsor's original request, which may target the wrong problem. Environment and grader are identical across levels.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "The workspace, stakeholders, and grading criteria remain identical across levels; only the task instruction varies.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r10",
+  "claim": "Admission anchors: reference must score >=0.95, do-nothing = 0, literal compliance <= 0.2, shortcut strategies <= 0.8.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "(1) The reference solution must score at least 0.95. (2) The do-nothing baseline must score 0. (3) The literal solution, which implements exactly what the task instruction asks for without seeking any further constraint, must score at most 0.2.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r11",
+  "claim": "Graders were tested against more than 270 shortcut and bypass strategies.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "The graders were tested against more than 270 shortcut and bypass strategies.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r12",
+  "claim": "More than 130 scripted (not LLM-played) stakeholders across the 20 scenarios, for reproducibility.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "FDE-Gym simulates more than 130 customer stakeholders across its 20 scenarios. Stakeholder responses are scripted for reproducibility",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r13",
+  "claim": "Expert contribution exceeded 10,000 hours.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Their total contribution to the development of FDE-Gym exceeded 10,000 hours.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r14",
+  "claim": "Each scenario has an original task plus 2-7 variants that change key facts, to limit memorized solutions.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "experts designed two to seven variants in addition to each scenario’s original task",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r15",
+  "claim": "13 configurations (12 models, one with and without extended thinking) from seven providers, all in the same minimal five-tool agent framework.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "We evaluate 13 model configurations from seven providers (12 models, one evaluated both with and without extended thinking)",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r16",
+  "claim": "Run limits: 200 turns, 150 minutes, or USD 8 model cost; each combination run three times.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Each run ends when the agent submits its delivery or reaches a limit of 200 turns, 150 minutes, or USD 8 in model usage cost, whichever comes first.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r17",
+  "claim": "Headline: at L3, Claude Opus 5.5 has the top mean score 0.56 (95% CI 0.50-0.62) and resolves 14/95; five of 13 configurations resolve none.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "At L3, Claude Opus 5.5 achieves the highest mean score of 0.56 and resolves 14 of 95 tasks, while five of the thirteen configurations resolve none.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r18",
+  "claim": "Next: Claude Sonnet 5.5 0.49, GPT-6 Astra 0.38, GPT-6.1 Sol 0.37; four configurations score below zero.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "followed by Claude Sonnet 5.5 at 0.49, GPT-6 Astra at 0.38, and GPT-6.1 Sol at 0.37",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r19",
+  "claim": "No model resolves more than 15 of 95 (Sonnet 5.5 resolves 15 per Table 3, one more than top-scoring Opus 5.5).",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "No model resolves more than 15 of 95 tasks, and five of the thirteen configurations resolve none.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r20",
+  "claim": "Best-of-13 per task (\"oracle\" pick) still only reaches 0.70 with 30 tasks resolved; on 16 tasks no configuration reaches 0.5.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Taking, for each task, the best score achieved by any of the thirteen configurations yields 0.70 with 30 tasks resolved; on 16 tasks no configuration reaches 0.5.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r21",
+  "claim": "With rules given (L0), leading models score 0.73-0.82; when they must discover constraints, 0.39-0.62.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "When the relevant rules and constraints are provided, the three leading models score 0.73–0.82. Requiring these models to discover the constraints reduces scores sharply to 0.39–0.62.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r22",
+  "claim": "Withholding constraints costs the three leading models 0.28 (CI 0.17-0.39); a vague then misdirected request costs only a further 0.04.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Withholding the constraints reduces the scores of the three leading models by 0.28 on the same tasks (95% interval 0.17 to 0.39).",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r23",
+  "claim": "Authors' own hypothesis (problem definition is the bottleneck) was not supported for leading models.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Our initial hypothesis was that problem definition would be the bottleneck: an agent given a symptom or a wrong solution would build the wrong system. For the leading models, the data do not support this.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r24",
+  "claim": "Even on 23 tasks where the best configuration got every key fact, it reached >=0.8 uplift on only 10.",
+  "url": "https://arxiv.org/abs/2610.22350",
+  "quote": "even on the 23 tasks where the best configuration obtains every key fact from stakeholders, it reaches a normalized business uplift of 0.8 or above on only 10",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r25",
+  "claim": "Leading models obtain 72-85% of key facts but deliver 0.60-0.70 of reference uplift; contact cost removes a further 0.14-0.22.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "At L3, leading models obtain 72–85% of the key facts available from stakeholders, yet the delivered systems achieve only 0.60–0.70 of the reference improvement. Stakeholder contact cost reduces the final scores by a further 0.14–0.22.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r26",
+  "claim": "Agents ask as if questions were free; Opus 5.5 systems reach 0.8 on 40 tasks before contact cost, 14 after.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Agents are not informed that questions incur a cost, and they ask as if questions were free.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r27",
+  "claim": "Weak models leave customers worse off: Claude Haiku 4.5 below do-nothing on 79/95; Mistral Small 4 below baseline on 51 tasks even before contact cost.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Claude Haiku 4.5 scores below the do-nothing baseline on 79 of 95 tasks, while systems delivered by Mistral Small 4 fall below this baseline on 51 tasks even before deducting stakeholder contact cost.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r28",
+  "claim": "Extended thinking did not help Haiku 4.5: -0.33 without, -0.35 with.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Extended thinking does not help: Claude Haiku 4.5 scores −0.33 without it and −0.35 with it.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r29",
+  "claim": "Authors' buyer framing: a weak agent is not a cheaper strong agent; expected contribution is negative.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "a weak agent is not a cheaper version of a strong one; its expected contribution on these tasks is negative",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r30",
+  "claim": "In 5 of 20 scenarios no model averages >=0.5; hardest are news_incident (best 0.18) and revenue_dispute (best 0.27).",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "the best scores are only 0.18 and 0.27",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r31",
+  "claim": "Spending does not track score: GPT-6.1 Sol USD 0.24/run scores 0.37; Gemini 3.8 Flash USD 1.54/run scores 0.19.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "GPT-6.1 Sol spends USD 0.24 and 25 turns per run and scores 0.37, whereas Gemini 3.8 Flash spends USD 1.54 and 121 turns and scores 0.19.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r32",
+  "claim": "Qwen 3.8 Flash submitted within limits on only 11 of 152 combinations; knowing when work is done is part of the skill.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Recognizing when the work is complete appears to be part of the required skill.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r33",
+  "claim": "Models solving up to 88%/90%/61% on Terminal-Bench 2.1 / Vibe Code Bench / Finance Agent score 0.19-0.56 on FDE-Gym (authors caution the quantities differ).",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Models that solve up to 88%, 90%, and 61% of tasks on these three benchmarks, respectively, score 0.19–0.56 on FDE-Gym.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r34",
+  "claim": "Authors' summary: same models improve the customer's metric in at most one of seven engagements.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "the same models that solve most terminal, coding, and research tasks improve the customer’s business metric in at most one of seven engagements",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r35",
+  "claim": "Worked example: drilling-operator VP asks for daily summary email and chat box, but real bottleneck is downtime-coding script the sponsor ruled out of scope.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "A vice president at a drilling operator seeks a generative-AI success story for the November board meeting.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r36",
+  "claim": "Limitation: stakeholders are scripted; real people are less predictable; contact costs are modelled, not measured.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "The contact costs are set by the experts who wrote each scenario and are a model of the cost of stakeholder time, not a measurement of it.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r37",
+  "claim": "Limitation: no human baseline yet; it is being collected on the online platform.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "No human baseline yet. This version reports models only.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r38",
+  "claim": "Limitation: single minimal agent framework; a stronger framework may change scores and ranking.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "a stronger framework may change both the scores and the ranking",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r39",
+  "claim": "Limitation: L0-L2 measured on only 20 original tasks; L1-L3 differences not large.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "we claim only that no large further drop is visible",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r40",
+  "claim": "Limitation: contamination cannot be ruled out.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "we cannot rule out that related material is in the training data",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r41",
+  "claim": "Limitation: run isolation varied across hosts.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "Runs were executed on several hosts with process-level isolation of varying strength",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r42",
+  "claim": "Competing interest: DeepLethe (lead affiliation) runs the online platform and leaderboard; authors state no evaluated model comes from an affiliated organization.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "DeepLethe develops and operates the FDE-Gym online platform and maintains its leaderboard.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r43",
+  "claim": "Availability: harness open source (v1.1.0); 20 original tasks on request with three public; 75 variants and all reference solutions held out.",
+  "url": "https://arxiv.org/html/2610.22350",
+  "quote": "The 75 variants and all reference solutions are held out.",
+  "sourceType": "Paper",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "r44",
+  "claim": "Dataset is gated; users must not post graders/solutions publicly or put files in training data.",
+  "url": "https://huggingface.co/datasets/DeepLethe/FDE-Gym",
+  "quote": "you do not share the files outside your organisation, you do not post graders, reference facts or solutions in public, and you keep the files out of model training data",
+  "sourceType": "Official",
+  "date": "2026-10-16"
+ },
+ {
+  "id": "r45",
+  "claim": "First author (HF comment) says the online gym for humans opens 1 November 2026.",
+  "url": "https://huggingface.co/papers/2610.22350",
+  "quote": "Online gym for humans opens 1 November 2026.",
+  "sourceType": "Social",
+  "date": "2026-10-16"
+ },
+ {
+  "id": "r46",
+  "claim": "HF paper page: 230 upvotes at time of fetch (17 Oct).",
+  "url": "https://huggingface.co/papers/2610.22350",
+  "quote": "\"upvotes\":230",
+  "sourceType": "Social",
+  "date": "2026-10-17"
+ },
+ {
+  "id": "r47",
+  "claim": "Related independent work tau^tau-bench (agent construction): best config passes 23.9% vs 82.2% expert reference.",
+  "url": "https://arxiv.org/abs/2609.04611",
+  "quote": "the strongest configuration, Claude Opus 5 under Claude Code, passes just 23.9% of evaluation simulations. Meanwhile, an expert-authored reference ceiling scores 82.2%.",
+  "sourceType": "Paper",
+  "date": "2026-09"
+ },
+ {
+  "id": "r48",
+  "claim": "Related: \"Trains but Doesn't Learn\" puts agents in FDE role for post-training; accepted EMNLP 2026 Industry Track.",
+  "url": "https://arxiv.org/abs/2609.25237",
+  "quote": "Accepted to EMNLP 2026 Industry Track",
+  "sourceType": "Paper",
+  "date": "2026-09"
+ },
+ {
+  "id": "r49",
+  "claim": "Tension: XYEval finds agents drop up to 46.7% under misleading user suggestions, while FDE-Gym leading models lose little to misdirected requests.",
+  "url": "https://arxiv.org/abs/2609.23939",
+  "quote": "Agents suffer large XY drops under XY mutation across benchmarks, with relative drops reaching up to 46.7%.",
+  "sourceType": "Paper",
+  "date": "2026-09"
+ },
+ {
+  "id": "r50",
+  "claim": "Independent caution on simulated users: agent success varies up to 9 points across user-simulation LLMs, and simulated users surface different failure patterns than humans.",
+  "url": "https://arxiv.org/abs/2601.17087",
+  "quote": "simulated users introduce conversational artifacts and surface different failure patterns than human users",
+  "sourceType": "Paper",
+  "date": "2026-01-23"
+ },
+ {
+  "id": "r51",
+  "claim": "Independent caution: agentic benchmark flaws can mis-estimate performance by up to 100% relative.",
+  "url": "https://arxiv.org/abs/2507.02825",
+  "quote": "Such issues can lead to under- or overestimation of agents' performance by up to 100% in relative terms.",
+  "sourceType": "Paper",
+  "date": "2025-07"
+ },
+ {
+  "id": "r52",
+  "claim": "Not to be confused with FDE-Bench (different authors), a deployment-configuration benchmark of 136 tasks.",
+  "url": "https://arxiv.org/abs/2609.27571",
+  "quote": "FDE-Bench evaluates this capability with 136 deployment-configuration tasks spanning Docker images, multi-service Compose stacks, and Kubernetes",
+  "sourceType": "Paper",
+  "date": "2026-09"
+ }
+]

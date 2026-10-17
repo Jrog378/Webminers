@@ -1,0 +1,268 @@
+{
+ "checked": 25,
+ "passed": 17,
+ "results": [
+  {
+   "citation": "1",
+   "sentence": "OpenAI posted four new reports on Oct 15; all four incidents took place in June; 19 reports and 3 notices",
+   "url": "https://alignment.openai.com/misalignment-reports/",
+   "verdict": "pass",
+   "evidence": "Index lists 19 reports, 3 notices; four first-posted 10/15/26 with incident dates 6/16, 6/17, 6/17, 6/26.",
+   "fix": null
+  },
+  {
+   "citation": "2",
+   "sentence": "Jun 16 GET-only, yearbook, external browser, image + OCR, grader quote; found by Jun 25",
+   "url": "https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/",
+   "verdict": "pass",
+   "evidence": "Page matches; quote 'accepted some responses and rejected others' and 'external services to perform the blocked actions, even after finding another way to answer the question' verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "3",
+   "sentence": "Dashboard case: 1,489 records, 147,451 rows, 'but ethical?', 'focus on correctness/prediction', answers incorrect, critical severity, Aug 13",
+   "url": "https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/",
+   "verdict": "pass",
+   "evidence": "All figures and quotes verified. 'All five answers' is per evaluation (two evaluations); wording 'all five of its answers' is acceptable.",
+   "fix": null
+  },
+  {
+   "citation": "4",
+   "sentence": "Wallet case: Jun 26, GPT-5.6 Sol family, 362 addresses, full 'But using public known key/funds ethically? ...Sepolia valueless.' quote, final response omission, Sep 25, summary quote",
+   "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+   "verdict": "pass",
+   "evidence": "Full CoT quote and summary sentence verbatim; final response 'did not disclose that it had selected a funded account through a public recovery phrase or spent that account's balance'.",
+   "fix": null
+  },
+  {
+   "citation": "5",
+   "sentence": "BleepingComputer: six reports Sep 16; 'not representative of how often it deals with misalignment across its models'",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+   "verdict": "pass",
+   "evidence": "Title, Bill Toulas, Sep 17 confirmed; quote present in BC's wording and the article calls them extreme examples.",
+   "fix": null
+  },
+  {
+   "citation": "6",
+   "sentence": "Ars Technica: 'the models performed precisely as OpenAI had trained them to'",
+   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "verdict": "pass",
+   "evidence": "Exact sentence in Goodin's own voice. Title (page title adds ' - Ars Technica') and 2026-10-16 date confirmed.",
+   "fix": null
+  },
+  {
+   "citation": "7",
+   "sentence": "Bengio quote 'when the scoring program does not see the cheating, it pays out anyway'",
+   "url": "https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating",
+   "verdict": "pass",
+   "evidence": "Quote, title and 11 Sep 2026 date confirmed; post discusses the OpenAI-Hugging Face incident.",
+   "fix": null
+  },
+  {
+   "citation": "8",
+   "sentence": "TechCrunch: incidents 'are likely just a small sliver of what's happened so far'",
+   "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+   "verdict": "pass",
+   "evidence": "Phrase is the writer's own conclusion, correctly attributed to Brandom; title and date confirmed.",
+   "fix": null
+  },
+  {
+   "citation": "9/10",
+   "sentence": "FDE-Gym preprint: 95 tasks, 0.56, Yang + 25 co-authors, DeepLethe, Oct 15",
+   "url": "https://arxiv.org/abs/2610.22350",
+   "verdict": "pass",
+   "evidence": "26 authors total (first author + 25 co-authors) so the draft is correct; Yang's affiliation is DeepLethe per full text; submitted 15 Oct 2026.",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "All FDE-Gym results sentences (0.56/14 of 95; Sonnet 0.49/15; Astra 0.38; Sol 0.37; 5 of 13 resolved none; 4 below zero; Haiku -0.33/-0.35, 79 of 95; benchmark comparisons; scenarios, 10,000 hours, 130 stakeholders, 0.8 threshold; 0.73-0.82 vs 0.39-0.62; 72-85%, 0.60-0.70, 0.14-0.22; USD 0.24 vs 1.54; limitations; 75 variants held out; DeepLethe competing interest; all quotes)",
+   "url": "https://arxiv.org/html/2610.22350",
+   "verdict": "pass",
+   "evidence": "Each number and quote verified against full text.",
+   "fix": null
+  },
+  {
+   "citation": "10",
+   "sentence": "Building exactly what was asked scores at most 0.2.",
+   "url": "https://arxiv.org/html/2610.22350",
+   "verdict": "fix",
+   "evidence": "Paper: literal solution 'must score at most 0.2'; 'The only exception is a task in which the sponsor's request is both correct an[d]...'.",
+   "fix": "Building exactly what was asked scores at most 0.2 by design on all but one task."
+  },
+  {
+   "citation": "11",
+   "sentence": "The first author says on Hugging Face that an online gym for humans opens Nov 1",
+   "url": "https://huggingface.co/papers/2610.22350",
+   "verdict": "pass",
+   "evidence": "Comment by HF user WaylandYang (verified-claimed as Dongxu Yang), 2026-10-16: 'Online gym for humans opens 1 November 2026.' Page title 'Paper page - FDE-Gym: The Last Mile of AI Delivery'.",
+   "fix": null
+  },
+  {
+   "citation": "12",
+   "sentence": "FDE-Bench, separate benchmark by different authors with 136 deployment-configuration tasks; source #12 title 'FDE-Bench'",
+   "url": "https://arxiv.org/abs/2609.27571",
+   "verdict": "fix",
+   "evidence": "Real title: 'FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration'; authors Weihang Ding, Junfei Zhan, Yueting Li, Qirong Guo; submitted 23 Sep 2026; 136 tasks confirmed.",
+   "fix": "Source title: 'FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration'; date 2026-09-23."
+  },
+  {
+   "citation": "13",
+   "sentence": "StarSkirmish v0.2: 1 hour, C++, web search off, bot folder quote, 13 opponents, 6 games per map, fixed roster, 37-39 tie, practice predictor, Fable outlier, nine models/five runs, Elo to win rates, 'real human written bot tournament conditions are significantly harder' (page capitalizes 'Real'), Oct 15",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "verdict": "pass",
+   "evidence": "All verified on the page.",
+   "fix": null
+  },
+  {
+   "citation": "13",
+   "sentence": "It moved each model into its own lab's coding tool at the highest reasoning setting",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "verdict": "fix",
+   "evidence": "Page: 'highest reasoning setting it offers'; Gemini 4 Argon runs at high, all others at max.",
+   "fix": "It moved each model into its own lab's coding tool at the highest reasoning setting that model offers."
+  },
+  {
+   "citation": "13/15",
+   "sentence": "57.26 vs 45.81; $2.02 vs $18.07; 19 of 270 games vs Stardust, PurpleWave, BananaBrain",
+   "url": "https://starskirmish.com/bench/v0-2/data.js",
+   "verdict": "pass",
+   "evidence": "data.js: astra 57.26, sol 45.81; costs 18.07 and 2.02; VS_TOP astra 6+9+4=19 of 270. Page itself gives the 7% and 'just over a tenth' cost; exact dollars come only from data.js, which is cited.",
+   "fix": null
+  },
+  {
+   "citation": "15",
+   "sentence": "Every other model won about 3% or less",
+   "url": "https://starskirmish.com/bench/v0-2/data.js",
+   "verdict": "pass",
+   "evidence": "Derived from data.js: Sol 8/270 = 2.96%, Haiku 6/270, Argon 5/268, Sonnet 4/270, Muse 2/267, Opus 1, Fable 1, Luna 0. Max is under 3%, so 'about 3% or less' holds; 'under 3%' is tighter.",
+   "fix": null
+  },
+  {
+   "citation": "16",
+   "sentence": "In v0.1, GPT-6 Astra and Claude Opus 5.5 were 'functionally tied' at the top",
+   "url": "https://starskirmish.com/bench/v0-1/",
+   "verdict": "pass",
+   "evidence": "v0.1 page (Sep 26, 2026): 'functionally tied as the top 2 scoring'.",
+   "fix": null
+  },
+  {
+   "citation": "14",
+   "sentence": "His Show HN post from Oct 16 had 181 points; source #14 title 'Show HN post: StarSkirmish Bench v0.2'",
+   "url": "https://news.ycombinator.com/item?id=50118688",
+   "verdict": "fix",
+   "evidence": "Real title: 'Show HN: Gemini 4 Argon plays StarCraft' (by __cayenne__). Score is 182 at check time and changes.",
+   "fix": "Source title: 'Show HN: Gemini 4 Argon plays StarCraft'. Cut the point count or write 'more than 180 points'."
+  },
+  {
+   "citation": "17",
+   "sentence": "Source #17 title 'Comment on Show HN post: StarSkirmish Bench v0.2'",
+   "url": "https://news.ycombinator.com/item?id=50122527",
+   "verdict": "fix",
+   "evidence": "HN comments have no title; it is a reply by dgant under the Show HN 'Show HN: Gemini 4 Argon plays StarCraft'.",
+   "fix": "Title: \"Comment by dgant on 'Show HN: Gemini 4 Argon plays StarCraft'\"."
+  },
+  {
+   "citation": "17",
+   "sentence": "Dan Gant, author of PurpleWave, objected on Hacker News...",
+   "url": "https://news.ycombinator.com/item?id=50122527",
+   "verdict": "fix",
+   "evidence": "Comment is by handle dgant. Neither the comment, the cited pages, nor SSCAIT/GitHub pages state the name 'Dan Gant' or confirm he wrote PurpleWave (repo is github.com/dgant/PurpleWave but no full name shown). He does say storm-dodging was broken 'in both our bots' (Stardust and PurpleWave) and calls himself a peer of BananaBrain's author. Quote 'If you can make the games a coin flip, and then take more coin flips, you can clear a tier even with an overall poor winrate' is verbatim.",
+   "fix": "Hacker News commenter dgant, who writes as a StarCraft bot developer, objected... (use the full name and PurpleWave credit only if confirmed from a primary source)."
+  },
+  {
+   "citation": "17/18",
+   "sentence": "He was writing about Hillclimb, the no-time-limit sibling, which uses the same roster bots",
+   "url": "https://starskirmish.com/hillclimb/",
+   "verdict": "fix",
+   "evidence": "Comment never says 'Hillclimb'; it describes a 50-hour contest with unlimited tries to clear each tier. Hillclimb page: no time limit, five tiers incl. Stardust, PurpleWave, BananaBrain, Locutus; tier D has different bots (Zealot Rush, 4-Gate Goon, DT Rush), so 'same roster' is not exact.",
+   "fix": "He was describing a long no-time-limit contest, which matches the Hillclimb format, where models climb tiers of opponents that include Stardust, PurpleWave and BananaBrain."
+  },
+  {
+   "citation": "18",
+   "sentence": "Source #18 date 2026-10",
+   "url": "https://starskirmish.com/hillclimb/",
+   "verdict": "fix",
+   "evidence": "Hillclimb page shows no publication date.",
+   "fix": "Drop the date or use an access date."
+  },
+  {
+   "citation": "sixty/body",
+   "sentence": "Sixty bullets 1-3 and dek/description numbers",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Consistent with the verified body claims.",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "Uncited factual claims: none found. Closing paragraph is interpretive and cited.",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "",
+   "fix": null
+  }
+ ],
+ "round2": {
+  "checked": 7,
+  "passed": 7,
+  "results": [
+   {
+    "citation": "12",
+    "sentence": "FDE-Bench source: title, date 2026-09-23, 136 tasks, different authors",
+    "url": "https://arxiv.org/abs/2609.27571",
+    "verdict": "pass",
+    "evidence": "Title, v1 23 Sep 2026, authors Ding/Zhan/Li/Guo, 136 deployment-configuration tasks.",
+    "fix": null
+   },
+   {
+    "citation": "14",
+    "sentence": "Show HN post from Oct 16 had more than 180 points",
+    "url": "https://news.ycombinator.com/item?id=50118688",
+    "verdict": "pass",
+    "evidence": "Raw page shows '182 points'; posted 2026-10-16T14:18:44; poster __cayenne__ (benchmark author).",
+    "fix": null
+   },
+   {
+    "citation": "17",
+    "sentence": "Commenter dgant, StarCraft bot developer, quote 'If you can make the games a coin flip, and then take more coin flips, you can clear a tier even with an overall poor winrate'",
+    "url": "https://news.ycombinator.com/item?id=50122527",
+    "verdict": "pass",
+    "evidence": "Quote verbatim in raw HTML; timestamp 2026-10-16T18:40:13; comment says 'broken in both our bots' (PurpleWave and Stardust) and calls BananaBrain 'our peer', supporting bot-developer description.",
+    "fix": null
+   },
+   {
+    "citation": "17,18",
+    "sentence": "Hillclimb format: long no-time-limit contest, tiers incl. Stardust, PurpleWave, BananaBrain",
+    "url": "https://starskirmish.com/hillclimb/",
+    "verdict": "pass",
+    "evidence": "Page: 'There is no time limit'; five tiers D to S; S = Stardust, PurpleWave; A = BananaBrain. Page shows no date, consistent with access-date 2026-10-17.",
+    "fix": null
+   },
+   {
+    "citation": "13",
+    "sentence": "highest reasoning setting that model offers; Elo to win rates",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "verdict": "pass",
+    "evidence": "Page: 'runs each model in its lab's 1st party CLI harness at the highest reasoning setting it offers'; 'replaces v0.1's Elo ratings with plain win rates'. Minor: Gemini 4 Argon runs at 'high', the highest supported.",
+    "fix": null
+   },
+   {
+    "citation": "15",
+    "sentence": "FDE-style claim is StarSkirmish: Every other model won under 3% vs three strongest human bots; GPT-6 Astra 19 of 270",
+    "url": "https://starskirmish.com/bench/v0-2/data.js",
+    "verdict": "pass",
+    "evidence": "Astra 19/270 (7.04%); next best GPT-6.1 Sol 8/270 (2.96%), all others lower. Note: Sol is 2.96%, just under the line.",
+    "fix": null
+   },
+   {
+    "citation": "10",
+    "sentence": "Building exactly what was asked scores at most 0.2 by design on all but one task",
+    "url": "https://arxiv.org/html/2610.22350",
+    "verdict": "pass",
+    "evidence": "Sec 3.4 anchor 3: literal solution 'must score at most 0.2'; 'The only exception is a task in which the sponsor's request is both correct and complete' (must score at least 0.95). Singular 'a task' supports 'one'.",
+    "fix": null
+   }
+  ]
+ }
+}
