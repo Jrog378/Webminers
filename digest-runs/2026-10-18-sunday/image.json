@@ -1,0 +1,14 @@
+{"hero": {"src": "/images/eureka/2026-10-18-ai-sings-whole-bible-music/gutenberg-bible-open-ai-sings-bible-music.webp", "width": 1600, "height": 1066,
+  "alt": "Open Gutenberg Bible on display, the printed text that AI projects now sing word for word as a whole-Bible music set",
+  "caption": "The printed Bible, here an original Gutenberg copy, is the text two AI projects now say they sing word for word.",
+  "credit": {"title": "One of the original copies of the Gutenberg Bible in the Morgan Library in New York", "author": "mdburnette", "authorUrl": "https://mburnette.com", "license": "CC0 1.0",
+             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "sourceName": "WordPress Photo Directory",
+             "sourceUrl": "https://wordpress.org/photos/photo/96261f98a7/", "modified": "Resized and converted to WebP"}},
+ "tried": [
+  {"source": "StockSnap (via Openverse)", "query": "headphones music; open bible; psalms; bible", "result": "rejected: CC0 and relevant (Psalms open Bible, Aaron Burden) but only 960px-wide files reachable (full-size blocked by Cloudflare); headphones options mostly show faces/people"},
+  {"source": "WordPress Photo Directory (via Openverse)", "query": "headphones; bible; psalms; hymnal; sound waves", "result": "chosen: Gutenberg Bible, CC0, 2048px original, inspected final WebP, no watermark or faces; headphone photos rejected as generic"},
+  {"source": "Rawpixel (via Openverse)", "query": "bible; psalms; headphones; church choir", "result": "not used: only editor_1024 previews linked, risk of watermark; choir photos show people"},
+  {"source": "Nappy (via Openverse)", "query": "bible; psalms; headphones; choir", "result": "rejected: no results"},
+  {"source": "Unsplash/Pexels/Pixabay", "query": "n/a", "result": "skipped: no API keys set"},
+  {"source": "Wikimedia Commons", "query": "n/a", "result": "skipped by rotation: used in the previous two issues (10-10, 10-11)"}],
+ "note": "sharp is not installed (no node_modules); converted with ImageMagick convert (-resize 1600x -quality 80). file reports Web/P image."}

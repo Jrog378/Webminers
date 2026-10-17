@@ -1,0 +1,196 @@
+{
+  "weekStart": "2026-10-11",
+  "weekEnd": "2026-10-17",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok (200); no in-window technology-for-faith news; one AI essay (2026-10-14) is opinion"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok (200); in-window items mostly politics/crime; AI-icon blessing story is a denominational dispute"
+    },
+    {
+      "name": "Google News RSS (Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, Bible app, YouVersion, Wycliffe, chatbot Jesus, AI Bible, sign language Bible, Christian AI app)",
+      "status": "ok (200)"
+    },
+    {
+      "name": "Google News RSS, date-bounded 2026-10-10..2026-10-18 (Biblica AI, illumiNations, Avodah, Faithlife Logos AI, Bible Society app, Scripture AI tool, church app AI, Bible AI chatbot, sign language Bible app, audio Bible, Gloo AI, Pushpay, Bible song app)",
+      "status": "ok (200) except Subsplash (503); org-specific queries returned no items"
+    },
+    {
+      "name": "YouVersion blog feed",
+      "status": "ok; no new product news in window (2026-10-15 post is a donor appeal); search-data release already covered 2026-10-11"
+    },
+    {
+      "name": "SIL feed",
+      "status": "ok; latest item Feb 2026"
+    },
+    {
+      "name": "Wycliffe blog feed",
+      "status": "403 blocked"
+    },
+    {
+      "name": "Barna feed / research index",
+      "status": "ok; 'Pastors Say Churches Need AI Guidelines' dated 2026-10-06 (outside week)"
+    },
+    {
+      "name": "Mission Network News feed",
+      "status": "ok but stale feed; in-window MNN AI piece found via Google News only"
+    },
+    {
+      "name": "Hacker News Algolia (bible, church, since 2026-10-11)",
+      "status": "ok; nothing relevant"
+    },
+    {
+      "name": "Reddit r/Christianity search .rss",
+      "status": "403 blocked"
+    },
+    {
+      "name": "Washington Examiner op-ed (Music Bible founder)",
+      "status": "paywalled after two paragraphs; not used as a primary source"
+    },
+    {
+      "name": "Spectrum Magazine (Adventist AKAI report)",
+      "status": "blocked by Cloudflare / 403"
+    },
+    {
+      "name": "GlobeNewswire (Bibliojam release)",
+      "status": "403; could not read"
+    },
+    {
+      "name": "Religion News Service press release (TheSinging.Bible)",
+      "status": "403"
+    },
+    {
+      "name": "themusicbible.org home and /ai-transparency/",
+      "status": "ok (about/people pages 403)"
+    },
+    {
+      "name": "thesinging.bible home and /funfacts",
+      "status": "ok"
+    },
+    {
+      "name": "Forbes (Gen Z religion apps)",
+      "status": "403"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-10-11 to 2026-10-17",
+      "candidates": [
+        {
+          "title": "Music Bible founder: 38,000 AI songs and Bible access",
+          "summary": "Op-ed by Micah Fiechter, founder of the Music Bible app, arguing AI-set, word-for-word Scripture songs widen access to the Bible.",
+          "primaryUrl": "https://www.washingtonexaminer.com/op-eds/4755018/artificial-intelligence-music-bible-app/",
+          "date": "2026-10-11",
+          "organization": "The Music Bible",
+          "whyNotChosen": "Only in-window primary source is a paywalled op-ed (readable for two paragraphs). Readable reporting on the app is dated 2026-10-08, before the window. Used instead as the anchor of the Tier 2 piece."
+        },
+        {
+          "title": "Adventist church introduces its own AI question-answering chatbot (AKAI)",
+          "summary": "Reported as introduced at a denomination's annual council; designed to answer only from vetted church sources with citations.",
+          "primaryUrl": "https://spectrummagazine.org/news/annual-council-2026-tuesday-and-wednesday-newly-elected-nsd-president-and-adventist-intelligence-introduced/",
+          "date": "2026-10-14",
+          "organization": "General Conference of Seventh-day Adventists",
+          "whyNotChosen": "Primary report blocked (Cloudflare 403); no readable official announcement found; denominational-content tool also risks denominational framing."
+        },
+        {
+          "title": "How AI helps The Chosen reach more viewers",
+          "summary": "AI drafts subtitles and speech-to-speech dubs, with trained reviewers checking every line for biblical fidelity.",
+          "primaryUrl": "https://www.movieguide.org/news-articles/how-ai-helps-the-chosen-reach-even-more-viewers.html",
+          "date": "2026-10-13",
+          "organization": "Come and See",
+          "whyNotChosen": "Aggregation of May/June 2026 interviews; no new development this week. Used as an also-encouraging item."
+        },
+        {
+          "title": "Students reflect on Gloo's AI hackathon for ministry tools",
+          "summary": "Original ChurchLeaders reporting on student teams, including Holy Sound, a natural-language controller for church sound boards; Bible-track winner Envoy.",
+          "primaryUrl": "https://churchleaders.com/news/2223865-biola-university-students-gloo-2026-ai-hackathon.html",
+          "date": "2026-10-13",
+          "organization": "Gloo / Biola University",
+          "whyNotChosen": "Hackathon ran 2026-10-06..08 and winners were announced 2026-10-09 (before the window); grand-prize project is not Christ-focused; corporate PR-heavy. Used as also-encouraging."
+        },
+        {
+          "title": "Nearly all pastors want AI guidelines (coverage)",
+          "summary": "Movieguide write-up of Barna's finding that 94% of pastors want church AI guidelines but 79% of churches have none.",
+          "primaryUrl": "https://www.barna.com/research/church-ai-guidelines/",
+          "date": "2026-10-17",
+          "organization": "Barna Group",
+          "whyNotChosen": "Primary Barna release is dated 2026-10-06 (outside the week); in-window item is secondary. Used as caution context in Tier 2."
+        },
+        {
+          "title": "AI 'Jesus' video chat at $2 a minute",
+          "summary": "Paid avatar video-call service resurfaced in coverage.",
+          "primaryUrl": "https://businessday.ng/technology/article/1-99-a-minute-ai-jesus-app-sparks-outrage-as-faith-tech-boom-grows/",
+          "date": "2026-10-15",
+          "organization": "Just Like Me",
+          "whyNotChosen": "Launch was covered in April 2026; no material new development; in-window item is a re-report."
+        },
+        {
+          "title": "Calvin University Center for Faith and Technology and AI conference",
+          "summary": "New academic center offering Christian guidance on AI; planned online resource hub.",
+          "primaryUrl": "https://www.thebanner.org/news/2026/10/ai-conference-new-center-for-faith-and-tech-bring-cultural-moment-to-calvin",
+          "date": "2026-10-16",
+          "organization": "Calvin University",
+          "whyNotChosen": "Center announced 2026-10-08; it studies and discusses AI rather than shipping a technology that draws people to Christ."
+        },
+        {
+          "title": "Altman and Piper statements on AI and spiritual authority / AI-written sermons",
+          "summary": "Commentary on chatbots as religious authorities and on sermon writing.",
+          "primaryUrl": "https://axios.com/2026/10/03/openai-anthropic-altman-amodei-religious-force-models",
+          "date": "2026-10-03 / 2026-10-14",
+          "organization": "OpenAI / Desiring God",
+          "whyNotChosen": "Opinion and statements, not a technology development; Altman post predates window."
+        },
+        {
+          "title": "Swiss church bodies adopt ten AI guidelines; archbishop blesses AI icon; audio Bibles for a minority community",
+          "summary": "Various in-window faith-and-tech items.",
+          "primaryUrl": "",
+          "date": "2026-10-12..17",
+          "organization": "various",
+          "whyNotChosen": "Each is framed by a place or a denominational dispute; fails the no-geography / scope rule."
+        }
+      ]
+    },
+    {
+      "tier": "month-review",
+      "window": "2026-09-17 to 2026-10-17",
+      "candidates": [
+        {
+          "title": "Music Bible: the complete Bible set word for word to music with AI",
+          "summary": "A roughly 70-person team led by founder Micah Fiechter used AI to set every verse to song in 11 English styles (three in Spanish), 30,000+ songs, free on iOS and Android; publishes an AI-transparency pledge not to change any Scripture.",
+          "primaryUrl": "https://www.crosswalk.com/headlines/contributors/guest-commentary/new-music-bible-app-uses-ai-to-turn-scripture-into-country-hip-hop-jazz-and-more.html",
+          "date": "2026-10-08",
+          "organization": "The Music Bible",
+          "whyNotChosen": "Chosen (anchor of the feature)."
+        },
+        {
+          "title": "TheSinging.Bible grows to 52,316 AI-assisted chapter recordings",
+          "summary": "Launched 2026-08-25 with 38,048 recordings of all 1,189 chapters; site now lists 22 styles x 2 voices, Spanish editions, and iPhone/Android apps; English uses the Berean Standard Bible; play counts are self-reported.",
+          "primaryUrl": "https://thesinging.bible/funfacts",
+          "date": "2026-08-25 launch; current figures undated",
+          "organization": "TheSinging.Bible",
+          "whyNotChosen": "Chosen (second strand of the feature); launch itself predates the 30-day window, current expansion is undated."
+        },
+        {
+          "title": "Barna: only a third of pastors feel positive about AI writing worship songs",
+          "summary": "In a Barna-Gloo pastor survey, 33% feel positive about AI writing worship songs, 29% about AI interpreting Scripture; 94% want church AI guidelines.",
+          "primaryUrl": "https://www.barna.com/research/church-ai-guidelines/",
+          "date": "2026-10-06",
+          "organization": "Barna Group",
+          "whyNotChosen": "Chosen as the caution strand of the feature."
+        },
+        {
+          "title": "Bibliojam: an app that turns the whole Bible into a yearlong musical journey",
+          "summary": "Press release (GlobeNewswire 2026-09-18) for a music-based Bible app; reportedly launched 2026-10-01.",
+          "primaryUrl": "https://www.globenewswire.com/news-release/2026/09/18/3364970/0/en/bibliojam-announces-app-that-turns-the-entire-bible-into-a-yearlong-musical-experience.html",
+          "date": "2026-09-18",
+          "organization": "Bibliojam",
+          "whyNotChosen": "Release unreadable (403) and no other source confirms details or whether AI is used; excluded."
+        }
+      ]
+    }
+  ]
+}

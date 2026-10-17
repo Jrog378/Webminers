@@ -1,0 +1,5 @@
+{"status":"drafted","issueDate":"2026-10-18","week":{"start":"2026-10-11","end":"2026-10-17"},
+"tier":"month-review","tierReason":"Tier 1: no story cleared the bar (Music Bible founder op-ed paywalled with readable reporting dated 10-08; Adventist chatbot report unreadable; The Chosen and Barna items were re-reports; Gloo and Calvin news predate the window; the rest opinion, political or place-framed).",
+"sourcesFailed":["Wycliffe","Reddit","Spectrum","RNS press release","GlobeNewswire","Forbes (403)","Washington Examiner body (paywall)","Movieguide direct (403)"],
+"verse":"Deuteronomy 6:6-7 (WEB)","factCheck":{"round1":{"checked":56,"pass":43,"fix":13,"cut":0},"round2":{"groups":17,"pass":14,"fix":3,"cut":0}},
+"editor":"PASS after 2 rounds","slug":"2026-10-18-ai-sings-whole-bible-music"}

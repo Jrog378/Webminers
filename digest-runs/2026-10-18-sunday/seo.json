@@ -1,0 +1,15 @@
+{
+  "keywords": {"primary": "AI sing whole Bible", "secondary": ["Bible set to music", "Music Bible app", "TheSinging.Bible", "AI Bible songs"]},
+  "title": "Can AI Sing the Whole Bible? | Coding with Christ",
+  "titleLength": 50,
+  "description": "The Music Bible and TheSinging.Bible use AI to sing every Bible chapter word for word. A month in review: what they built and what is still unverified.",
+  "slug": "2026-10-18-ai-sings-whole-bible-music",
+  "imageAlt": "unchanged (about 117 chars, describes the image)",
+  "changes": [
+    "Title changed from claim to question form 'Can AI Sing the Whole Bible?' (50 chars with suffix), matching how people search",
+    "Feature section now opens with a 1-sentence direct answer using existing facts and citations [2][6], before the look-back sentence",
+    "Description, slug, H2s, hero alt and caption kept; they already meet the rules",
+    "No FAQ added: search returned no real People Also Ask questions",
+    "No 'sixty' field exists in this draft's frontmatter; none added"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "chosen": {
+    "reference": "Deuteronomy 6:6-7",
+    "text": "These words, which I command you today, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+    "translation": "World English Bible",
+    "url": "https://bible-api.com/Deuteronomy+6:6-7?translation=web"
+  },
+  "candidates": [
+    {
+      "reference": "Deuteronomy 6:6-7",
+      "text": "These words, which I command you today, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+      "url": "https://bible-api.com/Deuteronomy+6:6-7?translation=web",
+      "context": "Moses to Israel on the plains of Moab, restating the law and the Shema before entry into the land.",
+      "whyItFits": "Scripture is meant to live in the heart and be repeated through daily life and community; sung Scripture is one way of keeping the words constant, while the passage keeps the focus on teaching and family rather than the tool."
+    },
+    {
+      "reference": "Psalms 119:11",
+      "text": "I have hidden your word in my heart, that I might not sin against you.",
+      "url": "https://bible-api.com/Psalm+119:11?translation=web",
+      "context": "Psalm 119, an acrostic by an unnamed psalmist to the worshiping community, celebrating God's law.",
+      "whyItFits": "Directly about memorizing Scripture; less about hearing or community."
+    },
+    {
+      "reference": "Romans 10:17",
+      "text": "So faith comes by hearing, and hearing by the word of God.",
+      "url": "https://bible-api.com/Romans+10:17?translation=web",
+      "context": "Paul to the Roman church, on the need for the gospel to be proclaimed and heard.",
+      "whyItFits": "Fits hearing the Word, but it concerns gospel proclamation, so applying it to audio apps risks proof-texting."
+    }
+  ]
+}

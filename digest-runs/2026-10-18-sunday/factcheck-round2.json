@@ -1,0 +1,142 @@
+{
+ "checked": 17,
+ "passed": 14,
+ "results": [
+  {
+   "citation": "[1][2]",
+   "sentence": "Two projects ... say AI now sings every chapter of the Bible, but neither has published error rates.",
+   "url": "https://answeredfaith.com/ai-assisted-singing-bible-reports-one-million-plays-in-two-weeks/",
+   "verdict": "fix",
+   "evidence": "Answered Faith says only that TheSinging.Bible's release did not 'publish detailed error rates from its quality-control process'. The Music Bible page makes an accuracy pledge but describes no review method and says nothing about error rates. A flat 'neither has published' is an absence claim the sources do not establish.",
+   "fix": "...but we found no published error rates from either [[1]](#source-1) [[2]](#source-2)."
+  },
+  {
+   "citation": "[10]",
+   "sentence": "The workflow was first reported by Deseret News in June",
+   "url": "https://www.deseret.com/entertainment/2026/05/30/the-chosen-translation-localization-ai-tool-come-and-see-wendi-lord/",
+   "verdict": "fix",
+   "evidence": "Deseret News original (Margaret Darby) published May 30, 2026, 9:00 p.m. MDT. The KSL.com copy is stamped June 1, 2026. Movieguide also refers to the Deseret interview as 'a May interview'. Title and content match; only date and URL are wrong in the draft.",
+   "fix": "'first reported by Deseret News in May'. Source 10: outlet Deseret News, date 2026-05-30, url the deseret.com link above (KSL is a syndicated copy)."
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Movieguide re-reported how AI helps translate The Chosen, saying 'a trained subject matter expert examines each line for accuracy, biblical fidelity and cultural relevance'",
+   "url": "https://www.movieguide.org/news-articles/how-ai-helps-the-chosen-reach-even-more-viewers.html",
+   "verdict": "fix",
+   "evidence": "Date Oct 13, 2026 confirmed. The quoted words appear in Movieguide's own text (not a Deseret quote), and it attributes the subtitle process to a fact sheet provided to Movieguide. It describes subtitle review; it does not describe the dubbing workflow. Page headline is capitalised 'How AI Helps THE CHOSEN Reach Even More Viewers', but the source title says 'The Chosen'. (curl got 403; verified through the fetch tool, which paraphrased and confirmed the phrase appears.)",
+   "fix": "Source 9 title: 'How AI Helps THE CHOSEN Reach Even More Viewers'. Sentence: say the review applies to subtitles and credit the claim, e.g. 'Movieguide, citing a fact sheet, reports that for subtitles a \"trained subject matter expert examines each line...\"'. Say 'Movieguide followed up on' rather than implying the quote covers dubbing."
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Come and See uses an AI app for a first-pass translation in minority languages, then speech-to-speech AI lays the original actor's voice over recordings made by linguists. Goal 600 languages, more than 500 with no dubbing infrastructure.",
+   "url": "https://www.deseret.com/entertainment/2026/05/30/the-chosen-translation-localization-ai-tool-come-and-see-wendi-lord/",
+   "verdict": "pass",
+   "evidence": "Deseret and KSL both confirm all four points. Apply the date and URL fix above.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "Gloo's fourth annual AI hackathon, held Oct 6-8, Biola's Holy Sound reached the finals ... natural language to run sound boards",
+   "url": "https://churchleaders.com/news/2223865-biola-university-students-gloo-2026-ai-hackathon.html",
+   "verdict": "pass",
+   "evidence": "Title (with em dash), Oct 13 date, 'fourth annual', Oct 6-8, finals confirmed.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "'specifically designed to help non-technical people use Ableton Live during church services'",
+   "url": "https://churchleaders.com/news/2223865-biola-university-students-gloo-2026-ai-hackathon.html",
+   "verdict": "pass",
+   "evidence": "Quote matches ChurchLeaders text.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Launched Aug 25; iPhone Sept 21; YouTube radio Oct 2; Android Oct 4; 52,316 recordings; 1,189 chapters; 22 styles; male and female; Singing Bible Edition on BSB; 'AI-empowered technologies'; free, no sign-up, no ads; 'every recording follows the written text, which is shown with every chapter'",
+   "url": "https://thesinging.bible/facts",
+   "verdict": "pass",
+   "evidence": "All match the page (raw HTML checked for the 'follows the written text' quote). Note the page says 'male or female voice' per chapter; the draft's 'male and female voice' is equivalent.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Launched with 38,048 recordings; producers/engineers/QC reviewers responsible for reviewing recordings; no detailed error rates; 'a play should not be confused...'; Taber quotes (3); one million plays from own analytics",
+   "url": "https://answeredfaith.com/ai-assisted-singing-bible-reports-one-million-plays-in-two-weeks/",
+   "verdict": "pass",
+   "evidence": "All verified; source text says 'responsible for managing and reviewing the recordings'. Article dated Sep 10, 2026. Note: Duke Taber attribution to Taber is confirmed by the text of the quotes; Answered Faith is reporting, not a primary project source, and the draft treats it that way.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Music Bible: Suno and ChatGPT; 'will never use artificial intelligence to create songs that interpret, paraphrase, or extrapolate the meaning of Scripture'; 'occasionally, a word or phrase may be repeated for musical expression'; 'over 750,000 words'; 'at least 100% accuracy in the oral representation of each passage'; no review method described",
+   "url": "https://themusicbible.org/ai-transparency/",
+   "verdict": "pass",
+   "evidence": "All quotes exact (verified in raw HTML). Page describes no review method.",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Crosswalk Oct 8 guest commentary; 11 styles; more than 30,000 songs; three Spanish genres; two Fiechter quotes; free on iOS and Android",
+   "url": "https://www.crosswalk.com/headlines/contributors/guest-commentary/new-music-bible-app-uses-ai-to-turn-scripture-into-country-hip-hop-jazz-and-more.html",
+   "verdict": "pass",
+   "evidence": "All match exactly.",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Three days later, the headline of Fiechter's op-ed put the figure at 38,000",
+   "url": "https://www.washingtonexaminer.com/op-eds/4755018/artificial-intelligence-music-bible-app/",
+   "verdict": "pass",
+   "evidence": "Headline 'How 38,000 AI songs might be the biggest shift in Bible access since Gutenberg', by Micah Fiechter, Oct 11. Oct 8 to Oct 11 is three days.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Homepage counter 38,556; 14 complete-Bible genres counting Spanish; memorizing; read-along lyrics; AI-built playlists",
+   "url": "https://themusicbible.org/",
+   "verdict": "pass",
+   "evidence": "Raw HTML: data-to-value=38556 and 14 (labelled 'Complete Bible Genres'); Memorize, lyrics on screen and AI playlist text present. 'Counting Spanish' is inference (Crosswalk: 11 + 3 Spanish = 14); acceptable. Counters animate from 0, so a reader sees the number only after load.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Under 20 minutes a day sings through the whole Bible in a year, text on screen; Jonah sea shanty",
+   "url": "https://thesinging.bible/funfacts",
+   "verdict": "pass",
+   "evidence": "Confirmed.",
+   "fix": null
+  },
+  {
+   "citation": "[8]",
+   "sentence": "Barna Oct 6: 33% worship songs, 29% interpreting scripture, 64% curriculum; 442 pastors; online December 2025; no mention of sung Scripture",
+   "url": "https://www.barna.com/research/church-ai-guidelines/",
+   "verdict": "pass",
+   "evidence": "Confirmed; datePublished 2026-10-06; sample is 442 U.S. Protestant pastors. Summary found no mention of sung Scripture.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Kenny Lamm told Baptist Press AI 'can assist the craft but cannot replace the heart and witness of human worshippers'",
+   "url": "https://religionunplugged.com/news/2026/1/3/as-ai-music-climbs-the-charts-church-leaders-urge-caution-and-discernment",
+   "verdict": "pass",
+   "evidence": "Quote, Jan 3, 2026 date, Baptist Press origin confirmed (original italicises assist/replace). Title capitalisation differs trivially.",
+   "fix": null
+  },
+  {
+   "citation": "front matter / Sep 30 clause",
+   "sentence": "We noted The Music Bible's app launch in our Sep 30 issue.",
+   "url": "/home/user/Webminers/content/faith/2026-09-30-kairos-ai-bible-chatbot.md",
+   "verdict": "pass",
+   "evidence": "The Sep 30 file contains the item 'Music Bible launches its app' (line 180). Clause is supported. Citation numbers 1-12 map correctly to the front-matter sources list.",
+   "fix": null
+  },
+  {
+   "citation": "none",
+   "sentence": "Reflection section: Deuteronomy 6:4-7, Matthew 22:37-38, Colossians 3:16 references",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Biblical references, not checked against live sources beyond the verse file; no factual claims at risk.",
+   "fix": null
+  }
+ ]
+}
