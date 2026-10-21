@@ -1,0 +1,33 @@
+{
+  "status": "published-draft",
+  "issueDate": "2026-10-21",
+  "window": "Sat Oct 17 \u2013 Tue Oct 20, 2026",
+  "slug": "2026-10-21-meta-muse-chat-sharing-paused",
+  "sourcesFailed": [
+    "GitHub search API (blocked)",
+    "Anthropic news RSS 404",
+    "Meta AI blog RSS 404",
+    "DeepMind RSS empty",
+    "Google News RSS mostly unusable",
+    "openai.com 403",
+    "Reddit blocked",
+    "stocksnap CDN 403"
+  ],
+  "topics": {
+    "news": "Meta pauses Muse chat sharing after researchers find users' shared AI conversations exposed on the open web",
+    "research": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "invention": "Sphinx: a git hook that quizzes you on your AI agent's code before shipping"
+  },
+  "formats": {
+    "news": "timeline",
+    "research": "claim-vs-evidence",
+    "invention": "qa"
+  },
+  "factcheck": {
+    "pass": 46,
+    "fix": 2,
+    "cut": 0
+  },
+  "editor": "PASS (round 2; round 1 failed on closing section)",
+  "notes": "npm ci failed (package-lock.json out of sync, missing yaml@2.9.1); used npm install, lockfile change not committed."
+}

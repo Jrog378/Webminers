@@ -1,0 +1,202 @@
+{
+ "section": "invention",
+ "window": "Sat Oct 17 - Tue Oct 20, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai tag RSS",
+   "status": "ok, nothing new in window relevant (Timestral is a news item)"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok, titles only, no signal data; not used as candidates"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by environment (repo-scoped only)"
+  },
+  {
+   "name": "Reddit rss / Wikipedia pageviews",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Sphinx: a git hook that quizzes you on your AI agent's code before shipping",
+   "summary": "Open-source (npm) pre-push hook where a model asks a question about what the agent-written diff does, forcing human understanding.",
+   "primaryUrl": "https://sphinx-six-theta.vercel.app/",
+   "date": "2026-10-18",
+   "signal": "HN 252 pts, 89 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50137950",
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 19,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Llmspeed: feel how fast a local LLM runs before you buy the hardware",
+   "summary": "Browser tool that simulates local LLM token speed so buyers can judge hardware before purchase.",
+   "primaryUrl": "https://llmspeed.dev/",
+   "date": "2026-10-17",
+   "signal": "HN 329 pts, 86 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50127979",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Esp32sim: run ESP32 firmware in the browser",
+   "summary": "Browser-based ESP32 firmware emulator, open source on GitHub.",
+   "primaryUrl": "https://github.com/mikroverk/esp32sim",
+   "date": "2026-10-17",
+   "signal": "HN 206 pts, 47 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50131189",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Weak AI link; check fit."
+  },
+  {
+   "title": "Qwen3-4B with the AI writing tics trained out (deslop model)",
+   "summary": "Fine-tune of Qwen3-4B trained to remove typical AI prose tics, with write-up and measurements.",
+   "primaryUrl": "https://100toolkit.com/blog/deslop-model/",
+   "date": "2026-10-19",
+   "signal": "HN 154 pts, 110 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50151928",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "WhatsApp MCP running free on Cloudflare",
+   "summary": "MCP server letting AI agents use WhatsApp, hosted on Cloudflare free tier.",
+   "primaryUrl": "https://github.com/finereli/whatsapp-mcp",
+   "date": "2026-10-18",
+   "signal": "HN 155 pts, 81 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50145715",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Penmentor: Claude marks up your handwritten math like a teacher",
+   "summary": "Open-source tool that reads photographed handwritten math and annotates it with feedback.",
+   "primaryUrl": "https://github.com/AbdullahAlhariri/penmentor",
+   "date": "2026-10-20",
+   "signal": "HN 52 pts, 6 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50167604",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Strot: compile an LLM's intent once, run decisions locally",
+   "summary": "Project that compiles an LLM's decision logic into a local runtime to avoid repeated model calls.",
+   "primaryUrl": "https://github.com/strot-ai/Project-STROT",
+   "date": "2026-10-19",
+   "signal": "HN 23 pts, 14 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50148396",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "KiviDB: Redis-compatible memory database and vector cache",
+   "summary": "Faster Redis-compatible in-memory DB with vector cache for AI workloads.",
+   "primaryUrl": "https://github.com/kividbio/kividb",
+   "date": "2026-10-19",
+   "signal": "HN 68 pts, 42 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50152541",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Performance claims unverified."
+  },
+  {
+   "title": "VoidAccess: open-source dark web OSINT from query to graph",
+   "summary": "Open-source tool that searches and maps dark web sources into a link graph.",
+   "primaryUrl": "https://github.com/KatrielMoses/voidaccess",
+   "date": "2026-10-20",
+   "signal": "HN 127 pts, 13 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50167286",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Sensitive subject; editorial judgement."
+  },
+  {
+   "title": "500 clocks in one 6.3 MB HTML file by Opus 5.5",
+   "summary": "Showcase of a single HTML file of 500 distinct clocks generated by a frontier model.",
+   "primaryUrl": "https://tkgally.github.io/500-clocks/",
+   "date": "2026-10-18",
+   "signal": "HN 75 pts, 31 comments",
+   "threadUrl": "https://news.ycombinator.com/item?id=50137820",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  }
+ ],
+ "excludedPolitical": [
+  "Show HN: The Zelda timeline (off-topic, not AI)"
+ ],
+ "topicsCheck": "_topics.json read; no candidate matched prior invention entries (Jeff, Stillwet, SCM, Big Arrow)"
+}

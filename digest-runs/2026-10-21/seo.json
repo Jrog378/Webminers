@@ -1,0 +1,19 @@
+{
+  "keywords": {
+    "primary": "Meta Muse chat sharing",
+    "secondary": ["Muse shared chats DNS", "GPT-6 Astra robot benchmark", "RoboDojo", "Git hook quiz AI code", "Sphinx"]
+  },
+  "title": "Meta Pauses Muse Chat Sharing | Eureka Reports Oct 21",
+  "titleLength": 53,
+  "description": "Meta paused Muse chat sharing after Claroc said it found 6,800+ share links via DNS. Plus GPT-6-Astra's robot scores and a Git hook that quizzes coders.",
+  "descriptionLength": 152,
+  "slug": "2026-10-21-meta-muse-chat-sharing-paused",
+  "faq": "none (WebSearch surfaced no People Also Ask questions for the lead topic)",
+  "changes": [
+    "Kept title and description (already within limits, unique vs content/digest/ last 90 days).",
+    "Research section: opening now leads with the direct answer (81.9% on RoboDojo only with up to 10x steps; 27.6% at standard budget), using figures already in the draft and cited to source 9.",
+    "Closing H2 renamed from 'Checking before trusting' to 'Muse, GPT-6-Astra and Sphinx: checking claims before trusting them' so it names the topics.",
+    "image.json hero alt: removed 'open' ('hanging open' is not supported by the credit description, which says the padlock hangs from a latch); alt now ~110 chars, one keyword use.",
+    "No em-dashes added; no facts, citations or geography changed; no Editor's note."
+  ]
+}

@@ -1,0 +1,10 @@
+{"hero":{"src":"/images/eureka/2026-10-21-meta-muse-chat-sharing-paused/weathered-combination-padlock-muse-chat-sharing.webp","width":1600,"height":1067,
+"alt":"Worn turquoise combination padlock hanging from a rusty latch, illustrating the Muse chat sharing privacy pause",
+"caption":"A weathered padlock stands in for the privacy gap behind Meta's pause of Muse chat sharing.",
+"credit":{"title":"A small, turquoise-colored combination padlock hangs from a rusty metal latch on a weathered door","author":"Nilo Velez","authorUrl":"https://www.nilovelez.com","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"WordPress Photo Directory","sourceUrl":"https://wordpress.org/photos/photo/6726a05b1d/","modified":"Resized and converted to WebP"}},
+"tried":[{"source":"StockSnap (via Openverse)","query":"network cable / padlock","result":"rejected: found CC0 'Network Cable' photos but the CDN returned 403 for every download URL, so no clean file obtainable"},
+{"source":"Rawpixel (via Openverse)","query":"padlock security","result":"rejected: only 1024px-wide files accessible (under 1200 px)"},
+{"source":"Nappy (via Openverse)","query":"padlock security","result":"rejected: no results"},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"},
+{"source":"Openverse all other sources (excl. wikimedia, wordpress, stocksnap, rawpixel)","query":"ethernet patch cables; padlock keyboard; server rack cables","result":"rejected: no suitable results (API empty/errors)"},
+{"source":"WordPress Photo Directory (via Openverse)","query":"combination padlock","result":"chosen: CC0, 2048px original, inspected final image visually: no watermark, no faces, no logos. Note: WordPress was also the library of the 2026-10-18 issue; used because no other library gave an accessible suitable file"}]}

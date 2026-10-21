@@ -1,0 +1,242 @@
+[
+  {
+    "id": "news-01",
+    "claim": "Meta paused Muse's conversation-sharing feature after Ars Technica asked about the researchers' findings.",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-02",
+    "claim": "Meta's emailed statement to Ars (full text).",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "We opened the Muse bug bounty program so researchers could raise different scenarios and help us continue improving the product. People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link. However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-03",
+    "claim": "The Verge received the same statement, attributed to Muse spokesperson Tracy Clayton.",
+    "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "quote": "“People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,” Muse spokesperson Tracy Clayton says in an emailed statement to The Verge. “However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-04",
+    "claim": "The research came from the security firm Claroc, which found more than 6,800 Muse share hostnames with one passive-DNS search.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "After filtering out the wildcard-DNS scan noise any such domain collects, more than 6,800 share hostnames remained. We opened only a few hundred of them and left the rest.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-05",
+    "claim": "Finding the links took Claroc a single query.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "If you had asked us beforehand, we would have guessed that gathering these would take real effort. It took one query.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-06",
+    "claim": "Mechanism: Muse put the conversation's title, plus a random ID, into the share's hostname, and DNS lookups of that hostname are recorded in passive-DNS databases.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "Muse builds each share’s web address from the share’s title, a short phrase describing the conversation, then a random ID. The hostname usually gave away what a page held before we opened it, and since the link carries that same title and ID, a hostname pulled from DNS rebuilds the link.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-07",
+    "claim": "The random ID did not protect the shares, because DNS records the whole hostname, ID included, the first time anyone opens the link.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "The first time anyone opens the share, DNS logs the whole hostname, random ID and all, so the part that was meant to be unguessable gets published with everything else.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-08",
+    "claim": "Shares were served from the content domain cf.metaaiusercontent.com.",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "Claroc researchers were able to discover the Muse share links because all of them use the domain name cf.metaaiusercontent.com.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-09",
+    "claim": "Ars identifies putting the title in the subdomain, rather than in the URL path, as the design choice that made discovery possible.",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "It’s this last design decision, putting the conversation title in the subdomain rather than in the URL path, that makes public discovery possible.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-10",
+    "claim": "Muse's robots.txt blocks search crawlers, but that did not matter, because the discovery never went through a search engine.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "But robots.txt governs crawling, not access, and our discovery never went near a search engine.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-11",
+    "claim": "The public scanning service urlscan.io also holds more than 75 saved scans of Muse share pages.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "urlscan.io, a public URL-scanning service anyone can query, already holds more than 75 saved scans of Muse share pages.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-12",
+    "claim": "The exposed pages opened with no login, and some held sensitive personal and business content.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "Opening a sample in incognito, with no login, revealed people's personal files and companies' internal documents: a home-sale budget, a to-do note flagging a bank-fraud alert with a partial account number, a small-business loan application, a CEO-only revenue review, and a candidate's confidential prep for an executive-search call with a frontier AI lab.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-13",
+    "claim": "The Verge independently summarizes the sensitive examples.",
+    "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "quote": "Claroc was able to view hundreds of Muse conversations, including some containing a marketing company’s revenue review, a small business owner’s loan application, a workplace’s full-year staff calendar, and notes for a job candidate’s call with an AI lab.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-14",
+    "claim": "Most of the pages Claroc opened were harmless, and the sensitive ones were a minority.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "Most of what we opened was unremarkable: small-business sites, listings, event calendars, the kind of page whose owner likely wanted it seen. The pages that concerned us were a minority.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-15",
+    "claim": "Claroc says it has no evidence that anyone misused the shares.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "We have no evidence that anyone has misused these shares.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-16",
+    "claim": "Claroc reported the issue through Meta's bug bounty program on October 8, 2026.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "We reported this to Meta’s bug bounty program on October 8, 2026, with reproduction steps and example shares.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-17",
+    "claim": "Claroc's CTO says he got no reply from Meta through the bug bounty program or on LinkedIn.",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "Asaf Aprozper, the co-founder and CTO of Claroc, said he reported the findings through Meta’s bug bounty program on October 8 and also tried reaching people at Meta on LinkedIn, but got no reply either way.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-18",
+    "claim": "After the pause, rechecked shares no longer opened, but the hostnames, titles included, are still in passive-DNS history.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "When we rechecked 40 shares on October 20 that had opened without an account earlier this month, none opened for us, and the hostnames that serve their content returned an error. The hostnames themselves, titles included, are still in passive-DNS history.",
+    "sourceType": "Official",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-19",
+    "claim": "Claroc's own stated limits: the study covers one channel and one product over a short window, and does not measure total exposure.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "This is one discovery channel and one hostname pattern, on one product, over a short window. It is not a measure of Muse’s total exposure, and we can’t tell how long any share had been reachable, or whether someone else found it first.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-20",
+    "claim": "Claroc sells a product that detects public AI share links, so it has a commercial interest in this finding.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "Its browser extension notices when an employee creates a public share link in an AI assistant such as ChatGPT or Claude, including assistants the security team has not reviewed yet",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-21",
+    "claim": "Claroc names the issue 'GhostShares'.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "We call these GhostShares: pages that open for people who were never handed the link, and that those people can find on their own.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-22",
+    "claim": "Muse launched on September 8, 2026.",
+    "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+    "quote": "Muse launched on September 8, 2026.",
+    "sourceType": "Official",
+    "date": "2026-10-18"
+  },
+  {
+    "id": "news-23",
+    "claim": "Meta's launch post billed Muse as a secure, private agent.",
+    "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "quote": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas.",
+    "sourceType": "Official",
+    "date": "2026-09-08"
+  },
+  {
+    "id": "news-24",
+    "claim": "Muse can act on a user's behalf: filling out forms, browsing, and negotiating.",
+    "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "quote": "It can open a browser, fill out forms, and negotiate on their behalf.",
+    "sourceType": "Official",
+    "date": "2026-09-08"
+  },
+  {
+    "id": "news-25",
+    "claim": "Mark Zuckerberg said Muse was 'built from the ground up for privacy and security' (as reported by Ars).",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "Muse, which Meta CEO Mark Zuckerberg said last month was “built from the ground up for privacy and security,” seems to take the same precautions.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-26",
+    "claim": "Background: Muse has had 10.9 million downloads since its September debut, per Sensor Tower data reported by TechCrunch.",
+    "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+    "quote": "According to new data from market intelligence provider Sensor Tower, Muse has seen 10.9 million downloads since its September debut",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "news-27",
+    "claim": "Earlier security issue: in September, Patrick Wardle found a zero-day that let local apps take over a Muse account. Meta later shipped a hotfix.",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+    "quote": "More than 12 hours after this post went live, Meta said it released a hotfix that patched the 0-day.",
+    "sourceType": "Reporting",
+    "date": "2026-09-21"
+  },
+  {
+    "id": "news-28",
+    "claim": "Precedent: in 2025, OpenAI removed the option that let shared ChatGPT chats be indexed by search engines.",
+    "url": "https://www.theregister.com/2025/08/01/openai_removes_chatgpt_selfdoxing_option/",
+    "quote": "Ultimately we think this feature introduced too many opportunities for folks to accidentally share things they didn't intend to, so we're removing the option",
+    "sourceType": "Reporting",
+    "date": "2025-08-01"
+  },
+  {
+    "id": "news-29",
+    "claim": "Precedent: in 2025, more than 370,000 shared Grok chats were indexed by search engines.",
+    "url": "https://9to5mac.com/2025/08/20/370k-grok-ai-chats-made-public-without-user-consent/",
+    "quote": "More than 370,000 Grok AI chats have been published on the Grok website and indexed by search engines, making them public.",
+    "sourceType": "Reporting",
+    "date": "2025-08-20"
+  },
+  {
+    "id": "news-30",
+    "claim": "Community reaction on Hacker News was small (9 points, 1 comment). The single comment questions trusting an ad company with a personal agent.",
+    "url": "https://news.ycombinator.com/item?id=50166433",
+    "quote": "I can’t understand why anyone would use a “personal agent” built by an advertising company.",
+    "sourceType": "Social",
+    "date": "2026-10-20"
+  }
+]

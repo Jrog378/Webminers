@@ -1,0 +1,65 @@
+{
+  "research": {
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "primaryUrl": "https://arxiv.org/abs/2610.22471",
+    "why": "Highest significance score in the research slate (5). It asks whether one general model can now do robot manipulation and navigation as well as specialized systems, which a general reader can follow. It also breaks a run of agent-failure papers (Oct 3 and Oct 10 issues), so the section has some variety. 421 HF upvotes, arXiv primary source, not covered before.",
+    "runnersUp": [
+      {
+        "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+        "primaryUrl": "https://arxiv.org/abs/2610.20424",
+        "note": "Top momentum (455 upvotes), but it would be the third agent-failure benchmark in about three weeks (see 2026-10-03 and 2026-10-10 research picks)."
+      },
+      {
+        "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+        "primaryUrl": "https://arxiv.org/abs/2610.20951",
+        "note": "Most novel, but more technical. Also close in idea to the 2026-09-30 invention pick Jeff (calibrated probabilities in one forward pass)."
+      },
+      {
+        "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+        "primaryUrl": "https://arxiv.org/abs/2610.21046",
+        "note": "Good general interest (AI in peer review), but less significant."
+      }
+    ]
+  },
+  "news": {
+    "title": "Meta pauses Muse chat sharing after researchers find users' shared AI conversations exposed on the open web",
+    "primaryUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "why": "The most significant story for a general reader: a popular consumer assistant (10M downloads in 40 days) exposed personal and business secrets, and Meta paused the feature. Ars Technica's original security reporting is the primary source, and The Verge corroborates it (https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats). Caveat for the writer: get Meta's own statement and the researchers' write-up if possible, and keep the 'US downloads' detail as background so the story is not framed around a country.",
+    "runnersUp": [
+      {
+        "title": "Mistral releases Voxtral 3: speech models and voice agent SDK, 50+ languages",
+        "primaryUrl": "https://mistral.ai/news/voxtral-3/",
+        "note": "Strongest official source and momentum (HN 491). It is the fallback if the Muse sourcing is judged too thin. Different story from the Mistral Large 4 coverage on 2026-10-07. Leave out the 'EU-hosted' angle."
+      },
+      {
+        "title": "OpenAI acquires Orchestra Bio to expand biotech business",
+        "primaryUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+        "note": "Official source, but moderate significance and momentum."
+      },
+      {
+        "title": "Microsoft launches Guardian Agents; says AI agents should be treated like insider threats",
+        "primaryUrl": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+        "note": "Only a secondary source (Microsoft's post not fetched), and the theme is close to the NVIDIA agent-safety story on 2026-09-30."
+      }
+    ]
+  },
+  "invention": {
+    "title": "Sphinx: a git hook that quizzes you on your AI agent's code before shipping",
+    "primaryUrl": "https://sphinx-six-theta.vercel.app/",
+    "why": "Highest score in the section (19) and strong discussion (HN 252 pts, 89 comments: https://news.ycombinator.com/item?id=50137950). It is a small, concrete open-source idea that addresses a real problem: people shipping AI-written code they don't understand. Not covered before.",
+    "runnersUp": [
+      {
+        "title": "Llmspeed: feel how fast a local LLM runs before you buy the hardware",
+        "primaryUrl": "https://llmspeed.dev/",
+        "note": "Most HN points (329) and very practical, but less new as an idea."
+      },
+      {
+        "title": "Qwen3-4B with the AI writing tics trained out (deslop model)",
+        "primaryUrl": "https://100toolkit.com/blog/deslop-model/",
+        "note": "Lively discussion (110 comments), but the source is a blog write-up."
+      }
+    ]
+  },
+  "thread": "Each story checks something people tend to assume about AI before trusting it: whether one general model really matches robot specialists, whether a 'shared' chat stays where you meant it to, and whether you actually understand the code your agent wrote.",
+  "skipped": []
+}

@@ -1,0 +1,23 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "claim",
+  "sections": {
+    "news": {
+      "format": "timeline",
+      "words": 580,
+      "why": "The story is a sequence: Muse launch Sep 8, Claroc checks Oct 7-8, bug bounty report Oct 8 with no reply, write-up Oct 18, Ars story and Meta pause Oct 20. Dated events show the disclosure gap. Meta's statement exists only as an emailed quote to Ars and The Verge, so attribute it as 'Meta told Ars Technica' and do not present it as a published statement. Lead section: the most consumer-relevant story. Keep download count as background only and avoid country framing."
+    },
+    "research": {
+      "format": "claim-vs-evidence",
+      "words": 650,
+      "why": "The headline numbers depend on the 10x step budget and in-context demonstrations (RoboDojo 81.9% at 10x vs 27.6% at 1x vs published 29.6%). A table of what is claimed vs what the evidence shows fits. Label it a preprint, not yet peer-reviewed. Include the independent safety counterpoint and cost figures. Note: claim-vs-evidence ran in news for the last 4 issues, so using it in research changes the combination."
+    },
+    "invention": {
+      "format": "qa",
+      "words": 330,
+      "why": "Sphinx drew contested HN reactions (easy to bypass, comprehension is not correctness, not new) and the authors' own README admits it is practice, not a security gate. Short questions plus the honest caveat fit. Comparison and explainer were used for inventions in recent issues, and three-things on Oct 3. Credit the eval caveat: 5 synthetic repos, a documented false negative."
+    }
+  },
+  "combinationCheck": "Last 6 issues (research/news/invention): 09-30 by-the-numbers/claim-vs-evidence/comparison; 10-03 explainer/claim-vs-evidence/three-things; 10-07 qa/claim-vs-evidence/comparison; 10-10 by-the-numbers/three-things/explainer. This plan is claim-vs-evidence/timeline/qa, which is new. No format repeats within the issue and explainer is not used. Only 4 non-demo issues exist, so fewer than 6 were available to compare.",
+  "headlineNote": "Previous issue (10-10) was number-led and 10-03 was a question. Use a claim headline. Suggested angle: Meta paused Muse chat sharing after researchers found shared chats discoverable, and GPT-6-Astra's robot scores depend on a 10x step budget."
+}

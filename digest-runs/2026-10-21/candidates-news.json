@@ -1,0 +1,243 @@
+{
+  "section": "news",
+  "window": "Sat Oct 17 - Tue Oct 20, 2026",
+  "sourcesTried": [
+    {
+      "name": "Google News RSS (AI, when:4d)",
+      "status": "ok after redirect; results mostly local/aggregator, little used"
+    },
+    {
+      "name": "TechCrunch AI RSS",
+      "status": "ok"
+    },
+    {
+      "name": "The Verge AI RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Ars Technica RSS",
+      "status": "ok"
+    },
+    {
+      "name": "OpenAI news RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Google blog AI RSS",
+      "status": "ok, nothing in window"
+    },
+    {
+      "name": "NVIDIA blog RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Mistral RSS",
+      "status": "ok"
+    },
+    {
+      "name": "Anthropic news RSS",
+      "status": "failed (404)"
+    },
+    {
+      "name": "Meta AI blog RSS",
+      "status": "failed (404)"
+    },
+    {
+      "name": "DeepMind blog RSS",
+      "status": "empty/unparsed"
+    },
+    {
+      "name": "HN Algolia",
+      "status": "ok (targeted queries)"
+    }
+  ],
+  "excludedPolitical": [
+    "Anthropic pitches AI safety bill (legislation) - TechCrunch/Tom's Hardware 2026-10-20",
+    "US orders federal agencies to remove DeepSeek (government/geography) - TechCrunch 2026-10-20",
+    "Mamdani says feds abdicated on AI (government official) - TechCrunch 2026-10-19",
+    "Democrats think cracking down on AI could give them an edge - Verge 2026-10-19",
+    "JB Pritzker on AI (government official) - Verge 2026-10-19",
+    "State Department 'super intelligence' wording order - Nextgov 2026-10-20",
+    "Freeze AI Now rally outside OpenAI (protest) - KQED 2026-10-20",
+    "Germany industrial AI / Spain startups NVIDIA posts (region-centered) - NVIDIA 2026-10-19/20",
+    "Georgia Tech partners with Panama on national AI strategy (country/policy)"
+  ],
+  "candidates": [
+    {
+      "title": "Meta pauses Muse chat sharing after researchers find users' shared AI conversations exposed on the open web",
+      "summary": "Researchers found Muse conversations shared via link were publicly discoverable, exposing personal and business secrets; Meta paused the sharing feature.",
+      "primaryUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "date": "2026-10-20",
+      "signal": "Ars + Verge coverage; no HN thread found",
+      "scores": {
+        "novelty": 5,
+        "momentum": 5,
+        "significance": 5,
+        "primarySource": 3
+      },
+      "total": 18,
+      "coveredLast8Weeks": false,
+      "notes": "Primary source is original reporting (Ars, Verge https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats); no Meta statement fetched. Adjacent: Muse hit 10M US downloads in 40 days (TechCrunch 2026-10-20)."
+    },
+    {
+      "title": "Mistral releases Voxtral 3: speech models and voice agent SDK, 50+ languages",
+      "summary": "Real-time speech transcription and expressive synthesis plus a voice-agent SDK with tool calling; EU-hosted API or self-deploy.",
+      "primaryUrl": "https://mistral.ai/news/voxtral-3/",
+      "date": "2026-10-20",
+      "signal": "HN 491 points, 134 comments: https://news.ycombinator.com/item?id=50168396",
+      "scores": {
+        "novelty": 4,
+        "momentum": 5,
+        "significance": 4,
+        "primarySource": 5
+      },
+      "total": 18,
+      "coveredLast8Weeks": false,
+      "notes": "Official announcement. Mistral Large 4 covered 2026-10-07 (different story)."
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio to expand biotech business",
+      "summary": "OpenAI announced the acquisition of biotech startup Orchestra Bio, following its GPT-Rosalind academic plan (Oct 15).",
+      "primaryUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "date": "2026-10-20",
+      "signal": "TechCrunch coverage; no HN thread found",
+      "scores": {
+        "novelty": 4,
+        "momentum": 3,
+        "significance": 4,
+        "primarySource": 5
+      },
+      "total": 16,
+      "coveredLast8Weeks": false,
+      "notes": "Official announcement."
+    },
+    {
+      "title": "Amazon releases TorchNeuron: run PyTorch apps on Trainium by changing one config line",
+      "summary": "AWS tool aimed at Nvidia's CUDA software moat; claims no code rewrite for PyTorch apps (about 85% of AI apps).",
+      "primaryUrl": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "date": "2026-10-19",
+      "signal": "No HN thread found; companion TechCrunch story on Google also challenging Nvidia with app developers (2026-10-20)",
+      "scores": {
+        "novelty": 4,
+        "momentum": 4,
+        "significance": 4,
+        "primarySource": 3
+      },
+      "total": 15,
+      "coveredLast8Weeks": false,
+      "notes": "Primary source is TechCrunch reporting of AWS release; AWS page not fetched."
+    },
+    {
+      "title": "Microsoft launches Guardian Agents; says AI agents should be treated like insider threats",
+      "summary": "New security features monitor an enterprise's own AI agents; part of Project Perception.",
+      "primaryUrl": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "date": "2026-10-19",
+      "signal": "TechCrunch; thematically linked to Verge story on hacker using AI agent army (HN 59 pts)",
+      "scores": {
+        "novelty": 4,
+        "momentum": 4,
+        "significance": 4,
+        "primarySource": 3
+      },
+      "total": 15,
+      "coveredLast8Weeks": false,
+      "notes": "Primary source is TechCrunch; Microsoft post not fetched. Related to prior NVIDIA agent-safety coverage (2026-09-30) but different story."
+    },
+    {
+      "title": "A hacker broke into John Deere, SharkNinja and Cummins with an army of AI agents",
+      "summary": "Verge reports an attacker used coordinated AI agents to breach several large manufacturers.",
+      "primaryUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "date": "2026-10-19",
+      "signal": "HN 59 points, 3 comments: https://news.ycombinator.com/item?id=50152877",
+      "scores": {
+        "novelty": 4,
+        "momentum": 3,
+        "significance": 4,
+        "primarySource": 3
+      },
+      "total": 14,
+      "coveredLast8Weeks": false,
+      "notes": "Original reporting."
+    },
+    {
+      "title": "OpenAI: advancing coding in low-resource programming languages",
+      "summary": "OpenAI post on improving model coding for rarely used languages.",
+      "primaryUrl": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19",
+      "signal": "HN 44 points, 61 comments: https://news.ycombinator.com/item?id=50169955",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false,
+      "notes": "Official post; page body not retrievable by fetch."
+    },
+    {
+      "title": "NVIDIA RTX Spark Windows PCs launch (Blackwell GPU + Grace CPU, up to 1 PFLOP, 128GB unified memory)",
+      "summary": "New class of local-AI Windows laptops from Microsoft, MSI and others arrives.",
+      "primaryUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "date": "2026-10-17",
+      "signal": "No HN thread found",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 5
+      },
+      "total": 14,
+      "coveredLast8Weeks": false,
+      "notes": "Official NVIDIA blog; launch event content is mostly celebration."
+    },
+    {
+      "title": "ChatGPT adds Locked Chats (PIN, Face ID, Touch ID)",
+      "summary": "Sensitive chats move to a separate section with own memory; not end-to-end encrypted and retention unchanged.",
+      "primaryUrl": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "date": "2026-10-20",
+      "signal": "TechCrunch only",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 3
+      },
+      "total": 12,
+      "coveredLast8Weeks": false,
+      "notes": "Primary source is TechCrunch; OpenAI help page not fetched. Pairs with Muse privacy story."
+    },
+    {
+      "title": "Spotify removed 50 million AI slop and spam tracks from recommendations",
+      "summary": "Spotify cleanup of AI-generated spam music.",
+      "primaryUrl": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "date": "2026-10-20",
+      "signal": "Verge only",
+      "scores": {
+        "novelty": 3,
+        "momentum": 3,
+        "significance": 3,
+        "primarySource": 3
+      },
+      "total": 12,
+      "coveredLast8Weeks": false,
+      "notes": "Original reporting; Spotify post not fetched."
+    },
+    {
+      "title": "Google's personalized Gemini coming to cars via Android Auto",
+      "summary": "Verge reports a more personalized Gemini assistant heading to Android Auto.",
+      "primaryUrl": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "date": "2026-10-20",
+      "signal": "Verge only",
+      "scores": {
+        "novelty": 2,
+        "momentum": 2,
+        "significance": 3,
+        "primarySource": 3
+      },
+      "total": 10,
+      "coveredLast8Weeks": false,
+      "notes": "Original reporting."
+    }
+  ]
+}

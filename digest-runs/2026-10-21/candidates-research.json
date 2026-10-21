@@ -1,0 +1,199 @@
+{
+ "section": "research",
+ "window": "Sat Oct 17 - Tue Oct 20, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers 2026-10-19",
+   "status": "ok (50 papers; papers published Oct 13-16)"
+  },
+  {
+   "name": "Hugging Face Daily Papers 2026-10-20",
+   "status": "ok (50 papers)"
+  },
+  {
+   "name": "Hugging Face Daily Papers 2026-10-17/18",
+   "status": "empty (weekend)"
+  },
+  {
+   "name": "arXiv API",
+   "status": "reachable (200); used only to confirm abs pages, no bulk query"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/Nature/Science/MIT TR RSS, HN, Reddit",
+   "status": "not queried (time-boxed)"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+   "summary": "Benchmark that scores intermediate execution validity, not just final success, for long-horizon business agents.",
+   "primarySource": "https://arxiv.org/abs/2610.20424",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 455
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+   "summary": "Decision models output a probability per option in one forward pass; looping adds deeper reasoning without generating text.",
+   "primarySource": "https://arxiv.org/abs/2610.20951",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 431
+   },
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+   "summary": "Evaluates a general model's robotic manipulation and navigation against specialized-model paradigm.",
+   "primarySource": "https://arxiv.org/abs/2610.22471",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 421
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+   "summary": "Checks whether review comments (human or AI) misstate what a paper says.",
+   "primarySource": "https://arxiv.org/abs/2610.21046",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 304
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+   "summary": "Tests how far a VLM coding agent with a thin harness can go on robot manipulation versus learned policies.",
+   "primarySource": "https://arxiv.org/abs/2610.23479",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 295
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+   "summary": "Benchmark giving agents a science paper and asking them to work on open problems.",
+   "primarySource": "https://arxiv.org/abs/2610.19159",
+   "date": "HF 2026-10-19",
+   "signal": {
+    "hfUpvotes": 145
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+   "summary": "Fine-tunes pretrained backbones rather than frozen readouts to predict neural responses to stimuli.",
+   "primarySource": "https://arxiv.org/abs/2610.26802",
+   "date": "HF 2026-10-20",
+   "signal": {
+    "hfUpvotes": 233
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+   "summary": "Benchmark of agents delivering expert-level OR solutions from raw client materials.",
+   "primarySource": "https://arxiv.org/abs/2610.24087",
+   "date": "HF 2026-10-20",
+   "signal": {
+    "hfUpvotes": 168
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "MemT-1.0: Towards Memory-Native Evolution",
+   "summary": "Makes memory an intrinsic capability of foundation models so they accumulate and use information continuously.",
+   "primarySource": "https://arxiv.org/abs/2610.26825",
+   "date": "HF 2026-10-20",
+   "signal": {
+    "hfUpvotes": 109
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredInLast8Weeks": false
+  },
+  {
+   "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+   "summary": "Robots improve policy reliability by learning from pooled deployment experience.",
+   "primarySource": "https://arxiv.org/abs/2610.25736",
+   "date": "HF 2026-10-20",
+   "signal": {
+    "hfUpvotes": 107
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredInLast8Weeks": false
+  }
+ ],
+ "excludedPolitical": []
+}

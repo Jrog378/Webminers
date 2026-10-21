@@ -82,5 +82,26 @@
     "title": "Big Arrow on the Screen: let AI agents paint arrows, boxes and text over your screen",
     "primaryUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
     "slug": "2026-10-10-google-gemini-agent-for-work"
+  },
+  {
+    "date": "2026-10-21",
+    "section": "news",
+    "title": "Meta pauses Muse chat sharing after researchers find users' shared AI conversations exposed on the open web",
+    "primaryUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "slug": "2026-10-21-meta-muse-chat-sharing-paused"
+  },
+  {
+    "date": "2026-10-21",
+    "section": "research",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "primaryUrl": "https://arxiv.org/abs/2610.22471",
+    "slug": "2026-10-21-meta-muse-chat-sharing-paused"
+  },
+  {
+    "date": "2026-10-21",
+    "section": "invention",
+    "title": "Sphinx: a git hook that quizzes you on your AI agent's code before shipping",
+    "primaryUrl": "https://sphinx-six-theta.vercel.app/",
+    "slug": "2026-10-21-meta-muse-chat-sharing-paused"
   }
 ]
