@@ -1,0 +1,434 @@
+[
+  {
+    "id": "f01",
+    "claim": "OpenAI says ChatGPT receives more than 70 million requests a week primarily about religion.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "Every week, people around the world turn to ChatGPT more than 70 million times with questions primarily about religion, from studying sacred texts to understanding religious traditions to preparing for worship.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f02",
+    "claim": "The figures come from a new OpenAI report titled Faith, Community & AI.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "That’s one finding from OpenAI’s new report, Faith, Community & AI, which examines how people are using ChatGPT to support their religious lives.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f03",
+    "claim": "About 22 million weekly requests involve studying religious texts.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "22 million requests per week involve studying religious texts, including understanding difficult passages and exploring scholarly interpretations.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f04",
+    "claim": "About 16 million weekly requests concern religious practices, holidays and observance.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "16 million requests per week concern religious practices, holidays, and observance.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f05",
+    "claim": "Another 16 million weekly requests focus on beliefs, meaning and spiritual guidance.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "Another 16 million requests per week focus on beliefs, meaning, and spiritual guidance.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f06",
+    "claim": "Christianity-related requests rise around Easter.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "Christianity-related requests increase around Easter",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f07",
+    "claim": "OpenAI frames the use as deepening faith, not replacing it.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "The common thread is that people are using AI to deepen their understanding of their faith, not to replace it.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f08",
+    "claim": "OpenAI says religious authority belongs with people and their communities.",
+    "url": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "quote": "AI can help people engage with religious traditions and communities, while leaving questions of faith, spiritual guidance, and religious authority where they belong: with people and their communities.",
+    "sourceType": "Official",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "f09",
+    "claim": "Per the Christian Post's review of the report, the data cover September 2025 to September 2026.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "The analysis, reviewed by The Christian Post, shows that from September 2025 to September 2026, about 45% of religion-related requests on ChatGPT were about Islam and 34% were about Christianity.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f10",
+    "claim": "Breakdown by religion (mention briefly, no comparison): about 45% Islam, 34% Christianity, Hinduism 4%, Judaism 2%, Buddhism 1%.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "about 45% of religion-related requests on ChatGPT were about Islam and 34% were about Christianity. Hinduism followed at 4%, Judaism at 2% and Buddhism at 1%.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f11",
+    "claim": "Nearly half of Christianity-related messages were about Bible passages; 13% about worship, sermons or church practices.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "Nearly half of Christianity-related messages were about Bible passages, and another 13% were about worship, sermons or church practices.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f12",
+    "claim": "Relevant independently reports the same Bible-passages share.",
+    "url": "https://relevantmagazine.com/culture/tech-gaming/chatgpt-gets-more-than-70-million-religion-questions-a-week/",
+    "quote": "Among the Christianity-related messages, nearly half are about Bible passages and another 13% are about worship, sermons or church practices.",
+    "sourceType": "Reporting",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f13",
+    "claim": "The OpenAI report says AI is not and should not become an arbiter of religious truth.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "“AI is not — and should not become — an arbiter of religious truth or a replacement for spiritual guidance. Those roles belong to individuals, religious leaders, and congregations.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f14",
+    "claim": "Relevant also quotes OpenAI's arbiter line.",
+    "url": "https://relevantmagazine.com/culture/tech-gaming/chatgpt-gets-more-than-70-million-religion-questions-a-week/",
+    "quote": "OpenAI is careful to say AI “is not — and should not become — an arbiter of religious truth.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f15",
+    "claim": "The OpenAI report says AI cannot and should not substitute for religious life rooted in shared traditions and connections among people.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "Religious life is rooted in shared traditions, personal conviction, and connections among people. AI can support those activities, but it cannot and should not substitute for them,",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f16",
+    "claim": "OpenAI researchers say people ask ChatGPT to explain difficult passages and find commentaries.",
+    "url": "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+    "quote": "“People ask ChatGPT to explain difficult passages, find relevant commentaries, and help them understand how their traditions approach particular questions,” OpenAI researchers wrote.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f17",
+    "claim": "Sam Altman posted on Oct. 3 that ascribing religious force to AI is a safety issue.",
+    "url": "https://www.christianpost.com/news/openai-ceo-sam-altman-opposes-attributing-religious-force-to-ai.html",
+    "quote": "“I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-07"
+  },
+  {
+    "id": "b01",
+    "claim": "BT Servant is described by its developer as a Bible translation AI assistant.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "“BT Servant is a Bible translation AI assistant,” Lindsley says.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b02",
+    "claim": "Ian Lindsley of unfoldingWord developed BT Servant and says studying Scripture is a first step in translation.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "Ian Lindsley with unfoldingWord says studying Scripture to understand its meaning is one of the first steps in Bible translation.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b03",
+    "claim": "MNN presents the translator tools as now available to everyday Bible readers.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "Now, the same tools that help Bible translators are available to you!",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b04",
+    "claim": "BT Servant draws answers from a defined knowledge pool rather than the open internet.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "Unlike ChatGPT or Grok, which answer questions using information found across the internet, BT Servant draws its answers from a defined knowledge pool.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b05",
+    "claim": "Lindsley's analogy: the assistant pulls answers from trusted books on its desk.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "“It’s as though when BT Servant is asked a question, he looks back at his desk, and he has a bunch of books on it. He’s instructed: when you answer the user’s question, make sure that you pull the answer from these trusted resources,” Lindsley explains.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b06",
+    "claim": "Lindsley instructed the tool to be an orthodox Christian and not advise anything heretical.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "“You are an Orthodox Christian, and in no situation should you tell the user to do anything that’s heretical or that’s against Scripture,” he says, describing the tool’s instructions in everyday language.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b07",
+    "claim": "Lindsley contrasts it with ChatGPT, saying general chatbots offer no guarantee.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "“ChatGPT learned from internet data, and there’s no guarantee,” Lindsley says.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b08",
+    "claim": "BT Servant is free through chat apps such as Signal or WhatsApp.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "You can access BT Servant for free through a chat app like Signal or WhatsApp.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b09",
+    "claim": "Lindsley says it is as easy to install as adding a contact.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "First, “It’s as easy to install as it is to add a contact,” he says.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b10",
+    "claim": "The tool was mostly a one-person project; other developers joined in the last few months and it is still being fixed.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "“For the longest time, it’s just been me. Recently, maybe in the last three or four months, some other developers have helped out. We’re constantly adding improvements and fixing things.”",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b11",
+    "claim": "MNN asks readers to pray users will use the tool with discernment.",
+    "url": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+    "quote": "Pray that Bible translators and everyday users will use BT Servant with discernment and grow in their understanding of Scripture.",
+    "sourceType": "Reporting",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "b12",
+    "claim": "BT Servant was announced at unfoldingWord's Church-Centric Bible Translation Forum (reported Jan. 9, 2026).",
+    "url": "https://www.mnnonline.org/news/bt-servant-expedites-bible-translation-work/",
+    "quote": "At unfoldingWord’s annual Global Church-Centric Bible Translation Forum, “We announced an AI-assisted tool called BT Servant,” Dane with unfoldingWord says.",
+    "sourceType": "Reporting",
+    "date": "2026-01-09"
+  },
+  {
+    "id": "b13",
+    "claim": "At launch it was described as drawing on a tightly controlled library of translation resources via WhatsApp.",
+    "url": "https://www.mnnonline.org/news/bt-servant-expedites-bible-translation-work/",
+    "quote": "it will take you NOT to resources all over the world, but [to] our very specific, tightly controlled library of resources that help church-centric Bible translators solve problems as they are drafting or checking their brand-new translations",
+    "sourceType": "Reporting",
+    "date": "2026-01-09"
+  },
+  {
+    "id": "b14",
+    "claim": "unfoldingWord says translation consultants are not being trained fast enough.",
+    "url": "https://www.mnnonline.org/news/bt-servant-expedites-bible-translation-work/",
+    "quote": "“we’re not creating PhD-level Bible translation consultants fast enough anymore,” Dane says.",
+    "sourceType": "Reporting",
+    "date": "2026-01-09"
+  },
+  {
+    "id": "b15",
+    "claim": "BT Servant's site says it is grounded in vetted biblical resources, not the open internet.",
+    "url": "https://www.btservant.ai/",
+    "quote": "Grounded in vetted biblical resources — not the open internet.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b16",
+    "claim": "BT Servant's site says it supports pastors, teachers and translators and never replaces them.",
+    "url": "https://www.btservant.ai/",
+    "quote": "Supports pastors, teachers, and translators. Never replaces them.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b17",
+    "claim": "It is free, works in text or voice, in English, Indonesian, Spanish and more.",
+    "url": "https://www.btservant.ai/",
+    "quote": "English · Indonesian · Spanish · and many more languages · Audio supported",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b18",
+    "claim": "It is free and runs in apps people already use.",
+    "url": "https://www.btservant.ai/",
+    "quote": "Free, in the apps you already know.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b19",
+    "claim": "BT Servant is an open-source project of unfoldingWord.",
+    "url": "https://www.btservant.ai/",
+    "quote": "© 2026 BT Servant · a project of unfoldingWord",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b20",
+    "claim": "Under the hood, BT Servant's engine uses OpenAI models plus a retrieval database (ChromaDB) of resources; i.e., retrieval-augmented generation on a general model, not a separately trained model.",
+    "url": "https://raw.githubusercontent.com/unfoldingWord/bt-servant-engine/main/README.md",
+    "quote": "integrates OpenAI models plus ChromaDB-backed resources to answer translation questions in multiple languages.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "b21",
+    "claim": "Its translation-assistance intent produces retrieval-augmented answers.",
+    "url": "https://raw.githubusercontent.com/unfoldingWord/bt-servant-engine/main/README.md",
+    "quote": "`get-bible-translation-assistance` – Retrieval-augmented answers using ChromaDB + OpenAI.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "c01",
+    "claim": "YouVersion CEO Bobby Gruenewald says top AI models misquote Scripture at least 15% of the time, some up to 60% (his claim; no published methodology).",
+    "url": "https://www.christianpost.com/news/ais-bible-misquotes-range-from-15-to-60-youversion-ceo.html",
+    "quote": "“The best model with the best performance, with the most popular versions of the Bible that are most indexed, misquotes Scripture at least 15% of the time,” Gruenewald said. “Some of them as much as 60% of the time.”",
+    "sourceType": "Reporting",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "c02",
+    "claim": "YouVersion has chosen not to launch a public chatbot answering theological questions, citing accuracy.",
+    "url": "https://www.christianpost.com/news/ais-bible-misquotes-range-from-15-to-60-youversion-ceo.html",
+    "quote": "But the organization has chosen not to launch a public-facing chatbot that answers theological questions. The reason, he said, is accuracy.",
+    "sourceType": "Reporting",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "c03",
+    "claim": "Readers may not notice a misquoted verse.",
+    "url": "https://www.christianpost.com/news/ais-bible-misquotes-range-from-15-to-60-youversion-ceo.html",
+    "quote": "because users may not have memorized Scripture, they might not recognize when a verse is misquoted or subtly altered.",
+    "sourceType": "Reporting",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "c04",
+    "claim": "Gruenewald urged people to know the Bible themselves and seek guidance from pastors.",
+    "url": "https://www.christianpost.com/news/ais-bible-misquotes-range-from-15-to-60-youversion-ceo.html",
+    "quote": "He encouraged individuals to know the Bible themselves and to seek guidance from trained pastors and leaders.",
+    "sourceType": "Reporting",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "a01",
+    "claim": "Calvin University is establishing the Calvin Center for Faith and Technology.",
+    "url": "https://www.crosswalk.com/headlines/contributors/guest-commentary/calvin-university-announces-new-center-examining-the-intersection-of-ai-technology-and-christian-faith.html",
+    "quote": "Calvin University stated in a release posted on its website that it is establishing the Calvin Center for Faith and Technology.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "a02",
+    "claim": "The center is housed in Calvin's School of Engineering and Computer Science.",
+    "url": "https://www.crosswalk.com/headlines/contributors/guest-commentary/calvin-university-announces-new-center-examining-the-intersection-of-ai-technology-and-christian-faith.html",
+    "quote": "Located in the School of Engineering and Computer Science, the center will combine elements of engineering, computer science, and faith",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "a03",
+    "claim": "Calvin President Greg Elzinga says Christians need to be part of the technology conversation.",
+    "url": "https://www.crosswalk.com/headlines/contributors/guest-commentary/calvin-university-announces-new-center-examining-the-intersection-of-ai-technology-and-christian-faith.html",
+    "quote": "“Technology is shaping nearly every dimension of our lives, and Christians need to be part of that conversation, not simply reacting to technological change, but thoughtfully considering how technology can be developed and used in ways that serve our neighbors and contribute to the flourishing of our communities,\" he said.",
+    "sourceType": "Reporting",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "a04",
+    "claim": "Calvin's center page names Derek Schuurman as director.",
+    "url": "https://calvin.edu/faith-and-technology",
+    "quote": "Director of the Calvin Center for Faith and Technology",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a05",
+    "claim": "The center aims to serve churches with resources, workshops and panels.",
+    "url": "https://calvin.edu/faith-and-technology",
+    "quote": "Provide resources, facilitate workshops and panels, and thoughtfully engage with leaders, educators, and practitioners across disciplines and industries.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a06",
+    "claim": "The center rejects both uncritical enthusiasm and fear toward technology.",
+    "url": "https://calvin.edu/faith-and-technology",
+    "quote": "Rather than approaching technology with uncritical enthusiasm or fear-driven resistance, the Calvin Center for Faith and Technology helps Christians engage these aspects of God’s unfolding creation with courage, curiosity, wisdom, and discernment.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a07",
+    "claim": "John 1:1 is a free iPhone app with no ads, accounts or in-app purchases, and reads fully offline.",
+    "url": "https://john11.app",
+    "quote": "No ads. No accounts. No in-app purchases.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a08",
+    "claim": "John 1:1 lets readers swipe sideways to follow a quotation, echo, or shared person or place.",
+    "url": "https://john11.app",
+    "quote": "Follow a quotation, an echo, a shared person or place. Preview connections earlier and later in Scripture, then follow the one you want to examine.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a09",
+    "claim": "John 1:1 bundles 292,374 ranked, directed connections and 10 translations in 7 languages.",
+    "url": "https://john11.app",
+    "quote": "292,374ranked, directed connections",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a10",
+    "claim": "John 1:1's maker says it collects anonymous usage counts and has no plans to monetize.",
+    "url": "https://john11.app",
+    "quote": "There are no plans to monetize the app.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a11",
+    "claim": "John 1:1 is published by Repertorium LLC.",
+    "url": "https://john11.app",
+    "quote": "Repertorium LLC",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a12",
+    "claim": "The app was posted to Hacker News on Oct. 21 as 'Show HN: New Forms of Reading' (1 point, 0 comments at time of check).",
+    "url": "https://hn.algolia.com/api/v1/items/50182657",
+    "quote": "Show HN: New Forms of Reading",
+    "sourceType": "Social",
+    "date": "2026-10-21"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "featureType": "month-review",
+  "coverage": "The past 30 days (late September to October 24, 2026), anchored by OpenAI's October 8 analysis and an October 21 report on unfoldingWord's BT Servant",
+  "feature": {
+    "title": "70 million faith questions a week: people are asking AI about God, and Scripture-grounded tools are trying to answer faithfully",
+    "primaryUrl": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "organization": "OpenAI; unfoldingWord (BT Servant)",
+    "why": "OpenAI's own data shows that more than 70 million ChatGPT prompts a week are about faith. About 22 million of those are about studying religious texts, and nearly half of Christianity-related messages are about Bible passages. In the same month, unfoldingWord began offering BT Servant, its free AI assistant grounded in vetted biblical resources rather than the open internet, to everyday readers in the chat apps they already use. Together they tell one story. Seekers and believers are already bringing Scripture questions to AI, so the real question is where the answers come from. OpenAI itself says AI should not be 'an arbiter of religious truth.' Writer notes: OpenAI's page profiles users by city or state and includes a sentiment tracker of one nation's public plus a policy essay. Omit all of that (no geography, no politics). The breakdown by religion can be mentioned briefly and without comparison. Don't claim these conversations lead people to a church or a Bible; the data doesn't say so.",
+    "relatedUrls": [
+      "https://www.btservant.ai/",
+      "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+      "https://www.mnnonline.org/news/bt-servant-expedites-bible-translation-work/",
+      "https://www.christianpost.com/news/chatgpt-gets-70m-requests-about-religion-weekly-most-about-islam.html",
+      "https://relevantmagazine.com/culture/tech-gaming/chatgpt-gets-more-than-70-million-religion-questions-a-week/"
+    ]
+  },
+  "alsoEncouraging": [
+    {
+      "title": "Emory's Candler School of Theology releases a free course, 'Speaking of God in an Age of Artificial Intelligence,' to help congregations use AI ethically",
+      "url": "https://www.wabe.org/emory-staff-create-free-online-course-to-help-faith-communities-navigate-ai-landscape/",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Calvin University opens a Center for Faith and Technology to study how AI and emerging tech intersect with Christian faith",
+      "url": "https://www.crosswalk.com/headlines/contributors/guest-commentary/calvin-university-announces-new-center-examining-the-intersection-of-ai-technology-and-christian-faith.html",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "John 1:1, a free iPhone Bible app with no ads or accounts, lets readers follow quotations and echoes between passages",
+      "url": "https://john11.app",
+      "date": "2026-10-21"
+    }
+  ],
+  "wisdomConcern": "General chatbots trained on the open internet can sound authoritative while misquoting or misreading Scripture, and they can quietly stand in for a pastor or church family. AI answers about the Bible should point people back to the text itself and to a real community, not replace them. OpenAI makes the same point in its analysis.",
+  "reasonsEarlierTiersFailed": "Tier 1 (Oct 18-24) had no substantive, primary-sourced technology story dated inside the window. OpenAI's faith-usage analysis is the strongest item, but it was published Oct 8 and only the coverage fell in the week. BT Servant's Oct 21 report adds a modest new angle to a January launch. The Gateway Church reader is a minor press release. The Emory course and the Calvin center are education and research, not tools, and have thin or unverifiable primaries. Other items were geographic (Bible App growth by region, Bible Access List, regional audio-Bible delivery), political (AI campaign ads), commentary, or already in topic memory (YouVersion data, Oct 11)."
+}

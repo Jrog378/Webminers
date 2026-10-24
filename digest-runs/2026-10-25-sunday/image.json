@@ -1,0 +1,9 @@
+{"hero":{"src":"/images/eureka/2026-10-25-faith-questions-ai-bible-answers/open-bible-psalm-23-faith-questions-ai.webp","width":1280,"height":853,
+"alt":"Well-worn open Bible showing Psalm 23, the kind of Scripture passage people bring to AI faith questions",
+"caption":"Scripture study is among the top reasons people bring faith questions to an AI chatbot.",
+"credit":{"title":"Bible (Unsplash)","author":"John-Mark Kuznietsov","authorUrl":"https://unsplash.com/@mrrrk_smith","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"Wikimedia Commons","sourceUrl":"https://commons.wikimedia.org/wiki/File:Bible_(Unsplash).jpg","modified":"Resized and converted to WebP"}},
+"tried":[{"source":"StockSnap (Openverse)","query":"bible; open book reading; smartphone reading","result":"rejected: Bible photos found (Aaron Burden etc., CC0) but only 960px previews fetchable; stocksnap.io blocks automated full-size download (Cloudflare), so not used"},
+{"source":"Nappy (Openverse)","query":"bible; open book reading; smartphone reading","result":"rejected: no results"},
+{"source":"Rawpixel (Openverse)","query":"bible; open book reading; smartphone reading","result":"rejected: only 1024px editor previews accessible, below 1200px"},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"},
+{"source":"Wikimedia Commons (Openverse, CC0 Unsplash mirror)","query":"Bible (Unsplash)","result":"chosen: Bible (Unsplash) by John-Mark Kuznietsov, CC0; 1280px thumbnail of 4752x3168 original (original download rate-limited); inspected the final WebP, no watermark, logo, faces or artifacts. Not a repeat of any URL in _images.json (Wikimedia was the previous issue's library, but no Tier 1 file was obtainable at >=1200px)."}]}

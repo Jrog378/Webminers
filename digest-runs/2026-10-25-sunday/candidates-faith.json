@@ -1,0 +1,160 @@
+{
+  "weekStart": "2026-10-18",
+  "weekEnd": "2026-10-24",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok, 10 items, none technology-centered"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok, 30 items; one tech item (ChatGPT religion data) found via Google News"
+    },
+    {
+      "name": "Google News RSS: Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, Bible app, YouVersion, Wycliffe, Bible AI chatbot, illumiNations, AI Bible, church AI tool, Bible translation, AI discipleship, AI evangelism, sign language Bible, audio Bible, Christian app (when:7d)",
+      "status": "ok; mostly noise, political, geographic or finance items"
+    },
+    {
+      "name": "Mission Network News feed",
+      "status": "ok but feed stale; article found via search"
+    },
+    {
+      "name": "SIL RSS",
+      "status": "ok, no items since Feb 2026"
+    },
+    {
+      "name": "Wycliffe feed",
+      "status": "403"
+    },
+    {
+      "name": "Barna feed",
+      "status": "ok, stale (latest 2022)"
+    },
+    {
+      "name": "YouVersion blog feed",
+      "status": "ok, latest Oct 15 (devotional content, outside window)"
+    },
+    {
+      "name": "Hacker News Algolia (bible, church, since 2026-10-18)",
+      "status": "ok; one Show HN Bible app"
+    },
+    {
+      "name": "Reddit r/Christianity search .rss",
+      "status": "403 blocked"
+    },
+    {
+      "name": "Web search (OpenAI, Gloo, unfoldingWord, Adventist, Emory, Calvin, SIL/Wycliffe/Biblica/illumiNations newsrooms)",
+      "status": "ok"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-10-18 to 2026-10-24",
+      "candidates": [
+        {
+          "title": "BT Servant opened to everyday Bible readers for personal study",
+          "summary": "unfoldingWord's free AI Scripture assistant, grounded in vetted translation resources and used through WhatsApp, Telegram and Signal, is now being promoted for ordinary readers, not only translators.",
+          "primaryUrl": "https://www.mnnonline.org/news/bt-servant-offers-tools-for-studying-scripture/",
+          "date": "2026-10-21",
+          "organization": "unfoldingWord",
+          "whyNotChosen": "The tool launched in January 2026. The new angle (open to everyday readers) is real but too small for a standalone feature. Used as part of the month-review instead."
+        },
+        {
+          "title": "Gateway Church free online Name Translation Bible Reader",
+          "summary": "A web Bible reader that shows the meaning of each name in Scripture.",
+          "primaryUrl": "https://news.google.com/search?q=Gateway%20Church%20Name%20Translation%20Bible%20Reader",
+          "date": "2026-10-19",
+          "organization": "Gateway Church",
+          "whyNotChosen": "Paid press release (EIN Presswire) for a minor feature; no independent reporting and couldn't confirm a primary page."
+        },
+        {
+          "title": "Emory free online course: Speaking of God in an Age of Artificial Intelligence",
+          "summary": "Candler School of Theology staff built a free three-session course to help congregations use AI ethically.",
+          "primaryUrl": "https://www.wabe.org/emory-staff-create-free-online-course-to-help-faith-communities-navigate-ai-landscape/",
+          "date": "2026-10-20",
+          "organization": "Emory University, Candler School of Theology",
+          "whyNotChosen": "Education about AI rather than a technology itself; course launch date unconfirmed and primary page 403. Kept as an also-encouraging item."
+        },
+        {
+          "title": "Calvin Center for Faith and Technology",
+          "summary": "Calvin University opens an interdisciplinary center on how AI and emerging tech intersect with Christian faith.",
+          "primaryUrl": "https://www.crosswalk.com/headlines/contributors/guest-commentary/calvin-university-announces-new-center-examining-the-intersection-of-ai-technology-and-christian-faith.html",
+          "date": "2026-10-20",
+          "organization": "Calvin University",
+          "whyNotChosen": "An academic center, not a tool; no primary university release found; thin details. Kept as an also-encouraging item."
+        },
+        {
+          "title": "John 1:1, a free cross-reference Bible reading app (Show HN)",
+          "summary": "An iPhone app for following quotations and echoes between passages; free, offline, no accounts, 10 translations.",
+          "primaryUrl": "https://john11.app",
+          "date": "2026-10-21",
+          "organization": "Repertorium LLC",
+          "whyNotChosen": "Indie launch with no traction (1 HN point) and no reporting; too slight for a feature. Kept as an also-encouraging item."
+        },
+        {
+          "title": "Coverage of OpenAI's 70M weekly faith prompts (Christian Post, RELEVANT)",
+          "summary": "Reporting in the window on OpenAI's faith-usage analysis.",
+          "primaryUrl": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+          "date": "2026-10-20",
+          "organization": "OpenAI",
+          "whyNotChosen": "The primary source was published 2026-10-08, outside the week; only the coverage falls in the window. Moved to Tier 2."
+        },
+        {
+          "title": "Bible App growth by region; Bible Access List; MAF audio Bibles to Ebola-hit communities",
+          "summary": "Scripture-access stories this week.",
+          "primaryUrl": "https://www.christiandaily.com/",
+          "date": "2026-10-20",
+          "organization": "YouVersion / Bible Access Initiative / MAF",
+          "whyNotChosen": "Each one is about geography (reach by country, restricted countries, a specific region). YouVersion data is also in topic memory (2026-10-11)."
+        },
+        {
+          "title": "Commentary pieces: AI and sermons, AI consciousness, cybermissionary Q&A, AI campaign ads using religion",
+          "summary": "Opinion and event coverage.",
+          "primaryUrl": "https://christianchronicle.org/",
+          "date": "2026-10-22",
+          "organization": "various",
+          "whyNotChosen": "No specific technology at the center, or the story is political/geographic."
+        }
+      ]
+    },
+    {
+      "tier": "month-review",
+      "window": "2026-09-24 to 2026-10-24",
+      "candidates": [
+        {
+          "title": "OpenAI: 70M+ faith-related ChatGPT prompts a week",
+          "summary": "OpenAI's own analysis (Sep 2025 to Sep 2026): about 22M weekly requests to study religious texts, 16M on practices, 16M on beliefs and spiritual guidance. Nearly half of Christianity-related messages concern Bible passages. OpenAI says AI 'is not, and should not become, an arbiter of religious truth.'",
+          "primaryUrl": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+          "date": "2026-10-08",
+          "organization": "OpenAI",
+          "whyNotChosen": "CHOSEN as the anchor of the month-review."
+        },
+        {
+          "title": "BT Servant: Scripture-grounded AI in chat apps, now for everyday readers",
+          "summary": "Free, open-source, answers only from vetted biblical resources rather than the open internet; text or voice; works in WhatsApp, Telegram, Signal and on the web.",
+          "primaryUrl": "https://www.btservant.ai/",
+          "date": "2026-10-21",
+          "organization": "unfoldingWord",
+          "whyNotChosen": "CHOSEN as part of the month-review."
+        },
+        {
+          "title": "AKAI and Adventist+: closed-corpus AI apps announced by a church body",
+          "summary": "An AI that answers only from the Bible and the church's own reference works, with the publisher keeping control of its sources. Launch planned for 2027.",
+          "primaryUrl": "https://welcome.ai/content/general-conference-launches-ai-apps-to-enhance-spiritual-engagement",
+          "date": "2026-10-13",
+          "organization": "General Conference of Seventh-day Adventists / Hope Channel International",
+          "whyNotChosen": "Supporting example only. The original Adventist Today article and an official release couldn't be retrieved, and it answers denomination-specific questions (style guide: avoid denominational disputes). Use at most as one sentence on the design pattern, if the writer can verify a primary."
+        },
+        {
+          "title": "Gloo 2026 AI Hackathon (Bible track powered by YouVersion)",
+          "summary": "1,000+ participants, 115+ teams; $100K grand prize to Fosterly; Bible track winner Envoy.",
+          "primaryUrl": "https://gloo.com/ai/hackathon/2026-winners",
+          "date": "2026-10-08",
+          "organization": "Gloo",
+          "whyNotChosen": "Grand prize went to a non-Scripture tool, and the Bible track winner's purpose is undocumented on the primary page."
+        }
+      ]
+    }
+  ]
+}

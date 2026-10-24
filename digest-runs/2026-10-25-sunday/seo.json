@@ -1,0 +1,23 @@
+{
+  "keywords": {
+    "primary": "AI Bible answers",
+    "secondary": ["faith questions ChatGPT", "BT Servant", "Bible study with AI", "70 million faith questions"]
+  },
+  "title": "Where Do AI's Bible Answers Come From? | Coding with Christ",
+  "titleLength": 58,
+  "description": "OpenAI says ChatGPT gets 70 million faith questions a week. A month in review: what people ask and how BT Servant answers from a curated Bible library.",
+  "descriptionLength": 151,
+  "slug": "2026-10-25-faith-questions-ai-bible-answers",
+  "faq": "none (no verified People Also Ask questions found; no FAQ schema)",
+  "imageChecks": {
+    "alt": "ok (103 chars, describes image, no 'image of')",
+    "caption": "ok",
+    "filename": "ok (open-bible-psalm-23-faith-questions-ai.webp)",
+    "imageJsonChanged": false
+  },
+  "changes": [
+    "Title changed from '70 Million Faith Questions a Week | Coding with Christ' to the question form 'Where Do AI's Bible Answers Come From? | Coding with Christ' (58 chars), matching the requested pattern and the slug keywords; the 70 million figure stays in the description, headline and feature H2.",
+    "Description, slug, H2s, feature opening answer: checked, no change needed.",
+    "Left untouched: models: null placeholder, verse, sources, facts, body text, image.json."
+  ]
+}

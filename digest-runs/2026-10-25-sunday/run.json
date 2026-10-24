@@ -1,0 +1,14 @@
+{
+  "status": "published-pending-review",
+  "issueDate": "2026-10-25",
+  "week": "2026-10-18..2026-10-24",
+  "tier": "month-review",
+  "tierReason": "No substantive primary-sourced technology story dated inside the week; OpenAI analysis was Oct 8, BT Servant Oct 21 too small alone; others geographic, political, commentary or already covered.",
+  "verse": "Acts 17:11 (WEB)",
+  "factCheck": {
+    "pass": 25,
+    "fix": 6,
+    "cut": 1
+  },
+  "editor": "fail round 1, fixes applied round 2"
+}

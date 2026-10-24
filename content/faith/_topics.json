@@ -30,5 +30,13 @@
     "primaryUrl": "https://www.crosswalk.com/headlines/contributors/guest-commentary/new-music-bible-app-uses-ai-to-turn-scripture-into-country-hip-hop-jazz-and-more.html",
     "organization": "The Music Bible and TheSinging.Bible",
     "slug": "2026-10-18-ai-sings-whole-bible-music"
+  },
+  {
+    "date": "2026-10-25",
+    "featureType": "month-review",
+    "title": "70 million faith questions a week: ChatGPT faith usage and BT Servant",
+    "primaryUrl": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+    "organization": "OpenAI; unfoldingWord (BT Servant)",
+    "slug": "2026-10-25-faith-questions-ai-bible-answers"
   }
 ]
