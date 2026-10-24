@@ -1,0 +1,60 @@
+{
+  "research": {
+    "title": "Anthropic: LLMs are making formal software verification feasible at larger scale",
+    "primaryUrl": "https://www.anthropic.com/research/formal-verification",
+    "why": "Mathematically proving that software does what it should has always been too slow and expensive for most code. If language models can do that proof work at scale, it changes how far anyone can trust software, AI-written code included. This one matters most to a general reader and has the strongest signal in the window (HN 438 pts / 281 comments). It is a first-party research post, not one of the HF picks we only know from the abstract. Moved here from news on the scout's suggestion. Writer: fetch and read the post, and quote its own scope and limits instead of the HN framing.",
+    "runnersUp": [
+      {
+        "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+        "primaryUrl": "https://arxiv.org/abs/2610.11942",
+        "note": "Also about verification, so it is the fallback if the Anthropic post turns out to be thin. We only have the abstract and the arXiv URL has not been fetched."
+      },
+      {
+        "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+        "primaryUrl": "https://arxiv.org/abs/2610.27628",
+        "note": "Highly novel, but hard to make matter to a general reader. Abstract only."
+      },
+      {
+        "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+        "primaryUrl": "https://arxiv.org/abs/2610.28402",
+        "note": "Most upvotes on HF (430), but it is a benchmark paper and matters less to a general reader."
+      }
+    ]
+  },
+  "news": {
+    "title": "OpenAI says it will no longer train frontier models on the live internet",
+    "primaryUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "why": "One of the biggest AI labs is changing how its most capable models get built and says the open internet is too risky during training. The decision is significant, new and widely covered. Caveat: the OpenAI page returned 403 to our fetcher. TechCrunch links to it, so it is real and official. Writer must cite the OpenAI page as the source, re-try fetching it, and if it still fails, attribute claims carefully using TechCrunch (https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/) and The Verge (https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet). Context: Anthropic made a similar internal-evals move on Oct 9 (not previously covered).",
+    "runnersUp": [
+      {
+        "title": "Block releases Dessa, a full-duplex speech model",
+        "primaryUrl": "https://block.xyz/dessa",
+        "note": "Solid primary source and HN signal (188 pts), but matters less to a general reader."
+      },
+      {
+        "title": "Anthropic launches Claude Duet app (waitlist for Pro/Max)",
+        "primaryUrl": "https://claude.com/product/claude-duet",
+        "note": "Product page not fetched directly; low HN signal."
+      }
+    ]
+  },
+  "invention": {
+    "title": "Enron Brain: an AI-written wiki built from 45k Enron emails, every fact cited",
+    "primaryUrl": "https://www.thisandthat.chat/enron/",
+    "why": "This is the only top-scoring invention candidate whose primary source was actually fetched; OnKey and Omnara rest on HN titles alone because GitHub returned 403. It is a concrete, easy-to-grasp demo of AI that ties each claim to its source, turning a huge pile of documents into something you can check. That is a real reader problem, and the HN thread is active (55 pts / 53 comments). Writer: report the citation mechanism from the page itself and check that the citations hold up on a few spot samples.",
+    "runnersUp": [
+      {
+        "title": "Computer use on the phone itself: a 2B model that operates Android apps",
+        "primaryUrl": "https://getopposable.com/blog/computer-use-on-the-phone",
+        "note": "Fetchable and very novel, but low signal (17 pts), and the speed numbers are the company's own claims."
+      },
+      {
+        "title": "OnKey: app that shows where you sing off-key",
+        "primaryUrl": "https://github.com/dsmurrell/onkey",
+        "note": "Strongest HN signal (213 pts), but the repo was never fetched (403) and it is unclear whether AI is involved. Fails the fetchable-primary-source requirement."
+      }
+    ]
+  },
+  "thread": "All three picks are about making AI's work checkable: proofs that code is correct, frontier training walled off from the live internet, and a wiki where every claim links back to the email it came from.",
+  "skipped": []
+}

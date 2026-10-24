@@ -1,0 +1,209 @@
+{
+ "section": "news",
+ "window": "Wed Oct 21 - Fri Oct 23, 2026",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS",
+   "status": "ok (needed UA/hl params; results mostly low-value)"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "ok (some queries empty)"
+  },
+  {
+   "name": "Anthropic news page",
+   "status": "ok"
+  },
+  {
+   "name": "OpenAI site",
+   "status": "403 on fetch"
+  },
+  {
+   "name": "Other company blogs, Reddit",
+   "status": "not tried"
+  }
+ ],
+ "excludedPolitical": [
+  "DeepSeek reportedly raises $15B days after US restrictions (country/policy)",
+  "Intel waiver on US ban on foreign-made robots (policy)",
+  "inDrive robotaxi tests in Central Asia (region)",
+  "Chinese hackers breach ConnectWise (country/espionage)",
+  "Judge rejects EPA claim on data center lawsuits (government/legal)",
+  "Time: Trump rebrand of AI to Super Intelligence (political)",
+  "State AI laws and psychologists (legislation)"
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI says it will no longer train frontier models on the live internet",
+   "summary": "OpenAI says frontier training now runs in environments with no internet access, citing significant risks; Anthropic made a similar internal-evals move on Oct 9.",
+   "primaryUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "date": "2026-10-23",
+   "signal": "Verge/TechCrunch coverage; HN thread not found",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 4
+   },
+   "total": 18,
+   "coveredLast8Weeks": null,
+   "note": "OpenAI URL returned 403 to fetch but is linked from the TechCrunch article. Secondary: https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/ and https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+  },
+  {
+   "title": "Anthropic: LLMs are making formal software verification feasible at larger scale",
+   "summary": "Anthropic research post on using LLMs to scale formal verification.",
+   "primaryUrl": "https://www.anthropic.com/research/formal-verification",
+   "date": "2026-10-22",
+   "signal": "HN 438 pts / 281 comments https://news.ycombinator.com/item?id=50202217",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": null,
+   "note": "Research-leaning; may fit news as company announcement."
+  },
+  {
+   "title": "Block releases Dessa, a full-duplex speech model",
+   "summary": "Jack Dorsey's Block unveils Dessa, billed as an authentic full-duplex voice model.",
+   "primaryUrl": "https://block.xyz/dessa",
+   "date": "2026-10-23",
+   "signal": "HN 188 pts / 80 comments https://news.ycombinator.com/item?id=50213925",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": null,
+   "note": "Verge: https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+  },
+  {
+   "title": "Anthropic launches Claude Duet app (waitlist for Pro/Max)",
+   "summary": "Anthropic's new agent-centered app, available via waitlist to Pro and Max users.",
+   "primaryUrl": "https://claude.com/product/claude-duet",
+   "date": "2026-10-22",
+   "signal": "HN: one thread on a hand-built Duet, 1 pt https://news.ycombinator.com/item?id=50195309",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 4
+   },
+   "total": 15,
+   "coveredLast8Weeks": null,
+   "note": "Product URL taken from TechCrunch article links; not fetched directly. Secondary: https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+  },
+  {
+   "title": "Google says Gmail and Photos data may be used for ad targeting via updated privacy policy",
+   "summary": "Updated policy tied to Personal Intelligence allows personal data use for ads.",
+   "primaryUrl": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "date": "2026-10-23",
+   "signal": "HN 235 pts / 112 comments https://news.ycombinator.com/item?id=50214218",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 14,
+   "coveredLast8Weeks": null,
+   "note": "Original Google policy page not located; Ars follow-up: https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+  },
+  {
+   "title": "Canva releases its first in-house image model (Canva Craft), which plans designs before generating",
+   "summary": "Canva's model plans layout before generating images.",
+   "primaryUrl": "https://www.canva.com/newsroom/news/canva-craft/",
+   "date": "2026-10-22",
+   "signal": "HN 4 pts",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredLast8Weeks": null,
+   "note": "URL from Verge article link (via redirect); not fetched directly. https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+  },
+  {
+   "title": "OpenAI in talks for $30B raise at $1.25T valuation ahead of IPO",
+   "summary": "Reported new funding round.",
+   "primaryUrl": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+   "date": "2026-10-22",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 13,
+   "coveredLast8Weeks": null,
+   "note": "Original reporting only, no company confirmation."
+  },
+  {
+   "title": "Microsoft's Suleyman says its AI outperforms doctors on hard cases",
+   "summary": "Microsoft AI claims medical diagnostic superiority on hard cases.",
+   "primaryUrl": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+   "date": "2026-10-22",
+   "signal": "none found",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 12,
+   "coveredLast8Weeks": null,
+   "note": "Claim-vs-evidence angle; no paper located."
+  },
+  {
+   "title": "Meta Muse sharing turned back on after exposure of private conversations; Muse passes 10M users",
+   "summary": "Meta re-enabled Muse sharing; says 10M+ users.",
+   "primaryUrl": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+   "date": "2026-10-22",
+   "signal": "none found",
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": "2026-10-21-meta-muse-chat-sharing-paused",
+   "note": "Follow-up to an already-covered story; https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+  },
+  {
+   "title": "Uber puts all 30,000 employees on ChatGPT Work",
+   "summary": "Enterprise rollout.",
+   "primaryUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "date": "2026-10-22",
+   "signal": "none found",
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": null,
+   "note": ""
+  }
+ ]
+}

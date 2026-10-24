@@ -1,0 +1,12 @@
+{"hero":{"src":"/images/eureka/2026-10-24-claude-proofs-code-never-crashes/ai-formal-proofs-code-circuit-board.webp","width":1600,"height":1200,
+"alt":"Backlit green circuit board with black traces and solder pads, illustrating formal proofs that code never crashes",
+"caption":"Formal proofs aim to show that code like the logic behind a circuit board cannot crash, the idea behind Anthropic and Theorem's AI-written proofs.",
+"credit":{"title":"Green circuit board II","author":"Peter Shanks","authorUrl":"https://www.flickr.com/people/87273935@N00","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0/","sourceName":"Wikimedia Commons (from Flickr)","sourceUrl":"https://commons.wikimedia.org/wiki/File:Green_circuit_board_II_(2389301870).jpg","modified":"Resized and converted to WebP"}},
+"tried":[
+{"source":"Openverse (stocksnap, rawpixel)","query":"chalkboard / circuit board / server room","result":"rejected: API timed out or returned 500 on repeated attempts"},
+{"source":"Openverse (nappy)","query":"mathematical equations chalkboard, circuit board, server room","result":"rejected: zero results"},
+{"source":"StockSnap.io direct","query":"chalkboard","result":"rejected: 403 from proxy"},
+{"source":"WordPress Photo Directory","query":"-","result":"skipped: used for the previous two issues (rotation)"},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"},
+{"source":"Wikimedia Commons","query":"blackboard mathematical proof equations","result":"rejected: only scanned book PDFs"},
+{"source":"Wikimedia Commons","query":"printed circuit board macro","result":"chosen: Green circuit board II, CC BY 2.0, 1920 px source; inspected final WebP, no watermark, no faces, no logos"}]}

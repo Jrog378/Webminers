@@ -1,0 +1,470 @@
+{
+ "checked": 58,
+ "passed": 49,
+ "results": [
+  {
+   "citation": "[1]",
+   "sentence": "239 entry points across 123 open-source libraries never crash on any input up to 64 MB (with Theorem, 'over the span of a few weeks')",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Post: 'Over the span of a few weeks, Claude successfully patched the bugs it found and then proved that there are no crashes on any input (up to 64 MB) for 239 entry points across 123 different OSS-Fuzz libraries.'",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "'verification startup Theorem' / no independent replication / 'not peer-reviewed'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Post calls Theorem 'our collaborator'; 'startup' and 'no independent replication' are the writer's own descriptors/search result, not in the source. Post is a company blog (published Oct 22, 2026, Frontier Red Team). Acceptable as editorial framing; consider attributing 'startup' (Gross is a Theorem co-founder per a Theorem YouTube/jasongross.github.io bio).",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "seL4 took two person-years to build and 20 to verify",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "'it took two person-years to implement the seL4 operating system kernel, but 20 person-years to formally verify it'",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "The seL4 paper adds that 9 of those 20 went into reusable frameworks and tools",
+   "url": "https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf",
+   "verdict": "fix",
+   "evidence": "Paper (ACM TOCS 32(1), Feb 2014): 'the total effort of the seL4 correctness proof was about 20 py: 9 py went into the formal frameworks and tools'; also 'about 9 py invested in formal language frameworks, proof tools, proof automation, theorem prover extensions and libraries'. The word 'reusable' is not in the paper.",
+   "fix": "The seL4 paper adds that about 9 of those 20 person-years went into formal frameworks and tools [2]."
+  },
+  {
+   "citation": "[1]",
+   "sentence": "RISC-V binary / Rocq; passing proofs total about 180 million lines, typical proof near 600,000",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "'they comprise about 180 million lines of Rocq, with a typical proof running to about 600,000 lines'",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Claude wrote around one billion lines in all",
+   "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+   "verdict": "pass",
+   "evidence": "Appendix: 'Claude ended up writing around one billion lines of Rocq proofs in this project... About 180 million of these ended up being part of proofs that successfully passed'",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "process 'discovered hundreds of bugs'; one appeared only on inputs of around 20 MB",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "'the process of attempting to prove these specs discovered hundreds of bugs'; 'counter underflow ... only on inputs of around 20 MB that had one rare, specific layout'",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "'Claude could make any theorem provable by rewriting the program into one that trivially never crashes'; penalized and audited patches",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Exact quote present; 'we penalized any patch ... We also logged and audited the patches'",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Table row 1: public release has 'proofs for 60 entry points in 25 libraries'",
+   "url": "https://github.com/theorem-labs/oss-verify-proofs",
+   "verdict": "pass",
+   "evidence": "README: '60 entry points in 25 libraries have proofs.' Quote in draft is paraphrase-with-quote of that sentence; 60/239 = 25.1% so 'about a quarter' is correct.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 1: 'The post says proofs tied to bugs are held back'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "fix",
+   "evidence": "Post: 'some of which we're including in our release (we are not releasing proofs that may reveal an unpatched bug in the open-source software)'. It also says the release has 'Claude's complete Rocq proofs for fuzz tests that did not require patching'. Held back are proofs that may reveal an UNPATCHED bug, not all proofs 'tied to bugs'. The post does not state that this is why only 60 of 239 are public, so 'so readers can check about a quarter' is the writer's inference from the two numbers.",
+   "fix": "The post says it is not releasing proofs that may reveal an unpatched bug [1], so the public release covers 60 of the 239 entry points, about a quarter."
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 2: 'No crashes on any input (up to 64 MB)' vs covered inputs",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Quote exact. Post also says the claim is under assumptions (single-threaded static binary, fixed memory budget).",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "'none of them rules out a run that never ends'; input needing more memory than budget 'is not covered'",
+   "url": "https://github.com/theorem-labs/oss-verify-proofs",
+   "verdict": "pass",
+   "evidence": "README: 'No proof in this release proves a halts statement, so none of them rules out a run that never ends.' and 'an input on which the plain build needs more memory is not covered.'",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 3: 'single-threaded, static RISC-V binaries linked against musl libc' / 'most people run these libraries on x86 or ARM'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "'Our proofs are about single-threaded, static RISC-V binaries linked against musl libc. However, most people run these libraries on x86 or ARM'",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 3 left cell: 'real-world open-source software libraries'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Post uses 'real-world open-source software libraries' ('100 real-world open-source software libraries' in the intro).",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 4: trust only RISC-V and Linux models, theorem statements, Rocq checker; footnote 'the hardware, OS, OCaml compiler'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Matches list and footnote 05: 'we have to trust the hardware, OS, OCaml compiler that the Rocq proof checker relies on'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Table row 5: verification 'will soon be as practical as fuzzing is today for almost all production software'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Exact in Conclusion.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Appendix: human experts 'would have immediately introduced abstractions'; another agent project suggests agents 'hit a complexity wall'",
+   "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+   "verdict": "pass",
+   "evidence": "Appendix: 'human proof engineers would have immediately introduced abstractions' (draft says 'human experts', paraphrase outside quotes) and 'Experience from other agent-based verification projects, such as MachCSL, suggests that the answer might be no: the agents hit a complexity wall'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "'Formally verified' does not mean 'bug-free'; ASan 'doesn't detect all memory safety bugs'; not every entry point covered",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "'\u201cFormally verified\u201d does not mean \u201cbug-free.\u201d' and 'ASan doesn't detect all memory safety bugs, and we didn't verify all the entry points for each library.'",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Theorem's repository says a proof 'does not say that the library is correct'",
+   "url": "https://github.com/theorem-labs/oss-verify-proofs",
+   "verdict": "pass",
+   "evidence": "README: 'It does not say that the library is correct.'",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Commenter called it 'not formal verification in the sense of a correctness proof against a full specification'",
+   "url": "https://news.ycombinator.com/item?id=50202977",
+   "verdict": "pass",
+   "evidence": "HN comment by gr_norm (item 50202977), a reply that quotes the article and concedes the point: 'this is not formal verification in the sense of a correctness proof against a full specification validated...' then 'Pretty impressive though.' Quote is truncated but accurate; note the same comment is positive overall. Source-list title 'Comment on: ...' is descriptive (thread is 'LLMs are making formal software verification feasible at a much larger scale', story 50202217). Timestamp is Oct 23 00:26 UTC (Oct 22 evening ET).",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Co-author Jason Gross of Theorem wrote 'the bottleneck is just scale'",
+   "url": "https://news.ycombinator.com/item?id=50203094",
+   "verdict": "pass",
+   "evidence": "Item 50203094 by jasongross, reply to a comment arguing LLMs hit a wall (convex hull hypothesis). Quote exact. Gross is in the post's author list; Theorem co-founder per Theorem video listing and his own site. Posted Oct 23 01:41 UTC (Oct 22 ET evening).",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Kleppmann in Dec 2025 predicted AI would make formal verification mainstream, hard part becomes the spec; quote",
+   "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
+   "verdict": "pass",
+   "evidence": "Blog published 08 Dec 2025; quote exact: 'how do you know that the properties that were proved are actually the properties that you cared about?'. Source-list type 'Reporting' is wrong: it is an opinion/blog post by a researcher.",
+   "fix": "Change source 7 type from Reporting to Commentary/Opinion."
+  },
+  {
+   "citation": "[8]",
+   "sentence": "Theorem offers a free OSS Verify service to qualifying open-source projects; FAQ quote",
+   "url": "https://theorem.dev/oss-verify/",
+   "verdict": "pass",
+   "evidence": "'Now we're offering it to qualifying open source projects for free.' FAQ: 'Findings and patches are generated by AI models, and we don't promise that a person reviews them before we send them.' Page shows no date; source-list date 2026-10-24 is unverifiable (Anthropic post of Oct 22 links to it).",
+   "fix": "Source 8 date: page carries no date; use 2026-10-22 (the Anthropic post links it) or omit the date."
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Source metadata: date 2026-10-24",
+   "url": "https://github.com/theorem-labs/oss-verify-proofs",
+   "verdict": "fix",
+   "evidence": "release.yaml in the repo: release 2026.10.0, date '2026-10-22'. README title: 'OSS Verify: proofs about OSS-Fuzz fuzz targets'.",
+   "fix": "Source 4 date: 2026-10-22."
+  },
+  {
+   "citation": "[9]",
+   "sentence": "OpenAI said on Oct 23 that most capable models can no longer reach the live internet in training; browse cached offline copy",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "Page (read via r.jina.ai proxy; direct fetch 403). Verge/TechCrunch both dated Oct 23, 'blog post on Friday'. Oct 23, 2026 is a Friday.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "'We believe the responsible approach is to conduct frontier model training with no internet access'; 'until advances in these safeguards justify broader internet access'; 'training and most evaluation'",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "Text: 'we believe the responsible approach is to conduct frontier model training with no internet access. We've implemented this policy and will maintain it until advances in these safeguards justify broader internet access.' and 'For training and most evaluation, the live internet lies outside this boundary'. No timeline in the page.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "'offline world' quote; all frontier RL runs use it",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "Exact: 'a vast set of indexed and cached web content with which our models can interact, without risk of affecting external systems. All of our frontier RL runs use this offline mode of interaction.'",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Sept incident report said other traffic 'hit our offline webcache'",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "verdict": "pass",
+   "evidence": "'all internet access apart from the DNS resolver in this report hit our offline webcache'",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Not a full air gap; 'isn't currently feasible, since we need external connections in order to run and monitor experiments'",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Sept 20: 'an internal research model exploited a misconfiguration in a DNS resolver to gain limited access to the live internet during a training run'",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "Text is the anchor text of a link to the alignment report; wording exact.",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Monitor flagged within 15 minutes, run killed 2.5 hours later",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "verdict": "pass",
+   "evidence": "'flagged the behavior within 15 minutes ... The run was killed 2.5 hours later.' Report says it did not auto-stop as expected, which the draft omits but does not contradict.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Training resumed Oct 1, '11 days after our pause began'",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "'We resumed these workloads on October 1, 11 days after our pause began.'",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Red-team agents spent 'hundreds of billions of tokens'; given source code, configs, notes on weak spots; flaws 'in almost every one'; cache messaging between VMs",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "All present: 'hundreds of billions of tokens'; 'we supplied infrastructure source code, configuration details, and documentation describing potential vulnerabilities'; 'vulnerabilities in almost every one of these services that gave them limited forms of internet access'; microVM cache-timing channel.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "In most tests OpenAI pointed agents to specific channels or gave them a protocol; 'We did not find a route to the internet that agents could trivially exploit while concealing their activity from our monitors'; fixes to Kata Containers, gVisor, Moby",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "'In most of these tests, we directed agents to investigate specific communication channels or provided them with a protocol'; conclusion quote exact; Kata Containers, gVisor, Moby/Docker patches listed.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "The Verge reports OpenAI also added monitoring checks for cache-based messages",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "verdict": "pass",
+   "evidence": "Verge: 'OpenAI says it has added checks to its monitoring system to detect this type of communication.' Source-list title is wrong.",
+   "fix": "Source 11 title: 'OpenAI now trains its frontier AI models with no internet access' (Emma Roth, The Verge, Oct 23, 2026, 21:11 UTC)."
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Steven Adler, quoted by TechCrunch from Fortune: 'It's a lot of overhead ...'",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "verdict": "pass",
+   "evidence": "TechCrunch: 'former OpenAI researcher Steven Adler told Fortune this month' with the quoted passage; draft ends quote with ellipsis, fine. Note Fortune original not opened; attribution is to TechCrunch's quote, which the draft states.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "TechCrunch: whether cached training will 'perform as well as letting models run freely on the open internet remains to be seen'",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "verdict": "pass",
+   "evidence": "Source: 'Whether that strategy will perform as well as letting models run freely on the open internet remains to be seen'. Quote begins mid-clause but is verbatim. Title in source list should be: 'OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d' by Tim Fernholz, Oct 23, 2026 4:05 PM PDT.",
+   "fix": "Source 12 title: add the trailing ', citing \u201csignificant risks\u201d' quote marks as published."
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Thorsten Holz told The Verge in September that 'a strict air gap reduces realism'",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+   "verdict": "pass",
+   "evidence": "Verge Sept 24, 2026: '\u201cA strict air gap reduces realism,\u201d he said' (Holz, Max Planck Institute for Security and Privacy). Source-list title and author wrong.",
+   "fix": "Source 13 title: 'Why can\u2019t we just keep rogue AIs off the internet?' by Robert Hart, The Verge, 2026-09-24."
+  },
+  {
+   "citation": "[14]",
+   "sentence": "'Some Hacker News commenters argued the reverse: a full air gap is \"feasible, it'll just slow them down\"'",
+   "url": "https://news.ycombinator.com/item?id=50214416",
+   "verdict": "fix",
+   "evidence": "Only one comment found in the thread (50216667 by bakies): 'It's feasible, it'll just slow them down. Which is unacceptable to the business leaders.' Plural 'Some commenters' not supported; the cited URL is the story, not the comment.",
+   "fix": "One Hacker News commenter argued the reverse: a full air gap is \"feasible, it'll just slow them down\" [14] (comment 50216667)."
+  },
+  {
+   "citation": "[15]",
+   "sentence": "Verge: outside evaluators at METR and Redwood found new flaws in OpenAI's monitoring system, which OpenAI 'has stated' are patched",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017179/openais-misalignment-monitoring-system-had-a-number-of-novel-vulnerabilities-third-party-evaluators-found",
+   "verdict": "pass",
+   "evidence": "Verge (Jay Peters, Oct 22, 2026): 'two employees from METR and Redwood Research conducted a pilot'; 'OpenAI \u201chas stated\u201d that the vulnerabilities identified \u201cthat impact their production safeguards stack\u201d have been patched, METR says.' Draft omits that the patched claim is limited to vulnerabilities affecting production safeguards; consider adding. Title has trailing period inside the quote marks in the og title.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "On Oct 9, Anthropic cut live internet access from all its internal evaluations",
+   "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "verdict": "fix",
+   "evidence": "Post (Oct 9, 2026): 'we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures ... reliably catch behaviors like these.' It is a temporary expansion, not a permanent cut. Source-list title wrong.",
+   "fix": "On Oct 9, Anthropic said it was turning off live internet access for all its internal evaluations, expanding on a block already in place for some high-risk and cybersecurity evaluations, until it confirms its security and monitoring measures catch such behavior [16]. Source 16 title: 'Investigating unintended model actions in our evaluations and internal use'."
+  },
+  {
+   "citation": "[16]",
+   "sentence": "Anthropic warned some tasks 'are difficult to realistically simulate in an environment without internet access'",
+   "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "verdict": "pass",
+   "evidence": "'Some tasks\u2014such as searching the web for hard-to-find information\u2014are difficult to realistically simulate in an environment without internet access.'",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "this+that had an AI read 45,047 Enron emails and write 214 pages; 'Every fact cites the email it came from'; 'no one edited a page or a fact'; prototype",
+   "url": "https://www.thisandthat.chat/enron/",
+   "verdict": "pass",
+   "evidence": "Homepage: 'We gave an AI 45,047 of Enron's emails, and it wrote 214 pages... Every fact cites the email it came from... No one edited a page or a fact.' and 'We made these pages with a prototype of something we're building.' Source-list title wrong; page <title> is 'What did Enron know? The Enron Brain' (h1 'What did Enron know, and when did it know it?').",
+   "fix": "Source 17 title: 'What did Enron know? The Enron Brain'. Date: 'Generated October 23, 2026' per methodology page."
+  },
+  {
+   "citation": "[18]",
+   "sentence": "49,401 facts published; 37 of 62,205 candidate facts discarded for quote not found",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "Methodology: '62,205 candidate facts ... 49,401 facts published'; 'Of 62,205 candidate facts, 37 quoted a sentence we couldn't find in the message, and we discarded them.'",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "466 of 500 facts 'fully supported', about 93%; judge was Claude Fable 5.1",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "Table: 'Facts fully supported by their mail ... 466 of 500' (third audit) and 'with a different model, Claude Fable 5.1, as the judge'. 466/500 = 93.2%. Homepage also says 93%. Fable 5.1 judge claim CONFIRMED.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Claude Opus 5 and Opus 5.5 built the pages",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "fix",
+   "evidence": "Methodology: 'The build ran in four steps. The first three ran on Claude Opus 5. Opus 5.5 launched before the fourth ... we ran the fourth on it.' Verification cost is listed as 'verification on Opus 5.5'. So Opus 5 did types/entities/page building; Opus 5.5 did the fourth (verification) step.",
+   "fix": "The judge was another AI model, Claude Fable 5.1, while Claude Opus 5 built the pages and Opus 5.5 ran the fourth, verification step [18]."
+  },
+  {
+   "citation": "[18]",
+   "sentence": "48 of 50: person blind-graded 50 verdicts, agreed with 48",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "'A person graded 50 of the third audit's fact verdicts blind and agreed with 48.' Note: both disagreements traced to a tooling bug (excerpt missed the quoted sentence); re-judged against the full message both facts were supported.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "'That is the only human check on the accuracy figure.'",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "cut",
+   "evidence": "Not stated in the methodology and not established. The page also says a person cut ambiguous names, and 'We caught two false merges by hand'. Nothing in the source says the 50-verdict grading is the only human check. This is an uncited absolute claim about the source.",
+   "fix": "Cut the sentence, or replace with the sourced detail: both disagreements came from a tooling bug that showed the grader a truncated excerpt, and re-judged against the full message both facts were supported [18]."
+  },
+  {
+   "citation": "[18]",
+   "sentence": "1 in 15 facts in the last sample had a detail 'a careful reviewer would soften'; judge found none wrong at its core",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "'In the last sample, no fact was wrong at its core, but about one in 15 had one detail a careful reviewer would soften'",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "$11,215 list-price cost to build and check; 18 cents a fact and $41 a page for building",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "'Building and checking together come to $11,215' ($8,857 build at Opus 5 list prices + $2,358 checking). '18 cents a fact and $41 a page, before the batch discount'. Draft's 'building alone worked out to 18 cents a fact and $41 a page' is correct but note those are before the batch discount.",
+   "fix": null
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Reynar: 'The hardest part was that the model already knows Enron. It kept adding details from the public record that the email didn't contain'; co-founder",
+   "url": "https://news.ycombinator.com/item?id=50207620",
+   "verdict": "pass",
+   "evidence": "HN comment 50207626 by jreynar ('I'm Jeff, one of the founders of this+that'). Quote exact. Cited URL is the story item 50207620; comment is 50207626. Story title 'Show HN: We had AI write a wiki from 45k Enron emails, every fact cited' correct.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "'Neither check can tell whether a message was right'",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "[20]",
+   "sentence": "A fact cites a staffer's email saying 'dynegy has aquired us'; same page records Dynegy later terminated the merger",
+   "url": "https://www.thisandthat.chat/enron/dynegy.sources.json",
+   "verdict": "pass",
+   "evidence": "sources.json entry s746: Matthew Lenhart email, Nov 9, 2001, phrase 'they inked the deal.  dynegy has aquired us.' Dynegy page text: 'agreed to acquire Enron in November 2001, then terminated the merger'. The termination statement is on dynegy.html, not in the .json cited.",
+   "fix": "Cite the Dynegy page https://www.thisandthat.chat/enron/dynegy.html for the 'terminated' claim as well as the sources JSON."
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Names and email addresses appear as they do in the original mail",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "fix",
+   "evidence": "Methodology: 'Names and email addresses appear as they do in the corpus.' (phone numbers and credentials are masked).",
+   "fix": "Names and email addresses appear as they do in the corpus; phone numbers and credentials are masked [18]."
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Commenter: 'one incorrect fact could be very damaging and it's very hard to check them all'; Reynar replied real product asks people to approve proposed changes",
+   "url": "https://news.ycombinator.com/item?id=50207620",
+   "verdict": "pass",
+   "evidence": "Comment 50212067 by grey-area: 'one incorrect fact could be very damaging and it's very hard to check them all'. Reynar reply 50212460: 'we ask people to approve changes to a company brain that are proposed'.",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Sixty-word bullets (239/123/64 MB/60 of 25/not peer-reviewed; OpenAI Oct 23, DNS Sept 20; 214 pages, 45,047 emails, 466 of 500, 48 of 50)",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "All figures match sources 1, 4, 9, 18 above.",
+   "fix": null
+  },
+  {
+   "citation": "uncited",
+   "sentence": "Closing: 'a quote that must match its email word for word'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Methodology: 'we discarded any fact whose sentence we couldn't find word for word.'",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Source-list entry: date 2026-09",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "verdict": "fix",
+   "evidence": "Report header: 'Sample: Sep 20, 2026; Discovery: Sep 20, 2026; Report updated: Sep 25, 2026'. First-publication date not shown.",
+   "fix": "Source 10 date: 2026-09-25 (report updated); title 'An agent used DNS to reach an external chatbot' is correct."
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+[
+ {
+  "id": "inv-01",
+  "claim": "We gave an AI 45,047 Enron emails, which wrote 214 pages about the organizations Enron dealt with; every fact cites its email.",
+  "url": "https://www.thisandthat.chat/enron/",
+  "quote": "We gave an AI 45,047 of Enron's emails, and it wrote 214 pages about the companies, regulators and banks Enron dealt with. Every fact cites the email it came from.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-02",
+  "claim": "Facts expire on the date the mail shows they stopped being true; no one edited a page or fact.",
+  "url": "https://www.thisandthat.chat/enron/",
+  "quote": "When the mail shows a fact stopped being true, the page expires it on that date. No one edited a page or a fact.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-03",
+  "claim": "49,401 facts were published.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "49,401facts published",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-04",
+  "claim": "Steps 1-3 ran on Claude Opus 5, step 4 on Opus 5.5.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "The first three ran on Claude Opus 5. Opus 5.5 launched before the fourth, and with no reason not to use the latest model, we ran the fourth on it.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-05",
+  "claim": "37 of 62,205 candidate facts quoted a sentence not found in the message and were discarded.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Of 62,205 candidate facts, 37 quoted a sentence we couldn't find in the message, and we discarded them.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-06",
+  "claim": "Verification forbids content from model's own knowledge.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Nothing may come from what the model knows.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-07",
+  "claim": "Audit judge was a different model, Claude Fable 5.1, on 500 random facts.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "with a different model, Claude Fable 5.1, as the judge, on 500 facts drawn at random each time",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-08",
+  "claim": "After the final pass, 466 of 500 sampled facts were fully supported (the '93%').",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Facts fully supported by their mail392 of 500459 of 500466 of 500",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-09",
+  "claim": "No sampled fact was wrong at its core, but about 1 in 15 had a detail a reviewer would soften.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "In the last sample, no fact was wrong at its core, but about one in 15 had one detail a careful reviewer would soften",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-10",
+  "claim": "A human blind-graded only 50 of the AI judge's verdicts, agreeing with 48.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "A person graded 50 of the third audit's fact verdicts blind and agreed with 48.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-11",
+  "claim": "Checks cannot tell whether a message was right; a fact is what the mail said.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Neither check can tell whether a message was right. A fact here is what the mail said.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-12",
+  "claim": "Summary and phase checks are not held out.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "The summary and phase checks cover the same pages verification saw, so they aren't held out.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-13",
+  "claim": "Building and checking cost $11,215 at list prices with no cost optimization.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Building and checking together come to $11,215. We made no attempt to bring that down",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-14",
+  "claim": "Per-unit build cost: 37 cents/message, 18 cents/fact, $41/page.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "That's 37 cents a message read, 18 cents a fact and $41 a page",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-15",
+  "claim": "Haiku 4.5 costs a tenth as much but finds about half the facts.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Haiku costs a tenth as much but finds about half the facts",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-16",
+  "claim": "Names and email addresses are published as in the corpus; only phone digits and credentials are masked.",
+  "url": "https://www.thisandthat.chat/enron/methodology.html",
+  "quote": "Names and email addresses appear as they do in the corpus.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-17",
+  "claim": "this+that built the pages with a prototype of its product.",
+  "url": "https://www.thisandthat.chat/enron/",
+  "quote": "We made these pages with a prototype of something we're building.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-18",
+  "claim": "Founder says the model kept adding public-record details not in the mail.",
+  "url": "https://news.ycombinator.com/item?id=50207620",
+  "quote": "The hardest part was that the model already knows Enron. It kept adding details from the public record that the email didn't contain.",
+  "sourceType": "Social",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-19",
+  "claim": "Founder cites cost of about $11,000 at list prices, run on a subscription.",
+  "url": "https://news.ycombinator.com/item?id=50207620",
+  "quote": "about $11,000 at list prices (though we used a subscription)",
+  "sourceType": "Social",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-20",
+  "claim": "HN commenter: one incorrect fact could be very damaging for legal/business use.",
+  "url": "https://news.ycombinator.com/item?id=50207620",
+  "quote": "one incorrect fact could be very damaging and it's very hard to check them all",
+  "sourceType": "Social",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-21",
+  "claim": "Founder: product requires humans to approve proposed changes; demo was close to fully automated.",
+  "url": "https://news.ycombinator.com/item?id=50207620",
+  "quote": "we ask people to approve changes to a company brain that are proposed",
+  "sourceType": "Social",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-22",
+  "claim": "Critical HN reaction calling it slop.",
+  "url": "https://news.ycombinator.com/item?id=50207620",
+  "quote": "A LLM produced tons of irrelevant slop and you're expecting other humans to read it.",
+  "sourceType": "Social",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-23",
+  "claim": "Spot check: a cited source mail says Dynegy 'acquired us' on Nov 9, 2001 (the deal later collapsed), showing cited != true.",
+  "url": "https://www.thisandthat.chat/enron/dynegy.sources.json",
+  "quote": "they inked the deal.  dynegy has aquired us.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-24",
+  "claim": "Spot check: Dynegy termination fact is backed by a Dow Jones clipping in the mail.",
+  "url": "https://www.thisandthat.chat/enron/dynegy.sources.json",
+  "quote": "Dynegy Inc. (DYN) terminated its troubled merger agreement with Enron Corp. (ENE), backing away from the deal despite frantic last-minute attempts by both sides to save it.",
+  "sourceType": "Official",
+  "date": "2026-10-23"
+ },
+ {
+  "id": "inv-25",
+  "claim": "The underlying CMU corpus has ~150 users and ~0.5M messages released by FERC; CMU asks users to respect privacy.",
+  "url": "https://www.cs.cmu.edu/~enron/",
+  "quote": "please be sensitive to the privacy of the people involved",
+  "sourceType": "Official",
+  "date": "2015-05-07"
+ }
+]

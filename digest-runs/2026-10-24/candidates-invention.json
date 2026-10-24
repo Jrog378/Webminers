@@ -1,0 +1,201 @@
+{
+ "section": "invention",
+ "window": "Wed Oct 21 - Fri Oct 23, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Product Hunt AI feed",
+   "status": "ok but thin; no in-window items usable (Gerty, Agent Hunt, ElevenLabs Realtime listed without details); not used"
+  },
+  {
+   "name": "Lobsters ai RSS",
+   "status": "ok; no in-window invention items (only arXiv/news/political)"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by environment (repo-scoped only)"
+  },
+  {
+   "name": "github.com repo pages",
+   "status": "403 to fetcher"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OnKey: app that shows where you sing off-key",
+   "summary": "Show HN app that visualizes pitch error while singing; open source on GitHub.",
+   "primaryUrl": "https://github.com/dsmurrell/onkey",
+   "date": "2026-10-22",
+   "signal": "HN 213 pts, 89 comments, https://news.ycombinator.com/item?id=50195488",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "GitHub page returned 403 to fetcher; details from HN title only. Verify AI involvement."
+  },
+  {
+   "title": "Omnara: open-source alternative to Claude Managed Agents",
+   "summary": "Open-source tool for running and managing coding agents.",
+   "primaryUrl": "https://github.com/omnara-ai/omnara",
+   "date": "2026-10-21",
+   "signal": "HN 111 pts, 34 comments, https://news.ycombinator.com/item?id=50183892",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "GitHub 403 to fetcher; verify."
+  },
+  {
+   "title": "We had AI write a wiki from 45k Enron emails, every fact cited",
+   "summary": "'Enron Brain': AI-generated, citation-backed wiki over the Enron email corpus.",
+   "primaryUrl": "https://www.thisandthat.chat/enron/",
+   "date": "2026-10-23",
+   "signal": "HN 55 pts, 53 comments, https://news.ycombinator.com/item?id=50207620",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "Page fetched OK (title 'What did Enron know? The Enron Brain')."
+  },
+  {
+   "title": "Computer use on the phone itself: a 2B model that operates Android apps",
+   "summary": "GUI-Owl 2B runs on-device and taps through other apps with no server; vision encoder 236 ms on Galaxy S25 NPU vs 3.9 s; 7.3 s per step on laptop CPU.",
+   "primaryUrl": "https://getopposable.com/blog/computer-use-on-the-phone",
+   "date": "2026-10-21",
+   "signal": "HN 17 pts, 5 comments, https://news.ycombinator.com/item?id=50180190",
+   "scores": {
+    "novelty": 5,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": "Numbers from page meta description; company's own claims."
+  },
+  {
+   "title": "Impossible Machines: declaratively program the physical world",
+   "summary": "Interactive world where missing mechanisms appear between cause and effect.",
+   "primaryUrl": "https://www.impossiblemachines.xyz",
+   "date": "2026-10-22",
+   "signal": "HN 56 pts, 17 comments, https://news.ycombinator.com/item?id=50202746",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Swurf: swipe through the real web",
+   "summary": "Shows one real website at a time, learns preferences, never repeats, no account.",
+   "primaryUrl": "https://swurf.org/",
+   "date": "2026-10-23",
+   "signal": "HN 56 pts, 28 comments, https://news.ycombinator.com/item?id=50205320",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Making a smart TV dumb and then smart (r2d2-tv)",
+   "summary": "Project to strip smart-TV software and re-add own smart features.",
+   "primaryUrl": "https://github.com/anubhavmalhotra/r2d2-tv",
+   "date": "2026-10-23",
+   "signal": "HN 84 pts, 65 comments, https://news.ycombinator.com/item?id=50202865",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "GitHub 403 to fetcher; may not be AI-related."
+  },
+  {
+   "title": "Uberblok: interactive museum of ZFS internals",
+   "summary": "Interactive educational site on ZFS internals.",
+   "primaryUrl": "https://uberblok.storagebits.workers.dev/",
+   "date": "2026-10-21",
+   "signal": "HN 118 pts, 30 comments, https://news.ycombinator.com/item?id=50180257",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "note": "Likely not AI; weak fit."
+  },
+  {
+   "title": "agent-usage-guard: Claude Code mod to protect your usage window",
+   "summary": "Mod guarding Claude Code usage limits.",
+   "primaryUrl": "https://github.com/rbartoli/agent-usage-guard",
+   "date": "2026-10-22",
+   "signal": "HN 26 pts, 10 comments, https://news.ycombinator.com/item?id=50198936",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "note": "GitHub 403 to fetcher."
+  },
+  {
+   "title": "Corgi: agent/terminal multiplexer",
+   "summary": "Multiplexer for coding agents and terminals.",
+   "primaryUrl": "https://corgi.computer/",
+   "date": "2026-10-23",
+   "signal": "HN 15 pts, 1 comment, https://news.ycombinator.com/item?id=50214373",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "note": "Not fetched."
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "EU Member States approve 'digital expropriation' for AI companies",
+   "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+   "reason": "policy/region"
+  }
+ ],
+ "excludedOther": [
+  {
+   "title": "An icon for every city in North America",
+   "reason": "place-centered, not AI"
+  }
+ ]
+}

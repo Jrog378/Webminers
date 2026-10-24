@@ -1,0 +1,20 @@
+{
+  "keywords": {
+    "primary": "can AI prove code never crashes",
+    "secondary": ["formal verification", "Claude Theorem proofs", "OpenAI training no internet access", "Enron Brain AI wiki"]
+  },
+  "title": "Can AI Prove Code Never Crashes? | Eureka Reports Oct 24",
+  "titleLength": 56,
+  "description": "Anthropic says Claude proved 239 open-source entry points never crash on covered inputs. Plus OpenAI's no-internet training rule and a fully cited AI wiki.",
+  "descriptionLength": 155,
+  "slug": "2026-10-24-claude-proofs-code-never-crashes",
+  "slugLength": 43,
+  "changes": [
+    "title: changed from 'AI Proofs That Code Won't Crash | Eureka Reports Oct 24' to question form 'Can AI Prove Code Never Crashes? | Eureka Reports Oct 24' (56 chars), matching the headline and the searched phrasing; no other issue in content/digest/ has a similar lead.",
+    "closing H2: 'The check is narrower than the claim' renamed 'Formal proofs, offline training and cited wikis: the check is narrower than the claim' so it names the specific topics.",
+    "image.json alt: shortened from 131 to 113 chars ('...illustrating formal proofs that code never crashes'); caption unchanged.",
+    "unchanged after check: description (155 chars, leads with the finding), three-sentence sixty, deep-dive openers, other H2s, hero filename (ai-formal-proofs-code-circuit-board.webp)",
+    "no FAQ section added: searches surfaced no People Also Ask data for the lead topic"
+  ],
+  "notes": "image.json hero.src still points at /images/eureka/2026-10-24-pending/; caller will move the file and should update the path to match the final slug."
+}

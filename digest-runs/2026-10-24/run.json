@@ -1,0 +1,39 @@
+{
+  "status": "published-draft",
+  "issueDate": "2026-10-24",
+  "window": "Wed Oct 21 \u2013 Fri Oct 23, 2026",
+  "slug": "2026-10-24-claude-proofs-code-never-crashes",
+  "sourcesFailed": [
+    "GitHub search API and repo pages (blocked/403)",
+    "openai.com 403 (read via reader proxy)",
+    "Wayback/archive.today",
+    "Openverse stocksnap/rawpixel (timeouts/500)",
+    "StockSnap direct 403",
+    "Reddit/other company RSS not tried"
+  ],
+  "topics": {
+    "research": "Anthropic: LLMs are making formal software verification feasible at larger scale",
+    "news": "OpenAI says it will no longer train frontier models on the live internet",
+    "invention": "Enron Brain: an AI-written wiki built from 45k Enron emails, every fact cited"
+  },
+  "formats": {
+    "research": "claim-vs-evidence",
+    "news": "qa",
+    "invention": "by-the-numbers"
+  },
+  "factcheck": {
+    "round1": {
+      "pass": 49,
+      "fix": 8,
+      "cut": 1
+    },
+    "round2": {
+      "pass": 24,
+      "fix": 3,
+      "cut": 0,
+      "note": "fixes applied, not re-verified"
+    }
+  },
+  "editor": "PASS (round 1)",
+  "notes": "npm ci fails (lockfile missing yaml@2.9.1); used npm install, lockfile change not committed. Writer rewrite round 1 ran on Opus 5 after fallback."
+}

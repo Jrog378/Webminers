@@ -1,0 +1,222 @@
+{
+ "checked": 27,
+ "passed": 24,
+ "results": [
+  {
+   "citation": "[1]",
+   "sentence": "Anthropic says Claude has written machine-checked proofs that 239 entry points across 123 libraries never crash on any input up to 64 MB; 'over the span of a few weeks'; ~180M lines, ~600,000 typical; 20 MB bug; 'discovered hundreds of bugs'; reward-hacking quote; penalized and audited",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "All match post text exactly (published Oct 22, 2026, Frontier Red Team).",
+   "fix": ""
+  },
+  {
+   "citation": "[1][4]",
+   "sentence": "Table row 1: not releasing proofs that may reveal an unpatched bug, so public release covers 60 of 239, about a quarter",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "Post: 'we are not releasing proofs that may reveal an unpatched bug'. Repo README: '60 entry points in 25 libraries have proofs'. 60/239 = 25.1%. The 'so' is the writer's inference but is phrased as arithmetic from two sourced numbers; acceptable.",
+   "fix": ""
+  },
+  {
+   "citation": "[1][2]",
+   "sentence": "seL4 took two person-years to build and 20 to verify; paper adds about 9 of those 20 went into formal frameworks and tools",
+   "url": "https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf",
+   "verdict": "pass",
+   "evidence": "Post: 'two person-years to implement ... 20 person-years to formally verify'. Paper: 'about 20 py: 9 py went into the formal frameworks and tools' (paper gives 2.2 py total dev).",
+   "fix": ""
+  },
+  {
+   "citation": "[1]",
+   "sentence": "'Formally verified' does not mean 'bug-free'; ASan 'doesn't detect all memory safety bugs'; x86/ARM quote; footnote 'hardware, OS, OCaml compiler'; 'as practical as fuzzing is today'",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "pass",
+   "evidence": "All verbatim in post.",
+   "fix": ""
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Claude wrote around one billion lines; appendix: human experts 'would have immediately introduced abstractions'; agents 'hit a complexity wall'",
+   "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+   "verdict": "pass",
+   "evidence": "Appendix: 'around one billion lines of Rocq proofs'; 'human proof engineers would have immediately introduced abstractions'; 'the agents hit a complexity wall with the verbose proof style' (citing MachCSL, another project).",
+   "fix": ""
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Public release '60 entry points in 25 libraries'; 'none of them rules out a run that never ends'; 'is not covered'; 'does not say that the library is correct'",
+   "url": "https://github.com/theorem-labs/oss-verify-proofs",
+   "verdict": "pass",
+   "evidence": "All in README; release.yaml date 2026-10-22 matches corrected source date.",
+   "fix": ""
+  },
+  {
+   "citation": "[5]",
+   "sentence": "One commenter called it 'not formal verification in the sense of a correctness proof against a full specification'",
+   "url": "https://news.ycombinator.com/item?id=50202977",
+   "verdict": "pass",
+   "evidence": "gr_norm wrote: 'you're correct that this is not formal verification in the sense of a correctness proof against a full specification validated...' and added 'Pretty impressive though.' The commenter is conceding an objection from another user, so 'pushed on the same point' is slightly generous; optional tweak: 'One commenter conceded it is...'.",
+   "fix": "Optional: attribute as a concession and include 'Pretty impressive though.' for balance."
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Jason Gross wrote 'the bottleneck is just scale'",
+   "url": "https://news.ycombinator.com/item?id=50203094",
+   "verdict": "pass",
+   "evidence": "Comment by jasongross: '...because the bottleneck is just scale.' Context is math vs software verification (convex hull hypothesis); 'ceiling' framing is a fair gloss.",
+   "fix": ""
+  },
+  {
+   "citation": "[6]",
+   "sentence": "co-author Jason Gross of Theorem",
+   "url": "https://news.ycombinator.com/item?id=50203094",
+   "verdict": "fix",
+   "evidence": "Anthropic post byline lists Jason Gross as an author (last name in the author list), so 'co-author' is supported. No source I could open states he works at Theorem (byline gives no affiliations; theorem.dev homepage has no mention). HN comment gives only username jasongross, and the comment does not say it is answering an 'AI proof ceiling' worry in those words.",
+   "fix": "Drop 'of Theorem' (write 'co-author Jason Gross') unless an affiliation source is cited."
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Kleppmann, Dec 2025: AI will make formal verification mainstream; quote 'how do you know that the properties that were proved...'",
+   "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
+   "verdict": "pass",
+   "evidence": "Quote verbatim; date 8 Dec 2025; title matches. Source type 'Social' for a personal blog is odd (consider 'Blog/Opinion').",
+   "fix": ""
+  },
+  {
+   "citation": "[8]",
+   "sentence": "Free OSS Verify; FAQ quote 'Findings and patches are generated by AI models, and we don't promise that a person reviews them before we send them'",
+   "url": "https://theorem.dev/oss-verify/",
+   "verdict": "pass",
+   "evidence": "Quote verbatim; 'for free' to qualifying open-source projects. Page shows no date, so source date 2026-10-22 is unverified (plausible; matches release.yaml).",
+   "fix": ""
+  },
+  {
+   "citation": "[9]",
+   "sentence": "OpenAI quotes: responsible approach; 'until advances in these safeguards justify broader internet access'; 'training and most evaluation'; offline world; 'isn't currently feasible'; Sept 20 DNS misconfiguration; resumed Oct 1, '11 days after our pause began'; 'hundreds of billions of tokens'; 'in almost every one'; 'did not find a route...trivially exploit'; Kata, gVisor, Moby",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "verdict": "pass",
+   "evidence": "All verbatim in the post (via r.jina.ai). Note 'For training and most evaluation' is the exact phrase; draft's 'training and most evaluation' is a faithful excerpt.",
+   "fix": ""
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Other traffic 'hit our offline webcache'; monitor flagged within 15 minutes; run killed 2.5 hours later",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "verdict": "pass",
+   "evidence": "Verbatim. Header: Report updated Sep 25, 2026, matches corrected source date.",
+   "fix": ""
+  },
+  {
+   "citation": "[11]",
+   "sentence": "Verge reports OpenAI added monitoring checks for cache-based messages",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "verdict": "pass",
+   "evidence": "'OpenAI says it has added checks to its monitoring system to detect this type of communication' (cache eviction/timing). Author Emma Roth, 2026-10-23 correct.",
+   "fix": ""
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Adler quote via TechCrunch/Fortune; 'perform as well as letting models run freely on the open internet remains to be seen'",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "verdict": "pass",
+   "evidence": "Verbatim; byline Tim Fernholz, 2026-10-23, title matches.",
+   "fix": ""
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Thorsten Holz: 'a strict air gap reduces realism'",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+   "verdict": "pass",
+   "evidence": "Verbatim; Robert Hart, 2026-09-24. Holz is scientific director at Max Planck Institute for Security and Privacy.",
+   "fix": ""
+  },
+  {
+   "citation": "[14]",
+   "sentence": "One Hacker News commenter argued the reverse: 'It's feasible, it'll just slow them down'",
+   "url": "https://news.ycombinator.com/item?id=50216667",
+   "verdict": "pass",
+   "evidence": "Comment by bakies, 2026-10-23, replying to bradleybuda's quote of OpenAI's 'isn't currently feasible'. Quote exact; singular 'one commenter' correct. Source URL now points to the comment.",
+   "fix": ""
+  },
+  {
+   "citation": "[15]",
+   "sentence": "Verge: METR and Redwood found flaws; OpenAI 'has stated' the ones 'that impact their production safeguards stack' are patched",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017179/openais-misalignment-monitoring-system-had-a-number-of-novel-vulnerabilities-third-party-evaluators-found",
+   "verdict": "pass",
+   "evidence": "Verge: 'OpenAI \"has stated\" that the vulnerabilities identified \"that impact their production safeguards stack\" have been patched, METR says.' Sentence is accurately sourced to the Verge; the statement is relayed by METR. Source title minor: actual headline is OpenAI's misalignment monitoring system had 'a number of novel vulnerabilities,' third-party evaluators found. (curly apostrophe, quotation marks around the phrase) ; draft title drops the quotes.",
+   "fix": "Optional: restore quotation marks in source 15 title."
+  },
+  {
+   "citation": "[16]",
+   "sentence": "On Oct 9, Anthropic said it was temporarily cutting live internet access from all internal evaluations, expanding a block already in place for some high-risk and cybersecurity tests, 'until we have confirmed ... reliably catch behaviors like these'; 'are difficult to realistically simulate in an environment without internet access'",
+   "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "verdict": "pass",
+   "evidence": "Post (Oct 9, 2026): 'we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures (...) reliably catch behaviors like these.' Ellipsis in quote is a fair elision. Title and date correct. The word 'temporarily' is a fair reading of 'until we have confirmed'.",
+   "fix": ""
+  },
+  {
+   "citation": "[17]",
+   "sentence": "this+that had an AI read 45,047 Enron emails and write 214 pages; 'Every fact cites the email it came from'; no one edited; prototype of its own product",
+   "url": "https://www.thisandthat.chat/enron/",
+   "verdict": "pass",
+   "evidence": "Verbatim. Page shows no publication date; source date 2026-10-23 is consistent with HN post and methodology 'Generated October 23, 2026'.",
+   "fix": ""
+  },
+  {
+   "citation": "[18]",
+   "sentence": "49,401 facts; 37 of 62,205; 466 of 500 (about 93%); $11,215; 18 cents a fact and $41 a page; 1 in 15",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "All match. $8,857 build + $2,358 checking = $11,215. 18c/$41 are at Opus 5 list prices before batch discount (draft says 'list-price').",
+   "fix": ""
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Judge was Claude Fable 5.1, Claude Opus 5 ran the first three build steps and Opus 5.5 ran only the fourth, verification step",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "'The first three ran on Claude Opus 5. Opus 5.5 launched before the fourth ... we ran the fourth on it.' Step 4 is 'Verify.' Judge: 'a different model, Claude Fable 5.1'.",
+   "fix": ""
+  },
+  {
+   "citation": "[18]",
+   "sentence": "A person blind-graded 50 of the judge's verdicts and agreed with 48. Both disagreements came from a tooling bug that showed the grader a truncated excerpt; re-judged against the full message, both facts were supported",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "fix",
+   "evidence": "Source: 'A person graded 50 of the third audit's fact verdicts blind and agreed with 48. In both disagreements, the excerpt of the message missed the quoted sentence, because of the bug described next. Re-judged against the full message, both facts are supported.' The bug: 'showed some facts an excerpt of their message that missed the quoted sentence' because exact-match search failed on differing line breaks. Nothing says 'truncated'; also the bug affected the judge's input, not 'the grader'.",
+   "fix": "A person blind-graded 50 of the third audit's verdicts and agreed with 48. Both disagreements traced to a tooling bug that gave the judge an excerpt of the message that missed the quoted sentence; re-judged against the full message, both facts were supported."
+  },
+  {
+   "citation": "[18]",
+   "sentence": "'Neither check can tell whether a message was right'; names and email addresses appear as they do in the corpus; phone numbers and credentials are masked",
+   "url": "https://www.thisandthat.chat/enron/methodology.html",
+   "verdict": "pass",
+   "evidence": "Verbatim; masking 'by pattern' (a form the patterns miss could remain, not mentioned but not a contradiction).",
+   "fix": ""
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Reynar: 'The hardest part was that the model already knows Enron. It kept adding details from the public record that the email didn't contain'; commenter: 'one incorrect fact could be very damaging and it's very hard to check them all'; Reynar replied people approve proposed changes",
+   "url": "https://news.ycombinator.com/item?id=50207620",
+   "verdict": "pass",
+   "evidence": "jreynar comment 50207626 ('one of the founders') and grey-area 50212067, reply 50212460 ('we ask people to approve changes to a company brain that are proposed'). Quotes verbatim. Draft puts one period after 'contain' inside the quote; source has period too.",
+   "fix": ""
+  },
+  {
+   "citation": "[20][21]",
+   "sentence": "One fact faithfully cites a staffer's email saying 'dynegy has aquired us', yet the same page records that Dynegy later terminated the merger",
+   "url": "https://www.thisandthat.chat/enron/dynegy.sources.json",
+   "verdict": "pass",
+   "evidence": "sources.json s746 (matthew.lenhart@enron.com, 2001-11-09): 'they inked the deal. dynegy has aquired us.' Fact f67 in dynegy.page.json (not in the listed sources) cites s746: 'Enron's Matthew Lenhart wrote ... Dynegy had acquired Enron.' dynegy.html summary: 'agreed to acquire Enron in November 2001, then terminated the merger'. Supported, but the fact text itself lives in dynegy.page.json, and [20] alone does not support the termination clause; the double cite [20][21] handles that. 'faithfully' is the writer's characterization of a fact that restates a loose email; acceptable.",
+   "fix": ""
+  },
+  {
+   "citation": "[1][17]",
+   "sentence": "Anthropic ... the startup Theorem; the startup this+that",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "verdict": "fix",
+   "evidence": "Neither Anthropic's post, theorem.dev/oss-verify, the this+that pages, nor the HN thread calls either company a 'startup'. Anthropic says only 'our collaborator'; this+that says 'We're this+that. We made these pages with a prototype of something we're building.' Appears in sixty[0], sixty[2], the research text ('verification startup Theorem') and the invention text ('The startup this+that').",
+   "fix": "Replace 'startup' with 'company' (or cite a source that describes them as startups)."
+  }
+ ]
+}

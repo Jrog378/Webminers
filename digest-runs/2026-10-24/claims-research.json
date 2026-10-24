@@ -1,0 +1,378 @@
+[
+  {
+    "id": "research-01",
+    "claim": "Anthropic (with Theorem) says Claude proved security properties at the RISC-V assembly level in over 100 real-world open-source libraries, calling it the first large-scale effort of its kind (company claim).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Using Claude, we proved security properties at the assembly code level (RISC-V) in over 100 real-world open-source software libraries. To our knowledge, this represents the first large-scale effort to use AI to apply formal verification to production software at the assembly code level.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-02",
+    "claim": "Headline result: no-crash proofs for 239 entry points across 123 OSS-Fuzz libraries, done over a few weeks (company claim).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Over the span of a few weeks, Claude successfully patched the bugs it found and then proved that there are no crashes on any input (up to 64 MB) for 239 entry points across 123 different OSS-Fuzz libraries.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-03",
+    "claim": "Proofs total about 180 million lines of Rocq; typical proof ~600,000 lines; median binary 18,000 RISC-V instructions (company claim).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "they comprise about 180 million lines of Rocq, with a typical proof running to about 600,000 lines to provide security guarantees on binaries with a median length of 18,000 RISC-V instructions",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-04",
+    "claim": "The proofs assume a single-threaded static binary with fixed memory budget on RISC-V under Linux.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "namely that the program runs as a single-threaded static binary with a fixed memory budget on a RISC-V",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-05",
+    "claim": "Anthropic states the trusted components are the RISC-V and Linux process models, the theorem statements, and the Rocq checker.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "As a result, the only artifacts that a developer needs to trust are:\nThe formal models of RISC-V and of Linux processes;\nThe exact theorem statements that were proved;\nThe Rocq proof checker itself.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-06",
+    "claim": "Footnote: trust also extends to hardware, OS and OCaml compiler under Rocq.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "This technically also means we have to trust the hardware, OS, OCaml compiler that the Rocq proof checker relies on.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-07",
+    "claim": "Anthropic: proving uncovered bugs fuzzers would unlikely find, incl. a counter underflow on ~20 MB inputs and a rediscovery of CVE-2026-56132 in libexpat (company claim; libraries mostly unnamed).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Claude found a counter underflow in its copy of a decompressor that led to an out-of-bounds write, but only on inputs of around 20 MB that had one rare, specific layout. Other bugs include an out-of-bounds read in an image decoder that needed a 64 MB input and over 2 GB of memory",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-08",
+    "claim": "Anthropic says the proof attempts discovered hundreds of bugs (company claim).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "For this reason, the process of attempting to prove these specs discovered hundreds of bugs.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-09",
+    "claim": "Reward hacking risk acknowledged: Claude could rewrite programs to trivially never crash; patches were penalized and audited.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "In this context, Claude could make any theorem provable by rewriting the program into one that trivially never crashes. To discourage this, we penalized any patch and offered extra credit for proving which inputs it changes and how few they are. We also logged and audited the patches for these failure modes.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-10",
+    "claim": "Anthropic cites seL4: two person-years to implement, 20 to verify.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "it took two person-years to implement the seL4 operating system kernel, but 20 person-years to formally verify it",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-11",
+    "claim": "seL4 paper (peer-reviewed, ACM TOCS 2014): 2.2 py development, ~20 py proof, of which 9 py went to frameworks/tools and 11 py to the seL4-specific proof.",
+    "url": "https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf",
+    "quote": "was 2.2 person-years (py), the total effort of the seL4\ncorrectness proof was about 20 py: 9 py went into the formal frameworks and tools, and\n11 py on the seL4-specific proof",
+    "sourceType": "Paper",
+    "date": "2014-02-01"
+  },
+  {
+    "id": "research-12",
+    "claim": "Zlib (RFC 1950) case: Claude wrote the spec and proved the Linux kernel zlib x86 binary implements it, using Claude-generated x86 semantics (company claim).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Then, we had Claude prove that the zlib implementation in the Linux kernel correctly implements that spec. As with the examples above, Claude proved this property at the binary level, except instead of RISC-V, Claude directly proved the x86-compiled binary using Claude-generated (and heavily tested) formal semantics of the x86 ISA.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-13",
+    "claim": "Python-in-Rust interpreter proven with Verus; matched CPython in 99.95% of 1.7M random programs (company claim; code not published).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "running over 1.7 million randomly generated Python programs, finding identical behavior with CPython in 99.95% of tests",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-14",
+    "claim": "Appendix: of seven injected bugs, five survived random tests while all seven broke the proof.",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "we deliberately injected seven bugs into an early\nversion of the interpreter. Five survived the random tests, while all seven broke the proof.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-15",
+    "claim": "PDF reader: one week found as many security bugs as typically reported in a year (company claim; reader unnamed).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "During an effort to verify a widely used PDF reader, we found as many security bugs in one week as are typically reported in a year.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-16",
+    "claim": "Opus 5.5 proves half of 36 small verification tasks with about 40% fewer tokens than Opus 5 (Anthropic eval).",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Opus 5.5 proves half of them with about 40% fewer tokens than Opus 5. We expect this trend to continue as models are trained on long verification tasks.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-17",
+    "claim": "Shared proof workspace cut tokens by 17%.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "When given access to this shared workspace, agents needed 17% fewer tokens than when they worked alone",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-18",
+    "claim": "Authors' own limitation: formally verified does not mean bug-free.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "“Formally verified” does not mean “bug-free.”",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-19",
+    "claim": "Authors' limitation: proofs cover static musl-linked RISC-V binaries while most users run x86/ARM with dynamic glibc.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "Our proofs are about single-threaded, static RISC-V binaries linked against musl libc. However, most people run these libraries on x86 or ARM and dynamically link them against glibc.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-20",
+    "claim": "Authors' limitation: ASan misses some memory-safety bugs and not all entry points were verified.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "However, ASan doesn’t detect all memory safety bugs, and we didn’t verify all the entry points for each library.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-21",
+    "claim": "Anthropic's conclusion/prediction: verification will soon be as practical as fuzzing for almost all production software.",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "quote": "formal verification, which was historically practical only for bespoke expert-crafted guarantees in the most safety-critical code, will soon be as practical as fuzzing is today for almost all production software",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-22",
+    "claim": "Appendix: Claude wrote ~1 billion lines of Rocq; ~180M ended up in passing proofs.",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "Claude ended up writing around one billion lines of Rocq proofs in this project in its\nattempt to prove a few hundred OSS Fuzz entry points ASan-crash-free. About 180 million\nof these ended up being part of proofs that successfully passed the proof checker",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-23",
+    "claim": "Appendix: equivalence definition lets a crash or silent infinite loop simply end the trace.",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "if a program crashes, its trace does not include the crash\nitself—the trace simply ends. This is also the case if the program enters a (silent) infinite\nloop.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-24",
+    "claim": "Appendix expert section: agent proofs are verbose; humans would have introduced abstractions.",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "However,\nhuman proof engineers would have immediately introduced abstractions to factor out\nthese types of repetitive specifications and proofs",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-25",
+    "claim": "Appendix: MachCSL experience suggests agents may hit a complexity wall with the verbose style.",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "Experience from other\nagent-based verification projects, such as MachCSL, suggests that the answer might be no:\nthe agents hit a complexity wall with the verbose proof style",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-26",
+    "claim": "Appendix's LZO harness excerpt asserts success and equal length (the appendix describes it as getting back as many bytes).",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+    "quote": "asserts that both steps succeed and that it gets back exactly as many bytes as it\nstarted with",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-27",
+    "claim": "Public release covers 60 entry points in 25 libraries (vs 239/123 headline).",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "quote": "60 entry points in 25 libraries have proofs.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-28",
+    "claim": "Released proofs do not prove termination; none rules out a never-ending run.",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "quote": "An agreement statement does not exclude a run that never ends. Only a halts statement does. No proof in this release proves a halts statement, so none of them rules out a run that never ends.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-29",
+    "claim": "Released proofs are about static riscv64 musl binaries, not source or x86-64 OSS-Fuzz builds; library correctness not claimed.",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "quote": "It does not say that the library is correct. Errors that the sanitizers cannot detect are not excluded: for example, a wrong result or a memory leak.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-30",
+    "claim": "Release status across OSS-Fuzz statements: 20,164 statements, 138 proved, 19,797 open.",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "quote": "In this release: 20,164 statements: 138 proved, 0 known false",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-31",
+    "claim": "Memory budget is a premise; inputs needing more memory are not covered.",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "quote": "The budget is a premise: an input on which the plain build needs more memory is not covered.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-32",
+    "claim": "Linux process semantics model (LPS) is self-described as incomplete.",
+    "url": "https://github.com/theorem-labs/rocq-linux-process-semantics",
+    "quote": "The model is not complete. It models part of Linux, and it uses\nassumptions that it does not check. A proof is only as good as the model.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-33",
+    "claim": "Theorem offers OSS Verify free to qualifying open-source projects; AI-generated findings not guaranteed human-reviewed.",
+    "url": "https://theorem.dev/oss-verify/",
+    "quote": "Findings and patches are generated by AI models, and we don’t promise that a person reviews them before we send them.",
+    "sourceType": "Official",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-34",
+    "claim": "Theorem estimate: 95% of nixpkgs machine code verifiable for ~$134M by end of 2027, conditional on fast model improvement (company claim).",
+    "url": "https://theorem.dev/blog/verified-software-stack/",
+    "quote": "if models can be made to improve at verification much faster than they improve overall, 95% of nixpkgs’ machine code could be verified for about $134M.",
+    "sourceType": "Official",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "research-35",
+    "claim": "Theorem eval: verification speed doubled about every two months May–Sept 2026 (company eval).",
+    "url": "https://theorem.dev/blog/verified-software-stack/",
+    "quote": "Across seven Anthropic and OpenAI models released between May and September 2026, verification speed doubled about every two months",
+    "sourceType": "Official",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "research-36",
+    "claim": "The LWN link Anthropic cites for 'over 1,000' Linux vulnerabilities is Debian advisory DSA-6528-1 (kernel); it lists 1,313 unique CVE IDs (count by researcher).",
+    "url": "https://lwn.net/Articles/1097401/",
+    "quote": "Debian Security Advisory DSA-6528-1",
+    "sourceType": "Reporting",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "research-37",
+    "claim": "MachCSL preprint (Kaashoek, Zeldovich): agents helped verify xv6 on RISC-V; 11 xv6 bugs found; 102 days.",
+    "url": "https://arxiv.org/abs/2609.04043",
+    "quote": "In the verification process, we uncovered 11 bugs in the xv6 implementation, as well as one bug in the Sail RISC-V semantics, and one bug in Sail's Lean extraction. The verification effort took us 102 days",
+    "sourceType": "Paper",
+    "date": "2026-09-03"
+  },
+  {
+    "id": "research-38",
+    "claim": "Kleppmann (Dec 2025) predicted AI would bring formal verification mainstream, with spec-writing as the remaining challenge.",
+    "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
+    "quote": "the challenge will move to correctly defining the specification: that is, how do you know\nthat the properties that were proved are actually the properties that you cared about?",
+    "sourceType": "Reporting",
+    "date": "2025-12-08"
+  },
+  {
+    "id": "research-39",
+    "claim": "HN thread: 437 points (at fetch time).",
+    "url": "https://news.ycombinator.com/item?id=50202217",
+    "quote": "LLMs are making formal software verification feasible at a much larger scale",
+    "sourceType": "Social",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-40",
+    "claim": "HN top comment cites the appendix MachCSL caveat and argues it supports a 'convex hull' limit.",
+    "url": "https://news.ycombinator.com/item?id=50202573",
+    "quote": "IMO this observation from Anthropic/Theorem lends more credibility to the convex hull hypothesis.",
+    "sourceType": "Social",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "research-41",
+    "claim": "Co-author Jason Gross on HN: in software verification the bottleneck is scale, not out-of-distribution generalization.",
+    "url": "https://news.ycombinator.com/item?id=50203094",
+    "quote": "In software verification, you can verify just about all the software that exists despite the convex hull hypothesis, because the bottleneck is just scale.",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-42",
+    "claim": "HN: this is not full-spec correctness verification.",
+    "url": "https://news.ycombinator.com/item?id=50202977",
+    "quote": "However, you're correct that this is  not  formal verification in the sense of a correctness proof against a full specification validated to capture what the program is intended to do.",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-43",
+    "claim": "HN: spec may be AI-generated and gamed.",
+    "url": "https://news.ycombinator.com/item?id=50205480",
+    "quote": "Is the spec also AI generated, and could the models lie to make a spec they can verify, just like they lie to make tests pass?",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-44",
+    "claim": "HN: ASan-based methodology seems less general than it sounds.",
+    "url": "https://news.ycombinator.com/item?id=50211191",
+    "quote": "the fact that you need ASan in there makes it seem like this is less general than it sounds",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-45",
+    "claim": "HN: scale itself is the new technique.",
+    "url": "https://news.ycombinator.com/item?id=50205258",
+    "quote": "No human would dream of writing 600,000 lines of Rocq to verify one binary.",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-46",
+    "claim": "HN: skepticism about unpublished Python interpreter.",
+    "url": "https://news.ycombinator.com/item?id=50203692",
+    "quote": "Anthropic would have published it if they did",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "research-47",
+    "claim": "HN: practitioner merges agent PRs backed by Rocq equivalence proofs (unverified, closed source).",
+    "url": "https://news.ycombinator.com/item?id=50203196",
+    "quote": "just confidently merge it because the PR has a Rocq proof that it's behaviorally equivalent to the original implementation",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  }
+]

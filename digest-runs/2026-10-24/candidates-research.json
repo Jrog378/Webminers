@@ -1,0 +1,190 @@
+{
+ "section": "research",
+ "window": "Wed Oct 21 - Fri Oct 23, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers (10-21, 10-22, 10-23)",
+   "status": "ok"
+  },
+  {
+   "name": "arXiv API",
+   "status": "not queried (HF listing already linked to arXiv primary sources)"
+  },
+  {
+   "name": "bioRxiv/medRxiv, OpenAlex, Nature/Science/MIT TR RSS",
+   "status": "not queried"
+  },
+  {
+   "name": "HN Algolia / Reddit signal",
+   "status": "not queried"
+  },
+  {
+   "name": "content/digest/_topics.json",
+   "status": "ok, no overlap found"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+   "summary": "Unified benchmark over five tasks (avatar dialogue, performance, world generation, instruction and reference editing) for real-time interactive video generation.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.28402",
+   "hfUrl": "https://huggingface.co/papers/2610.28402",
+   "date": "2026-10-22",
+   "signal": "HF Daily Papers 430 upvotes, 1 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Matrix-Game 4.0: Real-Time Playable Game Worlds from Video Models",
+   "summary": "Separates game execution (rules, persistent state) from visual generation via an executable game harness for low-latency playable worlds.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.27999",
+   "hfUrl": "https://huggingface.co/papers/2610.27999",
+   "date": "2026-10-21",
+   "signal": "HF Daily Papers 194 upvotes, 2 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+   "summary": "Trains looped language models so each iteration advances state a controlled amount, letting extra test-time iterations help on longer problems.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.27628",
+   "hfUrl": "https://huggingface.co/papers/2610.27628",
+   "date": "2026-10-21",
+   "signal": "HF Daily Papers 160 upvotes, 2 comments",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+   "summary": "Studies brain-body mismatch when an agent scaffold and its model co-evolve in recursive self-improving agents.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.25078",
+   "hfUrl": "https://huggingface.co/papers/2610.25078",
+   "date": "2026-10-21",
+   "signal": "HF Daily Papers 120 upvotes, 3 comments",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+   "summary": "Argues GUI agent safety is a property of screen transitions, not screens, and uses world models to verify them.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.11942",
+   "hfUrl": "https://huggingface.co/papers/2610.11942",
+   "date": "2026-10-22",
+   "signal": "HF Daily Papers 115 upvotes, 2 comments",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Cache Engineering for Agents",
+   "summary": "Treats KV cache I/O, storage and active growth as the dominant cost in long agent trajectories and proposes cache control.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.28577",
+   "hfUrl": "https://huggingface.co/papers/2610.28577",
+   "date": "2026-10-22",
+   "signal": "HF Daily Papers 139 upvotes, 1 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Deep Search in Real-World Web Environments",
+   "summary": "Benchmark of end-to-end deep search agents on the live open web across sources, modalities and formats.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.30181",
+   "hfUrl": "https://huggingface.co/papers/2610.30181",
+   "date": "2026-10-23",
+   "signal": "HF Daily Papers 151 upvotes, 1 comments",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+   "summary": "Tests whether VLM agents can build accurate metric maps through autonomous exploration.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.26659",
+   "hfUrl": "https://huggingface.co/papers/2610.26659",
+   "date": "2026-10-22",
+   "signal": "HF Daily Papers 147 upvotes, 3 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+   "summary": "48 tasks, 40k+ items testing routers, guardrails and verifiers for consistency and calibration, beyond item accuracy.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.28522",
+   "hfUrl": "https://huggingface.co/papers/2610.28522",
+   "date": "2026-10-21",
+   "signal": "HF Daily Papers 73 upvotes, 3 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Toward Recursive Self-Improvement in Physical AI",
+   "summary": "Extends self-rewriting agent ideas to the physical world, learning from partial observations.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.29677",
+   "hfUrl": "https://huggingface.co/papers/2610.29677",
+   "date": "2026-10-23",
+   "signal": "HF Daily Papers 46 upvotes, 1 comments",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "Summaries are from HF abstract excerpts; arXiv URLs derived from HF paper IDs, not separately fetched."
+}

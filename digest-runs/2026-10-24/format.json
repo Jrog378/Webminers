@@ -1,0 +1,30 @@
+{
+  "order": ["research", "news", "invention"],
+  "headlineStyle": "question",
+  "sections": {
+    "research": {
+      "format": "claim-vs-evidence",
+      "words": 650,
+      "why": "Anthropic/Theorem headline numbers (239 entry points, ~180M lines of Rocq, 'always exits') are all company claims, and the released artifacts show gaps (no halts proofs, 60 of 239 entry points public, narrower LZO check). A claims table with analysis fits; qa and explainer are alternatives but the contrast table is the sharpest shape. Writer: say 'never crashes on covered inputs', not 'always exits'."
+    },
+    "news": {
+      "format": "qa",
+      "words": 520,
+      "why": "The topic is easy to misread (policy covers RL training/evaluation sandboxes and an offline cached web, not web-data pretraining), and the debate is contested (why not a true air gap, cost, self-reported red-teaming). 4-6 reader questions let us correct the framing first. Title in topics.json is misleading; use the accurate framing. Timeline avoided: used for news on Oct 21."
+    },
+    "invention": {
+      "format": "by-the-numbers",
+      "words": 380,
+      "why": "Enron Brain is a numbers-rich demo (45,047 emails, 214 pages, 49,401 facts, 37 of 62,205 quotes failed, 466/500 supported, 48/50 human agreement, ~$11,215). Figures plus an honest caveat on AI-judging-AI and training-data leakage. Explainer not used (kept off this issue); comparison used on Sep 30 and Oct 7."
+    }
+  },
+  "recentCombos": {
+    "2026-09-30": "research by-the-numbers / news claim-vs-evidence / invention comparison",
+    "2026-10-03": "research explainer / news claim-vs-evidence / invention three-things",
+    "2026-10-07": "research qa / news claim-vs-evidence / invention comparison",
+    "2026-10-10": "research by-the-numbers / news three-things / invention explainer",
+    "2026-10-21": "research claim-vs-evidence / news timeline / invention qa",
+    "thisIssue": "research claim-vs-evidence / news qa / invention by-the-numbers (new)"
+  },
+  "headlineNote": "Previous issue (Oct 21) used a claim headline; Oct 10 was number-led, Oct 3 question. Question chosen. Keep geography and politics out."
+}

@@ -103,5 +103,26 @@
     "title": "Sphinx: a git hook that quizzes you on your AI agent's code before shipping",
     "primaryUrl": "https://sphinx-six-theta.vercel.app/",
     "slug": "2026-10-21-meta-muse-chat-sharing-paused"
+  },
+  {
+    "date": "2026-10-24",
+    "section": "news",
+    "title": "OpenAI says it will no longer train frontier models on the live internet",
+    "primaryUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "slug": "2026-10-24-claude-proofs-code-never-crashes"
+  },
+  {
+    "date": "2026-10-24",
+    "section": "research",
+    "title": "Anthropic: LLMs are making formal software verification feasible at larger scale",
+    "primaryUrl": "https://www.anthropic.com/research/formal-verification",
+    "slug": "2026-10-24-claude-proofs-code-never-crashes"
+  },
+  {
+    "date": "2026-10-24",
+    "section": "invention",
+    "title": "Enron Brain: an AI-written wiki built from 45k Enron emails, every fact cited",
+    "primaryUrl": "https://www.thisandthat.chat/enron/",
+    "slug": "2026-10-24-claude-proofs-code-never-crashes"
   }
 ]
