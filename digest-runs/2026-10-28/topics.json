@@ -1,0 +1,90 @@
+{
+  "research": {
+    "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+    "primaryUrl": "https://arxiv.org/abs/2610.33413",
+    "why": "Highest general-reader significance in the pool: finding a few doctored seconds hidden inside an otherwise real long video is the realistic deepfake threat, and it is easy to explain. Not covered in the last 8 weeks. arXiv abstract page is the primary source. The scout summarized from the HF abstract only, so the writer must read the paper (method, dataset, numbers) before drafting.",
+    "runnersUp": [
+      {
+        "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+        "primaryUrl": "https://arxiv.org/abs/2610.33512",
+        "note": "Strong significance (models gaming their graders); low momentum and more technical."
+      },
+      {
+        "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+        "primaryUrl": "https://arxiv.org/abs/2610.33956",
+        "note": "Good significance; benchmark papers are harder to make vivid."
+      },
+      {
+        "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+        "primaryUrl": "https://arxiv.org/abs/2610.33568",
+        "note": "Top momentum (331 HF upvotes) but niche training-data topic for a general reader."
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Trial by Trace: Benchmarking AI Agent Harnesses",
+        "reason": "Same topic as 2026-10-10 research pick 'From Evidence to Action: How Tool-Using Agents Fail' (agent failure analysis), within 8 weeks, and no material update to that story."
+      },
+      {
+        "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+        "reason": "Survey with low novelty, flagged as overlapping prior coverage."
+      }
+    ]
+  },
+  "news": {
+    "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis",
+    "primaryUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "secondaryPrimaryUrl": "https://github.com/anthropics/formal-math/tree/main/eth",
+    "why": "Clearly the most significant story in the window. Two labs say models refuted a central conjecture in complexity theory. Merge the Oct 26 OpenAI 'three discoveries plus academic program' item into it. Not covered before: the Oct 24 issue was about formal software verification, not this result. Caveat: the scout could not fetch the OpenAI page. The writer must check the claim against a fetchable primary source (try the Anthropic formal-math repo, which may hold the machine-checked proof, then the OpenAI page) and include expert caveats from TechCrunch and The Verge. If neither primary source can be fetched, fall back to the runner-up.",
+    "coverage": [
+      "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+    ],
+    "runnersUp": [
+      {
+        "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+        "primaryUrl": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+        "note": "Significant safety story, but no Anthropic primary found and exact date unconfirmed."
+      },
+      {
+        "title": "Google's Genie 4 world model adds audio, realistic worlds, real-time steering",
+        "primaryUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+        "note": "No Google primary fetched."
+      },
+      {
+        "title": "Anthropic files for its public debut",
+        "primaryUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+        "note": "High momentum but a finance story with only secondary sourcing."
+      }
+    ]
+  },
+  "invention": {
+    "title": "Hob: open-source desktop app that runs a Cowork-style file agent entirely on local open-weight models",
+    "primaryUrl": "https://github.com/FrigadeHQ/hob",
+    "why": "Most significant and useful build in the window: a private, offline file agent on your own hardware under the MIT license, plus a real lesson that small models' tool calls needed code guards, not better prompts. Strong HN signal (164 pts, 42 comments, https://news.ycombinator.com/item?id=50246238). Caveat: the repo page was not fetchable and the details come from the author's HN post. The writer must confirm the license, platforms and model list from the repo or README before drafting. If that fails, use ADRs for AI.",
+    "runnersUp": [
+      {
+        "title": "ADRs for AI: deliberation records for human-AI work, versioned in Git",
+        "primaryUrl": "https://adrs.systems",
+        "note": "Fetchable site, solid discussion (56 comments); narrower appeal."
+      },
+      {
+        "title": "Farol: a risk map of a pull request for the person who approves it",
+        "primaryUrl": "https://github.com/winnin/farol",
+        "note": "Close in theme to Sphinx (2026-10-21), and the repo could not be fetched."
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Hurston-1 TTS for Southern American and Afro-English speech",
+        "reason": "Framed around a region and dialect group, which conflicts with the no-geography rule."
+      },
+      {
+        "title": "Steal My Bitcoin PHP RCE bounty",
+        "reason": "Large momentum but not an AI invention; weak significance for this issue."
+      }
+    ]
+  },
+  "thread": "Each pick is about checking AI output rather than trusting it: machine-checked proofs behind a big math claim, forensics that find a few faked seconds in a real video, and code guards that stop small local models from making bad tool calls.",
+  "skipped": []
+}

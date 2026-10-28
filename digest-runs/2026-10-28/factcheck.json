@@ -1,0 +1,462 @@
+{
+ "checked": 57,
+ "passed": 50,
+ "results": [
+  {
+   "citation": "[1][2]",
+   "sentence": "OpenAI and Anthropic each say an internal AI model found an algorithm that refutes ETH.",
+   "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "verdict": "pass",
+   "evidence": "OpenAI abstract: 'Our algorithm refutes the Exponential Time Hypothesis'; Anthropic README/paper: internal Claude research model.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "No person is known to have checked Anthropic's machine-checked proof.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper: 'at the time of writing no person is known to have checked it'.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "ETH description: 3-SAT worst case exponential in n.",
+   "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Abstract: ETH 'postulates that deciding 3-SAT on n variables requires 2^Omega(n) time'.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Claude literature search found more than 800 papers whose results hold only under ETH or stronger.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper: 'more than 800 papers that prove at least one result of their own only under ETH or under a hypothesis that implies it'.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "TechCrunch says many papers that rely on ETH 'will need to be revisited'.",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "verdict": "fix",
+   "evidence": "TC text: papers 'that will need to be revisited if the AI labs claims that they've proven it wrong holds up, Williams said.' It is conditional and attributed to Williams, not TC's own assertion.",
+   "fix": "Say: Williams told TechCrunch that many papers relying on ETH 'will need to be revisited' if the labs' claims hold up."
+  },
+  {
+   "citation": "[1][4]",
+   "sentence": "Both describe subexponential-time algorithms.",
+   "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "verdict": "pass",
+   "evidence": "OpenAI: 'subexponential time'; Anthropic README: 2^o(n).",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Previous record for deterministic 3-SAT, O(1.328^n).",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper intro cites O(1.328^n) deterministic [Liu18].",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Core algorithm found Oct 16 using 14 million output tokens 'and no human input'; researchers helped improve presentation.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper: 'found on October 16 by an internal Claude research model with 14M output tokens and no human input. Anthropic researchers worked with Claude to improve the presentation'. Quote 'and no human input' matches.",
+   "fix": null
+  },
+  {
+   "citation": "[1]",
+   "sentence": "OpenAI preprint dated Oct 17, revised Oct 25.",
+   "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "verdict": "pass",
+   "evidence": "'Date: 17 October 2026, revised 25 October 2026.'",
+   "fix": null
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Comes from an unnamed internal model.",
+   "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "verdict": "pass",
+   "evidence": "openai/math README: 'unnamed internal OpenAI model' (verified via raw README).",
+   "fix": null
+  },
+  {
+   "citation": "[6][3]",
+   "sentence": "One of three big results OpenAI released, spanning 'math, physics and computer science'.",
+   "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/",
+   "verdict": "pass",
+   "evidence": "SciAm: 'three massive proofs that touched on math, physics and computer science'. TC: 'three blockbuster math problems'.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Anthropic's paper acknowledges OpenAI's claim as independent and concurrent.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "'Independently and concurrently, an internal model at OpenAI claims to have proven a similar result'.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Alpoge suggested OpenAI was basing its solutions on 'pre-existing work'.",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "verdict": "fix",
+   "evidence": "TC paraphrases without quotation marks: 'suggested that OpenAI was basing its solutions on pre-existing work' (about its solutions generally, not specifically ETH). The draft's quote marks make TC's wording look like Alpoge's.",
+   "fix": "Remove the quotation marks around pre-existing work and say TC reports he suggested this about OpenAI's solutions."
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Lean proofs rest only on three standard axioms and pass three checkers incl. independent nanoda.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper: kernel, leanchecker, and independently implemented kernel nanoda via Comparator; axioms propext, Classical.choice, Quot.sound.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "AI wrote the Lean code, other instances reviewed; quote 'At the time of writing no person is known to have checked it'.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Matches (lowercase 'at' in source).",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Lean proof differs from printed; only AI models compared the two.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Appendix E: 'AI models, not a mechanical check, compared the Lean proof with the printed one'.",
+   "fix": null
+  },
+  {
+   "citation": "[4]",
+   "sentence": "README: 'no machine checks that this file says what the paper says'.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Exact in eth/README.md.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Forklog reports OpenAI's proof was formalized in Lean on Oct 19.",
+   "url": "https://forklog.com/en/openai-says-its-ai-refuted-the-exponential-time-hypothesis/",
+   "verdict": "cut",
+   "evidence": "Forklog says 'The AI produced the proof on October 18, and on October 19 it was formalized in Lean' in the paragraph on the local smoothing/Kakeya/Stein results, not ETH. Forklog gives no Lean date for ETH. Draft misattributes it. (Forklog also is an AI-translated crypto outlet, a weak secondary source.)",
+   "fix": "Cut the sentence and the 'could not confirm' follow-up. Keep only the openai/math README line that not all results have Lean versions, or state that no public Lean formalization of the ETH result was found."
+  },
+  {
+   "citation": "[5]",
+   "sentence": "OpenAI repo says results are 'at different stages of verification' and not all have Lean versions.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "README: 'results at different stages of verification. Not all have accompanying Lean formalizations.'",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Anthropic says result 'does not bear on the P vs NP question directly' and yields no practical algorithms.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Exact phrase in intro.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Bound beats brute force only when n tops 10^10,000 on its test formulas.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "Paper: for 3-CNF with m=5n clauses, no improvement 'unless n > 10^10000'; bound in n alone not before 10^(10^8). Draft's wording is accurate for the m=5n case.",
+   "fix": null
+  },
+  {
+   "citation": "[2]",
+   "sentence": "Brute force 'is already impractical for n = 100'.",
+   "url": "https://raw.githubusercontent.com/anthropics/formal-math/main/eth/paper.pdf",
+   "verdict": "pass",
+   "evidence": "'Brute force enumeration is already impractical for n = 100'.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "SciAm calls OpenAI's algorithm 'just a tiny bit faster than exponential time'.",
+   "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Williams: 'should probably put a little more weight on the plausibility of P = NP'.",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "verdict": "pass",
+   "evidence": "Exact: 'Every computer scientist should probably put a little more weight on the plausibility of P = NP, but one's weight may vary'.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Williams said OpenAI 'checked, and they were reasonably confident' no breaks.",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "verdict": "pass",
+   "evidence": "TC: 'apparently, they checked, and they were reasonably confident that this didn't ... imply any breaks' (asked of Dan Roberts). Draft's secondhand framing is right.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "OpenAI's outside reviewers are Williams, Impagliazzo, Paturi; Gross leads physics group.",
+   "url": "https://forklog.com/en/openai-says-its-ai-refuted-the-exponential-time-hypothesis/",
+   "verdict": "pass",
+   "evidence": "Forklog (and SciAm for the three CS reviewers) confirm.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "They say participation 'should not be taken as an endorsement'.",
+   "url": "https://forklog.com/en/openai-says-its-ai-refuted-the-exponential-time-hypothesis/",
+   "verdict": "fix",
+   "evidence": "Forklog (AI-translated) paraphrases: 'The researchers emphasized that their participation should not be taken as an endorsement of OpenAI's conclusion.' Not a direct quote from the researchers.",
+   "fix": "Drop quotation marks or write: Forklog reports the researchers stressed their participation is not an endorsement."
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Work is voluntary and unpaid.",
+   "url": "https://forklog.com/en/openai-says-its-ai-refuted-the-exponential-time-hypothesis/",
+   "verdict": "pass",
+   "evidence": "Forklog: participation in the research groups will be voluntary and unpaid.",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "Williams sees 'two or three alien-looking parts'; 'I don't think that OpenAI's algorithm could possibly be the best algorithm you can get'; open letter; 'DDOS attack on mathematicians'.",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "verdict": "pass",
+   "evidence": "All exact in TC.",
+   "fix": null
+  },
+  {
+   "citation": "[6]",
+   "sentence": "Model behind OpenAI's proofs remains proprietary.",
+   "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/",
+   "verdict": "pass",
+   "evidence": "'The LLM ... remains proprietary'.",
+   "fix": null
+  },
+  {
+   "citation": "[8][9]",
+   "sentence": "Preprint posted to arXiv Oct 24 reports AV chat models no better than coin flip.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "arXiv 2610.33413 submitted 24 Oct 2026; zero-shot 'near-chance'; 51-52 AUROC.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "'A few manipulated seconds can change the meaning of an otherwise authentic video'; replaced sentence / inserted sound examples.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "Exact in Introduction.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Qwen2.5-Omni and Qwen3-Omni scored 51 to 52 detection AUROC.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "'reach only 51-52 detection AUROC'.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Linear probes reached 90.8 audio, 80.8 visual AUROC.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "[8]",
+   "sentence": "Authors conclude evidence 'is encoded in these representations but not effectively exposed through language outputs'.",
+   "url": "https://arxiv.org/abs/2610.33413",
+   "verdict": "pass",
+   "evidence": "Abstract: 'suggesting manipulation evidence is encoded in these representations but not effectively exposed through language outputs'. Authors say 'suggesting'; 'conclude' is slightly stronger.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "NFSR: 96.04 detection AUROC, 91.30 AV-mAP; UMMAFormer 84.76; FAR 2.97-4.67% vs 5% budget.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "All exact.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "16,650 pairs, 33,300 videos, about 998 hours; metadata classifiers at most 54.6 AUROC; median 88 s; 9.45%; event ~9 s.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "All exact (998.1 h counts both twins).",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "ActivityNet, EPIC-KITCHENS-100, HDTF; Gemini 3.7 Flash planner; second model verifies; two reviewers on all 22,153 events; third adjudicates 7.7%.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "All confirmed in Sec 3.2 and App A.4.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "NFSR top AV-mAP in all three OOD tests; held-out TASLE videos used as a test.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "Abstract and intro confirm.",
+   "fix": null
+  },
+  {
+   "citation": "[10]",
+   "sentence": "FakeParts found partial fakes cut human detection accuracy by up to 26% vs traditional deepfakes.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "arXiv 2508.21052 abstract: 'user studies demonstrate that FakeParts reduces human detection accuracy by up to 26%'.",
+   "fix": null
+  },
+  {
+   "citation": "[11]",
+   "sentence": "TASLE tackled AI-made segments hidden in long real videos, but only on the visual track.",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "TASLE abstract supports long untrimmed videos with AI segments but does not say visual-only; the visual-only characterization comes from the AV-FABLE paper ('TASLE and ActivityForensics extend visual forensics').",
+   "fix": "Cite [9] alongside [11] for the 'visual-only' point."
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Visual edits 'remains the main open problem' with scores 26.42 to 41.21; 360p cut visual mAP 53.1 to 10.9; 'pipeline-specific cues cannot be fully excluded'; explanations misidentify operation/target.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "Exact; the 26.42-41.21 figures are V-IoU. 360p result is on a 512-video subset.",
+   "fix": null
+  },
+  {
+   "citation": "[12]",
+   "sentence": "Deepfake-Eval-2024: open-source detectors' AUC fell 50% video, 48% audio.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "arXiv 2503.02857 abstract matches.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "Dataset, code, weights promised; source media withheld where licenses restrict; no pipelines for impersonation; Tsinghua/Peking; corresponding Jun Zhou and Xiu Li.",
+   "url": "https://arxiv.org/html/2610.33413v1",
+   "verdict": "pass",
+   "evidence": "All confirmed. Release status 'not yet released' not independently checked beyond 'will be publicly released'.",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Hob from Frigade, local models via llama.cpp; approvals, undo, sandbox; 'Chats and files stay on your machine, and there is no telemetry'.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "docs/README.md exact.",
+   "fix": null
+  },
+  {
+   "citation": "[14]",
+   "sentence": "MIT license.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "LICENSE: MIT License, Copyright 2026 Frigade.",
+   "fix": null
+  },
+  {
+   "citation": "[15]",
+   "sentence": "Ships for Apple Silicon Macs, Windows and Linux.",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "README links Mac (mac-arm64.dmg), Windows, Linux downloads but never says 'Apple Silicon'. hob.chat says 'Hob runs on Apple Silicon Macs, Windows PCs, and Linux'.",
+   "fix": "Cite [17] (hob.chat) for this."
+  },
+  {
+   "citation": "[16]",
+   "sentence": "Developer posted to HN on Oct 26, built with Electron, llama.cpp in own process.",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "HN API timestamp 2026-10-26 16:12 UTC; post says 'Electron bridged with llama.cpp in its own process'.",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "Needs at least 8 GB RAM; Windows unsigned warning; 'Backed by Y Combinator'.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "hob.chat confirms all three.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "Picks 'the smartest one that stays above about 15 tokens a second'.",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Exact.",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Model table (8 GB Gemma 4 E4B Compact; 16 GB E4B; 24 GB 26B; workstation gpt-oss 120B).",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Docs match. Note HN comment says 8 GB Mac gets 'Gemma 4 E2B', conflicting with docs; docs are primary.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "Small models claimed tool results without calling tools or looped; 'I spent a fair amount of the work building guards vs tweaking prompts'.",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Exact quote; HN refers to 4B models.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Guard checks files named in reply exist; comment 'Checking the files instead of the words works in any language'.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "claims.ts missingFiles docstring: 'checking the files instead of the words works in any language'.",
+   "fix": null
+  },
+  {
+   "citation": "[19]",
+   "sentence": "Cuts a reply when same long passage repeats three times in a row.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "repeat.ts: REPEAT_COPIES = 3, window 160 chars.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "No benchmarks yet; 'The models are really dumb, mainly'; 'there are a zillion of these'.",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Quotes exact. Developer said 'Not yet' when asked for benchmarks. Note 'zillion' commenter was otherwise supportive; quote is selective but accurate.",
+   "fix": null
+  },
+  {
+   "citation": "[20]",
+   "sentence": "Older kernels without Landlock: 'the code runs unlimited'.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "landlock.ts comment exact.",
+   "fix": null
+  },
+  {
+   "citation": "sources",
+   "sentence": "Source list titles.",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "Rebuilt titles are wrong: TASLE arXiv title is 'Explainable Forensics of Manipulated Segments in Untrimmed Long Videos' (no 'TASLE:' prefix); FakeParts is 'FakeParts: a New Family of AI-Generated DeepFakes'; Deepfake-Eval-2024 is 'Deepfake-Eval-2024: A Multi-Modal In-the-Wild Benchmark of Deepfakes Circulated in 2024'; HN is 'Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT'. TechCrunch, SciAm, Forklog, AV-FABLE titles match.",
+   "fix": "Replace with the real titles. Forklog should be labeled AI-translated secondary reporting."
+  }
+ ]
+}

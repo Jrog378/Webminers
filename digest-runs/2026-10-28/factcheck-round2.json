@@ -1,0 +1,94 @@
+{
+ "checked": 11,
+ "passed": 10,
+ "results": [
+  {
+   "citation": "[3]",
+   "sentence": "Williams told TechCrunch that many ETH-dependent papers \"will need to be revisited\" if the labs' claims hold up",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "TC: Williams said papers 'that will need to be revisited if the AI labs claims that they've proven it wrong holds up.'",
+   "fix": null
+  },
+  {
+   "citation": "[3]",
+   "sentence": "TechCrunch reports Alp\u00f6ge suggested OpenAI was basing its solutions on pre-existing work",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "TC: 'Anthropic mathematician Levent Alp\u00f6ge suggested that OpenAI was basing its solutions on pre-existing work.' No quote marks in draft; attributed to TC.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "OpenAI's outside reviewers ... Williams, Impagliazzo and Paturi, with David Gross leading a physics group, according to Forklog, an AI-translated secondary report",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Forklog: ETH review group under Impagliazzo and Paturi (UCSD) and Ryan Williams (MIT); physics group under David Gross; page labeled 'AI translated'.",
+   "fix": null
+  },
+  {
+   "citation": "[7]",
+   "sentence": "Forklog reports they stressed their participation is not an endorsement, and that the work is voluntary and unpaid",
+   "url": null,
+   "verdict": "fix",
+   "evidence": "Endorsement line matches (paraphrase, no quotes). But Forklog says 'The company said participation in the research groups will be voluntary and unpaid' - the company said it, not the researchers; draft's 'they stressed ... and that' reads as researchers.",
+   "fix": "Write: Forklog reports the researchers stressed their participation is not an endorsement, and that OpenAI said participation is voluntary and unpaid."
+  },
+  {
+   "citation": "[11][9]",
+   "sentence": "An earlier benchmark, TASLE, tackled AI-made segments hidden in long real videos, but only on the visual track",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "TASLE abstract (arXiv 2606.02402): AI-generated segments sparsely embedded in untrimmed authentic videos. AV-FABLE full text: 'TASLE and ActivityForensics extend visual forensics...' supports visual-only; [9] now cited.",
+   "fix": null
+  },
+  {
+   "citation": "[9]",
+   "sentence": "AV-FABLE ... uses held-out TASLE videos as one of its tests",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "AV-FABLE: 'transfer to a source-disjoint subset of the external TASLE benchmark'. 'Held-out' is a fair gloss; optional wording 'source-disjoint TASLE subset'.",
+   "fix": null
+  },
+  {
+   "citation": "[15]",
+   "sentence": "downloads for Mac, Windows and Linux",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "README lists Mac, Windows, Linux download links (Hob-mac-arm64.dmg).",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "The Mac version needs Apple Silicon, and every version needs at least 8 GB of RAM",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "hob.chat FAQ: 'Hob runs on Apple Silicon Macs, Windows PCs, and Linux, with at least 8 GB of memory (RAM).'",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "Windows build isn't yet signed with a Microsoft certificate; Backed by Y Combinator",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "hob.chat: 'Windows shows this for new apps that aren't yet signed with a Microsoft certificate.' 'Backed by Y Combinator.'",
+   "fix": null
+  },
+  {
+   "citation": "draft",
+   "sentence": "Cut Lean/Forklog Oct 19 sentences are gone",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "grep for 'Oct 19'/'October 19' in draft.md returns nothing.",
+   "fix": null
+  },
+  {
+   "citation": "sources",
+   "sentence": "Corrected source titles (TASLE, FakeParts, Deepfake-Eval-2024, HN, AV-FABLE, TechCrunch, Forklog)",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Live page titles match exactly: Explainable Forensics...; FakeParts: a New Family of AI-Generated DeepFakes; Deepfake-Eval-2024: ...; Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT; AV-FABLE; TechCrunch; Forklog 'OpenAI says its AI refuted the Exponential Time Hypothesis'. Forklog labeled AI-translated.",
+   "fix": null
+  }
+ ]
+}

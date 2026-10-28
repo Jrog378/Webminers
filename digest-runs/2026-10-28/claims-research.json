@@ -1,0 +1,218 @@
+[
+  {
+    "id": "research-01",
+    "claim": "AV-FABLE is a new benchmark for finding sparse (brief, localized) AI manipulations in long, open-scene audio-visual videos. arXiv preprint, v1 submitted Oct 24, 2026.",
+    "url": "https://arxiv.org/abs/2610.33413",
+    "quote": "We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene long-form audio-visual videos.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-02",
+    "claim": "The motivating threat: a few edited seconds can change what an otherwise real video means, for example by replacing words, inserting a sound, or altering a brief action.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "A few manipulated seconds can change the meaning of an otherwise authentic video. Replacing an utterance can alter what a speaker appears to have said; inserting a sound can suggest an event that never occurred; modifying a brief action can change the interpretation of an entire sequence.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-03",
+    "claim": "Scale: 16,650 pristine/manipulated twin pairs (33,300 videos, about 998 hours) with 10,306 audio and 11,847 visual events across 27 editing configurations.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "It comprises 16,650 twin pairs (33,300 videos; 998.1 hours), with 10,306 audio and 11,847 visual events across 27 editing configurations.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-04",
+    "claim": "Videos are minute-scale (median 88 s), and edits cover a median of 9.45% of each manipulated video.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "videos are minute-scale (median 88 s), and manipulations cover a median of 9.45% of each manipulated video.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-05",
+    "claim": "91.5% of manipulated videos have at most 30% manipulated time. The median event lasts about 9 seconds.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "while 91.5% have at most 30% manipulated time. Videos are minute-scale: the median lasts 88 s and 80% last between 33 and 207 s. The median event lasts about 9 s in the training and ID splits",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-06",
+    "claim": "Source footage comes from existing research datasets: ActivityNet (third-person activities), EPIC-KITCHENS-100 (egocentric), and HDTF (held-out talking heads).",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "ActivityNet ( Heilbron et al., 2015 ) and EPIC-KITCHENS-100 ( Damen et al., 2022 ) provide third-person activities and egocentric interactions; HDTF ( Zhang et al., 2021 ) supplies held-out talking-head videos.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-07",
+    "claim": "The construction pipeline (SEE-Forge) uses Gemini 3.7 Flash as a planner that picks a natural event in the real video and specifies the edit, and a second model checks that the edit is feasible.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Gemini 3.7 Flash ( Google DeepMind, 2026 ) then acts as the planner: it selects one cataloged event and specifies the target track, interval, semantic change, and content to preserve. A second model verifies that the target is observable and that a compatible generator can execute the instruction.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-08",
+    "claim": "Each fake has a 'pristine twin' from the same source that goes through identical processing, so a detector can't cheat on file format. Metadata-only classifiers reach at most 54.6 AUROC (near chance).",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Each manipulated video has a pristine twin from the same host video, and both twins pass through the same cropping, reinsertion, and export steps (resolution, frame rate, codec, and audio format). These controls address the content and processing shortcuts reported for earlier datasets ( Smeu et al., 2025 ) : metadata-only classifiers reach at most 54.6 AUROC",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-09",
+    "claim": "Two human reviewers independently checked all 22,153 events. A third reviewer adjudicated the 7.7% with disagreements.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Two reviewers then independently inspect all 22,153 events against the pristine twin and the edit instruction.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-10",
+    "claim": "Separate audio and visual timelines matter: a joint timeline can reward a detector for finding the right moment even if it flags the wrong stream.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "A joint timeline can therefore reward a prediction for finding the right moment even when it identifies the wrong stream.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-11",
+    "claim": "Asked zero-shot, audio-visual LLMs Qwen2.5-Omni and Qwen3-Omni score only 51-52 detection AUROC (coin flip is 50). Simple linear probes on their frozen perception features reach 90.8 (audio) and 80.8 (visual) AUROC.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "reach only 51–52 detection AUROC and at most 0.30 mAP on either track. Yet linear probes on their frozen perception features separate manipulated from authentic segments with 90.8 (audio) and 80.8 (visual) AUROC.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-12",
+    "claim": "Authors' interpretation: the models' internal representations encode the forensic evidence, but the models don't express it through language output.",
+    "url": "https://arxiv.org/abs/2610.33413",
+    "quote": "suggesting manipulation evidence is encoded in these representations but not effectively exposed through language outputs.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-13",
+    "claim": "Method NFSR reads frozen Qwen3-Omni audio and visual encoder features with separate audio and visual temporal decoders.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "we propose NFSR (Native Forensics via Separated Readouts), which reads frozen AV-LLM features with separate audio and visual temporal decoders.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-14",
+    "claim": "In-domain, NFSR reaches 91.30 AV-mAP and 96.04 detection AUROC. UMMAFormer on the same features reaches 84.76 AV-mAP.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "In-domain, NFSR achieves 91.30 AV-mAP and 96.04 detection AUROC, compared with 84.76 AV-mAP for UMMAFormer using the same frozen features.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-15",
+    "claim": "NFSR has the highest AV-mAP in all three out-of-distribution settings, including transfer to held-out videos from the external TASLE benchmark.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "NFSR further achieves the highest AV-mAP across all three OOD settings, including transfer to a source-disjoint subset of the external TASLE benchmark.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-16",
+    "claim": "Under distribution shift, finding the visual edits is the main open problem: NFSR's visual-track Event-IoU falls to 26.42-41.21.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Visual coverage under shift remains the main open problem: NFSR reaches 26.42–41.21 V-IoU",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-17",
+    "claim": "Without recalibration, NFSR's false-alarm rate stays within 2.97-4.67% on all evaluation sets (5% budget).",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Without recalibration, NFSR’s realized FAR stays within 2.97–4.67% on all evaluation sets, close to the 5% budget.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-18",
+    "claim": "Degrading video to 360p cuts visual localization mAP from 53.1 to 10.9 (on a 512-video subset).",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "360p reduces visual mAP from 53.1 to 10.9 without changing audio mAP",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-19",
+    "claim": "Authors concede that generator-specific traces (pipeline shortcuts) cannot be fully excluded.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "The held-out-generator setting measures transfer to unseen generators on seen routes but does not separate these two cases, so pipeline-specific cues cannot be fully excluded.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-20",
+    "claim": "Explaining what was changed is the hardest part: baselines produce well-formed outputs but often misidentify the operation or target.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Explanation is the most challenging dimension: current baselines produce well-formed outputs but often misidentify the operation or target",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-21",
+    "claim": "Release status: the dataset, code and weights are promised, not yet released. Source media will not be redistributed where licenses restrict it; the release will instead provide annotations plus reconstruction utilities.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "The public release will instead focus on event-level annotations, source identifiers and timestamps, provenance metadata, independently releasable generated assets, and reconstruction utilities.",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-22",
+    "claim": "Dual-use safeguard: the authors do not provide end-to-end pipelines intended for impersonation or fraud.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Given the dual-use nature of deepfake research, we do not provide end-to-end pipelines intended for impersonation, fraud, or other malicious uses",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-23",
+    "claim": "Authors are from Tsinghua University (one from Peking University); corresponding authors are Jun Zhou and Xiu Li.",
+    "url": "https://arxiv.org/html/2610.33413v1",
+    "quote": "Jun Zhou † † thanks: Corresponding author. Affiliation: Tsinghua University Xiu Li † † thanks: Corresponding author. Affiliation: Tsinghua University",
+    "sourceType": "Paper",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "research-24",
+    "claim": "Prior work: TASLE (ICML 2026) already tackled localizing AI-generated segments in untrimmed long videos, but visual-only. It is AV-FABLE's closest predecessor and one of its OOD tests.",
+    "url": "https://arxiv.org/abs/2606.02402",
+    "quote": "Existing video forensic methods predominantly operate on short, independent clips, and thus fail to capture realistic scenarios where AI-generated content is sparsely embedded within otherwise authentic footage.",
+    "sourceType": "Paper",
+    "date": "2026-06-01"
+  },
+  {
+    "id": "research-25",
+    "claim": "Prior work: AV-Deepfake1M (ACM MM 2024) addressed localizing small audio-visual manipulations embedded in real videos, mainly in talking-head clips of more than 2K subjects.",
+    "url": "https://arxiv.org/abs/2311.15308",
+    "quote": "only a few works address the problem of the localization of small segments of audio-visual manipulations embedded in real videos.",
+    "sourceType": "Paper",
+    "date": "2023-11-26"
+  },
+  {
+    "id": "research-26",
+    "claim": "Independent counterpoint: detectors that look strong on academic benchmarks collapse on real in-the-wild deepfakes (AUC drops of about 50% for video and 48% for audio).",
+    "url": "https://arxiv.org/abs/2503.02857",
+    "quote": "We find that the performance of open-source state-of-the-art deepfake detection models drops precipitously when evaluated on Deepfake-Eval-2024, with AUC decreasing by 50% for video, 48% for audio, and 45% for image models compared to previous benchmarks.",
+    "sourceType": "Paper",
+    "date": "2025-03-04"
+  },
+  {
+    "id": "research-27",
+    "claim": "Independent supporting evidence: partial deepfakes are harder for humans to spot, reducing human detection accuracy by up to 26% compared with traditional deepfakes (FakeParts).",
+    "url": "https://arxiv.org/abs/2508.21052",
+    "quote": "Our user studies demonstrate that FakeParts reduces human detection accuracy by up to 26% compared to traditional deepfakes, with similar performance degradation observed in state-of-the-art detection models.",
+    "sourceType": "Paper",
+    "date": "2025-08-28"
+  }
+]

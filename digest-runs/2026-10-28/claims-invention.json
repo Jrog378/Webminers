@@ -1,0 +1,146 @@
+[
+ {
+  "id": "inv-1",
+  "claim": "Hob is released under the MIT license by Frigade.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/LICENSE",
+  "quote": "MIT License\n\nCopyright (c) 2026 Frigade",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-2",
+  "claim": "Hob ships for Mac (Apple Silicon), Windows (x64) and Linux (x86_64).",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/README.md",
+  "quote": "Download for <a href=\"https://github.com/FrigadeHQ/hob/releases/latest/download/Hob-mac-arm64.dmg\">Mac</a> · <a href=\"https://github.com/FrigadeHQ/hob/releases/latest/download/Hob-windows-x64.exe\">Windows</a> · <a href=\"https://github.com/FrigadeHQ/hob/releases/latest/download/Hob-linux-x86_64.AppImage\">Linux</a>",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-3",
+  "claim": "Hob picks among Gemma 4 sizes by memory and uses gpt-oss 120B on workstations.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+  "quote": "Google's Gemma 4 for most computers (E4B Compact on 8 GB Macs, E4B on 16 GB, 26B from 24 GB) and OpenAI's gpt-oss 120B for workstations.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-4",
+  "claim": "Models run locally via llama.cpp; no telemetry; web access can be turned off.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+  "quote": "Chats and files stay on your machine, and there is no telemetry.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-5",
+  "claim": "Python code runs sandboxed to the chat's folder; changes require approval and can be undone.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+  "quote": "Approval confirmations before anything in your folders changes, Undo for every task, and code runs in a sandbox.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-6",
+  "claim": "Built with Electron and llama.cpp in a separate process.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "I build it using Electron bridged with llama.cpp in its own process.",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-7",
+  "claim": "Small models claimed tool results without calling tools or looped; author built guards instead of prompt tweaks.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "I spent a fair amount of the work building guards vs tweaking prompts (that didn't really work for small models).",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-8",
+  "claim": "Code guard checks whether files a reply names actually exist on disk.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/agent/claims.ts",
+  "quote": "Small models do this; checking the files instead of the words works in any language.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-9",
+  "claim": "Loop guard cuts a reply when a long passage repeats three times in a row.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/agent/repeat.ts",
+  "quote": "the same long passage back to back, three times over, means the model is stuck.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-10",
+  "claim": "Model picker targets roughly 15 tokens/second with room for context.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "picks the smartest one that stays above about 15 tokens a second with room for a decent context.",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-11",
+  "claim": "Sandbox platform mechanisms: sandbox-exec (macOS), Landlock (Linux), low-integrity process (Windows).",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "sandbox-exec on macOS, Landlock on Linux and a low-integrity process on Windows",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-12",
+  "claim": "On Linux kernels without Landlock, sandboxed code runs unrestricted.",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/python/landlock.ts",
+  "quote": "Without Landlock (older kernels) the code runs unlimited.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-13",
+  "claim": "A tester found the local models too weak for real work.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "The models are really dumb, mainly.",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-14",
+  "claim": "Commenters say many similar local AI apps already exist.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "So there are a zillion of these, including ones that do what yours does.",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-15",
+  "claim": "Hob requires at least 8 GB RAM.",
+  "url": "https://www.hob.chat/",
+  "quote": "Hob runs on Apple Silicon Macs, Windows PCs, and Linux, with at least 8 GB of memory (RAM).",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-16",
+  "claim": "Windows build is not yet signed with a Microsoft certificate.",
+  "url": "https://www.hob.chat/",
+  "quote": "Windows shows this for new apps that aren’t yet signed with a Microsoft certificate.",
+  "sourceType": "Official",
+  "date": "2026-10-27 (accessed 2026-10-28)"
+ },
+ {
+  "id": "inv-17",
+  "claim": "No published benchmarks against other tools yet.",
+  "url": "https://news.ycombinator.com/item?id=50246238",
+  "quote": "Not yet, but that sounds like a useful overview to add to the landing page!",
+  "sourceType": "Social",
+  "date": "2026-10-26"
+ },
+ {
+  "id": "inv-18",
+  "claim": "Hob site states it is backed by Y Combinator.",
+  "url": "https://www.hob.chat/",
+  "quote": "Backed by Y Combinator",
+  "sourceType": "Official",
+  "date": "accessed 2026-10-28"
+ }
+]

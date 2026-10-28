@@ -1,0 +1,7 @@
+{"hero": null,
+ "tried": [
+  {"source": "StockSnap.io (Openverse)", "query": "chalkboard equations / blackboard / mathematics / maze / puzzle / computer code / chess / padlock", "result": "rejected: padlock and chess results exist but are generic, and the full-size files are blocked (403) so only 960 px previews were reachable; the rest returned nothing or API errors"},
+  {"source": "Rawpixel (Openverse)", "query": "mathematics blackboard, maze, chess, padlock", "result": "rejected: the clean 1024 px chalkboard '100%' image is under 1200 px wide and unrelated; the 1300 px chess image I inspected carries rawpixel watermarks"},
+  {"source": "WordPress Photo Directory (Openverse)", "query": "computer code, keyhole", "result": "rejected: Rubik's Cube with code (97462b043a) already used on 2026-09-30; code-on-monitor photos I inspected show LG/HP/Windows branding or are irrelevant (dumbbells); keyhole results are generic"},
+  {"source": "Nappy (Openverse)", "query": "chalkboard equations, mathematics blackboard, maze", "result": "rejected: no results"}
+ ]}

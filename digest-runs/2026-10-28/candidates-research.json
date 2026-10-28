@@ -1,0 +1,226 @@
+{
+ "section": "research",
+ "window": "Sat Oct 24 - Tue Oct 27, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers (Oct 24-27)",
+   "status": "ok, 95 papers"
+  },
+  {
+   "name": "arXiv API",
+   "status": "failed: Rate exceeded"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/Nature/Science/MIT TR RSS",
+   "status": "not tried"
+  },
+  {
+   "name": "HN Algolia/Reddit signal",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+   "summary": "Benchmark showing agent effectiveness depends on harness as well as model, and tests failure attribution from traces.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.32285",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 233,
+    "hfComments": 4,
+    "hfUrl": "https://huggingface.co/papers/2610.32285"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": true,
+   "note": "Related to covered 'How Tool-Using Agents Fail' (agent failures) - differentiate angle."
+  },
+  {
+   "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+   "summary": "Argues successful tool-use trajectories are not necessarily good supervision; synthesizes decision-grounded training environments.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.33568",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 331,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.33568"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+   "summary": "Video-language agents that act proactively on implicit, shifting user intent in streaming video instead of waiting for explicit prompts.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.34662",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 240,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.34662"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+   "summary": "Learns collaboration structure among agents dynamically rather than using predefined workflows.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.34467",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 184,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.34467"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+   "summary": "Rubric-based RL rewards get gamed; a precision-focused objective reduces reward hacking.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.33512",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 29,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.33512"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+   "summary": "Benchmark for whether agents improve over time from experience while retaining prior knowledge.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.33956",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 45,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.33956"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+   "summary": "Localizing brief AI manipulations inside otherwise authentic long videos.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.33413",
+   "date": "2026-10-27",
+   "signal": {
+    "hfUpvotes": 32,
+    "hfComments": 1,
+    "hfUrl": "https://huggingface.co/papers/2610.33413"
+   },
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+   "summary": "Survey/perspective on video foundation models and world models as a general medium.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.31668",
+   "date": "2026-10-26",
+   "signal": {
+    "hfUpvotes": 290,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.31668"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": true,
+   "note": "Survey-type; less novel."
+  },
+  {
+   "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+   "summary": "Fixes cross-modal hallucinations in audio-visual LLMs by rebalancing evidence vs. prior.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.27103",
+   "date": "2026-10-26",
+   "signal": {
+    "hfUpvotes": 38,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.27103"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  },
+  {
+   "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+   "summary": "Self-distillation post-training without ground truth or stronger teachers.",
+   "primarySourceUrl": "https://arxiv.org/abs/2610.32770",
+   "date": "2026-10-26",
+   "signal": {
+    "hfUpvotes": 35,
+    "hfComments": 2,
+    "hfUrl": "https://huggingface.co/papers/2610.32770"
+   },
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "note": ""
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "Dates are HF listing dates. Summaries from HF abstracts only; verify before drafting."
+}

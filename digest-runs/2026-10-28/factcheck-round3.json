@@ -1,0 +1,134 @@
+{
+ "checked": 16,
+ "passed": 16,
+ "results": [
+  {
+   "citation": "[13]",
+   "sentence": "Hob is a desktop app from Frigade that runs an AI agent for your files on your own machine, using local models through llama.cpp",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+   "verdict": "pass",
+   "evidence": "docs: 'works on your files... all on your own computer using open-weight models'; 'The model runs on your computer with llama.cpp'. Frigade: README 'Made by Frigade'.",
+   "fix": null
+  },
+  {
+   "citation": "[14]",
+   "sentence": "open source under the MIT license",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/LICENSE",
+   "verdict": "pass",
+   "evidence": "LICENSE starts 'MIT License ... Copyright (c) 2026 Frigade'.",
+   "fix": null
+  },
+  {
+   "citation": "[15]",
+   "sentence": "downloads for Mac, Windows and Linux",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/README.md",
+   "verdict": "pass",
+   "evidence": "README links Hob-mac-arm64.dmg, Hob-windows-x64.exe, Hob-linux-x86_64.AppImage.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "developer posted to HN on Oct 26; small models claimed tool results without calling tools or got stuck in loops; quote 'a fair amount of the work building guards vs tweaking prompts'",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Post by pancomplex 2026-10-26T16:12Z. Text: 4B models 'happily saying \"here's your chart\" without ever calling the chart tool or get stuck in an infinite call loop. I spent a fair amount of the work building guards vs tweaking prompts'. Quote exact.",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "Hob's site says it is backed by Y Combinator",
+   "url": "https://www.hob.chat/",
+   "verdict": "pass",
+   "evidence": "Page header: 'Backed by Y Combinator'. Company self-claim, correctly attributed to the site.",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "8 GB minimum RAM; Mac needs Apple Silicon",
+   "url": "https://www.hob.chat/",
+   "verdict": "pass",
+   "evidence": "FAQ: 'Hob runs on Apple Silicon Macs, Windows PCs, and Linux, with at least 8 GB of memory (RAM).'",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Four model sizes: E4B Compact 8 GB Macs, E4B 16 GB, 26B 24 GB and up, gpt-oss 120B workstations",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+   "verdict": "pass",
+   "evidence": "Docs: 'Gemma 4 ... (E4B Compact on 8 GB Macs, E4B on 16 GB, 26B from 24 GB) and OpenAI's gpt-oss 120B for workstations'. Four. (Dev's HN comment says E2B for 8 GB Mac, which differs, but the draft cites the docs.)",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "15 tokens a second quote",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Dev comment: 'it looks at your memory and memory bandwidth and then picks the smartest one that stays above about 15 tokens a second with room for a decent context.' Quote exact.",
+   "fix": null
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Zero telemetry quote; folder changes need approval and can be undone",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+   "verdict": "pass",
+   "evidence": "'Chats and files stay on your machine, and there is no telemetry.' and 'Approval confirmations before anything in your folders changes, Undo for every task'. Docs also say Hob goes online for model downloads, web search etc.; draft does not claim otherwise.",
+   "fix": null
+  },
+  {
+   "citation": "[18]",
+   "sentence": "file-existence guard; quote 'checking the files instead of the words works in any language'",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/agent/claims.ts",
+   "verdict": "pass",
+   "evidence": "Code comment exact; missingFiles filters names mentioned in a reply that aren't on disk.",
+   "fix": null
+  },
+  {
+   "citation": "[19]",
+   "sentence": "loop guard cuts off a reply when a long passage repeats three times in a row",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/agent/repeat.ts",
+   "verdict": "pass",
+   "evidence": "REPEAT_COPIES = 3 'How many copies in a row make a loop'; REPEAT_WINDOW 160 chars; repeatCut returns the cut point.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "no independent review found; developer has published no benchmarks yet",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "Dev, asked about benchmarks: 'Not yet'. Note he cites 'my own evals' (16+ GB does well), so 'no published benchmarks' is accurate but he does claim internal evals. Absence of review is the writer's own search finding, worded as 'we found'.",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "quotes 'The models are really dumb, mainly' and 'there are a zillion of these'",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "wilg: 'The models are really dumb, mainly.' jrm4: 'So there are a zillion of these'. Both exact. Context: jrm4 was supportive (will upvote every one), so the quote is used somewhat against its tone; acceptable but an editor may want that noted.",
+   "fix": null
+  },
+  {
+   "citation": "[17]",
+   "sentence": "Windows build isn't yet signed with a Microsoft certificate",
+   "url": "https://www.hob.chat/",
+   "verdict": "pass",
+   "evidence": "FAQ: 'Windows shows this for new apps that aren't yet signed with a Microsoft certificate.'",
+   "fix": null
+  },
+  {
+   "citation": "[16]",
+   "sentence": "developer says each system gets its own sandbox tool",
+   "url": "https://news.ycombinator.com/item?id=50246238",
+   "verdict": "pass",
+   "evidence": "'sandbox-exec on macOS, Landlock on Linux and a low-integrity process on Windows'.",
+   "fix": null
+  },
+  {
+   "citation": "[20]",
+   "sentence": "on older kernels without Landlock, 'the code runs unlimited'",
+   "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/app/src/main/python/landlock.ts",
+   "verdict": "pass",
+   "evidence": "Comment: 'Without Landlock (older kernels) the code runs unlimited.' Quote exact.",
+   "fix": null
+  }
+ ]
+}

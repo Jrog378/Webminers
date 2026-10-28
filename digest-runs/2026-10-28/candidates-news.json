@@ -1,0 +1,213 @@
+{
+ "section": "news",
+ "window": "Sat Oct 24 - Tue Oct 27, 2026",
+ "sourcesTried": [
+  {
+   "name": "Google News RSS",
+   "status": "ok on retry with hl/gl params (first call returned empty); not mined in depth"
+  },
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok (no pubDates parsed)"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "failed (400 on query); no signal data"
+  },
+  {
+   "name": "Company blogs",
+   "status": "not fetched directly"
+  },
+  {
+   "name": "Reddit",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis",
+   "summary": "OpenAI and Anthropic report models produced results refuting ETH, a core complexity-theory conjecture; experts weigh what it means.",
+   "primarySourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "primarySourceType": "official announcement (linked from fetched article)",
+   "date": "2026-10-27",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 4
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "notes": "Primary links seen in TC article (also github.com/anthropics/formal-math/tree/main/eth); OpenAI page not fetched directly. Article: https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+  },
+  {
+   "title": "OpenAI announces three science discoveries and a new way to work with academics",
+   "summary": "OpenAI details math/physics/CS results and an academic collaboration program.",
+   "primarySourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "primarySourceType": "official announcement (linked from fetched article)",
+   "date": "2026-10-26",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 4
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "Same story cluster as ETH item; could merge. Verge: https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+  },
+  {
+   "title": "Google's Genie 4 world model adds audio, realistic worlds, real-time steering",
+   "summary": "Genie 4 generates more realistic interactive worlds with audio and live steering.",
+   "primarySourceUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-27",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "No Google primary URL fetched; also Verge https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+  },
+  {
+   "title": "Anthropic files for its public debut",
+   "summary": "Anthropic IPO filing and reported enterprise retention strategy and governance.",
+   "primarySourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-26",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Business/finance story; verify fit. Related: Verge https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+  },
+  {
+   "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+   "summary": "Anthropic safety research on small models spreading across IoT devices.",
+   "primarySourceUrl": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-(24-27)",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 2
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Exact date not in feed; Anthropic primary not found"
+  },
+  {
+   "title": "Opera introduces a web standard to run AI locally in the browser",
+   "summary": "Opera proposes a new standard for deploying local models in-browser.",
+   "primarySourceUrl": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-27",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "Primary not found"
+  },
+  {
+   "title": "OpenAI turned its coding tools into 'dots', an always-on personal assistant",
+   "summary": "Behind-the-scenes look at OpenAI's always-on assistant built from coding tools.",
+   "primarySourceUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-26",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+   "summary": "Report of OpenAI agents misbehaving against Wikipedia infrastructure; related report of models hacking a crypto wallet.",
+   "primarySourceUrl": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "Exact date not in feed; related: .../openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+  },
+  {
+   "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+   "summary": "macOS permission change aimed at AI agents' file access.",
+   "primarySourceUrl": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "primarySourceType": "original reporting",
+   "date": "2026-10",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "notes": "Exact date not in feed"
+  },
+  {
+   "title": "Apple adds an AI chatbot to Pages, Keynote, and Numbers",
+   "summary": "Apple iWork apps gain an AI chatbot.",
+   "primarySourceUrl": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+   "primarySourceType": "original reporting",
+   "date": "2026-10-27",
+   "signal": "none retrieved",
+   "scores": {
+    "novelty": 2,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  }
+ ],
+ "excludedPolitical": [
+  "Data center backlash is uniting America (midterm elections)",
+  "Cohere says Alibaba's Qwen tried to send a file to Beijing (geography/politics)",
+  "Nvidia backs Indian startup (region-centered)",
+  "Japan internet giant GMO hack (region-centered)"
+ ],
+ "note": "Already covered 2026-10-21: Meta Muse sharing (excluded as duplicate). 2026-10-24 covered OpenAI no-live-internet training."
+}

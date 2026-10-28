@@ -1,0 +1,17 @@
+{
+  "status": "published-pending-review",
+  "issueDate": "2026-10-28",
+  "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted",
+  "window": "Sat Oct 24 - Tue Oct 27, 2026",
+  "topics": {
+    "news": "Frontier AI labs say their models refuted the Exponential Time Hypothesis",
+    "research": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+    "invention": "Hob: open-source desktop app that runs a Cowork-style file agent on local open-weight models"
+  },
+  "formats": {"news": "qa", "research": "explainer", "invention": "by-the-numbers"},
+  "sourcesFailed": ["arXiv API (rate limited)", "HN Algolia (400 during scouting)", "OpenAI blog (403)", "The Verge (unfetchable)", "github.com pages (403; raw.githubusercontent.com used)", "Product Hunt (bot-blocked)", "GitHub search API (blocked)"],
+  "factCheck": {"round1": {"checked": 57, "pass": 50, "fix": 6, "cut": 1}, "round2": {"checked": 11, "pass": 10, "fix": 1, "cut": 0}, "round3": {"checked": 16, "pass": 16, "fix": 0, "cut": 0}},
+  "editor": "PASS (round 2; round 1 failed on Hob format, fixed)",
+  "hero": null,
+  "notes": "npm ci fails on main (package-lock.json out of sync: missing yaml@2.9.1); npm install then npm run build succeeded with the new issue. Lockfile not committed."
+}

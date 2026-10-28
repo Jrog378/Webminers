@@ -1,0 +1,194 @@
+{
+ "section": "invention",
+ "window": "Sat Oct 24 - Tue Oct 27, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hacker News Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai RSS",
+   "status": "ok (only 1 in-window item)"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok (item pages blocked by bot check)"
+  },
+  {
+   "name": "GitHub search API",
+   "status": "failed: blocked by session (only repo-scoped endpoints); repo pages for several candidates also unfetchable"
+  },
+  {
+   "name": "Hugging Face model page (hurston-1)",
+   "status": "ok"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Hob: open-source (MIT) desktop app that runs a Claude-Cowork-style file agent entirely on local open-weight models",
+   "summary": "Electron plus llama.cpp app for Mac/Windows/Linux that picks the best open-weight model (Gemma 4, gpt-oss) for your hardware, edits local files, runs sandboxed Python, supports MCP and offline use; author says small-model tool-call reliability needed guards, not prompts.",
+   "primaryUrl": "https://github.com/FrigadeHQ/hob",
+   "date": "2026-10-26",
+   "signal": "HN 164 pts, 42 comments: https://news.ycombinator.com/item?id=50246238",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "GitHub page not fetchable in this session; details from the author's HN post."
+  },
+  {
+   "title": "Farol: a risk map of a pull request for the person who approves it",
+   "summary": "MIT-licensed tool from Winnin that shows reviewers where a PR is risky (isolated vs. coupled changes) as AI agents write more code; commenters criticised the UI.",
+   "primaryUrl": "https://github.com/winnin/farol",
+   "date": "2026-10-25",
+   "signal": "HN 60 pts, 43 comments: https://news.ycombinator.com/item?id=50231349",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Close in theme to previously covered Sphinx (agent-code review); repo page not fetchable."
+  },
+  {
+   "title": "Hurston-1: open-source TTS model for Southern American and Afro-English speech",
+   "summary": "Open-weight text-to-speech model on Hugging Face aimed at underrepresented English accents.",
+   "primaryUrl": "https://huggingface.co/destined/hurston-1",
+   "date": "2026-10-25",
+   "signal": "HN 66 pts, 25 comments: https://news.ycombinator.com/item?id=50227330",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Check framing: accent/dialect focus must not become a geography or culture-war story."
+  },
+  {
+   "title": "ADRs for AI: deliberation records for human-AI work, versioned in Git",
+   "summary": "Template repo plus VS Code extension (with MCP server) and iOS client that keep decisions and open questions as git-versioned records agents can query.",
+   "primaryUrl": "https://adrs.systems",
+   "date": "2026-10-25",
+   "signal": "HN 66 pts, 56 comments: https://news.ycombinator.com/item?id=50227041",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 4
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Steal My Bitcoin: public bounty challenge to exploit a freshly disclosed PHP RCE, won in 19.28 hours",
+   "summary": "Author put ~0.025 BTC on a server to test whether the PHP RCE was exploitable in practice; won Oct 25 and a winner writeup is public. Commenters hoped an LLM would solve it.",
+   "primaryUrl": "https://stealmybitcoin.com/",
+   "date": "2026-10-24",
+   "signal": "HN 619 pts, 450 comments: https://news.ycombinator.com/item?id=50224916",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "AI link is weak (security, not AI); winner writeup https://github.com/KillaBoi/StealMyBitcoin-PoC was linked on the page."
+  },
+  {
+   "title": "Fuzzers vs. AI: comparing Fuzzilli and BigSleep on JavaScript engines",
+   "summary": "Google Project Zero post comparing a classic fuzzer with an AI bug-finding agent.",
+   "primaryUrl": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+   "date": "2026-10-27",
+   "signal": "Lobsters ai tag, posted Oct 27",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "More research/news than invention; Lobsters link only, content not read."
+  },
+  {
+   "title": "Enzyme: a programming language that compiles wikis for agents",
+   "summary": "Open-source language/tool that compiles wiki content into something agents can use.",
+   "primaryUrl": "https://github.com/byenzyme/enzyme",
+   "date": "2026-10-24",
+   "signal": "HN 23 pts, 9 comments: https://news.ycombinator.com/item?id=50221066",
+   "scores": {
+    "novelty": 3,
+    "momentum": 1,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "notes": "Similar to covered Enron Brain; repo not fetchable."
+  },
+  {
+   "title": "Proc-CLI: an agent-friendly CLI for process and port management",
+   "summary": "Cross-platform CLI (v1.14.5) with an agent skill, to find and stop what is on a port, orphaned or stuck processes.",
+   "primaryUrl": "https://proc-cli.com/",
+   "date": "2026-10-26",
+   "signal": "HN 24 pts, 5 comments: https://news.ycombinator.com/item?id=50239041",
+   "scores": {
+    "novelty": 2,
+    "momentum": 1,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "ContextGem 1.0 (Product Hunt launch)",
+   "summary": "Product Hunt listing posted Oct 26; page blocked by bot check, so description unverified.",
+   "primaryUrl": "https://www.producthunt.com/products/contextgem",
+   "date": "2026-10-26",
+   "signal": "Product Hunt feed only",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 8,
+   "coveredLast8Weeks": false,
+   "notes": "Unverified details."
+  },
+  {
+   "title": "Off Grid AI (Product Hunt launch)",
+   "summary": "Product Hunt listing posted Oct 26; page blocked by bot check, so description unverified.",
+   "primaryUrl": "https://www.producthunt.com/products/off-grid-ai",
+   "date": "2026-10-26",
+   "signal": "Product Hunt feed only",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 8,
+   "coveredLast8Weeks": false,
+   "notes": "Unverified details."
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "AI: EU Member States approve 'digital expropriation' (noyb)",
+   "reason": "policy/legislation, region-centered; also dated Oct 23, outside window"
+  }
+ ]
+}

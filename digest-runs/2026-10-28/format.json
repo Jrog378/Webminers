@@ -1,0 +1,25 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "claim",
+  "sections": {
+    "news": {
+      "format": "qa",
+      "words": 600,
+      "why": "Contested, confusing claim (labs say models refuted ETH) that needs plain-language questions: what is ETH, what was claimed, is it machine-checked, what do experts doubt. Strongest story, so it leads. Not used for news alongside qa in the last 6 issues except 10-24, where it paired with different research/invention formats."
+    },
+    "research": {
+      "format": "explainer",
+      "words": 650,
+      "why": "Single paper (AV-FABLE) where method, dataset and results need walking through: what they found, how it works, why it matters, what is uncertain. Explainer was last used for research on 10-03 and for invention on 10-10; used only once this issue."
+    },
+    "invention": {
+      "format": "by-the-numbers",
+      "words": 350,
+      "why": "Switched from comparison after editor round 1: the ledger has no citable data on alternative tools, so a comparison table could not be supported. Short intro, five bolded ledger figures (RAM minimum, model sizes by RAM, 15 tokens/s picker floor, no telemetry, loop guard), then the honest caveat. by-the-numbers was used for invention on 10-24, but with different research/news formats, so the combination is new.",
+      "previousFormat": "comparison"
+    }
+  },
+  "combination": "news=qa, research=explainer, invention=by-the-numbers",
+  "checkedAgainst": ["2026-10-24", "2026-10-21", "2026-10-10", "2026-10-07", "2026-10-03"],
+  "notes": "Previous issue (10-24) used a question headline, so this one uses a claim headline. 09-30 issue frontmatter had no formats field in the first 40 lines; not needed for the 6-issue check since the five checked share no identical combination with this plan."
+}

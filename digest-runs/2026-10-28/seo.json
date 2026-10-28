@@ -1,0 +1,20 @@
+{
+  "keywords": {
+    "primary": "Exponential Time Hypothesis refuted",
+    "secondary": ["OpenAI Anthropic ETH proof", "AV-FABLE deepfake forensics", "Hob local AI file agent"]
+  },
+  "title": "AI Labs Say Models Refuted ETH | Eureka Reports Oct 28",
+  "titleLength": 54,
+  "description": "OpenAI and Anthropic say AI models refuted the Exponential Time Hypothesis. Plus a deepfake forensics benchmark and Hob, a local file agent.",
+  "descriptionLength": 141,
+  "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted",
+  "slugLength": 54,
+  "image": "No image.json in run dir; image checks skipped.",
+  "faq": "None added. Searches returned no People Also Ask data for the lead topic.",
+  "changes": [],
+  "notes": [
+    "draft.md left unchanged: title (54 chars, correct form), description (141 chars, leads with the finding), H2s, direct-answer openers and the 3-sentence sixty already meet the rules.",
+    "Title keeps the abbreviation ETH to fit 60 chars; the full phrase 'Exponential Time Hypothesis' is in the description, headline, sixty-adjacent body text and slug. ETH can read as Ethereum, so the spelled-out phrase carries the keyword.",
+    "Keyword searches found no coverage of this story yet and no clear phrasing patterns, so wording follows the sources' own terms (Exponential Time Hypothesis, refuted/false). Title uniqueness checked against filenames of existing issues in content/digest/ (no overlap in topic); titles themselves not opened."
+  ]
+}

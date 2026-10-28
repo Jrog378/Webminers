@@ -124,5 +124,26 @@
     "title": "Enron Brain: an AI-written wiki built from 45k Enron emails, every fact cited",
     "primaryUrl": "https://www.thisandthat.chat/enron/",
     "slug": "2026-10-24-claude-proofs-code-never-crashes"
+  },
+  {
+    "date": "2026-10-28",
+    "section": "research",
+    "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+    "primaryUrl": "https://arxiv.org/abs/2610.33413",
+    "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted"
+  },
+  {
+    "date": "2026-10-28",
+    "section": "news",
+    "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis",
+    "primaryUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted"
+  },
+  {
+    "date": "2026-10-28",
+    "section": "invention",
+    "title": "Hob: open-source desktop app that runs a Cowork-style file agent entirely on local open-weight models",
+    "primaryUrl": "https://github.com/FrigadeHQ/hob",
+    "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted"
   }
 ]
