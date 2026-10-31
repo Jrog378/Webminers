@@ -1,0 +1,12 @@
+{
+  "status": "published-pending-review",
+  "issueDate": "2026-11-01",
+  "week": "2026-10-25..2026-10-31",
+  "tier": "this-week",
+  "tierReason": "Fox News reported Oct 31 on Ligonier's Ask Ligonier assistant and its guardrails; dated in-window, uncovered, on-scope. Tiers 2 and 3 not needed.",
+  "sourcesTried": "Google News, Christianity Today, Christian Post, Barna, Ligonier Labs fetched; Hacker News, Reddit, translation/Bible-app orgs found nothing usable.",
+  "verse": "Galatians 6:2 (WEB)",
+  "factCheck": {"pass": 27, "fix": 12, "cut": 0},
+  "editor": "fail round 1 (3 fixes applied), round 2 one remaining fix applied by orchestrator (ring wording trimmed to checked text); not re-run",
+  "hero": "null: image libraries throttled/blocked from sandbox; the one CC0 candidate fetched showed a visible Apple logo and was rejected"
+}

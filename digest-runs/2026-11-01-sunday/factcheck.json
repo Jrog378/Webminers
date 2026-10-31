@@ -1,0 +1,321 @@
+{
+ "checked": 39,
+ "passed": 27,
+ "fix": 12,
+ "cut": 0,
+ "note": "Fetches were through a summarizing tool, not raw HTML; <title> tags often unavailable, so H1/headline titles are reported and flagged. Not verified: Fox 'or other real-world resources' tail (tool truncated at 'suicide hotline'); App Store 'first appearing' in 12.0.1 (only the 12.0.1/Sep 17 entry was seen, not earlier versions or year).",
+ "results": [
+  {
+   "citation": 1,
+   "sentence": "Peter D'Abrosca ... Oct 31 ... Chris Larson",
+   "url": "fox",
+   "verdict": "pass",
+   "evidence": "Author Peter D'Abrosca, Oct 31 2026, Larson president and CEO",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Larson quotes (defer to a real human, just trained on our library, sandbox, 50 years/800 teachers, not pretend it's a person, pastor/elder/parent, ethical guidelines)",
+   "url": "fox",
+   "verdict": "pass",
+   "evidence": "All found. Draft's 'defer to a real human' fine. Draft's 'not trying to pretend it's a person' matches 'it's not trying to pretend it's a person'.",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Fox puts the library at 'tens of thousands of pieces of content'",
+   "url": "fox",
+   "verdict": "pass",
+   "evidence": "Fox: 'library of tens of thousands of pieces of content'",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "the assistant directs them 'to the suicide hotline or other real-world resources'",
+   "url": "fox",
+   "verdict": "fix",
+   "evidence": "Could only confirm 'will direct them to the suicide hotline...'; quoted tail 'or other real-world resources' unconfirmed.",
+   "fix": "Re-read Fox para; if tail not verbatim, quote only 'the suicide hotline' (or paraphrase). Do not keep unverified quote."
+  },
+  {
+   "citation": 1,
+   "sentence": "Larson: 'the sandbox' sentence with 'And so we've given it...'",
+   "url": "fox",
+   "verdict": "fix",
+   "evidence": "Fox text: 'we've given it a sandbox to work within' ... 'any time that somebody tries to push it beyond the borders, we're going to deflect or defer to a real human.' Leading 'And so' and the joining wording could not be confirmed; quote appears assembled from two fragments.",
+   "fix": "Confirm full sentence against the page; if not contiguous, split into two quotes."
+  },
+  {
+   "citation": "2,3,5",
+   "sentence": "limited beta, mainly for Ministry Partners, 30-day trial via Grow app",
+   "url": "labs/grow",
+   "verdict": "pass",
+   "evidence": "Ask page: 'Access is currently limited to Ministry Partners during this beta phase'; Grow site: 'Get 30 free days of Ask Ligonier'. '30-day' is paraphrase of 30 free days.",
+   "fix": null
+  },
+  {
+   "citation": 2,
+   "sentence": "responds 'to questions about the Bible, theology, and the Christian life'",
+   "url": "https://labs.ligonier.org/",
+   "verdict": "pass",
+   "evidence": "Verbatim on Labs page",
+   "fix": null
+  },
+  {
+   "citation": 2,
+   "sentence": "access 'is limited to select users during their testing phase'",
+   "url": "https://labs.ligonier.org/",
+   "verdict": "pass",
+   "evidence": "Page: 'Access to these early experiments is limited to select users during their testing phase.' Draft says 'access to its experiments' - fine.",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "calls the tool 'in-development' and access 'is currently limited to Ministry Partners during this beta phase'",
+   "url": "https://labs.ligonier.org/ask-ligonier",
+   "verdict": "pass",
+   "evidence": "Verbatim ('in-development intelligent answer assistant'; 'Access is currently limited...')",
+   "fix": null
+  },
+  {
+   "citation": 3,
+   "sentence": "'drawing answers from Ligonier\u2019s deep teaching library' / 'share your feedback directly within the experiment'",
+   "url": "https://labs.ligonier.org/ask-ligonier",
+   "verdict": "pass",
+   "evidence": "Both verbatim",
+   "fix": null
+  },
+  {
+   "citation": 4,
+   "sentence": "Grow's App Store notes, first appearing with version 12.0.1 on Sept 17, say 'This feature is available to Ministry Partners'",
+   "url": "https://apps.apple.com/us/app/-/id371390152",
+   "verdict": "fix",
+   "evidence": "12.0.1, Sep 17 entry contains the quote. 'First appearing' not verified (earlier versions not checked).",
+   "fix": "Drop 'first appearing': 'Grow's App Store notes for version 12.0.1 (Sept 17) say ...' unless earlier versions are checked."
+  },
+  {
+   "citation": 5,
+   "sentence": "Grow website offers '30 free days of Ask Ligonier'",
+   "url": "https://grow.ligonier.org/",
+   "verdict": "pass",
+   "evidence": "'Get 30 free days of Ask Ligonier, Reformation Study Bible notes, and other Ministry Partner benefits.'",
+   "fix": null
+  },
+  {
+   "citation": 1,
+   "sentence": "Fox calls the app 'Grow' and describes an 'intelligent answer assistant' inside it",
+   "url": "fox",
+   "verdict": "pass",
+   "evidence": "'Inside Grow is an \"intelligent answer assistant\"'",
+   "fix": null
+  },
+  {
+   "citation": 6,
+   "sentence": "In 2018 Ligonier launched chat service Ask Ligonier 'staffed by a well-trained team'",
+   "url": "rushtopress",
+   "verdict": "pass",
+   "evidence": "Jan 10 2018: '24/6 biblical and theological chat service staffed by a well-trained team'",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "Barna ... research released Oct 22 with partner Gloo",
+   "url": "barna ai-hand-off",
+   "verdict": "pass",
+   "evidence": "Oct 22 2026; State of the Church with Gloo",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "94% pastors / 63% practicing Christians suicide or self-harm",
+   "url": "barna",
+   "verdict": "pass",
+   "evidence": "Exact",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "spiritual crisis 71%/32%, 23% continue; quote 'such as a person who no longer knows what they believe'",
+   "url": "barna",
+   "verdict": "fix",
+   "evidence": "71%, 32%, 23% confirmed (pastors 9% continue). The quoted descriptor phrase was not seen in fetch.",
+   "fix": "Verify phrase verbatim on page or drop quotation marks. Optionally add that 23% of practicing Christians vs 9% of pastors said AI can continue."
+  },
+  {
+   "citation": 7,
+   "sentence": "1,514 adults, 683 practicing Christians, Nov 2025; 442 Protestant pastors, Dec 2025",
+   "url": "barna",
+   "verdict": "pass",
+   "evidence": "Exact (U.S. omitted by design)",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "'The human handoff only works if there's someone to hand off to,' said Barna's Daniel Copeland",
+   "url": "barna",
+   "verdict": "pass",
+   "evidence": "Verbatim; Copeland is VP of research. Page also has 'Crisis care can't be left to chance.'",
+   "fix": null
+  },
+  {
+   "citation": 7,
+   "sentence": "AI tools have usually offered 'a referral, not a connection'",
+   "url": "barna",
+   "verdict": "pass",
+   "evidence": "Page: typically given 'a referral, not a connection'",
+   "fix": null
+  },
+  {
+   "citation": 8,
+   "sentence": "79% of pastors say their church has neither formal AI policy nor informal guidance",
+   "url": "barna church-ai-guidelines",
+   "verdict": "pass",
+   "evidence": "'The other 79 percent say their church has neither' (4% formal, 17% informal). Published Oct 6, so 'earlier this month' is accurate relative to Oct 31 but will be stale on Nov 1; consider 'on Oct 6'.",
+   "fix": null
+  },
+  {
+   "citation": 8,
+   "sentence": "Only 10% feel positive about AI providing spiritual counseling",
+   "url": "barna",
+   "verdict": "pass",
+   "evidence": "'Just 10 percent feel positive about AI providing spiritual counseling.'",
+   "fix": null
+  },
+  {
+   "citation": 9,
+   "sentence": "1,500 teens 13-18, February, Christ In Youth; mom 84%, dad 78%, AI 35%",
+   "url": "barna teens",
+   "verdict": "pass",
+   "evidence": "Fielded Feb 14-17 2026; figures exact",
+   "fix": null
+  },
+  {
+   "citation": 9,
+   "sentence": "46% Faith-Activated vs 28% of all teens",
+   "url": "barna teens",
+   "verdict": "pass",
+   "evidence": "Exact",
+   "fix": null
+  },
+  {
+   "citation": 9,
+   "sentence": "Youth pastor Richard Hamilton says 'Our job is to make sure a trusted adult, not an algorithm, is in that space'",
+   "url": "barna teens",
+   "verdict": "pass",
+   "evidence": "Verbatim; Castle Hills Christian Church",
+   "fix": null
+  },
+  {
+   "citation": 10,
+   "sentence": "Blessed app, more than 10 million users; Elah Ring S1; light and gentle vibration; no screen",
+   "url": "hackernoon",
+   "verdict": "fix",
+   "evidence": "Page: 'The Cross-Light and gentle vibration provide a screen-free interaction'; 'There is no screen on the ring.' 'Light' is the 'Cross-Light'. 10M claim is company's own.",
+   "fix": "Say 'prompts with its Cross-Light and a gentle vibration'. Keep 'it says' on user count."
+  },
+  {
+   "citation": 10,
+   "sentence": "FaithMate 'not a replacement for a pastor, prayer, Scripture, church, or meaningful relationships'",
+   "url": "hackernoon",
+   "verdict": "pass",
+   "evidence": "Verbatim",
+   "fix": null
+  },
+  {
+   "citation": 10,
+   "sentence": "This is a paid company release on HackerNoon, and we found no independent coverage",
+   "url": "hackernoon",
+   "verdict": "fix",
+   "evidence": "Page says it was 'distributed as a release ... under HackerNoon's Business Blogging Program'; not labelled 'sponsored'. 'Paid' is inference.",
+   "fix": "'This is a company release distributed through HackerNoon's Business Blogging Program'; keep 'no independent coverage found' only if searched."
+  },
+  {
+   "citation": 11,
+   "sentence": "Bible Society researchers ... 'regularly framed one interpretive approach as definitive'",
+   "url": "christiantoday",
+   "verdict": "fix",
+   "evidence": "Quote verbatim in Christian Today, 29 Jan 2026. 'Bible Society' researchers and 'popular' chatbots not visible in fetch output.",
+   "fix": "Verify researchers' affiliation on page; otherwise write 'researchers'."
+  },
+  {
+   "citation": 11,
+   "sentence": "Dr Jonas Kurlberg warned AI answers 'are often assumed to be neutral or factual'",
+   "url": "christiantoday",
+   "verdict": "pass",
+   "evidence": "Verbatim",
+   "fix": null
+  },
+  {
+   "citation": 11,
+   "sentence": "Dr Zolt\u00e1n Schw\u00e1b asked whether 'wrestling with the biblical text is often more important than receiving the answer to your question'",
+   "url": "christiantoday",
+   "verdict": "pass",
+   "evidence": "Page: 'I wonder if wrestling with the biblical text is often more important than receiving the answer to your question?' Spelling Zolt\u00e1n Schw\u00e1b confirmed.",
+   "fix": null
+  },
+  {
+   "citation": null,
+   "sentence": "Proverbs says 'in the multitude of counselors there is victory' (Proverbs 11:14)",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "WEB wording per verse.json (not re-fetched); uncited in text, add translation (WEB).",
+   "fix": null
+  },
+  {
+   "citation": null,
+   "sentence": "Ligonier has not published which AI model ... / no outside review / no date for wider access",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Absence statements, phrased as 'we found'; first one is not hedged",
+   "fix": null
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "sources title: Fox",
+   "url": "fox",
+   "verdict": "fix",
+   "evidence": "Headline: Christian group touts 'ethical' tech features as concerns over out-of-control AI tools persist",
+   "fix": "Use: Christian group touts 'ethical' tech features as concerns over out-of-control AI tools persist"
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "sources titles: Ligonier Labs / Ask Ligonier / Grow",
+   "url": "labs/app/grow",
+   "verdict": "fix",
+   "evidence": "Labs H1 'Ligonier Labs'; Ask H1 'Ask Ligonier' (labs home calls it 'Ask Ligonier (Beta)'); App Store 'Grow: From Ligonier'; grow.ligonier.org title 'Grow: From Ligonier | Take Your Faith Deeper'",
+   "fix": "grow.ligonier.org title -> 'Grow: From Ligonier | Take Your Faith Deeper'. Others correct as H1 (title tags not retrievable)."
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "sources title: Rush to Press",
+   "url": "rushtopress",
+   "verdict": "fix",
+   "evidence": "Title: Ligonier Ministries launches \"Ask Ligonier\" as a 24-hour biblical and theological chat service (browser title adds '- Rush To Press')",
+   "fix": "Use that title. Also outlet type 'Official' is wrong-ish: it is a press-release aggregator (ECPA Rush to Press), originally a Ligonier release."
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "sources titles: Barna x3",
+   "url": "barna",
+   "verdict": "fix",
+   "evidence": "H1s: 'In a Crisis, Should AI Hand Off to a Human?' (title tag: 'In a Crisis, When Should AI Hand Off to a Human? New Research.'); 'Pastors Say Churches Need AI Guidelines. Few Have Them.' (first line: 'Church AI Policies: Pastors Say They're Needed. Few Exist.'); 'New Research: Mom, Dad, Jesus or AI? Who Teens Turn to for Advice'",
+   "fix": "Replace the three draft titles with the H1s listed. Oct 6 and Oct 26 dates correct."
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "sources title: HackerNoon",
+   "url": "hackernoon",
+   "verdict": "fix",
+   "evidence": "Title: 'Why We Built a Screen-Free Smart Ring After Reaching 10M+ Users with a Bible App' (page adds '| HackerNoon'); author Jon Stojan (release distributor); date Oct 26 2026",
+   "fix": "Add '10M+' and 'with a Bible App' capitalization; outlet is HackerNoon Business Blogging, type is company release, not 'Official'."
+  },
+  {
+   "citation": "frontmatter",
+   "sentence": "Christian Today title and Schw\u00e1b spelling",
+   "url": "christiantoday",
+   "verdict": "pass",
+   "evidence": "Title exact: 'Concerns raised over theological bias in AI Bible chatbots'; 29 Jan 2026; by Obianuju Mbah. Schw\u00e1b with acute accents.",
+   "fix": null
+  }
+ ]
+}

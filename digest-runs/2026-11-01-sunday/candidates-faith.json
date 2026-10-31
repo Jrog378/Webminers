@@ -1,0 +1,126 @@
+{
+  "weekStart": "2026-10-25",
+  "weekEnd": "2026-10-31",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok; no in-window technology items (one obituary for Klaus Krogh surfaced via Google News, unverified)"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok; in-window items were politics, persecution or culture-war; one YouTube fake-news item not a faith-tech tool story"
+    },
+    {
+      "name": "Google News RSS (Bible translation AI, church technology, missions AI, ministry artificial intelligence, faith AI, Bible app, YouVersion, Wycliffe, AI chatbot Christian, AI Jesus; when:7d)",
+      "status": "ok; main candidate pool"
+    },
+    {
+      "name": "Barna Group research listing",
+      "status": "ok; teens/AI advice (Oct 26), AI crisis handoff (Oct 22), church AI guidelines (Oct 6)"
+    },
+    {
+      "name": "Ligonier Labs (labs.ligonier.org)",
+      "status": "ok; Ask Ligonier listed as beta, no date"
+    },
+    {
+      "name": "SIL / Wycliffe / illumiNations / YouVersion newsrooms via search",
+      "status": "no October 2026 announcements found"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "query returned no relevant stories"
+    },
+    {
+      "name": "Reddit r/Christianity search .rss",
+      "status": "fetched; nothing substantive"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-10-25 to 2026-10-31",
+      "candidates": [
+        {
+          "title": "Ligonier Ministries builds guardrails into its AI answer assistant",
+          "summary": "Ligonier's AI answer assistant (Ask Ligonier, described as part of its Grow app) draws only on the ministry's teaching library, stays in a sandbox, hands off to a real person when pushed past its limits, points users who mention suicidal thoughts to a crisis hotline, and does not pretend to be human. CEO Chris Larson says it should not take the place of a pastor, elder or parent.",
+          "primaryUrl": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+          "date": "2026-10-31",
+          "organization": "Ligonier Ministries",
+          "whyNotChosen": "CHOSEN"
+        },
+        {
+          "title": "Barna: Mom, Dad, Jesus or AI? Who teens turn to for advice",
+          "summary": "Survey of 1,500 teens: 35% turn to AI for advice, far below parents and Jesus; the most faith-engaged teens trust AI more (46% vs 28% say it feels like a safe place to ask questions).",
+          "primaryUrl": "https://www.barna.com/research/who-teens-turn-to-for-advice/",
+          "date": "2026-10-26",
+          "organization": "Barna Group with Christ In Youth",
+          "whyNotChosen": "Mainly a youth-ministry survey with AI as one item; used as also-encouraging/context"
+        },
+        {
+          "title": "Elah Ring S1: a screen-free ring from a Bible app team",
+          "summary": "A team behind a Bible app with 10M+ users built a titanium ring that uses light and gentle vibration for prayer reminders, with no screen.",
+          "primaryUrl": "https://hackernoon.com/why-we-built-a-screen-free-smart-ring-after-reaching-10m-users-with-a-bible-app",
+          "date": "2026-10-26",
+          "organization": "Elah",
+          "whyNotChosen": "Company-written promotional piece; consumer gadget launch, less substantive"
+        },
+        {
+          "title": "Tech companies turn to religion to make AI good (AP; Anthropic met 15+ faith groups)",
+          "summary": "AI labs consulting religious leaders on model ethics.",
+          "primaryUrl": "https://apnews.com/",
+          "date": "2026-10-25",
+          "organization": "AP / Anthropic",
+          "whyNotChosen": "Close to last week's AI-and-faith-questions topic; about AI company ethics, not a tool helping people draw closer to Christ"
+        },
+        {
+          "title": "Half of Christian ChatGPT questions are about understanding the Bible",
+          "summary": "Follow-up coverage of the OpenAI faith-usage data.",
+          "primaryUrl": "https://openaiglobalaffairs.substack.com/p/70m-prompts-about-faith",
+          "date": "2026-10-30",
+          "organization": "OpenAI",
+          "whyNotChosen": "Already covered 2026-10-25; no material new development"
+        },
+        {
+          "title": "AI Jesus video calls for about $2 a minute (Just Like Me)",
+          "summary": "Pay-per-minute AI avatar of Jesus.",
+          "primaryUrl": "https://www.breitbart.com/tech/2026/04/13/silicon-blasphemy-tech-company-introduces-ai-jesus-that-charges-by-the-minute/",
+          "date": "2026-10-29",
+          "organization": "Just Like Me",
+          "whyNotChosen": "Launched April 2026; this week's coverage is a rehash, not new"
+        },
+        {
+          "title": "Pastors urged to own their sermons and keep personal details out of public AI tools",
+          "summary": "Advice piece for pastors on AI use.",
+          "primaryUrl": "https://thebaptistpaper.org/",
+          "date": "2026-10-27",
+          "organization": "The Baptist Paper",
+          "whyNotChosen": "Could not read/verify the article text; advice column, not a development"
+        },
+        {
+          "title": "Cardinal/bishops urge homilies come from faith, not AI; Catholic communicators' AI assembly",
+          "summary": "Church leaders' statements on AI.",
+          "primaryUrl": "https://www.vaticannews.va/",
+          "date": "2026-10-28",
+          "organization": "Various",
+          "whyNotChosen": "Statements and conference speeches with regional framing, no technology at the center"
+        },
+        {
+          "title": "AI translates ancient text describing the resurrection",
+          "summary": "Viral coverage of an AI-assisted study of ancient translations.",
+          "primaryUrl": "https://www.unilad.com/",
+          "date": "2026-10-30",
+          "organization": "Unclear",
+          "whyNotChosen": "No readable primary source located; tabloid sourcing"
+        },
+        {
+          "title": "Died: Klaus Krogh, pioneer in Bible design and accessibility",
+          "summary": "Obituary of a Bible typographer who made a dyslexia-friendly typeface.",
+          "primaryUrl": "https://www.christianitytoday.com/",
+          "date": "2026-10-26",
+          "organization": "2K/Denmark",
+          "whyNotChosen": "Obituary of a print designer, not a technology story; could not open the obituary to verify"
+        }
+      ]
+    }
+  ]
+}

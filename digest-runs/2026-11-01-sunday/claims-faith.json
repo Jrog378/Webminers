@@ -1,0 +1,346 @@
+[
+  {
+    "id": "f01",
+    "claim": "Fox News Digital published the Ligonier AI story on Oct 31, 2026, by Peter D'Abrosca.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "Peter D'Abrosca  Fox News  \n      Published\n      October 31, 2026 11:00am EDT",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f02",
+    "claim": "Ligonier Ministries' president and CEO is Chris Larson, who described a new tool to answer faith questions.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "Ligonier Ministries president and CEO Chris Larson says that the true highest intelligence is God, and shared a new tool his group created to help answer questions people my have from a faith-based perspective.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f03",
+    "claim": "Ligonier calls the app Grow.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "Part of accomplishing that mission was building an app that the organization calls \"Grow.\"",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f04",
+    "claim": "Larson says the app has 50 years of teaching from more than 800 teachers.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "\"And so this app has 50 years of teaching in it from more than 800 different teachers, of course, grounded in Dr. R.C. Sproul's lifetime of teaching.\"",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f05",
+    "claim": "The app draws on tens of thousands of pieces of content.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "The app draws from a library of tens of thousands of pieces of content help users in their faith journey looking to obtain answers to critical questions.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f06",
+    "claim": "Grow contains an 'intelligent answer assistant' for faith questions.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "Inside Grow is an \"intelligent answer assistant\" which can answer questions from users from a faith-based perspective.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f07",
+    "claim": "Larson says the assistant does not pretend to be a person and is trained only on Ligonier's library.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "\"Now, it's not trying to pretend it's a person or anything like that. It is just trained on our library, and then helping Christians to trust the answers, and [it] will only go so far,\" he said.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f08",
+    "claim": "Larson says the assistant works in a sandbox and defers to a real human when pushed beyond its borders.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "\"And so we've given it a sandbox to work within, and any time that somebody tries to push it beyond the borders, we're going to deflect or defer to a real human. Imagine that,\" Larson said.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f09",
+    "claim": "Fox reports that if a user discusses suicidality, the assistant points to the suicide hotline or other real-world resources.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "For example, if a user discusses suicidality in Grow, the intelligent answer assistant will direct them to the suicide hotline or other real-world resources.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f10",
+    "claim": "Larson says Ligonier does not want the assistant to replace a pastor, elder or parent.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "\"We don't want it to take the place of a pastor or a local church elder or even a parent.\"",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f11",
+    "claim": "Larson says anyone developing AI tools needs ethical guidelines.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "\"Anybody developing AI tools today needs to think through ethical guidelines, and that's more of the self-regulation and guardrails that we've been talking about,\" he said.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f12",
+    "claim": "Fox's claim that the human-support feature is something 'most' LLM tools 'refuse to implement' is the reporter's characterization, not sourced.",
+    "url": "https://www.foxnews.com/politics/christian-group-touts-ethical-tech-features-concerns-out-of-control-ai-tools-persist",
+    "quote": "When a user pushes the boundaries of the application, it directs them to real human support — a feature most large language model AI tools refuse to implement.",
+    "sourceType": "Reporting",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f13",
+    "claim": "Ligonier Labs lists Ask Ligonier as a Beta experiment with access limited to select users.",
+    "url": "https://labs.ligonier.org/",
+    "quote": "Access to these early experiments is limited to select users during their testing phase.",
+    "sourceType": "Official",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f14",
+    "claim": "Ligonier Labs describes Ask Ligonier as drawing answers from Ligonier's teaching library.",
+    "url": "https://labs.ligonier.org/",
+    "quote": "This intelligent answer assistant responds to questions about the Bible, theology, and the Christian life, drawing answers from Ligonier’s deep teaching library.",
+    "sourceType": "Official",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f15",
+    "claim": "Ask Ligonier is in development and limited to Ministry Partners during beta.",
+    "url": "https://labs.ligonier.org/ask-ligonier",
+    "quote": "Ask Ligonier is an in-development intelligent answer assistant that responds to questions about the Bible and theology, drawing answers from Ligonier’s deep teaching library. We encourage you to use the chat and share your feedback directly within the experiment. Access is currently limited to Ministry Partners during this beta phase.",
+    "sourceType": "Official",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f16",
+    "claim": "The Grow app's App Store release notes (from version 12.0.1, Sept 17, 2026) say Ask Ligonier is available to Ministry Partners.",
+    "url": "https://apps.apple.com/us/app/-/id371390152",
+    "quote": "Ask Ligonier your Bible and theology questions and receive instant answers drawn from our teaching library. This feature is available to Ministry Partners.",
+    "sourceType": "Official",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "f17",
+    "claim": "The App Store description lists the Ask Ligonier intelligent assistant as an app feature; the app is free.",
+    "url": "https://apps.apple.com/us/app/-/id371390152",
+    "quote": "Get answers to your theological questions with the Ask Ligonier intelligent assistant",
+    "sourceType": "Official",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f18",
+    "claim": "The Grow website offers 30 free days of Ask Ligonier and other Ministry Partner benefits.",
+    "url": "https://grow.ligonier.org/",
+    "quote": "Get 30 free days of Ask Ligonier, Reformation Study Bible notes, and other Ministry Partner benefits.",
+    "sourceType": "Official",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f19",
+    "claim": "A user review updated Oct 23, 2026, says the new Grow version is tricky to navigate (not about the AI feature).",
+    "url": "https://apps.apple.com/us/app/-/id371390152",
+    "quote": "UPDATE October 23, 2026: The new “Grow” version of the app is a bit tricky to navigate.",
+    "sourceType": "Social",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "f20",
+    "claim": "In 2018 Ligonier launched a human-staffed chat service also named Ask Ligonier.",
+    "url": "https://rushtopress.org/ligonier-ministries-launches-ask-ligonier-24-hour-biblical-theological-chat-service",
+    "quote": "This week, Ligonier Ministries launched Ask Ligonier, a 24/6 biblical and theological chat service staffed by a well-trained team.",
+    "sourceType": "Official",
+    "date": "2018-01-10"
+  },
+  {
+    "id": "f21",
+    "claim": "Barna: 94% of pastors and 63% of practicing Christians say AI should immediately connect a person to a human when suicide or self-harm intent is mentioned.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "Nearly all pastors (94%) and most practicing Christians (63%) say AI should connect a person to a human helper right away when the person mentions an intent or plan for suicide or self-harm.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f22",
+    "claim": "Barna: on spiritual crisis, 71% of pastors vs 32% of practicing Christians want an immediate handoff; 23% of practicing Christians say AI can continue.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "Pastors and practicing Christians differ most on spiritual crisis: 71 percent of pastors say AI should hand off right away, compared to 32 percent of practicing Christians. Nearly one in four practicing Christians (23%) say AI can continue without a handoff.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f23",
+    "claim": "Barna defines spiritual crisis as, for example, a person who no longer knows what they believe.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "The widest difference is for spiritual crisis, such as a person who no longer knows what they believe.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f24",
+    "claim": "Barna notes the survey did not define who the human helper is or how a handoff would happen.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "The survey did not define who the human helper would be or how an AI handoff would happen.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f25",
+    "claim": "Barna notes chatbots typically answer a person in crisis with a referral, not a connection.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "AI tools have typically answered a person in crisis with a referral, not a connection.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f26",
+    "claim": "Barna's Daniel Copeland: the human handoff only works if there is someone to hand off to.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "The human handoff only works if there’s someone to hand off to.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f27",
+    "claim": "Barna's Daniel Copeland: crisis care can't be left to chance.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "Crisis care can’t be left to chance. When someone is in crisis, the question shouldn’t be whether a chatbot is good enough. The question is who will be there for that person.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f28",
+    "claim": "Barna handoff survey samples: 1,514 US adults (683 practicing Christians) Nov 2025; 442 Protestant pastors Dec 2025.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "The U.S. adults survey (n=1,514) was conducted online in November 2025. Of this sample group, n=683 practicing Christians.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f29",
+    "claim": "The Barna research is produced in partnership with Gloo.",
+    "url": "https://www.barna.com/research/ai-hand-off-to-human-crisis/",
+    "quote": "The research is part of Barna’s State of the Church initiative, produced in partnership with Gloo.",
+    "sourceType": "Official",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "f30",
+    "claim": "Barna: 94% of pastors say churches should have AI guidelines, but 79% say their church has neither a policy nor guidance.",
+    "url": "https://www.barna.com/research/church-ai-guidelines/",
+    "quote": "In practice, only 4 percent of pastors say their own church has a formal policy, and 17 percent say it has informal guidance. The other 79 percent have neither.",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "f31",
+    "claim": "Barna: just 10% of pastors feel positive about AI providing spiritual counseling; 29% about AI interpreting scripture.",
+    "url": "https://www.barna.com/research/church-ai-guidelines/",
+    "quote": "Far fewer feel positive about AI writing prayers (37%) or worship songs (33%), interpreting scripture (29%) or writing a sermon (27%). Just 10 percent feel positive about AI providing spiritual counseling.",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "f32",
+    "claim": "Barna teens: teens most comfortable asking mom (84%) and dad (78%) for advice; AI 35%.",
+    "url": "https://www.barna.com/research/who-teens-turn-to-for-advice/",
+    "quote": "the people they say they’d feel most comfortable asking are still at home: mom (84%) and dad (78%), ahead of friends (75%), teachers (67%) and AI (35%)",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f33",
+    "claim": "Barna teens: 46% of Faith-Activated teens strongly agree AI feels like a safe place to ask questions they wouldn't ask out loud, vs 28% of all teens.",
+    "url": "https://www.barna.com/research/who-teens-turn-to-for-advice/",
+    "quote": "Another 46 percent strongly agree AI feels like a safe place to ask questions they wouldn’t ask out loud, versus 28 percent of all teens.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f34",
+    "claim": "Barna teens survey: 1,500 US teens ages 13-18, Feb 14-17, 2026, with Christ In Youth.",
+    "url": "https://www.barna.com/research/who-teens-turn-to-for-advice/",
+    "quote": "This study was based on a survey of 1,500 U.S. teenagers, ages 13–18, conducted February 14–17, 2026.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f35",
+    "claim": "Youth pastor Richard Hamilton: a trusted adult, not an algorithm, should be in that space.",
+    "url": "https://www.barna.com/research/who-teens-turn-to-for-advice/",
+    "quote": "“Our job is to make sure a trusted adult, not an algorithm, is in that space.”",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f36",
+    "claim": "The team behind the Bible app Blessed (10M+ users) built the screen-free Elah Ring S1.",
+    "url": "https://hackernoon.com/why-we-built-a-screen-free-smart-ring-after-reaching-10m-users-with-a-bible-app",
+    "quote": "Our Bible app, Blessed, has built a community of more than 10 million users.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f37",
+    "claim": "The ring prompts with a Cross-Light and gentle vibration and has no screen.",
+    "url": "https://hackernoon.com/why-we-built-a-screen-free-smart-ring-after-reaching-10m-users-with-a-bible-app",
+    "quote": "There is no screen on the ring, and the prompt does not require anyone to pick up a phone immediately.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f38",
+    "claim": "Elah says FaithMate is not a replacement for a pastor and the ring is not a medical or emergency device.",
+    "url": "https://hackernoon.com/why-we-built-a-screen-free-smart-ring-after-reaching-10m-users-with-a-bible-app",
+    "quote": "FaithMate is a companion for a life of faith, not a replacement for a pastor, prayer, Scripture, church, or meaningful relationships.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f39",
+    "claim": "The HackerNoon ring piece is a paid business-blogging release.",
+    "url": "https://hackernoon.com/why-we-built-a-screen-free-smart-ring-after-reaching-10m-users-with-a-bible-app",
+    "quote": "This story was distributed as a release by Jon Stojan under HackerNoon’s Business Blogging Program.",
+    "sourceType": "Official",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "f40",
+    "claim": "Bible Society research found popular Bible chatbots often present one interpretive approach as definitive.",
+    "url": "https://www.christiantoday.com/news/concerns-raised-over-theological-bias-in-ai-bible-chatbots",
+    "quote": "researchers found that they regularly framed one interpretive approach as definitive, with little reference to historical, sacramental or tradition-based readings of Scripture.",
+    "sourceType": "Reporting",
+    "date": "2026-01-29"
+  },
+  {
+    "id": "f41",
+    "claim": "Dr Jonas Kurlberg: AI answers are often assumed neutral, so users engage less critically.",
+    "url": "https://www.christiantoday.com/news/concerns-raised-over-theological-bias-in-ai-bible-chatbots",
+    "quote": "Dr Kurlberg said this imbalance is particularly significant because AI answers are often assumed to be neutral or factual, reducing the likelihood that users will critically engage with them.",
+    "sourceType": "Reporting",
+    "date": "2026-01-29"
+  },
+  {
+    "id": "f42",
+    "claim": "Dr Zoltan Schwab questioned whether wrestling with the text matters more than receiving an answer.",
+    "url": "https://www.christiantoday.com/news/concerns-raised-over-theological-bias-in-ai-bible-chatbots",
+    "quote": "I wonder if wrestling with the biblical text is often more important than receiving the answer to your question?",
+    "sourceType": "Reporting",
+    "date": "2026-01-29"
+  },
+  {
+    "id": "f43",
+    "claim": "A 2025 RAND-led study found ChatGPT, Claude and Gemini inconsistent on intermediate-risk suicide questions.",
+    "url": "https://www.healthday.com/healthpro-news/mental-health/chatbots-do-well-responding-to-low-and-high-risk-suicide-questions",
+    "quote": "all three chatbots inconsistent in answering intermediate-risk questions about suicide",
+    "sourceType": "Reporting",
+    "date": "2025-08-28"
+  }
+]
