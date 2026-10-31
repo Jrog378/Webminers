@@ -1,0 +1,8 @@
+{"hero":{"src":"/images/eureka/2026-10-31-robots-txt-ai-training-opt-out-token/chain-padlock-robots-txt-ai-training-opt-out.webp","width":1600,"height":1066,
+"alt":"Rusty chain and brass padlock locking ornate metal doors, a symbol of the robots.txt AI training opt-out","caption":"A locked gate stands in for a website asking AI companies to stay out, the idea behind the robots.txt opt-out token.",
+"credit":{"title":"Security Lock And Chain","author":"Jennifer Bourn","authorUrl":"https://wordpress.org/photos/author/jenniferbourn/","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"WordPress Photo Directory","sourceUrl":"https://wordpress.org/photos/photo/83461f065c/","modified":"Resized and converted to WebP"}},
+"tried":[{"source":"StockSnap via Openverse","query":"padlock","result":"rejected: search worked but stocksnap.io and its CDN return Cloudflare 403, so no full-size clean file could be downloaded (Openverse URLs are 960w thumbnails)"},
+{"source":"Rawpixel via Openverse","query":"padlock, server room","result":"rejected: API timed out"},
+{"source":"Nappy via Openverse","query":"lock, padlock, server room","result":"rejected: no results"},
+{"source":"WordPress Photo Directory via Openverse","query":"server, data center, locked gate","result":"chosen: Security Lock And Chain, 2048x1365 CC0, inspected final WebP, no watermark, no faces; server-room images were portrait only. Faint embossed 'Maste(r)' brand text on the padlock is only partly legible."},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"}]}

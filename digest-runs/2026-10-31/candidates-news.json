@@ -1,0 +1,224 @@
+{
+ "section": "news",
+ "window": "Wed Oct 28 - Fri Oct 30, 2026",
+ "sourcesTried": [
+  {
+   "name": "TechCrunch AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "The Verge AI RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Ars Technica RSS",
+   "status": "ok (only 1 item in window)"
+  },
+  {
+   "name": "Google News RSS",
+   "status": "failed: empty response (0 bytes); retry with browser UA was blocked by permission system, not retried"
+  },
+  {
+   "name": "HN Algolia",
+   "status": "failed: 400 Bad Request (unencoded '>' filter); encoded retry blocked by permission system, so no HN signal"
+  },
+  {
+   "name": "Company blogs / Reddit / Wikipedia pageviews",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Google's Project Suncatcher satellite AI server sends its first response to Earth",
+   "summary": "Google's first orbital data-center satellite is online and transmitted an AI model response back to Earth.",
+   "primaryUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+   "date": "2026-10-30",
+   "signal": "Covered by The Verge and TechCrunch (no HN/Reddit data)",
+   "scores": {
+    "novelty": 5,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": null,
+   "note": "Verge: https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission ; TC: https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+  },
+  {
+   "title": "OpenAI, Google, Microsoft back new standard to opt out of AI training scraping",
+   "summary": "Industry-backed IETF AIPREF-style training preference signal; OpenAI, Google and Bing each published support posts.",
+   "primaryUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+   "date": "2026-10-30",
+   "signal": "Verge coverage",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": null,
+   "note": "Also https://developers.google.com/search/blog/2026/10/ai-training-control ; https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/ ; Verge: https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+  },
+  {
+   "title": "Mistral releases weights for trillion-parameter Large 4, targeting cybersecurity",
+   "summary": "Open weights release claimed top open model for agentic coding and cyber defense.",
+   "primaryUrl": "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense/",
+   "date": "2026-10-29",
+   "signal": "TechCrunch coverage",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 15,
+   "coveredLast8Weeks": true,
+   "note": "Overlaps 2026-10-07-mistral-large-4-claims-vs-tests; weights release is new angle. Official Mistral URL not fetched; Fortune is secondary reporting. TC: https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+  },
+  {
+   "title": "Anthropic VS Code extension on Cursor backdoored for nearly 12 hours",
+   "summary": "Malicious version of Anthropic's extension was served on Cursor's marketplace for almost 12 hours.",
+   "primaryUrl": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "date": "2026-10-30",
+   "signal": "Ars Technica original reporting",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 3
+   },
+   "total": 15,
+   "coveredLast8Weeks": null,
+   "note": "Original reporting; no vendor advisory fetched."
+  },
+  {
+   "title": "OpenAI-backed Thrive Holdings acquires ADT for $15.3B",
+   "summary": "AI-focused holding company to acquire the security company in a $15.3B transaction.",
+   "primaryUrl": "https://investor.adt.com/News--Events/news/news-details/2026/ADT-to-be-Acquired-by-Thrive-Holdings-in-15-3-Billion-Transaction/default.aspx",
+   "date": "2026-10-29",
+   "signal": "TechCrunch coverage",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": null,
+   "note": "TC: https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+  },
+  {
+   "title": "Anthropic expected to get high 'junk' credit rating after IPO (FT report)",
+   "summary": "FT reports agencies may rate Anthropic debt junk; Verge also covers IPO risk-factor filing.",
+   "primaryUrl": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "date": "2026-10-30",
+   "signal": "TC and Verge",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 13,
+   "coveredLast8Weeks": null,
+   "note": "Secondary reporting of FT; Verge: https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
+  },
+  {
+   "title": "Cracks are emerging in the AI spending boom",
+   "summary": "Analysis of signs of strain in AI capex; DoorDash says only several hundred AI-agent orders; Jassy says AWS to spend big first.",
+   "primaryUrl": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+   "date": "2026-10-30",
+   "signal": "TechCrunch",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 12,
+   "coveredLast8Weeks": null,
+   "note": "Related: https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/ ; https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+  },
+  {
+   "title": "Can AI data centers be mass-produced like cars? Startup aims for online in 48 hours",
+   "summary": "Startup pursuing factory-built modular AI data centers.",
+   "primaryUrl": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+   "date": "2026-10-30",
+   "signal": "TechCrunch",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": null,
+   "note": "Original reporting."
+  },
+  {
+   "title": "Sam Altman: OpenAI's math push won't stop; better for RAM to be in data centers than on your desk",
+   "summary": "Two Altman interview takeaways on math research and the RAM shortage.",
+   "primaryUrl": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+   "date": "2026-10-30",
+   "signal": "Verge",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 10,
+   "coveredLast8Weeks": null,
+   "note": "Second: https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers ; adjacent to covered ETH-refutation story 2026-10-28."
+  },
+  {
+   "title": "Meta quietly launches AI fashion app Style Sketch",
+   "summary": "New Meta consumer AI app for fashion.",
+   "primaryUrl": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+   "date": "2026-10-29",
+   "signal": "TechCrunch",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 9,
+   "coveredLast8Weeks": null,
+   "note": "No Meta primary source fetched."
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "Pope Leo calls for the disarmament of AI",
+   "reason": "religious-leader/policy angle; belongs to kingdom section if anything",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+  },
+  {
+   "title": "Maine's data center revolt will decide who controls the Senate",
+   "reason": "election",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
+  },
+  {
+   "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+   "reason": "geography-centered",
+   "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+  },
+  {
+   "title": "Intel's stock crashes, knocking $12B from government's stake",
+   "reason": "government stake/political",
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+  },
+  {
+   "title": "Wikipedia's operator says bad AI copyright ruling could threaten open web",
+   "reason": "legal/policy fight",
+   "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+  },
+  {
+   "title": "Religious exemption from using AI at work",
+   "reason": "culture-war/legal",
+   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+  }
+ ]
+}

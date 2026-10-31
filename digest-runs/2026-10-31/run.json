@@ -1,0 +1,12 @@
+{
+  "status": "drafted",
+  "issueDate": "2026-10-31",
+  "window": "Wed Oct 28 - Fri Oct 30, 2026",
+  "slug": "2026-10-31-robots-txt-ai-training-opt-out-token",
+  "sourcesFailed": ["Google News RSS (0 bytes)", "HN Algolia (400 / blocked)", "GitHub search API (blocked)", "openai.com post (403)", "stocksnap.io download (Cloudflare 403)", "Rawpixel API (timeout)", "Semantic Scholar (rate-limited)"],
+  "topics": {"news": "AI training opt-out robots.txt token", "research": "Memory Tax: net value of agent memory (arXiv 2610.34073)", "invention": "Qwenputer: RISC-V CPU inside Qwen3.5"},
+  "formats": {"news": "three-things", "research": "by-the-numbers", "invention": "comparison"},
+  "factCheck": {"round1": {"pass": 62, "fix": 25, "cut": 1}, "round2": {"pass": 22, "fix": 0, "cut": 0}},
+  "editor": "round 1 fail (closing section) fixed; round 2 PASS",
+  "notes": ["npm ci failed (package-lock missing yaml@2.9.1); built with npm install --no-save, build succeeded", "First research scout file was not saved; scout re-run"]
+}

@@ -1,0 +1,206 @@
+{
+ "checked": 22,
+ "passed": 22,
+ "fix": 0,
+ "cut": 0,
+ "results": [
+  {
+   "citation": "[3][4][5]",
+   "sentence": "Anthropic says it has started implementing support, Google says it plans to support it, and Microsoft says it will honor it from Feb 1, 2027.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Mail: 'Anthropic has already started implementing support'; Google: 'We aim to support ... in 2027'; Bing: honor from Feb 1, 2027.",
+   "fix": null,
+   "id": "N3"
+  },
+  {
+   "citation": "[1]",
+   "sentence": "Disallow: / with Allow: /press-kit/ example",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Draft: 'expresses a preference against AI training for all paths except those under /press-kit/, for which it expresses a preference in favor.'",
+   "fix": null,
+   "id": "N5"
+  },
+  {
+   "citation": "[7][8]",
+   "sentence": "AI Weekly and Vanessa Fox also report OpenAI announced support.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "AI Weekly alert headline/body lists OpenAI; Fox page loads (prior-round N11 evidence).",
+   "fix": null,
+   "id": "N12/N11b"
+  },
+  {
+   "citation": "[5]",
+   "sentence": "Microsoft says neither setting changes ... regular Bing results, subject to normal crawl and indexing requirements.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Bing: 'do not change eligibility for traditional Bing search results, subject to normal crawl and indexing requirements.'",
+   "fix": null,
+   "id": "N15"
+  },
+  {
+   "citation": "[7]",
+   "sentence": "an editor's note on AI Weekly's alert says it has 'no enforcement teeth'",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "AI Weekly Editor's note: '...no enforcement teeth, legal and content teams should treat it as a cleaner negotiating lever'.",
+   "fix": null,
+   "id": "N18"
+  },
+  {
+   "citation": "[10]",
+   "sentence": "Nate Hake ... posts on X shown by Search Engine Roundtable",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "SER embeds Nate Hake X posts dated Oct 30 2026 with both quotes verbatim.",
+   "fix": null,
+   "id": "N21"
+  },
+  {
+   "citation": "[4]",
+   "sentence": "Google says sites that 'specifically allow Google-Extended are eligible to appear' in grounded answers in Gemini Apps.",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Google blog: 'Websites that specifically allow Google-Extended are eligible to appear in responses and receive clicks via grounding in Gemini Apps.'",
+   "fix": null,
+   "id": "N23"
+  },
+  {
+   "citation": "none",
+   "sentence": "Our reading, not Google's statement ...",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Labeled as own analysis; inference follows from N22/N23 sources.",
+   "fix": null,
+   "id": "N24"
+  },
+  {
+   "citation": "[14]",
+   "sentence": "90 of 99 ... two-round RAG baseline, per project page",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Project page: '90 / 99 memory results below Naive RAG', 11 systems, 3 benchmarks x 3 backbones; table shaded relative to RAG (2rd) reference row.",
+   "fix": null,
+   "id": "R7"
+  },
+  {
+   "citation": "[13]",
+   "sentence": "Qwen3.5-4B, Qwen3.6-27B and GPT-5.6 Luna at a low reasoning setting",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Paper: 'GPT-5.6-luna(low)' / 'GPT-5.6 Luna (low) backbones'.",
+   "fix": null,
+   "id": "R8"
+  },
+  {
+   "citation": "[13]",
+   "sentence": "OpenViking 31.8 on LongMemEval-s Qwen3.5-4B vs 72.2 for two-round RAG; widest gap",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Table 1: OpenViking 31.8 (-40.4); RAG (2rd) 72.2. -40.4 is the largest drop of all 11 systems x 9 cells (next: PlugMem -20.0 ... per project page deltas).",
+   "fix": null,
+   "id": "R9"
+  },
+  {
+   "citation": "[13]",
+   "sentence": "RAG-Hybrid about 70%; keyword matcher tops 50% on some",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Paper: 'IDF-keyword ... more than 50% in absolute score on some of them, while RAG-Hybrid reaches about 70%.'",
+   "fix": null,
+   "id": "R13"
+  },
+  {
+   "citation": "[13]",
+   "sentence": "proof-of-concept fix keeps 'a lightweight path back to the source history'",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Paper: 'preserving a lightweight path back to the source history ... As a simple proof of concept...'",
+   "fix": null,
+   "id": "R14"
+  },
+  {
+   "citation": "[15]",
+   "sentence": "PlugMem comes from overlapping authors",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "arXiv API authors of PlugMem include Ke Yang, Xuan He, Jiawei Han, ChengXiang Zhai, all authors on Memory Tax. Source title and published 2026-02-06 match API (note: arXiv ID 2603 vs Feb date is odd but is what the API returns).",
+   "fix": null,
+   "id": "R18"
+  },
+  {
+   "citation": "[18]",
+   "sentence": "Yuan, Su and Yao workshop paper 'matches or outperforms expensive lossy alternatives', zero LLM calls",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Abstract: 'Raw chunked storage, which requires zero LLM calls, matches or outperforms expensive lossy alternatives'; comment: Accepted at MemAgents Workshop, ICLR 2026.",
+   "fix": null,
+   "id": "R23"
+  },
+  {
+   "citation": "[22]",
+   "sentence": "HN post from Oct 29 shows 695 points",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "HN Algolia item: points 695, created 2026-10-29.",
+   "fix": null,
+   "id": "I2"
+  },
+  {
+   "citation": "[21]",
+   "sentence": "about 3,200 CPU tokens a second on an L4 GPU; big calculations take seconds",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Blog: 'a big calculation takes seconds rather than milliseconds ... about 3,200 CPU tokens a second on an L4.'",
+   "fix": null,
+   "id": "I8"
+  },
+  {
+   "citation": "[21]",
+   "sentence": "Python tool speed: Not reported",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Blog gives no Python-tool speed figure; 'Not reported' is accurate.",
+   "fix": null,
+   "id": "I9"
+  },
+  {
+   "citation": "[23]",
+   "sentence": "40 problems per set for arithmetic benchmarks; no outside replication found",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "README: 'Greedy decoding, 40 problems per set' for the arithmetic table (other benchmarks use 100). Absence claim is the writer's own finding, flagged as such; cannot be verified from a source.",
+   "fix": null,
+   "id": "I13"
+  },
+  {
+   "citation": "[21]",
+   "sentence": "his post calls it 'very much an experiment'",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Blog: 'Qwenputer is very much an experiment'.",
+   "fix": null,
+   "id": "I15"
+  },
+  {
+   "citation": "sources",
+   "sentence": "Renumbering [1]-[27] and source titles",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "Citation numbers match source list order; titles for Bao, Yuan, Huang, He, Vectorize, Lobsters, datatracker, Fox verified; SER title matches page headline schema (og:title adds 'Also').",
+   "fix": null,
+   "id": "Cites"
+  },
+  {
+   "citation": "https://arxiv.org/abs/2603.03296",
+   "sentence": "title/date 2026-02-06",
+   "url": null,
+   "verdict": "pass",
+   "evidence": "arXiv API: title and published 2026-02-06T18:55:38Z.",
+   "fix": null,
+   "id": "PlugMem source"
+  }
+ ]
+}

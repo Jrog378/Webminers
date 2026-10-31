@@ -1,0 +1,182 @@
+{
+ "section": "invention",
+ "window": "Wed Oct 28 - Fri Oct 30, 2026",
+ "sourcesTried": [
+  {
+   "name": "GitHub search API",
+   "status": "blocked (sessions bound to configured repos)"
+  },
+  {
+   "name": "Hacker News Algolia (Show HN)",
+   "status": "ok"
+  },
+  {
+   "name": "Lobsters ai tag RSS",
+   "status": "ok"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok but no dates/signal parsed; unused"
+  },
+  {
+   "name": "hnrss.org show",
+   "status": "ok"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Qwenputer: a functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "summary": "Turns Gated DeltaNet state into exact RAM so a Qwen3.5 model executes a RISC-V CPU deterministically.",
+   "primaryUrl": "https://divagr.com/blog/qwenputer",
+   "date": "2026-10-29",
+   "signal": "HN 695 pts / 145 comments https://news.ycombinator.com/item?id=50282838 ; Lobsters https://lobste.rs/s/zftely/qwenputer_fully_functioning",
+   "scores": {
+    "novelty": 5,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 19,
+   "recentlyCovered": false
+  },
+  {
+   "title": "nesformer: a working Nintendo in ~1GB of Qwen weights",
+   "summary": "Show HN: an NES emulator encoded in Qwen transformer weights.",
+   "primaryUrl": "https://github.com/dbreunig/nesformer",
+   "date": "2026-10-30",
+   "signal": "HN 175 pts / 107 comments https://news.ycombinator.com/item?id=50306442",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "recentlyCovered": false
+  },
+  {
+   "title": "doomformer: DOOM turned into a Transformer",
+   "summary": "Show HN: DOOM game logic implemented as a transformer.",
+   "primaryUrl": "https://github.com/mottopanikeiku/doomformer",
+   "date": "2026-10-29",
+   "signal": "HN 122 pts / 36 comments https://news.ycombinator.com/item?id=50297697",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Hob: open-source on-device alternative to Claude Cowork and ChatGPT",
+   "summary": "Open-source desktop file agent running on local models.",
+   "primaryUrl": "https://github.com/FrigadeHQ/hob",
+   "date": "2026-10-28",
+   "signal": "Show HN (item id not verified); similar project Hob already covered",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 12,
+   "recentlyCovered": true
+  },
+  {
+   "title": "Arsaze: Cursor for video editing",
+   "summary": "Tab-complete and agent edits for video editing.",
+   "primaryUrl": "https://www.arsaze.com",
+   "date": "2026-10-30",
+   "signal": "HN 60 pts / 0 comments https://news.ycombinator.com/item?id=50300618",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 3
+   },
+   "total": 12,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Farol: risk map of a pull request for the approver",
+   "summary": "Show HN tool visualizing PR risk for reviewers.",
+   "primaryUrl": "https://github.com/winnin/farol",
+   "date": "2026-10-29",
+   "signal": "Show HN (stats not fetched)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 12,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Hurston-1: open-source TTS for Southern American and Afro-English accents",
+   "summary": "Open TTS model on Hugging Face.",
+   "primaryUrl": "https://huggingface.co/destined/hurston-1",
+   "date": "2026-10-29",
+   "signal": "Show HN (stats not fetched)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 12,
+   "recentlyCovered": false
+  },
+  {
+   "title": "ADRs for AI: deliberation records for human-AI work versioned in Git",
+   "summary": "Decision-record format for AI-assisted work.",
+   "primaryUrl": "https://adrs.systems",
+   "date": "2026-10-29",
+   "signal": "Show HN (stats not fetched)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 11,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Overtone: transcribe, correct and cut captions for any screen shape",
+   "summary": "Open-source caption tool.",
+   "primaryUrl": "https://github.com/lonthq/overtone-captions",
+   "date": "2026-10-29",
+   "signal": "HN 43 pts / 8 comments https://news.ycombinator.com/item?id=50293115",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 11,
+   "recentlyCovered": false
+  },
+  {
+   "title": "Fastbrowse: browser agent that picks clicks with a System One model",
+   "summary": "Browser agent Show HN.",
+   "primaryUrl": "https://news.ycombinator.com/item?id=50311029",
+   "date": "2026-10-30",
+   "signal": "HN 3 pts / 2 comments",
+   "scores": {
+    "novelty": 3,
+    "momentum": 1,
+    "significance": 2,
+    "primarySource": 2
+   },
+   "total": 8,
+   "recentlyCovered": false
+  }
+ ],
+ "excludedPolitical": [
+  "Lobsters: EU Member States approve 'digital expropriation' (Oct 23, out of window, political)",
+  "Show HN: IRS tax forms formalization / UK Farming Simulator (US/UK geography)"
+ ]
+}

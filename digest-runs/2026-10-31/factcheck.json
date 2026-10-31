@@ -1,0 +1,710 @@
+{
+ "checked": 88,
+ "passed": 62,
+ "results": [
+  {
+   "citation": "sixty-1",
+   "sentence": "Draft internet standard from Anthropic's Kevin Kelley, dated Oct 30, ... __usage_ai-training, Microsoft will honor from Feb 1, 2027, Google aims 2027",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Draft: K. Kelley, Anthropic, 30 Oct 2026, token __usage_ai-training. Bing: 'Starting February 1, 2027, Microsoft will honor the new preferences as it crawls'. Google: 'We aim to support this new control ... in 2027'.",
+   "fix": null
+  },
+  {
+   "citation": "sixty-2",
+   "sentence": "UIUC-led preprint: 90 of 99 results from 11 memory systems scored below naive RAG",
+   "url": "https://hexuan21.github.io/MemoryTax/",
+   "verdict": "pass",
+   "evidence": "Project page: '11 evaluated representative memory systems', '90 / 99 memory results below Naive RAG'; first author and senior authors (Han, Zhai) at UIUC. I also counted 90 negative deltas in arXiv Table 1. Note the reference is the stronger 2-round RAG variant (RAG (2rd)).",
+   "fix": null
+  },
+  {
+   "citation": "sixty-3",
+   "sentence": "Qwenputer: 32-bit RISC-V in Qwen 3.5 4B, 97.5% on 40-problem multiplication set vs 55% stock",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: mul_big Qwenputer 97.5%, base Qwen 55%; README: 'Greedy decoding, 40 problems per set'.",
+   "fix": null
+  },
+  {
+   "citation": "N1",
+   "sentence": "A draft standard dated Oct 30 defines one shared token: __usage_ai-training",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Abstract/Sec 4.1 define the token; dated 30 October 2026.",
+   "fix": null
+  },
+  {
+   "citation": "N2",
+   "sentence": "Draft comes from Kevin Kelley of Anthropic; individual proposal filed with IETF; tracker says 'not endorsed by the IETF'",
+   "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
+   "verdict": "pass",
+   "evidence": "Datatracker: 'This I-D is not endorsed by the IETF and has no formal standing'; group shown as '(individual)'.",
+   "fix": null
+  },
+  {
+   "citation": "N3",
+   "sentence": "Anthropic, Google and Microsoft have each said they will honor it",
+   "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+   "verdict": "fix",
+   "evidence": "Anthropic: 'has already started implementing support' (Kelley's list message). Google: 'announcing our plans to support', 'aim to support ... in 2027'. Microsoft: 'will honor' from Feb 1, 2027. 'Will honor' overstates Anthropic's and Google's wording.",
+   "fix": "Anthropic says it has started implementing support, Google says it plans to support it, and Microsoft says it will honor it from Feb 1, 2027."
+  },
+  {
+   "citation": "N4",
+   "sentence": "Token goes in a robots.txt User-Agent line; 'no new directive names and no new grammar'; older readers skip it",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Abstract quote exact; Sec 1: existing parsers 'will ignore policy-token groups as they would any group for a user agent they do not recognize'.",
+   "fix": null
+  },
+  {
+   "citation": "N5",
+   "sentence": "In the draft's example, Disallow: / with Allow: /press-kit/ means no training on the site except its press kit",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "fix",
+   "evidence": "Draft Fig 1 and text: it 'expresses a preference against AI training for all paths except those under /press-kit/, for which it expresses a preference in favor'. It is a preference, not a rule; elsewhere the draft says it is not a crawl directive.",
+   "fix": "In the draft's example, Disallow: / paired with Allow: /press-kit/ expresses a preference against training everywhere except the press kit, where it expresses a preference in favor."
+  },
+  {
+   "citation": "N6",
+   "sentence": "'AI training' means 'using an asset to modify the learned parameters of a generative AI model'",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Sec 3 quotes the aipref vocab definition verbatim.",
+   "fix": null
+  },
+  {
+   "citation": "N7",
+   "sentence": "Catch-all User-Agent: * group does not apply; a site without the token has expressed no preference",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Sec 4.2: wildcard groups MUST NOT match the token; no token group means no preference.",
+   "fix": null
+  },
+  {
+   "citation": "N8",
+   "sentence": "Anthropic 'has already started implementing support for this draft,' per IETF list message",
+   "url": "https://mailarchive.ietf.org/arch/msg/ai-control/mddjatOxSR0h6GmLRBWlc839c7w/",
+   "verdict": "pass",
+   "evidence": "Message from Kelley, 30 Oct 2026: 'Anthropic has already started implementing support for this draft'.",
+   "fix": null
+  },
+  {
+   "citation": "N9",
+   "sentence": "Google: lets owners 'express their AI training preferences across multiple AI providers in a single step'; aims to support 'in 2027'",
+   "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+   "verdict": "pass",
+   "evidence": "Both quotes exact in Google's post (posted by John Mueller, Oct 30, 2026).",
+   "fix": null
+  },
+  {
+   "citation": "N10",
+   "sentence": "'Starting February 1, 2027, Microsoft will honor the new preferences as it crawls'",
+   "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+   "verdict": "pass",
+   "evidence": "Exact quote on the Bing blog page.",
+   "fix": null
+  },
+  {
+   "citation": "N11",
+   "sentence": "OpenAI will roll out support 'in the coming months,' per a daily.dev summary of OpenAI's announcement",
+   "url": "https://daily.dev/posts/making-it-easier-for-websites-to-express-ai-training-preferences-ycc0xghgx",
+   "verdict": "pass",
+   "evidence": "daily.dev (From openai.com): 'will roll out in the coming months'. Attributed to the secondary source, which is correct. AI Weekly and Vanessa Fox also say OpenAI announced support. I did not open openai.com.",
+   "fix": null
+  },
+  {
+   "citation": "N12",
+   "sentence": "'We could not read OpenAI's own post.'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "This is a process note, not a reader-facing statement. The attribution to daily.dev already carries the caveat.",
+   "fix": "Cut the sentence, or reword as 'OpenAI's own post was not available to us at publication' if the editor wants disclosure."
+  },
+  {
+   "citation": "N13",
+   "sentence": "'Training and grounding are independent preferences,' Microsoft says",
+   "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+   "verdict": "pass",
+   "evidence": "Exact quote in the guide section of the Bing post.",
+   "fix": null
+  },
+  {
+   "citation": "N14",
+   "sentence": "Grounding is when an AI assistant pulls in web pages to answer a question",
+   "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+   "verdict": "pass",
+   "evidence": "Bing: grounding 'connects generated responses to web content when an answer is created'. Plain-language gloss is fair.",
+   "fix": null
+  },
+  {
+   "citation": "N15",
+   "sentence": "Microsoft says neither setting changes whether a site can appear in regular Bing results",
+   "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+   "verdict": "pass",
+   "evidence": "Bing: 'do not change eligibility for traditional Bing search results, subject to normal crawl and indexing requirements'. Consider adding that qualifier.",
+   "fix": null
+  },
+  {
+   "citation": "N16",
+   "sentence": "Google says Google-Extended 'does not impact a site's inclusion in Google Search'",
+   "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+   "verdict": "pass",
+   "evidence": "Exact: 'Google-Extended does not impact a site's inclusion in Google Search nor is it used as a ranking signal.'",
+   "fix": null
+  },
+  {
+   "citation": "N17",
+   "sentence": "'This policy token is not a directive for crawling behavior,' the draft says",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Sec 4.4 exact.",
+   "fix": null
+  },
+  {
+   "citation": "N18",
+   "sentence": "An AI Weekly alert notes it has 'no enforcement teeth'",
+   "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token",
+   "verdict": "pass",
+   "evidence": "The phrase is in AI Weekly's 'Editor's note'. AI Weekly is an aggregator; use is attributed. Prefer attributing to its editor's note.",
+   "fix": null
+  },
+  {
+   "citation": "N19",
+   "sentence": "Private deals between a site and an AI company can also override it",
+   "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.txt",
+   "verdict": "pass",
+   "evidence": "Sec 4.5: 'Private agreements MAY override preferences expressed via this mechanism.'",
+   "fix": null
+  },
+  {
+   "citation": "N20",
+   "sentence": "Signal 'says nothing about web search, AI answers, or user-triggered requests,' Vanessa Fox writes",
+   "url": "https://www.vanessafox.com/complete-reference-blocking-llm-crawlers/",
+   "verdict": "pass",
+   "evidence": "Fox: 'It says nothing about web search, AI answers, or user-triggered requests.'",
+   "fix": null
+  },
+  {
+   "citation": "N21",
+   "sentence": "Nate Hake of Travel Lemming ... said the draft 'basically exempts the preferences from applying to anything a user does'; 'it's not actually done at the ietf level -- and some significant areas of dispute remain'",
+   "url": "https://www.seroundtable.com/google-ai-training-control-42430.html",
+   "verdict": "pass",
+   "evidence": "Both are Hake posts on X (Oct 30) embedded in the SER article. Affiliation from the draft's acknowledgments table. Quote 1 starts 'it basically exempts'; fine. Should be described as posts, not interview comments.",
+   "fix": null
+  },
+  {
+   "citation": "N22",
+   "sentence": "Unless a site names Google-Extended itself, Google plans to read a token opt-out 'as if the publisher had disallowed Google-Extended'",
+   "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+   "verdict": "pass",
+   "evidence": "Exact: 'Google plans to interpret that as if the publisher had disallowed Google-Extended.'",
+   "fix": null
+  },
+  {
+   "citation": "N23",
+   "sentence": "Only sites that allow Google-Extended can appear in answers through grounding in Gemini Apps",
+   "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+   "verdict": "fix",
+   "evidence": "Google: 'Websites that specifically allow Google-Extended are eligible to appear in responses and receive clicks via grounding in Gemini Apps.' It does not say 'only'.",
+   "fix": "Google says sites that specifically allow Google-Extended are eligible to appear in Gemini Apps grounded responses."
+  },
+  {
+   "citation": "N24",
+   "sentence": "So a site that opts out of training with the new token may also drop out of those answers",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Writer's inference from Google's two statements; not stated by Google. Label as analysis.",
+   "fix": "By Google's description, a site that opts out with the new token and does not name Google-Extended would not count as specifically allowing it, so it could lose eligibility for Gemini Apps grounded answers (our reading, not Google's statement)."
+  },
+  {
+   "citation": "R1",
+   "sentence": "Team led from UIUC reports dedicated memory systems often do worse than raw-history search; quote 'We find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value'",
+   "url": "https://arxiv.org/abs/2610.34073",
+   "verdict": "pass",
+   "evidence": "Abstract: 'we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value' (lowercase 'we' in source). Authors UIUC and Tsinghua; first and senior authors UIUC.",
+   "fix": null
+  },
+  {
+   "citation": "R2",
+   "sentence": "Preprint posted to arXiv Oct 25 and is not yet peer-reviewed",
+   "url": "https://arxiv.org/abs/2610.34073",
+   "verdict": "pass",
+   "evidence": "arXiv: 'Submitted on 25 Oct 2026'. No venue listed, so 'not yet peer-reviewed' is the correct label.",
+   "fix": null
+  },
+  {
+   "citation": "R3",
+   "sentence": "It drew 157 upvotes after Hugging Face Daily Papers listed it on Oct 28",
+   "url": "https://huggingface.co/api/papers/2610.34073",
+   "verdict": "pass",
+   "evidence": "API: upvotes 157, submittedOnDailyAt 2026-10-28. The count is as of my fetch on Oct 31. Note the daily submission was made by author hexuan21.",
+   "fix": null
+  },
+  {
+   "citation": "R4",
+   "sentence": "Memory system rewrites past chats into facts, summaries or graphs; naive RAG chunks raw history, searches, hands best matches to the model",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: memory units as 'summaries, extracted facts, structured records, episodic entries'; graph-based category listed; naive RAG 'keeps raw history with minimal processing and retrieves relevant chunks directly' (BM25+dense, reranked). Definitions supported.",
+   "fix": null
+  },
+  {
+   "citation": "R5",
+   "sentence": "Memory benefit counts questions memory gets right that RAG misses; tax counts the reverse; when tax is bigger memory loses",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper intro: memory 'solve[s] some queries RAG misses ... while losing others that RAG already solves ... When the tax outweighs the benefit, memory falls below RAG overall'.",
+   "fix": null
+  },
+  {
+   "citation": "R6",
+   "sentence": "Memory 'does solve some queries RAG misses,' ... 'while losing others that RAG already solves'",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Exact fragments from the intro.",
+   "fix": null
+  },
+  {
+   "citation": "R7",
+   "sentence": "90 of 99 results, 11 systems, 3 benchmarks, 3 models fell below naive RAG, per project page",
+   "url": "https://hexuan21.github.io/MemoryTax/",
+   "verdict": "pass",
+   "evidence": "Project page text matches. Caveat to add: the comparison line is 'RAG (2rd)' (second-round retrieval), the stronger of the two RAG baselines.",
+   "fix": null
+  },
+  {
+   "citation": "R8",
+   "sentence": "Models were Qwen3.5-4B, Qwen3.6-27B and GPT-5.6 Luna",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'GPT-5.6 Luna (low)'. Consider adding '(low reasoning setting)'.",
+   "fix": null
+  },
+  {
+   "citation": "R9",
+   "sentence": "31.8 versus 72.2: widest gap, OpenViking 31.8 on LongMemEval-s with Qwen3.5-4B, RAG 72.2 (Table 1)",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "fix",
+   "evidence": "Table 1: OpenViking 31.8 (-40.4) vs 'RAG (2rd)' 72.2 on LongMemEval-s/Q3.5-4B. Largest drop of the 90 negative cells (next largest -27.0). But 72.2 is the 2-round RAG; one-round RAG is 70.2 (gap 38.4). 'RAG' alone is ambiguous.",
+   "fix": "The widest gap: OpenViking scored 31.8 on LongMemEval-s with Qwen3.5-4B, against 72.2 for the paper's two-round RAG baseline."
+  },
+  {
+   "citation": "R10",
+   "sentence": "OpenViking kept only 39.4% of sampled facts with no loss, against 98.4% for MemoryOS (Table 2)",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Table 2 'NL' column: OpenViking 39.4, MemoryOS 98.4. (OpenViking also had 38.0% with no memory unit.)",
+   "fix": null
+  },
+  {
+   "citation": "R11",
+   "sentence": "Lost information 'becomes a direct cause of memory tax'; saved facts can be fragmented, diluted or rephrased",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'Information loss with varying severity ... becomes a direct cause of memory tax'; 'fragmented across multiple memory units, diluted with unrelated information, or rephrased'.",
+   "fix": null
+  },
+  {
+   "citation": "R12",
+   "sentence": "Of earlier memory papers reviewed, only three (LightMem, PlugMem, Mem-T) reported a RAG comparison",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'only three of them (excluding originally RAG system like HippoRAG2) report RAG results (LightMem, PlugMem, and Mem-T)'.",
+   "fix": null
+  },
+  {
+   "citation": "R13",
+   "sentence": "About 70%: a basic RAG-Hybrid baseline reaches that on many memory benchmarks; keyword matcher tops 50% on some",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "fix",
+   "evidence": "Paper and project page: IDF-keyword 'more than 50% ... on some of them, while RAG-Hybrid reaches about 70%' and 'simple retrieval baselines already performs quite well on some of the benchmarks'. 'Many' is not supported.",
+   "fix": "RAG-Hybrid reaches about 70% on some of the memory benchmarks the authors checked, and a simple keyword matcher tops 50% on some."
+  },
+  {
+   "citation": "R14",
+   "sentence": "The authors' fix keeps 'a lightweight path back to the source history'",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Exact: 'preserving a lightweight path back to the source history'. Authors call it 'a simple proof of concept'; consider saying so.",
+   "fix": null
+  },
+  {
+   "citation": "R15",
+   "sentence": "SimpleMem 73.6 to 82.8 on LongMemEval-s with Qwen3.6-27B; tax 12.0 to 5.2",
+   "url": "https://hexuan21.github.io/MemoryTax/",
+   "verdict": "pass",
+   "evidence": "Project page table (Qwen3.6-27B): SimpleMem 73.6 / tax 12.0; + src-aug 82.8 / tax 5.2. Also matches Table 1 SimpleMem 73.6 (-7.8).",
+   "fix": null
+  },
+  {
+   "citation": "R16",
+   "sentence": "Grader is an AI judge running Qwen3.6-27B, also one of the answering models",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'LLM-as-Judge backed by Qwen3.6-27B'.",
+   "fix": null
+  },
+  {
+   "citation": "R17",
+   "sentence": "Two benchmarks tested on 20% and 10% samples 'due to cost constraints'",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'Due to cost constraints, we evaluate 20% of PersonaMem-v2 and 10% of MINT-Eval.'",
+   "fix": null
+  },
+  {
+   "citation": "R18",
+   "sentence": "PlugMem, one of the systems tested, comes from overlapping authors",
+   "url": "https://arxiv.org/abs/2603.03296",
+   "verdict": "fix",
+   "evidence": "Not in the paper [13]. PlugMem (arXiv 2603.03296) authors include Ke Yang, Xuan He, Jiawei Han, ChengXiang Zhai, all Memory Tax authors. True, but the cited source does not show it.",
+   "fix": "Cite https://arxiv.org/abs/2603.03296 (PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents) and add it to sources."
+  },
+  {
+   "citation": "R19",
+   "sentence": "Authors call their system list 'representative rather than exhaustive'; more tuning 'may yield better performance'",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Limitations section: 'representative rather than exhaustive'; 'further system-specific tuning may yield better performance'.",
+   "fix": null
+  },
+  {
+   "citation": "R20",
+   "sentence": "Code to reproduce each system is not yet released",
+   "url": "https://raw.githubusercontent.com/hexuan21/MemoryTax/main/README.md",
+   "verdict": "pass",
+   "evidence": "README TODO: '[ ] Release reproduction codes of each baseline' unchecked; results and intermediates are released. Wording 'to reproduce each system' fits.",
+   "fix": null
+  },
+  {
+   "citation": "R21",
+   "sentence": "On web tasks, turning long action records into workflows 'can outperform naive RAG,' though several methods fall behind on tool use",
+   "url": "https://arxiv.org/html/2610.34073v1",
+   "verdict": "pass",
+   "evidence": "Paper: 'distilling long traces into workflows or strategies can outperform naive RAG, while for tool-use, several memory methods fall behind it'.",
+   "fix": null
+  },
+  {
+   "citation": "R22",
+   "sentence": "Bao et al.: raw-history RAG ranked first in six of seven benchmark-model settings",
+   "url": "https://arxiv.org/abs/2610.30755",
+   "verdict": "pass",
+   "evidence": "Abstract: 'Raw-RAG ranks first among the compared memory systems in six of seven benchmark-model settings'. arXiv, submitted 22 Oct 2026.",
+   "fix": null
+  },
+  {
+   "citation": "R23",
+   "sentence": "Yuan, Su and Yao: raw chunks, needing zero AI model calls, 'matches or outperforms expensive lossy alternatives'",
+   "url": "https://arxiv.org/abs/2603.02473",
+   "verdict": "pass",
+   "evidence": "Abstract: 'Raw chunked storage, which requires zero LLM calls, matches or outperforms expensive lossy alternatives'. Study is on LoCoMo only; accepted at ICLR 2026 MemAgents Workshop, so 'preprint' is fine but 'accepted at a workshop' is more accurate.",
+   "fix": null
+  },
+  {
+   "citation": "R24",
+   "sentence": "Huang et al. found 'no single substrate consistently dominates'",
+   "url": "https://arxiv.org/abs/2608.15008",
+   "verdict": "pass",
+   "evidence": "Abstract exact.",
+   "fix": null
+  },
+  {
+   "citation": "R25",
+   "sentence": "Vectorize: 'RAG is often the wrong tool for memory because memory queries are not just document similarity problems'",
+   "url": "https://hindsight.vectorize.io/guides/2026/04/21/comparison-hindsight-vs-rag-for-ai-agents",
+   "verdict": "pass",
+   "evidence": "Exact quote; vendor page by Vectorize (Hindsight is its product), attributed as vendor argument.",
+   "fix": null
+  },
+  {
+   "citation": "I1",
+   "sentence": "Agrawal built a CPU inside Qwen 3.5 4B using the model's Gated DeltaNet layers as RAM; write-up dated Oct 22",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog dated 22 October 2026; 'uses the model's own Gated DeltaNet attention layers as RAM'.",
+   "fix": null
+  },
+  {
+   "citation": "I2",
+   "sentence": "It became the week's most-discussed build after a Hacker News post reached 695 points on Oct 29",
+   "url": "https://hn.algolia.com/api/v1/items/50282838",
+   "verdict": "fix",
+   "evidence": "HN item shows 695 points as of fetch (Oct 31); posted 2026-10-29 00:25 UTC. 'Reached 695 on Oct 29' is not shown, and 'week's most-discussed build' has no source.",
+   "fix": "It drew 695 points on Hacker News after being posted on Oct 29. (Cut 'the week's most-discussed build'.)"
+  },
+  {
+   "citation": "I3",
+   "sentence": "32-bit RISC-V CPU takes up 11 layers in front of Qwen's 32",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: 'RV32IM ... takes up 11 layers in front of Qwen's 32'.",
+   "fix": null
+  },
+  {
+   "citation": "I4",
+   "sentence": "GDN layers keep a fixed-size grid of numbers as a running scratchpad, where old entries usually fade and new ones blend in",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog footnotes: gate 'fades everything stored a little on every token'; beta of 1 replaces the old value 'instead of blended'; state size fixed regardless of conversation length.",
+   "fix": null
+  },
+  {
+   "citation": "I5",
+   "sentence": "Each write overwrites exactly one row and each lookup 'can retrieve an exact value'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: 'every write we perform will overwrite exactly one row, and every one-hot query can retrieve an exact value'.",
+   "fix": null
+  },
+  {
+   "citation": "I6",
+   "sentence": "'There's no training involved: a compiler sets every weight directly'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Exact in blog (preceded by 'Luckily,').",
+   "fix": null
+  },
+  {
+   "citation": "I7",
+   "sentence": "Table: mul_big 97.5% Qwenputer, 55% stock, 100% Python tool, 40 problems",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog and README match; README: 40 problems per set.",
+   "fix": null
+  },
+  {
+   "citation": "I8",
+   "sentence": "Table: Speed, Qwenputer about 3,200 CPU tokens a second; big calculations take seconds",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "fix",
+   "evidence": "Blog: 'batched executor I used for the benchmarks runs about 3,200 CPU tokens a second on an L4'; 'a big calculation takes seconds rather than milliseconds'. Hardware qualifier missing.",
+   "fix": "About 3,200 CPU tokens a second on an L4 GPU; big calculations take seconds."
+  },
+  {
+   "citation": "I9",
+   "sentence": "Table: Python tool speed 'Milliseconds'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "cut",
+   "evidence": "Blog only says Qwenputer takes 'seconds rather than milliseconds'. It never states a Python-tool speed.",
+   "fix": "Change cell to 'Not reported', or cut the row's Python-tool cell."
+  },
+  {
+   "citation": "I10",
+   "sentence": "Table: 18.8 GB, roughly double base Qwen, mostly zero padding; stock 'About half that'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: 'checkpoint 18.8 GB, roughly double base Qwen, although most of it is zero padding'. 'About half that' is derived from 'roughly double'; acceptable.",
+   "fix": null
+  },
+  {
+   "citation": "I11",
+   "sentence": "Table: needs custom driver RvChat; no plain generate() call yet",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: 'needs a small driver (RvChat) ... doesn't run with a plain generate() call yet'.",
+   "fix": null
+  },
+  {
+   "citation": "I12",
+   "sentence": "Replayed about 230,000 output positions against a reference machine, zero mismatches",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Exact. (README for the earlier CHIP-8 v1 reports 3.9 million; different model.)",
+   "fix": null
+  },
+  {
+   "citation": "I13",
+   "sentence": "Every number is self-reported, from benchmark sets of 40 problems each, with no outside replication",
+   "url": "https://raw.githubusercontent.com/divagr18/qwenputer/main/README.md",
+   "verdict": "fix",
+   "evidence": "README confirms 40 problems per set for the five arithmetic rows. 'No outside replication' is an absence claim; I found none in HN/Lobsters but the cited README cannot prove it. Filesystem rows use 90 and 30 questions.",
+   "fix": "Every number is self-reported; the arithmetic benchmarks use 40 problems per set, and we found no outside replication as of Oct 31."
+  },
+  {
+   "citation": "I14",
+   "sentence": "'I just do these during my free time,' Agrawal wrote on Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50284989",
+   "verdict": "pass",
+   "evidence": "Comment by divagr18, 2026-10-29: 'hahaha I wish I was! I just do these during my free time.' The question he answered is not shown; check it was about being paid/employed to avoid a misleading frame.",
+   "fix": null
+  },
+  {
+   "citation": "I15",
+   "sentence": "His post calls it 'very much an experiment'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Blog: 'Qwenputer is very much an experiment'.",
+   "fix": null
+  },
+  {
+   "citation": "I16",
+   "sentence": "gcr called the 'not a plugin' claim 'a little dishonest,' needing 'some pretty invasive changes to the inference driver'",
+   "url": "https://news.ycombinator.com/item?id=50286992",
+   "verdict": "pass",
+   "evidence": "gcr: 'feels a little dishonest to me since this doesn't work without some pretty invasive changes to the inference driver'. Source says 'no external runtime' / 'not a plugin' claim; fine.",
+   "fix": null
+  },
+  {
+   "citation": "I17",
+   "sentence": "Top Lobsters comment: 'you could get the same result by using a normal RISC-V emulator'",
+   "url": "https://lobste.rs/s/zftely",
+   "verdict": "pass",
+   "evidence": "Comment by xal (score 23, the top comment); exact phrase present.",
+   "fix": null
+  },
+  {
+   "citation": "I18",
+   "sentence": "Agrawal says the new part is making it 'exact and addressable, inside a production model'",
+   "url": "https://divagr.com/blog/qwenputer",
+   "verdict": "pass",
+   "evidence": "Exact fragment.",
+   "fix": null
+  },
+  {
+   "citation": "I19",
+   "sentence": "nesformer reuses Qwenputer's compiler to run an NES processor in Qwen3.5 weights",
+   "url": "https://raw.githubusercontent.com/dbreunig/nesformer/main/README.md",
+   "verdict": "pass",
+   "evidence": "README: 'An NES CPU compiled into the weights of a stock Qwen3.5 model ... reuses Qwenputer's compiler'. The cited github.com URL returned 403 to me; the raw README loads. Use the raw URL or the repo page after confirming it loads.",
+   "fix": null
+  },
+  {
+   "citation": "closing",
+   "sentence": "All three stories turn on what an AI holds onto ... Memory Tax team finds keeping the raw history often beats rewriting it",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Summary of checked claims; 'often' consistent with 90/99.",
+   "fix": null
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 4 Google Search Central Blog: 'AI training control'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Supporting a shared AI training control for websites",
+   "fix": "Supporting a shared AI training control for websites"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 6 daily.dev: 'Making it easier for websites to express AI training preferences'",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Real title: Page title is truncated 'Making it easier for websites to express AI training...'; full title per page body is as written. OK.",
+   "fix": null
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 8 AI Weekly: 'OpenAI, Google, Microsoft, Anthropic back one AI opt-out token'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: OpenAI, Google, Microsoft, Anthropic Back One AI Opt-Out Token (title case)",
+   "fix": "OpenAI, Google, Microsoft, Anthropic Back One AI Opt-Out Token (title case)"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 9 Vanessa Fox: 'Complete reference: blocking LLM crawlers'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Complete Reference On Allowing & Blocking LLM Crawlers",
+   "fix": "Complete Reference On Allowing & Blocking LLM Crawlers"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 10 Search Engine Roundtable: 'Google AI training control'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Google Adopts New AI Training Control (headline); HTML title reads 'Google Also Adopts New AI Training Control'. Also the draft's URL slug is not the title.",
+   "fix": "Google Adopts New AI Training Control (headline); HTML title reads 'Google Also Adopts New AI Training Control'. Also the draft's URL slug is not the title."
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 3 IETF mail archive: 'ai-control list message on ...'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: [ai-control] New draft: draft-kelley-aipref-training-preference-signal-00",
+   "fix": "[ai-control] New draft: draft-kelley-aipref-training-preference-signal-00"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 2 Datatracker: 'draft-kelley-aipref-training-preference-signal'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: draft-kelley-aipref-training-preference-signal-00 - Machine-Readable Training Preference Signal",
+   "fix": "draft-kelley-aipref-training-preference-signal-00 - Machine-Readable Training Preference Signal"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 18 Huang et al.: 'Harness the Memory'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+   "fix": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 19 Vectorize: 'Hindsight vs RAG for AI agents'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Hindsight vs RAG for AI Agents, and When to Use Each",
+   "fix": "Hindsight vs RAG for AI Agents, and When to Use Each"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 20 Qwenputer blog: 'Qwenputer'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "fix": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 21 Hacker News item: 'Qwenputer'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "fix": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 25 Lobsters: 'Qwenputer discussion'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "fix": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 7 Google common crawlers: 'Google common crawlers'",
+   "url": "",
+   "verdict": "fix",
+   "evidence": "Real title: Google's common crawlers (Google Crawling Infrastructure); apostrophe form",
+   "fix": "Google's common crawlers (Google Crawling Infrastructure); apostrophe form"
+  },
+  {
+   "citation": "frontmatter title",
+   "sentence": "src 1, 5, 11-17, 22-24: titles",
+   "url": "",
+   "verdict": "pass",
+   "evidence": "Real title: Match: Machine-Readable Training Preference Signal (body); Bing title matches; Memory Tax and Bao/Yuan titles match arXiv; HN comment pages have no real title (generated from first words), 'Comment 50284989' acceptable as a label.",
+   "fix": null
+  },
+  {
+   "citation": "frontmatter missing source",
+   "sentence": "PlugMem (arXiv 2603.03296) is needed for the overlapping-authors claim but is not in sources",
+   "url": "https://arxiv.org/abs/2603.03296",
+   "verdict": "fix",
+   "evidence": "See R18.",
+   "fix": "Add as a Paper source: 'PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents', Yang et al."
+  },
+  {
+   "citation": "frontmatter url",
+   "sentence": "nesformer URL https://github.com/dbreunig/nesformer",
+   "url": "https://github.com/dbreunig/nesformer",
+   "verdict": "fix",
+   "evidence": "github.com HTML page returned 403 to my fetch; raw README loads.",
+   "fix": "Use https://raw.githubusercontent.com/dbreunig/nesformer/main/README.md or confirm the repo page loads for readers."
+  }
+ ]
+}

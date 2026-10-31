@@ -1,0 +1,204 @@
+{
+ "section": "research",
+ "window": "Wed Oct 28 - Fri Oct 30, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers 2026-10-28/29/30",
+   "status": "ok"
+  },
+  {
+   "name": "arXiv API (id_list verification)",
+   "status": "ok"
+  },
+  {
+   "name": "bioRxiv/OpenAlex/Nature/Science/MIT TR RSS, HN, Reddit",
+   "status": "not tried"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+   "summary": "Large-scale evaluation finds many dedicated agent memory systems underperform naive RAG over raw history; splits net value into memory benefit and memory tax.",
+   "primarySource": "https://arxiv.org/abs/2610.34073",
+   "hfThread": "https://huggingface.co/papers/2610.34073",
+   "date": "HF 2026-10-28 (arXiv 2026-10-25)",
+   "signal": "HF upvotes 157",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 5,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "notes": "Re-verified via arXiv API."
+  },
+  {
+   "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+   "summary": "Turn-anchored credit assignment (MAE plus turn-level importance sampling) for RL on long-horizon agents.",
+   "primarySource": "https://arxiv.org/abs/2610.35013",
+   "hfThread": "https://huggingface.co/papers/2610.35013",
+   "date": "HF 2026-10-28 (arXiv 2026-10-26)",
+   "signal": "HF upvotes 382",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false,
+   "notes": "Re-verified. Technical RL; harder to make accessible."
+  },
+  {
+   "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+   "summary": "Formalizes benchmarks as difficulty distributions; names measure mismatch and coverage gaps as failure modes.",
+   "primarySource": "https://arxiv.org/abs/2610.29927",
+   "hfThread": "https://huggingface.co/papers/2610.29927",
+   "date": "HF 2026-10-30 (arXiv 2026-10-21)",
+   "signal": "HF upvotes 140",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Re-verified."
+  },
+  {
+   "title": "What Effort Level Should I Choose? Economics of Reasoning Effort in LLM Agents",
+   "summary": "Frames reasoning effort as a credence good: buyers cannot tell whether extra compute was needed.",
+   "primarySource": "https://arxiv.org/abs/2610.34491",
+   "hfThread": "https://huggingface.co/papers/2610.34491",
+   "date": "HF 2026-10-28",
+   "signal": "HF upvotes 32",
+   "scores": {
+    "novelty": 5,
+    "momentum": 2,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Accessible, relatable angle."
+  },
+  {
+   "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "summary": "Recursive self-improvement framework sharing capability requirements across modalities.",
+   "primarySource": "https://arxiv.org/abs/2610.36077",
+   "hfThread": "https://huggingface.co/papers/2610.36077",
+   "date": "HF 2026-10-28",
+   "signal": "HF upvotes 389",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Related self-improvement papers (A-RSI 2610.38568, RSI Arena 2610.33624) could be a themed piece."
+  },
+  {
+   "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+   "summary": "Streaming spatial intelligence evaluation/method; top HF paper of 10-28.",
+   "primarySource": "https://arxiv.org/abs/2610.34283",
+   "hfThread": "https://huggingface.co/papers/2610.34283",
+   "date": "HF 2026-10-28",
+   "signal": "HF upvotes 420",
+   "scores": {
+    "novelty": 3,
+    "momentum": 5,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false,
+   "notes": "Abstract not fetched."
+  },
+  {
+   "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+   "summary": "Compares memory evolution to test-time training.",
+   "primarySource": "https://arxiv.org/abs/2610.32046",
+   "hfThread": "https://huggingface.co/papers/2610.32046",
+   "date": "HF 2026-10-28",
+   "signal": "HF upvotes 124",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Pairs with Memory Tax; abstract not fetched."
+  },
+  {
+   "title": "Intrinsic Distribution Matching",
+   "summary": "Moment constraint for distribution matching distillation in few-step text-to-image generation.",
+   "primarySource": "https://arxiv.org/abs/2610.39633",
+   "hfThread": "https://huggingface.co/papers/2610.39633",
+   "date": "HF 2026-10-30 (arXiv 2026-10-29)",
+   "signal": "HF upvotes 237",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false,
+   "notes": "Niche for general audience."
+  },
+  {
+   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+   "summary": "Memory failure modes in group decisions.",
+   "primarySource": "https://arxiv.org/abs/2610.37624",
+   "hfThread": "https://huggingface.co/papers/2610.37624",
+   "date": "HF 2026-10-28",
+   "signal": "HF upvotes 6",
+   "scores": {
+    "novelty": 3,
+    "momentum": 1,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "Low signal; abstract not fetched."
+  },
+  {
+   "title": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
+   "summary": "Studies LM degradation as instruction count rises.",
+   "primarySource": "https://arxiv.org/abs/2610.36095",
+   "hfThread": "https://huggingface.co/papers/2610.36095",
+   "date": "HF 2026-10-29",
+   "signal": "HF upvotes 3",
+   "scores": {
+    "novelty": 3,
+    "momentum": 1,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "Low signal; abstract not fetched."
+  }
+ ],
+ "excludedPolitical": [],
+ "excludedOverlap": [
+  {
+   "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+   "url": "https://arxiv.org/abs/2610.38174",
+   "reason": "overlaps 2026-10-24 Lean/formal verification issue"
+  },
+  {
+   "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+   "url": "https://arxiv.org/abs/2610.35962",
+   "reason": "Lean/theorem proving, overlaps 2026-10-24"
+  }
+ ],
+ "notes": "Window is by HF Daily Papers listing date; arXiv submission dates for several are Oct 21-26, before the window. Excluded geography-tied: TauIndianBankBench."
+}

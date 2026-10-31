@@ -145,5 +145,26 @@
     "title": "Hob: open-source desktop app that runs a Cowork-style file agent entirely on local open-weight models",
     "primaryUrl": "https://github.com/FrigadeHQ/hob",
     "slug": "2026-10-28-ai-labs-exponential-time-hypothesis-refuted"
+  },
+  {
+    "date": "2026-10-31",
+    "section": "research",
+    "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+    "primaryUrl": "https://arxiv.org/abs/2610.34073",
+    "slug": "2026-10-31-robots-txt-ai-training-opt-out-token"
+  },
+  {
+    "date": "2026-10-31",
+    "section": "news",
+    "title": "OpenAI, Google and Microsoft back a new standard that lets websites opt out of AI training",
+    "primaryUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+    "slug": "2026-10-31-robots-txt-ai-training-opt-out-token"
+  },
+  {
+    "date": "2026-10-31",
+    "section": "invention",
+    "title": "Qwenputer: a working, deterministic RISC-V CPU running inside a Qwen3.5 language model",
+    "primaryUrl": "https://divagr.com/blog/qwenputer",
+    "slug": "2026-10-31-robots-txt-ai-training-opt-out-token"
   }
 ]

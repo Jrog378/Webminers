@@ -1,0 +1,56 @@
+{
+  "research": {
+    "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+    "primaryUrl": "https://arxiv.org/abs/2610.34073",
+    "why": "Highest total in the research file (18) and the most useful finding for a general reader: in a large evaluation, many purpose-built AI-agent memory systems do worse than simply searching the raw conversation history (naive RAG). The paper splits a memory system's net value into a benefit and a 'tax', which is easy to explain. Primary source re-checked through the arXiv API. Date note: submitted to arXiv 2026-10-25, before the window, but listed on Hugging Face Daily Papers on 2026-10-28, inside it (157 upvotes). Not covered in the last 8 weeks; the closest past item, 'From Evidence to Action: How Tool-Using Agents Fail' (2026-10-10), is about tool use, not memory.",
+    "runnersUp": [
+      "What Effort Level Should I Choose? Economics of Reasoning Effort in LLM Agents (https://arxiv.org/abs/2610.34491). Novel and easy to relate to (extra AI 'thinking' is a credence good: buyers cannot check whether it was needed), but it has little traction (32 upvotes).",
+      "Multiscale Policy Optimization for Long-Horizon LLM Agents (https://arxiv.org/abs/2610.35013). Strong momentum (382 upvotes), but it is a technical RL credit-assignment method and hard to make accessible.",
+      "Your Benchmark Is an Empirical Measure Over Difficulty (https://arxiv.org/abs/2610.29927). A solid framing of how benchmarks mislead, but arXiv date 2026-10-21 is well before the window and the evaluation theme is close to recent issues.",
+      "ChronoReplay (https://arxiv.org/abs/2610.34283) and The Trinity (https://arxiv.org/abs/2610.36077). Top HF upvotes, but the abstracts were not fetched or the significance for a general reader is lower."
+    ]
+  },
+  "news": {
+    "title": "OpenAI, Google and Microsoft back a new standard that lets websites opt out of AI training",
+    "primaryUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+    "why": "Kept from the prior pass. Of the news candidates, this matters most to a general reader: any website owner or creator gets a way to say no to AI training. Several primary sources agree (OpenAI post; Google Search Central https://developers.google.com/search/blog/2026/10/ai-training-control; IETF draft https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/). It is an industry technical standard, not a political or legal fight. It is not a repeat of 2026-10-24 (OpenAI no longer training on the live internet), which was about one lab's own training setup. Tell it as a mechanism story: what the signal is, who honors it, and what it does not cover.",
+    "runnersUp": [
+      "Google Project Suncatcher satellite AI server sends its first response (https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/). Novel, with a strong primary source, but a demo milestone matters less to readers than a rule that affects every website.",
+      "Anthropic VS Code extension on Cursor backdoored for nearly 12 hours (Ars Technica). Original reporting, but no vendor advisory, so the primary source is weak.",
+      "Thrive Holdings acquires ADT for $15.3B. Has a primary source, but it is a finance deal with only a loose link to AI."
+    ]
+  },
+  "invention": {
+    "title": "Qwenputer: a working, deterministic RISC-V CPU running inside a Qwen3.5 language model",
+    "primaryUrl": "https://divagr.com/blog/qwenputer",
+    "why": "Kept from the prior pass. The strongest candidate in any section (score 19; HN 695 points and 145 comments; also on Lobsters), with the builder's own write-up as the primary source. It turns the model's Gated DeltaNet state into exact RAM, which gives a concrete, surprising way to explain what is happening inside a model. Not covered before.",
+    "runnersUp": [
+      "nesformer: a working NES emulator in about 1GB of Qwen weights (https://github.com/dbreunig/nesformer). Same idea with less depth. Worth a one-line 'others are doing this too' mention.",
+      "doomformer: DOOM game logic as a transformer (https://github.com/mottopanikeiku/doomformer). Same idea again."
+    ]
+  },
+  "thread": "This issue is about what an AI keeps: which web pages it is allowed to learn from, whether an add-on memory system actually beats keeping the raw history, and how a model's own internal state can be turned into exact computer memory.",
+  "skipped": [],
+  "excluded": [
+    {
+      "title": "Scaling Lean Theorem Proving for Real-World Code Verification; h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "reason": "Lean and formal verification, which the 2026-10-24 issue covered, with no material update."
+    },
+    {
+      "title": "TauIndianBankBench",
+      "reason": "Centered on one country."
+    },
+    {
+      "title": "Mistral Large 4 weights release",
+      "reason": "Covered 2026-10-07, and the only source is secondary (Fortune). The official Mistral announcement has not been checked."
+    },
+    {
+      "title": "Hob",
+      "reason": "Covered as invention on 2026-10-28."
+    },
+    {
+      "title": "Apple Intelligence in China, Maine data-center Senate race, Intel government stake, Pope Leo on AI, Wikipedia copyright ruling, religious exemption",
+      "reason": "Political or tied to a country or region. Not considered."
+    }
+  ]
+}

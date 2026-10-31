@@ -1,0 +1,17 @@
+{
+  "primaryKeyword": "robots.txt AI training opt-out",
+  "secondaryKeywords": ["AI agent memory vs naive RAG", "Qwenputer RISC-V CPU in Qwen", "AI training opt-out token", "agent memory vs RAG"],
+  "title": "AI Training Opt-Out in robots.txt | Eureka Reports Oct 31",
+  "titleLength": 56,
+  "description": "A draft standard lets websites opt out of AI training with one robots.txt line. Plus agent memory versus plain search, and a CPU built inside Qwen.",
+  "descriptionLength": 147,
+  "slug": "2026-10-31-robots-txt-ai-training-opt-out-token",
+  "image": "no image.json present; hero alt/caption not checked",
+  "faq": "none added; no real People Also Ask questions found for the lead topic",
+  "changes": [
+    "Title changed from 'One Line to Opt Out of AI Training | Eureka Reports Oct 31' to 'AI Training Opt-Out in robots.txt | Eureka Reports Oct 31' (56 chars) to lead with the phrase people search; unique against recent issues",
+    "Closing H2 changed from 'What an AI keeps' to 'What an AI keeps: training opt-outs, agent memory and Qwenputer' so it names its topics",
+    "Description, section H2s, deep-dive openings and sixty already met the rules; left unchanged",
+    "Keyword check: searches show people phrase the lead as 'robots.txt opt out of AI training' and the memory story as 'agent memory vs RAG'; no results for 'Qwenputer' yet, so the name is kept alongside 'RISC-V CPU'"
+  ]
+}

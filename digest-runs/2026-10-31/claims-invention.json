@@ -1,0 +1,226 @@
+[
+ {
+  "id": "inv-1",
+  "claim": "Qwenputer is a stock Qwen 3.5 4B model with a RISC-V CPU embedded in its weights that uses the model's Gated DeltaNet layers as RAM.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "It's a stock Qwen 3.5 4B with one addition: a RISC-V CPU embedded within the weights that uses the model's own Gated DeltaNet attention layers as RAM.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-2",
+  "claim": "The blog post is by Divyansh Agrawal, dated 22 October 2026 (before the digest window).",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "By Divyansh Agrawal 22 October 2026",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-3",
+  "claim": "The author describes it as experimental.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "Qwenputer is very much an experiment, so a few limitations.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-4",
+  "claim": "Setting gate=1, beta=1 and one-hot keys makes each write overwrite exactly one row and each query read an exact value.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "every write we perform will overwrite exactly one row, and every one-hot query can retrieve an exact value.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-5",
+  "claim": "No training is involved; a compiler sets every weight.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "Luckily, there's no training involved: a compiler sets every weight directly.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-6",
+  "claim": "The CPU is 32-bit RV32IM plus Zba and a bignum unit, occupying 11 layers in front of Qwen's 32.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "The CPU is a 32-bit RISC-V core (RV32IM, plus the Zba extension and a small bignum unit for big-number arithmetic), and it takes up 11 layers in front of Qwen's 32.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-7",
+  "claim": "Author claims it passes official riscv-tests, matches qemu and ran 18 million instructions free-running without error.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "it passes the official riscv-tests, its programs match qemu, and it has run 18 million instructions free-running without a single error.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-8",
+  "claim": "Author reports mul_big accuracy of 97.5% vs 100% with a Python tool and 55% for base Qwen.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "mul_big: Qwenputer scores 97.5%, versus 100% with a Python tool and 55% for base Qwen.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-9",
+  "claim": "Benchmarks used 40 problems per set with greedy decoding.",
+  "url": "https://raw.githubusercontent.com/divagr18/qwenputer/main/README.md",
+  "quote": "Greedy decoding, 40 problems per set.",
+  "sourceType": "Official",
+  "date": "2026-10-31 (accessed)"
+ },
+ {
+  "id": "inv-10",
+  "claim": "About 230,000 output positions were replayed against a reference machine with zero mismatches.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "I replayed about 230,000 of its output positions against a reference machine and found zero mismatches.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-11",
+  "claim": "Normal text behaviour stays within noise of base Qwen.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "its normal text stays within noise of base Qwen (KL 6e-4, against a noise floor of 5e-4).",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-12",
+  "claim": "The experimental filesystem gets changed facts right 90% of the time vs 30% when pasting old chats.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "Qwen gets facts that changed between chats right 90% of the time, against 30% when you paste the old chats back in",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-13",
+  "claim": "Checkpoint is 18.8 GB, about double base Qwen, mostly zero padding.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "make the checkpoint 18.8 GB, roughly double base Qwen, although most of it is zero padding.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-14",
+  "claim": "It needs the RvChat driver and does not run with plain generate().",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "so it doesn't run with a plain generate() call yet.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-15",
+  "claim": "It is slow: big calculations take seconds; ~3,200 CPU tokens/sec on an L4.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "The batched executor I used for the benchmarks runs about 3,200 CPU tokens a second on an L4.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-16",
+  "claim": "Next steps: a python() tool running MicroPython in the weights, and a faster CPU.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "through a python() tool that works the same way calc does. Making the CPU faster is the other big one.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-17",
+  "claim": "Delta-rule memory is prior work (Schlag et al. 2021); the claimed novelty is exactness inside a production model.",
+  "url": "https://divagr.com/blog/qwenputer",
+  "quote": "The new thing here is making it exact and addressable, inside a production model, reliably enough to run a whole CPU on it.",
+  "sourceType": "Official",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "inv-18",
+  "claim": "Code is MIT; weights Apache-2.0 with Qwen's own weights unchanged.",
+  "url": "https://raw.githubusercontent.com/divagr18/qwenputer/main/README.md",
+  "quote": "The code is MIT. The model weights are Apache-2.0",
+  "sourceType": "Official",
+  "date": "2026-10-31 (accessed)"
+ },
+ {
+  "id": "inv-19",
+  "claim": "The HF model was created 2026-10-19 and lists Qwen/Qwen3.5-4B as base model.",
+  "url": "https://huggingface.co/api/models/divagr1925/Qwen3.5-4B-Qwenputer",
+  "quote": "\"createdAt\": \"2026-10-19T18:51:39.000Z\" ... \"base_model\": \"Qwen/Qwen3.5-4B\"",
+  "sourceType": "Official",
+  "date": "2026-10-19"
+ },
+ {
+  "id": "inv-20",
+  "claim": "The HN post reached 695 points on 2026-10-29.",
+  "url": "https://hn.algolia.com/api/v1/items/50282838",
+  "quote": "\"points\": 695 ... \"created_at\": \"2026-10-29T00:25:45.000Z\"",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-21",
+  "claim": "The author says it is spare-time work.",
+  "url": "https://news.ycombinator.com/item?id=50284989",
+  "quote": "I just do these during my free time.",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-22",
+  "claim": "Critic says a custom host runtime still loads firmware and skips Qwen's layers, calling the 'no external runtime' claim a little dishonest.",
+  "url": "https://news.ycombinator.com/item?id=50286992",
+  "quote": "The central claim about “no external runtime” or “not a plugin” feels a little dishonest to me since this doesn’t work without some pretty invasive changes to the inference driver.",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-23",
+  "claim": "Critic questions usefulness of a sub-100% calculator.",
+  "url": "https://news.ycombinator.com/item?id=50287557",
+  "quote": "I'm sorry but I'm not sure I understand how a calculator that isn't 100% accurate is useful?",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-24",
+  "claim": "Commenter: it refutes the misconception that LLMs are inherently non-deterministic.",
+  "url": "https://news.ycombinator.com/item?id=50283689",
+  "quote": "It is a great example to refute the common misconception that LLMs are inherently non-deterministic.",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-25",
+  "claim": "Lobsters top comment argues a normal RISC-V emulator would give the same result.",
+  "url": "https://lobste.rs/s/zftely",
+  "quote": "you could get the same result by using a normal RISC-V emulator",
+  "sourceType": "Social",
+  "date": "2026-10-29"
+ },
+ {
+  "id": "inv-26",
+  "claim": "Loom (preprint) already ran C programs in a looped transformer with analytically derived weights.",
+  "url": "https://arxiv.org/abs/2604.08816",
+  "quote": "We present Loom, a computer architecture that executes programs compiled from C inside a looped transformer whose weights are derived analytically.",
+  "sourceType": "Paper",
+  "date": "2026-04-09"
+ },
+ {
+  "id": "inv-27",
+  "claim": "nesformer builds on Qwenputer's compiler to run an NES CPU in Qwen3.5 weights.",
+  "url": "https://github.com/dbreunig/nesformer",
+  "quote": "It reuses Qwenputer's compiler and its central trick: **the model's Gated DeltaNet state is the machine's memory.**",
+  "sourceType": "Official",
+  "date": "2026-10-30"
+ },
+ {
+  "id": "inv-28",
+  "claim": "doomformer computes neural networks inside DOOM maps (not DOOM as a transformer).",
+  "url": "https://github.com/mottopanikeiku/doomformer",
+  "quote": "Neural networks computed by voodoo dolls inside DOOM maps.",
+  "sourceType": "Official",
+  "date": "2026-10-29"
+ }
+]

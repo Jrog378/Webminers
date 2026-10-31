@@ -1,0 +1,210 @@
+[
+ {
+  "id": "research-01",
+  "claim": "Memory Tax is an arXiv preprint (cs.CL) submitted 2026-10-25 by authors led from UIUC; not peer-reviewed.",
+  "url": "https://arxiv.org/abs/2610.34073",
+  "quote": "arXiv:2610.34073v1 [cs.CL] 25 Oct 2026",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-02",
+  "claim": "Many dedicated agent memory systems underperform naive RAG over raw history, indicating negative net value (claimed, preprint).",
+  "url": "https://arxiv.org/abs/2610.34073",
+  "quote": "we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-03",
+  "claim": "Net value is split into memory benefit and memory tax, relative to direct retrieval.",
+  "url": "https://arxiv.org/abs/2610.34073",
+  "quote": "we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax .",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-04",
+  "claim": "Study covers 11 memory systems, 3 benchmarks, 3 backbones; 90 of 99 memory results fall below naive RAG.",
+  "url": "https://hexuan21.github.io/MemoryTax/",
+  "quote": "11 evaluated representative memory systems 90 / 99 memory results below Naive RAG 200 + experiment runs 20B+ tokens 10M+ LLM calls",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-05",
+  "claim": "Memory systems usually cost far more than RAG without matching accuracy gains (authors' claim).",
+  "url": "https://hexuan21.github.io/MemoryTax/",
+  "quote": "Memory systems usually pay far more cost than RAG, but often without a matching gain in accuracy.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-06",
+  "claim": "Backbones were Qwen3.5-4B, Qwen3.6-27B and GPT-5.6 Luna (low); answers judged by Qwen3.6-27B LLM-as-judge.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "We run every system on three backbones, Qwen3.5-4B , Qwen3.6-27B and GPT-5.6-luna(low) , sharing the same embedding model, Qwen3-Embedding-0.6B . Answers are scored by an LLM-as-Judge backed by Qwen3.6-27B",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-07",
+  "claim": "Two benchmarks were evaluated on stratified subsets (20% PersonaMem-v2, 10% MINT-Eval) due to cost.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "Due to cost constraints, we evaluate 20% of PersonaMem-v2 and 10% of MINT-Eval.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-08",
+  "claim": "Memory is not uniformly worse: it solves some queries RAG misses while losing others RAG solves.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "It does solve some queries RAG misses, where organization or restructuring may help, while losing others that RAG already solves.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-09",
+  "claim": "Information loss during memory construction directly causes memory tax.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "Information loss with varying severity during the memory process becomes a direct cause of memory tax.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-10",
+  "claim": "Memory processing reduces accessibility of evidence by fragmenting, diluting or rephrasing it.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "Memory process can reduce evidence accessibility by fragmenting, diluting, or rephrasing it, creating memory tax even evidence is not lost.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-11",
+  "claim": "Memory amplifies sensitivity to swapping the backbone model compared with RAG.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "Memory process can amplify backbone sensitivity since model-dependent operations can introduce additional variability to raw history.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-12",
+  "claim": "Simple baselines score high on many memory benchmarks: IDF-keyword >50% on some, RAG-Hybrid ~70%.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "the extremely simplified IDF-keyword based method can even achieve more than 50% in absolute score on some of them, while RAG-Hybrid reaches about 70%.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-13",
+  "claim": "In experiential memory, memory beats RAG on web tasks but falls behind on tool use.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "In web-based tasks, distilling long traces into workflows or strategies can outperform naive RAG, while for tool-use, several memory methods fall behind it",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-14",
+  "claim": "Few prior memory papers reported a RAG baseline (only LightMem, PlugMem, Mem-T among those reviewed).",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "we find that only three of them (excluding originally RAG system like HippoRAG2) report RAG results ( LightMem , PlugMem , and Mem-T )",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-15",
+  "claim": "Authors argue naive RAG's strength is not due to a lucky configuration (ablations).",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "suggesting that its performance is not driven by any particular component, careful tuning, or a lucky configuration .",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-16",
+  "claim": "Proposed fix: keep a lightweight path back to source history (retrieve raw history alongside memory, rerank jointly).",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "a more promising way to reduce memory tax is to make such deviations recoverable , preserving a lightweight path back to the source history when memory becomes insufficient.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-17",
+  "claim": "Authors frame memory as an implicit recommendation system predicting future relevance.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "memory can partly be seen as an implicit recommendation system that estimates future relevance of past information.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-18",
+  "claim": "Authors' stated limitations: non-exhaustive baselines, further tuning may help, static offline English benchmarks.",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "our baseline selection is representative rather than exhaustive. We also follow official configurations wherever possible, though further system-specific tuning may yield better performance.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-19",
+  "claim": "PlugMem, an evaluated system, shares authors with the Memory Tax paper (Ke Yang, Xuan He, Jiawei Han, ChengXiang Zhai).",
+  "url": "https://arxiv.org/html/2610.34073v1",
+  "quote": "Ke Yang, Zixi Chen, Xuan He, Jize Jiang, Michel Galley, Chenglong Wang, Jianfeng Gao, Jiawei Han, and ChengXiang Zhai. 2026a. Plugmem: A task-agnostic plugin memory module for llm agents.",
+  "sourceType": "Paper",
+  "date": "2026-10-25"
+ },
+ {
+  "id": "research-20",
+  "claim": "Per-baseline reproduction code is not yet released; eval results are on HF.",
+  "url": "https://raw.githubusercontent.com/hexuan21/MemoryTax/main/README.md",
+  "quote": "- [x] Release eval results in main experiments on HF\n- [x] Release ablations, analysis results and other intermediates\n- [ ] Release reproduction codes of each baseline",
+  "sourceType": "Official",
+  "date": "2026-10-31"
+ },
+ {
+  "id": "research-21",
+  "claim": "Paper listed on Hugging Face Daily Papers on 2026-10-28 with 157 upvotes.",
+  "url": "https://huggingface.co/api/papers/2610.34073",
+  "quote": "'upvotes': 157, 'publishedAt': '2026-10-25T00:00:00.000Z', 'submittedOnDailyAt': '2026-10-28T00:00:00.000Z'",
+  "sourceType": "Social",
+  "date": "2026-10-28"
+ },
+ {
+  "id": "research-22",
+  "claim": "Independent preprint finds naive Raw-RAG ranks first in 6 of 7 benchmark-model settings vs agentic memory systems.",
+  "url": "https://arxiv.org/abs/2610.30755",
+  "quote": "Raw-RAG ranks first among the compared memory systems in six of seven benchmark-model settings, outperforming the strongest compared agentic memory system by 0.13-5.53 points.",
+  "sourceType": "Paper",
+  "date": "2026-10-22"
+ },
+ {
+  "id": "research-23",
+  "claim": "Independent preprint: raw chunked storage with zero LLM calls matches or beats lossy memory write strategies on LoCoMo.",
+  "url": "https://arxiv.org/abs/2603.02473",
+  "quote": "Raw chunked storage, which requires zero LLM calls, matches or outperforms expensive lossy alternatives",
+  "sourceType": "Paper",
+  "date": "2026-03-02"
+ },
+ {
+  "id": "research-24",
+  "claim": "Counterpoint: another evaluation finds no single memory substrate dominates; broad retrieval can harm sequential decision-making.",
+  "url": "https://arxiv.org/abs/2608.15008",
+  "quote": "no single substrate consistently dominates: broad retrieval benefits long-context factual QA, while excessive retrieval can harm sequential decision-making",
+  "sourceType": "Paper",
+  "date": "2026-08-15"
+ },
+ {
+  "id": "research-25",
+  "claim": "Vendor counterpoint (Vectorize/Hindsight): memory queries are not just document similarity problems, so RAG is often the wrong tool.",
+  "url": "https://hindsight.vectorize.io/guides/2026/04/21/comparison-hindsight-vs-rag-for-ai-agents",
+  "quote": "RAG is often the wrong tool for memory because memory queries are not just document similarity problems.",
+  "sourceType": "Official",
+  "date": "2026-04-21"
+ },
+ {
+  "id": "research-26",
+  "claim": "Press notes the study is a preprint and that the LLM judge is Qwen3.6-27B.",
+  "url": "https://explainx.ai/blog/memory-tax-agent-memory-systems-underperform-naive-rag-uiuc-paper-2026",
+  "quote": "The study is a preprint. It has not been peer reviewed, and the authors' own LLM judge is Qwen3.6-27B.",
+  "sourceType": "Reporting",
+  "date": "2026-10-28"
+ }
+]

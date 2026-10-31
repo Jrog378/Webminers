@@ -1,0 +1,36 @@
+{
+  "order": ["news", "research", "invention"],
+  "headlineStyle": "number-led",
+  "headlineNote": "Previous issue (2026-10-28) used a claim-style headline. Suggested shape: lead with the single robots.txt token (the '1 line' hook), optionally pair with '90 of 99' from the research section.",
+  "sections": {
+    "news": {
+      "format": "three-things",
+      "words": 580,
+      "why": "Fast-moving standards story that breaks cleanly into three mechanism points: what the token is (one policy token in robots.txt, no new grammar), who honors it and when (Anthropic started; Google 2027; Microsoft Bing Feb 1, 2027; OpenAI attributed to secondary reports only, or left out), and what it does not cover (voluntary, training only, not retroactive, not finished at IETF; Hake counterpoint). Leads because it affects every website owner. Caveats: attribute OpenAI details as 'according to' secondary reports, or omit; do not mention regulators, codes of practice or government; do not imply Meta or Amazon support (acknowledgment is not commitment)."
+    },
+    "research": {
+      "format": "by-the-numbers",
+      "words": 640,
+      "why": "Headline finding is numeric (90 of 99 memory-system results below naive RAG; OpenViking 31.8 vs 72.2; info-loss rates; src-aug fix 73.6 to 82.8, tax 12.0 to 5.2) and the benefit/tax split is easy to present as 4-6 bolded figures. Avoids explainer (used in 2 of the last 6 issues) and claim-vs-evidence (3 of the last 6). Caveats to carry: preprint, not yet peer-reviewed; authors' own numbers; LLM judge Qwen3.6-27B is also an answering model; subsets used for two benchmarks; PlugMem is from overlapping authors; independent preprints agree but are also preprints; counterpoints (Harness the Memory, vendor view) go in the framing or the last figure."
+    },
+    "invention": {
+      "format": "comparison",
+      "words": 340,
+      "why": "The honest caveat is the comparison itself: Qwenputer vs stock Qwen3.5-4B vs a Python tool call or ordinary RISC-V emulator (exactness, speed, size 18.8 GB vs about half, needs custom RvChat driver). A table makes the hobby-project limits plain in under 350 words. Caveats: one person's hobby project, self-reported numbers on 40-problem sets, no replication; frame as this week's most discussed build (HN Oct 29), blog dated Oct 22 predates the window; do NOT use the doomformer description in topics.json (wrong); nesformer may get a one-line mention only."
+    }
+  },
+  "constraints": {
+    "distinctFormats": true,
+    "explainerCount": 0,
+    "recentCombinationsChecked": [
+      "2026-10-03: explainer / claim-vs-evidence / three-things (research/news/invention)",
+      "2026-10-07: qa / claim-vs-evidence / comparison",
+      "2026-10-10: by-the-numbers / three-things / explainer",
+      "2026-10-21: claim-vs-evidence / timeline / qa",
+      "2026-10-24: claim-vs-evidence / qa / by-the-numbers",
+      "2026-10-28: explainer / qa / by-the-numbers"
+    ],
+    "thisIssue": "research: by-the-numbers / news: three-things / invention: comparison (no match)",
+    "noPoliticsNoGeography": true
+  }
+}
