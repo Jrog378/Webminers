@@ -1,11 +1,18 @@
 ---
 series: ai-digest
-title: "Mistral Large 4 Claims Vs Tests | Eureka Reports Oct 7"
+title: "Mistral Large 4: Claims vs Benchmarks | Eureka Reports Oct 7"
 headline: "Mistral Says Large 4 Has 1 Trillion Parameters, but Outside Tests Rank It Short of the Top, Plus AI That Reads Too Much Into People"
 dek: "Mistral's biggest model meets independent tests, a preprint finds AI fills in traits people never shared, and a Mac app searches your videos without the cloud."
 description: "Mistral says Large 4 has 1 trillion parameters; Vals AI ranks it 32nd of 44. Plus AI that reads too much into users, and private photo search on a Mac."
 datePublished: "2026-10-07T07:00:00-04:00"
-dateModified: "2026-10-07T07:00:00-04:00"
+dateModified: "2026-11-01T09:00:00-05:00"
+updates:
+  - date: "2026-11-01"
+    type: update
+    note: "Mistral has released the weights on [Hugging Face](https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B), whose model card lists 49 billion active parameters per token (52 billion counting embeddings and output layers, the figure Mistral's launch page now shows), and its [release post](https://mistral.ai/news/mistral-large-4-oss/) says the open model got three more weeks of reinforcement learning and now costs $0.70 per million input tokens and $2.10 per million output tokens. Mistral says the released build scores 41% on Terminal-Bench 4.0, up from 28% in the preview, and the Artificial Analysis and Vals pages cited above now show results for the released model rather than the preview figures quoted here."
+  - date: "2026-11-01"
+    type: update
+    note: "A third version of the RealCompanion preprint, [posted Oct. 8](https://arxiv.org/abs/2610.01780v3), adds Jiayi Yu and Eric Huang as authors and drops the sentence reporting that a language model matched writing samples to the right person 98% of the time; the [v2 text](https://arxiv.org/html/2610.01780v2) cited here still contains it, and v3 gives no reason for the change. The paper is still not peer-reviewed."
 coverage: "Sat, Oct 3 – Tue, Oct 6, 2026"
 reviewStatus: pending
 reviewedBy: "Justin Rogers"

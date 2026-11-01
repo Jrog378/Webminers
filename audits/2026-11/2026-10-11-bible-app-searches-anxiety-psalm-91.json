@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-11-bible-app-searches-anxiety-psalm-91",
+  "auditedOn": "2026-11-01",
+  "runFolder": "digest-runs/2026-10-11-sunday",
+  "checked": 28,
+  "corrections": [],
+  "updates": [],
+  "claimStatusChange": null,
+  "deadLinksFixed": [
+    {
+      "source": 4,
+      "old": "https://divinity.uchicago.edu/sightings/youversion-digitizing-mobilizing-and-consuming-word-god-sara-jo-swiatek",
+      "new": "https://divinity.uchicago.edu/sightings/articles/youversion-digitizing-mobilizing-and-consuming-word-god-sara-jo-swiatek",
+      "reason": "The old URL returns a 301 permanent redirect to the /sightings/articles/ path. The new page has the same title, the Nov 21, 2013 date and the quote 'the same methods advertisers use to compel us to buy and consume their products'. Not dead, but moved, so the canonical URL is now used."
+    }
+  ],
+  "linkNotes": [
+    "Sources 1, 2, 6, 7, 8 and 10, plus the bible-api verse URL, return HTTP 200.",
+    "Source 3 (bible.com/privacy) returns 403 to curl but loaded in WebFetch. It still lists 'search history', still says 'We do not sell or share your personal data with any third-party advertisers or ad networks', and still says it publishes data 'in an aggregated form'. Page last modified Nov 16, 2025, so nothing changed since the issue.",
+    "Source 5 (religionnews.com) gives a Cloudflare 'Just a moment...' bot challenge (403) to both curl and WebFetch. That is bot blocking, not a dead link. The run's factcheck checked it through the RNS feed. Left unchanged.",
+    "Source 9 (Newsfile) returns 202 (bot challenge) and WebFetch got an empty body. Christian Post coverage, found by search, confirms the Pray Production Studio launch and the $19-a-month starting price. Treated as live; unchanged."
+  ],
+  "claimNotes": [
+    "Source 1 (YouVersion release, Oct 6, 2026) re-read: anxiety/hope/healing 'among the year's most searched', Psalm 91 the single most-searched term, 18.5 million daily (up over 13%), 'more than 160 million' new installs, nearly 3 million 2025 Challenge sign-ups, 3,800 versions, 2,400 languages, 'more than 45,000 churches and partners'. All match the issue. No correction notice.",
+    "No newer YouVersion data has replaced these figures. The 2026 Verse of the Year normally comes in December, so a follow-up is likely in next month's audit window.",
+    "Source 8 (Gloo, Oct 9, 2026) is unchanged: Envoy Mission won the Best of Bible Track (powered by YouVersion), $20,000 per track winner, more than 1,000 builders on more than 115 teams. A search for 'Envoy Mission' found no other public description, so the caveat that Gloo's release is the only one still holds. Gloo also describes it as 'disguised as an ordinary app' for people 'who could be imprisoned for having one'. The issue rightly leaves out that persecution and place framing.",
+    "Source 10 (NHPR/NPR): the Bilbro quotes and his title (professor of English at Grove City College) still match. No correction note.",
+    "Ascension/Grace: search found no peer-reviewed results for the Grace typeface, so the caveat still holds. It also found a Cambridge ESV Crystal New Testament set in Grace (retail listings only). That is not material to the issue and is not a reliable primary source, so it was not added.",
+    "Political/geography check: none in the body. 'Global Bible Month' is the program's proper name, and 'What the World Is Searching For' is an exact source title (exempt). Search results with national framing (Kenya usage, UK search terms) were deliberately not used."
+  ],
+  "seoChanges": [],
+  "seoNotes": "Searches for 'most searched Bible verses 2026', 'YouVersion Psalm 91 anxiety' and 'Bible app top searches' rank the YouVersion release and its mirrors, plus 2025 Verse of the Year coverage. The title (57 chars) already uses 'Bible App Searches' and 'Anxiety'. The description (149 chars) names YouVersion, Psalm 91 and 2026 and keeps the 'says' hedge. No clearly better phrasing turned up, so no change, to avoid churn.",
+  "internalLinkIdeas": [
+    "/faith/2026-10-25-faith-questions-ai-bible-answers: what people bring to AI and Scripture tools, and where the answers come from. It pairs with this issue's point that a search records a need but not what happens next.",
+    "/faith/2026-11-01-ask-ligonier-ai-human-handoff: a ministry AI that hands off to a human. It ties to the Wisdom Corner close that the next steps are prayer and life with a local church.",
+    "/faith/2026-10-18-ai-sings-whole-bible-music: more AI-generated Scripture media. It pairs with the Wisdom Corner caution about AI Bible video as content."
+  ],
+  "noChangeReasons": "Every cited claim still matches its source, and nothing has been corrected, retracted or reversed since Oct 11. There is no research section, so claimStatus does not apply. The only edit was swapping source 4 to its canonical URL after a permanent redirect, so dateModified was set to 2026-11-01. No updates entry was added because that URL swap is not new information for readers. Scripture text, editorsNote, reviewStatus, reviewedOn and reviewedBy were not touched."
+}

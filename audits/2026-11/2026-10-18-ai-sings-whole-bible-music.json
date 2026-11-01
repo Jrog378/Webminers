@@ -1,0 +1,42 @@
+{
+  "slug": "2026-10-18-ai-sings-whole-bible-music",
+  "auditedOn": "2026-11-01",
+  "runFolder": "digest-runs/2026-10-18-sunday",
+  "checked": 38,
+  "corrections": [],
+  "updates": [],
+  "claimStatusChange": null,
+  "deadLinksFixed": [],
+  "linkNotes": [
+    "All 12 sources, the bible-api verse URL and the hero image page (wordpress.org/photos) return HTTP 200 to curl. The one exception is source 9 (Movieguide), which returns 403 to curl because of bot blocking. WebFetch loaded it: the title and Oct 13, 2026 date match, the 'trained subject matter expert examines each line...' quote is verbatim and there is no correction note. Treated as live.",
+    "Verse check: bible-api.com (WEB) Deuteronomy 6:6-7 matches the frontmatter text word for word. The verse was not touched."
+  ],
+  "claimNotes": [
+    "TheSinging.Bible /facts (source 3) is still dated 'As of October 4, 2026'. It still lists 52,316 recordings (47,560 English plus 4,756 Spanish), 22 styles (20 English, 2 Spanish), 44 versions per chapter in male and female voices, the 'Singing Bible Edition' based on the BSB, 'AI-empowered technologies', free with no sign-up and no ads, and the launch, App Store, YouTube radio and Google Play dates (Aug 25, Sept 21, Oct 2 and Oct 4).",
+    "TheSinging.Bible /funfacts (source 7) still has 'Under 20 minutes of listening a day sings you through the entire Bible in one year' and 'Jonah is available as a sea shanty.' It says 'more styles are on the way', but no new count has been published.",
+    "The Music Bible homepage (source 6) counter still reads 38,556 Scripture Songs (data-to-value) and 14 Complete Bible Genres. Memorize, read-along lyrics and AI playlists are all still listed. The homepage now also shows a 'Listen on YouVersion' link and a countries-reached counter. We found no announcement of a formal YouVersion partnership, so nothing was added. The countries figure is geographic and must not be added.",
+    "The Music Bible /ai-transparency (source 2) still has, verbatim, the 'never use artificial intelligence to create songs that interpret, paraphrase, or extrapolate' pledge, 'occasionally, a word or phrase may be repeated', 'at least 100% accuracy', '750,000 words' and 'Suno and ChatGPT'.",
+    "Answered Faith (source 1): every quote used is still verbatim and there is no correction or editor's note.",
+    "Crosswalk (source 4): both Fiechter quotes and the 11 styles, 30,000+ songs, three Spanish genres and free on iOS and Android still match. The page shows only 'Updated Oct 08, 2026', with no correction.",
+    "Washington Examiner op-ed (source 5): the headline, author (Micah Fiechter) and Oct 11, 2026 date still match, with no correction. Minor metadata note: the source type is 'Official', where the run's fact-check suggested 'Opinion'. The outlet field already says 'op-ed by Micah Fiechter', so readers are not misled. Left unchanged.",
+    "Barna (source 8): 33% worship songs, 29% interpreting scripture, 64% small-group curriculum, n=442, online in December 2025, published Oct 6, 2026. There is no correction, and the page still does not mention sung Scripture.",
+    "Deseret News (source 10), ChurchLeaders (source 11) and Religion Unplugged/Baptist Press (source 12) all still support the issue's figures, dates and quotes, with no corrections.",
+    "Searches turned up no independent accuracy test or published error rate for either project, no reversal, and no new reporting since Oct 18. The issue's 'we found no published error rates' and 'no outside check' lines still hold.",
+    "Political/geography check: no place names or political framing in the body. 'NC Baptists' and 'Biola University' appear only as organization credits, and 'Spanish' refers to a language. 'Washington Examiner' appears only in the sources list, where outlet names are exempt. The ChurchLeaders event location and the Deseret note on majority-language dubbing are rightly left out. No removals needed."
+  ],
+  "seoChanges": [
+    {
+      "field": "description",
+      "old": "The Music Bible and TheSinging.Bible use AI to sing every Bible chapter word for word. A month in review: what they built and what is still unverified.",
+      "new": "The Music Bible and TheSinging.Bible say AI sings every Bible chapter word for word. A month in review: two Bible-in-song apps and what is still unverified.",
+      "reason": "The old description stated the projects' self-reported 'every chapter word for word' claim as fact, while the dek and body attribute it ('say'). The style guide requires company claims to be attributed, so the hedge is restored. Results for these queries use the phrase 'Bible in song' (the App Store listing and Crosswalk's 'Bible in song app'). The new description is 156 chars."
+    }
+  ],
+  "seoNotes": "Title kept: 'Can AI Sing the Whole Bible? | Coding with Christ' (49 chars). It matches the run's primary keyword, 'AI sing whole Bible', and the question form is still how people phrase the topic. Ranking results are mostly app listings (faith.tools, the App Store) plus the Answered Faith and Crosswalk pieces. Slug and URL unchanged. dateModified not touched, because this was a metadata-only SEO edit (same as the 2026-10-10 audit precedent).",
+  "internalLinkIdeas": [
+    "/faith/2026-10-04-ai-worship-song-theology-songtheology-asaph: AI checking worship-song theology. It pairs with the Wisdom Corner's 'A melody is never neutral' and with the Barna figure on AI-written worship songs.",
+    "/faith/2026-10-25-faith-questions-ai-bible-answers: where AI's Bible answers come from. It ties to the 'How they say they protect the text' section and the 'no outside check' caveat.",
+    "/faith/2026-11-01-ask-ligonier-ai-human-handoff: a ministry AI built around human review. It ties to TheSinging.Bible's human quality-control reviewers and The Chosen's expert-review item."
+  ],
+  "noChangeReasons": "Every cited claim still matches its source. There are no corrections, retractions or material developments since Oct 18, no dead links, and no political or geographic content. The issue has no research section, so claimStatus does not apply. The only edit is the frontmatter description (SEO, adds the 'say' hedge). No updates entry was added, and dateModified, editorsNote and the review fields are unchanged."
+}

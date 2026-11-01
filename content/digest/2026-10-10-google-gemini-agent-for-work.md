@@ -3,7 +3,7 @@ series: ai-digest
 title: "Google Gemini Agent for Work | Eureka Reports Oct 10"
 headline: "4 Kinds of Memory, Its Own Inbox: Google Cloud Launches the Gemini Agent for Work"
 dek: "Google hands agents real business tasks, a 656-case benchmark shows where agents slip, and a small Mac tool leaves the click to you."
-description: "Google Cloud says its new Gemini agent runs business tasks for hours or days. A 656-case study finds AI agents often act before checking the facts."
+description: "Google Cloud says its Gemini agent works for hours or days and gives coworker agents their own email. A preprint finds AI agents often act before checking."
 datePublished: "2026-10-10T07:00:00-04:00"
 dateModified: "2026-10-10T07:00:00-04:00"
 coverage: "Wed, Oct 7 – Fri, Oct 9, 2026"

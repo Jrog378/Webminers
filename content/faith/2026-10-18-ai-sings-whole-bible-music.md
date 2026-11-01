@@ -3,7 +3,7 @@ series: coding-with-christ
 title: "Can AI Sing the Whole Bible? | Coding with Christ"
 headline: "A Month of AI Setting the Whole Bible to Music, Word for Word"
 dek: "Two teams say AI now sings every chapter of Scripture without changing the text. What they built, what is still unverified, and why many pastors are cautious."
-description: "The Music Bible and TheSinging.Bible use AI to sing every Bible chapter word for word. A month in review: what they built and what is still unverified."
+description: "The Music Bible and TheSinging.Bible say AI sings every Bible chapter word for word. A month in review: two Bible-in-song apps and what is still unverified."
 datePublished: "2026-10-18T06:00:00-04:00"
 dateModified: "2026-10-18T06:00:00-04:00"
 featureType: month-review

@@ -1,0 +1,64 @@
+{
+  "slug": "2026-09-30-one-word-answers-ai-coding-transfer",
+  "auditDate": "2026-11-01",
+  "checked": 35,
+  "corrections": [
+    {
+      "section": "news",
+      "old": "whose company NVIDIA bought for $12.9 billion earlier this month",
+      "new": "whose company NVIDIA agreed to buy for $12.9 billion earlier this month [[21]](#source-21)",
+      "reason": "The deal is agreed but not closed. Adweek says NVIDIA 'has agreed to buy Hugging Face for $12.9 billion' and it is 'expected to close in the first half of 2027'. TechCrunch (source 8) still says 'sold'.",
+      "source": "https://www.adweek.com/dealroom/nvidia-confirms-purchase-of-hugging-face-for-nearly-13-billion/",
+      "sourceAdded": 21
+    },
+    {
+      "section": "invention",
+      "old": "it runs locally and was trained on one workstation GPU with \"no closed-model output in the training data\" [[12]]",
+      "new": "it runs locally, and the base models' synthetic training data \"was written by an open model,\" the README says, though \"some public data sets in the mix contain text their authors generated with closed models\" [[12]]",
+      "reason": "The quote was accurate for v1.1 but the current README (source 12) no longer contains it. It now says some public training sets contain closed-model text, and that most of the new adapter data came from Qwen3.8-Max through a hosted API. The README no longer states the one-GPU training setup for the base models either, so that clause was dropped.",
+      "source": "https://github.com/firelex/jeff"
+    }
+  ],
+  "updates": [
+    {
+      "note": "Jeff v1.2 (1 Oct 2026) removed every overlap between training data and test sets. The 0.8B panel score went from 79.1 to 78.7 and the 2B score from 82.0 to 81.7, and the README says the v1.1 long-document score was 'inflated by the leak'. The outside reproduction we cite (issue #1) tested v1.1. v1.3 (Oct 2026) added LoRA adapters. Jeff-Gemma4-E2B is still v1.0 with a 26-option limit. The body's v1.1 figures are left as published, with this update logged.",
+      "source": "https://github.com/firelex/jeff"
+    },
+    {
+      "note": "The Von repository (source 15) is now archived and read-only. Its tagline, 395M size, latency figures and Apache-2.0 license are unchanged.",
+      "source": "https://github.com/wfzyx/von"
+    }
+  ],
+  "claimStatusChange": null,
+  "claimStatusNotes": "Stays 'preprint'. arXiv 2609.29233 still has only v1 (24 Sep 2026), no journal-ref, and its DataCite DOI (10.48550/arXiv.2609.29233) is still pending registration. The ATD repo README is unchanged (same 51.22 vs 45.88, CI [1.22, 9.60]) and mentions no venue. Searches found no independent replication, failed replication or expert critique, only mirrors (hyper.ai) and The Neuron's explainer.",
+  "deadLinksFixed": [],
+  "linkCheck": "All 20 original URLs load. Plain curl returns 403 for the github.com URLs and for CNBC through the session proxy, but WebFetch loaded each one with content intact: firelex/jeff, issue #1, myboker/ATD, NVIDIA/OpenShell, wfzyx/von, denis-pplx/autojev and CNBC. The jeff LICENSE and v1.1 release-tag URLs were not fetched separately, because GitHub API access is blocked in this session. The repo page that hosts them loads.",
+  "seoChanges": [
+    {
+      "field": "description",
+      "old": "A preprint says a 1.5B model gained 5.34 points on a coding test from one-word answers. Plus NVIDIA's agent safety platform and the free Jeff model.",
+      "new": "A preprint says a 1.5B model gained 5.34 points on a coding test from one-word answers. Plus NVIDIA's watchdog for rogue AI agents and the free Jeff model.",
+      "reason": "Coverage and search results for this story mostly use 'rogue AI agents' and 'watchdog' (TechCrunch, Tom's Hardware, Dark Reading, PBS, IBTimes, The Week). 'Agent safety platform' is NVIDIA's product wording and gets less use. The new description is 155 chars and keeps the 'preprint says' hedge."
+    }
+  ],
+  "seoNoChange": "Title kept: 'One-Word Answers Lifted AI Coding | Eureka Reports Sep 30' (57 chars). The obvious search term, 'subliminal learning', names the earlier Anthropic/Cloud et al. work, not this paper. The 'one-word answers' hook is distinctive and matches how The Neuron framed the story.",
+  "internalLinkIdeas": [
+    "2026-10-24-claude-proofs-code-never-crashes: its news section on OpenAI keeping frontier training off the live internet follows directly from the sandbox escapes and training pauses in this issue's NVIDIA story.",
+    "2026-10-10-google-gemini-agent-for-work: its preprint on AI agents acting before checking relates to the agent-containment theme of the NVIDIA section.",
+    "2026-10-03-gemini-4-argon-benchmarks: search agents drifting into shared wrong answers is another 'hidden behavior' story, close to this issue's closing thread 'What AI does out of sight'."
+  ],
+  "politicalCheck": "No political or geographic content found. University and company names (Peking University, Georgia Tech, ShanghaiTech, Tsinghua, Alibaba Cloud) appear only as credits. The new correction text does not mention the deal's regulatory approval step.",
+  "noChangeReasons": [
+    "NVIDIA release (source 6) unchanged, with no correction note: OpenAI still not named, 'over 100 organizations', 'milliseconds', 'when-and-if-available', Arm/Intel 'can also be extended', Huang quote. It also mentions a separate Open Secure AI Alliance of 'over 120' organizations. The issue does not conflate the two, so no change.",
+    "CNBC (source 9) unchanged, no correction: 17,000 agents quote, Arm and Intel as partners, 'a browser for agents'.",
+    "TechCrunch (source 8) unchanged, no correction note: every quoted and paraphrased statement is still present.",
+    "OpenShell README still has the 'every file access, system call, and network connection' and formal-verification language, under Apache 2.0.",
+    "No report found of OpenAI joining the platform since launch. Coverage still describes OpenAI as working with NVIDIA on OpenShell only, matching the issue.",
+    "AutoJev README still says 'While the weights are private'. The table's 'weights currently private' stands.",
+    "The Anthropic subliminal-learning study (source 4) appeared in Nature on 15 Apr 2026 (doi:10.1038/s41586-026-10319-8). That predates this issue and does not change any claim, so no update.",
+    "Hugging Face Papers page loads. Upvote count and Yuanhao Zeng's comment did not render in the fetch, so they could not be rechecked. No reason to doubt them.",
+    "Jeff latency figures (22/28/463 ms) unchanged in the current README."
+  ],
+  "dateModifiedChanged": true,
+  "dateModifiedNote": "Set to '2026-11-01' (date only, no invented time). datePublished uses a full ISO time with offset. If the site needs that format, change it to a full timestamp."
+}

@@ -5,7 +5,7 @@ headline: "YouVersion Says Anxiety, Hope and Healing Were Among Its Top Bible Ap
 dek: "Psalm 91 was the top search. What a Bible app's self-reported data shows about people's needs, and what it can't show."
 description: "YouVersion says anxiety, hope and healing were among 2026's top Bible App searches, and Psalm 91 ranked first. What its data shows and what it can't."
 datePublished: "2026-10-11T06:00:00-04:00"
-dateModified: "2026-10-11T06:00:00-04:00"
+dateModified: "2026-11-01T06:00:00-05:00"
 featureType: this-week
 coverage: "Sun, Oct 4 – Sat, Oct 10, 2026"
 reviewStatus: pending
@@ -43,7 +43,7 @@ sources:
     outlet: "University of Chicago Divinity School, Sightings"
     title: "YouVersion: Digitizing, Mobilizing, and Consuming the Word of God -- Sara-Jo Swiatek"
     date: "2013-11-21"
-    url: "https://divinity.uchicago.edu/sightings/youversion-digitizing-mobilizing-and-consuming-word-god-sara-jo-swiatek"
+    url: "https://divinity.uchicago.edu/sightings/articles/youversion-digitizing-mobilizing-and-consuming-word-god-sara-jo-swiatek"
   - type: Official
     outlet: "Ascension (RNS Press Release Distribution Service)"
     title: "Ascension introduces Catholic Bible for readers with dyslexia"

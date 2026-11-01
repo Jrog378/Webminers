@@ -1,0 +1,63 @@
+{
+  "slug": "2026-10-03-gemini-4-argon-benchmarks",
+  "auditedOn": "2026-11-01",
+  "runFolder": "digest-runs/2026-10-03",
+  "checked": 84,
+  "corrections": [],
+  "updates": [
+    {
+      "date": "2026-11-01",
+      "type": "update",
+      "note": "Google opened Gemini 4 Argon to developers on Oct. 13 through the paid tier of the Gemini API in Google AI Studio and Android Studio, and Google AI Ultra subscribers can try it in AI Studio and Google Antigravity, per its [developer post](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/). The same day it [came to the Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/) for Google AI Pro and Ultra subscribers, so it is no longer limited to the cyber defenders described here."
+    },
+    {
+      "date": "2026-11-01",
+      "type": "update",
+      "note": "The independent leaderboards have moved. As of Oct. 29 the [Vals Index](https://www.vals.ai/benchmarks/vals_index) ranks Argon fourth at 69.24%, behind Claude Sonnet 5.5 (70.85%), Google's newer Gemini 4 Carbon (70.36%) and Claude Opus 5.5 (70.18%), so it no longer holds first place. [CWE-bench](https://cwe-bench.com/) now lists Gemini 4 Carbon first at 71%, with Argon still tied with Grok 4.7 and GPT-6 Astra at 68%."
+    },
+    {
+      "date": "2026-11-01",
+      "type": "update",
+      "note": "Stillwet has reorganized its site. Its [paintings page](https://stillwet.art/paintings/) now lists 91 paintings plus 18 studies and trials, its [About page](https://stillwet.art/about/) says the models now paint in simulated oil or watercolor and \"don't use image models or see reference pictures,\" and the homepage no longer carries the text quoted here. The round 11 summary has moved to the [Experiments page](https://stillwet.art/experiments/)."
+    }
+  ],
+  "claimStatusChange": null,
+  "deadLinksFixed": [
+    {
+      "source": 9,
+      "old": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+      "new": "https://www.thestar.com.my/tech/tech-news/2026/10/02/google-grapples-with-employee-scepticism-about-new-gemini-4",
+      "reason": "The Yahoo Finance syndication returns 404 (confirmed with curl and WebFetch). The Bloomberg original (https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model) returns 403 to this session, and archive.org was unreachable through the proxy. The Star's syndicated copy credits Bloomberg (byline Julia Love and Davey Alba) and contains all three cited passages: 'does less well when employees actually put it to work', 'direct access', and Google's 'inaccurate to say that Gemini 4 is underperforming in areas such as coding'. Outlet set to 'Bloomberg (via The Star)' and the title set to The Star's exact headline. Citation number unchanged."
+    },
+    {
+      "source": 19,
+      "old": "https://stillwet.art/rounds.html",
+      "new": "https://stillwet.art/experiments/",
+      "reason": "rounds.html is now a stub page that says 'This page has moved' and redirects with JavaScript to /experiments/. The Experiments page's Round 11 entry supports the cited sentence: three other models took the winter brief, then judged six winters blind. Title updated to 'Experiments · stillwet'."
+    }
+  ],
+  "linkNotes": [
+    "19 of 21 source URLs returned 200. Hacker News item 49928566 gave 503 on the first pass and 200 on retry, so it was rate limiting.",
+    "R&D World (source 3) returned 403 to curl but loaded in WebFetch. The article is intact and matches the issue (Argon 53 vs Opus 5.5 58 on the AA index; 8th on Agent Arena with a range of 3rd to 16th over 3,417 sessions). It added an Oct. 6 note saying Argon was still limited to Fairwind participants, which the Oct. 13 release has since overtaken.",
+    "Source 15 (stillwet.art homepage) still loads, but the site has been rebuilt. The homepage no longer has the text the Invention section cites: 75 paintings, 46 at the easel, 'No image model is involved', the 65-titled/31-evening count, the shore coincidence, the Gemini 3.8 Flash quote and the tool limits. I could not get an archive.org snapshot because the proxy dropped web.archive.org connections (ws_closed_mid_exchange). I did not swap the URL, since no current page holds those claims. Covered by the Stillwet update note. Follow-up: add a Wayback snapshot of the Oct. 2 homepage to source 15 once archive.org is reachable.",
+    "GitHub raw sources 16, 17, 20 and 21 still support their claims: Rust simulator, 'dries on a clock', 'knifed together from named tubes', MIT code and CC BY 4.0 paintings, the Mixbox noncommercial condition, 'a model may favor its own style', anchor ranked 1/1/1, and 'No self-preference: each model ranked its own painting 5th or 6th'."
+  ],
+  "seoChanges": [],
+  "seoNotes": "Title (58 chars) and description (147 chars) left unchanged. Pages ranking for this topic use two phrasings. One is 'Gemini 4 Argon benchmarks' (apidog, emergent.sh, computingforgeeks, mindstudio tag), which the title already leads with. The other is 'Gemini 4 Argon vs GPT-6 Astra vs Claude Opus 5.5' (apidog, datacamp, respan, javadex). Adding rival names to the title would run past 60 characters with the suffix, or would mean dropping 'benchmarks', so the change would not clearly be better. The description already says Argon is 'level with rivals, not clearly ahead'. That still matches Artificial Analysis and Agent Arena, and the Vals change is handled in the updates. Slug and URL unchanged.",
+  "internalLinkIdeas": [
+    "/eureka/2026-10-07-mistral-large-4-claims-vs-tests: the same theme of vendor benchmark claims checked against Artificial Analysis and Vals, and also in claim-vs-evidence format.",
+    "/eureka/2026-10-10-google-gemini-agent-for-work: a later Google Gemini story. Its preprint on agents acting before checking also fits this issue's closing section on who grades the machines.",
+    "/eureka/2026-10-21-meta-muse-chat-sharing-paused: it covers GPT-6-Astra robot scores, which suits readers comparing Astra with Argon."
+  ],
+  "politicalGeographyCheck": "No place names or political framing in the body. The Bloomberg employee-skepticism item and the Fairwind cyber-defender rollout are company facts, not political. The Pentagon-deal and morale details in later coverage were not added. The replacement source's .my domain is in a URL only, and its title names no place. No removals needed.",
+  "noChangeReasons": [
+    "Research paper (arXiv 2609.39102): v2 was posted Oct. 3, 04:29 UTC. A text diff of the v1 and v2 HTML shows only a reformatted author block, with equal-contribution and corresponding-author notes moved to footnotes, plus two added Zhang et al. references and one related-work sentence on likelihood-free inference. Every number the issue cites is unchanged (6.1%/8.8%, 5.7%/7.2%, 3.0%/3.7%, 0.4%/0.1%, +8.8/+8.4, +8.7/+7.8, 48.8%/51.2%). Not material. The v2 author block no longer maps authors to affiliations, but the issue's '9 of 15 independent researchers' is cited to the v1 HTML, which still shows it.",
+    "No peer-reviewed version in Crossref or OpenAlex (OpenAlex search returned no results object). The arXiv page lists no journal ref, only the arXiv DOI 10.48550/arXiv.2609.39102. No replications or critiques found beyond mirror and summary sites. claimStatus stays 'preprint'.",
+    "Artificial Analysis article: no correction or update notice. All cited figures still match (53, matching Astra, 1 ahead of Sol; $1.99, 60% of Astra's $3.26, $3.98; 62k vs 27k tokens; 15% hallucination; 50% vs 63%). AA released Intelligence Index v5 on Oct. 27-28, but the Argon article was not revised, so no update was logged for it.",
+    "Google launch blog (source 1) has no update notice. The evaluation PDF and 9to5Google still load. The availability change is logged as an update, not a correction, because the issue accurately said Google gave no date for wider release as of Oct. 2.",
+    "Vals model page: CUA-bench is still 4.83%, now ranked 8 of 9 instead of 7 of 8. The spec now lists 1M max output tokens, while its Sep. 30 note still says 262k for the tested setup, which is what the issue cites. Too minor for its own note.",
+    "Vals Index and CWE-bench changes are logged as an update, not a correction: Argon was first on Vals and tied for first on CWE-bench as of publication.",
+    "Bloomberg: no correction found in the syndicated text. Google's denial and the employee-skepticism wording match the issue.",
+    "editorsNote, reviewStatus, reviewedOn and reviewedBy were not touched. dateModified was set to 2026-11-01 because content changed (three update entries and two source URL swaps). The body text was not edited."
+  ]
+}

@@ -5,7 +5,17 @@ headline: "Is Google's Gemini 4 Argon Really Ahead? Independent Tests Say It's L
 dek: "Google's new model meets same-day independent tests, search agents drift into shared mistakes, and oil paintings are made entirely from code."
 description: "Independent tests put Google's Gemini 4 Argon level with rivals, not clearly ahead. Plus AI agents that agree on wrong answers and AI oil painters."
 datePublished: "2026-10-03T07:00:00-04:00"
-dateModified: "2026-10-03T07:00:00-04:00"
+dateModified: "2026-11-01T09:00:00-05:00"
+updates:
+  - date: "2026-11-01"
+    type: update
+    note: "Google opened Gemini 4 Argon to developers on Oct. 13 through the paid tier of the Gemini API in Google AI Studio and Android Studio, and Google AI Ultra subscribers can try it in AI Studio and Google Antigravity, per its [developer post](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/). The same day it [came to the Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/) for Google AI Pro and Ultra subscribers, so it is no longer limited to the cyber defenders described here."
+  - date: "2026-11-01"
+    type: update
+    note: "The independent leaderboards have moved. As of Oct. 29 the [Vals Index](https://www.vals.ai/benchmarks/vals_index) ranks Argon fourth at 69.24%, behind Claude Sonnet 5.5 (70.85%), Google's newer Gemini 4 Carbon (70.36%) and Claude Opus 5.5 (70.18%), so it no longer holds first place. [CWE-bench](https://cwe-bench.com/) now lists Gemini 4 Carbon first at 71%, with Argon still tied with Grok 4.7 and GPT-6 Astra at 68%."
+  - date: "2026-11-01"
+    type: update
+    note: "Stillwet has reorganized its site. Its [paintings page](https://stillwet.art/paintings/) now lists 91 paintings plus 18 studies and trials, its [About page](https://stillwet.art/about/) says the models now paint in simulated oil or watercolor and \"don't use image models or see reference pictures,\" and the homepage no longer carries the text quoted here. The round 11 summary has moved to the [Experiments page](https://stillwet.art/experiments/)."
 coverage: "Wed, Sep 30 – Fri, Oct 2, 2026"
 reviewStatus: pending
 reviewedBy: "Justin Rogers"
@@ -70,10 +80,10 @@ sources:
     date: "2026-10-02"
     url: "https://www.vals.ai/benchmarks/vals_index"
   - type: Reporting
-    outlet: "Bloomberg (via Yahoo Finance)"
-    title: "Google Grapples With Employee Skepticism About New Gemini Model"
+    outlet: "Bloomberg (via The Star)"
+    title: "Google grapples with employee scepticism about new Gemini 4"
     date: "2026-09-30"
-    url: "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html"
+    url: "https://www.thestar.com.my/tech/tech-news/2026/10/02/google-grapples-with-employee-scepticism-about-new-gemini-4"
   - type: Official
     outlet: "Google DeepMind"
     title: "Fairwind Program"
@@ -118,8 +128,8 @@ sources:
     url: "https://news.ycombinator.com/item?id=49928566"
   - type: Official
     outlet: "Stillwet"
-    title: "By round · stillwet"
-    url: "https://stillwet.art/rounds.html"
+    title: "Experiments · stillwet"
+    url: "https://stillwet.art/experiments/"
   - type: Official
     outlet: "GitHub (aliceisjustplaying/claude-paint)"
     title: "Round 11: a trunk study, and two other models paint"

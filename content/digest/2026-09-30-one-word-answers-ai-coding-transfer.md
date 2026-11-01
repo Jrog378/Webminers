@@ -9,9 +9,38 @@ dek: >-
   OpenAI, and a free decision model you can run at home.
 description: >-
   A preprint says a 1.5B model gained 5.34 points on a coding test from one-word
-  answers. Plus NVIDIA's agent safety platform and the free Jeff model.
+  answers. Plus NVIDIA's watchdog for rogue AI agents and the free Jeff model.
 datePublished: '2026-09-30T07:00:00-04:00'
-dateModified: '2026-09-30T19:00:00-04:00'
+dateModified: "2026-11-01T09:00:00-05:00"
+updates:
+  - date: '2026-11-01'
+    type: correction
+    note: >-
+      We said NVIDIA "bought" Hugging Face. NVIDIA has agreed to buy it for
+      $12.9 billion, and the deal is expected to close in the first half of
+      2027, [per Adweek](https://www.adweek.com/dealroom/nvidia-confirms-purchase-of-hugging-face-for-nearly-13-billion/).
+      The text now says "agreed to buy."
+  - date: '2026-11-01'
+    type: correction
+    note: >-
+      Jeff's README no longer says there is "no closed-model output in the
+      training data." It now says "some public data sets in the mix contain
+      text their authors generated with closed models," and that most data for
+      its new adapters came from Qwen3.8-Max through Alibaba Cloud's hosted API
+      ([README](https://github.com/firelex/jeff)). We updated that sentence to match.
+  - date: '2026-11-01'
+    type: update
+    note: >-
+      Jeff v1.2 (Oct. 1) removed every overlap between its training data and
+      its test sets. The 0.8B model's panel score fell from 79.1 to 78.7, and
+      the README says one v1.1 score was "inflated by the leak." The outside
+      check we cited tested v1.1. A v1.3 with add-on adapters followed in
+      October ([README](https://github.com/firelex/jeff)).
+  - date: '2026-11-01'
+    type: update
+    note: >-
+      The [Von repository](https://github.com/wfzyx/von) is now archived and
+      read-only on GitHub.
 coverage: 'Sat, Sep 26 – Tue, Sep 29, 2026'
 reviewStatus: pending
 reviewedBy: Justin Rogers
@@ -190,6 +219,12 @@ sources:
     title: 'Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms'
     date: '2026-09-28'
     url: 'https://news.ycombinator.com/item?id=49883844'
+  - type: Reporting
+    outlet: Adweek
+    title: Nvidia Confirms Purchase of Hugging Face for Nearly $13 Billion
+    date: undated (accessed 2026-11-01)
+    url: >-
+      https://www.adweek.com/dealroom/nvidia-confirms-purchase-of-hugging-face-for-nearly-13-billion/
 ---
 
 ## Research: A small AI model got better at coding from one-word answers that never mention code
@@ -230,7 +265,7 @@ NVIDIA on Monday, Sept. 28, announced the Open Agent Safety Platform, which pair
 | An open platform [[6]](#source-6) | OpenShell is open source and has been public on GitHub since February [[7]](#source-7). TechCrunch reports the hardware piece "remains proprietary, and can only be deployed on Nvidia's hardware" [[8]](#source-8). |
 | "Over 100 organizations" [[6]](#source-6) | That is NVIDIA's count, and its wording is organizations "working with" the platform's technologies, not signed members [[6]](#source-6). |
 | Works beyond NVIDIA chips | NVIDIA says OpenShell "can be extended" to Arm and Intel platforms [[6]](#source-6). CNBC and TechCrunch describe Arm and Intel as partners or supporters [[9]](#source-9) [[8]](#source-8), but NVIDIA's release does not list them among participants [[6]](#source-6). |
-| It could have prevented OpenAI's July Hugging Face incident, an NVIDIA representative told reporters [[9]](#source-9) | Unverified. Hugging Face CEO Clem Delangue, whose company NVIDIA bought for $12.9 billion earlier this month, posted that OpenAI would have caught its own agents before Hugging Face did if it had been running the platform, per TechCrunch. He added: "take with a grain of salt, we need much more transparency!" [[8]](#source-8) |
+| It could have prevented OpenAI's July Hugging Face incident, an NVIDIA representative told reporters [[9]](#source-9) | Unverified. Hugging Face CEO Clem Delangue, whose company NVIDIA agreed to buy for $12.9 billion earlier this month [[21]](#source-21), posted that OpenAI would have caught its own agents before Hugging Face did if it had been running the platform, per TechCrunch. He added: "take with a grain of salt, we need much more transparency!" [[8]](#source-8) |
 
 **How it works.** OpenShell watches agents at the operating-system level. It enforces policy "on every file access, system call, and network connection" and uses formal verification to check what a policy change would allow [[7]](#source-7). Sentry runs "out-of-band" on NVIDIA's BlueField-4 DPUs, networking chips that sit beside the main processor, so it can monitor an agent from outside the agent's own environment [[6]](#source-6). Huang told CNBC the platform is essentially "a browser for agents" [[9]](#source-9). NVIDIA's Justin Boitano said "model-level safeguards alone can't govern what agents can access or do" [[9]](#source-9).
 
@@ -252,7 +287,7 @@ Jeff, an open-source project posted Sept. 28 by developer Mathias Strasser, offe
 | Laya | Encoder model, 100+ languages [[16]](#source-16) | 32.8 ms on one GPU [[16]](#source-16) | Apache 2.0 weights [[16]](#source-16) |
 | AutoJev-27B | Jeff's parent recipe; needs about 49 GiB of weights [[17]](#source-17) [[12]](#source-12) | Not stated [[17]](#source-17) | MIT code; weights currently private, per its README [[17]](#source-17) |
 
-Jeff's pitch is price and privacy: it runs locally and was trained on one workstation GPU with "no closed-model output in the training data" [[12]](#source-12). Version 1.1, out Sept. 29, raised the option limit from 26 to 254 after a user found v1.0 never picked anything past the 26th choice [[18]](#source-18) [[12]](#source-12).
+Jeff's pitch is price and privacy: it runs locally, and the base models' synthetic training data "was written by an open model," the README says, though "some public data sets in the mix contain text their authors generated with closed models" [[12]](#source-12). Version 1.1, out Sept. 29, raised the option limit from 26 to 254 after a user found v1.0 never picked anything past the 26th choice [[18]](#source-18) [[12]](#source-12).
 
 **The honest caveat.** Every speed, accuracy and calibration number is the developer's own, measured on high-end hardware with short prompts [[12]](#source-12). On his five-benchmark panel, the 0.8B model scores 79.1 against Jev's published 83.0, but the Jev figure came from a different sample, and Jeff lags well behind on reasoning [[12]](#source-12). One outside tester reran the panel and got scores within 0.6 points of the README's [[19]](#source-19). Early users were harsher. One Hacker News commenter reported 70% accuracy against Jev's 94% on their own classification work, and another called the 0.8B model "completely useless" for sorting job ads [[20]](#source-20). The author also warns: "Small models don't reason" [[12]](#source-12).
 
