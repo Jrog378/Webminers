@@ -166,5 +166,26 @@
     "title": "Qwenputer: a working, deterministic RISC-V CPU running inside a Qwen3.5 language model",
     "primaryUrl": "https://divagr.com/blog/qwenputer",
     "slug": "2026-10-31-robots-txt-ai-training-opt-out-token"
+  },
+  {
+    "date": "2026-11-04",
+    "section": "research",
+    "title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
+    "primaryUrl": "https://arxiv.org/abs/2611.02633",
+    "slug": "2026-11-04-anthropic-provable-ai-inference"
+  },
+  {
+    "date": "2026-11-04",
+    "section": "news",
+    "title": "Anthropic shares progress on provable inference: cryptographically proving which model produced an output",
+    "primaryUrl": "https://www.anthropic.com/research/provable-inference",
+    "slug": "2026-11-04-anthropic-provable-ai-inference"
+  },
+  {
+    "date": "2026-11-04",
+    "section": "invention",
+    "title": "Sparks of Weight-Space Programming: frontier LLMs can read and write neural network weights",
+    "primaryUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "slug": "2026-11-04-anthropic-provable-ai-inference"
   }
 ]

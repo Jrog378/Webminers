@@ -1,0 +1,39 @@
+{
+  "status": "drafted",
+  "issueDate": "2026-11-04",
+  "window": "Sat Oct 31 - Tue Nov 3, 2026",
+  "sourcesFailed": [
+    "HN Algolia (first tries)",
+    "GitHub repo pages/READMEs/API (blocked)",
+    "Google News RSS (empty)",
+    "Semantic Scholar (rate limit)",
+    "MarkTechPost (403)",
+    "StockSnap full-size file (403)"
+  ],
+  "topics": {
+    "news": "Anthropic FlashProve provable inference",
+    "research": "Measuring AI Agents as Teammates with Collaborative Intelligence (arXiv 2611.02633)",
+    "invention": "Sparks of Weight-Space Programming (MIT CSAIL blog)"
+  },
+  "formats": {
+    "news": "claim-vs-evidence",
+    "research": "by-the-numbers",
+    "invention": "qa"
+  },
+  "factcheck": {
+    "round1": {
+      "checked": 64,
+      "pass": 48,
+      "fix": 16,
+      "cut": 0
+    },
+    "round2": {
+      "checked": 14,
+      "pass": 13,
+      "fix": 1,
+      "cut": 0
+    }
+  },
+  "editor": "FAIL on one banned word on first pass; fixed directly by orchestrator; not re-run",
+  "build": "npm ci failed (lockfile out of sync, missing yaml@2.9.1); built with npm install --no-package-lock; build succeeded"
+}

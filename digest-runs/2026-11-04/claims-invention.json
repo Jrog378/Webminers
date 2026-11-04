@@ -1,0 +1,250 @@
+[
+ {
+  "id": "inv-01",
+  "claim": "The post is by Rikiya Takehi, Jayden Teoh, Alex Zhang and Omar Khattab, all listed as MIT CSAIL, published November 2, 2026, and self-described as a blog post.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. “Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights.” November 2026.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-02",
+  "claim": "The authors define Weight-Space Programming as a general-purpose LLM reading and writing a network's weights directly, not through an optimizer or gradient descent.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "In Weight-Space Programming, a general-purpose LLM reads and writes a network’s weights directly (i.e., not through an optimizer, and in particular not with gradient descent) around some natural language spec, sometimes even with no environment feedback at all.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-03",
+  "claim": "The authors themselves call these very early results.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "In this post, we share very early results that allow us to argue that the paradigm of reasoning-driven optimization is now coming even for differentiable neural networks.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-04",
+  "claim": "Experiment 1: given only the raw weights of four identically shaped 17,253-weight game-playing networks, GPT-6 Astra named the right game for all four, without being given the list of options.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Without revealing the options of the games we consider, Astra was still able to name the right game for all four networks.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-05",
+  "claim": "Experiment 2: from weights alone, with no tool use or forward passes, Astra told which shape (circle, triangle, square) each small diffusion model generates, though it drew them as outlines when the models make filled shapes.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Interestingly, it draws every shape as an outline, ignoring that the actual models generate filled shapes.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-06",
+  "claim": "Experiment 3: given only the middle transformer blocks of three 7.2M-parameter character models, Astra (with Python, but no running the network) named the training language for all three and found every copying (induction) head.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Astra names the right language for all three networks, in both of its attempts. It also finds every copying head (induction head), the heads that let a model repeat text it has seen earlier, and names no other head as one.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-07",
+  "claim": "Experiment 4: in one try with no tools, Astra edited 3.5% of a stuck car-control network's weights and the car then succeeded in all 1,024 episodes.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "In a single try with no tools, Astra’s edit makes the car succeed in all 1,024 episodes, changing 3.5% of the weights.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-08",
+  "claim": "Experiment 5: Astra wrote game-playing networks from all-zero weights in one reply, with no training, that beat PPO trained for 100M steps in three MinAtar games; against PPO at 500M steps it won only on Breakout.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Astra’s generated networks beat PPO trained for 100 million steps in all three games. Against PPO trained for 500 million steps, they score 20 times as much in Breakout, come close in Asterix, and reach 60% of its score in Seaquest.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-09",
+  "claim": "Experiment 6: with a Python sandbox, Astra wrote a 1.48M-weight 9x9 Go network from scratch; with 50 forward passes it beat an equal-sized PPO network trained on 20 million games.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "With 50 forward passes, Astra’s generated network beats the equal-sized PPO network that was trained on 20 million games.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-10",
+  "claim": "Experiment 7: Astra could not tell which of two Gemma 3 270M fine-tunes was sycophantic from weights alone; it succeeded only after being allowed to see attention patterns.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Unfortunately, from the weights alone, Astra was unable to tell. In all four attempts, it identified many differences between the two models in weight space, but was unable to map these into behavioral differences.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-11",
+  "claim": "Experiment 8: Astra traced Qwen3.5-0.8B's thinking loops to one direction in the MLPs of layers 15 and 19 and subtracted it from 131,072 weights.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Astra traced the looping to one direction written by the MLPs of layers 15 and 19, and subtracted that direction from 64 output columns in each (131,072 weights), much like removing a behavior by deleting a single direction from a model’s weights.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-12",
+  "claim": "With 50 forward passes, the edit raised Qwen3.5-0.8B's MATH-500 from 7.9% to 48.1%, GSM8K from 13.8% to 67.1% and IFEval from 21.0% to 62.3%.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "With 50 forward passes, MATH-500 rose from 7.9% to 48.1% and GSM8K from 13.8% to 67.1%. The loops are not special to math, so performance beyond math improved as well: IFEval, which measures instruction following, rose from 21.0% to 62.3%.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-13",
+  "claim": "With 10 or 25 forward passes, the loop fix barely worked; only with 50 did the share of answers hitting the token limit fall from 93% to 33%.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "with 10 or 25 forward passes the loops barely went away, and with 50 it fell from 93% to 33%.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-14",
+  "claim": "The edit touched 0.016% of the model's weights, and no training or gradient information was allowed.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Importantly, the edit changes only 131,072 of the model’s 0.8 billion weights (0.016%).",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-15",
+  "claim": "On Gemma 3 270M, a model that rarely loops, Astra could not improve math; the authors conclude editing removed an obstacle but could not add a missing ability.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "Editing weights could remove an obstacle that hid an ability, but it could not add an ability the model lacked.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-16",
+  "claim": "Qwen's own model card warns that Qwen3.5-0.8B is prone to thinking loops in thinking mode.",
+  "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/README.md",
+  "quote": "In thinking mode, we have observed that when using the recommended sampling parameters, Qwen3.5-0.8B is more prone to entering thinking loops compared to other Qwen3.5 models, which may prevent it from terminating generation properly.",
+  "sourceType": "Official",
+  "date": "2026-11-04"
+ },
+ {
+  "id": "inv-17",
+  "claim": "The authors say they are building a benchmark and harness for Weight-Space Programming.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "We are currently building a benchmark and a harness for LLMs’ capability on Weight-Space Programming.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-18",
+  "claim": "The authors released full logs of every experiment, including prompts, replies, code and networks.",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "quote": "We release the complete logs of every experiment in this post at github.com/RikiyaT/lm_understand-logs.",
+  "sourceType": "Paper",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-19",
+  "claim": "The edited Qwen checkpoint was rebuilt from the logs and re-evaluated on full MATH-500 by Ahsen Khaliq (Hugging Face), scoring 51.0% with 31.6% of answers hitting the token limit. This re-checks the published checkpoint; it does not independently repeat the method.",
+  "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+  "quote": "The edited model scored **51.0%**, with **31.6%** of answers hitting the token limit.",
+  "sourceType": "Official",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-20",
+  "claim": "The Hugging Face card says only two tensors differ from base Qwen3.5-0.8B, and each is hash-checked against the checkpoint the post evaluated.",
+  "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+  "quote": "which **sha256-verifies every rebuilt tensor against the checkpoint evaluated in the post**. Only these two tensors differ from",
+  "sourceType": "Official",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-21",
+  "claim": "The logs README says the model was gpt-6-astra run through the Codex CLI, with built-in tools disabled and code execution allowed only in Experiments 3, 6, 7 and 8 (read via a WebFetch summary; quote not checked against raw text).",
+  "url": "https://github.com/RikiyaT/lm_understand-logs",
+  "quote": "All 1,125 turns in this release are tool-free.",
+  "sourceType": "Official",
+  "date": "2026-11-04"
+ },
+ {
+  "id": "inv-22",
+  "claim": "Simon Willison ran the Experiment 1 prompts on Qwen 3.8 27B on his laptop; it identified Pac-Man, Pong and Breakout but failed on Freeway.",
+  "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "quote": "Qwen failed at the Freeway prompt, which didn’t surprise me considering that game is more obscure than the other three.",
+  "sourceType": "Reporting",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-23",
+  "claim": "Willison thinks a skilled human with pencil and paper could do the game identification, and that some of the wider commentary goes too far.",
+  "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "quote": "It’s a cool paper, but some of the wider commentary I’ve seen around it does not feel justified.",
+  "sourceType": "Reporting",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-24",
+  "claim": "Matthew Honnibal argues the post is misleading because the 'just by looking at raw weights' setting applies only to Experiments 1, 2 and 4 on small networks, while every real-language-model result used Python and forward passes.",
+  "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+  "quote": "The “just by looking at the raw weights” setting (raw floats in context, no tools, no\nrunning the network) only appears in experiments 1, 2 and 4, on networks of 17K–172K\nweights.",
+  "sourceType": "Social",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-25",
+  "claim": "Honnibal says the Qwen result shows Astra doing tasks a human ML engineer could do.",
+  "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+  "quote": "What the Qwen result actually shows is that Astra can be prompted to devise and perform tasks that\na human ML engineer could do.",
+  "sourceType": "Social",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-26",
+  "claim": "Sean Goedecke argues the Qwen fix follows the standard steering / abliteration playbook a competent human researcher would use.",
+  "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+  "quote": "Again, this is exactly what a competent human researcher could have and would have done.",
+  "sourceType": "Social",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-27",
+  "claim": "Goedecke shows the game-identification signal can be read off with a three-line first-layer weight-norm heatmap.",
+  "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+  "quote": "Here’s that calculation expressed as a heatmap in three lines of Python:",
+  "sourceType": "Social",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-28",
+  "claim": "The Hacker News submission of the post drew about 2,922 points and 879 comments (Algolia API, read 2026-11-04).",
+  "url": "https://news.ycombinator.com/item?id=50341174",
+  "quote": "Astra can read and write weights to improve Qwen",
+  "sourceType": "Social",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-29",
+  "claim": "A top HN commenter who works in weight-space learning says the post overstates the results, citing prior weight-editing work such as ROME and calling the Qwen fix basically a steering vector.",
+  "url": "https://news.ycombinator.com/item?id=50347685",
+  "quote": "For Qwen, the model fixed a looping bug that may have been known apriori, and it is basically a steering vector, a very established technique.",
+  "sourceType": "Social",
+  "date": "2026-11-03"
+ },
+ {
+  "id": "inv-30",
+  "claim": "Several HN commenters suspect OpenAI trained Astra on weight-space or interpretability data, rather than the skill emerging on its own; this is speculation.",
+  "url": "https://news.ycombinator.com/item?id=50342657",
+  "quote": "I don't think this is an emergent capability. I think Astra was trained on neural weights data as an attempt by OpenAI to get to recursive self improvement.",
+  "sourceType": "Social",
+  "date": "2026-11-02"
+ },
+ {
+  "id": "inv-31",
+  "claim": "Prior art for editing model weights directly: ROME, 'Locating and Editing Factual Associations in GPT' (2022).",
+  "url": "https://arxiv.org/abs/2202.05262",
+  "quote": "Locating and Editing Factual Associations in GPT",
+  "sourceType": "Paper",
+  "date": "2022-02-10"
+ }
+]

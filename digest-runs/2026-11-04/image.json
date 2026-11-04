@@ -1,0 +1,10 @@
+{"hero":{"src":"/images/eureka/2026-11-04-anthropic-provable-ai-inference/bronze-padlock-provable-ai-inference.webp","width":1200,"height":875,
+"alt":"Medieval bronze padlock with an arched shackle, a symbol for provable AI inference and verifying which model answered",
+"caption":"A padlock stands in for the idea of provable inference: a check that the model that answered is the one you asked for.",
+"credit":{"title":"Padlock (probably 11th century, Islamic Art)","author":"The Metropolitan Museum of Art","authorUrl":"https://www.metmuseum.org/","license":"CC0 1.0 (Met Open Access, public domain)","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceName":"The Metropolitan Museum of Art Open Access","sourceUrl":"https://www.metmuseum.org/art/collection/search/448731","modified":"Converted to WebP"}},
+"tried":[
+{"source":"StockSnap (Openverse)","query":"padlock, lock, key","result":"rejected: only 960 px thumbnails reachable, full file returns 403"},
+{"source":"WordPress Photo Directory","query":"lock, key","result":"rejected: used by two of the last four issues, including the previous one (rotation)"},
+{"source":"Nappy","query":"lock, key, padlock","result":"rejected: no results"},
+{"source":"Rawpixel (Openverse)","query":"padlock, seal stamp, lock key","result":"rejected: inspected 1300 px file, rawpixel watermark visible"},
+{"source":"The Metropolitan Museum of Art Open Access","query":"padlock","result":"chosen: object 448731, public domain, 1200x875, inspected, clean, no watermark, no people"}]}
