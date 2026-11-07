@@ -1,0 +1,11 @@
+{"hero":{"src":"/images/eureka/2026-11-07-inkling-2-small-594b-parameters-open-weights/inkling-2-small-data-center-server-racks.webp","width":1600,"height":1067,
+"alt":"Server racks and blue network cables in a data center, the hardware behind large models like Inkling 2 Small",
+"caption":"A 594-billion-parameter model such as Inkling 2 Small runs on racks of servers like these.",
+"credit":{"title":"Datacenter Server Racks (Real Estate)","author":"Carl Lender","authorUrl":"https://www.flickr.com/people/43547797@N00","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0/","sourceName":"Wikimedia Commons (from Flickr)","sourceUrl":"https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg","modified":"Resized and converted to WebP"}},
+"tried":[
+{"source":"StockSnap (via Openverse)","query":"circuit board; server; computer chip processor","result":"rejected: relevant CC0 candidates found, but the CDN returned 403 (bot protection) for full-size files and the API only lists 960 px thumbnails; not worked around"},
+{"source":"WordPress Photo Directory","query":"server rack data center; circuit board","result":"rejected: used by the 2026-10-31 issue (rotation); no server results, only generic circuit boards"},
+{"source":"Nappy","query":"server rack data center; circuit board","result":"rejected: no results"},
+{"source":"Rawpixel","query":"circuit board; computer; server","result":"rejected: only 1024 px editor previews accessible (under 1200 px); larger variant not available"},
+{"source":"Unsplash/Pexels/Pixabay","query":"-","result":"skipped: no API keys set"},
+{"source":"Wikimedia Commons","query":"server rack data center","result":"chosen: Datacenter Server Racks by Carl Lender, CC BY 2.0; inspected final WebP, no faces, logos or watermarks"}]}

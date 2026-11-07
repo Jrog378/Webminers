@@ -1,0 +1,15 @@
+{
+  "keywords": {
+    "primary": "Inkling 2 Small",
+    "secondary": ["Thinking Machines open weights", "LoCo reasoning compression", "shorter chain of thought", "Linum P-JiT 21K", "text-to-image model $21K"]
+  },
+  "title": "Inkling 2 Small at 594B Parameters | Eureka Reports Nov 7",
+  "description": "Thinking Machines says Inkling 2 Small scores 31 on Artificial Analysis; weights due next week. Plus LoCo's shorter reasoning and a $21K image model.",
+  "slug": "2026-11-07-inkling-2-small-594b-parameters-open-weights",
+  "faq": "none added; no verified People Also Ask questions found",
+  "changes": [
+    "Sixty bullet 2: 'its LoCo method' -> 'its LoCo fine-tuning method' so the sentence stands alone",
+    "image.json hero alt shortened from about 150 to about 110 chars, keyword Inkling 2 Small kept once, dropped 'patch panels' and '594B ... needs' detail; caption and descriptive filename unchanged",
+    "Verified without change: title 57 chars and unique vs recent issues; description about 149 chars and leads with the finding; slug 55 chars; H2s name specific topics; each deep dive opens with a direct answer; '$21K of compute' wording kept"
+  ]
+}

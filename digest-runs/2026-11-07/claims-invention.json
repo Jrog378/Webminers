@@ -1,0 +1,266 @@
+[
+  {
+    "id": "inv-01",
+    "claim": "Linum published the P-JiT 21K post on November 4, 2026, by Sahil and Manu Chopra.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "Training a Text-to-Image Model for $21K",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-02",
+    "claim": "Linum describes itself as a two-person lab training its own video models from scratch.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "We're a 2-person research lab training our own generative video models entirely from scratch.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-03",
+    "claim": "The model is released under Apache 2.0 as a research release.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "Research release · Apache 2.0",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-04",
+    "claim": "Linum reports a total compute cost of $21,038 across 8,415 H100-hours, priced at $2.50 per H100-hour (company-reported).",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "8,415 H100-hours pretraining on 64 H100s, restarts included priced at $2.50 per H100-hour",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-05",
+    "claim": "Pretraining cost $20,348 (8,139 H100-hours); post-training cost $690 (276 H100-hours), per Linum.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "Pretraining $ 20,348 8,139 H100-hours × $2.50 610M samples at 512², then 50M at 1024² Post-training $ 690 276 H100-hours × $2.50",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-06",
+    "claim": "Linum says the run is a proof of concept toward its next video model, not the end product.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "For us, this $21K training run is a proof-of-concept along the way to our next video model.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-07",
+    "claim": "P-JiT uses 32x32 token reduction versus the 16x16 common in models like FLUX-2, which Linum says gives a 4x smaller attention context (company-reported).",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "Linum v2 used a 16×16 token reduction like most models (e.g. FLUX-2). P-JiT enables 32×32 token reduction. This implies a 4× reduction in attention context-window.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-08",
+    "claim": "Linum says P-JiT converges in 11x fewer samples than its previous model Linum v2 (company-reported, vs own baseline).",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "It's a pixel-space model that converges in 11× fewer samples than Linum v2 with 4× more aggressive token reduction",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-09",
+    "claim": "The 11x figure is 11.3x fewer training samples to reach Linum v2's FD-DINOv2 score, measured on the earlier P-JiT checkpoint.",
+    "url": "https://www.linum.ai/field-notes/pyramid-jit",
+    "quote": "It reaches Linum v2's FD-DINOv2 on 11.3× fewer training samples.",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "inv-10",
+    "claim": "On the earlier P-JiT checkpoint, Linum's own prompt-following benchmarks favored its older Linum v2 model.",
+    "url": "https://www.linum.ai/field-notes/pyramid-jit",
+    "quote": "Surprisingly, Linum v2 beats pixel-space models in prompt-following benchmarks",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "inv-11",
+    "claim": "Linum v2 scored 0.80 on GenEval counting vs 0.56 for P-JiT (earlier checkpoint).",
+    "url": "https://www.linum.ai/field-notes/pyramid-jit",
+    "quote": "It turns out Linum v2 scores 0.80 on counting (e.g., getting exactly three apples in an image) while P-JiT scores 0.56",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "inv-12",
+    "claim": "The model has 2.18B parameters at sampling; training-only heads add about 0.24B.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "2.18B params at sampling · purple heads are training-only and add ~0.24B, for ~2.42B in training",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-13",
+    "claim": "The text encoder is a frozen Qwen3.5-4B model.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "The text representation comes from a frozen Qwen3.5-4B model, which we read at layers 7, 15 and 27",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-14",
+    "claim": "Pretraining ran on 64 H100 GPUs across 8 nodes.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "64× H100 (8 nodes) · bf16 · FSDP2 · 32 images per GPU",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-15",
+    "claim": "Post-training used a variant of Finite Difference Flow Optimization (FDFO) with JEV-Image and human judges.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "For post-training, we used a variant of Finite Difference Flow Optimization (FDFO) with JEV-Image and human-in-the-loop judges.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-16",
+    "claim": "The model cannot render text because text-heavy images were deliberately filtered out.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "This model was not trained with images of rendered text (no infographics, PDFs, pages of books, PowerPoint slides), so it cannot write text or generate posters.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-17",
+    "claim": "Linum says the model struggles with full bodies, many entities, multi-person interactions and world knowledge.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "there are a few areas where the model struggles: full body, many entities (e.g. 6 cars, crowds), multi-person interactions, and world knowledge.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-18",
+    "claim": "Linum suggests a larger (e.g. 7B) model and more post-training would likely help.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "Training a larger model (e.g. 7B parameters) and further post-training would likely mitigate these issues.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-19",
+    "claim": "Linum calls it an experimental research artifact, not a production model.",
+    "url": "https://huggingface.co/Linum-AI/pjit-21k",
+    "quote": "Research checkpoint: this is an experimental research artifact, not a production model.",
+    "sourceType": "Official",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "inv-20",
+    "claim": "Short prompts give worse images; by default the code rewrites prompts using Claude Opus 5.5 via OpenRouter, requiring an API key.",
+    "url": "https://github.com/Linum-AI/pjit-21k",
+    "quote": "short prompts give noticeably worse images. So by default `generate.py` first rewrites your prompt into a caption of that kind with Claude Opus 5.5 through [OpenRouter](https://openrouter.ai), which needs an OpenRouter API key",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-21",
+    "claim": "Running the model needs a CUDA GPU; weights are 8.7 GB fp32 plus an 8 GB text encoder.",
+    "url": "https://github.com/Linum-AI/pjit-21k",
+    "quote": "The model needs a CUDA GPU: its weights are 8.7 GB in fp32 and the text encoder 8 GB in bf16,",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-22",
+    "claim": "The GitHub repo and model card were written by Claude Opus 5.5 from Linum's internal repo, per Linum.",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "quote": "The Huggingface Model Card and Github Repo were written automatically by Claude Opus 5.5.",
+    "sourceType": "Official",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-23",
+    "claim": "Linum's data pipeline filtered tens of billions of images and videos; sources are not named.",
+    "url": "https://www.linum.ai/field-notes/data-filtering-gen-video",
+    "quote": "We need to filter down tens of billions of images and videos to create our pre-training dataset.",
+    "sourceType": "Official",
+    "date": "2026-08-26"
+  },
+  {
+    "id": "inv-24",
+    "claim": "Linum is aiming for a 10x improvement in speed and cost for its next video model, Linum v3.",
+    "url": "https://www.linum.ai/field-notes/pyramid-jit",
+    "quote": "So, we're aiming for a 10× improvement in speed and cost for our next model.",
+    "sourceType": "Official",
+    "date": "2026-10-06"
+  },
+  {
+    "id": "inv-25",
+    "claim": "The founder's Show HN post describes the run as ~$20K on 660M samples, released as Apache 2.0 open weights.",
+    "url": "https://news.ycombinator.com/item?id=50368208",
+    "quote": "Specifically, we trained it for ~$20K on 660M samples.",
+    "sourceType": "Social",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "inv-26",
+    "claim": "HN commenters asked where the training data came from.",
+    "url": "https://news.ycombinator.com/item?id=50368208",
+    "quote": "What open source datasets did you use? Or did you pirate like the big labs ?",
+    "sourceType": "Social",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "inv-27",
+    "claim": "An HN commenter questioned how much cherry-picking went into the showcase gallery.",
+    "url": "https://news.ycombinator.com/item?id=50368208",
+    "quote": "Looking at the failures, I wonder how much cherry picking went into the showcase.",
+    "sourceType": "Social",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "inv-28",
+    "claim": "An HN commenter said the model shows typical text-to-image flaws: over-smoothing, shine, mangled limbs.",
+    "url": "https://news.ycombinator.com/item?id=50368208",
+    "quote": "Over smoothing, lots of uncanney shine, mangled limbs and such.",
+    "sourceType": "Social",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "inv-29",
+    "claim": "An HN commenter noted almost every hand in the samples is wrong.",
+    "url": "https://news.ycombinator.com/item?id=50368208",
+    "quote": "It looks really good! Except almost every hand is wrong.",
+    "sourceType": "Social",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "inv-30",
+    "claim": "JiT (Li & He, 2025) showed large-patch pixel Transformers can be strong generative models without a tokenizer; P-JiT builds on this.",
+    "url": "https://arxiv.org/abs/2511.13720",
+    "quote": "We show that simple, large-patch Transformers on pixels can be strong generative models: using no tokenizer, no pre-training, and no extra loss.",
+    "sourceType": "Paper",
+    "date": "2025-11-17"
+  },
+  {
+    "id": "inv-31",
+    "claim": "PixArt-alpha (2023) reported a ~$26,000 training cost vs $320,000 for Stable Diffusion v1.5, so low-cost T2I training predates Linum.",
+    "url": "https://arxiv.org/abs/2310.00426",
+    "quote": "saving nearly \\$300,000 (\\$26,000 vs. \\$320,000)",
+    "sourceType": "Paper",
+    "date": "2023-09-30"
+  },
+  {
+    "id": "inv-32",
+    "claim": "Sony's MicroDiT paper (2024) trained a 1.16B text-to-image model for $1,890.",
+    "url": "https://arxiv.org/abs/2407.15811",
+    "quote": "we train a 1.16 billion parameter sparse transformer with only \\$1,890 economical cost",
+    "sourceType": "Paper",
+    "date": "2024-07-22"
+  },
+  {
+    "id": "inv-33",
+    "claim": "FDFO, the post-training method Linum adapted, is a March 2026 arXiv paper.",
+    "url": "https://arxiv.org/abs/2603.12893",
+    "quote": "Finite Difference Flow Optimization for RL Post-Training of Text-to-Image Models",
+    "sourceType": "Paper",
+    "date": "2026-03-13"
+  }
+]

@@ -1,0 +1,198 @@
+{
+ "section": "invention",
+ "window": "Wed Nov 4 - Fri Nov 6, 2026",
+ "sourcesTried": [
+  {
+   "name": "HN Algolia Show HN",
+   "status": "ok"
+  },
+  {
+   "name": "HN Algolia story search",
+   "status": "ok"
+  },
+  {
+   "name": "GitHub search API (topic:ai, new repos)",
+   "status": "ok; results polluted by duplicate ai-manus forks, ignored"
+  },
+  {
+   "name": "Lobsters ai RSS",
+   "status": "ok; nothing new in window"
+  },
+  {
+   "name": "Product Hunt feed",
+   "status": "ok; titles only, no usable AI invention with primary source/signal checked"
+  },
+  {
+   "name": "Reddit RSS / Wikipedia pageviews",
+   "status": "not tried"
+  }
+ ],
+ "excludedPolitical": [
+  {
+   "title": "EU member states approve AI data measure (noyb)",
+   "reason": "political/legislative and geographic; also outside window"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Linum P-JiT: a text-to-image model trained for about $21K, Apache 2.0 weights",
+   "summary": "Two-person lab releases a 2B-parameter pixel-space text-to-image model (Pyramid-JiT) trained on 660M samples for roughly $21K compute; code and weights open.",
+   "primaryUrl": "https://www.linum.ai/field-notes/pjit-21k",
+   "date": "2026-11-04",
+   "signal": "HN 270 pts, 29 comments: https://news.ycombinator.com/item?id=50368208",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false,
+   "notes": "Company-reported; check limitations section and sample quality independently."
+  },
+  {
+   "title": "Stroq: local audit of what your coding agent did and why",
+   "summary": "Open-source tool that records and audits coding-agent actions locally.",
+   "primaryUrl": "https://github.com/AGGIB/Stroq",
+   "date": "2026-11-05",
+   "signal": "HN 89 pts, 34 comments: https://news.ycombinator.com/item?id=50380704",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Not yet verified beyond HN listing; read README before selecting."
+  },
+  {
+   "title": "Rivet: scale and orchestrate agents on S3 (Launch HN)",
+   "summary": "Open-source runtime for orchestrating AI agents backed by S3 storage; YC W23 company launch.",
+   "primaryUrl": "https://github.com/rivet-dev/rivet",
+   "date": "2026-11-05",
+   "signal": "HN 118 pts, 58 comments: https://news.ycombinator.com/item?id=50381687",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false,
+   "notes": "Company launch post; borderline promotional, needs honest caveat."
+  },
+  {
+   "title": "WebsiteBench: can AI agents rebuild websites through browser exploration?",
+   "summary": "TIGER-AI-Lab benchmark repo where agents re-create websites by exploring them in a browser.",
+   "primaryUrl": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+   "date": "2026-11-04",
+   "signal": "GitHub 84 stars (new repo)",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Benchmark more than invention; may fit research section."
+  },
+  {
+   "title": "CloneGuard: scan a repo for credential-stealing tricks before it runs",
+   "summary": "CLI that flags malicious tricks in cloned repos, relevant to agent-run code.",
+   "primaryUrl": "https://github.com/tharun208/cloneguard",
+   "date": "2026-11-06",
+   "signal": "HN 27 pts, 7 comments: https://news.ycombinator.com/item?id=50397435",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": false,
+   "notes": "Small signal."
+  },
+  {
+   "title": "Sparks of Weight-Space Programming (LLMs read and write network weights)",
+   "summary": "Blog post on LLMs natively reading and writing neural network weights.",
+   "primaryUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "date": "2026-11-02",
+   "signal": "Lobsters ai tag",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 13,
+   "coveredLast8Weeks": true,
+   "notes": "Outside window (Nov 2) and already covered 2026-11-04."
+  },
+  {
+   "title": "BlendClone: turn a reference video into an editable Blender project",
+   "summary": "AI scene analysis plus a declarative compiler produce an editable Blender scene from video.",
+   "primaryUrl": "https://github.com/blixvip/BlendClone",
+   "date": "2026-11-05",
+   "signal": "GitHub 65 stars",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 4
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": "Unverified account and very new; check claims by reading code."
+  },
+  {
+   "title": "Gauge: open-source CLI to recursively improve your docs",
+   "summary": "CLI that iteratively improves documentation using AI.",
+   "primaryUrl": "https://github.com/gauge-sh/gauge-cli",
+   "date": "2026-11-04",
+   "signal": "HN 42 pts, 10 comments: https://news.ycombinator.com/item?id=50371090",
+   "scores": {
+    "novelty": 3,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 12,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  },
+  {
+   "title": "Codemap: one-page interactive map of any Go repository",
+   "summary": "Generates an interactive one-page map of a codebase.",
+   "primaryUrl": "https://github.com/peterretief/codemap",
+   "date": "2026-11-04",
+   "signal": "HN 44 pts, 23 comments: https://news.ycombinator.com/item?id=50366811",
+   "scores": {
+    "novelty": 2,
+    "momentum": 2,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 11,
+   "coveredLast8Weeks": false,
+   "notes": "Likely not AI-centered."
+  },
+  {
+   "title": "GPUWorks: 40 MB GPU cluster manager for vLLM/SGLang, no Kubernetes",
+   "summary": "Lightweight manager for running LLM serving across GPUs.",
+   "primaryUrl": "https://github.com/flitai-io/gpuworks",
+   "date": "2026-11-04",
+   "signal": "HN 30 pts, 4 comments: https://news.ycombinator.com/item?id=50367630",
+   "scores": {
+    "novelty": 2,
+    "momentum": 1,
+    "significance": 2,
+    "primarySource": 5
+   },
+   "total": 10,
+   "coveredLast8Weeks": false,
+   "notes": ""
+  }
+ ]
+}

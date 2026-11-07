@@ -1,0 +1,169 @@
+{
+ "results": [
+  {
+   "id": "news-01",
+   "sentence": "initially available through its own Tinker platform, with closed weights",
+   "verdict": "pass",
+   "evidence": "Page: 'will initially be available through Tinker, with closed weights'.",
+   "fix": null
+  },
+  {
+   "id": "news-40",
+   "sentence": "Techstrong, citing AA: $0.20 for Inkling Small; ~4x output tokens",
+   "verdict": "pass",
+   "evidence": "Techstrong quotes both; correctly attributed as relayed.",
+   "fix": null
+  },
+  {
+   "id": "news-36",
+   "sentence": "Decoder: hallucination 61%->27%; quote; 77%->53%",
+   "verdict": "pass",
+   "evidence": "Now attributed to The Decoder; confirmed.",
+   "fix": null
+  },
+  {
+   "id": "news-17",
+   "sentence": "Midway through the main RL run, monitor flagged network-block workaround; paused run",
+   "verdict": "pass",
+   "evidence": "Page: 'Midway through the main RL run, our asynchronous monitor flagged an instance where the model, failing at a task, worked around a network block through a third-party service it could reach using its search tools. We paused the run, hardened our infrastructure, removed environments that required web access, and added synchronous tool-call monitoring.' Both 'using its search tools' and 'hardened our infrastructure' are on the page and may be restored.",
+   "fix": "Restore 'it could reach using its search tools' and 'hardened our infrastructure' (quote or paraphrase)."
+  },
+  {
+   "id": "r2/r6",
+   "sentence": "LoCo cut math answers by 41.7% to 45.4% while maintaining or improving accuracy",
+   "verdict": "pass",
+   "evidence": "Abstract wording.",
+   "fix": null
+  },
+  {
+   "id": "r11/r2",
+   "sentence": "Whole-solution 5.2%-15.8% vs LoCo 41.7%-45.4%",
+   "verdict": "pass",
+   "evidence": "Matches ablation table.",
+   "fix": null
+  },
+  {
+   "id": "r12",
+   "sentence": "Random/even cuts scored below LoCo on all three benchmarks",
+   "verdict": "pass",
+   "evidence": "Confirmed in round 1.",
+   "fix": null
+  },
+  {
+   "id": "r16",
+   "sentence": "LoCo-7B MIT on HF",
+   "verdict": "pass",
+   "evidence": "License mit; model page URL now used (not re-fetched, API confirmed).",
+   "fix": null
+  },
+  {
+   "id": "r8",
+   "sentence": "54.17 \u00b1 4.27 vs 50.83 \u00b1 6.61; 'small next to the spread the paper's own table reports'",
+   "verdict": "pass",
+   "evidence": "Values in table; \u00b1 undefined in text; revised phrasing does not assert error bars. 'Spread' is mild interpretation.",
+   "fix": null
+  },
+  {
+   "id": "r17",
+   "sentence": "most RL approaches 'prone to overfitting, especially on small-scale benchmarks like AIME'24'",
+   "verdict": "pass",
+   "evidence": "Matches abstract.",
+   "fix": null
+  },
+  {
+   "id": "r7/r19",
+   "sentence": "needs checkable answers + 30B judge; LoCo does not cite STACK",
+   "verdict": "pass",
+   "evidence": "Confirmed round 1 (no STACK in refs).",
+   "fix": null
+  },
+  {
+   "id": "inv-04/05",
+   "sentence": "whole release about $21,000 of compute; 8,139 pretraining + 276 post-training = 8,415 H100-h at $2.50; table $21,038",
+   "verdict": "pass",
+   "evidence": "Page: 'The whole release cost about $21K of compute'; pretraining 'restarts included' $20,348 + post-training $690. Note 8,139 vs 8,415 hours arithmetic: 8,139+276=8,415 correct.",
+   "fix": null
+  },
+  {
+   "id": "inv-13",
+   "sentence": "Frozen Qwen3.5-4B encoder used as is",
+   "verdict": "pass",
+   "evidence": "Page: 'a frozen Qwen3.5-4B'.",
+   "fix": null
+  },
+  {
+   "id": "inv-09/11",
+   "sentence": "P-JiT matched v2 final FD-DINOv2 in 11.3x fewer samples; counting 0.80 vs 0.56 upsampled; 0.45 vs 0.30 raw",
+   "verdict": "pass",
+   "evidence": "11.3x and 0.80/0.56 confirmed; P-JiT raw counting 0.30 confirmed in table; v2 raw 0.45 from round 1 read. FD-DINOv2 gloss 'how close generated images are to real ones as a group' is a fair paraphrase of 'distributional metric'.",
+   "fix": null
+  },
+  {
+   "id": "inv-10",
+   "sentence": "from October post, before convergence; only vs Linum's own models",
+   "verdict": "pass",
+   "evidence": "Page says still undertrained, will train to convergence; comparisons only to Linum models.",
+   "fix": null
+  },
+  {
+   "id": "inv-29/27",
+   "sentence": "'almost every hand is wrong' (mkl); another thought fingers looked right; cherry-picking (micw)",
+   "verdict": "fix",
+   "evidence": "Verified in HN thread: micw wrote 'Even the average number of fingers seems to be correct ;-)' and the cherry-picking line; mkl the hands line. Note: the fingers and cherry-picking comments are the same commenter (micw), so 'a third wondered' is wrong: it is the same person as 'another'.",
+   "fix": "Change 'a third wondered' to 'and the same commenter wondered' (micw wrote both the fingers and the cherry-picking comments)."
+  },
+  {
+   "id": "inv-21",
+   "sentence": "8.7 GB fp32 weights, 8 GB bf16 encoder",
+   "verdict": "pass",
+   "evidence": "Repo confirmed.",
+   "fix": null
+  },
+  {
+   "id": "--no_upsample",
+   "sentence": "flag switches off prompt rewrite",
+   "verdict": "pass",
+   "evidence": "Repo confirmed.",
+   "fix": null
+  },
+  {
+   "id": "19",
+   "sentence": "MicroDiT (Sony, 2024)",
+   "verdict": "pass",
+   "evidence": "PDF header: authors at Sony AI (Sehwag, Kong, Li, Spranger, Lyu) plus UC Riverside for one. 'Sony' acceptable; 'Sony AI' more exact.",
+   "fix": "Optional: 'Sony AI'."
+  },
+  {
+   "id": "headline",
+   "sentence": "Up to 45% less thinking",
+   "verdict": "pass",
+   "evidence": "Max 45.4% on AIME 2024 tokens; 'up to' fits but this is tokens in math tests, per authors.",
+   "fix": null
+  },
+  {
+   "id": "headline",
+   "sentence": "$21K in rented GPUs",
+   "verdict": "fix",
+   "evidence": "Linum says '$21K in compute' and prices at $2.50 per H100-hour; the page does not say the GPUs were rented. Use '$21K of compute'. Dek already says 'of compute'; section heading and description still say 'rented'/'$21K image model'.",
+   "fix": "Heading: '$21K of compute: Linum's open P-JiT image model'."
+  }
+ ],
+ "counts": {
+  "round1_results": 46,
+  "round1": {
+   "pass": 38,
+   "fix": 7,
+   "cut": 1
+  },
+  "round2": {
+   "pass": 19,
+   "fix": 2
+  },
+  "combined": {
+   "pass": 57,
+   "fix": 9,
+   "cut": 1,
+   "total": 67
+  }
+ }
+}

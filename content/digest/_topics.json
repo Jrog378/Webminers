@@ -187,5 +187,26 @@
     "title": "Sparks of Weight-Space Programming: frontier LLMs can read and write neural network weights",
     "primaryUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
     "slug": "2026-11-04-anthropic-provable-ai-inference"
+  },
+  {
+    "date": "2026-11-07",
+    "section": "news",
+    "title": "Thinking Machines Lab releases Inkling 2 Small",
+    "primaryUrl": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "slug": "2026-11-07-inkling-2-small-594b-parameters-open-weights"
+  },
+  {
+    "date": "2026-11-07",
+    "section": "research",
+    "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+    "primaryUrl": "https://arxiv.org/abs/2611.04814",
+    "slug": "2026-11-07-inkling-2-small-594b-parameters-open-weights"
+  },
+  {
+    "date": "2026-11-07",
+    "section": "invention",
+    "title": "Linum P-JiT: a text-to-image model trained for about $21K, Apache 2.0 weights",
+    "primaryUrl": "https://www.linum.ai/field-notes/pjit-21k",
+    "slug": "2026-11-07-inkling-2-small-594b-parameters-open-weights"
   }
 ]

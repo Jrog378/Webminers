@@ -1,0 +1,168 @@
+{
+ "section": "research",
+ "window": "Wed Nov 4 - Fri Nov 6, 2026",
+ "sourcesTried": [
+  {
+   "name": "Hugging Face Daily Papers (Nov 4,5,6)",
+   "status": "ok"
+  },
+  {
+   "name": "arXiv API / bioRxiv / OpenAlex / RSS / HN / Reddit",
+   "status": "not queried (HF feed sufficed)"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+   "summary": "Benchmarks ten frontier vision-language models as robot generalists in an Embodied Agent Arena.",
+   "primaryUrl": "https://arxiv.org/abs/2610.00854",
+   "date": "2026-11-04",
+   "signal": "HF Daily Papers upvotes 105, comments 2; https://huggingface.co/papers/2610.00854",
+   "scores": {
+    "novelty": 4,
+    "momentum": 5,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 18,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+   "summary": "Local preference learning trims long chain-of-thought so reasoning models stop deliberating once they have enough information.",
+   "primaryUrl": "https://arxiv.org/abs/2611.04814",
+   "date": "2026-11-04",
+   "signal": "HF Daily Papers upvotes 60, comments 7; https://huggingface.co/papers/2611.04814",
+   "scores": {
+    "novelty": 4,
+    "momentum": 4,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 17,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+   "summary": "Analyzes what multi-turn reinforcement learning actually improves in LLM agents (Pass@(K,T) study).",
+   "primaryUrl": "https://arxiv.org/abs/2611.06483",
+   "date": "2026-11-05",
+   "signal": "HF Daily Papers upvotes 35, comments 3; https://huggingface.co/papers/2611.06483",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "summary": "FrontierPhysics benchmark tests agents on end-to-end physics research rather than fixed questions.",
+   "primaryUrl": "https://arxiv.org/abs/2611.06910",
+   "date": "2026-11-05",
+   "signal": "HF Daily Papers upvotes 55, comments 0; https://huggingface.co/papers/2611.06910",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 4,
+    "primarySource": 5
+   },
+   "total": 16,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+   "summary": "BestRand: random subsets nearly match learned methods for cheap, stable benchmark compression.",
+   "primaryUrl": "https://arxiv.org/abs/2611.00883",
+   "date": "2026-11-06",
+   "signal": "HF Daily Papers upvotes 50, comments 2; https://huggingface.co/papers/2611.00883",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+   "summary": "Study of model and policy routing across many models for general-purpose AI systems.",
+   "primaryUrl": "https://arxiv.org/abs/2611.05275",
+   "date": "2026-11-04",
+   "signal": "HF Daily Papers upvotes 86, comments 2; https://huggingface.co/papers/2611.05275",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+   "summary": "Turn-level credit assignment for reinforcement learning on streaming video understanding.",
+   "primaryUrl": "https://arxiv.org/abs/2611.06728",
+   "date": "2026-11-05",
+   "signal": "HF Daily Papers upvotes 87, comments 1; https://huggingface.co/papers/2611.06728",
+   "scores": {
+    "novelty": 3,
+    "momentum": 4,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+   "summary": "A coding agent replaces the human teleoperator to collect robot demonstration data cheaply.",
+   "primaryUrl": "https://arxiv.org/abs/2611.05320",
+   "date": "2026-11-05",
+   "signal": "HF Daily Papers upvotes 26, comments 3; https://huggingface.co/papers/2611.05320",
+   "scores": {
+    "novelty": 4,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 15,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+   "summary": "Halley: predictive control plane for optical networks in AI data centers training frontier models.",
+   "primaryUrl": "https://arxiv.org/abs/2611.04408",
+   "date": "2026-11-05",
+   "signal": "HF Daily Papers upvotes 38, comments 2; https://huggingface.co/papers/2611.04408",
+   "scores": {
+    "novelty": 4,
+    "momentum": 2,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false
+  },
+  {
+   "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+   "summary": "Axion 1.0: fully open agent foundation model trained in three simple stages.",
+   "primaryUrl": "https://arxiv.org/abs/2611.03233",
+   "date": "2026-11-04",
+   "signal": "HF Daily Papers upvotes 48, comments 3; https://huggingface.co/papers/2611.03233",
+   "scores": {
+    "novelty": 3,
+    "momentum": 3,
+    "significance": 3,
+    "primarySource": 5
+   },
+   "total": 14,
+   "coveredLast8Weeks": false
+  }
+ ],
+ "excludedPolitical": [],
+ "notes": "Skipped WeLM-Image (WeChat product name, borderline). Checked _topics.json: no overlap with last 8 weeks."
+}
