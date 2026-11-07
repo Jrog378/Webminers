@@ -1,0 +1,29 @@
+{
+  "featureType": "this-week",
+  "coverage": "The week of November 1-7, 2026 (Bible Loop public launch announced November 4, 2026)",
+  "feature": {
+    "title": "Bible Loop: YouVersion and OneHope build a Scripture app just for teens",
+    "primaryUrl": "https://www.prnewswire.com/news-releases/new-bible-loop-app-gives-teens-a-reason-to-slow-down-with-gods-word-302928814.html",
+    "organization": "YouVersion (Life.Church) and OneHope",
+    "why": "A free, purpose-built Bible app aimed at the age when Bible habits tend to slip. OneHope's research, quoted in the release, shows weekly engagement falling from 88% at ages 6-9 to 73% at ages 10-12. The app tries to build daily rhythms through verse memorization games, prayers, mood-matched devotional check-ins and lessons from partner ministries. Material new development versus the 2026-10-11 YouVersion topic, which covered search data, not this product. Editorial caveats: (1) the app appears to have been listed in stores before the official launch (faith.tools listing checked 2026-10-22), so describe November 4 as the official launch, not first availability; (2) a '1 million installs' headline (Christianity Daily) is unconfirmed by YouVersion and is based on third-party tracker counts, so do not state it as fact; (3) the release itself says Bible Loop was shaped for 'preteens' in one quote and 'teens' elsewhere, so describe the audience as young teens and preteens.",
+    "relatedUrls": [
+      "https://www.youversion.com/bible-loop",
+      "https://faith.tools/app/11153-bible-loop",
+      "https://onehope.net"
+    ]
+  },
+  "alsoEncouraging": [
+    {
+      "title": "Ministries use animation and apps to bring Scripture to Deaf people in sign language",
+      "url": "https://ministrywatch.com/sign-language-the-final-gospel-frontier/",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Global Bible Month returns with a 30-Day Bible Challenge in the Bible App",
+      "url": "https://open.life.church/bible",
+      "date": "2026-11-01"
+    }
+  ],
+  "wisdomConcern": "Gamifying Scripture for teens: a verse-memory game and leaderboard can build habits, but streaks and points can turn time with God into a score. Also, any app that collects profiles from minors needs clear parent-facing privacy and data disclosures (a reviewer flagged this; confirm against the app's own privacy policy before stating it). Parents and youth leaders should use the app as a doorway into the Bible and into real community, not as a substitute.",
+  "reasonsEarlierTiersFailed": "Not applicable: Tier 1 produced a qualifying story (dated inside the window, primary source from the organization, substantive new product, not in topic memory). Tiers 2 and 3 were not searched."
+}

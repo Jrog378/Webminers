@@ -1,0 +1,21 @@
+{
+  "keywords": {
+    "primary": "Bible Loop app",
+    "secondary": ["Bible app for teens", "Bible app for preteens", "YouVersion Bible Loop", "verse memorization game", "Bible Loop privacy"]
+  },
+  "title": "What Is the Bible Loop App for Teens? | Coding with Christ",
+  "description": "Bible Loop, a free YouVersion and OneHope app for young teens, turns verse memory into a game. What it does, what it collects and what parents should know.",
+  "slug": "2026-11-08-bible-loop-app-teens-scripture",
+  "image": {
+    "alt": "A sunlit balcony table with a book and two chairs, a quiet spot to slow down with Bible Loop and Scripture reading",
+    "captionChanged": false,
+    "altChanged": false,
+    "note": "Alt is under 125 chars, describes the photo, uses the keyword once. Filename is descriptive. hero in draft frontmatter left null for the publisher."
+  },
+  "faq": "none added (no verified People Also Ask questions found)",
+  "changes": [
+    "title: 'Bible Loop: A Scripture App for Teens | Coding with Christ' -> 'What Is the Bible Loop App for Teens? | Coding with Christ' (question form, 58 chars, matches how people search)",
+    "description: rewritten to lead with the concrete finding (verse memory as a game) and name what it does, collects and what parents should know; about 155 chars",
+    "unchanged: H2s (already topic-specific), feature opening paragraph (already a direct answer), verse, sources, claims, editorsNote (null), hero (null)"
+  ]
+}

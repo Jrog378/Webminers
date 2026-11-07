@@ -1,0 +1,32 @@
+{
+ "chosen": {
+  "reference": "Psalms 119:9-11",
+  "text": "How can a young man keep his way pure? By living according to your word. With my whole heart, I have sought you. Don’t let me wander from your commandments. I have hidden your word in my heart, that I might not sin against you.",
+  "translation": "World English Bible",
+  "url": "https://bible-api.com/Psalms+119:9-11?translation=web"
+ },
+ "candidates": [
+  {
+   "reference": "Psalms 119:9-11",
+   "text": "How can a young man keep his way pure? By living according to your word. With my whole heart, I have sought you. Don’t let me wander from your commandments. I have hidden your word in my heart, that I might not sin against you.",
+   "url": "https://bible-api.com/Psalms+119:9-11?translation=web",
+   "context": "Psalm 119, a long acrostic psalm praising God's word, written by an unnamed psalmist for Israel's worship and instruction; this stanza asks specifically how the young can live well.",
+   "whyItFits": "Directly addresses young people, Scripture memory and wholehearted seeking, matching the app's verse-memorization focus for young teens. The 'whole heart' language also gently guards against treating memory as a score."
+  },
+  {
+   "reference": "Psalms 119:105",
+   "text": "Your word is a lamp to my feet, and a light for my path.",
+   "url": "https://bible-api.com/Psalms+119:105?translation=web",
+   "context": "Same psalm; a worshiper reflecting on Scripture as daily guidance for Israel's covenant community.",
+   "whyItFits": "Fits the idea of Scripture as everyday guidance and a doorway into life, but is a familiar verse and does not speak to youth or memorization specifically."
+  },
+  {
+   "reference": "Deuteronomy 6:6-7",
+   "text": "These words, which I command you today, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+   "url": "https://bible-api.com/Deuteronomy+6:6-7?translation=web",
+   "context": "Moses addressing Israel before entering the promised land; instruction on passing faith between generations.",
+   "whyItFits": "Speaks to daily rhythms and to family and community, supporting the caveat that the app should not replace real community. Addressed to parents more than teens, so a slightly less direct fit."
+  }
+ ],
+ "note": "All text from translation=web; no KJV fallback used."
+}

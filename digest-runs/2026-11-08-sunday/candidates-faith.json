@@ -1,0 +1,150 @@
+{
+  "weekStart": "2026-11-01",
+  "weekEnd": "2026-11-07",
+  "sourcesTried": [
+    {
+      "name": "Christianity Today RSS",
+      "status": "ok - 10 in-window items, none technology-centered (mostly politics, opinion, culture)"
+    },
+    {
+      "name": "Christian Post RSS",
+      "status": "ok - 30 in-window items, mostly politics, entertainment, culture; Bible Loop story found via Google News instead"
+    },
+    {
+      "name": "Google News RSS: Bible translation AI",
+      "status": "ok - nothing relevant in window"
+    },
+    {
+      "name": "Google News RSS: church technology",
+      "status": "ok - Subsplash giving release, parish AI flyers article, items about places/denominations rejected"
+    },
+    {
+      "name": "Google News RSS: missions AI",
+      "status": "ok - only military and space results, nothing relevant"
+    },
+    {
+      "name": "Google News RSS: ministry artificial intelligence",
+      "status": "ok - government ministries, out of scope"
+    },
+    {
+      "name": "Google News RSS: faith AI",
+      "status": "ok - church AI-policy survey coverage, Gloo AI interview, AI choir on a song, pope/AI events (rejected as place/event-centered)"
+    },
+    {
+      "name": "Google News RSS: Bible app",
+      "status": "ok - Bible Loop launch (several outlets), Global Bible Month, sign-language ministry tech"
+    },
+    {
+      "name": "Google News RSS: YouVersion",
+      "status": "ok - Bible Loop launch and Global Bible Month"
+    },
+    {
+      "name": "Google News RSS: Christian AI chatbot",
+      "status": "ok - mostly re-coverage of already-covered items (ChatGPT 70M faith prompts, Ask Ligonier)"
+    },
+    {
+      "name": "Google News RSS: sign language Bible",
+      "status": "ok - MinistryWatch sign-language feature (2026-11-04)"
+    },
+    {
+      "name": "Google News RSS: Wycliffe OR SIL OR illumiNations",
+      "status": "ok - noise only (stock tickers, holiday lights), no ministry news in window"
+    },
+    {
+      "name": "PR Newswire (YouVersion release)",
+      "status": "ok - primary source for Bible Loop, dated 2026-11-04"
+    },
+    {
+      "name": "youversion.com/bible-loop",
+      "status": "ok - product page live"
+    },
+    {
+      "name": "faith.tools Bible Loop listing",
+      "status": "ok - shows app listed before the official launch (domain check 2026-10-22)"
+    },
+    {
+      "name": "MinistryWatch",
+      "status": "ok - article readable"
+    },
+    {
+      "name": "learnofchrist.com Bible Loop review",
+      "status": "blocked - bot checkpoint (HTTP 429/Vercel), not used"
+    },
+    {
+      "name": "Christian Today (AI policy survey article)",
+      "status": "page fetched but body not extractable; not used"
+    },
+    {
+      "name": "Hacker News Algolia",
+      "status": "failed - HTTP 400 on query, not retried"
+    },
+    {
+      "name": "Reddit .rss (r/TrueChristian search)",
+      "status": "blocked - HTTP 403"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "this-week",
+      "window": "2026-11-01 to 2026-11-07",
+      "candidates": [
+        {
+          "title": "YouVersion and OneHope launch Bible Loop, a free Scripture app for teens",
+          "summary": "A new standalone app in the YouVersion family, built with OneHope, aimed at teens forming their own habits. It offers a verse-memory game with an anonymous leaderboard, Verse of the Day, Daily Prayers, upcoming Learning Loops lessons from partner ministries, and Daily Check-Ins that match devotional content to how a teen is feeling. Available on Android and iOS in English, Spanish, Portuguese and French, with Bible text in 50+ versions across 10 languages. OneHope research cited in the release says weekly Bible engagement drops from 88% at ages 6-9 to 73% at ages 10-12.",
+          "primaryUrl": "https://www.prnewswire.com/news-releases/new-bible-loop-app-gives-teens-a-reason-to-slow-down-with-gods-word-302928814.html",
+          "date": "2026-11-04",
+          "organization": "YouVersion (Life.Church) and OneHope",
+          "whyNotChosen": null
+        },
+        {
+          "title": "Sign language: the final gospel frontier",
+          "summary": "MinistryWatch feature on ministries using technology and multimedia to bring Scripture to Deaf people, including a planned natural sign-language animation of the Gospel of Luke (International Mission Board and RevelationMedia) designed to be re-animated into hundreds of sign languages, plus Deaf Missions' Deaf Bible and Deaf Church Where apps. Also notes transparency gaps among Deaf ministries.",
+          "primaryUrl": "https://ministrywatch.com/sign-language-the-final-gospel-frontier/",
+          "date": "2026-11-04",
+          "organization": "MinistryWatch (reporting on RevelationMedia, IMB, Deaf Missions, Deaf Bible Society)",
+          "whyNotChosen": "Strong and in scope, but it is a roundup feature on a long-running effort; the Luke animation is a plan, not a release. Used as also-encouraging."
+        },
+        {
+          "title": "Many churches lack AI policies despite pastors' support",
+          "summary": "Coverage of Barna/Pushpay church technology research: most pastors want guidelines for responsible AI use, few churches have them.",
+          "primaryUrl": "https://www.barna.com/research/church-leaders-ai-usage-concerns/",
+          "date": "2026-11-02 (coverage); underlying research earlier",
+          "organization": "Barna Group / Pushpay",
+          "whyNotChosen": "Underlying research predates the window and is about church administration policy rather than a tool that helps people draw closer to Christ; useful as wisdom-concern context only."
+        },
+        {
+          "title": "Gloo AI president: Christians called to shape AI toward human flourishing",
+          "summary": "Interview on values-aligned AI.",
+          "primaryUrl": "(Christian Daily, via Google News; direct URL not resolved)",
+          "date": "2026-11-06",
+          "organization": "Gloo",
+          "whyNotChosen": "Opinion/interview with no new product or development; primary article not reachable."
+        },
+        {
+          "title": "Global Bible Month 2026 and the 30-Day Bible Challenge",
+          "summary": "YouVersion's second annual November Bible-reading campaign.",
+          "primaryUrl": "https://open.life.church/bible",
+          "date": "2026-11-01",
+          "organization": "YouVersion",
+          "whyNotChosen": "Campaign kickoff, no results yet; overlaps the chosen YouVersion story. Used as also-encouraging."
+        },
+        {
+          "title": "Subsplash returns $8.4M to churches through GrowCurve",
+          "summary": "Church-software company rebate program.",
+          "primaryUrl": "(PR Newswire via Google News)",
+          "date": "2026-11-02",
+          "organization": "Subsplash",
+          "whyNotChosen": "Commercial/financial release; no link to helping people draw closer to Christ."
+        },
+        {
+          "title": "Experts see promise in AI for parish flyers but warn of misuse",
+          "summary": "Diocesan newspaper article on AI for parish communications.",
+          "primaryUrl": "(Detroit Catholic via Google News; direct URL not resolved)",
+          "date": "2026-11-05",
+          "organization": "Detroit Catholic",
+          "whyNotChosen": "Minor marketing use case; primary article not reachable."
+        }
+      ]
+    }
+  ]
+}
