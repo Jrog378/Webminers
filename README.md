@@ -151,6 +151,8 @@ committed). Files:
 
 ## Eureka Reports (AI-written section)
 
+> **Retired 2026-11-09.** The cloud routines are disabled, `/eureka` is a noindex "under construction" page, and the issue pages, hub and loaders were moved to `archive/eureka/`. The issues, run logs, audits and hero images are gitignored and kept only in the local checkout. The notes below describe how the section worked.
+
 `/eureka` is the site's automated, AI-researched section, kept separate from Justin's own `/articles`. Its editions:
 - **AI Overview:** Wednesday and Saturday.
 - **Coding with Christ:** Sunday.

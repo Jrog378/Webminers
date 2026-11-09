@@ -38,3 +38,12 @@ yarn-error.log*
 *firebase-adminsdk*.json
 serviceAccount*.json
 *.pem
+
+# Eureka Reports (retired 2026-11-09): the AI-written issues, run logs, audits and
+# hero images are kept locally only, never in the repo.
+/content/digest/
+/content/faith/
+/content/_images.json
+/digest-runs/
+/audits/
+/public/images/eureka/

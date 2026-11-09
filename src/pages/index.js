@@ -4,15 +4,10 @@ import Image from "next/image";
 import {Space_Grotesk} from "@next/font/google";
 import Details from "@/components/details";
 import Email from "@/components/email";
-import {getAllIssues} from "@/lib/digest";
 
 const Display = Space_Grotesk({subsets: ['latin'], weight: ['500', '600', '700']})
 
 const isAiArticle = (d) => d.url.includes('/ai-') || d.url.includes('-ai-') || d.url.endsWith('-ai')
-
-const formatDate = (iso) => new Date(iso).toLocaleDateString('en-US', {
-    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York',
-})
 
 function Arrow() {
     return <span aria-hidden="true" className="transition group-hover:translate-x-0.5">&rarr;</span>
@@ -54,53 +49,7 @@ function ArticleCard({article}) {
     )
 }
 
-function LatestReport({report}) {
-    return (
-        <article className="mx-auto w-full max-w-2xl overflow-hidden rounded-2xl border !border-border bg-raised text-left shadow-xl shadow-brand/10 lg:max-w-none">
-            {report.hero?.src && (
-                <Link href={`/eureka/${report.slug}`} tabIndex={-1} aria-hidden="true">
-                    <Image src={report.hero.src} width={report.hero.width} height={report.hero.height} alt=""
-                           sizes="(min-width: 1024px) 40vw, 100vw" className="h-36 w-full object-cover" priority/>
-                </Link>
-            )}
-            <div className="border-b-2 border-accent p-6">
-                <div className="flex items-center justify-between gap-3 text-sm">
-                    <p className="font-bold uppercase tracking-widest text-accent">Latest Eureka Report</p>
-                    {report.pending && (
-                        <span className="shrink-0 whitespace-nowrap rounded-full bg-amber-500/15 px-2.5 py-0.5 text-xs font-semibold text-fg">Needs review</span>
-                    )}
-                </div>
-                <time dateTime={report.datePublished} className="mt-1 block text-sm text-dim">
-                    AI Overview · {formatDate(report.datePublished)}
-                </time>
-                <h2 className="mt-2 text-lg font-semibold leading-snug text-fg">
-                    <Link href={`/eureka/${report.slug}`} className="hover:text-accent">{report.headline}</Link>
-                </h2>
-            </div>
-            <div className="p-6">
-                <p className="text-xs font-bold uppercase tracking-widest text-dim">The 60-second version</p>
-                <ul className="mt-3 space-y-3 text-sm text-fg">
-                    {report.sixty.map((line) => (
-                        <li key={line} className="flex gap-3">
-                            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"/>
-                            <span>{line}</span>
-                        </li>
-                    ))}
-                </ul>
-                <div className="mt-6 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t !border-border pt-4 text-sm">
-                    <Link href={`/eureka/${report.slug}`} className="group inline-flex items-center gap-1.5 font-semibold text-accent hover:underline">
-                        Read the full report <Arrow/>
-                    </Link>
-                    <Link href="/eureka" className="group inline-flex items-center gap-1.5 font-semibold text-dim hover:text-fg">
-                        All Eureka Reports <Arrow/>
-                    </Link>
-                </div>
-            </div>
-        </article>
-    )
-}
-
-export default function Home({latestReport}) {
+export default function Home() {
     const featured = Details.filter(isAiArticle).slice(0, 3)
     const latest = Details.slice(0, 3)
 
@@ -147,40 +96,24 @@ export default function Home({latestReport}) {
 
             <main className="bg-page">
                 <section className="bg-brand-glow">
-                    <div className={`mx-auto grid items-center gap-12 px-4 sm:px-6 ${latestReport
-                        ? 'max-w-6xl py-16 lg:grid-cols-[1fr_1.1fr] lg:py-20'
-                        : 'max-w-4xl py-24'}`}>
-                        <div className={latestReport ? 'max-lg:text-center' : 'text-center'}>
+                    <div className="mx-auto max-w-4xl px-4 py-24 sm:px-6">
+                        <div className="text-center">
                             <h1 className={`${Display.className} text-4xl font-bold text-fg sm:text-5xl`}>
                                 Practical AI for Work Efficiency
                             </h1>
-                            <p className={`mt-5 max-w-2xl text-lg text-dim ${latestReport ? 'max-lg:mx-auto' : 'mx-auto'}`}>
+                            <p className="mx-auto mt-5 max-w-2xl text-lg text-dim">
                                 Clear, grounded write-ups on applying AI to real tasks - research, analysis,
                                 productivity, and building things - without the hype.
                             </p>
-                            <div className={`mt-8 flex flex-wrap gap-3 justify-center ${latestReport ? 'lg:justify-start' : ''}`}>
+                            <div className="mt-8 flex flex-wrap justify-center gap-3">
                                 <Link
                                     href="/articles"
                                     className="inline-block rounded-full bg-brand px-8 py-3 font-semibold text-white transition hover:bg-brand-light"
                                 >
                                     Browse the Articles
                                 </Link>
-                                <Link
-                                    href="/eureka"
-                                    className="inline-block rounded-full border-2 !border-accent px-8 py-3 font-semibold text-fg transition hover:bg-accent/10"
-                                >
-                                    Read Eureka Reports
-                                </Link>
                             </div>
-                            {latestReport && (
-                                <p className="mt-6 max-w-xl text-sm text-dim max-lg:mx-auto">
-                                    New Eureka Reports every Wednesday, Saturday and Sunday: AI research, news and
-                                    inventions, researched by AI agents with every claim sourced.{' '}
-                                    <Link href="/methodology" className="font-semibold text-accent hover:underline">How these are made</Link>
-                                </p>
-                            )}
                         </div>
-                        {latestReport && <LatestReport report={latestReport}/>}
                     </div>
                 </section>
 
@@ -210,18 +143,4 @@ export default function Home({latestReport}) {
             </main>
         </>
     )
-}
-
-export async function getStaticProps() {
-    // Only the newest AI Overview is shown, and only the fields its card needs.
-    const [report] = getAllIssues('digest')
-    const latestReport = report ? {
-        slug: report.slug,
-        headline: report.headline,
-        datePublished: report.datePublished,
-        sixty: report.sixty || [],
-        hero: report.hero?.src ? {src: report.hero.src, width: report.hero.width, height: report.hero.height} : null,
-        pending: Boolean(report.demo || report.reviewStatus !== 'approved'),
-    } : null
-    return {props: {latestReport}}
 }

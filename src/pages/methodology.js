@@ -47,11 +47,10 @@ export default function Methodology() {
                             <p className="text-sm font-bold uppercase tracking-widest text-accent">Eureka Reports</p>
                             <h2 className="mt-2 text-xl font-semibold text-fg">Researched by AI, reviewed by a person</h2>
                             <p className="mt-2 text-dim">
-                                AI overviews every Wednesday and Saturday, plus Coding with Christ on Sundays, a verse,
-                                a reflection and a sourced story on faith and technology. Built by a team of AI agents to
-                                keep you current, bylined to the Webminers AI Desk, with every claim linked to its source.
+                                Sourced AI overviews researched by a team of AI agents, bylined to the Webminers AI Desk,
+                                with every claim linked to its source. This section is currently under construction.
                             </p>
-                            <Link href="/eureka" className="mt-4 inline-block font-semibold text-accent hover:underline">Read Eureka Reports</Link>
+                            <Link href="/eureka" className="mt-4 inline-block font-semibold text-accent hover:underline">About Eureka Reports</Link>
                         </div>
                     </section>
 
